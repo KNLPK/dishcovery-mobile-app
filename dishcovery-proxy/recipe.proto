@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+option java_package         = "com.dishcovery.proto";
+option java_outer_classname = "RecipeProto";
+option java_multiple_files  = true;
+
+message Nutrient {
+  string name   = 1;
+  float  amount = 2;
+  string unit   = 3;
+}
+
+message NutritionInfo {
+  repeated Nutrient nutrients = 1;
+}
+
+message Ingredient {
+  int32  id     = 1;
+  float  amount = 2;
+  string unit   = 3;
+  string name   = 4;
+}
+
+message Step {
+  int32  number = 1;
+  string step   = 2;
+}
+
+message RecipeDetail {
+  string              title                = 1;
+  string              image                = 2;
+  int32               ready_in_minutes     = 3;
+  string              summary              = 4;
+  NutritionInfo       nutrition            = 5;
+  repeated Ingredient extended_ingredients = 6;
+  repeated Step       steps                = 7;
+  int32               servings             = 8;
+}
