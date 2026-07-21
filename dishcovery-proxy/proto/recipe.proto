@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+// Schema for thesis benchmark payloads (JSON vs MessagePack vs Protobuf).
+// Field names use snake_case to match protobuf conventions.
+
+message Nutrient {
+  string name                   = 1;
+  float  amount                 = 2;
+  string unit                   = 3;
+  float  percent_of_daily_needs = 4;
+}
+
+message NutritionInfo {
+  repeated Nutrient nutrients = 1;
+}
+
+message Ingredient {
+  int32  id     = 1;
+  float  amount = 2;
+  string unit   = 3;
+  string name   = 4;
+}
+
+message Step {
+  int32  number = 1;
+  string step   = 2;
+}
+
+message RecipeDetail {
+  int32               id                   = 1;
+  string              title                = 2;
+  string              image                = 3;
+  int32               ready_in_minutes     = 4;
+  int32               servings             = 5;
+  string              summary              = 6;
+  NutritionInfo       nutrition            = 7;
+  repeated Ingredient extended_ingredients = 8;
+  repeated Step       steps                = 9;
+}
