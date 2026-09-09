@@ -1,0 +1,74 @@
+syntax = "proto3";
+
+// Canonical payload schema for the Dishcovery serialization study.
+//
+// SINGLE SOURCE OF TRUTH for protobuf on BOTH sides:
+//   - the proxy loads this file at runtime to encode
+//   - the client codec consumes src/api/codecs/generated/recipe.js, which is
+//     generated FROM this file by `npm run proto:generate`
+// There is no second, hand-written schema anywhere in the repository.
+//
+// ─── Design rules ────────────────────────────────────────────────────────────
+//
+// 1. LOSSLESS. The camelCase application document is authoritative. This schema
+//    adapts to that data; the data is never truncated to fit this schema.
+//    Every field and every array element present in the application document
+//    must survive a protobuf round trip.
+//
+//    Specifically: analyzedInstructions is a REPEATED message carrying its own
+//    nested step list. The previous schema flattened it to a single `steps`
+//    list built from analyzedInstructions[0] only, silently discarding every
+//    later instruction set and the `name` of each set.
+//
+// 2. camelCase FIELD NAMES, deliberately. Declaring fields exactly as they
+//    appear in the application document means no codec performs key renaming
+//    inside the measured decode window. A snake_case schema would force the
+//    protobuf path to rename keys that JSON and MessagePack get for free,
+//    charging protobuf for work the other formats never do.
+//
+// 3. double, NOT float, for every real number. float is 32-bit and silently
+//    rounds: an amount of 543.4 round-trips through float as 543.4000244140625,
+//    which is both data loss and a guaranteed cross-format equivalence failure.
+//    JavaScript numbers are IEEE-754 doubles, so double is the exact match.
+
+message Nutrient {
+  string name                = 1;
+  double amount              = 2;
+  string unit                = 3;
+  double percentOfDailyNeeds = 4;
+}
+
+message NutritionInfo {
+  repeated Nutrient nutrients = 1;
+}
+
+message Ingredient {
+  int32  id     = 1;
+  double amount = 2;
+  string unit   = 3;
+  string name   = 4;
+}
+
+message Step {
+  int32  number = 1;
+  string step   = 2;
+}
+
+// One instruction set. A recipe may carry several (for example a main
+// preparation set plus a separate sauce set).
+message AnalyzedInstruction {
+  string        name  = 1;
+  repeated Step steps = 2;
+}
+
+message Recipe {
+  int32                        id                   = 1;
+  string                       title                = 2;
+  string                       image                = 3;
+  int32                        readyInMinutes       = 4;
+  int32                        servings             = 5;
+  string                       summary              = 6;
+  NutritionInfo                nutrition            = 7;
+  repeated Ingredient          extendedIngredients  = 8;
+  repeated AnalyzedInstruction analyzedInstructions = 9;
+}

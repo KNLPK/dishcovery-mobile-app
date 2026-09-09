@@ -1,0 +1,146 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "readyInMinutes": {
+      "type": "integer"
+    },
+    "servings": {
+      "type": "integer"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "nutrition": {
+      "type": "object",
+      "properties": {
+        "nutrients": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "number"
+              },
+              "unit": {
+                "type": "string"
+              },
+              "percentOfDailyNeeds": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "name",
+              "amount",
+              "unit",
+              "percentOfDailyNeeds"
+            ],
+            "propertyOrdering": [
+              "name",
+              "amount",
+              "unit",
+              "percentOfDailyNeeds"
+            ]
+          }
+        }
+      },
+      "required": [
+        "nutrients"
+      ],
+      "propertyOrdering": [
+        "nutrients"
+      ]
+    },
+    "extendedIngredients": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "amount": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "amount",
+          "unit",
+          "name"
+        ],
+        "propertyOrdering": [
+          "amount",
+          "unit",
+          "name"
+        ]
+      }
+    },
+    "analyzedInstructions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "number": {
+                  "type": "integer"
+                },
+                "step": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "number",
+                "step"
+              ],
+              "propertyOrdering": [
+                "number",
+                "step"
+              ]
+            }
+          }
+        },
+        "required": [
+          "name",
+          "steps"
+        ],
+        "propertyOrdering": [
+          "name",
+          "steps"
+        ]
+      }
+    }
+  },
+  "required": [
+    "title",
+    "readyInMinutes",
+    "servings",
+    "summary",
+    "nutrition",
+    "extendedIngredients",
+    "analyzedInstructions"
+  ],
+  "propertyOrdering": [
+    "title",
+    "readyInMinutes",
+    "servings",
+    "summary",
+    "nutrition",
+    "extendedIngredients",
+    "analyzedInstructions"
+  ]
+}

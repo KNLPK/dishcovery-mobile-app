@@ -2,6 +2,11 @@
   "extends": "expo/tsconfig.base",
   "compilerOptions": {
     "strict": true,
+    // scripts/verify-format-equivalence.ts runs under Node's type stripping,
+    // whose ESM resolver requires explicit .ts extensions on relative imports.
+    // Safe here: Expo's base config already sets noEmit, which this flag needs,
+    // and Metro does its own resolution independently of tsconfig.
+    "allowImportingTsExtensions": true,
     "paths": {
       "@/*": [
         "./*"

@@ -8,7 +8,12 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "proto:generate": "pbjs --target static-module --wrap es6 --keep-case --force-number --out src/api/codecs/generated/recipe.js shared/proto/recipe.proto && pbts --out src/api/codecs/generated/recipe.d.ts src/api/codecs/generated/recipe.js",
+    "verify:formats": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/verify-format-equivalence.ts",
+    "harvest:ids": "node --experimental-strip-types --disable-warning=ExperimentalWarning scripts/harvest-recipe-ids.ts",
+    "generate:dataset": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/generate-dataset.ts",
+    "compare:strata": "node --experimental-strip-types --disable-warning=ExperimentalWarning --disable-warning=MODULE_TYPELESS_PACKAGE_JSON scripts/compare-strata.ts"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -51,6 +56,7 @@
     "@types/react-native": "^0.72.8",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~9.2.0",
+    "protobufjs-cli": "^2.7.0",
     "typescript": "~5.8.3"
   },
   "private": true

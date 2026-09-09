@@ -5,8 +5,9 @@ import React, { useState } from 'react';
 import { ActivityIndicator, FlatList, Image, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import BottomTabBar from '../components/BottomTabBar';
+import { API_BASE_URL } from '../constants/api';
 
-type RecipeResult = { id: string | number; title: string; image?: any };
+type RecipeResult = { id: string | number; title: string; image?: string };
 
 const categories = ['Breakfast', 'Lunch', 'Dinner', 'Snack'];
 const popularRecipes = [
@@ -19,8 +20,6 @@ const yourChoice = [
   { id: '2', title: 'Blueberry with egg for breakfast', author: 'Alice Fala', authorImg: 'https://randomuser.me/api/portraits/women/2.jpg', image: { uri: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' } },
   { id: '3', title: 'Toast with egg for breakfast', author: 'Agnes', authorImg: 'https://randomuser.me/api/portraits/women/3.jpg', image: { uri: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80' } },
 ];
-
-const SPOONACULAR_API_KEY = 'e045138faac64dbf9e8393eab2804a24';
 
 export default function Search() {
   const [selectedCategory, setSelectedCategory] = useState('Breakfast');
@@ -35,9 +34,8 @@ export default function Search() {
     setLoading(true);
     setError('');
     try {
-      const response = await axios.get('https://api.spoonacular.com/recipes/complexSearch', {
+      const response = await axios.get(`${API_BASE_URL}/api/search`, {
         params: {
-          apiKey: SPOONACULAR_API_KEY,
           query,
           number: 10,
         },
@@ -129,7 +127,7 @@ export default function Search() {
             keyExtractor={item => item.id.toString()}
             renderItem={({ item, index }) => (
               <View style={[styles.popularCard, index === results.length - 1 && { marginBottom: 24 }]}>
-                <Image source={{ uri: `https://spoonacular.com/recipeImages/${item.id}-312x231.jpg` }} style={styles.popularImage} />
+                <Image source={{ uri: item.image }} style={styles.popularImage} />
                 <Text style={styles.popularCardTitle}>{item.title}</Text>
               </View>
             )}

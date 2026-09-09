@@ -4,8 +4,11 @@
   "description": "Express proxy for Dishcovery thesis serialization benchmark",
   "main": "server.js",
   "scripts": {
-    "dev": "node --watch server.js",
-    "start": "node server.js"
+    "dev": "node --watch --experimental-strip-types --disable-warning=ExperimentalWarning server.js",
+    "start": "node --experimental-strip-types --disable-warning=ExperimentalWarning server.js"
+  },
+  "engines": {
+    "node": ">=22.6.0"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,6 @@
     "axios": "^1.16.0",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "protobufjs": "^8.0.3"
+    "protobufjs": "^8.8.0"
   }
 }

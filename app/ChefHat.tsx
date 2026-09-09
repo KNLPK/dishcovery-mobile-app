@@ -4,10 +4,9 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import axios from 'axios';
 import BottomTabBar from '../components/BottomTabBar'; // Assuming you want the BottomTabBar here
 import { useRouter } from 'expo-router'; // Import useRouter if using expo-router
+import { API_BASE_URL } from '../constants/api';
 
 const categories = ['Breakfast', 'Lunch', 'Dinner', 'Snack'];
-// Replace with your actual Spoonacular API Key
-const SPOONACULAR_API_KEY = 'e045138faac64dbf9e8393eab2804a24'; // Use your key!
 
 type Ingredient = { name: string; quantity: string };
 
@@ -53,8 +52,7 @@ export default function ChefHat() {
         return;
       }
 
-      const params: any = {
-        apiKey: SPOONACULAR_API_KEY,
+      const params: Record<string, string | number> = {
         includeIngredients: ingredientList,
         type: selectedCategory.toLowerCase(), // Use selected category
         number: 5, // Get up to 5 recipes
@@ -64,9 +62,8 @@ export default function ChefHat() {
           params.maxReadyTime = parseInt(cookTime); // Add cook time if valid
       }
 
-
-      const response = await axios.get('https://api.spoonacular.com/recipes/complexSearch', {
-        params: params,
+      const response = await axios.get(`${API_BASE_URL}/api/search`, {
+        params,
       });
 
       if (response.data.results.length === 0) {
@@ -77,7 +74,7 @@ export default function ChefHat() {
 
     } catch (err) {
       console.error("API Error:", err); // Log the full error for debugging
-      setError('Failed to fetch recipes. Please check your API key and internet connection.');
+      setError('Failed to fetch recipes. Please check the proxy server and internet connection.');
     } finally {
       setLoading(false);
     }

@@ -1,13 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity, ActivityIndicator } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import axios from 'axios';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
 import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-router
+import { fetchRecipe } from '../src/api/client';
 // import { useRoute, useNavigation } from '@react-navigation/native'; // If using React Navigation
-
-// Replace with your actual Spoonacular API Key
-const SPOONACULAR_API_KEY = 'e045138faac64dbf9e8393eab2804a24'; // Use your key!
 
 
 export default function RecipeDetailScreen() {
@@ -39,13 +36,10 @@ export default function RecipeDetailScreen() {
       setLoading(true);
       setError('');
       try {
-        const response = await axios.get(`https://api.spoonacular.com/recipes/${recipeId}/information`, {
-          params: {
-            apiKey: SPOONACULAR_API_KEY,
-            includeNutrition: true, // Get nutrition info
-          },
-        });
-        setRecipe(response.data);
+        // Routed through the measuring client. Format 'json' requests the same
+        // application document axios fetched before, so rendering is unchanged.
+        const { data } = await fetchRecipe(String(recipeId), 'json');
+        setRecipe(data);
       } catch (err) {
         console.error("API Error:", err);
         setError('Failed to fetch recipe details.');
@@ -189,8 +183,6 @@ export default function RecipeDetailScreen() {
                 <Text style={styles.ingredientsCount}>{recipe.extendedIngredients.length} Item</Text>
                 {recipe.extendedIngredients.map((ingredient: any, index: number) => (
                   <View key={ingredient.id || index} style={styles.ingredientItem}>
-                    {/* You might need to fetch ingredient images separately if not in extendedIngredients */}
-                    {/* <Image source={{ uri: `https://spoonacular.com/cdn/ingredients_100x100/${ingredient.image}` }} style={styles.ingredientImage} /> */}
                      <MaterialCommunityIcons name="food-outline" size={24} color="#20515a" style={{marginRight: 12}} />
                     <Text style={styles.ingredientText}>
                         {`${ingredient.amount} ${ingredient.unit} ${ingredient.name}`}

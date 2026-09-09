@@ -12,8 +12,6 @@
  * (RN 0.60+). Returns fractional milliseconds, sub-millisecond resolution.
  */
 
-import { decode as decodeMsgPack } from '@msgpack/msgpack';
-import { Root } from 'protobufjs';
 
 // ── Proxy URL ─────────────────────────────────────────────────────────────────
 //
@@ -38,57 +36,23 @@ export interface BenchmarkResult {
   timestamp: number;
 }
 
-// ── Protobuf schema — inline JSON descriptor ──────────────────────────────────
+// ── Protobuf schema ───────────────────────────────────────────────────────────
 //
-// Mirrors recipe.proto exactly. Using Root.fromJSON() avoids any file-system
-// access, which is unavailable in the React Native bundle environment.
-// If recipe.proto changes, update the field IDs and types here too.
+// DELETED in Stage 2. This module used to redeclare the schema inline via
+// Root.fromJSON(), with a comment claiming it "mirrors recipe.proto exactly".
+// It did not: every field number disagreed with the server's schema, and the
+// Nutrient message was missing a field entirely.
 //
-const PROTO_ROOT = Root.fromJSON({
-  nested: {
-    Nutrient: {
-      fields: {
-        name:   { type: 'string', id: 1 },
-        amount: { type: 'float',  id: 2 },
-        unit:   { type: 'string', id: 3 },
-      },
-    },
-    NutritionInfo: {
-      fields: {
-        nutrients: { rule: 'repeated', type: 'Nutrient', id: 1 },
-      },
-    },
-    Ingredient: {
-      fields: {
-        id:     { type: 'int32',  id: 1 },
-        amount: { type: 'float',  id: 2 },
-        unit:   { type: 'string', id: 3 },
-        name:   { type: 'string', id: 4 },
-      },
-    },
-    Step: {
-      fields: {
-        number: { type: 'int32',  id: 1 },
-        step:   { type: 'string', id: 2 },
-      },
-    },
-    RecipeDetail: {
-      fields: {
-        title:               { type: 'string',        id: 1 },
-        image:               { type: 'string',        id: 2 },
-        readyInMinutes:      { type: 'int32',         id: 3 },
-        summary:             { type: 'string',        id: 4 },
-        nutrition:           { type: 'NutritionInfo', id: 5 },
-        extendedIngredients: { rule: 'repeated', type: 'Ingredient', id: 6 },
-        steps:               { rule: 'repeated', type: 'Step',       id: 7 },
-        servings:            { type: 'int32',         id: 8 },
-      },
-    },
-  },
-});
-
-// Looked up once at module load time — cheap for subsequent calls
-const RecipeDetailType = PROTO_ROOT.lookupType('RecipeDetail');
+// The schema now lives in exactly one place — shared/proto/recipe.proto — and
+// the client consumes it through the generated static module. Use the codec
+// registry instead:
+//
+//   import { getCodec } from '../src/api/codecs/types';
+//   getCodec('protobuf').decode(bytes);
+//
+// This file is superseded by src/api/client.ts + src/api/measure.ts and is
+// dismantled in a later stage.
+import { getCodec } from '../src/api/codecs/types';
 
 // ── Internal helpers ──────────────────────────────────────────────────────────
 
@@ -144,14 +108,14 @@ export async function benchmarkJSON(recipeId: number): Promise<BenchmarkResult> 
  * benchmarkMsgPack
  *
  * Fetches the recipe payload as MessagePack binary, then times
- * @msgpack/msgpack's decode() on the raw Uint8Array.
+ * the shared MessagePack codec.
  */
 export async function benchmarkMsgPack(recipeId: number): Promise<BenchmarkResult> {
   const url              = `${PROXY_BASE}/recipe/${recipeId}?format=msgpack`;
   const { bytes, sizeKB } = await fetchBytes(url);
 
   const t0 = performance.now();
-  decodeMsgPack(bytes);
+  getCodec('msgpack').decode(bytes.buffer as ArrayBuffer);
   const deserializationTimeMs = performance.now() - t0;
 
   return {
@@ -167,14 +131,14 @@ export async function benchmarkMsgPack(recipeId: number): Promise<BenchmarkResul
  * benchmarkProtobuf
  *
  * Fetches the recipe payload as Protocol Buffers binary, then times
- * protobufjs RecipeDetail.decode() on the raw Uint8Array.
+ * the shared protobuf codec, whose schema is generated from shared/proto/recipe.proto.
  */
 export async function benchmarkProtobuf(recipeId: number): Promise<BenchmarkResult> {
   const url              = `${PROXY_BASE}/recipe/${recipeId}?format=protobuf`;
   const { bytes, sizeKB } = await fetchBytes(url);
 
   const t0 = performance.now();
-  RecipeDetailType.decode(bytes);
+  getCodec('protobuf').decode(bytes.buffer as ArrayBuffer);
   const deserializationTimeMs = performance.now() - t0;
 
   return {
