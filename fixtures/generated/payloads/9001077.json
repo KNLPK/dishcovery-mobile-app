@@ -1,0 +1,552 @@
+{
+  "id": 9001077,
+  "title": "Sweet Apricot and Fig Spiced Stew with Pistachio Paste",
+  "image": "generated://dishcovery/9001077.jpg",
+  "readyInMinutes": 75,
+  "servings": 6,
+  "summary": "This aromatic Lebanese sweet stew offers a luxurious finish to any festive meal, serving as a warm dessert dish rich with fruit and warm spices. Dried apricots, tender figs, and golden raisins simmer in an infused syrup scented with rose water, cardamom pods, and orange blossom essence. A touch of velvet pistachio paste added during the final simmer brings a luscious body and nuttiness to the amber broth. Serve this creation warm over lightly toasted semolina crisps or alongside a scoop of mastic ice cream. The combination of gentle tartness from the dried fruits and perfume from botanical floral waters creates a comforting dessert tradition. To prepare this course ahead of time, simply cook the stew through the initial reduction phase and gently reheat before swirling in the fresh nut cream. Guests will appreciate the <b>fragrant broth</b>, the soft fruit textures, and the crunchy pistachio garnishes that complete this <b>unique dessert stew</b> experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 14.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18.6
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 72,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Sugar",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 53.3
+      },
+      {
+        "name": "Protein",
+        "amount": 6.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 13.6
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Fiber",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.5
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.41,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.1
+      },
+      {
+        "name": "Folate",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 125,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.5
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.9
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Selenium",
+        "amount": 6.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 57.8
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.3
+      },
+      {
+        "name": "Chromium",
+        "amount": 5.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14.9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "dried mission figs"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90003,
+      "amount": 800,
+      "unit": "ml",
+      "name": "filtered water"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rose water"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90007,
+      "amount": 6,
+      "unit": "whole",
+      "name": "green cardamom pods"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "sticks",
+      "name": "ceylon cinnamon"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "strips",
+      "name": "fresh lemon peel"
+    },
+    {
+      "id": 90010,
+      "amount": 100,
+      "unit": "g",
+      "name": "shelled pistachios"
+    },
+    {
+      "id": 90011,
+      "amount": 50,
+      "unit": "g",
+      "name": "raw pine nuts"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "wildflower honey"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90017,
+      "amount": 50,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mastic resin powder"
+    },
+    {
+      "id": 90019,
+      "amount": 100,
+      "unit": "g",
+      "name": "dried prunes"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90022,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "cold water"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90024,
+      "amount": 50,
+      "unit": "g",
+      "name": "pomegranate seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Infused Syrup Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure out the filtered water and granulated sugar into a wide, heavy-bottomed copper pot over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Stir gently until the sugar crystals are completely dissolved into the warming liquid base."
+        },
+        {
+          "number": 3,
+          "step": "Crack open the green cardamom pods lightly with a mortar and pestle to release aromatic oils."
+        },
+        {
+          "number": 4,
+          "step": "Add the cracked cardamom, cinnamon sticks, and lemon peel strips into the sweet syrup mixture."
+        },
+        {
+          "number": 5,
+          "step": "Bring the syrup to a full boil, then immediately reduce the heat to maintain a very soft flame."
+        },
+        {
+          "number": 6,
+          "step": "Simmer the fragrant spiced liquid uncovered for twelve minutes to concentrate botanical flavors."
+        },
+        {
+          "number": 7,
+          "step": "Carefully skim any pale froth off the surface of the simmering syrup using a fine wire skimmer."
+        },
+        {
+          "number": 8,
+          "step": "Slice the dried apricots into neat halves, ensuring all stray pits or stems are removed completely."
+        },
+        {
+          "number": 9,
+          "step": "Trim hard stem tips off the dried mission figs and slice each fig vertically into quarters."
+        },
+        {
+          "number": 10,
+          "step": "Rinse the golden raisins and dried prunes under warm water to clear surface residue before use."
+        },
+        {
+          "number": 11,
+          "step": "Drop the prepared apricots, figs, raisins, and prunes into the simmering spiced sugar liquid."
+        },
+        {
+          "number": 12,
+          "step": "Add the sea salt, ground nutmeg, and ground allspice, stirring thoroughly with a wooden spoon."
+        },
+        {
+          "number": 13,
+          "step": "Cover the pot partially with a heavy lid and cook gently over low heat for twenty-five minutes."
+        },
+        {
+          "number": 14,
+          "step": "Check that the fruit pieces have softened nicely while retaining their distinct rounded shapes."
+        },
+        {
+          "number": 15,
+          "step": "Whisk the cornstarch into cold water inside a small bowl until a lump-free slurry is formed."
+        },
+        {
+          "number": 16,
+          "step": "Pour the cornstarch slurry into the bubbling fruit stew while stirring constantly to avoid clumping."
+        },
+        {
+          "number": 17,
+          "step": "Allow the fruit stew to boil for two minutes until the amber liquid turns glossy and thickens."
+        },
+        {
+          "number": 18,
+          "step": "Remove the pot from the active burner and let the hot stew rest uncovered for five minutes."
+        },
+        {
+          "number": 19,
+          "step": "Fish out the cinnamon sticks, whole cardamom pods, and softened lemon peels using fine tongs."
+        },
+        {
+          "number": 20,
+          "step": "Stir in the wildflower honey, lemon juice, rose water, and orange blossom water into warm stew."
+        },
+        {
+          "number": 21,
+          "step": "Fold the fine mastic resin powder into the aromatic base until it blends into the warm liquid."
+        },
+        {
+          "number": 22,
+          "step": "Cover the pot tightly to trap the botanical vapors while preparing the crispy nut topping."
+        }
+      ]
+    },
+    {
+      "name": "Pistachio Finish and Garnish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place the shelled pistachios into a food processor and pulse until a coarse paste begins to form."
+        },
+        {
+          "number": 2,
+          "step": "Melt the unsalted butter in a small nonstick skillet over medium-low heat until bubbling softly."
+        },
+        {
+          "number": 3,
+          "step": "Add the raw pine nuts and slivered almonds to the melted butter inside the skillet."
+        },
+        {
+          "number": 4,
+          "step": "Toast the mixed nuts for three minutes until lightly golden brown, stirring continuously to prevent burning."
+        },
+        {
+          "number": 5,
+          "step": "Remove the toasted nuts from heat and drain them on paper towels, sprinkling lightly with vanilla."
+        },
+        {
+          "number": 6,
+          "step": "Uncover the sweet stew pot and gently stir in half of the coarse pistachio paste base."
+        },
+        {
+          "number": 7,
+          "step": "Observe as the pistachio paste enriches the poaching liquid into a warm green-amber syrup hue."
+        },
+        {
+          "number": 8,
+          "step": "Ladle the warm fruit stew evenly into six wide porcelain dessert bowls, keeping liquid equal."
+        },
+        {
+          "number": 9,
+          "step": "Spoon remaining ground pistachio paste right into the center of each hot portion as a focal point."
+        },
+        {
+          "number": 10,
+          "step": "Scatter the warm butter-toasted pine nuts and slivered almonds generously across all six bowls."
+        },
+        {
+          "number": 11,
+          "step": "Garnish each serving with vibrant red pomegranate seeds for a crisp burst of acidity."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle any leftover aromatic syrup from the pot rim directly over the fresh fruit garnishes."
+        },
+        {
+          "number": 13,
+          "step": "Allow the assembled dessert bowls to settle at room temperature for three minutes before serving."
+        },
+        {
+          "number": 14,
+          "step": "Verify that the stew balance offers soft chewy fruits, crunchy toasted nuts, and thick syrup."
+        },
+        {
+          "number": 15,
+          "step": "Serve each bowl with a small silver spoon to capture both fruit pieces and rich sweet liquid."
+        },
+        {
+          "number": 16,
+          "step": "Pair optionally with warm flatbread or clotted cream to contrast the intense floral sugar profile."
+        },
+        {
+          "number": 17,
+          "step": "Store remaining uncooked syrup and stew in airtight glass jars inside the refrigerator for later."
+        },
+        {
+          "number": 18,
+          "step": "Reheat cooled stew portions gently over low heat, adding extra rose water if syrup thickens too much."
+        },
+        {
+          "number": 19,
+          "step": "Ensure nut garnishes are added fresh at serving time so they maintain their satisfying crunch."
+        },
+        {
+          "number": 20,
+          "step": "Inspect the final presentation to ensure bright colors from pistachios and pomegranate seeds shine."
+        },
+        {
+          "number": 21,
+          "step": "Present the completed Lebanese sweet course while warm to delight dinner guests with exotic aromatics."
+        }
+      ]
+    }
+  ]
+}

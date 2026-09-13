@@ -1,0 +1,858 @@
+{
+  "id": 9002003,
+  "title": "Make-Ahead Ethiopian Spiced Roast Chicken",
+  "image": "generated://dishcovery/9002003.jpg",
+  "readyInMinutes": 90,
+  "servings": 6,
+  "summary": "Designed specifically as a stress-free <b>make-ahead version</b>, this fragrant <b>Ethiopian roast</b> chicken delivers intense, layered flavors with maximum convenience. Whole bone-in chicken pieces are marinated overnight in a fiery berbere spice rub infused with spiced clarified butter, fresh garlic, and grated ginger. Roasting at high heat creates crisp, bronzed skin while sealing in tender, succulent meat that stays remarkably moist even when reheated. Accompanied by caramelized onions, hard-boiled eggs, and tender roasted root vegetables, this dish captures the heart of traditional East African celebratory cooking. Preparing the marinade and searing steps a day in advance allows the warm spices like cardamom, fenugreek, and cloves to penetrate deep into the meat. Simply pop the prepped baking pan into the oven on your busy day for a stunning homemade feast. Rich in protein, vitamins, and warm anti-inflammatory herbs, this complete roast is perfect for effortless entertaining or meal prepping for the week ahead.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 620,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 108
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Sodium",
+        "amount": 790,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 5.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Potassium",
+        "amount": 840,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1120,
+        "unit": "IU",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 22,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 12.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 78
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Iodine",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 64,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 3.5,
+      "unit": "lbs",
+      "name": "bone-in chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "niter kibbeh"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "berbere spice blend"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "large",
+      "name": "red onions"
+    },
+    {
+      "id": 90004,
+      "amount": 5,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced fresh ginger"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "large",
+      "name": "hard-boiled eggs"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "cup",
+      "name": "chicken stock"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground fenugreek"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90015,
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "medium",
+      "name": "sweet potatoes"
+    },
+    {
+      "id": 90019,
+      "amount": 3,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped flat parsley"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "small",
+      "name": "lemon"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "melted butter"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90031,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90033,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "white wine"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "injera crumbs"
+    },
+    {
+      "id": 90038,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black mustard seed"
+    },
+    {
+      "id": 90039,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced plum tomatoes"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90043,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sea salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade and Advance Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat the chicken thighs thoroughly dry with paper towels to ensure a crisp skin when roasting."
+        },
+        {
+          "number": 2,
+          "step": "Make two diagonal shallow slashes in the skin side of each chicken thigh to absorb marinade."
+        },
+        {
+          "number": 3,
+          "step": "Melt the niter kibbeh gently in a small skillet over low heat until liquid and aromatic."
+        },
+        {
+          "number": 4,
+          "step": "Whisk berbere spice, cardamom, fenugreek, coriander, cinnamon, and cloves into warm butter."
+        },
+        {
+          "number": 5,
+          "step": "Add minced garlic, ginger, lemon juice, kosher salt, and black pepper to form a paste."
+        },
+        {
+          "number": 6,
+          "step": "Rub the spice paste thoroughly over every piece of chicken, coating skin and undersides."
+        },
+        {
+          "number": 7,
+          "step": "Place the coated chicken into a large sealable glass container and cover tightly with film."
+        },
+        {
+          "number": 8,
+          "step": "Refrigerate the chicken for at least four hours, preferably overnight, to maximize flavor."
+        },
+        {
+          "number": 9,
+          "step": "Hard-boil four eggs in boiling water for nine minutes, then transfer to an ice water bath."
+        },
+        {
+          "number": 10,
+          "step": "Peel the eggs carefully and score four light vertical cuts along each egg to soak up sauce."
+        },
+        {
+          "number": 11,
+          "step": "Thinly slice the three red onions into uniform ribbons for caramelized cooking base."
+        },
+        {
+          "number": 12,
+          "step": "Peel the sweet potatoes and chop them into uniform one-and-a-half-inch chunky roast pieces."
+        },
+        {
+          "number": 13,
+          "step": "Peel the carrots and cut them into matching thick diagonal slices for the baking sheet."
+        },
+        {
+          "number": 14,
+          "step": "Toss the cut sweet potatoes and carrots with olive oil, salt, pepper, and onion powder."
+        },
+        {
+          "number": 15,
+          "step": "Store the seasoned vegetables in an airtight container in the refrigerator until ready."
+        },
+        {
+          "number": 16,
+          "step": "Whisk chicken stock, tomato paste, honey, and apple cider vinegar together into a smooth liquid."
+        },
+        {
+          "number": 17,
+          "step": "Store the basting sauce in a glass jar in the refrigerator overnight alongside the chicken."
+        },
+        {
+          "number": 18,
+          "step": "Slice shallots thinly and mix with smoked paprika and sesame oil for extra roasting depth."
+        },
+        {
+          "number": 19,
+          "step": "Dice plum tomatoes finely and place in a covered container to add fresh acidity later."
+        },
+        {
+          "number": 20,
+          "step": "Set up your heavy roasting pan and wire rack so everything is ready for cooking day."
+        },
+        {
+          "number": 21,
+          "step": "Review your make-ahead prep list to verify all components are prepped and chilling properly."
+        }
+      ]
+    },
+    {
+      "name": "Onion Base and Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove the marinated chicken from the refrigerator thirty minutes before roasting to warm."
+        },
+        {
+          "number": 2,
+          "step": "Preheat your oven to four hundred degrees Fahrenheit to prepare for roasting later."
+        },
+        {
+          "number": 3,
+          "step": "Heat olive oil in a wide heavy skillet over medium heat until it shimmers gently."
+        },
+        {
+          "number": 4,
+          "step": "Add the sliced red onions and shallots to the skillet, stirring to coat with oil."
+        },
+        {
+          "number": 5,
+          "step": "Cook onions for fifteen minutes, stirring frequently until deeply soft and caramelized brown."
+        },
+        {
+          "number": 6,
+          "step": "Stir in the diced plum tomatoes, black mustard seeds, and turmeric, cooking for three minutes."
+        },
+        {
+          "number": 7,
+          "step": "Pour in the white wine to deglaze the skillet, scraping up all delicious browned bits."
+        },
+        {
+          "number": 8,
+          "step": "Add the prepared stock and tomato paste mixture, stirring well to create a rich pan sauce."
+        },
+        {
+          "number": 9,
+          "step": "Simmer sauce for five minutes until slightly reduced and dark golden red in shade."
+        },
+        {
+          "number": 10,
+          "step": "Heat a separate cast iron skillet over high flame with one tablespoon of melted butter."
+        },
+        {
+          "number": 11,
+          "step": "Place chicken thighs skin-side down into hot skillet to sear for three minutes until golden."
+        },
+        {
+          "number": 12,
+          "step": "Flip chicken pieces over briefly for thirty seconds just to sear the bottom surfaces."
+        },
+        {
+          "number": 13,
+          "step": "Spread the caramelized onion sauce evenly across the bottom of a large ceramic baking dish."
+        },
+        {
+          "number": 14,
+          "step": "Nestle the seared chicken thighs skin-side up on top of the bed of caramelized onions."
+        },
+        {
+          "number": 15,
+          "step": "Tuck the peeled, scored hard-boiled eggs neatly into the sauce between chicken pieces."
+        },
+        {
+          "number": 16,
+          "step": "Scatter the seasoned sweet potatoes and carrots around the chicken pieces in single layer."
+        },
+        {
+          "number": 17,
+          "step": "Add the bay leaf and fresh thyme sprig directly into the onion sauce base around meat."
+        },
+        {
+          "number": 18,
+          "step": "Drizzle any remaining marinade juices from the container over the top of chicken thighs."
+        },
+        {
+          "number": 19,
+          "step": "Check that the chicken skin remains exposed above sauce level to crisp properly in oven."
+        },
+        {
+          "number": 20,
+          "step": "Cover baking dish tightly with aluminum foil to trap steam for initial roasting phase."
+        },
+        {
+          "number": 21,
+          "step": "Slide the covered dish into the preheated oven on the center rack for cooking start."
+        }
+      ]
+    },
+    {
+      "name": "Roasting and Basting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Roast the covered chicken dish at four hundred degrees Fahrenheit for twenty-five minutes."
+        },
+        {
+          "number": 2,
+          "step": "Carefully remove aluminum foil cover, allowing steam to escape safely away from hands."
+        },
+        {
+          "number": 3,
+          "step": "Baste chicken thighs skin with accumulated pan juices using a silicone pastry brush."
+        },
+        {
+          "number": 4,
+          "step": "Return uncovered baking dish to oven and continue roasting for another twenty minutes."
+        },
+        {
+          "number": 5,
+          "step": "Turn the hard-boiled eggs gently using tongs so all sides absorb the spiced red sauce."
+        },
+        {
+          "number": 6,
+          "step": "Check root vegetables for tender texture by piercing a sweet potato chunk with a fork."
+        },
+        {
+          "number": 7,
+          "step": "Baste the chicken skin once again with hot pan juices to build deep color and flavor."
+        },
+        {
+          "number": 8,
+          "step": "Increase oven temperature to four hundred twenty-five degrees for final skin crisping."
+        },
+        {
+          "number": 9,
+          "step": "Roast uncovered for ten to twelve minutes until skin is deeply bronzed and very crisp."
+        },
+        {
+          "number": 10,
+          "step": "Insert meat thermometer into thickest part of thigh, ensuring it registers 165 degrees."
+        },
+        {
+          "number": 11,
+          "step": "Remove roasting pan carefully from oven and place on heat-proof trivet on counter."
+        },
+        {
+          "number": 12,
+          "step": "Let chicken rest in baking dish for ten minutes so juices redistribute through meat."
+        },
+        {
+          "number": 13,
+          "step": "Remove spent bay leaf and thyme sprig from hot sauce and discard them safely."
+        },
+        {
+          "number": 14,
+          "step": "Dust extra smoked paprika and light sea salt over the crispy chicken skins while hot."
+        },
+        {
+          "number": 15,
+          "step": "Check onion sauce consistency; if too thick, stir in two tablespoons of hot water."
+        },
+        {
+          "number": 16,
+          "step": "Spoon warm pan sauce carefully around root vegetables, keeping chicken skin dry."
+        },
+        {
+          "number": 17,
+          "step": "Prepare fresh lemon slices and fresh herb garnishes on a clean cutting board."
+        },
+        {
+          "number": 18,
+          "step": "Keep roast warm under loose tent of foil while setting up final serving platter."
+        },
+        {
+          "number": 19,
+          "step": "Verify all root vegetables are melt-in-mouth tender and infused with spiced sauce."
+        },
+        {
+          "number": 20,
+          "step": "Ensure hard-boiled eggs are beautifully stained reddish-brown from rich berbere sauce."
+        },
+        {
+          "number": 21,
+          "step": "Prepare serving utensils and warm dinner plates for immediate family style dining."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer caramelized onion sauce and roasted root vegetables onto a large warm platter."
+        },
+        {
+          "number": 2,
+          "step": "Arrange crisp Ethiopian roast chicken thighs elegantly over the bed of vegetables."
+        },
+        {
+          "number": 3,
+          "step": "Slice hard-boiled eggs in half lengthwise to show bright yellow yolks against red sauce."
+        },
+        {
+          "number": 4,
+          "step": "Nestle egg halves decoratively around chicken pieces on top of sauce and vegetables."
+        },
+        {
+          "number": 5,
+          "step": "Spoon remaining pan drippings generously over root vegetables and roasted onions."
+        },
+        {
+          "number": 6,
+          "step": "Garnish dish with fresh chopped cilantro, flat parsley, and fresh lemon wedges."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle injera crumbs and toasted chili flakes over top for texture and pop of spice."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately alongside warm rolls of injera bread or steamed brown rice."
+        },
+        {
+          "number": 9,
+          "step": "Provide extra lemon wedges at table so guests can squeeze fresh juice over meat."
+        },
+        {
+          "number": 10,
+          "step": "Enjoy succulent berbere roasted chicken with family for an unforgettable meal experience."
+        },
+        {
+          "number": 11,
+          "step": "Offer side bowls of cool cucumber yogurt salad to balance warm aromatic berbere spices."
+        },
+        {
+          "number": 12,
+          "step": "Allow guests to use torn injera pieces to scoop up sauce, chicken, and eggs together."
+        },
+        {
+          "number": 13,
+          "step": "Wipe edge of serving platter clean with damp paper towel before presenting to table."
+        },
+        {
+          "number": 14,
+          "step": "Store leftover roast chicken and sauce in airtight containers in fridge for up to three days."
+        },
+        {
+          "number": 15,
+          "step": "Reheat leftovers gently in 350 degree oven for fifteen minutes to maintain crisp skin."
+        },
+        {
+          "number": 16,
+          "step": "Remind guests that flavors intensify overnight, making leftovers even more delicious."
+        },
+        {
+          "number": 17,
+          "step": "Pair meal with spiced Ethiopian tea or dark roast coffee for traditional finish."
+        },
+        {
+          "number": 18,
+          "step": "Clear platter easily as guests devour every portion of this flavorful roasted feast."
+        },
+        {
+          "number": 19,
+          "step": "Celebrate quick preparation allowed by smart make-ahead steps done previous evening."
+        },
+        {
+          "number": 20,
+          "step": "Apprecate rich blend of herbs and spices that make this dish a unique culinary treasure."
+        },
+        {
+          "number": 21,
+          "step": "Save leftover spiced bone broth as a savory base for future soup and stew creations."
+        }
+      ]
+    }
+  ]
+}

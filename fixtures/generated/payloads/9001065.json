@@ -1,0 +1,552 @@
+{
+  "id": 9001065,
+  "title": "Ethiopian Spiced Seafood and Teff Bake",
+  "image": "generated://dishcovery/9001065.jpg",
+  "readyInMinutes": 75,
+  "servings": 6,
+  "summary": "Combining traditional East African spice profiles with fresh seafood, this savory layered bake presents an inventive fusion of coast and highlands. Anchored by a firm base of <b>fermented teff batter</b>, the dish builds rich layers of spiced tilapia fillets, tender sauteed greens, and caramelized red onions. The entire bake is seasoned with an aromatic berbere spice blend, infused ghee, cooked yellow split peas, and crushed garlic to deliver a comforting warmth throughout. As it bakes, the teff creates a crusty bottom layer that absorbs the savory juices from the seafood and spiced oil above. Garnished with torn basil and sliced fresh chilies, this dish provides a harmonious contrast between fiery spices, savory fish, and earthy teff. Ideal for family suppers or informal celebrations, it brings the vibrant dining traditions of Ethiopia to the oven with minimal hands-on effort. Pair this bake with a crisp cucumber salad or iced spiced tea for a complete culinary journey that showcases how versatile horn-of-Africa flavors can be when applied to baked seafood casseroles.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Sodium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 40,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 71
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Folate",
+        "amount": 72,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Biotin",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Choline",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iodine",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Magnesium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 49
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 150,
+      "unit": "g",
+      "name": "teff flour"
+    },
+    {
+      "id": 90001,
+      "amount": 250,
+      "unit": "ml",
+      "name": "warm water"
+    },
+    {
+      "id": 90002,
+      "amount": 600,
+      "unit": "g",
+      "name": "tilapia fillets"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "berbere spice mix"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "spiced clarified butter"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "large",
+      "name": "red onions"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced fresh ginger"
+    },
+    {
+      "id": 90008,
+      "amount": 200,
+      "unit": "g",
+      "name": "collard greens"
+    },
+    {
+      "id": 90009,
+      "amount": 100,
+      "unit": "g",
+      "name": "yellow split peas"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground korarima"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90015,
+      "amount": 100,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "medium",
+      "name": "green chili pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "fenugreek powder"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh holy basil"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "nigella seeds"
+    },
+    {
+      "id": 90022,
+      "amount": 50,
+      "unit": "g",
+      "name": "cottage cheese"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "melted butter"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood and Berbere Layering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk teff flour warm water and baking powder in bowl to make a batter."
+        },
+        {
+          "number": 2,
+          "step": "Cover teff batter and let ferment at warm room temperature for thirty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Rinse tilapia fillets under cold tap water and pat dry with paper towels."
+        },
+        {
+          "number": 4,
+          "step": "Cut dried tilapia fillets into bite sized two inch pieces on clean board."
+        },
+        {
+          "number": 5,
+          "step": "Combine berbere spice ground korarima fenugreek cardamom and salt in cup."
+        },
+        {
+          "number": 6,
+          "step": "Season tilapia pieces evenly with half of spice mixture and lemon juice."
+        },
+        {
+          "number": 7,
+          "step": "Heat two tablespoons olive oil in a pan over medium heat for two minutes."
+        },
+        {
+          "number": 8,
+          "step": "Add sliced red onions to pan and cook until soft and caramelized slowly."
+        },
+        {
+          "number": 9,
+          "step": "Add minced garlic and minced fresh ginger to caramelized onions in pan."
+        },
+        {
+          "number": 10,
+          "step": "Stir in tomato paste and remaining berbere spice blend into pan mixture."
+        },
+        {
+          "number": 11,
+          "step": "Cook tomato paste mixture for two minutes until dark red and fragrant."
+        },
+        {
+          "number": 12,
+          "step": "Add chopped collard greens to skillet and cook until wilted and tender."
+        },
+        {
+          "number": 13,
+          "step": "Pour vegetable broth into skillet to deglaze pan bottom and form sauce."
+        },
+        {
+          "number": 14,
+          "step": "Cook yellow split peas in salted water separately until tender then drain."
+        },
+        {
+          "number": 15,
+          "step": "Fold cooked split peas into collard green mixture and remove pan from heat."
+        },
+        {
+          "number": 16,
+          "step": "Preheat oven to 375 degrees Fahrenheit and grease a deep baking dish."
+        },
+        {
+          "number": 17,
+          "step": "Pour fermented teff batter into bottom of prepared greased baking dish."
+        },
+        {
+          "number": 18,
+          "step": "Spread collard green and split pea mixture evenly over teff batter layer."
+        },
+        {
+          "number": 19,
+          "step": "Arrange seasoned tilapia pieces in an even layer over collard greens."
+        },
+        {
+          "number": 20,
+          "step": "Dollop spiced clarified butter over top of tilapia layer evenly using spoon."
+        },
+        {
+          "number": 21,
+          "step": "Scatter crumbled cottage cheese and nigella seeds across top of dish."
+        },
+        {
+          "number": 22,
+          "step": "Cover baking dish tightly with aluminum foil to trap moisture during baking."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Garnishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place covered baking dish on middle shelf of preheated 375 degree oven."
+        },
+        {
+          "number": 2,
+          "step": "Bake covered casserole for twenty five minutes until teff batter sets firm."
+        },
+        {
+          "number": 3,
+          "step": "Carefully remove aluminum foil from baking dish using heat protective gloves."
+        },
+        {
+          "number": 4,
+          "step": "Brush top layer lightly with melted butter for golden top crust finish."
+        },
+        {
+          "number": 5,
+          "step": "Return uncovered baking dish to oven and bake for fifteen additional minutes."
+        },
+        {
+          "number": 6,
+          "step": "Check fish internal temperature reaches 145 degrees Fahrenheit using thermometer."
+        },
+        {
+          "number": 7,
+          "step": "Check that teff crust along bottom edge looks set and lightly crisp brown."
+        },
+        {
+          "number": 8,
+          "step": "Slice green chili pepper into thin rounds on clean cutting board surface."
+        },
+        {
+          "number": 9,
+          "step": "Torn fresh holy basil leaves into small pieces for final colorful garnish."
+        },
+        {
+          "number": 10,
+          "step": "Remove casserole from oven carefully and rest on heatproof trivet pad."
+        },
+        {
+          "number": 11,
+          "step": "Let bake rest for ten minutes to allow internal layers to set firmly."
+        },
+        {
+          "number": 12,
+          "step": "Garnish top of warm casserole with sliced green chilies and torn basil."
+        },
+        {
+          "number": 13,
+          "step": "Cut bake into six generous square portions using a sharp serrated spatula."
+        },
+        {
+          "number": 14,
+          "step": "Lift portions gently ensuring bottom teff crust stays attached to layers."
+        },
+        {
+          "number": 15,
+          "step": "Transfer square portions onto warm dinner plates using wide serving spatula."
+        },
+        {
+          "number": 16,
+          "step": "Spoon any remaining pan juices from baking dish over top of each portion."
+        },
+        {
+          "number": 17,
+          "step": "Drizzle additional melted spiced butter over top if richer taste is desired."
+        },
+        {
+          "number": 18,
+          "step": "Season top with extra cracked black pepper or berbere spice if requested."
+        },
+        {
+          "number": 19,
+          "step": "Serve alongside cooked lentils or flatbreads for complete traditional meal."
+        },
+        {
+          "number": 20,
+          "step": "Store remaining baked portions in sealed container in refrigerator overnight."
+        },
+        {
+          "number": 21,
+          "step": "Reheat leftovers in warm oven until heated through before serving again."
+        }
+      ]
+    }
+  ]
+}

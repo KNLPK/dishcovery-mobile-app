@@ -1,0 +1,934 @@
+{
+  "id": 9002032,
+  "title": "Weeknight Indian Red Lentil Dal Soup",
+  "image": "generated://dishcovery/9002032.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "Enjoy a fast, satisfying weeknight dinner with this comforting <b>Indian dal soup</b>. Creamy red lentils simmered with ginger, garlic, coconut milk, and aromatic pan-tempered tadka spices deliver deep traditional flavor in just thirty minutes. Designed specifically as a <b>weeknight soup</b>, this recipe uses quick-cooking red lentils (masoor dal) and accessible spices so you can enjoy authentic Indian home cooking without hours of prep. The soup combines sweet canned tomatoes, earthy cumin, vibrant turmeric, and fragrant garam masala into a silky, golden broth. Finished with a sizzling ghee tempering of mustard seeds, curry leaves, and dry red chilies, every spoon offers layers of texture and warmth. Packed with plant protein, dietary fiber, and immune-boosting spices, this nutritious dish is simple to assemble and pairs effortlessly with steamed basmati rice or warm garlic naan bread.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 4.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.4
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 3.6
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.9
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.4
+      },
+      {
+        "name": "Dietary Fiber",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 42.8
+      },
+      {
+        "name": "Sugars",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.2
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 920,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.5
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.6
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 24,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 180,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 12.6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.1
+      },
+      {
+        "name": "Zinc",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.1
+      },
+      {
+        "name": "Selenium",
+        "amount": 11,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.6
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.7
+      },
+      {
+        "name": "Choline",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.25,
+      "unit": "cups",
+      "name": "split red lentils masoor dal"
+    },
+    {
+      "id": 90001,
+      "amount": 4,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "can",
+      "name": "light coconut milk"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced canned tomatoes"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "medium",
+      "name": "diced yellow onion"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ghee or coconut oil"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "kashmiri chili powder"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "asafoetida hing powder"
+    },
+    {
+      "id": 90015,
+      "amount": 10,
+      "unit": "leaves",
+      "name": "fresh curry leaves"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "whole",
+      "name": "dried red chilies"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fresh baby spinach leaves"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fenugreek leaves kasuri methi"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "coconut oil for tadka"
+    },
+    {
+      "id": 90028,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "slivered almonds toasted"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90030,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "plain coconut yogurt"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "nigella seeds kalonji"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "amchur dry mango powder"
+    },
+    {
+      "id": 90036,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "diced green chilies"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander seeds crushed"
+    },
+    {
+      "id": 90038,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "fennel seeds"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped mint leaves"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "cooked green peas"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder for rice"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pumpkin seeds"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Lentil Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure split red lentils into a fine mesh colander and inspect for small stones."
+        },
+        {
+          "number": 2,
+          "step": "Rinse red lentils under cool running tap water for two minutes until water is clear."
+        },
+        {
+          "number": 3,
+          "step": "Transfer rinsed red lentils into a large dutch oven or heavy soup pot on stove."
+        },
+        {
+          "number": 4,
+          "step": "Pour vegetable broth over red lentils in pot to establish liquid soup foundation."
+        },
+        {
+          "number": 5,
+          "step": "Stir in ground turmeric and ground coriander to season lentil boiling broth."
+        },
+        {
+          "number": 6,
+          "step": "Add ground cinnamon and ground cloves to provide warm aromatic background notes."
+        },
+        {
+          "number": 7,
+          "step": "Bring soup broth to a boil over medium-high heat, skimming off any foam on surface."
+        },
+        {
+          "number": 8,
+          "step": "Reduce burner heat to medium-low, cover pot partially, and simmer for fifteen minutes."
+        },
+        {
+          "number": 9,
+          "step": "Watch red lentils turn soft and break down naturally into a thick golden dal soup base."
+        },
+        {
+          "number": 10,
+          "step": "Stir diced canned tomatoes into simmering lentils to introduce bright acidity."
+        },
+        {
+          "number": 11,
+          "step": "Pour light coconut milk into soup pot and stir gently to create creamy soup texture."
+        },
+        {
+          "number": 12,
+          "step": "Add sea salt, black pepper, and brown sugar to balance soup flavor profile nicely."
+        },
+        {
+          "number": 13,
+          "step": "Simmer lentil soup base for five additional minutes until flavors are fully merged."
+        },
+        {
+          "number": 14,
+          "step": "Whisk soup gently with balloon whisk to break up remaining whole lentil grains."
+        },
+        {
+          "number": 15,
+          "step": "Taste dal soup base for salt level and add small splash of extra broth if too thick."
+        },
+        {
+          "number": 16,
+          "step": "Fold baby spinach leaves into hot soup, stirring until leaves wilt completely."
+        },
+        {
+          "number": 17,
+          "step": "Add cooked green peas into dal soup to add sweet pops of green color throughout."
+        },
+        {
+          "number": 18,
+          "step": "Stir in tamarind paste and amchur dry mango powder for delicate tangy accents."
+        },
+        {
+          "number": 19,
+          "step": "Keep soup simmering on lowest burner setting while preparing aromatic spice tadka."
+        },
+        {
+          "number": 20,
+          "step": "Inspect soup consistency to ensure it remains smooth yet hearty for bowl service."
+        },
+        {
+          "number": 21,
+          "step": "Cover soup pot to retain steam and heat while pan tempering spices next."
+        },
+        {
+          "number": 22,
+          "step": "Check that spinach is evenly distributed without clumping together in soup pot."
+        },
+        {
+          "number": 23,
+          "step": "Prepare small skillet for tempering spices right beside main soup pot on stove."
+        },
+        {
+          "number": 24,
+          "step": "Verify red lentils are completely tender and dissolved for authentic dal texture."
+        },
+        {
+          "number": 25,
+          "step": "Set ladle near soup pot for immediate hot serving once tadka tempering is added."
+        },
+        {
+          "number": 26,
+          "step": "Ensure all dry spices used in lentil base are fully incorporated into broth."
+        }
+      ]
+    },
+    {
+      "name": "Soup Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat one tablespoon of ghee or coconut oil in a small skillet over medium flame."
+        },
+        {
+          "number": 2,
+          "step": "Add diced yellow onion to hot skillet and cook for four minutes until translucent."
+        },
+        {
+          "number": 3,
+          "step": "Add minced garlic, grated fresh ginger, and diced green chilies to skillet pan."
+        },
+        {
+          "number": 4,
+          "step": "Sauté garlic and ginger mixture for two minutes until highly fragrant and golden."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle garam masala and Kashmiri chili powder over cooked onion mixture in pan."
+        },
+        {
+          "number": 6,
+          "step": "Stir spices continuously for thirty seconds to toast powders without burning them."
+        },
+        {
+          "number": 7,
+          "step": "Scrape cooked aromatic onion mixture directly into main simmering red lentil soup pot."
+        },
+        {
+          "number": 8,
+          "step": "Stir soup pot thoroughly to blend cooked aromatic onions with creamy red lentils."
+        },
+        {
+          "number": 9,
+          "step": "Crush kasuri methi fenugreek leaves between palms and sprinkle into soup pot."
+        },
+        {
+          "number": 10,
+          "step": "Add ground cardamom to soup and stir for thirty seconds to release aromatic oils."
+        },
+        {
+          "number": 11,
+          "step": "Simmer combined soup base for three minutes to let all aromatic layers unify."
+        },
+        {
+          "number": 12,
+          "step": "Check soup texture with ladle; add two tablespoons water if dal became too dense."
+        },
+        {
+          "number": 13,
+          "step": "Adjust heat to keep soup at a very gentle bubble while completing final tempering step."
+        },
+        {
+          "number": 14,
+          "step": "Taste soup again and add drop of lemon juice to elevate background spice notes."
+        },
+        {
+          "number": 15,
+          "step": "Ensure garlic and ginger pieces are soft and finely integrated into soup broth."
+        },
+        {
+          "number": 16,
+          "step": "Maintain warm temperature across main pot while finishing tempering pan process."
+        },
+        {
+          "number": 17,
+          "step": "Clean onion prep cutting board to keep weeknight cooking workspace tidy and organized."
+        },
+        {
+          "number": 18,
+          "step": "Prepare mustard seeds and whole chilies for fast tempering in hot oil next."
+        },
+        {
+          "number": 19,
+          "step": "Keep small lid ready near skillet to cover splattering mustard seeds safely."
+        },
+        {
+          "number": 20,
+          "step": "Verify onion and garlic flavors have seamlessly blended into lentil soup body."
+        },
+        {
+          "number": 21,
+          "step": "Set heat setting on main soup pot to low hold until ready to pour tadka over top."
+        },
+        {
+          "number": 22,
+          "step": "Check color of soup to confirm rich golden amber appearance from turmeric and chilies."
+        },
+        {
+          "number": 23,
+          "step": "Prepare soup bowls on counter to ensure fast meal service after tadka assembly."
+        },
+        {
+          "number": 24,
+          "step": "Stir soup once more to prevent lentils from settling at bottom of heavy pot."
+        },
+        {
+          "number": 25,
+          "step": "Keep serving spoon ready to stir final sizzle of spiced oil into red dal soup."
+        },
+        {
+          "number": 26,
+          "step": "Confirm weeknight prep time remains on track under thirty minutes total duration."
+        }
+      ]
+    },
+    {
+      "name": "Tadka Tempering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat remaining tablespoon of ghee or coconut oil in small skillet over high heat."
+        },
+        {
+          "number": 2,
+          "step": "Add mustard seeds and cumin seeds to hot oil; cover pan as seeds begin popping."
+        },
+        {
+          "number": 3,
+          "step": "Add whole dried red chilies and fresh curry leaves to sizzling oil carefully."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle asafoetida hing powder and nigella seeds into hot spiced oil immediately."
+        },
+        {
+          "number": 5,
+          "step": "Add crushed coriander seeds, fennel seeds, and smoked paprika to sizzling pan."
+        },
+        {
+          "number": 6,
+          "step": "Swirl skillet for fifteen seconds until spices crackle and curry leaves turn crisp."
+        },
+        {
+          "number": 7,
+          "step": "Pour hot sizzling spice tadka oil directly over top of red lentil soup in pot."
+        },
+        {
+          "number": 8,
+          "step": "Listen for signature sizzle as hot spiced oil hits warm creamy dal soup surface."
+        },
+        {
+          "number": 9,
+          "step": "Cover soup pot with lid immediately for two minutes to trap fragrant spice aromas."
+        },
+        {
+          "number": 10,
+          "step": "Uncover soup pot and stir tadka oil into red lentil soup using large wooden spoon."
+        },
+        {
+          "number": 11,
+          "step": "Stir in fresh lemon juice and lime juice to add final bright citrus finish to dal."
+        },
+        {
+          "number": 12,
+          "step": "Fold chopped fresh cilantro and chopped mint leaves into soup for herbal brightness."
+        },
+        {
+          "number": 13,
+          "step": "Inspect tempered soup to ensure spice oil creates beautiful red-gold ripples on top."
+        },
+        {
+          "number": 14,
+          "step": "Turn off burner stove entirely and let soup stand for one minute before ladling."
+        },
+        {
+          "number": 15,
+          "step": "Taste final tempered dal soup and adjust salt or cayenne pepper if extra heat wanted."
+        },
+        {
+          "number": 16,
+          "step": "Ensure whole chilies and curry leaves remain visible as rustic garnishes in pot."
+        },
+        {
+          "number": 17,
+          "step": "Prepare serving bowls and spoons near stove for fast weeknight family dining."
+        },
+        {
+          "number": 18,
+          "step": "Wipe down small tempering skillet with paper towel for easy kitchen cleanup later."
+        },
+        {
+          "number": 19,
+          "step": "Verify that all mustard seeds have popped fully to release their warm nutty flavor."
+        },
+        {
+          "number": 20,
+          "step": "Check that soup temperature is piping hot and ready for immediate table presentation."
+        },
+        {
+          "number": 21,
+          "step": "Stir in toasted slivered almonds to add delighting crunchy texture contrast in soup."
+        },
+        {
+          "number": 22,
+          "step": "Add golden raisins for tiny sweet surprises balanced against spicy tadka notes."
+        },
+        {
+          "number": 23,
+          "step": "Keep extra fresh cilantro leaves nearby for final bowl top decoration step."
+        },
+        {
+          "number": 24,
+          "step": "Confirm all tadka oil has been incorporated smoothly into creamy lentil soup."
+        },
+        {
+          "number": 25,
+          "step": "Prepare warm garlic naan bread on side baking sheet for serving alongside soup."
+        },
+        {
+          "number": 26,
+          "step": "Ensure weeknight meal setup is complete and ready for relaxed home dining."
+        }
+      ]
+    },
+    {
+      "name": "Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle steaming hot red lentil dal soup into four deep ceramic soup bowls evenly."
+        },
+        {
+          "number": 2,
+          "step": "Spoon a swirl of plain coconut yogurt into center of each steaming soup bowl."
+        },
+        {
+          "number": 3,
+          "step": "Top yogurt swirl with extra fresh cilantro leaves and chopped mint for garnish."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle toasted pumpkin seeds and nigella seeds over soup surface for crunch."
+        },
+        {
+          "number": 5,
+          "step": "Add a pinch of sea salt flakes over yogurt swirl right before serving at table."
+        },
+        {
+          "number": 6,
+          "step": "Place a fresh lemon wedge on side rim of each soup bowl for squeezing."
+        },
+        {
+          "number": 7,
+          "step": "Serve immediately alongside warm garlic naan bread or steamed basmati rice bowls."
+        },
+        {
+          "number": 8,
+          "step": "Provide extra hot chili oil at table for guests who prefer higher spice intensity."
+        },
+        {
+          "number": 9,
+          "step": "Wipe bowl edges clean with paper towel for crisp restaurant style presentation."
+        },
+        {
+          "number": 10,
+          "step": "Inform guests of whole red chilies inside soup bowl for caution while dining."
+        },
+        {
+          "number": 11,
+          "step": "Pairs wonderfully with chilled Indian mango lassi or spiced chai tea beverage."
+        },
+        {
+          "number": 12,
+          "step": "Store leftover soup in airtight glass container in refrigerator for four days."
+        },
+        {
+          "number": 13,
+          "step": "Reheat leftover dal soup over medium stove burner, adding splash of water to loosen."
+        },
+        {
+          "number": 14,
+          "step": "Freeze remaining soup portions in freezer-safe bags for quick future weeknight meals."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy this nourishing, fast Indian red lentil dal soup packed with vibrant flavor."
+        },
+        {
+          "number": 16,
+          "step": "Clean soup pot and ladle promptly after meal service for easy kitchen maintenance."
+        },
+        {
+          "number": 17,
+          "step": "Check that all guests have extra naan bread for dipping into rich lentil broth."
+        },
+        {
+          "number": 18,
+          "step": "Maintain warm serving environment to ensure soup stays piping hot throughout dinner."
+        },
+        {
+          "number": 19,
+          "step": "Verify vegetarian and gluten-free dietary needs are easily met with this recipe."
+        },
+        {
+          "number": 20,
+          "step": "Note recipe adjustments for milder spice levels if serving young children at home."
+        },
+        {
+          "number": 21,
+          "step": "Celebrate a successful nutritious thirty-minute weeknight Indian soup dinner with family."
+        },
+        {
+          "number": 22,
+          "step": "Keep remaining toasted almonds in small dish on table for extra topping self-service."
+        },
+        {
+          "number": 23,
+          "step": "Store remaining dry red lentils in airtight pantry jar for next weeknight soup."
+        },
+        {
+          "number": 24,
+          "step": "Ensure kitchen counters are wiped clean as simple cooking process concludes easily."
+        },
+        {
+          "number": 25,
+          "step": "Enjoy the comforting aromas of turmeric, cumin, and ginger lingering in home kitchen."
+        }
+      ]
+    }
+  ]
+}

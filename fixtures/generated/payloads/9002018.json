@@ -1,0 +1,858 @@
+{
+  "id": 9002018,
+  "title": "Celebration Moroccan Spiced Couscous and Roasted Vegetable Salad",
+  "image": "generated://dishcovery/9002018.jpg",
+  "readyInMinutes": 60,
+  "servings": 8,
+  "summary": "Designed for elaborate gatherings, this <b>festive Moroccan grain dish</b> combines fluffy steamed couscous with vibrant roasted root vegetables and aromatic warm spices. Highlighting fluffy <b>semolina grains</b> steamed to tender perfection, the recipe layer textures using toasted almonds, plumped golden raisins, and fresh pomegranate arils. Sweet butternut squash, parsnips, and multicolored carrots are tossed in ras el hanout before high-temperature roasting, creating caramelized edges that contrast with juicy citrus dressings. A custom infusion of saffron broth fuels the steaming process, ensuring every grain absorbs rich herbal depth. Perfect for buffet tables or centerpiece family platters, this dish improves as its complex flavor profile rests, making it ideal for large-scale entertaining. Fresh mint, cilantro, and tangy preserved lemon bring a lively herbal brightness that cuts through warm spice notes.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 72,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 6200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 124
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Magnesium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 49
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "semolina couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 600,
+      "unit": "ml",
+      "name": "vegetable stock"
+    },
+    {
+      "id": 90002,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ras el hanout"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90008,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90011,
+      "amount": 200,
+      "unit": "g",
+      "name": "butternut squash diced"
+    },
+    {
+      "id": 90012,
+      "amount": 150,
+      "unit": "g",
+      "name": "carrots diced"
+    },
+    {
+      "id": 90013,
+      "amount": 150,
+      "unit": "g",
+      "name": "parsnips diced"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion chopped"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "red",
+      "name": "bell pepper diced"
+    },
+    {
+      "id": 90016,
+      "amount": 100,
+      "unit": "g",
+      "name": "cooked chickpeas"
+    },
+    {
+      "id": 90017,
+      "amount": 80,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90018,
+      "amount": 60,
+      "unit": "g",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90019,
+      "amount": 60,
+      "unit": "g",
+      "name": "dried cranberries"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh mint chopped"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh cilantro chopped"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "flat leaf parsley chopped"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "preserved lemon peel minced"
+    },
+    {
+      "id": 90025,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90026,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "orange juice"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90029,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "harissa paste"
+    },
+    {
+      "id": 90031,
+      "amount": 50,
+      "unit": "g",
+      "name": "pistachios chopped"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cardamom"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "allspice"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "argan oil"
+    },
+    {
+      "id": 90036,
+      "amount": 100,
+      "unit": "g",
+      "name": "zucchini diced"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90039,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pumpkin seeds toasted"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sumac"
+    },
+    {
+      "id": 90041,
+      "amount": 50,
+      "unit": "g",
+      "name": "dried figs chopped"
+    },
+    {
+      "id": 90042,
+      "amount": 50,
+      "unit": "g",
+      "name": "dried apricots chopped"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Roasting Vegetables",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat your oven to 425 degrees Fahrenheit and line two large baking sheets with parchment paper."
+        },
+        {
+          "number": 2,
+          "step": "Peel the butternut squash remove seeds and chop the flesh into small half inch uniform cubes."
+        },
+        {
+          "number": 3,
+          "step": "Scrape the carrots and parsnips clean before cutting them into matching half inch dice pieces."
+        },
+        {
+          "number": 4,
+          "step": "Peel the red onion and dice it into medium sized pieces for even roasting alongside roots."
+        },
+        {
+          "number": 5,
+          "step": "Core the red bell pepper remove interior membranes and cut the flesh into crisp square pieces."
+        },
+        {
+          "number": 6,
+          "step": "Place all prepared root vegetables and onions together inside a large rimmed mixing bowl."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle two tablespoons of extra virgin olive oil evenly across the mixed raw vegetables."
+        },
+        {
+          "number": 8,
+          "step": "Add the ras el hanout ground cumin turmeric garlic powder and sea salt over the ingredients."
+        },
+        {
+          "number": 9,
+          "step": "Toss the vegetable mixture thoroughly using large spoons until every piece is coated with spice."
+        },
+        {
+          "number": 10,
+          "step": "Spread the seasoned vegetables across the two prepared baking sheets in a single flat layer."
+        },
+        {
+          "number": 11,
+          "step": "Place the baking sheets into the upper and lower thirds of the preheated oven carefully."
+        },
+        {
+          "number": 12,
+          "step": "Roast the vegetables for fifteen minutes before removing sheets to stir pieces thoroughly."
+        },
+        {
+          "number": 13,
+          "step": "Add the diced zucchini to the roasting tray so it cooks without turning overly soft."
+        },
+        {
+          "number": 14,
+          "step": "Return sheets to oven switching their positions to promote balanced browning across trays."
+        },
+        {
+          "number": 15,
+          "step": "Continue roasting for another fifteen minutes until squash is tender with caramelized edges."
+        },
+        {
+          "number": 16,
+          "step": "Remove the roasted vegetables from the oven and let them cool on trays to room temperature."
+        },
+        {
+          "number": 17,
+          "step": "Rinse the cooked chickpeas in cold water drain thoroughly and set aside in a small bowl."
+        },
+        {
+          "number": 18,
+          "step": "Chop the dried figs and dried apricots into tiny fruit pieces matching raisin size."
+        },
+        {
+          "number": 19,
+          "step": "Combine golden raisins cranberries figs and apricots in a cup of warm water to plump."
+        },
+        {
+          "number": 20,
+          "step": "Drain the plumped dried fruits after ten minutes discarding the soaking liquid completely."
+        },
+        {
+          "number": 21,
+          "step": "Set aside all prepared vegetables and dried fruits while preparing the couscous grain base."
+        }
+      ]
+    },
+    {
+      "name": "Steaming Couscous",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour the vegetable stock into a medium saucepan and place over medium high heat on stove."
+        },
+        {
+          "number": 2,
+          "step": "Crush the saffron threads between your fingers directly into the warming vegetable stock."
+        },
+        {
+          "number": 3,
+          "step": "Add ground ginger ground cinnamon ground coriander and ground cardamom into stock pan."
+        },
+        {
+          "number": 4,
+          "step": "Stir in one teaspoon of salt and one tablespoon of ghee allowing butter to melt completely."
+        },
+        {
+          "number": 5,
+          "step": "Bring the aromatic stock liquid to a rolling boil making sure spices blend thoroughly."
+        },
+        {
+          "number": 6,
+          "step": "Measure the semolina couscous into a large heatproof ceramic bowl spreading it evenly."
+        },
+        {
+          "number": 7,
+          "step": "Pour the boiling saffron infusion carefully over the dry couscous grains in the bowl."
+        },
+        {
+          "number": 8,
+          "step": "Stir the couscous once with a wooden spoon to ensure all grains are submerged in liquid."
+        },
+        {
+          "number": 9,
+          "step": "Cover the ceramic bowl tightly with plastic wrap or a snug lid to seal in all steam."
+        },
+        {
+          "number": 10,
+          "step": "Let the couscous stand undisturbed for ten minutes while grains absorb heat and broth."
+        },
+        {
+          "number": 11,
+          "step": "Remove the cover carefully taking care to avoid hot steam rising from the bowl rim."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle one tablespoon of argan oil over the surface of the steamed yellow couscous grains."
+        },
+        {
+          "number": 13,
+          "step": "Use a large metal fork to rake across grains separating clumped sections into light fluff."
+        },
+        {
+          "number": 14,
+          "step": "Continue flufing for three minutes working from bowl edges toward center gently."
+        },
+        {
+          "number": 15,
+          "step": "Cover loosely with a clean cotton towel to absorb steam while couscous cools slightly."
+        },
+        {
+          "number": 16,
+          "step": "Heat a small dry skillet over medium heat to toast slivered almonds and pumpkin seeds."
+        },
+        {
+          "number": 17,
+          "step": "Add slivered almonds to skillet stirring constantly for three minutes until lightly golden."
+        },
+        {
+          "number": 18,
+          "step": "Transfer toasted almonds to a small dish immediately to stop cooking process on hot metal."
+        },
+        {
+          "number": 19,
+          "step": "Toast pumpkin seeds in the same dry pan for two minutes until they pop and turn fragrant."
+        },
+        {
+          "number": 20,
+          "step": "Toast chopped pistachios lightly for one minute to accentuate their rich nut flavor profile."
+        },
+        {
+          "number": 21,
+          "step": "Cool all toasted nuts and seeds completely on a paper towel lined plate before assembly."
+        }
+      ]
+    },
+    {
+      "name": "Citrus Dressing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "In a small glass mixing bowl combine fresh lemon juice and fresh squeezed orange juice."
+        },
+        {
+          "number": 2,
+          "step": "Add the honey and orange blossom water whisking until honey dissolves into citrus juice."
+        },
+        {
+          "number": 3,
+          "step": "Stir in the harissa paste minced garlic cloves and minced preserved lemon peel thoroughly."
+        },
+        {
+          "number": 4,
+          "step": "Add ground cumin sumac black pepper and a pinch of cayenne pepper into the dressing bowl."
+        },
+        {
+          "number": 5,
+          "step": "Slowly drizzle the remaining extra virgin olive oil while whisking constantly to emulsify."
+        },
+        {
+          "number": 6,
+          "step": "Add the apple cider vinegar to adjust acidity levels according to personal taste preferences."
+        },
+        {
+          "number": 7,
+          "step": "Whisk the citrus dressing briskly for one minute until smooth emulsified and uniform."
+        },
+        {
+          "number": 8,
+          "step": "Taste the dressing and adjust salt levels using sea salt flakes if additional seasoning is needed."
+        },
+        {
+          "number": 9,
+          "step": "Wash fresh mint leaves cilantro and flat leaf parsley under cold tap water thoroughly."
+        },
+        {
+          "number": 10,
+          "step": "Spin herbs in a salad spinner until completely dry to prevent water diluting dressing."
+        },
+        {
+          "number": 11,
+          "step": "Finely chop mint cilantro and parsley on a wood board with a sharp chef knife."
+        },
+        {
+          "number": 12,
+          "step": "Score the pomegranate shell open and extract half a cup of bright red arils cleanly."
+        },
+        {
+          "number": 13,
+          "step": "Place extracted pomegranate arils into a small bowl discarding white pith membranes."
+        },
+        {
+          "number": 14,
+          "step": "Whisk the dressing once more to re-emulsify settling oil droplets right before mixing."
+        },
+        {
+          "number": 15,
+          "step": "Pour one third of dressing over the cooked chickpeas stirring to marinate short term."
+        },
+        {
+          "number": 16,
+          "step": "Pour another third of dressing over cooled roasted vegetables tossing gently to coat."
+        },
+        {
+          "number": 17,
+          "step": "Reserve the remaining third of citrus dressing for final grain toss during assembly phase."
+        },
+        {
+          "number": 18,
+          "step": "Ensure all dressing components are at cool room temperature before combining salad layers."
+        },
+        {
+          "number": 19,
+          "step": "Check herbs to make sure they remain crisp unbruised and dry before final incorporation."
+        },
+        {
+          "number": 20,
+          "step": "Prepare a large shallow decorative platter suitable for presenting a celebration feast."
+        },
+        {
+          "number": 21,
+          "step": "Set all prepared components around your workspace in an organized mis en place layout."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer the fluffed spiced couscous into the main oversized mixing bowl cleanly."
+        },
+        {
+          "number": 2,
+          "step": "Pour the reserved third of citrus dressing over couscous grains tossing with broad spoons."
+        },
+        {
+          "number": 3,
+          "step": "Add the dressed chickpeas and plumped dried fruit mixture to the couscous grain base."
+        },
+        {
+          "number": 4,
+          "step": "Fold in half of the chopped fresh mint cilantro and parsley evenly into grain mixture."
+        },
+        {
+          "number": 5,
+          "step": "Add half of the roasted vegetable mixture into the bowl folding gently to avoid mashing."
+        },
+        {
+          "number": 6,
+          "step": "Add half of the toasted almonds pistachios and pumpkin seeds into the couscous salad."
+        },
+        {
+          "number": 7,
+          "step": "Toss the complete grain salad mixture five times using broad scooping motions from bottom."
+        },
+        {
+          "number": 8,
+          "step": "Spoon the mixed couscous salad onto the center of your large decorative presentation platter."
+        },
+        {
+          "number": 9,
+          "step": "Mound the grains slightly in the center to create an attractive raised celebration look."
+        },
+        {
+          "number": 10,
+          "step": "Arranged remaining roasted vegetables artfully over top and sides of couscous mound."
+        },
+        {
+          "number": 11,
+          "step": "Scatter remaining toasted almonds pistachios and pumpkin seeds across top of vegetables."
+        },
+        {
+          "number": 12,
+          "step": "Dust remaining chopped fresh mint cilantro and parsley over dish for fresh color."
+        },
+        {
+          "number": 13,
+          "step": "Distribute brilliant red pomegranate arils evenly over entire salad surface like jewels."
+        },
+        {
+          "number": 14,
+          "step": "Garnish edge with extra preserved lemon strips for aromatic aroma and visual polish."
+        },
+        {
+          "number": 15,
+          "step": "Drizzle any leftover pan juices from roasted vegetable sheet over top of grain assembly."
+        },
+        {
+          "number": 16,
+          "step": "Lightly sprinkle sumac powder around rim of platter for an elegant finishing detail."
+        },
+        {
+          "number": 17,
+          "step": "Rest finished celebration salad at room temperature for fifteen minutes to let flavors meld."
+        },
+        {
+          "number": 18,
+          "step": "Check layout to ensure colorful contrast between orange squash green herbs and red seeds."
+        },
+        {
+          "number": 19,
+          "step": "Serve salad at room temperature offering extra dressing on the side if guests desire."
+        },
+        {
+          "number": 20,
+          "step": "Pair with flatbreads or grilled skewers to complete a feast layout for large gatherings."
+        },
+        {
+          "number": 21,
+          "step": "Store any leftover salad covered in refrigerator where it maintains texture for two days."
+        }
+      ]
+    }
+  ]
+}

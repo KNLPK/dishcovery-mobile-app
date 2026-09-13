@@ -1,0 +1,553 @@
+{
+  "id": 9001023,
+  "title": "Thit Nuong Smoked Pork Skewers",
+  "image": "generated://dishcovery/9001023.jpg",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "summary": "Inspired by Southeast Asian street food traditions, these skewers rely on a <b>smoked pork marinade</b> to achieve incredible depth of flavor. Boneless pork shoulder is cold-smoked briefly over aromatic wood chips before being sliced into thin ribbons. The meat marinates in a fragrant mixture of lemongrass, fish sauce, shallots, garlic, palm sugar, and five-spice powder. Threaded onto bamboo skewers, the pork is grilled rapidly over high heat until caramelized with crispy charred edges. Served alongside cold rice vermicelli, quick-pickled daikon and carrots, fresh herbs, and a savory dipping sauce, this dish offers a striking balance of smoky, sweet, salty, and herbal notes. The recipe is packed with <b>high-quality protein</b>, essential minerals, and vitamins while offering an unforgettable dining experience. Perfect for outdoor grilling, these skewers bring authentic street-style charcoal aromas right to your table. Pair with fresh lettuce leaves and crushed peanuts for added texture and classic flavor balance.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Sodium",
+        "amount": 1120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 380,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 45,
+        "unit": "IU",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Biotin",
+        "amount": 5.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 36,
+        "unit": "µg",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Chromium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "lbs",
+      "name": "pork shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "fresh lemongrass"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "medium",
+      "name": "shallots"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "five-spice powder"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dark soy sauce"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "lime",
+      "name": "lime juice"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "julienned carrots"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 8,
+      "unit": "oz",
+      "name": "rice vermicelli"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crushed peanuts"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chili garlic sauce"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "warm water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "head",
+      "name": "butter lettuce"
+    },
+    {
+      "id": 90023,
+      "amount": 16,
+      "unit": "count",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "cup",
+      "name": "wood chips"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Prep and Marinade",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak wooden skewers in cold water for thirty minutes to prevent burning on high grill."
+        },
+        {
+          "number": 2,
+          "step": "Chill pork shoulder in freezer for twenty minutes to make slicing thin pieces easier."
+        },
+        {
+          "number": 3,
+          "step": "Trim excess outer fat from semi frozen pork shoulder using a sharp slicing knife."
+        },
+        {
+          "number": 4,
+          "step": "Slice pork shoulder into thin ribbons approximately one eighth inch thick and wide."
+        },
+        {
+          "number": 5,
+          "step": "Briefly cold smoke pork strips using hardwood chips in smoker box for fifteen minutes."
+        },
+        {
+          "number": 6,
+          "step": "Trim tough outer leaves from lemongrass stalks and finely mince tender white inner cores."
+        },
+        {
+          "number": 7,
+          "step": "Peel shallots and garlic cloves then mince both finely on a clean wooden cutting board."
+        },
+        {
+          "number": 8,
+          "step": "Combine minced lemongrass minced garlic and minced shallots in a glass mixing bowl."
+        },
+        {
+          "number": 9,
+          "step": "Add fish sauce dark soy sauce palm sugar and honey to bowl containing minced aromatics."
+        },
+        {
+          "number": 10,
+          "step": "Stir five spice powder sesame oil and fresh lime juice into liquid marinade mixture."
+        },
+        {
+          "number": 11,
+          "step": "Whisk marinade thoroughly until palm sugar crystals are completely dissolved into liquid."
+        },
+        {
+          "number": 12,
+          "step": "Add smoked pork ribbons to bowl and massage marinade into meat using gloved hands."
+        },
+        {
+          "number": 13,
+          "step": "Cover bowl with plastic wrap and marinate in refrigerator for at least thirty minutes."
+        },
+        {
+          "number": 14,
+          "step": "Julienne daikon radish and carrots into thin matchstick strips for fresh pickle topping."
+        }
+      ]
+    },
+    {
+      "name": "Sides and Skewering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine rice vinegar granulated sugar and salt in a small bowl until sugar dissolves."
+        },
+        {
+          "number": 2,
+          "step": "Submerge matchstick carrots and daikon in vinegar solution to pickle for twenty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Boil water in a pot and cook rice vermicelli noodles for three minutes until tender."
+        },
+        {
+          "number": 4,
+          "step": "Drain cooked vermicelli noodles in colander and rinse under cold water to stop cooking."
+        },
+        {
+          "number": 5,
+          "step": "Divide drained cool rice vermicelli into individual serving bowls for quick assembly."
+        },
+        {
+          "number": 6,
+          "step": "Wash butter lettuce leaves carefully and pat completely dry using clean paper towels."
+        },
+        {
+          "number": 7,
+          "step": "Wash fresh cilantro and mint leaves then pick leaves off tough stem sections."
+        },
+        {
+          "number": 8,
+          "step": "Whisk chili garlic sauce warm water fish sauce and lime juice to make dipping sauce."
+        },
+        {
+          "number": 9,
+          "step": "Remove soaked bamboo skewers from water bath and wipe dry with a clean cloth."
+        },
+        {
+          "number": 10,
+          "step": "Remove marinated smoked pork strips from refrigerator and uncover glass mixing bowl."
+        },
+        {
+          "number": 11,
+          "step": "Thread smoked pork strips tightly onto bamboo skewers accordion style until covered."
+        },
+        {
+          "number": 12,
+          "step": "Leave bottom three inches of each bamboo skewer exposed for easy handling on grill."
+        },
+        {
+          "number": 13,
+          "step": "Place assembled pork skewers on a clean tray and brush with remaining bowl marinade."
+        },
+        {
+          "number": 14,
+          "step": "Preheat gas or charcoal grill to high heat until cooking grates are extremely hot."
+        }
+      ]
+    },
+    {
+      "name": "Grilling and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Oil hot grill grates thoroughly using tongs holding folded paper towel dipped in oil."
+        },
+        {
+          "number": 2,
+          "step": "Lay pork skewers onto hot grates in a single layer leaving space between skewers."
+        },
+        {
+          "number": 3,
+          "step": "Grill pork skewers for three minutes without moving until rich grill marks form below."
+        },
+        {
+          "number": 4,
+          "step": "Flip skewers over using metal tongs and grill second side for three additional minutes."
+        },
+        {
+          "number": 5,
+          "step": "Baste skewers with any remaining marinade while turning to create a sweet shiny glaze."
+        },
+        {
+          "number": 6,
+          "step": "Ensure edges of pork are charred crisply while meat remains juicy and cooked through."
+        },
+        {
+          "number": 7,
+          "step": "Transfer hot grilled skewers onto a clean platter and let rest for two minutes."
+        },
+        {
+          "number": 8,
+          "step": "Arrange fresh butter lettuce leaves around rim of noodle bowls for wrap assembly."
+        },
+        {
+          "number": 9,
+          "step": "Drain pickled daikon and carrots from liquid and place alongside vermicelli noodles."
+        },
+        {
+          "number": 10,
+          "step": "Top vermicelli noodles with generous heaps of fresh cilantro and mint leaves."
+        },
+        {
+          "number": 11,
+          "step": "Place two hot grilled pork skewers onto each prepared noodle bowl directly over herbs."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle crushed toasted peanuts over hot pork skewers and noodles for extra crunch."
+        },
+        {
+          "number": 13,
+          "step": "Spoon prepared sweet chili dipping sauce over skewers right before serving guests."
+        },
+        {
+          "number": 14,
+          "step": "Serve immediately with extra lime wedges and fresh chili slices on side platter."
+        }
+      ]
+    }
+  ]
+}

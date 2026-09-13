@@ -1,0 +1,552 @@
+{
+  "id": 9001001,
+  "title": "Smoked Duck Quenelle Dumplings in Herb Broth",
+  "image": "generated://dishcovery/9001001.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This refined French dish features delicate <b>smoked duck breast quenelles</b> poached to tender perfection in a clear aromatic herb broth. Hand-sculpted dumplings are infused with fine shallots, crushed chervil, and aged cognac, providing a rich savory depth balanced by subtle smoke. The meal begins with a carefully strained stock seasoned with white pepper and bay leaves, creating an elegant backdrop for the soft dumplings. Rendered duck fat gives the dough a velvety texture while roasted garlic adds warmth without overpowering the smoked poultry. Fresh chives and sliced leeks add brightness and gentle crispness to each bowl. Prepared with traditional French technique, these dumplings offer a harmonious mix of rich poultry and fragrant herbs. Perfect for sophisticated dinners, this plate offers classic bistro flavors with modern lightness. Each serving is garnished with micro-greens and a dash of white truffle oil for a glossy final presentation that elevates simple poaching into culinary art.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 840,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Fiber",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 620,
+        "unit": "IU",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Calcium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 44,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Copper",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Potassium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "smoked duck breast"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "piece",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90003,
+      "amount": 60,
+      "unit": "ml",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90004,
+      "amount": 30,
+      "unit": "g",
+      "name": "duck fat"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "piece",
+      "name": "shallots"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 15,
+      "unit": "ml",
+      "name": "cognac"
+    },
+    {
+      "id": 90008,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh chervil"
+    },
+    {
+      "id": 90009,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh chives"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "piece",
+      "name": "leek"
+    },
+    {
+      "id": 90011,
+      "amount": 1000,
+      "unit": "ml",
+      "name": "poultry stock"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "piece",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90013,
+      "amount": 4,
+      "unit": "g",
+      "name": "white pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 5,
+      "unit": "ml",
+      "name": "white truffle oil"
+    },
+    {
+      "id": 90016,
+      "amount": 15,
+      "unit": "g",
+      "name": "micro-greens"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90018,
+      "amount": 20,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90019,
+      "amount": 10,
+      "unit": "g",
+      "name": "parsley"
+    },
+    {
+      "id": 90020,
+      "amount": 5,
+      "unit": "g",
+      "name": "tarragon"
+    },
+    {
+      "id": 90021,
+      "amount": 15,
+      "unit": "ml",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90022,
+      "amount": 30,
+      "unit": "g",
+      "name": "celery root"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "piece",
+      "name": "carrot"
+    },
+    {
+      "id": 90024,
+      "amount": 50,
+      "unit": "ml",
+      "name": "dry white wine"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough and Filling Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim the skin from the smoked duck breast carefully using a sharp paring knife on a clean board."
+        },
+        {
+          "number": 2,
+          "step": "Dice the smoked duck breast meat into very fine uniform cubes for easy grinding later."
+        },
+        {
+          "number": 3,
+          "step": "Place the diced smoked duck into a chilled food processor bowl and pulse several times."
+        },
+        {
+          "number": 4,
+          "step": "Mince the shallots cleanly until you have very small uniform pieces ready for the skillet."
+        },
+        {
+          "number": 5,
+          "step": "Grate the garlic cloves finely using a microplane grater into a small mixing bowl."
+        },
+        {
+          "number": 6,
+          "step": "Heat rendered duck fat in a heavy stainless steel skillet over medium flame for one minute."
+        },
+        {
+          "number": 7,
+          "step": "Sauté minced shallots and garlic in the hot duck fat until soft and translucent throughout."
+        },
+        {
+          "number": 8,
+          "step": "Pour in the cognac to deglaze the skillet and scrape up any golden brown bits from the bottom."
+        },
+        {
+          "number": 9,
+          "step": "Simmer the cognac mixture until the liquid has evaporated completely from the pan base."
+        },
+        {
+          "number": 10,
+          "step": "Transfer cooked shallots to the food processor with the minced duck and let cool down slightly."
+        },
+        {
+          "number": 11,
+          "step": "Add heavy cream, egg yolks, nutmeg, salt, and ground white pepper into the processor bowl."
+        },
+        {
+          "number": 12,
+          "step": "Pulse the duck mixture continuously until a completely smooth paste forms across the blade."
+        },
+        {
+          "number": 13,
+          "step": "Sift the all-purpose flour into a medium bowl to remove any unwanted lumps before folding."
+        },
+        {
+          "number": 14,
+          "step": "Fold sifted flour into the smooth duck paste using a rubber spatula until combined gently."
+        },
+        {
+          "number": 15,
+          "step": "Chop fresh chervil, chives, tarragon, and parsley finely on a dry wooden cutting board."
+        },
+        {
+          "number": 16,
+          "step": "Incorporate half of the fresh herbs into the finished quenelle mixture until distributed well."
+        },
+        {
+          "number": 17,
+          "step": "Cover the bowl with plastic wrap pressing directly onto the dough surface to prevent skinning."
+        },
+        {
+          "number": 18,
+          "step": "Chill the quenelle dough in the refrigerator for twenty minutes so it firms up nicely."
+        },
+        {
+          "number": 19,
+          "step": "Slice the leek, carrot, and celery root into very thin matchsticks for the aromatic broth."
+        },
+        {
+          "number": 20,
+          "step": "Pour poultry stock and dry white wine into a wide shallow saucepan over medium heat."
+        },
+        {
+          "number": 21,
+          "step": "Add bay leaves and sliced vegetables to the saucepan stock and bring to a bare simmer."
+        },
+        {
+          "number": 22,
+          "step": "Maintain a gentle poach temperature around one hundred eighty degrees Fahrenheit steadily."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Poaching",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove chilled duck dumpling paste from the refrigerator and uncover the bowl carefully."
+        },
+        {
+          "number": 2,
+          "step": "Dip two large oval soup spoons into hot water before shaping each individual quenelle."
+        },
+        {
+          "number": 3,
+          "step": "Scoop a portion of dough and pass it between spoons until a smooth three-sided shape forms."
+        },
+        {
+          "number": 4,
+          "step": "Gently slide the shaped quenelle directly into the simmering herb stock using one spoon."
+        },
+        {
+          "number": 5,
+          "step": "Repeat the spoon shaping procedure for remaining dough to create twelve uniform quenelles."
+        },
+        {
+          "number": 6,
+          "step": "Poach quenelles gently in the broth without letting the liquid reach a rolling boil ever."
+        },
+        {
+          "number": 7,
+          "step": "Turn each quenelle carefully halfway through cooking using a wire skimmer or spoon."
+        },
+        {
+          "number": 8,
+          "step": "Cook quenelles for approximately seven minutes until firm to the touch and fully expanded."
+        },
+        {
+          "number": 9,
+          "step": "Melt unsalted butter in a separate small saucepan with lemon juice and remaining herbs."
+        },
+        {
+          "number": 10,
+          "step": "Ladle stock and tender sliced vegetables into four warm shallow soup bowls evenly."
+        },
+        {
+          "number": 11,
+          "step": "Lift cooked quenelles from stock with a slotted spoon draining extra liquid briefly."
+        },
+        {
+          "number": 12,
+          "step": "Arrange three warm quenelles neatly in the center of each prepped broth bowl."
+        },
+        {
+          "number": 13,
+          "step": "Drizzle the warm butter and herb blend over the top of each dumpling in the bowl."
+        },
+        {
+          "number": 14,
+          "step": "Finish each dish with a few drops of white truffle oil for an elevated fragrance notes."
+        },
+        {
+          "number": 15,
+          "step": "Garnish bowls with delicate fresh micro-greens scattered loosely across top surface."
+        },
+        {
+          "number": 16,
+          "step": "Dust a tiny pinch of white pepper over each quenelle right before serving to guests."
+        },
+        {
+          "number": 17,
+          "step": "Verify temperature of broth and dumplings is hot and ready for immediate service."
+        },
+        {
+          "number": 18,
+          "step": "Clean rim of each bowl with a damp cloth to ensure a neat restaurant presentation."
+        },
+        {
+          "number": 19,
+          "step": "Serve the quenelles immediately with warm crusty French bread on the side table."
+        },
+        {
+          "number": 20,
+          "step": "Ensure remaining herb broth is kept hot in case guests request extra liquid ladle."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy this savory French dumpling preparation while hot and fresh from the kitchen."
+        }
+      ]
+    }
+  ]
+}

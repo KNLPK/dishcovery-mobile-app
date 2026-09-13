@@ -1,0 +1,550 @@
+{
+  "id": 9001010,
+  "title": "Tuscan Pear and Vin Santo Braise",
+  "image": "generated://dishcovery/9001010.jpg",
+  "readyInMinutes": 90,
+  "servings": 4,
+  "summary": "Ending a meal with a warm <b>Italian slow braise</b> brings sophisticated rusticity to your dinner table. Ripe Bosc pears are gently simmered in a luscious bath of <b>sweet Vin Santo dessert wine</b>, infused with cinnamon sticks, star anise, lemon peel, and pure orange blossom honey. As the liquid slowly reduces over low heat, the pears absorb deep aromatic spices, transforming into silky melt-in-your-mouth fruit jewels. A final reduction transforms the remaining braising pan juices into a glossy <b>spiced caramel syrup</b>. Served warm over creamy vanilla gelato or tangy whipped mascarpone, this dessert showcases how traditional braising techniques elevate simple fruit into <b>an extraordinary dessert course</b>. The lingering notes of toasted oak and bright citrus offer a elegant balance of warmth and sweetness. It is a stunning, effortless finish for special dinner parties that will leave your guests thoroughly enchanted by authentic <b>Tuscan culinary heritage</b>.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.3
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Sugar",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 53.3
+      },
+      {
+        "name": "Protein",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2.8
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 280,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 1.7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.2
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3.8
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Folate",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4.5
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.5
+      },
+      {
+        "name": "Iron",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Potassium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.2
+      },
+      {
+        "name": "Magnesium",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5.7
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3.6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6.4
+      },
+      {
+        "name": "Choline",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2.5
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17.8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "pcs",
+      "name": "bosc pears"
+    },
+    {
+      "id": 90001,
+      "amount": 375,
+      "unit": "ml",
+      "name": "vin santo dessert wine"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "honey"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "pcs",
+      "name": "star anise"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "vanilla bean"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "orange peel"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "lemon peel"
+    },
+    {
+      "id": 90008,
+      "amount": 200,
+      "unit": "g",
+      "name": "mascarpone cheese"
+    },
+    {
+      "id": 90009,
+      "amount": 100,
+      "unit": "ml",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90011,
+      "amount": 40,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90012,
+      "amount": 30,
+      "unit": "g",
+      "name": "unsolidified butter"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "pcs",
+      "name": "fresh mint sprigs"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90017,
+      "amount": 50,
+      "unit": "g",
+      "name": "amaretti cookies"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "cloves"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90020,
+      "amount": 250,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cold water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Fruit Prep and Infusion",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash firm Bosc pears under cool tap water and dry them gently using clean cloth towels."
+        },
+        {
+          "number": 2,
+          "step": "Peel pears completely using a sharp swivel peeler while leaving intact stems attached at tops."
+        },
+        {
+          "number": 3,
+          "step": "Slice a small flat piece off bottom base of each pear so they stand upright in pot."
+        },
+        {
+          "number": 4,
+          "step": "Use a melon baller from bottom core to remove seeds while keeping pear shape intact."
+        },
+        {
+          "number": 5,
+          "step": "Rub peeled pears with fresh lemon juice immediately to prevent browning oxidation on skin."
+        },
+        {
+          "number": 6,
+          "step": "Split vanilla bean lengthwise with a paring knife and scrape out fragrant black seeds inside."
+        },
+        {
+          "number": 7,
+          "step": "Peel wide strips of citrus peel from orange and lemon avoiding bitter white pith beneath."
+        },
+        {
+          "number": 8,
+          "step": "Toast slivered almonds in a dry skillet over medium heat for three minutes until golden brown."
+        },
+        {
+          "number": 9,
+          "step": "Crush crunchy amaretti cookies coarsely into rustic crumbs inside a sealed plastic bag."
+        },
+        {
+          "number": 10,
+          "step": "Set prepared nut and cookie garnishes aside in separate small serving bowls for plating."
+        }
+      ]
+    },
+    {
+      "name": "Braising Liquid Setup",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour sweet Vin Santo wine and fresh spring water into a Dutch oven wide enough for pears."
+        },
+        {
+          "number": 2,
+          "step": "Add pure orange blossom honey, brown sugar, and scraped vanilla bean seeds into liquid."
+        },
+        {
+          "number": 3,
+          "step": "Drop cinnamon sticks, whole star anise pods, whole cloves, and ground cardamom into pot."
+        },
+        {
+          "number": 4,
+          "step": "Add strips of lemon and orange peel along with a light pinch of sea salt into wine."
+        },
+        {
+          "number": 5,
+          "step": "Place Dutch oven over medium heat and stir liquid until honey dissolves completely into wine."
+        },
+        {
+          "number": 6,
+          "step": "Bring braising liquid to a gentle boil for three minutes to release warm spice aromas."
+        },
+        {
+          "number": 7,
+          "step": "Stand peeled pears upright inside Dutch oven so bases rest evenly on pot bottom."
+        },
+        {
+          "number": 8,
+          "step": "Baste tops of standing pears with hot spiced wine bath using a stainless spoon."
+        },
+        {
+          "number": 9,
+          "step": "Reduce stove heat setting to lowest level so liquid bubbles very softly around fruit bases."
+        },
+        {
+          "number": 10,
+          "step": "Cover Dutch oven tightly with a heavy lid to trap aromatic braising steam inside pot."
+        }
+      ]
+    },
+    {
+      "name": "Slow Braising Process",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Simmer covered pears gently for forty minutes over low heat until tender throughout fruit body."
+        },
+        {
+          "number": 2,
+          "step": "Uncover pot every ten minutes to baste pear tops generously with warm spice braising liquid."
+        },
+        {
+          "number": 3,
+          "step": "Test tenderness by sliding a thin skewer into pear centers; it should slip through easily."
+        },
+        {
+          "number": 4,
+          "step": "Turn off burner once pears are translucent and tender while still retaining elegant structure."
+        },
+        {
+          "number": 5,
+          "step": "Lift pears carefully from pot using a slotted utensil and place upright on wide plate."
+        },
+        {
+          "number": 6,
+          "step": "Strain hot braising wine through fine mesh sieve back into pot to remove whole spices."
+        },
+        {
+          "number": 7,
+          "step": "Return strained liquid to medium heat and simmer rapidly uncovered to reduce volume by half."
+        },
+        {
+          "number": 8,
+          "step": "Whisk butter and orange blossom water into syrup until glossy and slightly thickened in texture."
+        },
+        {
+          "number": 9,
+          "step": "Whip chilled mascarpone cheese, heavy cream, and powdered sugar together until soft peaks form."
+        },
+        {
+          "number": 10,
+          "step": "Chill sweet whipped mascarpone cream in refrigerator until ready for dessert assembly."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Dessert Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place a generous dollop of chilled mascarpone cream off-center on four dessert plates."
+        },
+        {
+          "number": 2,
+          "step": "Position one warm braised pear upright next to sweet cream on each wide dessert plate."
+        },
+        {
+          "number": 3,
+          "step": "Spoon warm glossy Vin Santo reduction syrup generously over each standing braised pear top."
+        },
+        {
+          "number": 4,
+          "step": "Allow sweet syrup to pool decoratively around base of fruit and cream on plate."
+        },
+        {
+          "number": 5,
+          "step": "Scatter toasted slivered almonds over mascarpone cream for pleasing texture contrast in dish."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle crushed amaretti cookie crumbs over warm reduction sauce for extra spiced crunch."
+        },
+        {
+          "number": 7,
+          "step": "Garnish top of each dessert plate with a fresh sprig of bright green mint leaf."
+        },
+        {
+          "number": 8,
+          "step": "Dust plate borders lightly with powdered sugar using a fine mesh sifter for presentation."
+        },
+        {
+          "number": 9,
+          "step": "Serve warm braised pears immediately alongside small glasses of chilled Vin Santo wine."
+        },
+        {
+          "number": 10,
+          "step": "Enjoy this sophisticated Italian dessert course that blends warmth, spice, and fruit elegance."
+        }
+      ]
+    }
+  ]
+}

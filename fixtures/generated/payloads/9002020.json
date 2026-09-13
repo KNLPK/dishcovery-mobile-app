@@ -1,0 +1,855 @@
+{
+  "id": 9002020,
+  "title": "Charred Vietnamese Pork Skewers with Fermented Shrimp Glaze",
+  "image": "generated://dishcovery/9002020.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Highlighting bold Southeast Asian street food flavors, these <b>charred Vietnamese skewers</b> center on savory <b>pork shoulder meat</b> glazed with a tangy fermented shrimp paste emulsion. The meat is thinly sliced and marinated with lemongrass, garlic, fish sauce, and palm sugar before being threaded onto bamboo skewers for quick high-heat grilling. The key profile component—fermented shrimp paste (mam tom)—is reduced with lime juice, chili, and pineapple puree, producing an intense umami glaze that caramelizes over open flames. Served alongside fresh rice vermicelli noodles, crisp herbs, cucumber ribbons, and crushed peanuts, this dish provides a contrast of hot charred savory meat with cool refreshing sides. Built around authentic street-side grilling techniques, this recipe delivers restaurant-quality complexity with vibrant colors and rich aromas.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sugar",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Protein",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 1280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 11.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 14,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 7.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Folate",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Magnesium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 36,
+        "unit": "µg",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Choline",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "pork shoulder thinly sliced"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fermented shrimp paste"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "stalks",
+      "name": "fresh lemongrass minced"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "shallots minced"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "palm sugar grated"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dark soy sauce"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90010,
+      "amount": 50,
+      "unit": "g",
+      "name": "pineapple puree"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "thai",
+      "name": "red bird chillies minced"
+    },
+    {
+      "id": 90012,
+      "amount": 200,
+      "unit": "g",
+      "name": "rice vermicelli noodles"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "cup",
+      "name": "fresh mint leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "cup",
+      "name": "fresh thai basil leaves"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "cup",
+      "name": "fresh cilantro leaves"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "medium",
+      "name": "cucumber julienned"
+    },
+    {
+      "id": 90017,
+      "amount": 100,
+      "unit": "g",
+      "name": "pickled daikon and carrot"
+    },
+    {
+      "id": 90018,
+      "amount": 50,
+      "unit": "g",
+      "name": "roasted peanuts crushed"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "scallion oil"
+    },
+    {
+      "id": 90020,
+      "amount": 12,
+      "unit": "bamboo",
+      "name": "skewers soaked"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "five spice powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90025,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "garlic oil"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "salt"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "small",
+      "name": "shallot fried crisps"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "bean sprouts"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "caramel sauce vietnamese"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ginger grated"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "lime",
+      "name": "wedges for serving"
+    },
+    {
+      "id": 90035,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "hoisin sauce"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sriracha sauce"
+    },
+    {
+      "id": 90038,
+      "amount": 50,
+      "unit": "ml",
+      "name": "warm water for noodles"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sugar for marinade"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "coconut water"
+    },
+    {
+      "id": 90042,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "sawtooth herb sliced"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "annatto oil"
+    },
+    {
+      "id": 90044,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "tamarind paste"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Meat Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place bamboo skewers completely submerged in a shallow tray of cold water for thirty minutes."
+        },
+        {
+          "number": 2,
+          "step": "Slice pork shoulder meat across grain into very thin strips measuring three inches long."
+        },
+        {
+          "number": 3,
+          "step": "Trim tender outer layer stalks of fresh lemongrass discarding tough green upper leaves."
+        },
+        {
+          "number": 4,
+          "step": "Mince inner white core of lemongrass stalks finely using a sharp chef knife on board."
+        },
+        {
+          "number": 5,
+          "step": "Mince fresh garlic cloves peeled shallots and red bird chillies on cutting board finely."
+        },
+        {
+          "number": 6,
+          "step": "In a large glass bowl combine minced lemongrass minced garlic minced shallots and chillies."
+        },
+        {
+          "number": 7,
+          "step": "Add fish sauce dark soy sauce grated palm sugar and vietnamese caramel sauce to bowl."
+        },
+        {
+          "number": 8,
+          "step": "Add five spice powder black pepper sesame oil sugar for marinade and vegetable oil."
+        },
+        {
+          "number": 9,
+          "step": "Whisk marinade ingredients together until palm sugar dissolves into dark aromatic liquid."
+        },
+        {
+          "number": 10,
+          "step": "Add sliced pork shoulder strips into marinade bowl tossing meat to coat every slice."
+        },
+        {
+          "number": 11,
+          "step": "Massage meat strips firmly with gloved hands to work marinade flavors into muscle fibers."
+        },
+        {
+          "number": 12,
+          "step": "Cover bowl tightly with plastic wrap and chill in refrigerator for at least thirty minutes."
+        },
+        {
+          "number": 13,
+          "step": "Slice cucumber lengthwise into matchstick ribbons removing soft watery seed core."
+        },
+        {
+          "number": 14,
+          "step": "Drain pickled daikon and carrot matchsticks from pickle brine in small sieve colander."
+        },
+        {
+          "number": 15,
+          "step": "Wash mint leaves thai basil cilantro and sawtooth herb in cold water drying completely."
+        },
+        {
+          "number": 16,
+          "step": "Set prepped fresh herb platters and pickled vegetables in cold station area ready."
+        }
+      ]
+    },
+    {
+      "name": "Fermented Shrimp Glaze",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place a small nonstick saucepan over medium low heat setting on stovetop burner."
+        },
+        {
+          "number": 2,
+          "step": "Add annatto oil and one teaspoon of garlic oil to warming saucepan surface."
+        },
+        {
+          "number": 3,
+          "step": "Add fermented shrimp paste (mam tom) into warm oil stirring with silicone spatula."
+        },
+        {
+          "number": 4,
+          "step": "Saute shrimp paste for two minutes allowing pungent fermented aroma to cook down gently."
+        },
+        {
+          "number": 5,
+          "step": "Whisk in pineapple puree lime juice grated ginger and coconut water until smooth."
+        },
+        {
+          "number": 6,
+          "step": "Add honey rice vinegar hoisin sauce sriracha sauce and tamarind paste into glaze pan."
+        },
+        {
+          "number": 7,
+          "step": "Whisk glaze mixture continuously as it simmers and bubbles gently for four minutes."
+        },
+        {
+          "number": 8,
+          "step": "Dissolve cornstarch in one tablespoon water and stir into glaze to thicken slightly."
+        },
+        {
+          "number": 9,
+          "step": "Remove glaze saucepan from heat setting and strain through fine mesh sieve into bowl."
+        },
+        {
+          "number": 10,
+          "step": "Taste glaze adjusting acidity with extra lime juice or sweetness with honey as desired."
+        },
+        {
+          "number": 11,
+          "step": "Set finished glossy fermented shrimp glaze aside with silicone basting brush ready."
+        },
+        {
+          "number": 12,
+          "step": "Prepare scallion oil by heating two tablespoons vegetable oil in small pan until hot."
+        },
+        {
+          "number": 13,
+          "step": "Pour hot oil over chopped green scallions in heatproof bowl creating sizzling herb oil."
+        },
+        {
+          "number": 14,
+          "step": "Crush roasted peanuts coarsely using mortar and pestle or heavy rolling pin on board."
+        },
+        {
+          "number": 15,
+          "step": "Boil water in saucepan and cook rice vermicelli noodles for three minutes until tender."
+        },
+        {
+          "number": 16,
+          "step": "Drain cooked noodles in colander rinsing thoroughly under cold tap water to stop cooking."
+        }
+      ]
+    },
+    {
+      "name": "Threading Skewers",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove soaked bamboo skewers from water tray and pat dry with clean paper towels."
+        },
+        {
+          "number": 2,
+          "step": "Remove marinated pork shoulder strips from refrigerator uncovering glass bowl carefully."
+        },
+        {
+          "number": 3,
+          "step": "Take one strip of marinated pork folding it accordion style into compact ribbon shape."
+        },
+        {
+          "number": 4,
+          "step": "Thread pointed end of bamboo skewer through center of folded pork strip ribbon securely."
+        },
+        {
+          "number": 5,
+          "step": "Slide pork strip down skewer leaving two inches of exposed handle at bottom end."
+        },
+        {
+          "number": 6,
+          "step": "Repeat threading process adding four to five folded pork strips onto each skewer."
+        },
+        {
+          "number": 7,
+          "step": "Press meat pieces together gently along skewer to create dense uniform meat cylinder."
+        },
+        {
+          "number": 8,
+          "step": "Ensure no loose meat flaps hang off skewers to prevent burning over hot grill flames."
+        },
+        {
+          "number": 9,
+          "step": "Place threaded pork skewers onto a clean baking sheet lined with foil in single row."
+        },
+        {
+          "number": 10,
+          "step": "Brush remaining marinade liquid over threaded raw meat skewers using pastry brush."
+        },
+        {
+          "number": 11,
+          "step": "Repeat threading until all twelve bamboo skewers are filled tightly with marinated pork."
+        },
+        {
+          "number": 12,
+          "step": "Lightly brush threaded meat skewers with vegetable oil to prevent sticking to grill grate."
+        },
+        {
+          "number": 13,
+          "step": "Clean food preparation area and cutting boards used for handling raw pork meat."
+        },
+        {
+          "number": 14,
+          "step": "Prepare outdoor grill or indoor cast iron ridge grill pan for high heat cooking session."
+        },
+        {
+          "number": 15,
+          "step": "Oil grill grates thoroughly using paper towel dipped in canola oil held by tongs."
+        },
+        {
+          "number": 16,
+          "step": "Ensure grill surface reaches hot 450 degree Fahrenheit temperature before cooking meat."
+        }
+      ]
+    },
+    {
+      "name": "Grilling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Lay threaded pork skewers across hot grill grates placing them perpendicular to ridge lines."
+        },
+        {
+          "number": 2,
+          "step": "Allow skewers to sear undisturbed for three minutes until deep grill marks form on bottom."
+        },
+        {
+          "number": 3,
+          "step": "Turn skewers over using long tongs cooking second side for two additional minutes."
+        },
+        {
+          "number": 4,
+          "step": "Brush top charred side of pork skewers generously with fermented shrimp glaze using brush."
+        },
+        {
+          "number": 5,
+          "step": "Turn skewers again glazing second charred side allowing sugars in glaze to bubble hot."
+        },
+        {
+          "number": 6,
+          "step": "Monitor fire flare ups by moving skewers to indirect heat zone if fat drips ignite."
+        },
+        {
+          "number": 7,
+          "step": "Continue turning and basting skewers every minute for total cooking time of eight minutes."
+        },
+        {
+          "number": 8,
+          "step": "Glaze should form a dark sticky caramelized crust over meat while pork cooks through."
+        },
+        {
+          "number": 9,
+          "step": "Check internal meat temperature with instant read thermometer ensuring it reads 160 degrees."
+        },
+        {
+          "number": 10,
+          "step": "Brush skewers one final time with fermented shrimp glaze right before removing from grill."
+        },
+        {
+          "number": 11,
+          "step": "Transfer hot charred pork skewers onto clean warm platter resting for three minutes."
+        },
+        {
+          "number": 12,
+          "step": "Spoon warm scallion oil over charred glazed pork skewers while meat rests on platter."
+        },
+        {
+          "number": 13,
+          "step": "Scatter crushed roasted peanuts and fried shallot crisps over glistening meat skewers."
+        },
+        {
+          "number": 14,
+          "step": "Divide cooked chilled rice vermicelli noodles among four serving bowls or wide plates."
+        },
+        {
+          "number": 15,
+          "step": "Arrange julienned cucumber bean sprouts and pickled daikon carrot alongside noodles."
+        },
+        {
+          "number": 16,
+          "step": "Tuck fresh mint thai basil cilantro and sawtooth herb sprigs into side of noodle bowls."
+        },
+        {
+          "number": 17,
+          "step": "Place three hot charred pork skewers across top of cold noodles and fresh herb salad."
+        }
+      ]
+    },
+    {
+      "name": "Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Nestle fresh lime wedges alongside grilled skewers in each completed serving bowl."
+        },
+        {
+          "number": 2,
+          "step": "Pour remaining fermented shrimp glaze into four small dipping sauce dishes for table."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle extra scallion oil over noodle greens for added gloss and aromatic richness."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle extra crushed roasted peanuts across noodle salad area for pleasant crunch."
+        },
+        {
+          "number": 5,
+          "step": "Check that dish temperature contrast between hot grilled meat and cool noodles is maintained."
+        },
+        {
+          "number": 6,
+          "step": "Wipe bowl edges clean using damp paper towel before taking skewers to dining table."
+        },
+        {
+          "number": 7,
+          "step": "Serve immediately offering chop sticks and small spoons for comfortable dining access."
+        },
+        {
+          "number": 8,
+          "step": "Instruct guests to squeeze fresh lime over skewers and mix noodles with herbs before eating."
+        },
+        {
+          "number": 9,
+          "step": "Store leftover cooked skewers wrapped tightly in foil in refrigerator for two days."
+        },
+        {
+          "number": 10,
+          "step": "Reheat leftover skewers under oven broiler for three minutes to crisp glazed edges."
+        },
+        {
+          "number": 11,
+          "step": "Store leftover vermicelli noodles and fresh herbs separately in airtight container."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy these classic Vietnamese street skewers as a bold flavorful meal or party dish."
+        },
+        {
+          "number": 13,
+          "step": "Clean grill grates while warm using wire brush to remove caramelized glaze residue."
+        },
+        {
+          "number": 14,
+          "step": "Wash saucepans and prep utensils in hot soapy water for simple post meal cleanup."
+        },
+        {
+          "number": 15,
+          "step": "Keep extra dipping glaze chilled in glass jar where fermented flavor holds one week."
+        },
+        {
+          "number": 16,
+          "step": "Note custom spice or shrimp paste levels on recipe card for future grilling events."
+        },
+        {
+          "number": 17,
+          "step": "Complete meal experience with refreshing iced jasmine tea or cold lager beverage."
+        }
+      ]
+    }
+  ]
+}

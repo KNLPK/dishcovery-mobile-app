@@ -1,0 +1,855 @@
+{
+  "id": 9002027,
+  "title": "Indian Seafood Noodle Bowl with Coconut Curry Broth",
+  "image": "generated://dishcovery/9002027.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This vibrant <b>seafood noodle bowl</b> represents a triumphant fusion of coastal Indian flavors and satisfying noodle comfort. Plump wild prawns and tender sea scallops are quick-seared, then simmered in a creamy, aromatic broth made from coconut milk, tamarind, curry leaves, and freshly crushed mustard seeds. Served over tender rice noodles, the dish captures the sun-drenched coastal essence of Goa and Kerala. Fragrant spices including turmeric, coriander, and Kashmiri chili powder infuse the golden broth with complex warmth and vivid color, while a splash of fresh lime juice and palm sugar balances the tangy coconut base. Garnished with crispy fried shallots, fresh cilantro, sliced red chillies, and toasted coconut flakes, this noodle bowl offers an extraordinary interplay of textures and sensations. Simple enough for weeknight dinners yet opulent enough for entertaining, this <b>coastal coconut seafood bowl</b> delivers an unforgettable dining experience in under an hour.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 560,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Fat",
+        "amount": 31,
+        "unit": "g",
+        "percentOfDailyNeeds": 47.7
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 21.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 106
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Sugar",
+        "amount": 6.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.1
+      },
+      {
+        "name": "Protein",
+        "amount": 28.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 56.8
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 870,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37.8
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.8
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 9.6
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 3.4
+      },
+      {
+        "name": "Calcium",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.2
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.9
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 780,
+        "unit": "IU",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1.3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.4
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Magnesium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.6
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 38.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52.2
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "peeled wild prawns"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "sea scallops"
+    },
+    {
+      "id": 90002,
+      "amount": 250,
+      "unit": "g",
+      "name": "thin rice vermicelli noodles"
+    },
+    {
+      "id": 90003,
+      "amount": 400,
+      "unit": "ml",
+      "name": "full fat coconut milk"
+    },
+    {
+      "id": 90004,
+      "amount": 300,
+      "unit": "ml",
+      "name": "seafood broth"
+    },
+    {
+      "id": 90005,
+      "amount": 30,
+      "unit": "g",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90006,
+      "amount": 15,
+      "unit": "items",
+      "name": "fresh curry leaves"
+    },
+    {
+      "id": 90007,
+      "amount": 5,
+      "unit": "g",
+      "name": "black mustard seeds"
+    },
+    {
+      "id": 90008,
+      "amount": 5,
+      "unit": "g",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90009,
+      "amount": 5,
+      "unit": "g",
+      "name": "kashmiri chili powder"
+    },
+    {
+      "id": 90010,
+      "amount": 5,
+      "unit": "g",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "g",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90012,
+      "amount": 15,
+      "unit": "g",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90013,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90014,
+      "amount": 100,
+      "unit": "g",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90015,
+      "amount": 30,
+      "unit": "ml",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90016,
+      "amount": 15,
+      "unit": "g",
+      "name": "grated palm sugar"
+    },
+    {
+      "id": 90017,
+      "amount": 15,
+      "unit": "ml",
+      "name": "fresh lime juice"
+    },
+    {
+      "id": 90018,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90019,
+      "amount": 30,
+      "unit": "g",
+      "name": "crispy fried shallots"
+    },
+    {
+      "id": 90020,
+      "amount": 20,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "items",
+      "name": "sliced red chilies"
+    },
+    {
+      "id": 90022,
+      "amount": 20,
+      "unit": "g",
+      "name": "toasted coconut flakes"
+    },
+    {
+      "id": 90023,
+      "amount": 100,
+      "unit": "g",
+      "name": "sliced red bell pepper"
+    },
+    {
+      "id": 90024,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby bok choy"
+    },
+    {
+      "id": 90025,
+      "amount": 50,
+      "unit": "g",
+      "name": "bean sprouts"
+    },
+    {
+      "id": 90026,
+      "amount": 15,
+      "unit": "ml",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90027,
+      "amount": 2,
+      "unit": "g",
+      "name": "fenugreek seeds"
+    },
+    {
+      "id": 90028,
+      "amount": 2,
+      "unit": "g",
+      "name": "asafoetida hing powder"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "bruised lemongrass"
+    },
+    {
+      "id": 90030,
+      "amount": 10,
+      "unit": "g",
+      "name": "galangal root sliced"
+    },
+    {
+      "id": 90031,
+      "amount": 2,
+      "unit": "items",
+      "name": "star anise pods"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "cinnamon",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90033,
+      "amount": 3,
+      "unit": "pods",
+      "name": "green cardamom crushed"
+    },
+    {
+      "id": 90034,
+      "amount": 2,
+      "unit": "g",
+      "name": "black pepper ground"
+    },
+    {
+      "id": 90035,
+      "amount": 50,
+      "unit": "g",
+      "name": "bamboo shoot slices"
+    },
+    {
+      "id": 90036,
+      "amount": 15,
+      "unit": "ml",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "lime",
+      "name": "lime zest"
+    },
+    {
+      "id": 90038,
+      "amount": 2,
+      "unit": "g",
+      "name": "garam masala powder"
+    },
+    {
+      "id": 90039,
+      "amount": 10,
+      "unit": "g",
+      "name": "chopped mint leaves"
+    },
+    {
+      "id": 90040,
+      "amount": 5,
+      "unit": "g",
+      "name": "curry powder sweet"
+    },
+    {
+      "id": 90041,
+      "amount": 15,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90042,
+      "amount": 50,
+      "unit": "g",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90043,
+      "amount": 2,
+      "unit": "g",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90044,
+      "amount": 10,
+      "unit": "ml",
+      "name": "mustard oil"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood and Noodle Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat wild prawns and sea scallops dry with paper towels to ensure good searing texture."
+        },
+        {
+          "number": 2,
+          "step": "Season wild prawns and sea scallops lightly with ground turmeric, sea salt, and lime juice."
+        },
+        {
+          "number": 3,
+          "step": "Place thin rice vermicelli noodles into a large heatproof glass bowl on kitchen counter."
+        },
+        {
+          "number": 4,
+          "step": "Pour boiling hot water over rice noodles, covering them completely to steep for four minutes."
+        },
+        {
+          "number": 5,
+          "step": "Drain steeped rice noodles thoroughly in colander and rinse under cold water to stop cooking."
+        },
+        {
+          "number": 6,
+          "step": "Toss rice noodles with a teaspoon of sesame oil to prevent strands from sticking together."
+        },
+        {
+          "number": 7,
+          "step": "Heat coconut oil in a wide heavy skillet over high heat until oil shimmers visibly."
+        },
+        {
+          "number": 8,
+          "step": "Add seasoned sea scallops to hot skillet and sear for ninety seconds on first side until golden."
+        },
+        {
+          "number": 9,
+          "step": "Flip scallops over and sear second side for sixty seconds before transferring to warm plate."
+        },
+        {
+          "number": 10,
+          "step": "Add seasoned prawns to same hot skillet and cook for two minutes total until pink and opaque."
+        },
+        {
+          "number": 11,
+          "step": "Transfer cooked prawns to plate alongside seared scallops, tenting loosely with foil to keep warm."
+        },
+        {
+          "number": 12,
+          "step": "Set aside seared seafood plate while constructing rich coastal Indian coconut curry broth."
+        },
+        {
+          "number": 13,
+          "step": "Verify scallops display caramel crust while remaining tender and juicy in center core."
+        },
+        {
+          "number": 14,
+          "step": "Divide rice vermicelli noodles into four equal portions ready for final bowl assembly."
+        },
+        {
+          "number": 15,
+          "step": "Ensure seafood is cooked just to medium stage so it finishes tender in hot curry broth."
+        },
+        {
+          "number": 16,
+          "step": "Keep skillet pan drippings intact to use when building aromatic curry base in next phase."
+        },
+        {
+          "number": 17,
+          "step": "Check that rice noodles retain firm springy chew texture without becoming overly soft."
+        }
+      ]
+    },
+    {
+      "name": "Tempering and Aromatic Foundation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat remaining coconut oil and mustard oil in deep soup pot over medium heat on stovetop."
+        },
+        {
+          "number": 2,
+          "step": "Add black mustard seeds, fenugreek seeds, star anise pods, and crushed cardamom to hot oil."
+        },
+        {
+          "number": 3,
+          "step": "Cook spices for thirty seconds until mustard seeds sputter crackle and pop lively in hot fat."
+        },
+        {
+          "number": 4,
+          "step": "Add fresh curry leaves, bruised lemongrass, galangal slices, and cinnamon stick to pot."
+        },
+        {
+          "number": 5,
+          "step": "Fry curry leaves for twenty seconds until aromatic and crispy, stirring constantly with spoon."
+        },
+        {
+          "number": 6,
+          "step": "Add sliced shallots into spiced oil and sauté for six minutes until golden brown around edges."
+        },
+        {
+          "number": 7,
+          "step": "Stir in grated fresh ginger, minced garlic, and asafoetida hing powder, cooking two minutes."
+        },
+        {
+          "number": 8,
+          "step": "Add sliced red bell pepper, diced tomatoes, and sliced red chilies into softening aromatics."
+        },
+        {
+          "number": 9,
+          "step": "Sauté pepper and tomato mixture for three minutes until vegetables soften and release juices."
+        },
+        {
+          "number": 10,
+          "step": "Sprinkle ground turmeric, kashmiri chili powder, ground coriander, and ground cumin into pot."
+        },
+        {
+          "number": 11,
+          "step": "Stir spice powders into aromatic vegetable base for one minute until fragrant paste forms."
+        },
+        {
+          "number": 12,
+          "step": "Add sweet curry powder and black pepper ground to deepen layered Indian spice profile."
+        },
+        {
+          "number": 13,
+          "step": "Verify spices are fully toasted in oil without scorching or sticking to bottom of pot."
+        },
+        {
+          "number": 14,
+          "step": "Deglaze pot with small splash of water to release browned aromatic spice bits into pan base."
+        },
+        {
+          "number": 15,
+          "step": "Check that red bell pepper slices retain bright red hue while softening in spice paste."
+        },
+        {
+          "number": 16,
+          "step": "Ensure tempered curry leaves have infused their distinct citrus herbal aroma into hot oil."
+        },
+        {
+          "number": 17,
+          "step": "Prepare liquid coconut milk and stock for immediate broth construction in upcoming step."
+        }
+      ]
+    },
+    {
+      "name": "Coconut Curry Broth Construction",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour rich seafood broth into pot with spiced aromatic vegetable base, stirring to combine."
+        },
+        {
+          "number": 2,
+          "step": "Add full fat coconut milk into pot, stirring continuously until smooth golden liquid forms."
+        },
+        {
+          "number": 3,
+          "step": "Whisk tamarind paste into simmering coconut broth to introduce characteristic coastal sour tang."
+        },
+        {
+          "number": 4,
+          "step": "Add grated palm sugar, fish sauce, and sea salt to balance sour tamarind with sweet notes."
+        },
+        {
+          "number": 5,
+          "step": "Bring coconut curry broth to a gentle simmer over medium burner heat, avoiding boil."
+        },
+        {
+          "number": 6,
+          "step": "Simmer broth uncovered for ten minutes so spices, coconut, and tamarind fuse into harmony."
+        },
+        {
+          "number": 7,
+          "step": "Add sliced baby bok choy and bamboo shoot slices into simmering coconut curry broth pot."
+        },
+        {
+          "number": 8,
+          "step": "Cook bok choy for two minutes until leaves turn bright green and stems become tender crisp."
+        },
+        {
+          "number": 9,
+          "step": "Stir in lime zest, fresh lime juice, and garam masala powder during final minute simmer."
+        },
+        {
+          "number": 10,
+          "step": "Taste coconut curry broth and fine-tune balance between spicy heat, sour tamarind, and coconut."
+        },
+        {
+          "number": 11,
+          "step": "Remove star anise pods, cinnamon stick, and lemongrass stalk from broth with slotted spoon."
+        },
+        {
+          "number": 12,
+          "step": "Keep broth at very gentle low simmer so coconut milk remains smooth without separating."
+        },
+        {
+          "number": 13,
+          "step": "Check that broth displays rich golden color and creamy consistency with red oil shimmer."
+        },
+        {
+          "number": 14,
+          "step": "Add extra pinch of kashmiri chili powder if deeper red hue or additional heat is desired."
+        },
+        {
+          "number": 15,
+          "step": "Ensure baby bok choy stems remain crisp to add texture contrast to final noodle bowl."
+        },
+        {
+          "number": 16,
+          "step": "Verify coconut broth is piping hot and ready to pour over prepared rice noodles."
+        }
+      ]
+    },
+    {
+      "name": "Noodle Bowl Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place one portion of steeped rice vermicelli noodles into center of four wide deep bowls."
+        },
+        {
+          "number": 2,
+          "step": "Arrange seared wild prawns and scallops neatly on top of rice noodles in each serving bowl."
+        },
+        {
+          "number": 3,
+          "step": "Ladle piping hot coconut curry broth generously over noodles, prawns, scallops, and bok choy."
+        },
+        {
+          "number": 4,
+          "step": "Ensure each bowl receives equal portions of cooked red bell peppers and green bok choy stems."
+        },
+        {
+          "number": 5,
+          "step": "Top each noodle bowl with fresh bean sprouts and sliced red chilies for crunch and heat."
+        },
+        {
+          "number": 6,
+          "step": "Scatter crispy fried shallots and toasted coconut flakes generously across filled bowls."
+        },
+        {
+          "number": 7,
+          "step": "Garnish each portion with fresh cilantro leaves and chopped mint leaves for herbal aroma."
+        },
+        {
+          "number": 8,
+          "step": "Dust small pinch of chili flakes over seafood tops for visual pop and extra spicy kick."
+        },
+        {
+          "number": 9,
+          "step": "Serve immediately while broth is steaming hot and noodles are perfectly tender in bowls."
+        },
+        {
+          "number": 10,
+          "step": "Provide lime wedges and chop sticks alongside soup spoons for complete dining setup."
+        },
+        {
+          "number": 11,
+          "step": "Pair with chilled Indian white wine or fresh coconut water to complement spicy coastal curry."
+        },
+        {
+          "number": 12,
+          "step": "Store leftover coconut broth and seafood separately in refrigerator for up to two days."
+        },
+        {
+          "number": 13,
+          "step": "Reheat leftover broth over gentle stove heat, adding fresh lime juice right before serving."
+        },
+        {
+          "number": 14,
+          "step": "Wipe outer bowl rims clean with warm towel before bringing noodle bowls to table guests."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy creamy, spicy, and tangy coastal Indian seafood noodle bowl packed with herbs."
+        },
+        {
+          "number": 16,
+          "step": "Encourage diners to mix fresh bean sprouts and herbs into hot broth before eating."
+        }
+      ]
+    },
+    {
+      "name": "Storage and Leftover Directions",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cool leftover coconut curry broth to room temperature within one hour before sealing tight."
+        },
+        {
+          "number": 2,
+          "step": "Store cooked seafood in separate small container to maintain ideal tender texture when reheating."
+        },
+        {
+          "number": 3,
+          "step": "Keep extra un-brothed rice noodles wrapped in fridge to prevent noodles soaking up all broth."
+        },
+        {
+          "number": 4,
+          "step": "Reheat leftover broth gently in pot over medium-low heat without letting coconut boil hard."
+        },
+        {
+          "number": 5,
+          "step": "Drop stored seafood into hot broth for final sixty seconds just to rewarm gently through."
+        },
+        {
+          "number": 6,
+          "step": "Ladle warm broth and seafood over freshly steeped rice noodles for best leftover quality."
+        },
+        {
+          "number": 7,
+          "step": "Add fresh cilantro and lime juice to reheated bowls to revive vibrant freshly cooked taste."
+        },
+        {
+          "number": 8,
+          "step": "Discard any leftover seafood soup left at room temperature for longer than two hours max."
+        },
+        {
+          "number": 9,
+          "step": "Clean curry pot immediately with warm water and soap to remove yellow turmeric oil easily."
+        },
+        {
+          "number": 10,
+          "step": "Savor convenience of rapid weeknight seafood noodle bowls boasting deep coastal Indian flavors."
+        },
+        {
+          "number": 11,
+          "step": "Check that leftover seafood remains tender without turning rubbery during gentle rewarming process."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy final savory portions of spicy coconut curry broth with fresh crusty bread if desired."
+        },
+        {
+          "number": 13,
+          "step": "Store extra fried shallots and toasted coconut in dry airtight container for future garnishes."
+        },
+        {
+          "number": 14,
+          "step": "Celebrate rich culinary tradition of South Indian coastal cooking brought to modern noodle bowls."
+        },
+        {
+          "number": 15,
+          "step": "Verify balance of rich coconut fat, tangy tamarind, and warm tempered mustard seed spices."
+        },
+        {
+          "number": 16,
+          "step": "Share recipe with seafood lovers looking for quick elevated curry noodle dinner options."
+        }
+      ]
+    }
+  ]
+}

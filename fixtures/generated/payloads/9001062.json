@@ -1,0 +1,552 @@
+{
+  "id": 9001062,
+  "title": "Greek Sweet Lemon-Rice Dessert Soup",
+  "image": "generated://dishcovery/9001062.jpg",
+  "readyInMinutes": 50,
+  "servings": 6,
+  "summary": "Inspired by classic avgolemono techniques, this <b>Greek dessert soup</b> transforms arborio rice, whole milk, and egg yolks into a velvety sweet dessert course. Infused with fresh lemon zest, cinnamon bark, and orange blossom water, the velvety soup offers a bright citrus finish balanced by creamy sweetness. Served warm or chilled, it is finished with a drizzle of thyme honey, crushed pistachios, and fresh berries. The dish presents a unique dessert interpretation of traditional soup comforting traditions. Gentle tempering of egg yolks ensures a silky smooth, lump-free texture without curdling under heat. The starch from arborio rice creates natural body and luxurious mouthfeel without relying on heavy cornstarch thickeners. Perfect after Mediterranean meals, this light yet satisfying soup offers aromatic elegance. Garnish each bowl with edible flower petals or fresh mint leaves for visually captivating dinner party presentation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 51,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Protein",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Sodium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 40,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iron",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Copper",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Choline",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Chromium",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "arborio rice"
+    },
+    {
+      "id": 90001,
+      "amount": 4,
+      "unit": "cups",
+      "name": "whole milk"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "large",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90005,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "stick",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "thyme honey"
+    },
+    {
+      "id": 90012,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "shelled pistachios"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh raspberries"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh mint leaves"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "strip",
+      "name": "lemon peel"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "strip",
+      "name": "orange peel"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh blueberries"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "powdered sugar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Simmering Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine water, arborio rice, and salt in saucepan over medium heat, bringing liquid to boil."
+        },
+        {
+          "number": 2,
+          "step": "Reduce heat setting to low, cover saucepan with lid, and simmer rice for ten minutes until tender."
+        },
+        {
+          "number": 3,
+          "step": "Pour whole milk, heavy cream, lemon peel strip, orange peel strip, and cinnamon stick into saucepan."
+        },
+        {
+          "number": 4,
+          "step": "Add granulated sugar and ground cardamom to milk mixture, stirring gently with wooden spoon."
+        },
+        {
+          "number": 5,
+          "step": "Simmer dessert rice soup base uncovered over low heat for fifteen minutes, stirring often."
+        },
+        {
+          "number": 6,
+          "step": "Finely grate fresh lemon zest using microplane grater to yield one tablespoon total zest."
+        },
+        {
+          "number": 7,
+          "step": "Squeeze fresh lemons through strainer into glass measuring cup to yield one-third cup juice."
+        },
+        {
+          "number": 8,
+          "step": "Separate egg whites from yolks, placing three egg yolks into medium stainless steel bowl."
+        },
+        {
+          "number": 9,
+          "step": "Whisk egg yolks, lemon juice, lemon zest, cornstarch, and vanilla extract until completely smooth."
+        },
+        {
+          "number": 10,
+          "step": "Coarsely chop shelled pistachios on cutting board using sharp knife for crisp nut garnish."
+        },
+        {
+          "number": 11,
+          "step": "Rinse fresh raspberries and blueberries gently under cold water and pat dry with paper towel."
+        },
+        {
+          "number": 12,
+          "step": "Remove lemon peel strip, orange peel strip, and cinnamon stick from simmering rice pot."
+        },
+        {
+          "number": 13,
+          "step": "Ladle one cup hot rice milk broth gradually into egg yolk mixture while whisking constantly."
+        },
+        {
+          "number": 14,
+          "step": "Ladle second cup hot broth into egg mixture while whisking rapidly to temper yolks safely."
+        },
+        {
+          "number": 15,
+          "step": "Pour tempered egg yolk mixture back into simmering saucepan pot in a steady slow stream."
+        },
+        {
+          "number": 16,
+          "step": "Cook dessert soup over low heat for three minutes while stirring constantly until thick cream forms."
+        },
+        {
+          "number": 17,
+          "step": "Stir unsalted butter and orange blossom water into thickened dessert soup until fully melted."
+        },
+        {
+          "number": 18,
+          "step": "Remove saucepan pot from stove burner completely and let cool down for five minutes."
+        },
+        {
+          "number": 19,
+          "step": "Toast sliced almonds in dry pan over medium heat for two minutes until light golden brown."
+        },
+        {
+          "number": 20,
+          "step": "Warm thyme honey slightly in small glass dish inside microwave for ten seconds to thin."
+        },
+        {
+          "number": 21,
+          "step": "Set out six shallow porcelain soup bowls or glass dessert cups along clean kitchen counter."
+        },
+        {
+          "number": 22,
+          "step": "Taste sweet dessert rice soup, adding extra pinch of sugar or lemon juice if desired."
+        }
+      ]
+    },
+    {
+      "name": "Finishing and Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle warm sweet lemon-rice soup evenly into six prepared porcelain bowls or glass cups."
+        },
+        {
+          "number": 2,
+          "step": "Drizzle thinned thyme honey in decorative spiral motion over top of each sweet soup portion."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle chopped pistachios and toasted sliced almonds across center of each dessert soup bowl."
+        },
+        {
+          "number": 4,
+          "step": "Arrange fresh raspberries and blueberries neatly on top of rice soup around nuts garnish."
+        },
+        {
+          "number": 5,
+          "step": "Dust top of each bowl lightly with ground cinnamon and powdered sugar using fine sieve."
+        },
+        {
+          "number": 6,
+          "step": "Garnish dessert soup bowls with fresh mint leaves for vibrant green color presentation contrast."
+        },
+        {
+          "number": 7,
+          "step": "Serve soup warm immediately after assembly or chill in refrigerator for two hours to serve cold."
+        },
+        {
+          "number": 8,
+          "step": "Pair sweet Greek dessert soup with crisp butter cookies or almond biscotti for dipping."
+        },
+        {
+          "number": 9,
+          "step": "Accompany dessert course with hot Greek coffee or sweet dessert wine like Muscat of Samos."
+        },
+        {
+          "number": 10,
+          "step": "Cover any remaining dessert soup with plastic film flush against surface to prevent skin forming."
+        },
+        {
+          "number": 11,
+          "step": "Store leftover sweet rice soup in refrigerator for up to two days, serving chilled later."
+        },
+        {
+          "number": 12,
+          "step": "Stir chilled soup with splash of milk before serving second day to restore smooth texture."
+        },
+        {
+          "number": 13,
+          "step": "Enjoy unique combination of velvety rice starch, bright lemon curd, and fragrant thyme honey."
+        },
+        {
+          "number": 14,
+          "step": "Clean saucepan pot, whisk, and prep bowls thoroughly with warm soapy water after dessert."
+        },
+        {
+          "number": 15,
+          "step": "Vary berry toppings according to seasonal availability such as fresh blackberries or figs."
+        },
+        {
+          "number": 16,
+          "step": "Highlight traditional Greek avgolemono techniques adapted gracefully into sweet dessert courses."
+        },
+        {
+          "number": 17,
+          "step": "Ensure tempered eggs never boil during final cooking phase to preserve silky custard texture."
+        },
+        {
+          "number": 18,
+          "step": "Offer additional lemon zest at table for guests who prefer extra bright citrus aromatics."
+        },
+        {
+          "number": 19,
+          "step": "Appreciate creamy mouthfeel achieved entirely through slow arborio rice starch release action."
+        },
+        {
+          "number": 20,
+          "step": "Present this memorable sweet soup creation as elegant finale to Mediterranean dinner parties."
+        },
+        {
+          "number": 21,
+          "step": "Conclude dessert meal service while sharing traditional Greek hospitality customs with guests."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": 9001006,
+  "title": "Peruvian Quick-Braised Turkey Thighs in Aji Amarillo",
+  "image": "generated://dishcovery/9001006.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "Streamlined for busy weeknights, this fast Peruvian braise delivers tender <b>turkey thigh meat</b> steeped in vibrant aji amarillo chili sauce. Turkey thighs are seared until golden crisp, then pressure-braised with garlic, cumin, red onion, and fruity yellow pepper paste. The pressure cooker seals in deep roasted flavor while reducing cooking time dramatically. Creamy choclo corn kernels and soft Yukon gold potatoes simmer directly in the vibrant chili sauce, absorbing rich pan drippings. A dash of red wine vinegar and fresh lime juice brightens the hearty broth right before serving. Tossed with chopped cilantro and red onion salsa, this weeknight dinner offers authentic Andean warmth without long hours at the stove. Complete with fluffy white rice, it brings bold South American comfort to the dinner table in forty-five minutes.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Protein",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 5.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 780,
+        "unit": "IU",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Niacin",
+        "amount": 9.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 61
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Biotin",
+        "amount": 5.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Selenium",
+        "amount": 34,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Potassium",
+        "amount": 720,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 800,
+      "unit": "g",
+      "name": "turkey thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 60,
+      "unit": "g",
+      "name": "aji amarillo paste"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "piece",
+      "name": "red onion"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 250,
+      "unit": "g",
+      "name": "yukon gold potatoes"
+    },
+    {
+      "id": 90005,
+      "amount": 150,
+      "unit": "g",
+      "name": "choclo corn"
+    },
+    {
+      "id": 90006,
+      "amount": 250,
+      "unit": "ml",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90007,
+      "amount": 30,
+      "unit": "ml",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90008,
+      "amount": 15,
+      "unit": "ml",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90009,
+      "amount": 5,
+      "unit": "g",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "g",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "piece",
+      "name": "lime"
+    },
+    {
+      "id": 90012,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90013,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 3,
+      "unit": "g",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "piece",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "piece",
+      "name": "roma tomato"
+    },
+    {
+      "id": 90017,
+      "amount": 15,
+      "unit": "g",
+      "name": "aji panca paste"
+    },
+    {
+      "id": 90018,
+      "amount": 5,
+      "unit": "g",
+      "name": "annatto powder"
+    },
+    {
+      "id": 90019,
+      "amount": 100,
+      "unit": "g",
+      "name": "cooked white rice"
+    },
+    {
+      "id": 90020,
+      "amount": 10,
+      "unit": "g",
+      "name": "green peas"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 15,
+      "unit": "ml",
+      "name": "olive oil"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "piece",
+      "name": "scallions"
+    },
+    {
+      "id": 90024,
+      "amount": 5,
+      "unit": "g",
+      "name": "sugar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Searing and Aromatic Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat turkey thighs completely dry using paper towels to ensure crispy skin when searing."
+        },
+        {
+          "number": 2,
+          "step": "Season both sides of turkey thighs evenly with sea salt, black pepper, and cumin."
+        },
+        {
+          "number": 3,
+          "step": "Heat vegetable oil in pressure cooker pot insert over medium-high sauté setting."
+        },
+        {
+          "number": 4,
+          "step": "Place turkey thighs skin-side down in hot oil and sear six minutes until golden brown."
+        },
+        {
+          "number": 5,
+          "step": "Flip turkey thighs over and sear second side four minutes until nicely browned."
+        },
+        {
+          "number": 6,
+          "step": "Transfer seared turkey thighs onto a clean plate and set aside briefly for braise."
+        },
+        {
+          "number": 7,
+          "step": "Finely dice red onion and garlic cloves on cutting board while pot stays hot."
+        },
+        {
+          "number": 8,
+          "step": "Add diced red onion and minced garlic to residual fat in pressure cooker pot."
+        },
+        {
+          "number": 9,
+          "step": "Sauté onions four minutes until soft, translucent, and fragrant over medium heat."
+        },
+        {
+          "number": 10,
+          "step": "Add aji amarillo paste, aji panca paste, and annatto powder to onion base."
+        },
+        {
+          "number": 11,
+          "step": "Stir chili paste mixture constantly for two minutes to bloom spicy flavor notes."
+        },
+        {
+          "number": 12,
+          "step": "Dice Roma tomato coarsely and add to sautéed chili paste in pot insert."
+        },
+        {
+          "number": 13,
+          "step": "Pour in red wine vinegar deglazing bottom of pressure cooker pot with wooden spoon."
+        },
+        {
+          "number": 14,
+          "step": "Add chicken broth, dried oregano, bay leaf, and sugar to pot stirring well."
+        },
+        {
+          "number": 15,
+          "step": "Peel Yukon Gold potatoes and cut into two-inch chunks on clean cutting board."
+        },
+        {
+          "number": 16,
+          "step": "Nestle seared turkey thighs back into spicy aji amarillo sauce in pressure pot."
+        },
+        {
+          "number": 17,
+          "step": "Arrange potato chunks and choclo corn kernels around turkey thighs evenly."
+        },
+        {
+          "number": 18,
+          "step": "Check liquid level ensuring turkey and potatoes are partially submerged in broth."
+        },
+        {
+          "number": 19,
+          "step": "Lock pressure cooker lid in place and set steam valve to sealing position."
+        },
+        {
+          "number": 20,
+          "step": "Select high pressure cook mode and set timer for exactly twenty minutes total."
+        },
+        {
+          "number": 21,
+          "step": "Allow pressure cooker to reach full operating pressure automatically on stove."
+        },
+        {
+          "number": 22,
+          "step": "Prepare fresh cilantro and red onion garnish while turkey braises under pressure."
+        }
+      ]
+    },
+    {
+      "name": "Pressure Cooking and Sauce Reduction",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Thinly slice remaining half red onion and submerge in ice water to soften bite."
+        },
+        {
+          "number": 2,
+          "step": "Chop fresh cilantro finely and mix with drained red onions, lime juice, and salt."
+        },
+        {
+          "number": 3,
+          "step": "When pressure cooking timer finishes let pressure release naturally ten minutes."
+        },
+        {
+          "number": 4,
+          "step": "Carefully turn steam valve to quick release remaining pressure using silicone mitt."
+        },
+        {
+          "number": 5,
+          "step": "Unlock pressure cooker lid carefully directing hot escaping steam away from face."
+        },
+        {
+          "number": 6,
+          "step": "Transfer braised turkey thighs and soft potato chunks onto a warm serving platter."
+        },
+        {
+          "number": 7,
+          "step": "Switch pressure cooker back to high sauté mode to simmer and reduce pan sauce."
+        },
+        {
+          "number": 8,
+          "step": "Add green peas to sauce and cook three minutes until tender and bright green."
+        },
+        {
+          "number": 9,
+          "step": "Discard bay leaf from reducing chili sauce with kitchen tongs cautiously."
+        },
+        {
+          "number": 10,
+          "step": "Squeeze fresh lime juice into sauce and stir thoroughly to balance rich spices."
+        },
+        {
+          "number": 11,
+          "step": "Taste braising sauce and adjust salt or black pepper if extra seasoning needed."
+        },
+        {
+          "number": 12,
+          "step": "Ladle thick reduced aji amarillo sauce over turkey thighs and potatoes on platter."
+        },
+        {
+          "number": 13,
+          "step": "Spoon warm cooked white rice alongside braised turkey thighs on individual plates."
+        },
+        {
+          "number": 14,
+          "step": "Top braised turkey meat with freshly prepared red onion and cilantro salsa mix."
+        },
+        {
+          "number": 15,
+          "step": "Garnish platter with sliced green scallions for added color and fresh onion bite."
+        },
+        {
+          "number": 16,
+          "step": "Drizzle a few drops olive oil over warm potatoes right before bringing to table."
+        },
+        {
+          "number": 17,
+          "step": "Verify turkey thigh meat is fork-tender and falling cleanly off the bone."
+        },
+        {
+          "number": 18,
+          "step": "Serve weeknight Peruvian braised turkey hot alongside extra lime wedges for guests."
+        },
+        {
+          "number": 19,
+          "step": "Store remaining braising sauce in covered glass container for delicious leftovers."
+        },
+        {
+          "number": 20,
+          "step": "Clean pressure cooker insert and prep area while dinner rests on table."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy this fast flavor-packed Peruvian turkey braise with family and friends."
+        }
+      ]
+    }
+  ]
+}

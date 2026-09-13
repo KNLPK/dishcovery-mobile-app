@@ -1,0 +1,553 @@
+{
+  "id": 9001073,
+  "title": "Quick Moroccan Chickpea and Vegetable Tagine",
+  "image": "generated://dishcovery/9001073.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Designed for busy evenings, this streamlined stew brings the classic flavors of North Africa to your table in under forty minutes. Tender <b>canned chickpeas</b> are cooked with sweet carrots, zucchini, diced tomatoes, and soft dried apricots in a fragrant broth enriched with ras el hanout spice blend. This weeknight variation simplifies traditional long-cooking tagines by utilizing quick-cooking ingredients without sacrificing depth of flavor. Warm cumin, coriander, cinnamon, and turmeric create a cozy, aromatic base elevated by fresh lemon juice and chopped cilantro. Served hot over fluffy steamed couscous, this wholesome plant-based meal offers robust nutrition and rich satisfying texture. Toasted slivered almonds add a delightful crunch over top, while green olives introduce a subtle salty contrast. Fast to prepare in one deep skillet, this recipe brings healthy, exotic comfort food into your regular rotation. Bring home a comforting bowl of <b>Moroccan stew</b> made easy for modern routines.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 640,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Fiber",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 4200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Folate",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Choline",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Magnesium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Selenium",
+        "amount": 6.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 800,
+      "unit": "g",
+      "name": "chickpeas"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "pc",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "pc",
+      "name": "carrots"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "pc",
+      "name": "zucchini"
+    },
+    {
+      "id": 90007,
+      "amount": 400,
+      "unit": "g",
+      "name": "diced canned tomatoes"
+    },
+    {
+      "id": 90008,
+      "amount": 400,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ras el hanout"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90014,
+      "amount": 60,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90015,
+      "amount": 50,
+      "unit": "g",
+      "name": "pitted green olives"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90020,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90022,
+      "amount": 30,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90023,
+      "amount": 200,
+      "unit": "g",
+      "name": "couscous"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "harissa paste"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Prep and Aromatics",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Drain canned chickpeas in colander and rinse thoroughly under cold tap water until bubbles disappear."
+        },
+        {
+          "number": 2,
+          "step": "Dice yellow onion finely and grate fresh ginger root and garlic cloves into small glass dish."
+        },
+        {
+          "number": 3,
+          "step": "Peel carrots and slice them into half-centimeter thick round discs for quick, uniform cooking in broth."
+        },
+        {
+          "number": 4,
+          "step": "Cut zucchini lengthwise into quarters then slice across into bite-sized triangular pieces for stew."
+        },
+        {
+          "number": 5,
+          "step": "Chop dried apricots into quarter pieces to ensure quick plumping and sweet dispersion through stew."
+        },
+        {
+          "number": 6,
+          "step": "Slice pitted green olives into rings to add briny accents that cut through rich fragrant spices."
+        },
+        {
+          "number": 7,
+          "step": "Measure ras el hanout, ground cumin, coriander, cinnamon, and turmeric into small spice bowl."
+        },
+        {
+          "number": 8,
+          "step": "Heat olive oil in large deep skillet or Dutch oven over medium flame until shimmering nicely."
+        },
+        {
+          "number": 9,
+          "step": "Add finely diced yellow onion to hot oil and sauté for four minutes until translucent and soft."
+        },
+        {
+          "number": 10,
+          "step": "Stir minced garlic and grated fresh ginger into pan, cooking for sixty seconds until fragrant."
+        },
+        {
+          "number": 11,
+          "step": "Pour spice blend mixture into aromatic vegetables and toss continuously for thirty seconds to bloom."
+        },
+        {
+          "number": 12,
+          "step": "Add harissa paste to pot for gentle heat depth and stir until integrated into onion spice base."
+        },
+        {
+          "number": 13,
+          "step": "Add sliced carrot rounds into pan and stir well to coat completely with fragrant spice oil."
+        },
+        {
+          "number": 14,
+          "step": "Sauté carrots with spices for two minutes to start softening process before adding liquids."
+        }
+      ]
+    },
+    {
+      "name": "Stewing Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour canned diced tomatoes with their juices directly into skillet with spice spiced vegetables."
+        },
+        {
+          "number": 2,
+          "step": "Add four hundred milliliters of low-sodium vegetable broth into skillet to build rich simmer base."
+        },
+        {
+          "number": 3,
+          "step": "Stir in rinsed chickpeas, chopped dried apricots, and sliced green olives evenly throughout pot."
+        },
+        {
+          "number": 4,
+          "step": "Add honey, salt, and black pepper into liquid and stir thoroughly to combine sweet savory flavor."
+        },
+        {
+          "number": 5,
+          "step": "Bring skillet contents up to active boil over high flame while stirring occasionally from bottom."
+        },
+        {
+          "number": 6,
+          "step": "Lower stove burner heat down to medium-low, placing lid slightly askew on skillet to trap steam."
+        },
+        {
+          "number": 7,
+          "step": "Simmer stew gently for twelve minutes until sliced carrot rounds are almost tender to fork test."
+        },
+        {
+          "number": 8,
+          "step": "Uncover pan and stir chopped zucchini pieces directly into simmering stew base without crowding."
+        },
+        {
+          "number": 9,
+          "step": "Continue simmering uncovered for six additional minutes until zucchini turns bright green and soft."
+        },
+        {
+          "number": 10,
+          "step": "Toast slivered almonds in separate small dry frying pan over medium heat until light golden brown."
+        },
+        {
+          "number": 11,
+          "step": "Prepare quick instant couscous in covered bowl with boiling water according to package instructions."
+        },
+        {
+          "number": 12,
+          "step": "Fluff cooked hot couscous gently using fork to separate tender grains prior to plating dish."
+        },
+        {
+          "number": 13,
+          "step": "Squeeze fresh lemon juice directly into stew skillet during final minute of stovetop cooking."
+        },
+        {
+          "number": 14,
+          "step": "Taste stew broth carefully and adjust salt pepper levels if needed to achieve perfect balanced balance."
+        }
+      ]
+    },
+    {
+      "name": "Finishing and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove tagine skillet from burner heat source to stop active cooking motion before serving time."
+        },
+        {
+          "number": 2,
+          "step": "Stir fresh finely chopped cilantro and mint leaves into hot stew to release bright herbal aroma."
+        },
+        {
+          "number": 3,
+          "step": "Mound warm fluffy couscous evenly onto center of four large individual wide dinner bowls."
+        },
+        {
+          "number": 4,
+          "step": "Ladle hot chickpea and vegetable tagine stew over couscous mounds using large serving ladle."
+        },
+        {
+          "number": 5,
+          "step": "Ensure each bowl receives balanced portion of colorful vegetables, chickpeas, and sweet sauce."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle toasted slivered almonds over top of stew portions to add delightful crunchy contrast."
+        },
+        {
+          "number": 7,
+          "step": "Garnish bowls with additional fresh mint leaves for inviting, vibrant visual presentation."
+        },
+        {
+          "number": 8,
+          "step": "Serve tagine alongside extra harissa paste on side for dinner guests who prefer extra heat."
+        },
+        {
+          "number": 9,
+          "step": "Pass warm flatbread around table to wipe up remaining flavorful spiced broth from bowl bottoms."
+        },
+        {
+          "number": 10,
+          "step": "Store leftover stew in airtight glass containers inside refrigerator for quick delicious lunches."
+        },
+        {
+          "number": 11,
+          "step": "Reheat leftovers on stovetop with splash of fresh broth to preserve tender texture of chickpeas."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy aromatic North African flavors made effortless for fast weeknight dinner preparation."
+        },
+        {
+          "number": 13,
+          "step": "Clean workspace easily as this streamlined method uses minimal cooking pans and utensils."
+        },
+        {
+          "number": 14,
+          "step": "Share this healthy, fiber-rich dinner bowl with family and friends for weeknight culinary delight."
+        }
+      ]
+    }
+  ]
+}

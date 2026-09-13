@@ -210,6 +210,7 @@ function loadGenerated(): Stratum | null {
   const items: Stratum['items'] = [];
 
   for (const entry of manifest.recipes) {
+    if (entry.inDataset === false) continue; // surplus beyond the balanced target
     const payloadPath = path.join(GENERATED_PAYLOAD_DIR, `${entry.recipeId}.json`);
     if (!fs.existsSync(payloadPath)) continue;
     const recipe = JSON.parse(fs.readFileSync(payloadPath, 'utf8')) as Recipe;

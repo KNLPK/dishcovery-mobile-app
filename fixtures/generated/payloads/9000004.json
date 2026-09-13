@@ -1,0 +1,303 @@
+{
+  "id": 9000004,
+  "title": "One-Pot Curried Rice Noodle Bowl",
+  "image": "generated://dishcovery/9000004.jpg",
+  "readyInMinutes": 25,
+  "servings": 4,
+  "summary": "Treat yourself to a fast and aromatic dinner with this vibrant <b>Indian noodle bowl</b> cooked entirely in a single pot for effortless cleanup. Delicate rice vermicelli absorbs a fragrant coconut broth infused with ground turmeric, garam masala, cumin, and fresh ginger. Crispy mustard seeds and tender yellow lentils build a comforting foundation of texture and subtle nutty notes throughout the dish. Fresh baby spinach and diced tomatoes add bright colors and light freshness to balance the warm spice blend. Because the noodles cook directly in the spiced coconut broth, every strand becomes thoroughly seasoned with velvety richness. Top each bowl with toasted cashews and a squeeze of fresh lime juice for a satisfying contrast of textures and flavors. This convenient meal brings regional Indian spice traditions into a streamlined, weeknight-friendly format that satisfies cravings quickly. Perfect for late evenings when you want maximum taste with minimal kitchen effort.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 430,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Fat",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 117
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Calcium",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Copper",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Potassium",
+        "amount": 610,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "rice vermicelli"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90002,
+      "amount": 500,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90004,
+      "amount": 50,
+      "unit": "g",
+      "name": "yellow lentils"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90009,
+      "amount": 100,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90010,
+      "amount": 30,
+      "unit": "g",
+      "name": "cashews"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "One-Pot Cooking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat coconut oil in a large pot, add mustard seeds, and toast until they begin to pop gently."
+        },
+        {
+          "number": 2,
+          "step": "Stir in grated ginger, turmeric, and garam masala, cooking for one minute until highly aromatic."
+        },
+        {
+          "number": 3,
+          "step": "Add yellow lentils, vegetable broth, and coconut milk, bringing the liquid to a steady simmer."
+        },
+        {
+          "number": 4,
+          "step": "Cook covered for 10 minutes until lentils soften, then stir in halved cherry tomatoes and rice vermicelli."
+        },
+        {
+          "number": 5,
+          "step": "Simmer for another four minutes until the noodles are soft and have absorbed the fragrant curried broth."
+        },
+        {
+          "number": 6,
+          "step": "Fold in baby spinach until wilted, divide into bowls, and garnish with toasted cashews before serving."
+        }
+      ]
+    }
+  ]
+}

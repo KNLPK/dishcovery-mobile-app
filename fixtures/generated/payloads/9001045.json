@@ -1,0 +1,552 @@
+{
+  "id": 9001045,
+  "title": "Make-Ahead Thai Lemongrass Chicken Skewers",
+  "image": "generated://dishcovery/9001045.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "These fragrant Thai <b>lemongrass chicken skewers</b> offer the ultimate make-ahead grilling solution for outdoor entertaining. Tender boneless chicken thighs are steeped in a robust marinade of fresh lemongrass, coconut milk, garlic, fish sauce, and palm sugar before being threaded onto bamboo sticks and charred over high heat. Preparing the marinade up to twenty-four hours in advance allows deep complex flavors to saturate the meat thoroughly while tenderizing each piece. Accompanied by a velvety sweet and tangy peanut dipping sauce, this classic street food staple balances salty, sweet, sour, and spicy notes flawlessly. The quick grilling process creates caramelized smoky edges while maintaining succulent juicy interiors. Rich in high-quality protein, healthy monounsaturated fats, and essential minerals like selenium and niacin, these skewers provide balanced nutrition alongside bold Southeast Asian taste. Serve over warm jasmine rice or crisp cucumber salad for an effortless tropical meal.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "lbs",
+      "name": "boneless skinless chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "fresh lemongrass"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "thai fish sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "coriander seeds"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "creamy peanut butter"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "red curry paste"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90015,
+      "amount": 16,
+      "unit": "wooden",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crushed roasted peanuts"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red chili pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "cucumber",
+      "name": "sliced fresh cucumber"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "shallot",
+      "name": "sliced red shallot"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade and Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim tough outer leaves from lemongrass stalks and mince soft inner core finely."
+        },
+        {
+          "number": 2,
+          "step": "Toast coriander seeds in dry skillet over medium heat for two minutes until fragrant."
+        },
+        {
+          "number": 3,
+          "step": "Grind toasted coriander seeds into fine powder using spice grinder or mortar."
+        },
+        {
+          "number": 4,
+          "step": "Combine minced lemongrass, garlic, fish sauce, soy sauce, and coconut milk in blender."
+        },
+        {
+          "number": 5,
+          "step": "Add palm sugar, turmeric powder, ground coriander, and white pepper to blender pitcher."
+        },
+        {
+          "number": 6,
+          "step": "Purée marinade components on high speed for sixty seconds until completely smooth emulsion forms."
+        },
+        {
+          "number": 7,
+          "step": "Cut boneless chicken thighs into uniform long strips roughly one inch wide."
+        },
+        {
+          "number": 8,
+          "step": "Place chicken strips into large sealable plastic bag and pour marinade over meat."
+        },
+        {
+          "number": 9,
+          "step": "Seal bag tightly while expelling excess air and massage marinade into chicken pieces."
+        },
+        {
+          "number": 10,
+          "step": "Refrigerate marinating chicken for at least four hours or ideally overnight for best flavor."
+        },
+        {
+          "number": 11,
+          "step": "Submerge bamboo skewers in shallow tray filled with water to soak for thirty minutes."
+        },
+        {
+          "number": 12,
+          "step": "Remove skewers from water bath and pat dry using clean paper towels before threading."
+        },
+        {
+          "number": 13,
+          "step": "Retrieve chicken from refrigerator and drain off excess marinade into sink bowl."
+        },
+        {
+          "number": 14,
+          "step": "Thread marinated chicken strip lengthwise onto each soaked bamboo skewer in accordion style."
+        },
+        {
+          "number": 15,
+          "step": "Arrange threaded chicken skewers on rimmed tray lined with wax paper in single layer."
+        },
+        {
+          "number": 16,
+          "step": "Brush remaining marinade lightly over exposed surfaces of chicken pieces on skewers."
+        },
+        {
+          "number": 17,
+          "step": "Cover skewers with plastic wrap and return to refrigerator while heating outdoor grill."
+        },
+        {
+          "number": 18,
+          "step": "Clean outdoor grill grates thoroughly with wire brush to remove burnt food residue."
+        },
+        {
+          "number": 19,
+          "step": "Oil grill grates lightly using paper towel dipped in vegetable oil held with tongs."
+        },
+        {
+          "number": 20,
+          "step": "Preheat grill to medium-high temperature reaching four hundred degrees Fahrenheit interior heat."
+        },
+        {
+          "number": 21,
+          "step": "Prepare clean serving platter near grill station to receive finished cooked skewers."
+        },
+        {
+          "number": 22,
+          "step": "Retrieve assembled chicken skewers from refrigerator right before placing onto hot grill."
+        }
+      ]
+    },
+    {
+      "name": "Grilling and Dipping Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat vegetable oil in small saucepan set over medium heat to begin dipping sauce."
+        },
+        {
+          "number": 2,
+          "step": "Add red curry paste to warm oil and cook for two minutes until aromatic oils separate."
+        },
+        {
+          "number": 3,
+          "step": "Whisk in creamy peanut butter, tamarind paste, lime juice, and remaining coconut milk."
+        },
+        {
+          "number": 4,
+          "step": "Add water, brown sugar, and salt to peanut sauce while stirring continuously until smooth."
+        },
+        {
+          "number": 5,
+          "step": "Simmer peanut dipping sauce over low heat for five minutes until thickened to dip consistency."
+        },
+        {
+          "number": 6,
+          "step": "Pour warm peanut sauce into small serving bowls and top with crushed roasted peanuts."
+        },
+        {
+          "number": 7,
+          "step": "Place prepared chicken skewers onto hot preheated grill grates spaced evenly apart."
+        },
+        {
+          "number": 8,
+          "step": "Grill chicken skewers undisturbed for four minutes until deep sear marks develop on bottom."
+        },
+        {
+          "number": 9,
+          "step": "Flip skewers using long grill tongs and cook second side for four additional minutes."
+        },
+        {
+          "number": 10,
+          "step": "Baste skewers with vegetable oil during turning to keep meat juicy and prevent sticking."
+        },
+        {
+          "number": 11,
+          "step": "Check internal chicken temperature with digital thermometer ensuring it reaches 165 degrees."
+        },
+        {
+          "number": 12,
+          "step": "Transfer fully cooked chicken skewers from grill grates onto clean serving platter carefully."
+        },
+        {
+          "number": 13,
+          "step": "Rest cooked skewers on platter for three minutes to allow internal juices to redistribute."
+        },
+        {
+          "number": 14,
+          "step": "Garnish grilled skewers with fresh chopped cilantro and thinly sliced red chili pepper."
+        },
+        {
+          "number": 15,
+          "step": "Arrange sliced fresh cucumber and red shallot around edges of platter for refreshing sides."
+        },
+        {
+          "number": 16,
+          "step": "Drizzle light sesame oil over warm skewers to add glossy shine and aromatic finish."
+        },
+        {
+          "number": 17,
+          "step": "Serve chicken skewers hot alongside bowls of warm peanut dipping sauce for guests."
+        },
+        {
+          "number": 18,
+          "step": "Provide extra lime wedges on platter for squeezing fresh juice over skewers at table."
+        },
+        {
+          "number": 19,
+          "step": "Pair skewers with steamed jasmine rice to transform starter into satisfying main course."
+        },
+        {
+          "number": 20,
+          "step": "Store any leftover cooked skewers in airtight container inside refrigerator for three days."
+        },
+        {
+          "number": 21,
+          "step": "Reheat leftovers gently in warm oven before serving to maintain juicy tender texture."
+        }
+      ]
+    }
+  ]
+}

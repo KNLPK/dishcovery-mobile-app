@@ -1,0 +1,553 @@
+{
+  "id": 9001051,
+  "title": "One-Pot Lebanese Lamb Stew with Garbanzo Beans",
+  "image": "generated://dishcovery/9001051.jpg",
+  "readyInMinutes": 90,
+  "servings": 6,
+  "summary": "Rooted in Levantine homestyle cooking, this <b>one-pot simmered lamb dish</b> delivers comforting warmth through aromatic warmth and hearty pulses. Tender cubes of lamb shoulder are seared in olive oil directly in a deep Dutch oven, creating a rich savory glaze on the bottom of the pot. Ground cinnamon, allspice, cumin, and coriander are bloomed alongside yellow onions and sweet garlic to build a fragrant spice foundation. Stewed tomatoes, cooked garbanzo beans, and tender baby zucchini join the lamb as it simmers gently into fork-tender perfection. Cooking every component inside a single pot locks in essential nutrients and allows the broth to thicken naturally without added starches. Finished with a splash of fresh lemon juice and chopped flat-leaf parsley, the stew strikes a harmonious balance between deep savory spices and bright herbal notes. Pair this nourishing meal with warm flatbread or fluffy bulgur to soak up every drop of spice-scented tomato broth.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 36.9
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Protein",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 72
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 9.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 820,
+        "unit": "IU",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.2,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0.1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.3
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 87.5
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iodine",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.1
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 49.1
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47.3
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.8
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.7
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 800,
+      "unit": "g",
+      "name": "boneless lamb shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cans",
+      "name": "garbanzo beans"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "can",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "yellow onions"
+    },
+    {
+      "id": 90004,
+      "amount": 5,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "medium",
+      "name": "zucchini"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90012,
+      "amount": 3,
+      "unit": "cups",
+      "name": "beef broth"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sumac"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "celery"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "bay",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "mint leaves"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "red pepper flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation and Meat Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim excess surface fat from lamb shoulder and cut meat into uniform one-inch cubes."
+        },
+        {
+          "number": 2,
+          "step": "Pat lamb cubes thoroughly dry using paper towels to ensure effective browning in oil."
+        },
+        {
+          "number": 3,
+          "step": "Season lamb cubes evenly with salt and freshly cracked black pepper in large bowl."
+        },
+        {
+          "number": 4,
+          "step": "Dice yellow onions, carrot, and celery into small matching dice for cooking base."
+        },
+        {
+          "number": 5,
+          "step": "Mince fresh garlic cloves finely and slice zucchini into half-inch thick half-moons."
+        },
+        {
+          "number": 6,
+          "step": "Heat olive oil over medium-high heat in a large heavy Dutch oven until shimmering."
+        },
+        {
+          "number": 7,
+          "step": "Place half of seasoned lamb cubes into hot oil in single layer without crowding pan."
+        },
+        {
+          "number": 8,
+          "step": "Sear lamb cubes for six minutes, turning occasionally until deep brown on all sides."
+        },
+        {
+          "number": 9,
+          "step": "Transfer browned lamb to plate using slotted spoon, keeping hot fat inside Dutch oven."
+        },
+        {
+          "number": 10,
+          "step": "Repeat searing process with remaining lamb cubes, transferring batch to plate when done."
+        },
+        {
+          "number": 11,
+          "step": "Add chopped yellow onions, carrot, and celery to remaining fat inside Dutch oven."
+        },
+        {
+          "number": 12,
+          "step": "Sauté diced vegetables over medium heat for five minutes until onions turn soft and translucent."
+        },
+        {
+          "number": 13,
+          "step": "Add minced garlic and tomato paste to vegetables, cooking two minutes until paste darkens."
+        },
+        {
+          "number": 14,
+          "step": "Stir ground cinnamon, allspice, cumin, and coriander into vegetables until fragrant."
+        }
+      ]
+    },
+    {
+      "name": "Simmering the Stew",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Return seared lamb cubes along with accumulated juices back into Dutch oven pot."
+        },
+        {
+          "number": 2,
+          "step": "Pour diced tomatoes with their juice and beef broth directly into Dutch oven."
+        },
+        {
+          "number": 3,
+          "step": "Add bay leaf, red pepper flakes, and pomegranate molasses, stirring well to combine."
+        },
+        {
+          "number": 4,
+          "step": "Bring stew liquid to a full boil over high heat, stirring bottom to prevent sticking."
+        },
+        {
+          "number": 5,
+          "step": "Reduce heat to low, cover pot with tight lid, and simmer gently for forty-five minutes."
+        },
+        {
+          "number": 6,
+          "step": "Drain and rinse garbanzo beans in colander under cold tap water to remove canning liquid."
+        },
+        {
+          "number": 7,
+          "step": "Uncover pot after forty-five minutes and test lamb for initial fork tenderness."
+        },
+        {
+          "number": 8,
+          "step": "Stir rinsed garbanzo beans and sliced zucchini half-moons directly into simmering stew."
+        },
+        {
+          "number": 9,
+          "step": "Cover pot again and simmer over low heat for fifteen minutes until zucchini turns soft."
+        },
+        {
+          "number": 10,
+          "step": "Toast pine nuts in a small dry skillet over medium heat for three minutes until golden."
+        },
+        {
+          "number": 11,
+          "step": "Uncover pot and let stew simmer uncovered for five minutes to thicken sauce slightly."
+        },
+        {
+          "number": 12,
+          "step": "Discard bay leaf from stew pot using metal tongs and skim off any surface fat."
+        },
+        {
+          "number": 13,
+          "step": "Stir fresh lemon juice into hot stew broth to lift rich spices with clean acidity."
+        },
+        {
+          "number": 14,
+          "step": "Taste broth carefully and adjust seasoning with extra salt or black pepper if needed."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely chop fresh flat-leaf parsley and mint leaves on clean cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Ladle hot lamb stew evenly into six wide soup bowls, sharing meat and beans equally."
+        },
+        {
+          "number": 3,
+          "step": "Ensure each serving receives ample warm spice broth and tender zucchini pieces."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle toasted pine nuts evenly over each bowl of hot stew for crunchy texture."
+        },
+        {
+          "number": 5,
+          "step": "Garnish stew bowls with chopped parsley and mint leaves just before bringing to table."
+        },
+        {
+          "number": 6,
+          "step": "Dust a pinch of tart sumac powder over top of each bowl for vibrant red contrast."
+        },
+        {
+          "number": 7,
+          "step": "Serve immediately alongside warm pita bread or steamed bulgur wheat for dipping."
+        },
+        {
+          "number": 8,
+          "step": "Provide extra lemon wedges on side plate for guests who prefer brighter citrus notes."
+        },
+        {
+          "number": 9,
+          "step": "Store leftover stew in airtight container in refrigerator for up to three full days."
+        },
+        {
+          "number": 10,
+          "step": "Reheat leftovers gently in covered pot over medium-low heat, adding broth if needed."
+        },
+        {
+          "number": 11,
+          "step": "Check seasoning of reheated leftovers as flavor profile deepens during cold storage."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle fresh herbs over reheated portions to restore bright visual color contrast."
+        },
+        {
+          "number": 13,
+          "step": "Pair stew with crisp cucumber salad to offer fresh crunch against warm spices."
+        },
+        {
+          "number": 14,
+          "step": "Serve hot stew bowls promptly while fragrant steam lifts spice aromas into air."
+        }
+      ]
+    }
+  ]
+}

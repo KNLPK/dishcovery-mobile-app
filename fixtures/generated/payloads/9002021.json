@@ -1,0 +1,846 @@
+{
+  "id": 9002021,
+  "title": "Slow-Braised Smoked Pepper Beef Shanks with Cilantro Sauce",
+  "image": "generated://dishcovery/9002021.jpg",
+  "readyInMinutes": 180,
+  "servings": 6,
+  "summary": "Rooted in traditional Andean comfort cooking, this hearty <b>Peruvian slow braise</b> centers on thick-cut <b>beef shanks</b> cooked until meltingly tender. The distinctive signature angle arises from smoked Aji Panca and Aji Amarillo peppers, which impart deep woody warmth and brick-red color to the braising reduction. Thick bone-in shanks are seared to build deep crusts before simmering slowly with chicha de jora (corn beer), red wine vinegar, cumin, and blended cilantro puree. The marrow within the shank bones melts into the broth, thickening the pan juices into a luxurious, glossy gravy. Accompanied by fluffy white rice and boiled yellow potatoes, this dish balances rich smoked meat notes with a bright, herbaceous kick. Perfect for cold weekends or slow-cooking feasts, this braise yields exceptional depth as the collagen transforms over hours of gentle heat.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 9.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 59
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 158
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Calcium",
+        "amount": 90,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 5.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Magnesium",
+        "amount": 60,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Potassium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Zinc",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 77
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 34,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Choline",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 56
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1200,
+      "unit": "g",
+      "name": "bone-in beef shanks"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "smoked aji panca paste"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "aji amarillo paste"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fresh cilantro leaves"
+    },
+    {
+      "id": 90004,
+      "amount": 250,
+      "unit": "ml",
+      "name": "chicha de jora or dark beer"
+    },
+    {
+      "id": 90005,
+      "amount": 500,
+      "unit": "ml",
+      "name": "beef stock"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onion finely diced"
+    },
+    {
+      "id": 90008,
+      "amount": 5,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 400,
+      "unit": "g",
+      "name": "yellow potatoes peeled"
+    },
+    {
+      "id": 90015,
+      "amount": 200,
+      "unit": "g",
+      "name": "cooked white rice"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "cup",
+      "name": "green peas"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion sliced thin for salsa"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "fresh",
+      "name": "rocoto pepper sliced"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water for blending"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "allspice"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chicha morada or broth"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "annatto powder"
+    },
+    {
+      "id": 90036,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "cold water for cornstarch"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander seeds"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lardo or oil"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90042,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water for boiling potatoes"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "lime",
+      "name": "wedges for garnish"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Searing Meat",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat thick bone-in beef shanks dry on all sides using paper towels to ensure deep browning."
+        },
+        {
+          "number": 2,
+          "step": "Season both sides of beef shanks generously with sea salt black pepper and ground cumin."
+        },
+        {
+          "number": 3,
+          "step": "Heat two tablespoons vegetable oil in a heavy Dutch oven over medium high heat until smoking."
+        },
+        {
+          "number": 4,
+          "step": "Carefully place beef shanks into hot oil in Dutch oven working in batches if needed."
+        },
+        {
+          "number": 5,
+          "step": "Sear beef shanks for five minutes on first side without moving until deep brown crust forms."
+        },
+        {
+          "number": 6,
+          "step": "Flip shanks using heavy tongs searing second side for five additional minutes until browned."
+        },
+        {
+          "number": 7,
+          "step": "Sear edge marrow bones for two minutes to render fat and seal bone ends cleanly."
+        },
+        {
+          "number": 8,
+          "step": "Transfer seared beef shanks onto large plate reserving rendered pan juices in Dutch oven."
+        },
+        {
+          "number": 9,
+          "step": "Add finely diced red onion into hot Dutch oven pan drippings over medium heat setting."
+        },
+        {
+          "number": 10,
+          "step": "Saute onions for five minutes stirring frequently until soft translucent and golden brown."
+        },
+        {
+          "number": 11,
+          "step": "Add minced garlic cloves smoked aji panca paste and aji amarillo paste to pan."
+        },
+        {
+          "number": 12,
+          "step": "Saute pepper pastes and garlic with onions for three minutes until fragrant and dark red."
+        },
+        {
+          "number": 13,
+          "step": "Add tomato paste smoked paprika dried oregano coriander seeds and ground cloves to pot."
+        },
+        {
+          "number": 14,
+          "step": "Stir spice paste mixture continuously for two minutes to caramelize tomato and pepper notes."
+        }
+      ]
+    },
+    {
+      "name": "Cilantro Puree",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash fresh cilantro leaves and soft stems thoroughly in cold tap water to remove grit."
+        },
+        {
+          "number": 2,
+          "step": "Spin cilantro in salad spinner until completely dry to prevent diluting green sauce."
+        },
+        {
+          "number": 3,
+          "step": "Place washed cilantro leaves into blender container along with half cup of cold water."
+        },
+        {
+          "number": 4,
+          "step": "Add olive oil garlic powder onion powder and a pinch of salt to blender contents."
+        },
+        {
+          "number": 5,
+          "step": "Blend cilantro mixture on high speed for one minute until bright green liquid forms."
+        },
+        {
+          "number": 6,
+          "step": "Scrape down sides of blender jar using rubber spatula blending for fifteen extra seconds."
+        },
+        {
+          "number": 7,
+          "step": "Pour smooth green cilantro puree into glass measuring cup and set aside for braising."
+        },
+        {
+          "number": 8,
+          "step": "Pour red wine vinegar and chicha de jora (corn beer) into hot Dutch oven spice paste."
+        },
+        {
+          "number": 9,
+          "step": "Scrape bottom of Dutch oven with wooden spoon releasing all rich caramelized browned bits."
+        },
+        {
+          "number": 10,
+          "step": "Simmer beer and vinegar reduction for four minutes until liquid volume reduces by half."
+        },
+        {
+          "number": 11,
+          "step": "Pour prepared green cilantro puree into reduced beer pepper base in Dutch oven pot."
+        },
+        {
+          "number": 12,
+          "step": "Whisk pan liquid thoroughly combining dark red pepper paste with bright green herbal puree."
+        },
+        {
+          "number": 13,
+          "step": "Pour beef stock into pot bringing braising liquid to an active rolling simmer."
+        }
+      ]
+    },
+    {
+      "name": "Slow Braising",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Nestle seared beef shanks back into simmering cilantro pepper braising liquid in Dutch oven."
+        },
+        {
+          "number": 2,
+          "step": "Pour any accumulated meat juices from resting plate back into Dutch oven braising pot."
+        },
+        {
+          "number": 3,
+          "step": "Add bay leaf thyme sprig and brown sugar to braising liquid around beef shanks."
+        },
+        {
+          "number": 4,
+          "step": "Ensure braising liquid covers at least three quarters of beef shank sides in pot."
+        },
+        {
+          "number": 5,
+          "step": "Bring liquid back to boil cover Dutch oven with tight lid and reduce heat to low."
+        },
+        {
+          "number": 6,
+          "step": "Simmer beef shanks gently on low heat setting for two hours without lifting cover lid."
+        },
+        {
+          "number": 7,
+          "step": "Check braise after two hours; meat should begin softening while bone marrow melts slow."
+        },
+        {
+          "number": 8,
+          "step": "Turn beef shanks over carefully using tongs so top sides submerge in sauce liquid."
+        },
+        {
+          "number": 9,
+          "step": "Re-cover pot continuing to braise on low heat for one additional hour until tender."
+        },
+        {
+          "number": 10,
+          "step": "Test meat tenderness with fork; shank meat should yield easily and pull from bone."
+        },
+        {
+          "number": 11,
+          "step": "Carefully transfer tender braised shanks onto warm platter covering loosely with foil."
+        },
+        {
+          "number": 12,
+          "step": "Discard bay leaf and thyme sprig from Dutch oven braising sauce using long tweezers."
+        },
+        {
+          "number": 13,
+          "step": "Skim excess orange surface fat from braising liquid using large metal ladle spoon."
+        }
+      ]
+    },
+    {
+      "name": "Sauce Reduction",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Increase burner heat under Dutch oven to medium high bringing braising sauce to boil."
+        },
+        {
+          "number": 2,
+          "step": "Simmer sauce uncovered for ten minutes allowing liquid volume to reduce and intensify."
+        },
+        {
+          "number": 3,
+          "step": "Add green peas to bubbling reduction sauce cooking for three minutes until tender bright."
+        },
+        {
+          "number": 4,
+          "step": "Mix cornstarch with cold water in small cup until dissolved into smooth white slurry."
+        },
+        {
+          "number": 5,
+          "step": "Whisk cornstarch slurry into boiling sauce stirring constantly to prevent lump formation."
+        },
+        {
+          "number": 6,
+          "step": "Simmer sauce for two minutes until gravy thickens to glossy coating consistency."
+        },
+        {
+          "number": 7,
+          "step": "Whisk cold butter in small pieces into reduction sauce off heat for velvet sheen finish."
+        },
+        {
+          "number": 8,
+          "step": "Taste sauce adjusting salt black pepper and cayenne pepper levels to balance flavor."
+        },
+        {
+          "number": 9,
+          "step": "Place peeled yellow potatoes into separate pot with salted water bringing to boil."
+        },
+        {
+          "number": 10,
+          "step": "Cook yellow potatoes for fifteen minutes until fork tender then drain water completely."
+        },
+        {
+          "number": 11,
+          "step": "Keep cooked yellow potatoes warm in pot covered with towel until ready to plate."
+        },
+        {
+          "number": 12,
+          "step": "Prepare salsa criolla by slicing thin red onion and fresh rocoto pepper into bowl."
+        },
+        {
+          "number": 13,
+          "step": "Toss sliced red onion and rocoto pepper with lime juice salt and chopped parsley."
+        },
+        {
+          "number": 14,
+          "step": "Let salsa criolla marinate at room temperature for ten minutes before serving."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Warm six wide dinner plates in low oven for five minutes before starting assembly."
+        },
+        {
+          "number": 2,
+          "step": "Place a scoop of warm cooked white rice onto one side of each warmed dinner plate."
+        },
+        {
+          "number": 3,
+          "step": "Arrange two boiled yellow potato halves alongside white rice on each serving plate."
+        },
+        {
+          "number": 4,
+          "step": "Place one tender braised beef shank portion cleanly in center of prepared plate."
+        },
+        {
+          "number": 5,
+          "step": "Ladle thick smoked pepper cilantro sauce with peas generously over beef shank meat."
+        },
+        {
+          "number": 6,
+          "step": "Ensure rich bone marrow center of shank remains exposed and topped with warm sauce."
+        },
+        {
+          "number": 7,
+          "step": "Spoon extra green pea reduction sauce around yellow potatoes and white rice scoop."
+        },
+        {
+          "number": 8,
+          "step": "Top braised beef shank with a mounded cluster of fresh tangy salsa criolla salad."
+        },
+        {
+          "number": 9,
+          "step": "Scatter chopped fresh parsley across entire plate presentation for herbal contrast."
+        },
+        {
+          "number": 10,
+          "step": "Nestle fresh lime wedge on plate rim for guests to squeeze over beef shank."
+        },
+        {
+          "number": 11,
+          "step": "Dust plate edge lightly with annatto powder for traditional Peruvian color finish."
+        },
+        {
+          "number": 12,
+          "step": "Wipe outer rims of dinner plates with clean damp towel removing stray gravy marks."
+        },
+        {
+          "number": 13,
+          "step": "Serve immediately while braised meat sauce and potatoes are piping hot at table."
+        }
+      ]
+    },
+    {
+      "name": "Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Provide steak knives and small marrow spoons at table for enjoying shank marrow."
+        },
+        {
+          "number": 2,
+          "step": "Pass extra bowl of spicy salsa criolla at table for guests wanting extra heat."
+        },
+        {
+          "number": 3,
+          "step": "Offer remaining smoked pepper cilantro gravy in warm sauce boat for second helpings."
+        },
+        {
+          "number": 4,
+          "step": "Pair braised beef shank dish with Peruvian red wine or chicha morada beverage."
+        },
+        {
+          "number": 5,
+          "step": "Store leftover braised beef and sauce together in glass container in refrigerator."
+        },
+        {
+          "number": 6,
+          "step": "Flavors deepen overnight making leftover braised shanks taste even better next day."
+        },
+        {
+          "number": 7,
+          "step": "Reheat leftover beef shank gently in covered pot over low heat with splash of stock."
+        },
+        {
+          "number": 8,
+          "step": "Leftovers hold texture and rich flavor in refrigerator for up to three full days."
+        },
+        {
+          "number": 9,
+          "step": "Clean Dutch oven pot after soaking in warm soapy water for effortless food removal."
+        },
+        {
+          "number": 10,
+          "step": "Note custom pepper paste adjustments on recipe card for future family dinners."
+        },
+        {
+          "number": 11,
+          "step": "Enjoy this comforting Peruvian classic as a hearty centerpiece winter feast main course."
+        },
+        {
+          "number": 12,
+          "step": "Finalize dining experience with clean table presentation and warm family hospitality."
+        },
+        {
+          "number": 13,
+          "step": "Clear dining table promptly after meal service completing authentic Peruvian feast."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "id": 9002033,
+  "title": "Celebration Thai Glazed Pork Skewers with Peanut Sauce",
+  "image": "generated://dishcovery/9002033.jpg",
+  "readyInMinutes": 50,
+  "servings": 6,
+  "summary": "Elevate your party platter with these festive <b>Thai pork skewers</b>, perfect for an impressive <b>celebration skewer</b> display. Tender strips of pork shoulder are marinated in coconut milk, lemongrass, galangal, and red curry paste, then grilled over high heat until caramelized and smoky. Inspired by traditional Moo Ping and Satay street foods served at festive night markets, this recipe scales up flavors for grand gatherings. Served with a rich handcrafted peanut dipping sauce, quick-pickled cucumber relish (Arjad), and toasted sesame seeds, every bite offers a harmony of sweet, salty, tangy, and spicy notes. The marinade uses palm sugar, fish sauce, and coriander root to tenderize meat while creating a glossy caramelized glaze under direct flame heat. Perfect for outdoor celebrations, holiday banquets, or summer parties, these colorful skewers bring festive Thai hospitality to life.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 49.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 13.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 5.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 11.6
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.6
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.6
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Dietary Fiber",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Sugars",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.5
+      },
+      {
+        "name": "Protein",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 72
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.7
+      },
+      {
+        "name": "Calcium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Potassium",
+        "amount": 590,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 22,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.6
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.2
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 45.8
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Iodine",
+        "amount": 15,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.1
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.9
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.1
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.4
+      },
+      {
+        "name": "Choline",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "lbs",
+      "name": "pork shoulder sliced thin"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "unsweetened coconut milk"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "thai red curry paste"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "palm sugar grated"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "thai fish sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "minced lemongrass"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced galangal"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "minced coriander roots"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "creamy peanut butter"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sliced english cucumber"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "diced red chilies"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "white sugar"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90022,
+      "amount": 24,
+      "unit": "wooden",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil for brushing"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crushed roasted peanuts"
+    },
+    {
+      "id": 90025,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90027,
+      "amount": 4,
+      "unit": "leaves",
+      "name": "makrut lime leaves sliced"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "fresh lemongrass for basting"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sweet dark soy sauce"
+    },
+    {
+      "id": 90032,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "water for peanut sauce"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90036,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh Thai basil leaves"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90042,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced scallions"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sriracha sauce"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "lime",
+      "name": "lime cut into wedges"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade & Meat Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak twenty-four wooden bamboo skewers in warm water for thirty minutes to prevent burning."
+        },
+        {
+          "number": 2,
+          "step": "Slice pork shoulder across grain into thin strip ribbons about two inches long cleanly."
+        },
+        {
+          "number": 3,
+          "step": "Place sliced pork ribbons into a large glass mixing bowl or zip-top freezer bag."
+        },
+        {
+          "number": 4,
+          "step": "Pound lemongrass, galangal, garlic, and coriander roots into coarse paste using mortar."
+        },
+        {
+          "number": 5,
+          "step": "Whisk half cup coconut milk, red curry paste, and palm sugar together in separate bowl."
+        },
+        {
+          "number": 6,
+          "step": "Add Thai fish sauce, ground turmeric, ground cumin, and ground coriander to coconut bowl."
+        },
+        {
+          "number": 7,
+          "step": "Stir pounded lemongrass paste into coconut milk marinade until completely blended."
+        },
+        {
+          "number": 8,
+          "step": "Add sweet dark soy sauce and grated fresh ginger to enrich marinade flavor depth."
+        },
+        {
+          "number": 9,
+          "step": "Pour finished Thai marinade over pork ribbons in mixing bowl or plastic bag."
+        },
+        {
+          "number": 10,
+          "step": "Massage marinade into pork strips using gloved hands to ensure complete surface coverage."
+        },
+        {
+          "number": 11,
+          "step": "Seal bowl with plastic wrap and chill pork in refrigerator for at least two hours."
+        },
+        {
+          "number": 12,
+          "step": "Thread marinating pork ribbons tightly onto soaked bamboo skewers accordion-style."
+        },
+        {
+          "number": 13,
+          "step": "Leave bottom third of each bamboo skewer handle exposed for easy gripping while grilling."
+        },
+        {
+          "number": 14,
+          "step": "Arrange skewered pork strips onto a parchment-lined baking sheet in single layer."
+        },
+        {
+          "number": 15,
+          "step": "Brush excess marinade left in bowl over assembled pork skewers evenly on pan."
+        },
+        {
+          "number": 16,
+          "step": "Dust skewers lightly with onion powder and garlic powder for extra background flavor."
+        },
+        {
+          "number": 17,
+          "step": "Keep prepared skewers covered in refrigerator until moment grill or broiler is hot."
+        },
+        {
+          "number": 18,
+          "step": "Prepare lemongrass stalk by bruising top end to use as natural basting brush later."
+        },
+        {
+          "number": 19,
+          "step": "Check pork skewer assembly to make sure meat pieces are packed firmly together."
+        },
+        {
+          "number": 20,
+          "step": "Wipe prep area clean and wash hands thoroughly after handling raw pork meat."
+        },
+        {
+          "number": 21,
+          "step": "Verify skewers are uniform length for even presentation on celebration platter."
+        }
+      ]
+    },
+    {
+      "name": "Peanut Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat coconut oil in small saucepan over medium burner flame on your stovetop."
+        },
+        {
+          "number": 2,
+          "step": "Add remaining red curry paste to hot oil and sauté for one minute until fragrant."
+        },
+        {
+          "number": 3,
+          "step": "Pour remaining coconut milk and water into saucepan while whisking continuously."
+        },
+        {
+          "number": 4,
+          "step": "Stir in creamy peanut butter, tamarind paste, and soy sauce until smooth sauce forms."
+        },
+        {
+          "number": 5,
+          "step": "Add palm sugar, honey, and pinch of sea salt to balance sweet peanut flavor."
+        },
+        {
+          "number": 6,
+          "step": "Simmer peanut sauce over low heat setting for five minutes until thickened glossy."
+        },
+        {
+          "number": 7,
+          "step": "Stir in lime juice, sesame oil, and chili flakes to add bright tangy heat accents."
+        },
+        {
+          "number": 8,
+          "step": "Remove peanut sauce from heat and fold in crushed roasted peanuts for texture."
+        },
+        {
+          "number": 9,
+          "step": "Taste peanut sauce and adjust with extra fish sauce or tamarind if extra punch needed."
+        },
+        {
+          "number": 10,
+          "step": "Transfer warm peanut dipping sauce into decorative ceramic bowl for platter serving."
+        },
+        {
+          "number": 11,
+          "step": "Garnish sauce surface with thinly sliced makrut lime leaves and extra crushed peanuts."
+        },
+        {
+          "number": 12,
+          "step": "Keep peanut sauce warm on low setting or at room temperature until serving time."
+        },
+        {
+          "number": 13,
+          "step": "Cover dipping sauce bowl loosely with foil to prevent skin forming on surface."
+        },
+        {
+          "number": 14,
+          "step": "Inspect peanut sauce consistency to verify it is pourable yet thick enough for dipping."
+        },
+        {
+          "number": 15,
+          "step": "Add small splash of warm water if peanut sauce thickens too much upon standing."
+        },
+        {
+          "number": 16,
+          "step": "Set peanut sauce bowl in center of large party platter to anchor presentation."
+        },
+        {
+          "number": 17,
+          "step": "Prepare separate relish bowl alongside peanut sauce for complete Thai satay setup."
+        },
+        {
+          "number": 18,
+          "step": "Wipe saucepan sides cleanly to prevent burnt peanut residue along pot edges."
+        },
+        {
+          "number": 19,
+          "step": "Check peanut sauce spice level to ensure crowd-pleasing balance for celebration guests."
+        },
+        {
+          "number": 20,
+          "step": "Keep extra crushed peanuts in small ramekin for guest self-service topping choice."
+        }
+      ]
+    },
+    {
+      "name": "Cucumber Relish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine rice vinegar, white sugar, and sea salt in small saucepan over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Stir vinegar mixture until sugar dissolves completely, then remove from heat to cool."
+        },
+        {
+          "number": 3,
+          "step": "Slice English cucumber into thin quarter-moon pieces on a clean cutting board."
+        },
+        {
+          "number": 4,
+          "step": "Place sliced cucumber, sliced shallots, and diced red chilies into small bowl."
+        },
+        {
+          "number": 5,
+          "step": "Pour cooled sweetened rice vinegar liquid over cucumber and shallot mixture in bowl."
+        },
+        {
+          "number": 6,
+          "step": "Toss cucumber relish gently and let marinate at room temperature for fifteen minutes."
+        },
+        {
+          "number": 7,
+          "step": "Stir in chopped fresh cilantro leaves right before serving to maintain bright green color."
+        },
+        {
+          "number": 8,
+          "step": "Inspect relish balance to ensure tangy vinegar cuts through rich peanut sauce notes."
+        },
+        {
+          "number": 9,
+          "step": "Transfer cucumber Arjad relish into small glass dish for celebration platter display."
+        },
+        {
+          "number": 10,
+          "step": "Keep relish chilled in refrigerator if preparing more than one hour in advance."
+        },
+        {
+          "number": 11,
+          "step": "Drain excess vinegar liquid slightly if relish bowl becomes overly full before serving."
+        },
+        {
+          "number": 12,
+          "step": "Top relish dish with a few fresh Thai basil leaves for decorative herbal finish."
+        },
+        {
+          "number": 13,
+          "step": "Ensure chilies are distributed evenly so every spoonful provides colorful contrast."
+        },
+        {
+          "number": 14,
+          "step": "Check cucumber slice crispness before placing relish bowl onto party platter display."
+        },
+        {
+          "number": 15,
+          "step": "Keep extra red chili slices available for guests who enjoy intense spicy bite."
+        },
+        {
+          "number": 16,
+          "step": "Clean prep utensils used for vinegar syrup to keep kitchen workspace organized."
+        },
+        {
+          "number": 17,
+          "step": "Verify relish quantity is sufficient for twenty-four celebration pork skewers total."
+        },
+        {
+          "number": 18,
+          "step": "Set relish dish adjacent to peanut sauce bowl on large wooden party board."
+        },
+        {
+          "number": 19,
+          "step": "Dust sea salt flakes over cucumber relish surface right before guests arrive."
+        },
+        {
+          "number": 20,
+          "step": "Confirm all party dipping sauces are completely prepared prior to grilling meat."
+        }
+      ]
+    },
+    {
+      "name": "Grilling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat outdoor grill or indoor cast iron ridge skillet to high temperature setting."
+        },
+        {
+          "number": 2,
+          "step": "Brush grill grate lightly with vegetable oil using heatproof grill tongs and paper towel."
+        },
+        {
+          "number": 3,
+          "step": "Place skewered pork strips onto hot grill grate in single layer without overcrowding."
+        },
+        {
+          "number": 4,
+          "step": "Grill pork skewers for three minutes until bottom edges show dark charred grill marks."
+        },
+        {
+          "number": 5,
+          "step": "Dip bruised lemongrass stalk brush into coconut milk and baste top of pork skewers."
+        },
+        {
+          "number": 6,
+          "step": "Flip skewers using tongs and grill for three additional minutes on second side carefully."
+        },
+        {
+          "number": 7,
+          "step": "Baste cooked side with coconut milk using lemongrass stalk brush to keep meat juicy."
+        },
+        {
+          "number": 8,
+          "step": "Watch for palm sugar in marinade to caramelize into shiny glaze over high heat."
+        },
+        {
+          "number": 9,
+          "step": "Repeat flipping and basting for eight to ten total minutes until internal temp hits 145F."
+        },
+        {
+          "number": 10,
+          "step": "Transfer charred pork skewers to warm serving tray lined with banana leaf sheet."
+        },
+        {
+          "number": 11,
+          "step": "Brush warm cooked skewers with tiny drop of sweet dark soy sauce for glossy sheen."
+        },
+        {
+          "number": 12,
+          "step": "Repeat grilling and basting process for remaining pork skewers in second batch."
+        },
+        {
+          "number": 13,
+          "step": "Inspect all skewers to make sure pork is fully cooked with rich smoky caramelization."
+        },
+        {
+          "number": 14,
+          "step": "Keep finished skewers covered loosely with foil while preparing final party board presentation."
+        },
+        {
+          "number": 15,
+          "step": "Clean grill grates lightly between batches to avoid excessive flare-ups from dripping oil."
+        },
+        {
+          "number": 16,
+          "step": "Verify skewer handles remain clean and cool enough for guests to pick up easily."
+        },
+        {
+          "number": 17,
+          "step": "Sprinkle smoked paprika lightly over grilled meat for subtle extra char color touch."
+        },
+        {
+          "number": 18,
+          "step": "Drizzle tiny drop of Sriracha sauce over skewers for optional festive red highlights."
+        },
+        {
+          "number": 19,
+          "step": "Ensure meat texture remains tender without over-drying under intense grill flame heat."
+        },
+        {
+          "number": 20,
+          "step": "Arrange all twenty-four cooked skewers fanwise around center dip bowls on platter."
+        }
+      ]
+    },
+    {
+      "name": "Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Line a large carved wooden platter or silver tray with fresh clean banana leaves."
+        },
+        {
+          "number": 2,
+          "step": "Position bowl of warm peanut sauce and bowl of cucumber relish in platter center."
+        },
+        {
+          "number": 3,
+          "step": "Arrange charred Thai pork skewers radially around bowls in striking circular fan shape."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle toasted white sesame seeds across all grilled pork skewers on platter."
+        },
+        {
+          "number": 5,
+          "step": "Garnish skewers with sliced scallions and extra crushed peanuts for festive party look."
+        },
+        {
+          "number": 6,
+          "step": "Place fresh lime wedges around edge of platter for squeezing over pork before dipping."
+        },
+        {
+          "number": 7,
+          "step": "Tuck fresh Thai basil leaves and cilantro sprigs between skewer handles for green contrast."
+        },
+        {
+          "number": 8,
+          "step": "Dust sea salt flakes over skewers right before presenting platter to celebration guests."
+        },
+        {
+          "number": 9,
+          "step": "Serve immediately while skewers are hot, juicy, and caramel-glazed from direct grilling."
+        },
+        {
+          "number": 10,
+          "step": "Pairs fantastically with cold Thai Singha beer, chilled white wine, or iced lemongrass tea."
+        },
+        {
+          "number": 11,
+          "step": "Provide extra cocktail napkins and small individual plates near platter for party guests."
+        },
+        {
+          "number": 12,
+          "step": "Instruct guests to dip warm skewers first into peanut sauce then top with cucumber relish."
+        },
+        {
+          "number": 13,
+          "step": "Store remaining cooked skewers in airtight container in refrigerator for up to three days."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftover skewers under oven broiler for three minutes to restore caramelized glaze."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy these celebratory Thai pork skewers packed with vibrant sweet and savory spices."
+        },
+        {
+          "number": 16,
+          "step": "Wipe platter edges clean of any dripped sauces before serving to maintain grand look."
+        },
+        {
+          "number": 17,
+          "step": "Check that all skewers are anchored securely so guests can lift them effortlessly."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra peanut sauce warmed in kitchen for refilling platter bowl during event."
+        },
+        {
+          "number": 19,
+          "step": "Celebrate a memorable Thai banquet dish with family and friends at party gathering."
+        },
+        {
+          "number": 20,
+          "step": "Clean grilling station and skewers prep area after completing festive food service."
+        }
+      ]
+    }
+  ]
+}

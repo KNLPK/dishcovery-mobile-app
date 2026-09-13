@@ -1,0 +1,553 @@
+{
+  "id": 9001081,
+  "title": "One-Pot Italian Potato Gnocchi with Sage and Ricotta",
+  "image": "generated://dishcovery/9001081.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Streamlined into a single pot, this Italian dumpling dish cooks light potato gnocchi directly in a fragrant emulsion of butter, vegetable broth, fresh sage, and crushed garlic. As the gnocchi cook, starch releases into the simmering broth, creating a creamy pan sauce without requiring separate boiling and draining steps. Whole milk ricotta and freshly grated pecorino cheese are folded in at the end, coating every pillow-soft dumpling in velvet richness. Tender baby spinach and lemon zest added right before serving provide bright acidity and color. This one-pot method reduces cleanup while maximizing flavor retention in every bite. Enjoy this comforting dinner hot with extra black pepper and toasted pine nuts. The <b>starch-thickened butter sauce</b> clings effortlessly to the <b>light potato dumplings</b>, proving that high-end Italian comfort food can be fast and clean.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24.5
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 28.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 57.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 4.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 60,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Sodium",
+        "amount": 750,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.6
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 70.8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.9
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.7
+      },
+      {
+        "name": "Folate",
+        "amount": 78,
+        "unit": "µg",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.72,
+        "unit": "µg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Calcium",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Iodine",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.1
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 32.7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.6
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.1
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31.1
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "fresh potato gnocchi"
+    },
+    {
+      "id": 90001,
+      "amount": 60,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90002,
+      "amount": 400,
+      "unit": "ml",
+      "name": "low-sodium vegetable broth"
+    },
+    {
+      "id": 90003,
+      "amount": 15,
+      "unit": "leaves",
+      "name": "fresh sage"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 150,
+      "unit": "g",
+      "name": "whole milk ricotta cheese"
+    },
+    {
+      "id": 90006,
+      "amount": 60,
+      "unit": "g",
+      "name": "pecorino romano cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh lemon zest"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 40,
+      "unit": "g",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "crushed red pepper flakes"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "freshly grated nutmeg"
+    },
+    {
+      "id": 90014,
+      "amount": 0.75,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "coarsely ground black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90018,
+      "amount": 50,
+      "unit": "g",
+      "name": "fontina cheese"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped basil"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "medium",
+      "name": "shallot"
+    },
+    {
+      "id": 90021,
+      "amount": 50,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic salt"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "flat-leaf parsley"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Base Aromatics and Toasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place a deep, wide saute pan or Dutch oven on burner set to medium heat level."
+        },
+        {
+          "number": 2,
+          "step": "Add pine nuts to dry pan, dry-toasting for three minutes until golden and fragrant."
+        },
+        {
+          "number": 3,
+          "step": "Transfer toasted pine nuts to a small dish immediately to prevent scorching in pan."
+        },
+        {
+          "number": 4,
+          "step": "Add extra virgin olive oil and two tablespoons of unsalted butter to hot pan."
+        },
+        {
+          "number": 5,
+          "step": "Finely mince shallot and garlic cloves using chef knife on cutting board surface."
+        },
+        {
+          "number": 6,
+          "step": "Add minced shallot and garlic to melted butter, cooking two minutes until softened."
+        },
+        {
+          "number": 7,
+          "step": "Slap fresh sage leaves between hands to bruise, then add leaves directly into hot fat."
+        },
+        {
+          "number": 8,
+          "step": "Fry sage leaves for two minutes until crisp and oil turns fragrant with sage essence."
+        },
+        {
+          "number": 9,
+          "step": "Remove half of crisp sage leaves with fork and reserve for final meal garnishing."
+        },
+        {
+          "number": 10,
+          "step": "Pour dry white wine into pan, scraping brown bits while wine simmers down for two minutes."
+        },
+        {
+          "number": 11,
+          "step": "Stir in crushed red pepper flakes, grated nutmeg, garlic salt, and onion powder."
+        },
+        {
+          "number": 12,
+          "step": "Dust one tablespoon flour over pan aromatics, cooking for one minute to form roux."
+        },
+        {
+          "number": 13,
+          "step": "Slowly pour low-sodium vegetable broth into pan, whisking to dissolve flour smoothly."
+        },
+        {
+          "number": 14,
+          "step": "Bring savory broth base to a lively simmer over medium burner flame setting."
+        }
+      ]
+    },
+    {
+      "name": "One-Pot Dumpling Simmer",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Unpack fresh potato gnocchi and separate any dumplings that stick to each other."
+        },
+        {
+          "number": 2,
+          "step": "Drop gnocchi directly into bubbling broth without boiling water in a separate pot."
+        },
+        {
+          "number": 3,
+          "step": "Stir gnocchi gently with silicone spatula to ensure dumplings stay submerged in broth."
+        },
+        {
+          "number": 4,
+          "step": "Cover pot with lid and cook for four minutes as gnocchi absorb liquid and swell."
+        },
+        {
+          "number": 5,
+          "step": "Remove lid and check that gnocchi have floated to surface of simmering sauce base."
+        },
+        {
+          "number": 6,
+          "step": "Observe as released potato starches naturally thicken simmer broth into silky sauce."
+        },
+        {
+          "number": 7,
+          "step": "Add remaining unsalted butter and heavy cream into pot, stirring to enrich sauce."
+        },
+        {
+          "number": 8,
+          "step": "Drop fresh baby spinach leaves into pot, folding leaves into hot sauce to wilt."
+        },
+        {
+          "number": 9,
+          "step": "Season sauce with sea salt and coarsely ground black pepper according to taste preference."
+        },
+        {
+          "number": 10,
+          "step": "Maintain gentle simmer for two minutes until spinach turns bright tender green."
+        },
+        {
+          "number": 11,
+          "step": "Stir in fresh lemon juice to balance rich butter and starch profiles in pot broth."
+        },
+        {
+          "number": 12,
+          "step": "Reduce burner heat to lowest setting so sauce stays warm without boiling dumplings."
+        },
+        {
+          "number": 13,
+          "step": "Verify gnocchi texture is pillow-soft and tender without turning mushy or overcooked."
+        },
+        {
+          "number": 14,
+          "step": "Prepare fresh cheese blend ingredients for final cream fold stage."
+        }
+      ]
+    },
+    {
+      "name": "Cheese Fold and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Grate pecorino romano cheese and fontina cheese using fine microplane tool."
+        },
+        {
+          "number": 2,
+          "step": "Dollop whole milk ricotta cheese by tablespoons across surface of simmering gnocchi."
+        },
+        {
+          "number": 3,
+          "step": "Stir grated pecorino and fontina cheeses gently into warm starch sauce until melted."
+        },
+        {
+          "number": 4,
+          "step": "Fold ricotta partially into sauce, leaving creamy white swirls around potato dumplings."
+        },
+        {
+          "number": 5,
+          "step": "Stir in fresh lemon zest and chopped basil leaves for instant herbaceous brightness."
+        },
+        {
+          "number": 6,
+          "step": "Turn off burner completely and let pot sit covered on warm stove for two minutes."
+        },
+        {
+          "number": 7,
+          "step": "Ladle one-pot dumplings and creamy cheese sauce into four shallow pasta bowls."
+        },
+        {
+          "number": 8,
+          "step": "Top each bowl with reserved fried sage leaves for crunchy texture and visual interest."
+        },
+        {
+          "number": 9,
+          "step": "Scatter toasted pine nuts over bowls to add nutty crunch against soft dumplings."
+        },
+        {
+          "number": 10,
+          "step": "Garnish plates with extra chopped flat-leaf parsley and additional ground black pepper."
+        },
+        {
+          "number": 11,
+          "step": "Drizzle remaining extra virgin olive oil over bowl rims just before serving guests."
+        },
+        {
+          "number": 12,
+          "step": "Check that one-pot dish delivers piping heat and silky sauce coating every gnocchi."
+        },
+        {
+          "number": 13,
+          "step": "Serve immediately alongside crusty Italian bread for wiping extra cheese sauce clean."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy rapid single-pot convenience with authentic Italian pasta house flavor."
+        }
+      ]
+    }
+  ]
+}

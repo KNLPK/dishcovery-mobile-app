@@ -1,0 +1,553 @@
+{
+  "id": 9001019,
+  "title": "Smoked Split Pea and Yellow Dal Soup",
+  "image": "generated://dishcovery/9001019.jpg",
+  "readyInMinutes": 65,
+  "servings": 6,
+  "summary": "This comforting <b>Indian smoked yellow dal soup</b> highlights the traditional dhungar method to impart a captivating wood-smoked aroma into creamy simmered split peas. Yellow split peas and toor dal are gently boiled with turmeric, ginger, and garlic until tender and velvety. The soup is then infused with hardwood charcoal smoke trapped under a tight lid, giving it a rich campfire depth without meat ingredients. A fiery tadka tempering of mustard seeds, cumin, curry leaves, and sliced dry red chilies fried in ghee is stirred into the pot just before serving. Fresh cilantro and lemon juice add a bright contrast to the deep, smoky base notes. Perfect for cold evenings, this hearty soup offers immense warmth, rich plant protein, and aromatic spices. Serving it alongside steamed basmati rice or warm garlic naan completes an authentic Indian meal. The combination of gentle lentils, bright citrus, and natural charcoal smoke makes this soup an impressive center for vegetarian feasts.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 290,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 14.5
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sodium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.25
+      },
+      {
+        "name": "Fiber",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.6
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.6
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.1
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.29,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 125,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31.25
+      },
+      {
+        "name": "Calcium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.5
+      },
+      {
+        "name": "Potassium",
+        "amount": 440,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.5
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 175,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27.7
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.9
+      },
+      {
+        "name": "Selenium",
+        "amount": 8.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15.4
+      },
+      {
+        "name": "Choline",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.3
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 31,
+        "unit": "g",
+        "percentOfDailyNeeds": 11.2
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "yellow split peas"
+    },
+    {
+      "id": 90001,
+      "amount": 100,
+      "unit": "g",
+      "name": "toor dal pigeon peas"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced ginger"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "medium",
+      "name": "plum tomato"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown mustard seeds"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "asafoetida hing powder"
+    },
+    {
+      "id": 90011,
+      "amount": 10,
+      "unit": "leaves",
+      "name": "fresh curry leaves"
+    },
+    {
+      "id": 90012,
+      "amount": 3,
+      "unit": "whole",
+      "name": "dried red chilies"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander powder"
+    },
+    {
+      "id": 90015,
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "liter",
+      "name": "water"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "piece",
+      "name": "hardwood lump charcoal"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ghee for smoke cup"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "green",
+      "name": "chili pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "kashmiri red chili powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "kasuri methi dried fenugreek"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "black salt kala namak"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Lentil Cooking Phase",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sort yellow split peas and toor dal in a tray to remove tiny pebbles or impurities."
+        },
+        {
+          "number": 2,
+          "step": "Rinse sorted lentils in cold water four times until rinse water runs clear."
+        },
+        {
+          "number": 3,
+          "step": "Soak rinsed lentils in warm water for thirty minutes to reduce cooking duration."
+        },
+        {
+          "number": 4,
+          "step": "Drain soaked lentils completely and transfer into a deep heavy soup pot."
+        },
+        {
+          "number": 5,
+          "step": "Pour one liter of water into pot and add ground turmeric, minced ginger, and salt."
+        },
+        {
+          "number": 6,
+          "step": "Bring pot to a boil over high heat, skimming off white foam from surface with spoon."
+        },
+        {
+          "number": 7,
+          "step": "Reduce heat to low, cover pot with lid, and simmer lentils gently for forty minutes."
+        },
+        {
+          "number": 8,
+          "step": "Dice plum tomato and red onion finely on cutting board while lentils are boiling."
+        },
+        {
+          "number": 9,
+          "step": "Mince garlic cloves and slit green chili pepper lengthwise for flavor infusion."
+        },
+        {
+          "number": 10,
+          "step": "Whisk simmered lentils with a wire whisk to break down split peas into a thick cream."
+        },
+        {
+          "number": 11,
+          "step": "Add diced tomato, coriander powder, and garam masala to thick lentil soup pot."
+        },
+        {
+          "number": 12,
+          "step": "Simmer soup uncovered for ten additional minutes until tomatoes soften completely."
+        },
+        {
+          "number": 13,
+          "step": "Check soup consistency and add extra warm water if mixture appears overly thick."
+        },
+        {
+          "number": 14,
+          "step": "Keep cooked lentil soup warm over lowest heat setting while preparing smoke infusion."
+        }
+      ]
+    },
+    {
+      "name": "Dhungar Smoking Technique",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Hold hardwood lump charcoal piece with metal tongs directly over gas stove flame."
+        },
+        {
+          "number": 2,
+          "step": "Heat charcoal piece for five minutes turning occasionally until red hot and glowing."
+        },
+        {
+          "number": 3,
+          "step": "Place a small heatproof stainless steel bowl directly onto surface of warm dal soup."
+        },
+        {
+          "number": 4,
+          "step": "Transfer glowing charcoal carefully into small bowl sitting inside soup pot using tongs."
+        },
+        {
+          "number": 5,
+          "step": "Pour one teaspoon of ghee over hot charcoal to produce thick aromatic white smoke."
+        },
+        {
+          "number": 6,
+          "step": "Cover soup pot immediately with a tight lid to trap smoke inside vessel completely."
+        },
+        {
+          "number": 7,
+          "step": "Seal any lid steam escape holes with a damp towel to prevent smoke leakage out."
+        },
+        {
+          "number": 8,
+          "step": "Allow soup to absorb hardwood smoke undisturbed under sealed lid for five minutes."
+        },
+        {
+          "number": 9,
+          "step": "Remove pot lid carefully and lift out charcoal bowl with tongs without spilling ash."
+        },
+        {
+          "number": 10,
+          "step": "Discard burnt charcoal safely in a metal sink and stir smoked soup with spoon."
+        },
+        {
+          "number": 11,
+          "step": "Cover smoked soup pot again to retain deep campfire aroma until tadka assembly."
+        },
+        {
+          "number": 12,
+          "step": "Crush kasuri methi fenugreek leaves between palms into fine aromatic powder."
+        },
+        {
+          "number": 13,
+          "step": "Stir crushed fenugreek powder into smoked soup for warm herbal fragrance."
+        },
+        {
+          "number": 14,
+          "step": "Taste soup and season with black salt kala namak if extra savory note is needed."
+        }
+      ]
+    },
+    {
+      "name": "Tadka Seasoning and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat three tablespoons of ghee in a small tadka pan over medium heat for one minute."
+        },
+        {
+          "number": 2,
+          "step": "Add brown mustard seeds to hot ghee and fry until they sputter and pop violently."
+        },
+        {
+          "number": 3,
+          "step": "Stir in cumin seeds, whole dried red chilies, and asafoetida powder into sizzling ghee."
+        },
+        {
+          "number": 4,
+          "step": "Add diced red onions, minced garlic, and slit green chili into hot spice oil pan."
+        },
+        {
+          "number": 5,
+          "step": "Sauté spice onion mixture for three minutes until garlic turns golden brown and crisp."
+        },
+        {
+          "number": 6,
+          "step": "Add fresh curry leaves and Kashmiri chili powder, stirring quickly for ten seconds."
+        },
+        {
+          "number": 7,
+          "step": "Pour sizzling hot tadka oil and spices immediately into warm smoked dal soup pot."
+        },
+        {
+          "number": 8,
+          "step": "Cover soup pot instantly for two minutes to let sizzle steam absorb into soup base."
+        },
+        {
+          "number": 9,
+          "step": "Stir soup thoroughly to mix tempered spice oil evenly throughout lentil broth."
+        },
+        {
+          "number": 10,
+          "step": "Stir fresh lemon juice into hot dal soup to add bright acidity balancing smoke."
+        },
+        {
+          "number": 11,
+          "step": "Ladle warm smoked yellow dal soup into six individual ceramic soup bowls."
+        },
+        {
+          "number": 12,
+          "step": "Garnish each bowl generously with chopped fresh cilantro leaves and ghee drizzle."
+        },
+        {
+          "number": 13,
+          "step": "Serve soup immediately while hot alongside warm steamed basmati rice or naan."
+        },
+        {
+          "number": 14,
+          "step": "Provide extra lemon wedges on side for guests wanting additional citrus tang."
+        }
+      ]
+    }
+  ]
+}

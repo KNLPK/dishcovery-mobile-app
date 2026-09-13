@@ -1,0 +1,550 @@
+{
+  "id": 9001074,
+  "title": "Celebration Festive Korean Roasted Duck Breast",
+  "image": "generated://dishcovery/9001074.jpg",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "summary": "Designed for festive gatherings and grand family feasts, this showstopping roast features thick <b>duck breast fillets</b> scored and rendered to golden perfection, then glazed with a sweet and fiery gochujang reduction. Inspired by traditional Korean celebration roasts, the duck is marinated in soy, ginger, nashi pear juice, and rice wine to tenderize the meat before slow oven roasting. A shimmering glaze composed of ferment red pepper paste, honey, garlic, and toasted sesame oil is brushed on during final searing for a magnificent shiny finish. Accompanied by pickled daikon radish, fresh perilla leaves, and toasted sesame seeds, each serving balances smoky fat with crisp, refreshing garnishes. The recipe achieves restaurant-quality crispy skin alongside tender, juicy red meat cooked to medium-rare perfection. Elevate your holiday menu or dinner party with this opulent dish that celebrates harmony, texture, and deep flavor heritage. Experience the warmth of a true <b>Korean feast roast</b> at your celebration table.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sugar",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Protein",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 210,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Folate",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Choline",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Calcium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Copper",
+        "amount": 0.24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "pc",
+      "name": "duck breast fillets"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "gochujang paste"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rice wine"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "nashi pear juice"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "pc",
+      "name": "scallions"
+    },
+    {
+      "id": 90013,
+      "amount": 12,
+      "unit": "leaf",
+      "name": "perilla leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 150,
+      "unit": "g",
+      "name": "pickled daikon radish"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "gochugaru flakes"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "pc",
+      "name": "red chilli"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "doenjang paste"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "plum syrup"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "five spice powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Meat Preparation and Brine",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat the duck breast fillets completely dry using thick paper towels on both skin and flesh sides."
+        },
+        {
+          "number": 2,
+          "step": "Score duck skin in crosshatch diamond pattern using sharp knife, avoiding cutting flesh beneath."
+        },
+        {
+          "number": 3,
+          "step": "Grate nashi pear, ginger root, and garlic finely to yield fresh liquid base for meat marinade."
+        },
+        {
+          "number": 4,
+          "step": "Combine grated pear, ginger, garlic, soy sauce, rice wine, and black pepper in glass marinating dish."
+        },
+        {
+          "number": 5,
+          "step": "Place scored duck breasts into marinating dish, turning to coat evenly without submerging skin side."
+        },
+        {
+          "number": 6,
+          "step": "Rub sea salt into scored skin cuts carefully to draw out surface moisture for ultra crispness."
+        },
+        {
+          "number": 7,
+          "step": "Chill duck fillets uncovered in refrigerator for forty-five minutes to dry out skin surface thoroughly."
+        },
+        {
+          "number": 8,
+          "step": "Remove duck from refrigerator fifteen minutes before searing to let meat return room temperature."
+        },
+        {
+          "number": 9,
+          "step": "Preheat oven to two hundred degrees Celsius and set wire roasting rack inside shallow baking sheet."
+        },
+        {
+          "number": 10,
+          "step": "Wipe off excess liquid marinade from duck flesh side using fresh paper towels prior to sear."
+        }
+      ]
+    },
+    {
+      "name": "Celebration Glaze Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk gochujang red pepper paste, honey, plum syrup, and doenjang paste together in saucepan."
+        },
+        {
+          "number": 2,
+          "step": "Add rice vinegar, remaining soy sauce, and toasted sesame oil to glaze pot over low stove flame."
+        },
+        {
+          "number": 3,
+          "step": "Stir in gochugaru flakes and pinch of five spice powder to deepen warm celebratory aromatic layers."
+        },
+        {
+          "number": 4,
+          "step": "Whisk cornstarch with water in small dish and pour into glaze to create glossy pourable texture."
+        },
+        {
+          "number": 5,
+          "step": "Simmer glaze for three minutes while stirring continuously until thick, shiny, and smooth in pot."
+        },
+        {
+          "number": 6,
+          "step": "Taste glaze and adjust sweetness with extra honey or tang with rice vinegar as preferred for dish."
+        },
+        {
+          "number": 7,
+          "step": "Transfer half of cooked glaze into serving bowl for table dipping, keeping rest warm for basting."
+        },
+        {
+          "number": 8,
+          "step": "Slice pickled daikon radish into thin translucent rounds and fan out on decorative serving platter."
+        },
+        {
+          "number": 9,
+          "step": "Shred fresh scallions and red chilli into fine ice-water curled ribbons for celebratory garnish."
+        },
+        {
+          "number": 10,
+          "step": "Wash fresh perilla leaves and pat dry, laying them neatly alongside pickled daikon on platter."
+        }
+      ]
+    },
+    {
+      "name": "Searing and Oven Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place scored duck breasts skin-side down into cold heavy oven-safe cast iron skillet with no oil."
+        },
+        {
+          "number": 2,
+          "step": "Set burner flame to low-medium heat, allowing duck fat to gradually render out into cold skillet."
+        },
+        {
+          "number": 3,
+          "step": "Spoon off excess rendered duck fat from skillet every three minutes, reserving fat for future cooking."
+        },
+        {
+          "number": 4,
+          "step": "Sear skin side undisturbed for nine minutes until deep golden brown, super crisp, and thin."
+        },
+        {
+          "number": 5,
+          "step": "Flip duck breasts flesh-side down and sear for sixty seconds to lightly seal underside surfaces."
+        },
+        {
+          "number": 6,
+          "step": "Brush warm gochujang glaze generously over golden crisp skin side using heatproof silicone brush."
+        },
+        {
+          "number": 7,
+          "step": "Transfer entire cast iron skillet into preheated oven to roast duck breasts for six minutes."
+        },
+        {
+          "number": 8,
+          "step": "Brush second layer of glaze over skin during middle of oven roasting time for sticky coating."
+        },
+        {
+          "number": 9,
+          "step": "Check internal meat temperature with digital probe, targeting fifty-eight degrees for medium-rare."
+        },
+        {
+          "number": 10,
+          "step": "Remove skillet from oven and carefully transfer duck breasts to wire cooling rack set over tray."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Celebration Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Allow roasted duck breasts to rest undisturbed for seven minutes to redistribute internal juices."
+        },
+        {
+          "number": 2,
+          "step": "Slice duck breasts diagonally into half-centimeter thick slices using very sharp carving knife."
+        },
+        {
+          "number": 3,
+          "step": "Arrange sliced duck fans prominently across middle of grand festive presentation platter."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle remaining basting glaze lightly over duck slices, avoiding drowning crisp top skin."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle toasted sesame seeds generously over glaze-coated duck roast slices for golden sheen."
+        },
+        {
+          "number": 6,
+          "step": "Top meat with crisp scallion ribbons and sliced red chillies for striking festive color contrast."
+        },
+        {
+          "number": 7,
+          "step": "Place perilla leaves and pickled daikon slices around roast duck for guest wrap assembly."
+        },
+        {
+          "number": 8,
+          "step": "Serve reserved gochujang glaze dipping bowl alongside platter for extra flavor customization."
+        },
+        {
+          "number": 9,
+          "step": "Instruct dinner guests to wrap duck slices in fresh perilla leaves with daikon and dip sauce."
+        },
+        {
+          "number": 10,
+          "step": "Present dish immediately as centerpiece of celebration meal alongside steamed rice and side banchan."
+        }
+      ]
+    }
+  ]
+}

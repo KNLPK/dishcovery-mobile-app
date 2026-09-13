@@ -73,13 +73,34 @@ export const COMPLEXITY_THRESHOLDS = {
    * its measured size was 5533 bytes — the gap being multibyte characters in
    * recipe titles and summaries.
    *
-   * VALUES ARE UNCHANGED from the character-count thresholds and are NOT yet
-   * retuned; the real byte-length distribution decides that.
+   * RETUNED once the real distribution was known. The original values (8192 /
+   * 20480) were inherited from the pre-Stage-3 character-count thresholds and
+   * were never justified against data.
+   *
+   * The justification for these values is a byte model fitted by ordinary least
+   * squares to the 100 harvested recipes:
+   *
+   *     bytes = 584.4 + 104.1*nutrients + 51.6*ingredients
+   *                   + 108.1*steps     + 193.1*instructionSets
+   *
+   * (mean absolute residual 238 B; predicts 5325 B at the harvested medians
+   * against an observed 5273 B, a 1.0% error).
+   *
+   * At the text density actually observed in recipe data — a median of 115.2
+   * characters per instruction step — byte length is expensive to buy: roughly
+   * nine additional steps per further kilobyte. Under the old 20480-byte high
+   * boundary, a high-tier payload required about 125 instruction steps and 80
+   * ingredients. That is not a recipe document, and presenting it as one level
+   * of a "payload structural complexity" variable would not survive review.
+   *
+   * 7500 / 14000 place the boundaries where the structural counts they imply
+   * remain recognisable as recipes. See GENERATION_TARGET_BANDS for the counts
+   * each tier now implies.
    */
   /** byteLength < this  → low */
-  lowMaxBytes: 8 * 1024, // 8192
+  lowMaxBytes: 7500,
   /** byteLength <= this → medium; above → high */
-  mediumMaxBytes: 20 * 1024, // 20480
+  mediumMaxBytes: 14000,
 
   /**
    * Depth boundaries.
@@ -523,18 +544,21 @@ export const GENERATION_TARGET_BANDS: Record<
    * aimBytes 5300 is the harvested Spoonacular MEDIAN (5273 B), matched
    * deliberately: the generated low tier is the provenance control and has to be
    * comparable to the real set, not merely small.
+   *
+   * maxBytes 6800 leaves 700 B of margin below the 7500 B low/medium boundary.
    */
-  low: { minBytes: 4000, maxBytes: 7500, aimBytes: 5300 },
-  medium: { minBytes: 9000, maxBytes: 19000, aimBytes: 12500 },
+  low: { minBytes: 4000, maxBytes: 6800, aimBytes: 5300 },
   /**
-   * aimBytes sits just above the 20480-byte high boundary on purpose. At the
-   * text density measured on real recipes (115 chars per step), byte length is
-   * an expensive thing to buy: every extra 1000 bytes costs roughly 9 further
-   * instruction steps. Aiming deeper into the band would demand step counts no
-   * recipe document plausibly carries, so the aim stays close to the floor and
-   * the growth is spread across the ingredient list as well as the steps.
+   * 1000 B of margin at both ends: 8500 sits above the 7500 B boundary, 13000
+   * below the 14000 B one.
    */
-  high: { minBytes: 22000, maxBytes: 40000, aimBytes: 23000 },
+  medium: { minBytes: 8500, maxBytes: 13000, aimBytes: 10500 },
+  /**
+   * minBytes 15200 leaves 1200 B of margin above the 14000 B medium/high
+   * boundary. maxBytes 24000 is a rejection ceiling, not a target — it also caps
+   * the output-token budget a single response has to carry.
+   */
+  high: { minBytes: 15200, maxBytes: 24000, aimBytes: 16500 },
 };
 
 /**
@@ -558,35 +582,120 @@ export const NEAR_DUPLICATE_CRITERION = {
   identityFields: ['title', 'extendedIngredients[].name', 'analyzedInstructions[].steps[].step'],
 } as const;
 
-/** Why a generated attempt was rejected. One layer: the first that failed. */
+/** Why a generated candidate was rejected. One layer: the first that failed. */
 export type RejectionReason =
-  | 'http-error'
-  | 'blocked-or-truncated'
-  | 'unparseable-json'
   | 'schema-violation'
   | 'value-sanity'
   | 'structural-count'
+  /** Mean chars/step outside the constant text budget — the verbosity control. */
+  | 'text-density'
   | 'tier-band-miss'
   | 'near-duplicate';
 
-/** One model call and its outcome. Every attempt is recorded, including failures. */
-export interface GenerationAttempt {
-  attempt: number;
+/** How a whole batch request ended. Item-level outcomes are in GenerationAttempt. */
+export type BatchOutcome =
+  | 'ok'
+  | 'http-error'
+  | 'daily-quota'
+  | 'blocked-or-truncated'
+  | 'unparseable-json'
+  | 'not-an-array';
+
+/**
+ * One model request. Payloads are generated in BATCHES — one request returns
+ * several documents — because the free tier is limited per REQUEST (20/day),
+ * not per payload, while the model's output limit (65,536 tokens) comfortably
+ * holds several documents plus its own thinking tokens.
+ */
+export interface BatchRecord {
+  batchId: string;
+  tier: ComplexityTier;
   requestedAt: string;
+  /** Documents asked for in this request. */
+  requestedCount: number;
+  /** Documents the model actually returned (0 when the request failed). */
+  returnedCount: number;
+  acceptedCount: number;
+  rejectedCount: number;
+  promptKind: 'generation' | 'corrective-retry';
   /** Path, relative to fixtures/generated/, of the verbatim API response body. */
   rawFile: string | null;
   httpStatus: number | null;
-  /** UTF-8 byte length of the candidate payload, when one could be measured. */
+  finishReason: string | null;
+  /** Includes thoughtsTokenCount when the model reports it. */
+  usageMetadata: Record<string, number> | null;
+  outcome: BatchOutcome;
+  detail: string | null;
+  /**
+   * The per-document structural request that produced this batch, so the
+   * batch can be re-validated from its raw response without the live run's
+   * state. Absent on batches recorded before this field existed; those are
+   * reconstructed deterministically (they were all first-attempt batches).
+   */
+  items?: {
+    cuisine: string;
+    dish: string;
+    angle: string;
+    nutrientCount: number;
+    ingredientCount: number;
+    instructionSetCount: number;
+    stepCount: number;
+  }[];
+}
+
+/**
+ * The validation rule set and its provenance.
+ *
+ * Generation and validation are SEPARABLE stages: every raw response is
+ * persisted, so the accepted set is a deterministic function of the raw files
+ * and these rules. `--revalidate` rebuilds payloads and manifest from raw under
+ * the current rules at zero quota cost, which is how a rule change mid-run is
+ * applied uniformly to every candidate rather than only to later ones.
+ */
+export interface ValidationRules {
+  /** Rejection ceiling on mean chars/step: prevents reaching a byte band through prose. */
+  densityCeilingCharsPerStep: number;
+  /** Rejection floor on mean chars/step, and where the number comes from. */
+  densityFloorCharsPerStep: number;
+  densityFloorBasis: string;
+  /** Ceiling on percentOfDailyNeeds, and where the number comes from. */
+  percentOfDailyNeedsMax: number;
+  percentOfDailyNeedsBasis: string;
+  minStepsPerSet: number;
+  /** Rules relaxed because they would have rejected real API data. */
+  relaxedAgainstReferenceData: string[];
+  /** Chronological record of rule changes during the run. */
+  history: string[];
+  revalidation: {
+    at: string;
+    note: string;
+    /** Candidates that were rejected under the earlier rules and pass under these. */
+    recovered: Record<ComplexityTier, Partial<Record<RejectionReason, number>>>;
+    /** Candidates accepted before that are rejected now (expected 0). */
+    lost: number;
+  } | null;
+}
+
+/** One candidate document inside a batch and its validation outcome. Every one is recorded. */
+export interface GenerationAttempt {
+  batchId: string;
+  indexInBatch: number;
+  tier: ComplexityTier;
+  /** Assigned only on acceptance; rejected candidates never receive an ID. */
+  recipeId: number | null;
+  requestedAt: string;
+  /** UTF-8 byte length of the candidate, when one could be measured. */
   measuredBytes: number | null;
   accepted: boolean;
   rejectionReason: RejectionReason | null;
   /** Human-readable detail of the rejection, for the methodology write-up. */
   rejectionDetail: string | null;
-  /** Highest Jaccard similarity seen against the accepted set, when computed. */
+  /** Highest Jaccard similarity against every accepted payload, all tiers. */
   maxSimilarity: number | null;
-  /** Prompt actually used: the first-attempt template, or the corrective one. */
-  promptKind: 'generation' | 'corrective-retry';
-  usageMetadata: Record<string, number> | null;
+  /** The accepted payload that similarity was measured against. */
+  nearestRecipeId: number | null;
+  /** True when the nearest accepted payload came from the SAME batch. */
+  nearestInSameBatch: boolean | null;
 }
 
 /** One ACCEPTED generated payload in the generation manifest. */
@@ -617,15 +726,52 @@ export interface GeneratedRecipe {
   /** Path, relative to fixtures/, of the verbatim API response that produced it. */
   rawFile: string;
   generatedAt: string;
-  attempts: number;
+
+  /**
+   * False for accepted payloads not drawn into the balanced dataset. When a
+   * tier holds more accepted payloads than requested (revalidation can recover
+   * many at once), the dataset is a SEEDED RANDOM SAMPLE of `requested[tier]`
+   * from them — see GenerationManifest.selection for the seed and the draw.
+   * Surplus payloads stay on disk for audit.
+   */
+  inDataset: boolean;
+
+  // ── Batch provenance ──
+  batchId: string;
+  /** Documents requested in that batch. */
+  batchSize: number;
+  indexInBatch: number;
+
   /** Similarity against the nearest already-accepted payload at acceptance time. */
   maxSimilarity: number;
+  nearestRecipeId: number | null;
+  nearestInSameBatch: boolean | null;
+}
+
+/**
+ * One invocation of the generation script.
+ *
+ * Batching brings a 150-item run to roughly 24 requests, which still exceeds
+ * the 20-per-day free-tier quota, so a run can span two sessions. The manifest
+ * is checkpointed after every batch; a session ended by quota, a crash, or a
+ * kill loses nothing.
+ */
+export interface GenerationSession {
+  startedAt: string;
+  finishedAt: string;
+  requests: number;
+  accepted: number;
+  /** Why the session ended: 'complete', 'daily-quota', 'budget-exhausted', or an error message. */
+  endedBy: string;
 }
 
 /** fixtures/generated/manifest.json */
 export interface GenerationManifest {
   generatedAt: string;
   source: 'generated';
+  /** False while the run is still short of its requested counts. */
+  complete: boolean;
+  sessions: GenerationSession[];
   /** Warning carried in the file itself, so the data can never be mislabelled. */
   disclaimer: string;
 
@@ -647,8 +793,45 @@ export interface GenerationManifest {
     responseMimeType: string;
   };
 
+  /**
+   * How batches were sized. `tokensPerItem` is the calibrated output cost of one
+   * document per tier; `thinkingReserveTokens` is held back for the model's own
+   * reasoning, which is charged against the same output limit.
+   */
+  batching: {
+    batchSize: Record<ComplexityTier, number>;
+    tokensPerItem: Record<ComplexityTier, number>;
+    thinkingReserveTokens: number;
+    /** Highest thoughtsTokenCount observed on any batch, for calibration. */
+    observedMaxThinkingTokens: number | null;
+  };
+
   /** SHA-256 of each prompt artifact, so later edits to them are detectable. */
   promptArtifacts: Record<string, { file: string; sha256: string }>;
+
+  validation: ValidationRules;
+
+  /**
+   * How the balanced dataset was drawn from the accepted set, per tier.
+   *
+   * Acceptance order is NOT a defensible selection rule: after a revalidation
+   * many payloads enter at once, so their order reflects when a rule changed,
+   * not any property of the payload. Tiers with more accepted payloads than
+   * requested are therefore sampled with a seeded PRNG (mulberry32 over the
+   * recipeIds in ascending order, Fisher–Yates, first N), and the draw itself
+   * is recorded so it is reproducible without re-running anything.
+   */
+  selection: {
+    method: string;
+    seed: number;
+    perTier: Record<
+      ComplexityTier,
+      { accepted: number; requested: number; sampled: boolean; selected: number[] }
+    >;
+  };
+
+  /** Raw responses retained outside fixtures/ that are not part of any procedure. */
+  quarantine: { path: string; files: number; reason: string }[];
 
   pacing: {
     minIntervalMs: number;
@@ -665,11 +848,15 @@ export interface GenerationManifest {
 
   requested: Record<ComplexityTier, number>;
   accepted: Record<ComplexityTier, number>;
-  /** Rejections by tier and by reason — the rejection-rate table. */
+  /** Item-level rejections by tier and by reason — the rejection-rate table. */
   rejections: Record<ComplexityTier, Partial<Record<RejectionReason, number>>>;
+  /** Batch-level failures by tier and outcome (requests that yielded no items). */
+  batchFailures: Record<ComplexityTier, Partial<Record<BatchOutcome, number>>>;
   totalRequests: number;
 
   recipes: GeneratedRecipe[];
-  /** Every attempt, accepted or not, in chronological order. */
-  attempts: (GenerationAttempt & { recipeId: number; tier: ComplexityTier })[];
+  /** Every request, in chronological order. */
+  batches: BatchRecord[];
+  /** Every candidate document, accepted or not, in chronological order. */
+  attempts: GenerationAttempt[];
 }

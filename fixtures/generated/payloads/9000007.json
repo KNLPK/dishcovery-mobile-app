@@ -1,0 +1,303 @@
+{
+  "id": 9000007,
+  "title": "Moroccan Pearl Couscous and Chickpea Salad",
+  "image": "generated://dishcovery/9000007.jpg",
+  "readyInMinutes": 30,
+  "servings": 6,
+  "summary": "Brighten your meal rotation with this colourful <b>Moroccan grain salad</b> filled with hearty chickpeas, toasted spices, and dried fruits. Tender pearl couscous is tossed with sweet dried apricots, toasted pine nuts, and crisp English cucumbers in a warm cumin and cinnamon dressing. Fresh mint and flat-leaf parsley supply herbal brightness, while lemon juice provides a crisp acidity that lifts the earthy grains. This fully vegetarian dish offers a satisfying blend of sweet and savory elements inspired by North African spice markets. Served chilled or at room temperature, it functions wonderfully as a light lunch or as a side dish for festive feasts. The chewy texture of large couscous pearls combines perfectly with crunchy cucumbers and soft legumes. Preparing the dressing while the couscous steams allows the warm grains to absorb all the spiced orange blossom and citrus accents fully. Delight your guests with this aromatic, jewel-toned salad that celebrates plant-based goodness.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 50,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Protein",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Iodine",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "pearl couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "canned chickpeas"
+    },
+    {
+      "id": 90002,
+      "amount": 80,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "medium",
+      "name": "cucumber"
+    },
+    {
+      "id": 90004,
+      "amount": 40,
+      "unit": "g",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Salad Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cook pearl couscous in boiling salted water for 10 minutes until tender, then drain and transfer to a bowl."
+        },
+        {
+          "number": 2,
+          "step": "Toast pine nuts in a dry skillet over low heat for three minutes until lightly browned and fragrant."
+        },
+        {
+          "number": 3,
+          "step": "Dice the cucumber and dried apricots into small pieces and rinse the canned chickpeas thoroughly."
+        },
+        {
+          "number": 4,
+          "step": "Whisk olive oil, lemon juice, ground cumin, ground cinnamon, and salt together in a small bowl."
+        },
+        {
+          "number": 5,
+          "step": "Pour the dressing over warm couscous, tossing well so the grains absorb the aromatic spice mixture."
+        },
+        {
+          "number": 6,
+          "step": "Fold in chickpeas, cucumber, apricots, herbs, and pine nuts, then chill for 15 minutes before serving."
+        }
+      ]
+    }
+  ]
+}

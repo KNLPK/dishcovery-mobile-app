@@ -1,0 +1,552 @@
+{
+  "id": 9001050,
+  "title": "Make-Ahead Peruvian Duck Leg Braise in Cilantro Broth",
+  "image": "generated://dishcovery/9001050.jpg",
+  "readyInMinutes": 150,
+  "servings": 4,
+  "summary": "Designed specifically as a <b>make-ahead braised centerpiece</b>, this Peruvian classic develops deeper complexity when rested overnight in its rich cooking bath. Duck legs are slowly seared until skin turns crisp and renders its golden fat, establishing an intense savory foundation for the entire dish. A fragrant paste of yellow aji amarillo peppers, red onions, garlic, and freshly blended cilantro forms the aromatic backbone of the broth. Simmered alongside dark beer and duck broth, the meat softens into fall-apart tenderness while absorbing sweet and herbal undertones. Reheating the braise the following day allows the flavors to meld seamlessly, making it an ideal choice for stress-free hosting. Served with fluffy white rice cooked in the rendered duck fat and accompanied by salsa criolla—a crisp red onion and lime salad—the dish balances rich savory fat with bright acidity. The robust broth reduces into a luscious sauce that clings beautifully to every forkful of succulent duck meat.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 640,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Fat",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 58.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.6
+      },
+      {
+        "name": "Protein",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 34,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.6,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0.2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.5
+      },
+      {
+        "name": "Niacin",
+        "amount": 9.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 57.5
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.2
+      },
+      {
+        "name": "Folate",
+        "amount": 52,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Calcium",
+        "amount": 70,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 56,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37.3
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58.2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "whole",
+      "name": "duck legs"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fresh cilantro leaves"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "aji amarillo paste"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onion"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "bottle",
+      "name": "dark beer"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "cups",
+      "name": "duck broth"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "cup",
+      "name": "green peas"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90009,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "long grain white rice"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red chili pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chicha de jora"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lard"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "bay",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "cup",
+      "name": "squash cubes"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "corn kernels"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cider vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "achiote powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Braise Preparation and Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat duck legs thoroughly dry using clean paper towels to ensure crisp skin during searing process."
+        },
+        {
+          "number": 2,
+          "step": "Score skin of duck legs lightly in diamond pattern without cutting deep into raw meat underneath."
+        },
+        {
+          "number": 3,
+          "step": "Season both sides of duck legs generously with coarse sea salt and freshly cracked black pepper."
+        },
+        {
+          "number": 4,
+          "step": "Heat a heavy Dutch oven over medium heat without oil until pan floor gets uniformly warm."
+        },
+        {
+          "number": 5,
+          "step": "Place duck legs skin-side down in dry pot and render fat slowly over medium heat for ten minutes."
+        },
+        {
+          "number": 6,
+          "step": "Flip duck legs when skin becomes golden brown and crisp, searing flip side for three minutes more."
+        },
+        {
+          "number": 7,
+          "step": "Transfer seared duck legs to a rimmed platter, leaving rendered duck fat inside Dutch oven."
+        },
+        {
+          "number": 8,
+          "step": "Pour excess duck fat into a heatproof glass jar, leaving two tablespoons in pot for aromatics."
+        },
+        {
+          "number": 9,
+          "step": "Dice large red onion finely into quarter-inch pieces to create clean base for aromatic paste."
+        },
+        {
+          "number": 10,
+          "step": "Mince fresh garlic cloves finely using press or sharp knife on wooden cutting board surface."
+        },
+        {
+          "number": 11,
+          "step": "Blend fresh cilantro leaves with small splash of water in high-speed blender until pureed smooth."
+        },
+        {
+          "number": 12,
+          "step": "Add diced red onion to hot fat in pot, cooking over medium heat until translucent and soft."
+        },
+        {
+          "number": 13,
+          "step": "Stir minced garlic and aji amarillo paste into onions, frying until fragrant and golden brown."
+        },
+        {
+          "number": 14,
+          "step": "Add ground cumin, dried oregano, and achiote powder into pan, stirring continuously for two minutes."
+        },
+        {
+          "number": 15,
+          "step": "Pour dark beer into pot, scraping caramelized bits from bottom using wooden spoon to deglaze."
+        },
+        {
+          "number": 16,
+          "step": "Simmer beer reduction for five minutes until liquid decreases by half and alcohol aroma dissipates."
+        },
+        {
+          "number": 17,
+          "step": "Stir smooth cilantro puree into bubbling reduction until pan liquid turns dark green."
+        },
+        {
+          "number": 18,
+          "step": "Pour rich duck broth and chicha de jora into pot, bringing entire braising liquid to steady boil."
+        },
+        {
+          "number": 19,
+          "step": "Nestle seared duck legs back into pot, skin-side up, ensuring liquid reaches halfway up sides."
+        },
+        {
+          "number": 20,
+          "step": "Add bay leaves and squash cubes to pot corners, submerge lightly into braising liquid broth."
+        },
+        {
+          "number": 21,
+          "step": "Cover pot tightly with lid, reduce stove heat to low, and simmer gently for seventy-five minutes."
+        },
+        {
+          "number": 22,
+          "step": "Check duck legs occasionally to confirm gentle bubbling without letting liquid boil too vigorously."
+        }
+      ]
+    },
+    {
+      "name": "Resting, Reheating, and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove lid after cooking time ends when duck meat pulls away easily from bone with fork pressure."
+        },
+        {
+          "number": 2,
+          "step": "Skim excess surface fat from hot broth using wide metal spoon and discard into grease container."
+        },
+        {
+          "number": 3,
+          "step": "Let duck braise cool to room temperature right inside pot before chilling overnight in refrigerator."
+        },
+        {
+          "number": 4,
+          "step": "Thinly slice extra red onion into translucent half-moons for salsa criolla garnish preparation."
+        },
+        {
+          "number": 5,
+          "step": "Soak sliced red onion in ice water bath for fifteen minutes to reduce raw onion sharpness."
+        },
+        {
+          "number": 6,
+          "step": "Drain red onion thoroughly through fine mesh strainer and pat completely dry using towels."
+        },
+        {
+          "number": 7,
+          "step": "Toss sliced onion with fresh lime juice, cider vinegar, chopped red chili, salt, and cilantro."
+        },
+        {
+          "number": 8,
+          "step": "Heat reserved duck fat in saucepan over medium heat, stir in white long grain rice until glossy."
+        },
+        {
+          "number": 9,
+          "step": "Add warm water and salt to rice, cover pan, and simmer over low heat until tender and fluffy."
+        },
+        {
+          "number": 10,
+          "step": "Remove chilled duck pot from refrigerator and lift away solidified fat layer from top surface."
+        },
+        {
+          "number": 11,
+          "step": "Reheat pot over low heat until braising liquid turns silky and duck legs warm through fully."
+        },
+        {
+          "number": 12,
+          "step": "Stir sweet green peas and red bell pepper cubes into simmering braise five minutes before serving."
+        },
+        {
+          "number": 13,
+          "step": "Add sweet corn kernels into sauce, allowing them to heat without losing crisp snap texture."
+        },
+        {
+          "number": 14,
+          "step": "Adjust broth seasoning with salt, black pepper, and splash of lime juice for bright flavor profile."
+        },
+        {
+          "number": 15,
+          "step": "Transfer warm duck legs carefully to warm broad serving bowls using slotted metal spatula."
+        },
+        {
+          "number": 16,
+          "step": "Ladle rich green cilantro sauce and tender braised vegetables generously over each duck leg."
+        },
+        {
+          "number": 17,
+          "step": "Mound hot duck-fat rice alongside braised duck leg in each individual broad dining bowl."
+        },
+        {
+          "number": 18,
+          "step": "Top duck leg with crisp salsa criolla salad right before taking dish to table for guests."
+        },
+        {
+          "number": 19,
+          "step": "Garnish bowls with chopped fresh parsley leaves for extra color contrast against green broth."
+        },
+        {
+          "number": 20,
+          "step": "Serve immediately while duck is steaming hot and onion salad retains cold crunch contrast."
+        },
+        {
+          "number": 21,
+          "step": "Pass extra salsa criolla in small side dish for guests who enjoy extra acidity with meat."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "id": 9002002,
+  "title": "Festive Lebanese Lamb and Chickpea Feast",
+  "image": "generated://dishcovery/9002002.jpg",
+  "readyInMinutes": 150,
+  "servings": 8,
+  "summary": "Designed for unforgettable holiday gatherings, this extravagant <b>Lebanese stew</b> centerpiece layers rich, spiced lamb shank with buttery chickpeas, dried sour cherries, and aromatic root vegetables. The rich meat is gently simmered for hours in an opulent broth fragrant with whole cinnamon sticks, green cardamom pods, toasted pine nuts, and warm allspice. A touch of pomegranate molasses adds a luscious sweet and tangy finish that balances the savory depth of the braised meat. Prepared as a grand <b>celebration version</b> of classic Middle Eastern stews, this dish is traditionally served over a bed of fragrant saffron-infused rice pillowed with toasted almonds and fresh mint. Every spoonful delivers a harmonious blend of textures and warm exotic spices that warm the heart and elevate any special occasion. Rich in essential nutrients, iron, and protein, this magnificent meal is ideal for feeding large family gatherings while creating lasting festive memories around the table.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 740,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Fat",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Protein",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 104
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 840,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Potassium",
+        "amount": 960,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 6.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 620,
+        "unit": "IU",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 34,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Niacin",
+        "amount": 10.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 142
+      },
+      {
+        "name": "Biotin",
+        "amount": 5.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 450,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 77
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Chromium",
+        "amount": 4.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 3,
+      "unit": "lbs",
+      "name": "lamb shoulder cubes"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "large",
+      "name": "yellow onions"
+    },
+    {
+      "id": 90003,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "cups",
+      "name": "soaked chickpeas"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dried sour cherries"
+    },
+    {
+      "id": 90006,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "sticks",
+      "name": "cinnamon"
+    },
+    {
+      "id": 90008,
+      "amount": 6,
+      "unit": "whole",
+      "name": "cardamom pods"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "whole",
+      "name": "cloves"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sumac powder"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "cups",
+      "name": "rich lamb broth"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "cups",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped mint"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90021,
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cracked black pepper"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "cups",
+      "name": "basmati rice"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "large",
+      "name": "zucchini"
+    },
+    {
+      "id": 90026,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "small",
+      "name": "butternut squash"
+    },
+    {
+      "id": 90028,
+      "amount": 2,
+      "unit": "bay",
+      "name": "leaves"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rose water"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90034,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90037,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "small",
+      "name": "red onion"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90043,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Prep and Spice Rub",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim any excess silver skin from the fresh lamb shoulder and cut into two-inch cubes."
+        },
+        {
+          "number": 2,
+          "step": "Place the cut lamb cubes in a large non-reactive bowl to apply the fragrant spice coating."
+        },
+        {
+          "number": 3,
+          "step": "Mix ground allspice, nutmeg, cumin, sumac, coriander, ginger, and turmeric in a ramekin."
+        },
+        {
+          "number": 4,
+          "step": "Rub the mixed ground spices thoroughly over all sides of the lamb cubes until well coated."
+        },
+        {
+          "number": 5,
+          "step": "Season the spiced lamb with sea salt and black pepper, tossing well to distribute evenly."
+        },
+        {
+          "number": 6,
+          "step": "Cover the seasoned lamb bowl with plastic wrap and let sit at room temperature for thirty minutes."
+        },
+        {
+          "number": 7,
+          "step": "Dice the large yellow onions into medium-sized uniform pieces for maximum flavor base building."
+        },
+        {
+          "number": 8,
+          "step": "Mince the fresh garlic cloves finely and set them aside with the chopped yellow onions."
+        },
+        {
+          "number": 9,
+          "step": "Peel the carrots and slice them into thick half-inch coins to hold up during long simmering."
+        },
+        {
+          "number": 10,
+          "step": "Peel and seed the butternut squash, cutting it into neat one-inch bite-sized cubes."
+        },
+        {
+          "number": 11,
+          "step": "Trim the fresh zucchini and cut into thick half-moon pieces, keeping them separate for later."
+        },
+        {
+          "number": 12,
+          "step": "Rinse the soaked dried chickpeas thoroughly under cool running water inside a colander."
+        },
+        {
+          "number": 13,
+          "step": "Rinse the basmati rice in cold water until the water runs completely clear, then drain well."
+        },
+        {
+          "number": 14,
+          "step": "Steep the fragrant saffron threads in two tablespoons of hot water to release bright color."
+        },
+        {
+          "number": 15,
+          "step": "Chop fresh mint leaves and parsley finely, keeping them chilled until final dish presentation."
+        },
+        {
+          "number": 16,
+          "step": "Measure out the pomegranate molasses, rose water, and orange blossom water into small cups."
+        },
+        {
+          "number": 17,
+          "step": "Crack the whole cardamom pods lightly with the side of a knife to expose aromatic seeds inside."
+        }
+      ]
+    },
+    {
+      "name": "Searing and Aromatics",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt two tablespoons of clarified butter in a large heavy Dutch oven over medium-high heat."
+        },
+        {
+          "number": 2,
+          "step": "Add a third of the seasoned lamb cubes to the hot melted butter without overcrowding."
+        },
+        {
+          "number": 3,
+          "step": "Sear the lamb pieces for three minutes per side until a deep rich brown crust forms completely."
+        },
+        {
+          "number": 4,
+          "step": "Remove the browned lamb to a warm side plate, retaining all rendered fat inside the Dutch oven."
+        },
+        {
+          "number": 5,
+          "step": "Sear the remaining batches of lamb in the exact same manner, transferring them to the plate."
+        },
+        {
+          "number": 6,
+          "step": "Add the remaining clarified butter to the pot and toss in the chopped onions and minced garlic."
+        },
+        {
+          "number": 7,
+          "step": "Sauté the onions over medium heat for eight minutes until soft, sweet, and lightly caramelized."
+        },
+        {
+          "number": 8,
+          "step": "Stir in the tomato paste, cooking for two minutes until it turns a deep crimson rust shade."
+        },
+        {
+          "number": 9,
+          "step": "Add the whole cinnamon sticks, cracked cardamom pods, whole cloves, and bay leaves to the pot."
+        },
+        {
+          "number": 10,
+          "step": "Toast the whole spices with the onion mixture for one minute until intensely fragrant."
+        },
+        {
+          "number": 11,
+          "step": "Pour in the diced tomatoes with their juices, deglazing the pot by scraping up caramelized bits."
+        },
+        {
+          "number": 12,
+          "step": "Return the seared lamb cubes and all accumulated meat juices back into the Dutch oven."
+        },
+        {
+          "number": 13,
+          "step": "Pour in the rich lamb broth and one cup of water, ensuring the lamb pieces are mostly submerged."
+        },
+        {
+          "number": 14,
+          "step": "Add the soaked chickpeas and dried sour cherries, gently folding them into the rich stew base."
+        },
+        {
+          "number": 15,
+          "step": "Bring the contents to a rapid boil, stirring occasionally to distribute all ingredients."
+        },
+        {
+          "number": 16,
+          "step": "Reduce the heat to low, cover tightly with a lid, and simmer gently for one full hour."
+        },
+        {
+          "number": 17,
+          "step": "Check the stew midway through cooking, stirring gently to ensure no ingredients stick to the bottom."
+        }
+      ]
+    },
+    {
+      "name": "Simmering Vegetables",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully uncover the Dutch oven after one hour of gentle simmering, stirring the pot gently."
+        },
+        {
+          "number": 2,
+          "step": "Add the thick cut carrot coins and butternut squash cubes directly to the bubbling stew broth."
+        },
+        {
+          "number": 3,
+          "step": "Fold the golden raisins and fresh rosemary sprig into the liquid around the meat and veggies."
+        },
+        {
+          "number": 4,
+          "step": "Replace the lid tightly and continue simmering over low heat for another thirty minutes."
+        },
+        {
+          "number": 5,
+          "step": "Uncover and add the zucchini pieces during the last fifteen minutes to keep them firm."
+        },
+        {
+          "number": 6,
+          "step": "Stir in the pomegranate molasses and honey to introduce a balanced sweet and tangy note."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle the lemon juice, rose water, and orange blossom water into the stew, stirring gently."
+        },
+        {
+          "number": 8,
+          "step": "Simmer uncovered for ten minutes to allow the sauce to thicken slightly and develop sheen."
+        },
+        {
+          "number": 9,
+          "step": "Taste the simmering liquid and adjust seasoning with a little more sea salt or black pepper."
+        },
+        {
+          "number": 10,
+          "step": "Remove the spent cinnamon sticks, bay leaves, and rosemary sprig with tongs and discard."
+        },
+        {
+          "number": 11,
+          "step": "Verify that the lamb meat is fork-tender and meltingly soft before turning off the burner flame."
+        },
+        {
+          "number": 12,
+          "step": "Cover the Dutch oven and allow the finished stew to rest off the heat while preparing rice."
+        },
+        {
+          "number": 13,
+          "step": "Check that the chickpeas are creamy and fully tender through to their centers."
+        },
+        {
+          "number": 14,
+          "step": "Skim off any excess floating oil from the surface of the stew using a wide metal ladle."
+        },
+        {
+          "number": 15,
+          "step": "Ensure all vegetables are fully cooked but still hold their attractive distinct shapes."
+        },
+        {
+          "number": 16,
+          "step": "Keep the pot covered in a warm spot on the stovetop until ready to plate and serve."
+        }
+      ]
+    },
+    {
+      "name": "Saffron Rice and Nuts",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat two tablespoons of olive oil in a medium saucepan over medium heat until warm."
+        },
+        {
+          "number": 2,
+          "step": "Add the drained basmati rice and stir constantly for two minutes to lightly coat each grain."
+        },
+        {
+          "number": 3,
+          "step": "Pour in three and a half cups of water, a pinch of salt, and the steeped saffron mixture."
+        },
+        {
+          "number": 4,
+          "step": "Bring the rice water to a rolling boil, then reduce heat to low and cover tightly with a lid."
+        },
+        {
+          "number": 5,
+          "step": "Cook the rice undisturbed for fifteen minutes until all liquid is fully absorbed by the grains."
+        },
+        {
+          "number": 6,
+          "step": "Remove the rice pot from heat and let it steam covered for ten minutes before opening."
+        },
+        {
+          "number": 7,
+          "step": "Melt one tablespoon of ghee in a small pan over medium-low heat to toast the garnishes."
+        },
+        {
+          "number": 8,
+          "step": "Add the pine nuts and slivered almonds to the melted ghee, stirring constantly until golden."
+        },
+        {
+          "number": 9,
+          "step": "Transfer the toasted nuts immediately to a parchment lined plate to prevent over-browning."
+        },
+        {
+          "number": 10,
+          "step": "Fluff the warm saffron rice gently using a large fork to separate the long yellow grains."
+        },
+        {
+          "number": 11,
+          "step": "Fold half of the chopped fresh mint and parsley into the fluffed saffron rice for color."
+        },
+        {
+          "number": 12,
+          "step": "Keep the fragrant saffron rice covered tightly so it stays piping hot for serving."
+        },
+        {
+          "number": 13,
+          "step": "Slice the small red onion into paper-thin rings for a crisp fresh garnish over the final dish."
+        },
+        {
+          "number": 14,
+          "step": "Prepare a large decorative serving platter or low shallow bowl for family-style service."
+        },
+        {
+          "number": 15,
+          "step": "Verify that the toasted nuts are cool, crunchy, and evenly browned before final assembly."
+        },
+        {
+          "number": 16,
+          "step": "Set out small bowls of fresh pomegranate seeds for guests to sprinkle at the dining table."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spoon the vibrant yellow saffron rice across the base of your large decorative platter."
+        },
+        {
+          "number": 2,
+          "step": "Ladle the tender braised lamb and chickpeas generously over the center of the rice bed."
+        },
+        {
+          "number": 3,
+          "step": "Arrange the colorful squash, carrots, and zucchini pieces elegantly around the meat portion."
+        },
+        {
+          "number": 4,
+          "step": "Spoon plenty of the thick, glossy, sweet-and-savory stew broth over the entire platter."
+        },
+        {
+          "number": 5,
+          "step": "Scatter the toasted pine nuts and slivered almonds generously over top for crunchy contrast."
+        },
+        {
+          "number": 6,
+          "step": "Garnish with fresh pomegranate seeds to provide pops of jewel-red color and bright acidity."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle the remaining chopped mint and parsley over the lamb stew to complete the presentation."
+        },
+        {
+          "number": 8,
+          "step": "Scatter the thin red onion rings across the top for an extra bite of fresh pungent flavor."
+        },
+        {
+          "number": 9,
+          "step": "Dust a light sprinkling of sumac powder over the edges of the platter for visual contrast."
+        },
+        {
+          "number": 10,
+          "step": "Clean the platter rim thoroughly using a clean damp cloth for a flawless festive presentation."
+        },
+        {
+          "number": 11,
+          "step": "Carry the steaming centerpiece platter to the table while aromatic steam rises invitingly."
+        },
+        {
+          "number": 12,
+          "step": "Serve alongside warm flatbreads and garlic yogurt sauce to complete the Lebanese feast."
+        },
+        {
+          "number": 13,
+          "step": "Encourage guests to spoon extra rich sauce from the pot over their individual plates."
+        },
+        {
+          "number": 14,
+          "step": "Pair this grand dish with traditional holiday side salads or pickles for full enjoyment."
+        },
+        {
+          "number": 15,
+          "step": "Celebrate special occasions with family as you share this deeply satisfying heritage meal."
+        },
+        {
+          "number": 16,
+          "step": "Store any remaining stew in airtight containers; the rich flavors improve even more overnight."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": 9001018,
+  "title": "Fermented Chili and Masa Layered Casserole",
+  "image": "generated://dishcovery/9001018.jpg",
+  "readyInMinutes": 90,
+  "servings": 8,
+  "summary": "This savory <b>Mexican layered bake</b> relies on fermented red jalapeño salsa to infuse every bite with vibrant tang and complex heat. Built around alternating layers of fresh masa dough, black beans, sweet corn, and Oaxaca cheese, this casserole reimagines classic tamale flavors into a baked comfort dish. The homemade fermented chili sauce is aged for several days prior to assembly, creating a gut-healthy, acidic depth that cuts through rich melted cheese. As it bakes in the oven, the corn masa bottom sets into a tender cake while top edges crisp to a golden crunch. Fresh epazote, avocado slices, and crumbled queso fresco complete the dish with authentic Mexican flair. Perfect for feeding a hungry family, this layered bake retains heat beautifully and tastes even better as leftovers. The tangy chili sauce elevates simple pantry staples into a gourmet specialty. Serve warm with lime wedges and cold hibiscus agua fresca for a festive culinary experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.6
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.5
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.9
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.5
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21.2
+      },
+      {
+        "name": "Calcium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Magnesium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Selenium",
+        "amount": 11.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.3
+      },
+      {
+        "name": "Choline",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5.8
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 43,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 350,
+      "unit": "g",
+      "name": "fresh corn masa harina"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "fermented red jalapeno paste"
+    },
+    {
+      "id": 90002,
+      "amount": 400,
+      "unit": "g",
+      "name": "cooked black beans"
+    },
+    {
+      "id": 90003,
+      "amount": 200,
+      "unit": "g",
+      "name": "sweet corn kernels"
+    },
+    {
+      "id": 90004,
+      "amount": 250,
+      "unit": "g",
+      "name": "oaxaca cheese"
+    },
+    {
+      "id": 90005,
+      "amount": 100,
+      "unit": "g",
+      "name": "queso fresco"
+    },
+    {
+      "id": 90006,
+      "amount": 400,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90007,
+      "amount": 60,
+      "unit": "g",
+      "name": "vegetable shortening"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "id": 90009,
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mexican oregano"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90013,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "whole",
+      "name": "avocado"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh epazote"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "whole",
+      "name": "fresh limes"
+    },
+    {
+      "id": 90020,
+      "amount": 100,
+      "unit": "g",
+      "name": "fire roasted diced tomatoes"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pickled jalapeno juice"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Masa Batter and Sauce Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 375 degrees Fahrenheit and grease a nine by thirteen inch ceramic baking dish."
+        },
+        {
+          "number": 2,
+          "step": "Beat vegetable shortening in a stand mixer fitted with paddle attachment until light and fluffy."
+        },
+        {
+          "number": 3,
+          "step": "Whisk corn masa harina, baking powder, cumin, and salt together in a separate dry bowl."
+        },
+        {
+          "number": 4,
+          "step": "Add dry masa mixture to whipped shortening alternately with warm vegetable broth in three batches."
+        },
+        {
+          "number": 5,
+          "step": "Mix batter on medium speed for five minutes until smooth and spreadable like thick frosting."
+        },
+        {
+          "number": 6,
+          "step": "Dice yellow onion finely and mince garlic cloves on cutting board for sauce base."
+        },
+        {
+          "number": 7,
+          "step": "Heat olive oil in a wide skillet over medium heat for one minute until hot."
+        },
+        {
+          "number": 8,
+          "step": "Sauté diced onion and garlic in skillet for five minutes until fragrant and golden."
+        },
+        {
+          "number": 9,
+          "step": "Stir in fermented red jalapeño paste, fire roasted tomatoes, oregano, and chili powder."
+        },
+        {
+          "number": 10,
+          "step": "Simmer sauce mixture on low heat for ten minutes until flavors melt together and thicken."
+        },
+        {
+          "number": 11,
+          "step": "Stir pickled jalapeño juice into fermented chili sauce to enhance bright acidic tang."
+        },
+        {
+          "number": 12,
+          "step": "Combine cooked black beans, sweet corn kernels, and chopped epazote in a medium mixing bowl."
+        },
+        {
+          "number": 13,
+          "step": "Shred Oaxaca cheese into long thin strands and keep in a cold bowl until layering phase."
+        },
+        {
+          "number": 14,
+          "step": "Spread half of prepared masa batter evenly across bottom of greased ceramic baking dish."
+        },
+        {
+          "number": 15,
+          "step": "Use an offset spatula to smooth masa layer into an even level foundation layer."
+        },
+        {
+          "number": 16,
+          "step": "Spoon half of fermented chili sauce across masa base layer and spread with spatula."
+        },
+        {
+          "number": 17,
+          "step": "Scatter black bean and corn mixture evenly over sauce layer in baking dish."
+        },
+        {
+          "number": 18,
+          "step": "Distribute half of shredded Oaxaca cheese across bean layer in an even pattern."
+        },
+        {
+          "number": 19,
+          "step": "Dollop remaining masa batter carefully over cheese and spread gently to cover filling."
+        },
+        {
+          "number": 20,
+          "step": "Pour remaining fermented chili sauce over top masa layer and smooth to edges."
+        },
+        {
+          "number": 21,
+          "step": "Top dish with remaining shredded Oaxaca cheese and sprinkle with dried oregano."
+        },
+        {
+          "number": 22,
+          "step": "Cover baking dish tightly with aluminum foil to trap moisture during initial bake."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Garnishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place foil covered casserole dish on middle rack of preheated oven for thirty minutes."
+        },
+        {
+          "number": 2,
+          "step": "Remove aluminum foil carefully after thirty minutes to expose melting cheese top layer."
+        },
+        {
+          "number": 3,
+          "step": "Bake uncovered for an additional fifteen minutes until cheese bubbles and edges turn golden brown."
+        },
+        {
+          "number": 4,
+          "step": "Switch oven to broil setting on high for two minutes to brown top cheese spots lightly."
+        },
+        {
+          "number": 5,
+          "step": "Remove casserole from oven using thick oven mitts and set on a heatproof cooling rack."
+        },
+        {
+          "number": 6,
+          "step": "Let bake rest for fifteen minutes to allow masa layers to set before slicing."
+        },
+        {
+          "number": 7,
+          "step": "Peel and pit avocado, then slice flesh into thin fan slices for fresh topping."
+        },
+        {
+          "number": 8,
+          "step": "Crumble queso fresco into small pieces in a small glass dish using your fingers."
+        },
+        {
+          "number": 9,
+          "step": "Whisk sour cream with lime juice and garlic powder in a small dish until smooth."
+        },
+        {
+          "number": 10,
+          "step": "Cut rested casserole into eight square portions using a sharp chef knife."
+        },
+        {
+          "number": 11,
+          "step": "Lift each portion carefully with a wide spatula onto individual dinner plates."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle seasoned sour cream over top of each warm casserole square."
+        },
+        {
+          "number": 13,
+          "step": "Top each square with sliced avocado and crumbled queso fresco cheese pieces."
+        },
+        {
+          "number": 14,
+          "step": "Sprinkle chopped fresh cilantro leaves evenly across all plated casserole portions."
+        },
+        {
+          "number": 15,
+          "step": "Serve each portion with fresh lime wedges for guests to squeeze over top."
+        },
+        {
+          "number": 16,
+          "step": "Pair with Mexican rice or green salad for a complete hearty dinner meal."
+        },
+        {
+          "number": 17,
+          "step": "Cover leftover casserole tightly with foil and store in refrigerator for four days."
+        },
+        {
+          "number": 18,
+          "step": "Reheat individual leftover slices in a 350 degree oven for fifteen minutes until warm."
+        },
+        {
+          "number": 19,
+          "step": "Add fresh avocado slices to reheated leftovers right before serving guests."
+        },
+        {
+          "number": 20,
+          "step": "Enjoy the rich complex fermented chili flavor that deepens nicely after resting overnight."
+        },
+        {
+          "number": 21,
+          "step": "Provide additional fermented chili sauce at table for extra spicy heat lovers."
+        }
+      ]
+    }
+  ]
+}

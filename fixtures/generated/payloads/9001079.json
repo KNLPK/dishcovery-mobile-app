@@ -1,0 +1,550 @@
+{
+  "id": 9001079,
+  "title": "Grand Festive Polish Kluski Noodle Bowl with Mushrooms",
+  "image": "generated://dishcovery/9001079.jpg",
+  "readyInMinutes": 90,
+  "servings": 8,
+  "summary": "Prepared for major holiday gatherings, this Polish celebration noodle bowl combines hand-rolled egg kluski with wild dried porcini mushrooms, sweet caramelized onions, and tender braised pork shoulder. Golden egg noodles are tossed with browned butter, cottage cheese, and fresh dill before being layered into deep bowls. Rich mushroom broth infused with caraway, marjoram, and allspice provides a savory moisture that ties every element together. Crispy salt pork lardons scattered on top lend texture, while pickled beet horseradish serves as a vibrant, tangy condiment on the side. This grand recipe relies on handcrafted components, making it a centerpiece for festive family tables. The combination of chewy egg noodles, earthy forest mushrooms, and velvet butter broth delivers pure comfort. The <b>rich porcini broth</b> penetrates the <b>homemade kluski noodles</b>, creating an unforgettable balance of holiday flavors.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 680,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 68,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.2
+      },
+      {
+        "name": "Protein",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 5.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 25,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6.3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54.2
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44.6
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.4
+      },
+      {
+        "name": "Folate",
+        "amount": 145,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 66.7
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Calcium",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 390,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Iodine",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 64,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.5
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.6
+      },
+      {
+        "name": "Chromium",
+        "amount": 6.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 19.4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 71.1
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90001,
+      "amount": 4,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "ml",
+      "name": "whole milk"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90004,
+      "amount": 50,
+      "unit": "g",
+      "name": "dried porcini mushrooms"
+    },
+    {
+      "id": 90005,
+      "amount": 300,
+      "unit": "g",
+      "name": "fresh cremini mushrooms"
+    },
+    {
+      "id": 90006,
+      "amount": 500,
+      "unit": "g",
+      "name": "pork shoulder roast"
+    },
+    {
+      "id": 90007,
+      "amount": 150,
+      "unit": "g",
+      "name": "salt pork belly"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "large",
+      "name": "yellow onions"
+    },
+    {
+      "id": 90009,
+      "amount": 100,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90010,
+      "amount": 200,
+      "unit": "g",
+      "name": "small curd cottage cheese"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "liter",
+      "name": "rich chicken broth"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tsp",
+      "name": "dried marjoram"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "bay",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90016,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "sour cream"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 100,
+      "unit": "g",
+      "name": "prepared horseradish with beets"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "poppy seeds"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "flat-leaf parsley"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Kluski Noodle Dough",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Mound the all-purpose flour onto a clean wooden work surface and make a wide well in center."
+        },
+        {
+          "number": 2,
+          "step": "Crack four large eggs into the flour well, adding whole milk and one teaspoon of sea salt."
+        },
+        {
+          "number": 3,
+          "step": "Whisk eggs gently with a fork, incorporating flour slowly from inner edges until dough comes together."
+        },
+        {
+          "number": 4,
+          "step": "Knead the egg dough vigorously for eight minutes until smooth, supple, and elastic to touch."
+        },
+        {
+          "number": 5,
+          "step": "Cover dough ball with a clean kitchen towel and let rest at room temperature for twenty minutes."
+        },
+        {
+          "number": 6,
+          "step": "Divide rested dough into four equal portions and roll each section out thin with a rolling pin."
+        },
+        {
+          "number": 7,
+          "step": "Dust dough sheets lightly with flour and slice into thick ribbon noodles using a sharp chef knife."
+        },
+        {
+          "number": 8,
+          "step": "Separate cut kluski noodles on a parchment-lined tray to dry slightly while preparing broth base."
+        },
+        {
+          "number": 9,
+          "step": "Bring a large stockpot of salted water to a rolling boil over high burner heat for pasta cooking."
+        },
+        {
+          "number": 10,
+          "step": "Drop cut noodles into boiling water in batches, cooking four minutes until noodles float to top."
+        }
+      ]
+    },
+    {
+      "name": "Braised Pork and Porcini Stock",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place dried porcini mushrooms in a bowl with two cups boiling water; soak for twenty minutes."
+        },
+        {
+          "number": 2,
+          "step": "Cut pork shoulder roast into bite-sized cubes and season generously with salt and black pepper."
+        },
+        {
+          "number": 3,
+          "step": "Heat vegetable oil in a heavy Dutch oven and brown pork cubes on all sides over medium-high heat."
+        },
+        {
+          "number": 4,
+          "step": "Remove dried porcini from soaking liquid, strain liquid through cheesecloth, and chop porcini finely."
+        },
+        {
+          "number": 5,
+          "step": "Dice one yellow onion and garlic cloves, then toss into Dutch oven with residual pork fat to soften."
+        },
+        {
+          "number": 6,
+          "step": "Pour strained mushroom liquid, chicken broth, bay leaves, caraway, and marjoram into pork pot."
+        },
+        {
+          "number": 7,
+          "step": "Add chopped porcini, ground allspice, cover tightly, and simmer gently for forty-five minutes."
+        },
+        {
+          "number": 8,
+          "step": "Verify pork cubes are succulent and broth has deepened into a fragrant dark brown liquid base."
+        },
+        {
+          "number": 9,
+          "step": "Discard bay leaves and stir apple cider vinegar into rich braising liquid to add acid balance."
+        },
+        {
+          "number": 10,
+          "step": "Keep pork and porcini broth at a very gentle simmer until final assembly of noodle bowls."
+        }
+      ]
+    },
+    {
+      "name": "Caramelized Onion and Mushroom Toss",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice second yellow onion into thin half-moon ribbons and slice fresh cremini mushrooms thinly."
+        },
+        {
+          "number": 2,
+          "step": "Melt unsalted butter in a wide skillet over medium heat until foam subsides completely."
+        },
+        {
+          "number": 3,
+          "step": "Add sliced onions to skillet, cooking slowly for fifteen minutes until deep golden brown and sweet."
+        },
+        {
+          "number": 4,
+          "step": "Add sliced cremini mushrooms to caramelized onions, sauteing six minutes until tender and browned."
+        },
+        {
+          "number": 5,
+          "step": "Dice salt pork belly into small lardons and crisp in a skillet until golden and crunchy."
+        },
+        {
+          "number": 6,
+          "step": "Drain crispy salt pork lardons on paper towels, reserving one tablespoon rendered pork fat."
+        },
+        {
+          "number": 7,
+          "step": "Toss cooked, drained kluski noodles into skillet containing caramelized onions and mushrooms."
+        },
+        {
+          "number": 8,
+          "step": "Add reserved pork fat, poppy seeds, and half of finely chopped fresh dill to noodle mixture."
+        },
+        {
+          "number": 9,
+          "step": "Stir small curd cottage cheese into warm noodles, allowing cheese to soften slightly into pasta."
+        },
+        {
+          "number": 10,
+          "step": "Season noodle mixture with black pepper and salt, folding ingredients together without breaking noodles."
+        }
+      ]
+    },
+    {
+      "name": "Festive Bowl Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Warm eight deep wide Polish ceramic serving bowls with hot water, then dry thoroughly with cloth."
+        },
+        {
+          "number": 2,
+          "step": "Divide buttered kluski noodle and caramelized onion mix evenly among all eight warmed bowls."
+        },
+        {
+          "number": 3,
+          "step": "Ladle hot braised pork shoulder cubes and porcini broth over noodles in each deep serving bowl."
+        },
+        {
+          "number": 4,
+          "step": "Dollop a spoonful of rich sour cream directly onto center of each hot festive noodle bowl."
+        },
+        {
+          "number": 5,
+          "step": "Scatter crispy salt pork lardons across top of bowls for satisfying savory crunch texture."
+        },
+        {
+          "number": 6,
+          "step": "Garnish with remaining chopped fresh dill and flat-leaf parsley for bright green visual contrast."
+        },
+        {
+          "number": 7,
+          "step": "Serve alongside small dish of pickled beet horseradish to allow guests personalized acidity."
+        },
+        {
+          "number": 8,
+          "step": "Check that each noodle bowl delivers steaming temperature, tender meats, and hearty egg pasta."
+        },
+        {
+          "number": 9,
+          "step": "Pair celebration meal with chilled clear Polish spirits or warm herbal tea for holiday tradition."
+        },
+        {
+          "number": 10,
+          "step": "Present completed Grand Festive Polish Kluski Noodle Bowls to gathered family members at once."
+        }
+      ]
+    }
+  ]
+}

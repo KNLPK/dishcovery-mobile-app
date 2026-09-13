@@ -1,0 +1,552 @@
+{
+  "id": 9001055,
+  "title": "Seafood Ricotta Gnocchi in Tomato Clam Sauce",
+  "image": "generated://dishcovery/9001055.jpg",
+  "readyInMinutes": 70,
+  "servings": 4,
+  "summary": "Highlighting coastal Italian cooking traditions, this <b>seafood dumpling recipe</b> pairs delicate ricotta gnocchi with a rich ocean-infused sauce. Whole sweet shrimp and fresh littleneck clams are poached directly in a vibrant white wine, garlic, and cherry tomato broth. The gnocchi are crafted from whole milk ricotta, flour, and lemon zest, yielding pillowy dumplings that float to the surface in minutes. As the clams open during cooking, their natural briny juices blend seamlessly into the pan sauce, infusing every dumpling with pure coastal flavor. A gentle poach preserves the succulent texture of shrimp without overcooking, while crushed red pepper flakes provide a warm undercurrent of heat. Finished with extra-virgin olive oil and torn fresh basil leaves, this dish balances elegant seafood flavors with comforting pasta texture. Serve in pre-warmed shallow bowls alongside crusty bread to capture every drop of savory clam broth.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 27.7
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 860,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37.4
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 720,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.2
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.5,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0.1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.5
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 750
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Calcium",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Iron",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 77.8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Iodine",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55.6
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Chromium",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.7
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "whole milk ricotta"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "large",
+      "name": "egg yolk"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "grated parmesan"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90005,
+      "amount": 300,
+      "unit": "g",
+      "name": "raw peeled shrimp"
+    },
+    {
+      "id": 90006,
+      "amount": 12,
+      "unit": "whole",
+      "name": "littleneck clams"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "cups",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh basil leaves"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "seafood stock"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "shallot",
+      "name": "shallot"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "slice",
+      "name": "crusty bread"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Ricotta Dumpling Making",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Drain whole milk ricotta cheese in fine mesh strainer for twenty minutes to remove moisture."
+        },
+        {
+          "number": 2,
+          "step": "Combine drained ricotta cheese, egg yolk, grated parmesan, and lemon zest in large glass bowl."
+        },
+        {
+          "number": 3,
+          "step": "Add ground nutmeg, salt, and black pepper to ricotta mix, stirring gently with wooden spoon."
+        },
+        {
+          "number": 4,
+          "step": "Sift all purpose flour into ricotta mixture, folding lightly until soft dough comes together."
+        },
+        {
+          "number": 5,
+          "step": "Turn gnocchi dough out onto wooden work surface dusted lightly with semolina flour."
+        },
+        {
+          "number": 6,
+          "step": "Divide dumpling dough into four equal pieces using bench scraper or sharp knife."
+        },
+        {
+          "number": 7,
+          "step": "Roll each dough piece gently under palms into long half-inch thick rope across board."
+        },
+        {
+          "number": 8,
+          "step": "Cut ropes into individual three-quarter-inch dumpling pieces using bench scraper."
+        },
+        {
+          "number": 9,
+          "step": "Dust cut ricotta gnocchi dumplings lightly with semolina flour to prevent sticking together."
+        },
+        {
+          "number": 10,
+          "step": "Press each gnocchi dumpling lightly over tines of fork to create delicate outer sauce ridges."
+        },
+        {
+          "number": 11,
+          "step": "Arrange shaped gnocchi in single layer on baking sheet dusted with semolina flour."
+        },
+        {
+          "number": 12,
+          "step": "Scrub littleneck clams under cold running water to remove sand, discarding open clams."
+        },
+        {
+          "number": 13,
+          "step": "Pat raw peeled shrimp dry with paper towels and cut large shrimp into half-inch pieces."
+        },
+        {
+          "number": 14,
+          "step": "Halve cherry tomatoes and slice shallot and fresh garlic cloves into thin translucent slices."
+        },
+        {
+          "number": 15,
+          "step": "Bring large pot of water to gentle simmer over medium-high heat for cooking gnocchi dumplings."
+        },
+        {
+          "number": 16,
+          "step": "Add one tablespoon salt to simmering water right before dropping gnocchi into pot."
+        },
+        {
+          "number": 17,
+          "step": "Drop ricotta gnocchi dumplings carefully into simmering water bath in two separate batches."
+        },
+        {
+          "number": 18,
+          "step": "Cook gnocchi until dumplings float to surface, boiling for two minutes more until tender."
+        },
+        {
+          "number": 19,
+          "step": "Remove floating gnocchi with slotted spoon and transfer to rimmed plate lightly oiled with olive oil."
+        },
+        {
+          "number": 20,
+          "step": "Repeat poaching process with second batch of gnocchi dumplings, transferring to plate when done."
+        },
+        {
+          "number": 21,
+          "step": "Drizzle gnocchi dumplings with a teaspoon of olive oil to keep dumplings distinct while making sauce."
+        },
+        {
+          "number": 22,
+          "step": "Cover poached gnocchi loosely with foil wrapper to keep dumplings warm while finishing seafood."
+        }
+      ]
+    },
+    {
+      "name": "Seafood Sauce and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat extra virgin olive oil in large wide skillet over medium heat until oil shimmers slightly."
+        },
+        {
+          "number": 2,
+          "step": "Add sliced shallot and minced garlic to hot skillet, cooking two minutes until soft and fragrant."
+        },
+        {
+          "number": 3,
+          "step": "Add red pepper flakes, drained capers, and halved cherry tomatoes into skillet, stirring well."
+        },
+        {
+          "number": 4,
+          "step": "Cook tomatoes four minutes until skins blister and release natural juices into skillet bottom."
+        },
+        {
+          "number": 5,
+          "step": "Pour dry white wine and seafood stock into skillet, bringing sauce liquid to energetic boil."
+        },
+        {
+          "number": 6,
+          "step": "Add cleaned littleneck clams to boiling skillet sauce in single layer across pan floor."
+        },
+        {
+          "number": 7,
+          "step": "Cover skillet tightly with lid and steam clams for five minutes until shells pop fully open."
+        },
+        {
+          "number": 8,
+          "step": "Uncover skillet and discard any unopened clam shells using metal tongs for food safety."
+        },
+        {
+          "number": 9,
+          "step": "Stir prepared shrimp pieces into bubbling tomato clam broth, poaching for two minutes."
+        },
+        {
+          "number": 10,
+          "step": "Swirl cold butter into sauce until melted and silky, coating seafood in glossy tomato emulsion."
+        },
+        {
+          "number": 11,
+          "step": "Add cooked ricotta gnocchi dumplings gently into simmering seafood pan using wide spatula."
+        },
+        {
+          "number": 12,
+          "step": "Simmer dumplings in seafood sauce for two minutes to allow gnocchi to absorb broth flavor."
+        },
+        {
+          "number": 13,
+          "step": "Stir fresh lemon juice and chopped parsley into sauce, tossing dumplings very gently."
+        },
+        {
+          "number": 14,
+          "step": "Taste seafood sauce broth carefully and season with additional salt and black pepper if needed."
+        },
+        {
+          "number": 15,
+          "step": "Tear fresh basil leaves by hand into coarse pieces and sprinkle over simmering seafood sauce."
+        },
+        {
+          "number": 16,
+          "step": "Divide hot ricotta gnocchi dumplings equally among four pre-warmed shallow ceramic pasta bowls."
+        },
+        {
+          "number": 17,
+          "step": "Arrange sweet shrimp and opened clams in shells attractively around top of each gnocchi bowl."
+        },
+        {
+          "number": 18,
+          "step": "Ladle warm tomato seafood broth generously over gnocchi dumplings and poached seafood."
+        },
+        {
+          "number": 19,
+          "step": "Drizzle extra virgin olive oil over each bowl for rich fruity finish right before serving."
+        },
+        {
+          "number": 20,
+          "step": "Serve immediately alongside slices of warm crusty bread to dip into remaining clam broth."
+        },
+        {
+          "number": 21,
+          "step": "Pass extra grated parmesan cheese at table for guests who desire extra rich cheese topping."
+        }
+      ]
+    }
+  ]
+}

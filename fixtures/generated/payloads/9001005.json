@@ -1,0 +1,550 @@
+{
+  "id": 9001005,
+  "title": "Vietnamese Grilled Banana Skewers with Pandan Honey",
+  "image": "generated://dishcovery/9001005.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "This sweet Vietnamese dessert course features grilled <b>plantain skewers</b> wrapped in glutinous cassava dough and glazed with aromatic pandan honey. Ripe plantain sections are coated in a sweet coconut cassava paste before being thread onto bamboo skewers and caramelized over high flame. Charred grill marks add subtle smoky crispness that balances the lush tropical sweetness inside. A thick warm glaze made from pandan leaves, wildflower honey, and coconut cream is brushed liberally over the skewers as they roast. Toasted sesame seeds and crushed peanuts offer crunch, while fresh mint leaves and coconut flakes complete the vibrant plating. Served warm alongside lime wedges, this dessert skewer balances herbal sweetness, creamy fruit, and smoky char. Fast to prepare and visually stunning, it offers a memorable sweet finale rooted in classic Southeast Asian street flavor.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 320,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Sugar",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Protein",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.09,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Calcium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iodine",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Selenium",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "piece",
+      "name": "ripe plantain"
+    },
+    {
+      "id": 90001,
+      "amount": 100,
+      "unit": "g",
+      "name": "grated cassava"
+    },
+    {
+      "id": 90002,
+      "amount": 50,
+      "unit": "g",
+      "name": "tapioca starch"
+    },
+    {
+      "id": 90003,
+      "amount": 150,
+      "unit": "ml",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90004,
+      "amount": 60,
+      "unit": "ml",
+      "name": "wildflower honey"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "leaf",
+      "name": "pandan leaves"
+    },
+    {
+      "id": 90006,
+      "amount": 30,
+      "unit": "g",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90007,
+      "amount": 40,
+      "unit": "g",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90008,
+      "amount": 15,
+      "unit": "g",
+      "name": "white sesame seeds"
+    },
+    {
+      "id": 90009,
+      "amount": 20,
+      "unit": "g",
+      "name": "toasted coconut flakes"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "piece",
+      "name": "lime"
+    },
+    {
+      "id": 90012,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90013,
+      "amount": 15,
+      "unit": "ml",
+      "name": "neutral cooking oil"
+    },
+    {
+      "id": 90014,
+      "amount": 30,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90015,
+      "amount": 5,
+      "unit": "ml",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90017,
+      "amount": 8,
+      "unit": "piece",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90018,
+      "amount": 15,
+      "unit": "g",
+      "name": "rice flour"
+    },
+    {
+      "id": 90019,
+      "amount": 10,
+      "unit": "g",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "drop",
+      "name": "pandan extract"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cardamom"
+    },
+    {
+      "id": 90022,
+      "amount": 10,
+      "unit": "g",
+      "name": "condensed milk"
+    },
+    {
+      "id": 90023,
+      "amount": 5,
+      "unit": "ml",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90024,
+      "amount": 10,
+      "unit": "g",
+      "name": "crystallized ginger"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Paste and Fruit Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak eight bamboo skewers in warm water thirty minutes to prevent burning on grill."
+        },
+        {
+          "number": 2,
+          "step": "Peel ripe plantains carefully and slice into thick one-inch round chunks on board."
+        },
+        {
+          "number": 3,
+          "step": "Mix grated cassava, tapioca starch, rice flour, and pinch of salt in medium bowl."
+        },
+        {
+          "number": 4,
+          "step": "Add fifty milliliters coconut cream and vanilla extract into cassava starch mixture."
+        },
+        {
+          "number": 5,
+          "step": "Knead dough by hand until smooth soft paste forms that clings together easily."
+        },
+        {
+          "number": 6,
+          "step": "Wrap each plantain chunk in a thin layer of cassava paste pressing securely."
+        },
+        {
+          "number": 7,
+          "step": "Tie fresh pandan leaves into tight knot and bruise with knife handle to release oils."
+        },
+        {
+          "number": 8,
+          "step": "Combine wildflower honey, palm sugar, water, and bruised pandan in small pot."
+        },
+        {
+          "number": 9,
+          "step": "Simmer honey mixture over low flame five minutes until sugar dissolves completely."
+        },
+        {
+          "number": 10,
+          "step": "Stir remaining coconut cream and pandan extract into honey glaze until smooth."
+        }
+      ]
+    },
+    {
+      "name": "Skewering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove soaked bamboo skewers from water bath and pat dry with clean paper towel."
+        },
+        {
+          "number": 2,
+          "step": "Thread three paste-wrapped plantain pieces securely onto each wooden skewer."
+        },
+        {
+          "number": 3,
+          "step": "Leave short open handle space at bottom of each skewer for easy grill turning."
+        },
+        {
+          "number": 4,
+          "step": "Lightly brush paste-wrapped fruit skewers with neutral cooking oil on all sides."
+        },
+        {
+          "number": 5,
+          "step": "Dust skewers lightly with powdered sugar to promote rapid golden caramelization."
+        },
+        {
+          "number": 6,
+          "step": "Coarsely crush roasted peanuts using a pestle and mortar on clean kitchen counter."
+        },
+        {
+          "number": 7,
+          "step": "Toast white sesame seeds in a dry pan over low heat until pale golden and fragrant."
+        },
+        {
+          "number": 8,
+          "step": "Finely mince crystallized ginger and mix into crushed peanuts in a small dish."
+        },
+        {
+          "number": 9,
+          "step": "Slice lime into four bright wedges ready for squeezing over finished dessert."
+        },
+        {
+          "number": 10,
+          "step": "Pick fresh mint leaves from stems and wash in cold water then pat dry completely."
+        }
+      ]
+    },
+    {
+      "name": "Grilling and Glazing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat indoor cast iron grill pan or outdoor grill grates to high temperature."
+        },
+        {
+          "number": 2,
+          "step": "Oil grill grates lightly using a rolled paper towel dipped in coconut oil."
+        },
+        {
+          "number": 3,
+          "step": "Place prepared plantain skewers directly onto hot grill grates in single layer."
+        },
+        {
+          "number": 4,
+          "step": "Grill skewers three minutes until dark golden char marks appear on bottom side."
+        },
+        {
+          "number": 5,
+          "step": "Turn skewers using metal tongs and brush top side generously with pandan honey glaze."
+        },
+        {
+          "number": 6,
+          "step": "Grill second side three minutes brushing continuously with warm coconut pandan glaze."
+        },
+        {
+          "number": 7,
+          "step": "Rotate skewers to char sides evenly while basting with glaze on every turn."
+        },
+        {
+          "number": 8,
+          "step": "Ensure cassava coating becomes crisp and caramelized while fruit grows soft."
+        },
+        {
+          "number": 9,
+          "step": "Remove pandan knot from remaining glaze and stir in small drizzle condensed milk."
+        },
+        {
+          "number": 10,
+          "step": "Transfer charred skewers carefully from grill to clean rimmed tray for final sauce."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Toppings",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spoon warm remaining pandan honey glaze across bottom of four serving dessert plates."
+        },
+        {
+          "number": 2,
+          "step": "Arrange two warm grilled banana skewers neatly on top of glaze on each plate."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle crushed roasted peanuts and ginger mixture generously over skewers."
+        },
+        {
+          "number": 4,
+          "step": "Scatter toasted white sesame seeds across sticky glaze for crisp texture contrast."
+        },
+        {
+          "number": 5,
+          "step": "Top skewers with toasted coconut flakes for light tropical aroma and appearance."
+        },
+        {
+          "number": 6,
+          "step": "Garnish plate edge with fresh mint leaves and a bright fresh lime wedge slice."
+        },
+        {
+          "number": 7,
+          "step": "Dust a tiny pinch ground cinnamon over coconut flakes right before serving plates."
+        },
+        {
+          "number": 8,
+          "step": "Verify plantain skewers are hot sticky caramelized and appealingly fragrant."
+        },
+        {
+          "number": 9,
+          "step": "Serve Vietnamese dessert skewers immediately with extra pandan honey glaze side."
+        },
+        {
+          "number": 10,
+          "step": "Instruct guests to squeeze lime wedge over skewers to balance rich sweetness."
+        }
+      ]
+    }
+  ]
+}

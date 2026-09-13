@@ -1,0 +1,855 @@
+{
+  "id": 9002004,
+  "title": "Hearty One-Pot Polish Noodle and Sausage Bowl",
+  "image": "generated://dishcovery/9002004.jpg",
+  "readyInMinutes": 40,
+  "servings": 5,
+  "summary": "This comforting <b>Polish noodle bowl</b> brings maximum cozy flavor with minimal cleanup, crafted as a seamless <b>one-pot version</b> of traditional Eastern European comfort food. Smoky kielbasa sausage slices are seared until golden and tossed with tender egg noodles, shredded green cabbage, caraway seeds, and sweet caramelized onions. Everything cooks together in a single deep Dutch oven, allowing the broad noodles to absorb every drop of rich chicken broth, melted butter, and savory sausage drippings. A splash of tangy apple cider vinegar and fresh dill brightens the dish right before serving, balancing the rich, savory heartiness of the meat and pasta. Perfect for chilly evenings, this rustic home-style meal comes together swiftly on busy weeknights without sacrificing authentic regional character. High in satisfying protein and dietary fiber, this complete single-pot bowl promises warmth, speed, and deep satisfaction with every forkful.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 610,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 64,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Sodium",
+        "amount": 920,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 72,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Selenium",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "lb",
+      "name": "smoked kielbasa sausage"
+    },
+    {
+      "id": 90001,
+      "amount": 8,
+      "unit": "oz",
+      "name": "wide egg noodles"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "head",
+      "name": "green cabbage"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "cups",
+      "name": "low-sodium chicken broth"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh dill"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped flat parsley"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sweet paprika"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "celery"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced cremini mushrooms"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dijon mustard"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "marjoram"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced scallions"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "worcestershire sauce"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "flour"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90033,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "canola oil"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery seed"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated parmesan"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "horseradish"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "allspice"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "frozen peas"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway powder"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "flaky sea salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Prep Work",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice the smoked kielbasa sausage into quarter-inch thick round coins on your cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Shred the half head of green cabbage into thin ribbons, discarding the hard central core."
+        },
+        {
+          "number": 3,
+          "step": "Dice the large yellow onion finely to ensure quick caramelization in the single cooking pot."
+        },
+        {
+          "number": 4,
+          "step": "Mince fresh garlic cloves finely and keep them separate on your prep board until needed."
+        },
+        {
+          "number": 5,
+          "step": "Grate the single carrot coarsly to add subtle sweetness and orange color to the dish."
+        },
+        {
+          "number": 6,
+          "step": "Dice the celery stalk finely so it blends smoothly into the rich aromatic vegetable base."
+        },
+        {
+          "number": 7,
+          "step": "Slice cremini mushrooms thinly to add an earthy savory bite to the finished noodle bowl."
+        },
+        {
+          "number": 8,
+          "step": "Chop fresh dill and flat-leaf parsley finely, storing herbs together in a small cold bowl."
+        },
+        {
+          "number": 9,
+          "step": "Measure out chicken broth, apple cider vinegar, dijon mustard, and worcestershire sauce."
+        },
+        {
+          "number": 10,
+          "step": "Combine sweet paprika, smoked paprika, marjoram, salt, and black pepper in a spice cup."
+        },
+        {
+          "number": 11,
+          "step": "Measure broad egg noodles and set them near your stovetop for rapid addition to pot."
+        },
+        {
+          "number": 12,
+          "step": "Whisk flour into half cup of cold water until smooth to create an optional thickener."
+        },
+        {
+          "number": 13,
+          "step": "Dice red bell pepper finely to add vibrant color contrast to the green cabbage base."
+        },
+        {
+          "number": 14,
+          "step": "Slice scallions on a sharp bias to prepare an attractive sharp green topping garnish."
+        },
+        {
+          "number": 15,
+          "step": "Measure caraway seeds, celery seeds, and dried thyme sprig into your spice prep area."
+        },
+        {
+          "number": 16,
+          "step": "Set out sour cream and horseradish in small bowls to temper before stirring in later."
+        },
+        {
+          "number": 17,
+          "step": "Organize all prepped ingredients cleanly around your cooking stove to ensure smooth execution."
+        }
+      ]
+    },
+    {
+      "name": "Searing Sausage",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place a large heavy Dutch oven or deep soup pot over medium-high heat on your stovetop."
+        },
+        {
+          "number": 2,
+          "step": "Add one tablespoon of canola oil and one tablespoon of olive oil to coat the bottom."
+        },
+        {
+          "number": 3,
+          "step": "Add all sliced kielbasa coins in a single flat layer to begin rendering savory fat."
+        },
+        {
+          "number": 4,
+          "step": "Sear sausage slices undisturbed for three minutes until deeply browned on bottom edges."
+        },
+        {
+          "number": 5,
+          "step": "Flip sausage slices using tongs and sear for two minutes on second side until crisp."
+        },
+        {
+          "number": 6,
+          "step": "Transfer browned kielbasa coins to paper towel lined plate, leaving fat in Dutch oven."
+        },
+        {
+          "number": 7,
+          "step": "Reduce heat to medium and add two tablespoons of unsalted butter to rendered sausage fat."
+        },
+        {
+          "number": 8,
+          "step": "Add diced yellow onions, carrots, and celery into hot butter, stirring with wooden spoon."
+        },
+        {
+          "number": 9,
+          "step": "Sauté vegetables for six minutes until onions turn soft, translucent, and sweet golden."
+        },
+        {
+          "number": 10,
+          "step": "Add minced garlic, sliced mushrooms, and diced red bell peppers into softened onions."
+        },
+        {
+          "number": 11,
+          "step": "Stir-fry mushrooms and garlic for two minutes until mushrooms release moisture and brown."
+        },
+        {
+          "number": 12,
+          "step": "Add caraway seeds, celery seeds, marjoram, and paprika spice mix directly into pan."
+        },
+        {
+          "number": 13,
+          "step": "Toast spices with vegetables for ninety seconds until deeply fragrant throughout kitchen."
+        },
+        {
+          "number": 14,
+          "step": "Add diced horseradish and dijon mustard, stirring thoroughly into aromatic veggie mix."
+        },
+        {
+          "number": 15,
+          "step": "Deglaze bottom of pot with two tablespoons of apple cider vinegar, scraping browned bits."
+        },
+        {
+          "number": 16,
+          "step": "Pour in worcestershire sauce and sugar, stirring well to harmonize all background seasonings."
+        },
+        {
+          "number": 17,
+          "step": "Verify pan bottom is free of stuck brown bits before moving to cabbage cooking phase."
+        }
+      ]
+    },
+    {
+      "name": "Simmering Cabbage",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add all shredded green cabbage into Dutch oven, tossing with tongs to coat in spice mixture."
+        },
+        {
+          "number": 2,
+          "step": "Sauté shredded cabbage over medium heat for five minutes until ribbons shrink in volume."
+        },
+        {
+          "number": 3,
+          "step": "Pour in four cups of low-sodium chicken broth and one bay leaf, bringing liquid to boil."
+        },
+        {
+          "number": 4,
+          "step": "Add remaining tablespoon of butter and fresh thyme sprig directly into bubbling pot base."
+        },
+        {
+          "number": 5,
+          "step": "Reduce heat to medium-low, cover Dutch oven tightly with lid, and simmer for ten minutes."
+        },
+        {
+          "number": 6,
+          "step": "Uncover pot and stir cabbage mixture well, checking that cabbage has softened nicely."
+        },
+        {
+          "number": 7,
+          "step": "Return browned kielbasa sausage coins into bubbling pot with cabbage to warm through."
+        },
+        {
+          "number": 8,
+          "step": "Stir in garlic powder, onion powder, white pepper, and red pepper flakes for balanced heat."
+        },
+        {
+          "number": 9,
+          "step": "Taste simmered broth carefully and adjust seasoning with extra salt or black pepper."
+        },
+        {
+          "number": 10,
+          "step": "Add frozen green peas into pot, folding gently into hot simmering cabbage broth base."
+        },
+        {
+          "number": 11,
+          "step": "Ensure broth maintains gentle steady bubble before adding broad egg noodles into pot."
+        },
+        {
+          "number": 12,
+          "step": "Check that cabbage leaves are fully tender and translucent before moving to pasta phase."
+        },
+        {
+          "number": 13,
+          "step": "Remove spent bay leaf and thyme stem from pot using tongs, discarding them safely."
+        },
+        {
+          "number": 14,
+          "step": "Whisk flour slurry gently into broth if thicker sauce texture is desired by chef."
+        },
+        {
+          "number": 15,
+          "step": "Simmer uncovered for two minutes until broth thickens into silky pan coating sauce."
+        },
+        {
+          "number": 16,
+          "step": "Keep Dutch oven over medium heat to prepare for cooking noodles directly in broth."
+        }
+      ]
+    },
+    {
+      "name": "Cooking Noodles",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add dry wide egg noodles directly into bubbling Dutch oven containing cabbage and sausage."
+        },
+        {
+          "number": 2,
+          "step": "Press egg noodles gently into broth with wooden spoon so all pasta is fully submerged."
+        },
+        {
+          "number": 3,
+          "step": "Cook uncovered over medium heat for seven to eight minutes, stirring frequently to prevent sticking."
+        },
+        {
+          "number": 4,
+          "step": "Monitor liquid level as noodles absorb rich chicken broth, adding water if pot looks dry."
+        },
+        {
+          "number": 5,
+          "step": "Test noodle texture after seven minutes to ensure pasta is perfectly tender and al dente."
+        },
+        {
+          "number": 6,
+          "step": "Turn off burner heat source completely once noodles reach ideal soft comforting texture."
+        },
+        {
+          "number": 7,
+          "step": "Dollop sour cream into cooked noodles and gently fold through to create creamy, glossy sauce."
+        },
+        {
+          "number": 8,
+          "step": "Stir in fresh lemon juice and chopped dill, reserving half of herbs for final presentation."
+        },
+        {
+          "number": 9,
+          "step": "Add half of fresh chopped parsley into pot, folding gently through creamy noodle base."
+        },
+        {
+          "number": 10,
+          "step": "Allow pot to stand covered for three minutes off heat so flavors bind together seamlessly."
+        },
+        {
+          "number": 11,
+          "step": "Check sauce consistency; noodles should be richly coated without being swimmingly soup-like."
+        },
+        {
+          "number": 12,
+          "step": "Taste final noodle bowl dish once more, adjusting salt or vinegar for bright balance."
+        },
+        {
+          "number": 13,
+          "step": "Prepare wide soup bowls on counter to serve hot meal straight from single Dutch oven."
+        },
+        {
+          "number": 14,
+          "step": "Wipe kitchen counter space clean while dish rests briefly to settle cooked flavors."
+        },
+        {
+          "number": 15,
+          "step": "Ensure sausage slices, cabbage ribbons, and tender noodles are evenly mixed throughout pot."
+        },
+        {
+          "number": 16,
+          "step": "Keep Dutch oven covered until ready to ladle into individual wide serving bowls."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle hearty Polish egg noodles, kielbasa slices, and tender cabbage evenly into wide bowls."
+        },
+        {
+          "number": 2,
+          "step": "Ensure each serving bowl receives a generous portion of smoky sausage coins and creamy sauce."
+        },
+        {
+          "number": 3,
+          "step": "Scatter remaining fresh chopped dill and parsley over top of each steaming noodle bowl."
+        },
+        {
+          "number": 4,
+          "step": "Garnish each bowl with sliced green scallions and chopped fresh chives for bright contrast."
+        },
+        {
+          "number": 5,
+          "step": "Dust a light pinch of caraway powder and grated parmesan cheese across warm top of dishes."
+        },
+        {
+          "number": 6,
+          "step": "Finish each bowl with small pinch of flaky sea salt and cracked black pepper for texture."
+        },
+        {
+          "number": 7,
+          "step": "Serve immediately while steaming hot alongside crusty rye bread and sweet cultured butter."
+        },
+        {
+          "number": 8,
+          "step": "Offer extra sour cream and spicy horseradish at table for guests to customize bowls."
+        },
+        {
+          "number": 9,
+          "step": "Enjoy rapid single-pot convenience with zero extra pots or pans to clean after dinner."
+        },
+        {
+          "number": 10,
+          "step": "Pair meal with cold amber lager or crisp apple cider for traditional rustic pairing."
+        },
+        {
+          "number": 11,
+          "step": "Encourage diners to mix fresh herb toppings into warm creamy noodles before eating."
+        },
+        {
+          "number": 12,
+          "step": "Wipe bowl rims clean with paper towel before presenting dish to family members."
+        },
+        {
+          "number": 13,
+          "step": "Store leftover noodle bowl contents in airtight glass containers in fridge for three days."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftovers in skillet over low heat with splash of water or extra chicken broth."
+        },
+        {
+          "number": 15,
+          "step": "Appreciate deeply comforting winter flavors delivered by this simple single pot recipe."
+        },
+        {
+          "number": 16,
+          "step": "Share cozy satisfying Polish dinner with family, celebrating warmth of home cooking."
+        }
+      ]
+    }
+  ]
+}

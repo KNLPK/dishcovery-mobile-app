@@ -1,0 +1,552 @@
+{
+  "id": 9001082,
+  "title": "Japanese Fermented Miso Farro Salad with Edamame",
+  "image": "generated://dishcovery/9001082.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Centering around complex fermented flavor components, this Japanese grain salad features chewy farro tossed with a red miso, shio koji, and rice vinegar dressing. Crispy pan-fried tempeh pieces marinated in tamari and mirin add protein, while steamed edamame, pickled red radish, and shredded napa cabbage provide vibrant crunch. A touch of toasted sesame oil, grated ginger, and Yuzu juice gives the salad a bright, savory depth. The fermented elements—miso, shio koji, and tempeh—work synergistically to produce intense umami notes balanced by crisp fresh vegetables. Serve this dish cold or at room temperature as a main course salad or side for grilled proteins. The grain structure holds up remarkably well over time, making leftovers even more flavorful as farro absorbs the dressing. The <b>fermented miso dressing</b> coats every grain, highlighting the <b>savory umami flavor profile</b> of this modern Japanese dish.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20.5
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 20.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 9.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 36.8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.1
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 62,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51.7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.6
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.2
+      },
+      {
+        "name": "Folate",
+        "amount": 115,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28.8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Calcium",
+        "amount": 130,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 43.6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Chromium",
+        "amount": 4.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.7
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 84.4
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "pearled farro"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "red miso paste"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "shio koji marinade"
+    },
+    {
+      "id": 90003,
+      "amount": 200,
+      "unit": "g",
+      "name": "fermented tempeh"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "shelled edamame"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tamari soy sauce"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mirin sweet sake"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "unseasoned rice vinegar"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh yuzu juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90012,
+      "amount": 150,
+      "unit": "g",
+      "name": "napa cabbage"
+    },
+    {
+      "id": 90013,
+      "amount": 4,
+      "unit": "medium",
+      "name": "red radishes"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "medium",
+      "name": "japanese cucumber"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "scallions",
+      "name": "green onions"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "black sesame seeds"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "sheet",
+      "name": "nori seaweed"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "neutral cooking oil"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "shichimi togarashi spice"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90023,
+      "amount": 750,
+      "unit": "ml",
+      "name": "dashi stock"
+    },
+    {
+      "id": 90024,
+      "amount": 50,
+      "unit": "g",
+      "name": "pickled ginger slices"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Farro Grain and Tempeh Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse pearled farro under cold tap water in a fine mesh strainer until water runs clear."
+        },
+        {
+          "number": 2,
+          "step": "Combine rinsed farro and dashi stock with half teaspoon sea salt in medium saucepan."
+        },
+        {
+          "number": 3,
+          "step": "Bring stock to boil over high heat, then reduce burner flame to low and cover saucepan."
+        },
+        {
+          "number": 4,
+          "step": "Simmer farro for twenty minutes until grains turn tender with a nutty chewy texture center."
+        },
+        {
+          "number": 5,
+          "step": "Drain excess stock from cooked farro and spread grains on baking sheet to cool down rapidly."
+        },
+        {
+          "number": 6,
+          "step": "Cut fermented tempeh block into small half-inch cubes on cutting board using chef knife."
+        },
+        {
+          "number": 7,
+          "step": "Whisk tamari soy sauce, mirin, and shio koji marinade together inside shallow glass bowl."
+        },
+        {
+          "number": 8,
+          "step": "Add tempeh cubes to marinade, tossing to coat thoroughly, and steep for fifteen minutes."
+        },
+        {
+          "number": 9,
+          "step": "Heat neutral cooking oil in skillet over medium-high heat until hot and shimmering."
+        },
+        {
+          "number": 10,
+          "step": "Add marinated tempeh cubes to hot skillet, reserving leftover marinade liquid for dressing."
+        },
+        {
+          "number": 11,
+          "step": "Pan-fry tempeh for six minutes, turning cubes frequently until all sides turn deep golden brown."
+        },
+        {
+          "number": 12,
+          "step": "Transfer crispy cooked tempeh cubes to paper towel-lined plate to drain and cool slightly."
+        },
+        {
+          "number": 13,
+          "step": "Steam shelled edamame in small covered basket over boiling water for three minutes."
+        },
+        {
+          "number": 14,
+          "step": "Rinse cooked edamame under ice-cold water to set bright green color, then drain dry."
+        },
+        {
+          "number": 15,
+          "step": "Shred napa cabbage thinly into small bite-sized ribbons using sharp knife edge."
+        },
+        {
+          "number": 16,
+          "step": "Slice japanese cucumber and red radishes into paper-thin disks using mandoline slicer."
+        },
+        {
+          "number": 17,
+          "step": "Finely chop green onions and slice pickled ginger into delicate thin threads."
+        },
+        {
+          "number": 18,
+          "step": "Cut nori seaweed sheet into ultra-thin julienne strips with kitchen shears for garnish."
+        },
+        {
+          "number": 19,
+          "step": "Verify all vegetable, grain, and protein components are completely prepared for assembly."
+        },
+        {
+          "number": 20,
+          "step": "Place cooled farro grain base into large glass salad mixing bowl to begin assembling salad."
+        },
+        {
+          "number": 21,
+          "step": "Fold steamed green edamame into cooled farro, distributing beans evenly throughout grain base."
+        },
+        {
+          "number": 22,
+          "step": "Keep prepared tempeh and vegetable slices separate until dressing is fully incorporated."
+        }
+      ]
+    },
+    {
+      "name": "Fermented Dressing and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add red miso paste, grated ginger, and minced garlic into small glass mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Whisk in unseasoned rice vinegar, fresh yuzu juice, and toasted sesame oil until smooth."
+        },
+        {
+          "number": 3,
+          "step": "Pour in reserved tempeh marinade liquid and maple syrup, whisking emulsified dressing."
+        },
+        {
+          "number": 4,
+          "step": "Taste fermented miso dressing and season with shichimi togarashi spice for subtle kick."
+        },
+        {
+          "number": 5,
+          "step": "Pour three-quarters of miso dressing over farro and edamame mixture inside glass bowl."
+        },
+        {
+          "number": 6,
+          "step": "Toss grain base thoroughly using large salad spoons until every farro grain is coated."
+        },
+        {
+          "number": 7,
+          "step": "Add shredded napa cabbage, thin cucumber disks, and radish slices to dressed farro bowl."
+        },
+        {
+          "number": 8,
+          "step": "Fold vegetables gently into grain salad so crisp textures remain light and fresh."
+        },
+        {
+          "number": 9,
+          "step": "Add crispy pan-fried tempeh cubes into salad bowl right before final plating step."
+        },
+        {
+          "number": 10,
+          "step": "Drizzle remaining fermented miso dressing over top of assembled Japanese grain salad."
+        },
+        {
+          "number": 11,
+          "step": "Divide salad evenly among four wide chilled porcelain grain salad bowls."
+        },
+        {
+          "number": 12,
+          "step": "Scatter toasted white sesame seeds and black sesame seeds generously across bowl tops."
+        },
+        {
+          "number": 13,
+          "step": "Garnish each portion with chopped green onions and thin pickled ginger threads."
+        },
+        {
+          "number": 14,
+          "step": "Top salad bowls with julienned nori seaweed strips for ocean-fresh umami aroma."
+        },
+        {
+          "number": 15,
+          "step": "Allow salad to rest for ten minutes at room temperature so farro absorbs dressing."
+        },
+        {
+          "number": 16,
+          "step": "Inspect salad composition to ensure balanced colors of green edamame and red radishes."
+        },
+        {
+          "number": 17,
+          "step": "Serve with chopsticks or salad spoons for an refreshing Japanese grain meal experience."
+        },
+        {
+          "number": 18,
+          "step": "Store remaining salad in airtight glass containers in refrigerator for up to three days."
+        },
+        {
+          "number": 19,
+          "step": "Note that grain salad flavors deepen pleasantly overnight as fermented miso marinates farro."
+        },
+        {
+          "number": 20,
+          "step": "Pair salad with chilled green tea or sparkling mineral water for complete healthy meal."
+        },
+        {
+          "number": 21,
+          "step": "Present finished Japanese Fermented Miso Farro Salad with pride to dinner guests."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "id": 9001026,
+  "title": "Fitfit Spiced Breakfast Roast",
+  "image": "generated://dishcovery/9001026.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "Adapted into a hearty morning dish, this Ethiopian recipe showcases a <b>breakfast beef roast</b> infused with aromatic spiced butter known as niter kibbeh. Tender beef cubes are tossed with berbere spice and roasted at high heat until deeply browned and fragrant. The roasted meat and its pan juices are then simmered with onions, garlic, and tomato before shredded torn injera bread is folded into the pan. The spongy sourdough injera absorbs the spicy berbere-infused gravy like a sponge, creating a rich texturally unique breakfast classic. Soft-boiled eggs and fresh jalapeno slices are layered over the warm mixture right before serving. Packed with <b>protein, iron, and essential minerals</b>, this flavorful roast delivers a powerful boost of morning energy. The contrast between tender beef, tangy fermented bread, and hot spiced butter makes this an unforgettable breakfast experience. Enjoy with a hot cup of dark spiced Ethiopian coffee for a complete morning ritual.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 44,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 860,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 25,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Folate",
+        "amount": 52,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 5.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 360,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Iodine",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Selenium",
+        "amount": 31,
+        "unit": "µg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Chromium",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Potassium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "lb",
+      "name": "beef sirloin"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "niter kibbeh"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "berbere spice blend"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "red onions"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced fresh ginger"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "cup",
+      "name": "beef broth"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "sheets",
+      "name": "injera bread"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "medium",
+      "name": "jalapeno peppers"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "small",
+      "name": "shallot"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "korarima spice"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cider vinegar"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "fenugreek powder"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh basil"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Roasting Beef",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 425 degrees Fahrenheit and line baking sheet with foil."
+        },
+        {
+          "number": 2,
+          "step": "Trim excess fat from beef sirloin and cut meat into half inch cubes."
+        },
+        {
+          "number": 3,
+          "step": "Toss beef cubes with vegetable oil berbere spice salt and black pepper."
+        },
+        {
+          "number": 4,
+          "step": "Spread spiced beef cubes in a single layer on prepared foil sheet."
+        },
+        {
+          "number": 5,
+          "step": "Roast beef in preheated oven for twelve minutes until browned on edges."
+        },
+        {
+          "number": 6,
+          "step": "Remove roast beef from oven and reserve all rendered pan juices in sheet."
+        },
+        {
+          "number": 7,
+          "step": "Peel red onions and chop finely into uniform small dice on board."
+        },
+        {
+          "number": 8,
+          "step": "Peel garlic cloves and mince finely alongside fresh ginger root."
+        },
+        {
+          "number": 9,
+          "step": "Melt niter kibbeh spiced butter in heavy cast iron skillet over medium."
+        },
+        {
+          "number": 10,
+          "step": "Add diced red onions to skillet and sauté ten minutes until golden."
+        },
+        {
+          "number": 11,
+          "step": "Stir minced garlic ginger cardamom and korarima into onion mixture."
+        },
+        {
+          "number": 12,
+          "step": "Add tomato paste and fry for two minutes until color turns dark red."
+        },
+        {
+          "number": 13,
+          "step": "Add diced tomatoes and cook five minutes until juices reduce completely."
+        },
+        {
+          "number": 14,
+          "step": "Pour beef broth and reserved roast beef pan juices into heavy skillet."
+        }
+      ]
+    },
+    {
+      "name": "Injera Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Tear fresh injera sheets into bite size pieces roughly two inches wide."
+        },
+        {
+          "number": 2,
+          "step": "Spread torn injera pieces on clean baking tray to dry slightly."
+        },
+        {
+          "number": 3,
+          "step": "Place eggs in small pot of boiling water and cook for six minutes."
+        },
+        {
+          "number": 4,
+          "step": "Transfer cooked eggs into ice bath to stop cooking immediately."
+        },
+        {
+          "number": 5,
+          "step": "Peel soft boiled eggs carefully and cut in half lengthwise on board."
+        },
+        {
+          "number": 6,
+          "step": "Slice jalapeno peppers into thin round rings keeping seeds intact."
+        },
+        {
+          "number": 7,
+          "step": "Mince shallot finely and mix with cider vinegar for quick topping."
+        },
+        {
+          "number": 8,
+          "step": "Chop fresh cilantro and fresh basil leaves finely using sharp knife."
+        },
+        {
+          "number": 9,
+          "step": "Simmer skillet sauce over medium low heat until thick and glossy."
+        },
+        {
+          "number": 10,
+          "step": "Season simmered sauce with sea salt and remaining berbere spice blend."
+        },
+        {
+          "number": 11,
+          "step": "Add roasted beef cubes into simmering tomato onion sauce in skillet."
+        },
+        {
+          "number": 12,
+          "step": "Stir beef into sauce for three minutes until meat heats through."
+        },
+        {
+          "number": 13,
+          "step": "Add fresh lemon juice and fenugreek powder stirring into skillet."
+        },
+        {
+          "number": 14,
+          "step": "Ensure sauce volume is sufficient to coat dried torn injera pieces."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add torn injera pieces into skillet containing hot beef sauce mixture."
+        },
+        {
+          "number": 2,
+          "step": "Gently fold injera pieces into sauce using broad spatula to prevent tearing."
+        },
+        {
+          "number": 3,
+          "step": "Allow injera to absorb spicy berbere sauce over low heat for two minutes."
+        },
+        {
+          "number": 4,
+          "step": "Ensure every piece of injera is thoroughly coated and softened by gravy."
+        },
+        {
+          "number": 5,
+          "step": "Remove cast iron skillet from heat burner immediately after mixing."
+        },
+        {
+          "number": 6,
+          "step": "Arrange soft boiled egg halves decoratively over top of hot beef fitfit."
+        },
+        {
+          "number": 7,
+          "step": "Scatter sliced jalapeno rings evenly across warm surface of breakfast roast."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle seasoned shallot vinegar mixture over eggs and beef for acidity."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle chopped cilantro and fresh basil leaves generously over dish."
+        },
+        {
+          "number": 10,
+          "step": "Dust additional korarima spice lightly over soft boiled egg halves."
+        },
+        {
+          "number": 11,
+          "step": "Portion warm breakfast roast into wide prewarmed serving bowls quickly."
+        },
+        {
+          "number": 12,
+          "step": "Ensure each portion includes roasted beef soft injera and egg half."
+        },
+        {
+          "number": 13,
+          "step": "Serve hot immediately alongside extra roll of fresh unheated injera."
+        },
+        {
+          "number": 14,
+          "step": "Pair with hot traditional Ethiopian coffee or spiced tea for breakfast."
+        }
+      ]
+    }
+  ]
+}

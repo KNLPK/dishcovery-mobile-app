@@ -1,0 +1,928 @@
+{
+  "id": 9002029,
+  "title": "Seafood Italian Squid Ink Gnocchi in Lobster Broth",
+  "image": "generated://dishcovery/9002029.jpg",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "summary": "Immerse your palate in authentic Italian coastal flavors with this luxury <b>seafood gnocchi</b> recipe. Handcrafted squid ink potato dumplings are paired with tender lobster meat, sweet shrimp, and bay scallops in a rich tomato-seafood emulsion. This sophisticated dish represents high-end coastal dining from Venetia, where dramatic dark gnocchi contrast with bright red tomatoes and fresh green herbs. The tender <b>seafood dumpling</b> dough combines delicate riced potatoes with squid ink and semolina flour, creating a silky texture that absorbs flavorful broth seamlessly. Elevated with white wine, garlic, saffron, and extra virgin olive oil, every bite provides a oceanic burst balanced by subtle garden aromatics. Perfect for formal dinner parties or special celebrations, this recipe delivers an unforgettable Italian dining experience right in your home kitchen.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 27.7
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 10.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 20.4
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.6,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.2
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.7
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.1
+      },
+      {
+        "name": "Dietary Fiber",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugars",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.5
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 620,
+        "unit": "IU",
+        "percentOfDailyNeeds": 12.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.5
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3.7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.2
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.7
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.4
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 11.2
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 116.6
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.2,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 10.6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Iodine",
+        "amount": 65,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 43.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 48,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 87.2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "lbs",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90001,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "squid ink"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "egg yolk"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90006,
+      "amount": 8,
+      "unit": "oz",
+      "name": "cooked lobster meat"
+    },
+    {
+      "id": 90007,
+      "amount": 8,
+      "unit": "oz",
+      "name": "peeled raw shrimp"
+    },
+    {
+      "id": 90008,
+      "amount": 6,
+      "unit": "oz",
+      "name": "bay scallops"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced shallots"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "cups",
+      "name": "seafood stock"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "cup",
+      "name": "crushed San Marzano tomatoes"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped flat-leaf parsley"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh basil"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pitted kalamata olives"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "cherry tomatoes halves"
+    },
+    {
+      "id": 90029,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh chives"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "bay leaf",
+      "name": "dried bay leaf"
+    },
+    {
+      "id": 90031,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "fennel seeds"
+    },
+    {
+      "id": 90032,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "clam juice"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "anchovy paste"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated pecorino romano"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brandy"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90038,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90039,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white truffle oil"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh microgreens"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coarse sea salt"
+    },
+    {
+      "id": 90043,
+      "amount": 2,
+      "unit": "quarts",
+      "name": "water for boiling"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tarragon leaves"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Potato Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Scrub russet potatoes under cold running water to clean skins thoroughly before boiling."
+        },
+        {
+          "number": 2,
+          "step": "Place unpeeled potatoes into a large pot filled with cold salted water completely."
+        },
+        {
+          "number": 3,
+          "step": "Bring water to a rolling boil over high heat and reduce to medium for steady simmering."
+        },
+        {
+          "number": 4,
+          "step": "Cook potatoes for thirty minutes until a sharp knife pierces center without resistance."
+        },
+        {
+          "number": 5,
+          "step": "Drain hot potatoes in a colander and allow steam to dissipate for five minutes carefully."
+        },
+        {
+          "number": 6,
+          "step": "Peel warm potato skins using a paring knife while holding with a clean kitchen towel."
+        },
+        {
+          "number": 7,
+          "step": "Pass warm peeled potatoes through a potato ricer directly onto a clean work surface."
+        },
+        {
+          "number": 8,
+          "step": "Spread riced potatoes into an even thin layer to let steam escape and cool slightly."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle one teaspoon of sea salt over cooling riced potatoes to season foundation evenly."
+        },
+        {
+          "number": 10,
+          "step": "Dust onion powder and garlic powder across riced potatoes for initial aromatic seasoning."
+        },
+        {
+          "number": 11,
+          "step": "Whisk egg yolk and squid ink together in a small dish until completely dark and uniform."
+        },
+        {
+          "number": 12,
+          "step": "Pour squid ink egg mixture evenly over riced potatoes across the wooden board surface."
+        },
+        {
+          "number": 13,
+          "step": "Sift all-purpose flour lightly over potatoes using a fine mesh sifter to avoid clumps."
+        },
+        {
+          "number": 14,
+          "step": "Sprinkle semolina flour over flour layer to give dough optimal structural integrity."
+        },
+        {
+          "number": 15,
+          "step": "Gently fold ingredients together using a bench scraper until dark dough starts to form."
+        },
+        {
+          "number": 16,
+          "step": "Knead dough lightly for two minutes until squid ink color is evenly distributed throughout."
+        },
+        {
+          "number": 17,
+          "step": "Form squid ink gnocchi dough into a smooth tender ball without overworking gluten strands."
+        }
+      ]
+    },
+    {
+      "name": "Gnocchi Shaping",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut prepared black dough into eight equal portions using your bench scraper cleanly."
+        },
+        {
+          "number": 2,
+          "step": "Dust wooden cutting board lightly with extra semolina flour to prevent sticking issue."
+        },
+        {
+          "number": 3,
+          "step": "Roll one dough portion into a long rope approximately half an inch thick using palms."
+        },
+        {
+          "number": 4,
+          "step": "Cut rope into uniform three-quarter inch dumpling pillows using a floured bench knife."
+        },
+        {
+          "number": 5,
+          "step": "Roll each dumpling piece over a grooved wooden gnocchi board to form characteristic ridges."
+        },
+        {
+          "number": 6,
+          "step": "Place shaped gnocchi onto a semolina-dusted parchment baking sheet in a single layer."
+        },
+        {
+          "number": 7,
+          "step": "Repeat rolling and cutting steps for remaining seven portions of squid ink dough carefully."
+        },
+        {
+          "number": 8,
+          "step": "Inspect shaped gnocchi to ensure ridges are deep enough to catch broth during plating."
+        },
+        {
+          "number": 9,
+          "step": "Keep finished gnocchi covered loosely with a dry towel to avoid surface drying out."
+        },
+        {
+          "number": 10,
+          "step": "Chill shaped gnocchi sheet in refrigerator for twenty minutes to firm texture before cooking."
+        },
+        {
+          "number": 11,
+          "step": "Dust extra semolina over gnocchi if moisture causes slight sticking between pieces."
+        },
+        {
+          "number": 12,
+          "step": "Verify all dumplings are of uniform size to ensure consistent cooking times in broth."
+        },
+        {
+          "number": 13,
+          "step": "Prepare a large pot with two quarts water and coarse sea salt for dumpling boiling."
+        },
+        {
+          "number": 14,
+          "step": "Set pot over high burner so water comes to a boil while broth sauce is prepared."
+        },
+        {
+          "number": 15,
+          "step": "Clear workstation of loose flour to keep surrounding cooking area clean and organized."
+        },
+        {
+          "number": 16,
+          "step": "Keep gnocchi cold until moment they are dropped into boiling water for optimal firm shape."
+        },
+        {
+          "number": 17,
+          "step": "Reserve small dish of extra semolina for dusting hands during final cooking handling."
+        }
+      ]
+    },
+    {
+      "name": "Seafood Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat raw shrimp dry with paper towels and cut each into bite-sized half-inch pieces."
+        },
+        {
+          "number": 2,
+          "step": "Rinse bay scallops under cold water and pat dry thoroughly using clean paper towels."
+        },
+        {
+          "number": 3,
+          "step": "Chop cooked lobster meat into clean bite-sized chunks on a separate plastic cutting board."
+        },
+        {
+          "number": 4,
+          "step": "Season shrimp and scallops lightly with smoked paprika, black pepper, and salt in a bowl."
+        },
+        {
+          "number": 5,
+          "step": "Heat one tablespoon of extra virgin olive oil in a wide sauté pan over medium-high heat."
+        },
+        {
+          "number": 6,
+          "step": "Sear shrimp and scallops for ninety seconds until barely opaque, then remove immediately."
+        },
+        {
+          "number": 7,
+          "step": "Transfer seared seafood to a clean plate, leaving flavorful juices inside hot skillet pan."
+        },
+        {
+          "number": 8,
+          "step": "Add chopped lobster meat to seafood plate so all shellfish remains delicate and tender."
+        },
+        {
+          "number": 9,
+          "step": "Cover seafood plate loosely with foil to retain warm temperatures and sweet juices."
+        },
+        {
+          "number": 10,
+          "step": "Set aside seared seafood while building aromatic tomato and wine broth in same skillet."
+        },
+        {
+          "number": 11,
+          "step": "Ensure seafood is not overcooked during initial sear as it finishes in hot broth later."
+        },
+        {
+          "number": 12,
+          "step": "Inspect scallops to remove any remaining tough side muscle tags before cooking steps."
+        },
+        {
+          "number": 13,
+          "step": "Drizzle half teaspoon lemon juice over seared shrimp to brighten coastal seafood flavors."
+        },
+        {
+          "number": 14,
+          "step": "Keep seafood juices on plate reserved for stirring into broth sauce at final stage."
+        },
+        {
+          "number": 15,
+          "step": "Maintain clean seafood prep area to prevent cross contamination during dinner assembly."
+        },
+        {
+          "number": 16,
+          "step": "Check that all shellfish pieces are uniform size for even distribution across dishes."
+        },
+        {
+          "number": 17,
+          "step": "Refrigerate raw elements promptly if timing between preparation steps extends longer."
+        }
+      ]
+    },
+    {
+      "name": "Broth Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add remaining olive oil to skillet along with diced shallots over medium flame setting."
+        },
+        {
+          "number": 2,
+          "step": "Sauté shallots for two minutes until translucent and soft before adding minced garlic."
+        },
+        {
+          "number": 3,
+          "step": "Stir in minced garlic, fennel seeds, and red pepper flakes, cooking for one minute aromatically."
+        },
+        {
+          "number": 4,
+          "step": "Add tomato paste and anchovy paste, stirring continuously until toasted and fragrant."
+        },
+        {
+          "number": 5,
+          "step": "Pour in brandy and deglaze pan bottom, scraping up brown bits with wooden spoon carefully."
+        },
+        {
+          "number": 6,
+          "step": "Add dry white wine and simmer rapidly for three minutes until liquid reduces by half."
+        },
+        {
+          "number": 7,
+          "step": "Stir in seafood stock, clam juice, and saffron threads to infuse golden color and aroma."
+        },
+        {
+          "number": 8,
+          "step": "Add crushed San Marzano tomatoes, dried oregano, and dried bay leaf to simmering broth base."
+        },
+        {
+          "number": 9,
+          "step": "Reduce heat to low and simmer broth gently for fifteen minutes to marry rich flavors."
+        },
+        {
+          "number": 10,
+          "step": "Add cherry tomato halves and capers to broth, simmering for three extra minutes softly."
+        },
+        {
+          "number": 11,
+          "step": "Stir in heavy cream and unsalted butter to create a silky, rich seafood broth emulsion."
+        },
+        {
+          "number": 12,
+          "step": "Season broth with lemon zest, black pepper, and extra sea salt according to taste preference."
+        },
+        {
+          "number": 13,
+          "step": "Remove bay leaf from skillet and discard before combining gnocchi and seafood components."
+        },
+        {
+          "number": 14,
+          "step": "Keep broth gently warm on low heat while boiling squid ink gnocchi in adjacent pot."
+        },
+        {
+          "number": 15,
+          "step": "Check broth consistency to ensure it coats back of spoon without feeling overly heavy."
+        },
+        {
+          "number": 16,
+          "step": "Taste broth for balanced acidity and add drop of lemon juice if richer depth needed."
+        }
+      ]
+    },
+    {
+      "name": "Cooking Dumplings",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring reserved pot of salted water to a rapid rolling boil over highest stove burner."
+        },
+        {
+          "number": 2,
+          "step": "Carefully drop chilled squid ink gnocchi into boiling water in two separate batches."
+        },
+        {
+          "number": 3,
+          "step": "Stir water gently with wooden spoon once to prevent dumplings from sticking to pot bottom."
+        },
+        {
+          "number": 4,
+          "step": "Cook gnocchi for two to three minutes until all black dumplings float to water surface."
+        },
+        {
+          "number": 5,
+          "step": "Allow floating gnocchi to simmer for thirty additional seconds to ensure center is cooked."
+        },
+        {
+          "number": 6,
+          "step": "Use slotted spider spoon to transfer cooked gnocchi directly into warm broth skillet."
+        },
+        {
+          "number": 7,
+          "step": "Repeat boiling process for second batch of gnocchi, transferring immediately when cooked."
+        },
+        {
+          "number": 8,
+          "step": "Add seared shrimp, scallops, lobster meat, and reserved juices into warm broth skillet."
+        },
+        {
+          "number": 9,
+          "step": "Toss gnocchi and seafood gently in broth for two minutes to warm components through."
+        },
+        {
+          "number": 10,
+          "step": "Stir in chopped pitted kalamata olives to add dark briny balance to sweet seafood."
+        },
+        {
+          "number": 11,
+          "step": "Fold in fresh basil and chopped flat-leaf parsley right at end of cooking process."
+        },
+        {
+          "number": 12,
+          "step": "Verify dumpling coating is complete and broth is glossy and fragrant throughout skillet."
+        },
+        {
+          "number": 13,
+          "step": "Remove pan from heat source immediately to prevent overcooking delicate seafood items."
+        },
+        {
+          "number": 14,
+          "step": "Check temperature of dish to ensure all ingredients are steaming hot before plating."
+        },
+        {
+          "number": 15,
+          "step": "Adjust seasoning with final pinch of sea salt and crack of black pepper if desired."
+        },
+        {
+          "number": 16,
+          "step": "Prepare wide shallow pasta bowls near stove for immediate hot plating service."
+        }
+      ]
+    },
+    {
+      "name": "Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle rich saffron seafood broth evenly into four pre-warmed shallow stoneware bowls."
+        },
+        {
+          "number": 2,
+          "step": "Divide black squid ink gnocchi dumplings equally among bowls, piling gently in center."
+        },
+        {
+          "number": 3,
+          "step": "Arrange cooked lobster chunks, shrimp, and bay scallops artfully over gnocchi mounds."
+        },
+        {
+          "number": 4,
+          "step": "Scatter cherry tomato halves and pitted olives around edges of each gnocchi bowl."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle white truffle oil lightly over each portion to elevate luxury aromatic profile."
+        },
+        {
+          "number": 6,
+          "step": "Garnish top of dumplings with toasted pine nuts for subtle crunchy texture element."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle chopped fresh chives and tarragon leaves over seafood for vibrant finish."
+        },
+        {
+          "number": 8,
+          "step": "Top each bowl with grated pecorino romano cheese and delicate fresh microgreens nicely."
+        },
+        {
+          "number": 9,
+          "step": "Wipe outer bowl rims clean with damp cloth to present immaculate chef-level display."
+        },
+        {
+          "number": 10,
+          "step": "Serve immediately while seafood is tender and gnocchi dumplings remain hot and pillow-soft."
+        },
+        {
+          "number": 11,
+          "step": "Pair with crisp Italian Pinot Grigio or Vermentino wine to complement seafood broth notes."
+        },
+        {
+          "number": 12,
+          "step": "Provide warm crusty Italian bread on table for dipping into remaining saffron broth."
+        },
+        {
+          "number": 13,
+          "step": "Instruct guests to mix black gnocchi with red broth for optimal flavor in every bite."
+        },
+        {
+          "number": 14,
+          "step": "Refrigerate any remaining gnocchi and broth separately within airtight container promptly."
+        },
+        {
+          "number": 15,
+          "step": "Reheat leftovers gently in covered pan over low heat with splash of additional stock."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy this sophisticated Italian culinary classic highlighting dark gnocchi and seafood."
+        }
+      ]
+    }
+  ]
+}

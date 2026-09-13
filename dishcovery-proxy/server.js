@@ -92,7 +92,12 @@ const GENERATED_MANIFEST_PATH = path.join(GENERATED_DIR, 'manifest.json');
 function loadGeneratedRecipeIds() {
   try {
     const manifest = JSON.parse(fs.readFileSync(GENERATED_MANIFEST_PATH, 'utf8'));
-    const ids = (manifest.recipes || []).map((r) => r.recipeId).filter(Number.isFinite);
+    // `inDataset === false` marks surplus payloads beyond the balanced target;
+    // they stay on disk for audit but are not part of the benchmark dataset.
+    const ids = (manifest.recipes || [])
+      .filter((r) => r.inDataset !== false)
+      .map((r) => r.recipeId)
+      .filter(Number.isFinite);
     console.log(
       `[dataset] loaded ${ids.length} GENERATED (synthetic) payload IDs from ${GENERATED_MANIFEST_PATH}` +
         (manifest.model?.id ? ` (model ${manifest.model.id}` : '') +

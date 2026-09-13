@@ -1,0 +1,553 @@
+{
+  "id": 9001071,
+  "title": "Thai Breakfast Pork Skewers with Coconut Glaze",
+  "image": "generated://dishcovery/9001071.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "Start your morning with a flavorful staple adapted from the bustling street food carts of Thailand. These savory <b>pork shoulder skewers</b> are marinated overnight in rich coconut cream, garlic, palm sugar, and white pepper, then charcoal-grilled to caramelized perfection. This breakfast version balances sweet and savory notes with a bright dip made from tamarind, toasted rice powder, and fresh lime juice. Small bamboo skewers make them convenient to serve alongside sticky rice and fresh cucumber slices for a authentic morning spread. The coconut glaze brushed over the meat during cooking seals in moisture while producing charred, crispy edges. Warm, fragrant, and packed with bold flavors, these breakfast skewers offer a satisfying energy boost to start the day. Every bite combines tender grilled meat with aromatic coriander root and earthy palm sugar. Simple steps make this classic morning delight easy to recreate at home. Embrace a morning meal packed with traditional <b>Thai flavors</b> that will energize your standard routine.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Protein",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 1,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 120,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Folate",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "pork shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "ml",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "thin soy sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dark soy sauce"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "pc",
+      "name": "coriander roots"
+    },
+    {
+      "id": 90007,
+      "amount": 5,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "white peppercorns"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted rice powder"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chilli flakes"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "pc",
+      "name": "shallot"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped culantro"
+    },
+    {
+      "id": 90015,
+      "amount": 16,
+      "unit": "pc",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "tapioca starch"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "pc",
+      "name": "cucumber"
+    },
+    {
+      "id": 90019,
+      "amount": 200,
+      "unit": "g",
+      "name": "sticky rice"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "salt"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pc",
+      "name": "lemongrass stalk"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Pork Marination",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice the pork shoulder across the grain into thin strips about three centimeters wide and half a centimeter thick."
+        },
+        {
+          "number": 2,
+          "step": "Place the sliced pork shoulder strips inside a large non-reactive glass bowl for uniform marinade distribution."
+        },
+        {
+          "number": 3,
+          "step": "Trim and wash coriander roots thoroughly under cold water to remove any lingering soil particles."
+        },
+        {
+          "number": 4,
+          "step": "Pound garlic cloves, coriander roots, and white peppercorns together in a heavy stone mortar into a fine paste."
+        },
+        {
+          "number": 5,
+          "step": "Grate three tablespoons of palm sugar finely using a box grater so it dissolves quickly in liquid ingredients."
+        },
+        {
+          "number": 6,
+          "step": "Transfer the pounded garlic paste and grated palm sugar into a medium mixing bowl for blending."
+        },
+        {
+          "number": 7,
+          "step": "Add fish sauce, thin soy sauce, and dark soy sauce to the spice bowl and stir until sugar completely dissolves."
+        },
+        {
+          "number": 8,
+          "step": "Pour eighty milliliters of coconut cream into the marinade mixture and whisk until well combined and smooth."
+        },
+        {
+          "number": 9,
+          "step": "Whisk in one teaspoon of tapioca starch and two tablespoons water to help marinade adhere to meat strips."
+        },
+        {
+          "number": 10,
+          "step": "Pour the completed coconut marinade over sliced pork in the bowl, stirring to coat every piece evenly."
+        },
+        {
+          "number": 11,
+          "step": "Massage marinade into meat fibers using gloved hands for two full minutes for deep flavor absorption."
+        },
+        {
+          "number": 12,
+          "step": "Cover bowl tightly with plastic wrap and chill in refrigerator for at least three hours or overnight."
+        },
+        {
+          "number": 13,
+          "step": "Soak sixteen short bamboo skewers completely in cool water for thirty minutes to prevent burning on grill."
+        },
+        {
+          "number": 14,
+          "step": "Remove marinated pork from refrigerator fifteen minutes prior to threading to drop cold temperature slightly."
+        }
+      ]
+    },
+    {
+      "name": "Dipping Sauce and Skewering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine tamarind paste, lime juice, and warm water in a small bowl to create the sour sauce foundation."
+        },
+        {
+          "number": 2,
+          "step": "Stir one tablespoon of fish sauce and one teaspoon of honey into tamarind liquid until fully dissolved."
+        },
+        {
+          "number": 3,
+          "step": "Finely mince one fresh shallot and add it directly into sour tamarind dipping sauce base."
+        },
+        {
+          "number": 4,
+          "step": "Stir in toasted rice powder and red chilli flakes to add nutty depth and mild morning spice heat."
+        },
+        {
+          "number": 5,
+          "step": "Finish dipping sauce by stirring in chopped culantro and keep at room temperature until serving time."
+        },
+        {
+          "number": 6,
+          "step": "Take soaked bamboo skewers from water bath and wipe off excess surface moisture using paper towels."
+        },
+        {
+          "number": 7,
+          "step": "Thread three to four marinated pork strips onto each skewer, folding them tightly in a accordion pattern."
+        },
+        {
+          "number": 8,
+          "step": "Press threaded meat firmly together on each skewer to form compact rectangular shapes for even cooking."
+        },
+        {
+          "number": 9,
+          "step": "Place prepared skewers onto a clean tray line with parchment paper in a single non-overlapping layer."
+        },
+        {
+          "number": 10,
+          "step": "Whisk remaining coconut cream with a pinch of salt and vegetable oil in a small bowl to make brushing glaze."
+        },
+        {
+          "number": 11,
+          "step": "Finely crush one lemongrass stalk and use it as an aromatic brush for applying coconut glaze during grilling."
+        },
+        {
+          "number": 12,
+          "step": "Slice fresh cucumber into round disks and set aside on serving platter with steamed sticky rice packages."
+        },
+        {
+          "number": 13,
+          "step": "Prepare your outdoor grill or indoor cast iron ridge pan by lightly greasing cooking grates with vegetable oil."
+        },
+        {
+          "number": 14,
+          "step": "Heat grill to medium-high heat until hot enough that drop of water sizzles instantly on surface."
+        }
+      ]
+    },
+    {
+      "name": "Grilling and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Arrange skewers on preheated grill rack leaving small space between each for heat circulation."
+        },
+        {
+          "number": 2,
+          "step": "Grill skewers undisturbed for two minutes until lower side develops dark grill lines and sizzles nicely."
+        },
+        {
+          "number": 3,
+          "step": "Flip skewers over using metal tongs and brush upper surface generously with prepared salted coconut glaze."
+        },
+        {
+          "number": 4,
+          "step": "Continue grilling second side for two minutes while basting frequently with remaining coconut glaze mixture."
+        },
+        {
+          "number": 5,
+          "step": "Turn skewers every minute for total cooking time of eight minutes until meat is fully cooked through."
+        },
+        {
+          "number": 6,
+          "step": "Monitor fire heat carefully to achieve caramelized edges without charring palm sugar marinade excessively."
+        },
+        {
+          "number": 7,
+          "step": "Brush skewers with final layer of coconut glaze during last thirty seconds on heat for glossy finish."
+        },
+        {
+          "number": 8,
+          "step": "Check internal temperature of pork skewers using digital probe thermometer to ensure it reaches sixty-eight degrees."
+        },
+        {
+          "number": 9,
+          "step": "Transfer cooked pork skewers to warm serving platter and let rest for two minutes before serving."
+        },
+        {
+          "number": 10,
+          "step": "Pour prepared tamarind dipping sauce into small clay bowls alongside warm breakfast skewers platter."
+        },
+        {
+          "number": 11,
+          "step": "Arrange sliced fresh cucumber rounds and warm bamboo baskets of sticky rice around grilled pork skewers."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle remaining drops of sesame oil over skewers for subtle shiny luster and inviting nutty aroma."
+        },
+        {
+          "number": 13,
+          "step": "Serve immediately while skewers remain hot, juicy, and fragrant for a traditional Thai morning meal."
+        },
+        {
+          "number": 14,
+          "step": "Instruct guests to dip warm pork skewers into spicy sour sauce between bites of sweet sticky rice."
+        }
+      ]
+    }
+  ]
+}

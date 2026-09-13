@@ -1,0 +1,552 @@
+{
+  "id": 9001003,
+  "title": "Korean Tiger Shrimp and Kimchi Noodle Casserole",
+  "image": "generated://dishcovery/9001003.jpg",
+  "readyInMinutes": 50,
+  "servings": 6,
+  "summary": "This vibrant Korean layered bake highlights <b>black tiger shrimp</b> layered between savory sweet potato glass noodles, aged kimchi, and gochujang cream. Succulent shrimp are marinated with garlic, ginger, and sesame oil before being nestled into nests of translucent noodles. Layers of sharp fermented kimchi cut through the richness of a broiled cheese topping, offering balanced kick and umami depth. Sliced king oyster mushrooms and shredded green cabbage add texturally satisfying layers throughout the casserole. Baked until bubbling hot and finished under the broiler for golden crisp edges, each slice delivers complex spicy seafood comfort. Toasted nori strips and toasted sesame seeds scatter across the top for crisp sea aroma. Ideal for group gatherings, this fusion seafood bake brings bold street-style Korean flavors into a cozy oven-baked format that is sure to impress.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 31,
+        "unit": "g",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Sodium",
+        "amount": 1120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 920,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Folate",
+        "amount": 52,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Calcium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 450,
+      "unit": "g",
+      "name": "black tiger shrimp"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "sweet potato glass noodles"
+    },
+    {
+      "id": 90002,
+      "amount": 300,
+      "unit": "g",
+      "name": "aged kimchi"
+    },
+    {
+      "id": 90003,
+      "amount": 45,
+      "unit": "g",
+      "name": "gochujang"
+    },
+    {
+      "id": 90004,
+      "amount": 15,
+      "unit": "g",
+      "name": "gochugaru"
+    },
+    {
+      "id": 90005,
+      "amount": 120,
+      "unit": "ml",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90006,
+      "amount": 150,
+      "unit": "g",
+      "name": "shredded mozzarella cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "piece",
+      "name": "king oyster mushrooms"
+    },
+    {
+      "id": 90008,
+      "amount": 150,
+      "unit": "g",
+      "name": "green cabbage"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 10,
+      "unit": "g",
+      "name": "ginger"
+    },
+    {
+      "id": 90011,
+      "amount": 30,
+      "unit": "ml",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90012,
+      "amount": 30,
+      "unit": "ml",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90013,
+      "amount": 15,
+      "unit": "ml",
+      "name": "rice mirin"
+    },
+    {
+      "id": 90014,
+      "amount": 10,
+      "unit": "g",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "sheet",
+      "name": "nori sea vegetable"
+    },
+    {
+      "id": 90016,
+      "amount": 3,
+      "unit": "piece",
+      "name": "scallions"
+    },
+    {
+      "id": 90017,
+      "amount": 15,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90018,
+      "amount": 250,
+      "unit": "ml",
+      "name": "dashi broth"
+    },
+    {
+      "id": 90019,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "g",
+      "name": "white pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 15,
+      "unit": "ml",
+      "name": "cooking sake"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "piece",
+      "name": "white onion"
+    },
+    {
+      "id": 90023,
+      "amount": 100,
+      "unit": "g",
+      "name": "bean sprouts"
+    },
+    {
+      "id": 90024,
+      "amount": 10,
+      "unit": "g",
+      "name": "sugar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood Prep and Layering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel and devein black tiger shrimp carefully using kitchen shears and paper towels."
+        },
+        {
+          "number": 2,
+          "step": "Rinse shrimp under ice-cold running water and pat thoroughly dry on paper towels."
+        },
+        {
+          "number": 3,
+          "step": "Grate garlic cloves and fresh ginger root finely into a stainless steel bowl."
+        },
+        {
+          "number": 4,
+          "step": "Add soy sauce, rice mirin, cooking sake, and sesame oil to grated garlic ginger."
+        },
+        {
+          "number": 5,
+          "step": "Toss peeled shrimp in garlic soy marinade and set aside in refrigerator ten minutes."
+        },
+        {
+          "number": 6,
+          "step": "Bring a large pot of water to rolling boil over high heat for cooking glass noodles."
+        },
+        {
+          "number": 7,
+          "step": "Submerge sweet potato glass noodles into boiling water and cook six minutes total."
+        },
+        {
+          "number": 8,
+          "step": "Drain glass noodles into a colander and rinse under cold water to stop cooking."
+        },
+        {
+          "number": 9,
+          "step": "Cut long glass noodles into shorter six-inch strands using clean kitchen shears."
+        },
+        {
+          "number": 10,
+          "step": "Chop aged kimchi coarsely on a plastic board collecting all kimchi juice in bowl."
+        },
+        {
+          "number": 11,
+          "step": "Shred green cabbage into thin ribbons using a sharp chef knife or mandoline."
+        },
+        {
+          "number": 12,
+          "step": "Slice king oyster mushrooms lengthwise into thin uniform slices for casserole layer."
+        },
+        {
+          "number": 13,
+          "step": "Thinly slice white onion into half-moon shapes on cutting board ready for pan."
+        },
+        {
+          "number": 14,
+          "step": "Melt butter in skillet and sauté onions and cabbage until softened four minutes."
+        },
+        {
+          "number": 15,
+          "step": "Add chopped kimchi and gochugaru to skillet stirring three minutes over medium flame."
+        },
+        {
+          "number": 16,
+          "step": "Whisk gochujang paste, heavy cream, dashi broth, and sugar together in pitcher."
+        },
+        {
+          "number": 17,
+          "step": "Grease a large rectangular ceramic baking casserole dish with sesame oil evenly."
+        },
+        {
+          "number": 18,
+          "step": "Spread cooked glass noodles along bottom of greased ceramic casserole dish neatly."
+        },
+        {
+          "number": 19,
+          "step": "Layer sautéed kimchi, cabbage, and onion mix smoothly over glass noodle base."
+        },
+        {
+          "number": 20,
+          "step": "Arrange sliced king oyster mushrooms and fresh bean sprouts in an even second layer."
+        },
+        {
+          "number": 21,
+          "step": "Place marinated black tiger shrimp side by side in a neat pattern over mushrooms."
+        },
+        {
+          "number": 22,
+          "step": "Pour spicy gochujang cream mixture evenly over all layered casserole ingredients."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Garnishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to three hundred seventy-five degrees Fahrenheit with center rack ready."
+        },
+        {
+          "number": 2,
+          "step": "Cover ceramic casserole dish tightly with heavy aluminum foil to retain moisture."
+        },
+        {
+          "number": 3,
+          "step": "Place covered casserole dish on middle rack of preheated oven and bake twenty minutes."
+        },
+        {
+          "number": 4,
+          "step": "Carefully remove aluminum foil from casserole using oven mitts to avoid steam."
+        },
+        {
+          "number": 5,
+          "step": "Scatter shredded mozzarella cheese evenly across top layer of shrimp and noodles."
+        },
+        {
+          "number": 6,
+          "step": "Return uncovered dish to oven and bake ten more minutes until cheese melts completely."
+        },
+        {
+          "number": 7,
+          "step": "Switch oven setting to high broiler for final two minutes to brown cheese topping."
+        },
+        {
+          "number": 8,
+          "step": "Watch casserole closely while broiling to achieve golden spots without burning."
+        },
+        {
+          "number": 9,
+          "step": "Remove bubbling bake from oven carefully and place on a heat-safe trivet mat."
+        },
+        {
+          "number": 10,
+          "step": "Slice scallions into thin green rings using a sharp knife on cutting board."
+        },
+        {
+          "number": 11,
+          "step": "Cut nori sheets into fine shred strips using clean kitchen shears over bowl."
+        },
+        {
+          "number": 12,
+          "step": "Garnish golden cheese crust with chopped green scallions and toasted sesame seeds."
+        },
+        {
+          "number": 13,
+          "step": "Scatter crispy nori shreds across top of bake for toasted seaweed fragrance."
+        },
+        {
+          "number": 14,
+          "step": "Let casserole rest ten minutes at room temperature before cutting for clean slices."
+        },
+        {
+          "number": 15,
+          "step": "Portion bake into six square servings using a wide metal spatula carefully."
+        },
+        {
+          "number": 16,
+          "step": "Plate individual portions on warm ceramic dinner plates showing distinct layers."
+        },
+        {
+          "number": 17,
+          "step": "Drizzle any leftover gochujang cream pan juices over plated portions smoothly."
+        },
+        {
+          "number": 18,
+          "step": "Verify tiger shrimp are opaque cooked through and noodles remain perfectly chewy."
+        },
+        {
+          "number": 19,
+          "step": "Serve Korean seafood bake warm as a satisfying spicy main course dish."
+        },
+        {
+          "number": 20,
+          "step": "Pair with chilled radish kimchi or banchan side dishes for optimal dining experience."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy this savory oven casserole packed with rich tiger shrimp and aged kimchi."
+        }
+      ]
+    }
+  ]
+}

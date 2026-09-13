@@ -1,0 +1,553 @@
+{
+  "id": 9001083,
+  "title": "Smoked Chipotle Chicken and Tortilla Layered Bake",
+  "image": "generated://dishcovery/9001083.jpg",
+  "readyInMinutes": 60,
+  "servings": 6,
+  "summary": "Anchored by intense wood-smoked elements, this Mexican layered bake features shredded smoked chicken breasts, charred chipotle peppers in adobo, and fire-roasted poblano strips. Corn tortillas dipped in a warm tomato-smokey chile broth form structural layers, interleaved with black beans, sweet corn, and shredded Oaxaca cheese. As the bake simmers in the oven, the melted cheese bonds the tortilla layers into a cohesive casserole with bubbly brown edges. A topping of cold crema, sliced avocado, and fresh cilantro offers a refreshing contrast to the deep smoky heat underneath. This hearty baked dish can be assembled ahead and baked just before serving, making it ideal for family gatherings. The smoky chipotle profile penetrates every layer, resulting in comforting savory depth. The <b>smoky chipotle sauce</b> binds the <b>corn tortilla layers</b>, delivering authentic Mexican baked casserole comfort.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 5.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 7.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 31.2
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 14,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.8
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.6
+      },
+      {
+        "name": "Niacin",
+        "amount": 11.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42.4
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Calcium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 450,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.2
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58.2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.6
+      },
+      {
+        "name": "Chromium",
+        "amount": 4.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.7
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 48.9
+      },
+      {
+        "name": "Potassium",
+        "amount": 740,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "smoked chicken breast"
+    },
+    {
+      "id": 90001,
+      "amount": 12,
+      "unit": "small",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "canned",
+      "name": "chipotle peppers in adobo"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "poblano peppers"
+    },
+    {
+      "id": 90004,
+      "amount": 400,
+      "unit": "g",
+      "name": "fire-roasted crushed tomatoes"
+    },
+    {
+      "id": 90005,
+      "amount": 250,
+      "unit": "g",
+      "name": "shredded oaxaca cheese"
+    },
+    {
+      "id": 90006,
+      "amount": 150,
+      "unit": "g",
+      "name": "cotija cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "can",
+      "name": "black beans"
+    },
+    {
+      "id": 90008,
+      "amount": 150,
+      "unit": "g",
+      "name": "sweet corn kernels"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 250,
+      "unit": "ml",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90017,
+      "amount": 100,
+      "unit": "g",
+      "name": "mexican crema"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "fresh",
+      "name": "avocado"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "whole",
+      "name": "lime"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pickled jalapeno slices"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Smoky Sauce and Filling Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Shred cooked smoked chicken breasts into thin bite-sized strands using two forks in a bowl."
+        },
+        {
+          "number": 2,
+          "step": "Char whole poblano peppers directly over gas flame until skins are completely blackened."
+        },
+        {
+          "number": 3,
+          "step": "Place charred poblanos in a sealed bowl for ten minutes to steam, then peel off burnt skin."
+        },
+        {
+          "number": 4,
+          "step": "Slice peeled poblano peppers into thin strips, discarding interior stem and seeds."
+        },
+        {
+          "number": 5,
+          "step": "Dice yellow onion and garlic cloves finely on a cutting board using a chef knife."
+        },
+        {
+          "number": 6,
+          "step": "Heat vegetable oil in saucepan over medium heat, adding onion and garlic to saute for four minutes."
+        },
+        {
+          "number": 7,
+          "step": "Add chipotle peppers in adobo, fire-roasted crushed tomatoes, and chicken broth to saucepan."
+        },
+        {
+          "number": 8,
+          "step": "Season sauce with ground cumin, dried oregano, smoked paprika, sea salt, garlic powder, and pepper."
+        },
+        {
+          "number": 9,
+          "step": "Simmer sauce for ten minutes, then blend until smooth with an immersion stick blender."
+        },
+        {
+          "number": 10,
+          "step": "Rinse black beans under cold water and combine in a bowl with sweet corn kernels."
+        },
+        {
+          "number": 11,
+          "step": "Toss shredded smoked chicken strands into bowl with poblano pepper strips and black bean corn mix."
+        },
+        {
+          "number": 12,
+          "step": "Pour one cup of warm blended smoky chipotle sauce into chicken mixture, tossing to combine."
+        },
+        {
+          "number": 13,
+          "step": "Shred oaxaca cheese coarsely and crumble fresh cotija cheese into separate bowls."
+        },
+        {
+          "number": 14,
+          "step": "Preheat your oven to 375 degrees Fahrenheit and grease a deep 9x13 inch ceramic baking dish."
+        }
+      ]
+    },
+    {
+      "name": "Bake Construction and Oven Cooking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour half a cup of warm smoky chipotle sauce over bottom of greased ceramic baking dish."
+        },
+        {
+          "number": 2,
+          "step": "Dip four corn tortillas into warm sauce pan to soften slightly before laying in dish bottom."
+        },
+        {
+          "number": 3,
+          "step": "Arrange softened tortillas in single overlapping layer across bottom of baking dish."
+        },
+        {
+          "number": 4,
+          "step": "Spread half of smoked chicken, poblano, and bean filling mixture evenly over tortilla layer."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle one-third of shredded oaxaca cheese and crumbled cotija cheese over filling layer."
+        },
+        {
+          "number": 6,
+          "step": "Dip four more corn tortillas into warm smoky sauce and create second tortilla layer on cheese."
+        },
+        {
+          "number": 7,
+          "step": "Spoon remaining smoked chicken and vegetable filling mixture over second tortilla layer."
+        },
+        {
+          "number": 8,
+          "step": "Scatter another third of oaxaca and cotija cheeses across second chicken filling layer."
+        },
+        {
+          "number": 9,
+          "step": "Dip final four tortillas in sauce and place top layer over casserole, covering filling completely."
+        },
+        {
+          "number": 10,
+          "step": "Pour remaining smoky chipotle tomato sauce over top tortilla layer, spreading with spoon."
+        },
+        {
+          "number": 11,
+          "step": "Top casserole with remaining shredded oaxaca cheese and crumbled cotija cheese evenly."
+        },
+        {
+          "number": 12,
+          "step": "Cover baking dish tightly with aluminum foil to trap moisture during initial oven baking phase."
+        },
+        {
+          "number": 13,
+          "step": "Bake casserole in preheated oven for twenty-five minutes with foil cover kept securely intact."
+        },
+        {
+          "number": 14,
+          "step": "Remove aluminum foil carefully and bake ten more minutes until top cheese turns bubbly golden."
+        }
+      ]
+    },
+    {
+      "name": "Resting and Fresh Garnishes",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove hot layered bake from oven onto heatproof trivet using heavy insulated oven mitts."
+        },
+        {
+          "number": 2,
+          "step": "Let bake rest undisturbed for ten minutes so tortilla layers set firmly for clean slicing."
+        },
+        {
+          "number": 3,
+          "step": "Halve fresh avocado, remove pit, peel skin away, and slice avocado flesh into fan shapes."
+        },
+        {
+          "number": 4,
+          "step": "Chop fresh cilantro leaves coarsely and cut whole lime into six neat serving wedges."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle rich Mexican crema across top of bubbly cheese layer in decorative zig-zag pattern."
+        },
+        {
+          "number": 6,
+          "step": "Arrange sliced avocado fans across center top of hot baked tortilla casserole."
+        },
+        {
+          "number": 7,
+          "step": "Scatter pickled jalapeno slices and fresh chopped cilantro leaves over entire dish top."
+        },
+        {
+          "number": 8,
+          "step": "Slice rested layered bake into six large square portions using sharp spatula tool."
+        },
+        {
+          "number": 9,
+          "step": "Transfer baked squares to warm dinner plates, keeping tortilla and filling layers intact."
+        },
+        {
+          "number": 10,
+          "step": "Serve each portion with fresh lime wedge for squeezing bright juice right at table."
+        },
+        {
+          "number": 11,
+          "step": "Check that dish delivers rich smoky chipotle aroma, gooey cheese, and firm tortilla layers."
+        },
+        {
+          "number": 12,
+          "step": "Pair bake with Mexican rice or crisp green side salad to complete family dinner menu."
+        },
+        {
+          "number": 13,
+          "step": "Store leftover casserole squares covered in refrigerator for up to three days for easy reheating."
+        },
+        {
+          "number": 14,
+          "step": "Reheat individual portions in 350 degree oven for fifteen minutes until warm throughout."
+        }
+      ]
+    }
+  ]
+}

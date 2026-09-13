@@ -1,0 +1,553 @@
+{
+  "id": 9001009,
+  "title": "Brazilian Morning Espetinho Skewers",
+  "image": "generated://dishcovery/9001009.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Start your day with a bold twist on a popular street food classic using this <b>savory breakfast skewer</b> inspired by Brazilian barbecue. Thick cubes of squeaky <b>queijo coalho cheese</b> are threaded onto skewers alongside juicy breakfast sausage links and sweet bell peppers. Grilled over high direct heat, the cheese forms a golden crispy exterior while staying soft inside, offering an incredible contrast of textures. A light brush of <b>garlic oil marinade</b> enhances the salty richness, while fresh chimney sauce adds a burst of herbal acidity. Served next to fried eggs, grilled plantains, and tropical fruits, this protein-packed meal delivers an <b>invigorating morning energy boost</b>. The combination of smoky char and savory herbs transforms simple breakfast staples into a memorable outdoor dining adventure. Perfect for weekend gatherings or sunny patio brunches, these vibrant skewers bring an <b>authentic festival energy</b> right to your early morning table.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 46.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.5
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.9
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 520,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 40,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.3
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 66.7
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.8
+      },
+      {
+        "name": "Calcium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.3
+      },
+      {
+        "name": "Iron",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.2
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.4
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.9
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50.9
+      },
+      {
+        "name": "Choline",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Chromium",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22.9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31.1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "queijo coalho"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "pork sausage links"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "red bell peppers"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "red onion"
+    },
+    {
+      "id": 90004,
+      "amount": 45,
+      "unit": "ml",
+      "name": "olive oil"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "parsley"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "ripe plantains"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "pcs",
+      "name": "eggs"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "lime",
+      "name": "lime juice"
+    },
+    {
+      "id": 90017,
+      "amount": 100,
+      "unit": "g",
+      "name": "cassava flour"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90020,
+      "amount": 8,
+      "unit": "pcs",
+      "name": "wooden skewers"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "orange"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation and Marinade",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Submerge wooden skewers in cold water for thirty minutes to prevent them from burning on the grill."
+        },
+        {
+          "number": 2,
+          "step": "Cut the firm queijo coalho cheese into one-inch uniform square cubes using a sharp chef knife."
+        },
+        {
+          "number": 3,
+          "step": "Slice the pork sausage links into thick one-inch rounds matching the size of the cheese blocks."
+        },
+        {
+          "number": 4,
+          "step": "Core the red bell peppers and cut them into broad square pieces suitable for threading onto skewers."
+        },
+        {
+          "number": 5,
+          "step": "Peel the red onion and slice it into quartered wedges, then separate the individual thick layers."
+        },
+        {
+          "number": 6,
+          "step": "Mince three cloves of fresh garlic finely on a board and place them inside a small mixing bowl."
+        },
+        {
+          "number": 7,
+          "step": "Whisk olive oil, minced garlic, dried oregano, salt, and black pepper together to create a herb oil."
+        },
+        {
+          "number": 8,
+          "step": "Thread a piece of sausage onto a soaked skewer followed by pepper, cheese, and onion pieces."
+        },
+        {
+          "number": 9,
+          "step": "Repeat the threading pattern twice more until each skewer is filled tightly while leaving handle room."
+        },
+        {
+          "number": 10,
+          "step": "Brush the prepared skewers thoroughly on all sides with the garlic herb oil using a silicone brush."
+        },
+        {
+          "number": 11,
+          "step": "Arrange the seasoned skewers onto a large baking tray and let them sit at room temperature for ten minutes."
+        },
+        {
+          "number": 12,
+          "step": "Finely chop fresh cilantro and flat-leaf parsley leaves together for the chimichurri dipping sauce."
+        },
+        {
+          "number": 13,
+          "step": "Combine chopped herbs, red wine vinegar, chili flakes, and extra olive oil in a small bowl."
+        },
+        {
+          "number": 14,
+          "step": "Set the chimichurri sauce aside at room temperature so all herbal flavors meld together nicely."
+        }
+      ]
+    },
+    {
+      "name": "Grilling the Skewers",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat your outdoor charcoal grill or indoor cast iron grill pan over high direct heat setting."
+        },
+        {
+          "number": 2,
+          "step": "Oil the grill grates lightly using paper towels dipped in vegetable oil held with long tongs."
+        },
+        {
+          "number": 3,
+          "step": "Place the assembled skewers onto the hot grill grates, ensuring space between each for even heat flow."
+        },
+        {
+          "number": 4,
+          "step": "Sear the skewers undisturbed for two minutes until dark grill marks form on the cheese and meat."
+        },
+        {
+          "number": 5,
+          "step": "Turn the skewers ninety degrees using heatproof tongs to sear the second side for two more minutes."
+        },
+        {
+          "number": 6,
+          "step": "Brush additional garlic herb marinade over the skewers while turning them constantly on the grill."
+        },
+        {
+          "number": 7,
+          "step": "Monitor the cheese closely to ensure it turns golden and crispy without melting completely off skewers."
+        },
+        {
+          "number": 8,
+          "step": "Continue grilling for a total of eight minutes until the sausage is cooked through and piping hot."
+        },
+        {
+          "number": 9,
+          "step": "Transfer the charred skewers onto a warm serving platter lined with fresh foil to keep hot."
+        },
+        {
+          "number": 10,
+          "step": "Squeeze fresh lime juice lightly over the hot skewers to add a vibrant pop of breakfast citrus."
+        },
+        {
+          "number": 11,
+          "step": "Peel ripe plantains and cut them into half-inch diagonal slices for quick pan frying."
+        },
+        {
+          "number": 12,
+          "step": "Melt butter in a skillet over medium heat and cook plantain slices for three minutes per side."
+        },
+        {
+          "number": 13,
+          "step": "Remove fried plantains when golden brown and dust them with a light pinch of sea salt."
+        },
+        {
+          "number": 14,
+          "step": "Toast cassava flour in a dry pan for four minutes until lightly browned to make classic farofa."
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat vegetable oil in a nonstick skillet over medium-low heat to prepare fresh fried eggs."
+        },
+        {
+          "number": 2,
+          "step": "Crack four eggs gently into the skillet without breaking the sunny orange egg yolks."
+        },
+        {
+          "number": 3,
+          "step": "Fry eggs for three minutes until whites are set but yolks remain soft and deliciously runny."
+        },
+        {
+          "number": 4,
+          "step": "Season the cooked eggs lightly with sea salt, ground black pepper, and sweet paprika powder."
+        },
+        {
+          "number": 5,
+          "step": "Arrange two grilled skewers across each warm breakfast plate alongside two fried eggs."
+        },
+        {
+          "number": 6,
+          "step": "Place sweet fried plantain slices neatly beside the skewers for extra morning energy."
+        },
+        {
+          "number": 7,
+          "step": "Spoon toasted cassava flour farofa onto the side of each plate for classic Brazilian crunch."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle generous spoonfuls of fresh chimichurri sauce directly over the warm grilled cheese."
+        },
+        {
+          "number": 9,
+          "step": "Garnish plates with fresh orange wedges to deliver a sweet tropical balance to savory meat."
+        },
+        {
+          "number": 10,
+          "step": "Dust extra chopped cilantro leaves over the entire breakfast platter for bright color contrast."
+        },
+        {
+          "number": 11,
+          "step": "Serve skewers immediately while cheese is warm, crispy, and pleasantly chewy inside."
+        },
+        {
+          "number": 12,
+          "step": "Offer remaining chimichurri sauce in a small dipping bowl at the table for guests."
+        },
+        {
+          "number": 13,
+          "step": "Pair with fresh tropical fruit juices like passion fruit or guava for a complete meal."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy this hearty Brazilian breakfast feast hot off the grill with family and friends."
+        }
+      ]
+    }
+  ]
+}

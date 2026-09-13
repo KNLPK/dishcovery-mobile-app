@@ -1,0 +1,552 @@
+{
+  "id": 9001070,
+  "title": "Coastal Goan Prawn and Coconut Soup",
+  "image": "generated://dishcovery/9001070.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This vibrant seafood broth captures the coastal spirit of Goa through a delicate interplay of fresh <b>tiger prawns</b>, tamarind, and silky coconut milk. Built upon an aromatic foundation of mustard seeds, curry leaves, and toasted ground spices, the soup offers a balanced heat complemented by the tangy depth of dried kokum pods. Preparation begins with a fragrant prawn shell reduction that infuses the broth with rich maritime character before tender vegetables and fresh herbs are added. A final finish of cold-pressed coconut oil and crushed black pepper enhances the comforting, restorative qualities of the dish. Perfect for cool evenings, this soothing meal showcases the traditional flavors of western India in a modern, light presentation. Pair this broth with warm steamed rice or sourdough crusts to soak up every drop of spice-infused goodness. The multi-layered cooking approach guarantees that each spoonful delivers a harmonized taste of sweet seafood, sharp citrus notes, and lingering warm herbs. Experience a truly memorable staple of <b>Indian coastal cuisine</b> in your own kitchen today.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Iodine",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "tiger prawns"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90002,
+      "amount": 500,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "yellow mustard seeds"
+    },
+    {
+      "id": 90005,
+      "amount": 12,
+      "unit": "leaf",
+      "name": "curry leaves"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "pc",
+      "name": "red onion"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "piece",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "pc",
+      "name": "green chillies"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "kashmiri chilli powder"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "piece",
+      "name": "dried kokum"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "pc",
+      "name": "roma tomato"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "jaggery"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "pc",
+      "name": "cardamom pods"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "piece",
+      "name": "cinnamon stick"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood Stock Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel and devein the fresh tiger prawns carefully, setting aside all the shells and heads in a glass bowl for the broth."
+        },
+        {
+          "number": 2,
+          "step": "Rinse the prawn shells under cold running water to clear away any remaining impurities or debris before cooking."
+        },
+        {
+          "number": 3,
+          "step": "Heat one tablespoon of coconut oil in a wide heavy pot set over medium heat until shimmering lightly."
+        },
+        {
+          "number": 4,
+          "step": "Add the reserved prawn shells to the hot pan and cook while stirring constantly until they turn bright pink."
+        },
+        {
+          "number": 5,
+          "step": "Crush two cardamom pods and one cinnamon stick slightly using a heavy mallet to release essential oils."
+        },
+        {
+          "number": 6,
+          "step": "Toss the crushed whole spices into the pot with the pink prawn shells and stir well for thirty seconds."
+        },
+        {
+          "number": 7,
+          "step": "Pour five hundred milliliters of filtered water into the pot to submerge the seasoned roasted shells."
+        },
+        {
+          "number": 8,
+          "step": "Bring the mixture to a lively boil over high heat while skimming off any foam that rises to the top."
+        },
+        {
+          "number": 9,
+          "step": "Reduce the burner heat down to low, cover the pot tightly, and simmer gently for twenty minutes."
+        },
+        {
+          "number": 10,
+          "step": "Pour the simmered mixture through a fine mesh strainer placed over a large glass bowl to collect broth."
+        },
+        {
+          "number": 11,
+          "step": "Press down hard on the shells using the back of a large spoon to extract every drop of concentrated juice."
+        },
+        {
+          "number": 12,
+          "step": "Discard the spent shells and whole spices after extracting all liquid, then set the hot stock aside."
+        },
+        {
+          "number": 13,
+          "step": "Finely dice the red onion and set it aside on a clean cutting board for the upcoming aromatic paste base."
+        },
+        {
+          "number": 14,
+          "step": "Mince three cloves of garlic along with an equal amount of peeled fresh ginger using a microplane grater."
+        },
+        {
+          "number": 15,
+          "step": "Slit two green chillies lengthwise, keeping the seeds intact for an authentic level of regional heat."
+        },
+        {
+          "number": 16,
+          "step": "Combine ground turmeric, chilli powder, coriander, and cumin in a small bowl with two tablespoons water."
+        },
+        {
+          "number": 17,
+          "step": "Stir the ground spices and water thoroughly until a smooth paste forms with no dry pockets remaining."
+        },
+        {
+          "number": 18,
+          "step": "Soak four pieces of dried kokum in half a cup of warm water for ten minutes to soften the dark skins."
+        },
+        {
+          "number": 19,
+          "step": "Chop the roma tomato finely and keep it near the stovetop alongside the prepared spice mixture."
+        },
+        {
+          "number": 20,
+          "step": "Season the cleaned tiger prawns lightly with a pinch of salt and a splash of lime juice in a medium bowl."
+        },
+        {
+          "number": 21,
+          "step": "Cover the seasoned prawns with plastic wrap and place them inside the refrigerator until needed later."
+        },
+        {
+          "number": 22,
+          "step": "Verify that all remaining ingredients are measured and ready on your workspace before beginning assembly."
+        }
+      ]
+    },
+    {
+      "name": "Soup Assembly and Simmering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat the remaining coconut oil in the pot over medium flame until shimmering gently across the bottom."
+        },
+        {
+          "number": 2,
+          "step": "Add the yellow mustard seeds and cover the pot briefly until they finish popping completely in hot oil."
+        },
+        {
+          "number": 3,
+          "step": "Toss in the fresh curry leaves and slitted green chillies, frying them for ten seconds until fragrant."
+        },
+        {
+          "number": 4,
+          "step": "Add the diced red onion to the pot and cook until translucent and soft, stirring frequently for six minutes."
+        },
+        {
+          "number": 5,
+          "step": "Stir in the minced garlic and ginger paste, cooking for one minute until raw raw aromas dissipate fully."
+        },
+        {
+          "number": 6,
+          "step": "Pour the prepared ground spice paste into the pot and stir constantly to prevent scorching on the pot bottom."
+        },
+        {
+          "number": 7,
+          "step": "Cook the spice paste for two minutes until tiny oil droplets begin to separate from the dark fragrant mixture."
+        },
+        {
+          "number": 8,
+          "step": "Add the chopped roma tomatoes and cook until they soften completely and breakdown into a thick sauce."
+        },
+        {
+          "number": 9,
+          "step": "Slowly pour in the strained home-made prawn stock while whisking constantly to integrate all the spiced layers."
+        },
+        {
+          "number": 10,
+          "step": "Add the soaked kokum pieces along with their liquid and one tablespoon of dark tamarind paste."
+        },
+        {
+          "number": 11,
+          "step": "Season the soup base with salt, coarse black pepper, and one teaspoon of crumbled natural jaggery."
+        },
+        {
+          "number": 12,
+          "step": "Bring the liquid to a gentle boil, then lower the heat and simmer uncovered for ten full minutes."
+        },
+        {
+          "number": 13,
+          "step": "Pour four hundred milliliters of rich coconut milk into the simmering pot while stirring gently."
+        },
+        {
+          "number": 14,
+          "step": "Warm the coconut milk soup until small bubbles form around the rim, avoiding a hard boiling motion."
+        },
+        {
+          "number": 15,
+          "step": "Remove the marinated prawns from the refrigerator and drop them carefully into the hot simmering soup."
+        },
+        {
+          "number": 16,
+          "step": "Poach the prawns gently in the broth for four minutes until they turn opaque pink and curl tightly."
+        },
+        {
+          "number": 17,
+          "step": "Sprinkle one teaspoon of fragrant garam masala over the soup surface and stir lightly to blend in."
+        },
+        {
+          "number": 18,
+          "step": "Turn off the heat immediately to prevent overcooking the tender seafood floating in the broth."
+        },
+        {
+          "number": 19,
+          "step": "Stir in fresh lime juice and finely chopped cilantro leaves to bring bright herbaceous notes to dish."
+        },
+        {
+          "number": 20,
+          "step": "Ladle the hot prawn soup evenly into four deep warm serving bowls, making sure each gets equal prawns."
+        },
+        {
+          "number": 21,
+          "step": "Garnish with extra fresh cilantro and serve immediately alongside warm rice or steamed crusty bread."
+        }
+      ]
+    }
+  ]
+}

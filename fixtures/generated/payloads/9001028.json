@@ -1,0 +1,553 @@
+{
+  "id": 9001028,
+  "title": "Smoked Pancetta and Pork Shank Tuscan Braise",
+  "image": "generated://dishcovery/9001028.jpg",
+  "readyInMinutes": 180,
+  "servings": 6,
+  "summary": "This robust <b>Tuscan braise</b> combines deeply cured pork shank with savory pancetta to create a hearty center-of-the-table centerpiece. Built around a foundation of <b>smoked cured pork</b>, the dish infuses sweet root vegetables and aromatics into a rich, slow-simmered pan gravy. Traditional Italian herbs such as rosemary and sage ground the savory profile, while a touch of dry red wine cuts through the inherent richness. Served over warm polenta or rustic bread, this braise represents classic comfort cooking refined for special occasions. Each portion yields balanced nutrition alongside deep, layered flavors developed through low and slow oven cooking. The interplay of smoky bacon undertones with sweet tender leeks creates a memorable sauce that coats every cut of meat. Prepping the mirepoix and searing the shank thoroughly before braising ensures maximum depth of flavor in the finished sauce. Leftovers store wonderfully and often taste even better after the ingredients harmonize overnight in the refrigerator. Enjoy this comforting meal with a crisp green salad and light red wine.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 620,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 96
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Copper",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Chromium",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1200,
+      "unit": "g",
+      "name": "pork shank"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "smoked pancetta"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "pcs",
+      "name": "carrots"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "celery"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90008,
+      "amount": 250,
+      "unit": "ml",
+      "name": "dry red wine"
+    },
+    {
+      "id": 90009,
+      "amount": 500,
+      "unit": "ml",
+      "name": "beef stock"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "rosemary"
+    },
+    {
+      "id": 90011,
+      "amount": 4,
+      "unit": "sprigs",
+      "name": "thyme"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "leek"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "cremini mushrooms"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "parsley"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "fennel seeds"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "lemon zest"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation and Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat the pork shank completely dry using paper towels to ensure effective surface browning during searing."
+        },
+        {
+          "number": 2,
+          "step": "Season the meat thoroughly on all sides with sea salt, ground black pepper, and smoked paprika."
+        },
+        {
+          "number": 3,
+          "step": "Dice the smoked pancetta into small quarter-inch cubes and set them aside on a clean plate."
+        },
+        {
+          "number": 4,
+          "step": "Heat the olive oil in a heavy Dutch oven over medium-high heat until it shimmers gently."
+        },
+        {
+          "number": 5,
+          "step": "Add the diced pancetta to the hot oil and render for five minutes until crispy and golden brown."
+        },
+        {
+          "number": 6,
+          "step": "Remove the crispy pancetta using a slotted spoon, leaving the rendered savory fat in the pan."
+        },
+        {
+          "number": 7,
+          "step": "Place the pork shank into the hot pot and sear undisturbed for four minutes to form a crust."
+        },
+        {
+          "number": 8,
+          "step": "Turn the shank carefully and brown the remaining sides for another twelve minutes total."
+        },
+        {
+          "number": 9,
+          "step": "Transfer the seared shank to a warm plate and set aside while preparing the vegetable base."
+        },
+        {
+          "number": 10,
+          "step": "Finely chop the yellow onions, carrots, and celery stalks into uniform quarter-inch pieces."
+        },
+        {
+          "number": 11,
+          "step": "Mince the fresh garlic cloves finely and slice the leek into thin half-moon rounds."
+        },
+        {
+          "number": 12,
+          "step": "Lower the burner heat to medium and scatter the chopped onions and leeks into the hot pan."
+        },
+        {
+          "number": 13,
+          "step": "Sauté the mixture for six minutes until soft, stirring often to prevent scorching on the bottom."
+        },
+        {
+          "number": 14,
+          "step": "Add the carrots, celery, and minced garlic, cooking for an additional four minutes until fragrant."
+        }
+      ]
+    },
+    {
+      "name": "Braising Phase",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Stir in the tomato paste and fennel seeds, coating the softened vegetables evenly in the pan."
+        },
+        {
+          "number": 2,
+          "step": "Cook the paste mixture for two minutes until it darkens slightly to a rich mahogany tone."
+        },
+        {
+          "number": 3,
+          "step": "Pour in the dry red wine to deglaze, scraping up all browned bits stuck to the pot bottom."
+        },
+        {
+          "number": 4,
+          "step": "Simmer the wine vigorously for five minutes until the liquid reduces by roughly half its volume."
+        },
+        {
+          "number": 5,
+          "step": "Pour the beef stock and water into the pot, stirring well to combine with the wine reduction."
+        },
+        {
+          "number": 6,
+          "step": "Tie the fresh rosemary, thyme sprigs, and bay leaves together tightly using kitchen twine."
+        },
+        {
+          "number": 7,
+          "step": "Submerge the herb bundle directly into the warm simmering braising liquid inside the pot."
+        },
+        {
+          "number": 8,
+          "step": "Nestle the seared pork shank back into the pot alongside the crispy rendered pancetta pieces."
+        },
+        {
+          "number": 9,
+          "step": "Bring the liquid to a rapid boil, then immediately cover the Dutch oven with its tight lid."
+        },
+        {
+          "number": 10,
+          "step": "Transfer the covered pot into an oven preheated to three hundred twenty-five degrees Fahrenheit."
+        },
+        {
+          "number": 11,
+          "step": "Braise slowly in the oven for one hour without opening the lid to retain steam and heat."
+        },
+        {
+          "number": 12,
+          "step": "Carefully remove the lid, flip the pork shank over, and add sliced cremini mushrooms."
+        },
+        {
+          "number": 13,
+          "step": "Return the cover tightly and continue braising for another seventy-five minutes until tender."
+        },
+        {
+          "number": 14,
+          "step": "Check that the meat yields effortlessly when pierced with a fork before removing from heat."
+        }
+      ]
+    },
+    {
+      "name": "Sauce Reduction and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully transfer the tender braised pork shank onto a warm serving platter and tent with foil."
+        },
+        {
+          "number": 2,
+          "step": "Discard the tied herb bundle and skim any excessive floating oil from the braising liquid surface."
+        },
+        {
+          "number": 3,
+          "step": "Mash softened butter with all-purpose flour in a small bowl to create a smooth kneaded paste."
+        },
+        {
+          "number": 4,
+          "step": "Whisk the flour paste directly into the simmering pan liquid to thicken the braising sauce."
+        },
+        {
+          "number": 5,
+          "step": "Simmer the sauce over medium heat for eight minutes until thick enough to coat a spoon nicely."
+        },
+        {
+          "number": 6,
+          "step": "Stir in the red wine vinegar and fresh lemon zest to brighten the overall flavor profile."
+        },
+        {
+          "number": 7,
+          "step": "Taste the finished sauce and adjust seasoning with extra salt or black pepper if desired."
+        },
+        {
+          "number": 8,
+          "step": "Carve or pull the pork shank meat into generous thick portion pieces for serving platter."
+        },
+        {
+          "number": 9,
+          "step": "Ladle the rich mushroom and pancetta sauce over the carved pork pieces on the platter."
+        },
+        {
+          "number": 10,
+          "step": "Garnish the top generously with freshly chopped parsley to add color and fresh aroma."
+        },
+        {
+          "number": 11,
+          "step": "Spoon remaining thick sauce into a warmed gravy boat to serve alongside at the table."
+        },
+        {
+          "number": 12,
+          "step": "Allow the plated dish to rest for five minutes so the meat absorbs the warm glossy gravy."
+        },
+        {
+          "number": 13,
+          "step": "Serve immediately alongside creamy warm polenta or thick slices of crusty Italian bread."
+        },
+        {
+          "number": 14,
+          "step": "Store remaining braise and sauce in an airtight container in the refrigerator for up to three days."
+        }
+      ]
+    }
+  ]
+}

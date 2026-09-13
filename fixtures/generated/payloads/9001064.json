@@ -1,0 +1,550 @@
+{
+  "id": 9001064,
+  "title": "Lebanese Bulgur and Pomegranate Salad",
+  "image": "generated://dishcovery/9001064.jpg",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "summary": "Bright, refreshing, and entirely plant-based, this colorful grain salad offers a modern celebration of Levantine market produce. Built around a hearty base of <b>soaked coarse bulgur wheat</b>, the salad incorporates layers of chopped flat-leaf parsley, crisp Persian cucumbers, sweet cherry tomatoes, and crunchy pomegranate arils. A balanced dressing crafted from extra virgin olive oil, cold-pressed lemon juice, garlic paste, and fragrant sumac binds the ingredients while providing a tart, citrusy punch. Fresh mint leaves and toasted pine nuts are folded in right before serving to add aromatic bursts and a satisfying crunch. Perfect as a vibrant centerpiece for summer luncheons or meal prep, this wholesome dish holds its texture exceptionally well over several days. The combination of ancient grains, fresh herbs, and tangy fruit highlights the rich culinary heritage of Eastern Mediterranean cooking while remaining light and nutritious. Serve chilled or at room temperature with toasted pita wedges for a complete vegetarian feast that impresses both family and friends.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 290,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 63
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 120,
+        "unit": "µg",
+        "percentOfDailyNeeds": 100
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Selenium",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "coarse bulgur wheat"
+    },
+    {
+      "id": 90001,
+      "amount": 350,
+      "unit": "ml",
+      "name": "boiling water"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "medium",
+      "name": "persian cucumbers"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "bunches",
+      "name": "flat leaf parsley"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh mint leaves"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "stems",
+      "name": "green onions"
+    },
+    {
+      "id": 90009,
+      "amount": 60,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90010,
+      "amount": 45,
+      "unit": "ml",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic paste"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground sumac"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 40,
+      "unit": "g",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "radishes"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dried mint"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "medium",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil for roasting"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "g",
+      "name": "cooked chickpeas"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "rounds",
+      "name": "pita bread"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "red pepper flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Soaking and Fluffing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure the coarse bulgur wheat carefully and place it into a large glass heatproof bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add half a teaspoon of sea salt to the dry bulgur wheat and stir well to distribute."
+        },
+        {
+          "number": 3,
+          "step": "Pour the boiling water directly over the bulgur wheat making sure all grains submerge."
+        },
+        {
+          "number": 4,
+          "step": "Cover the bowl tightly with a wooden cutting board or lid to trap steaming heat."
+        },
+        {
+          "number": 5,
+          "step": "Let bulgur steep undisturbed for twenty minutes until all water absorbs completely."
+        },
+        {
+          "number": 6,
+          "step": "Remove cover carefully and fluff grain gently using a large metal dinner fork."
+        },
+        {
+          "number": 7,
+          "step": "Spread softened bulgur onto a wide baking sheet in a thin layer to cool quickly."
+        },
+        {
+          "number": 8,
+          "step": "Allow bulgur to cool down to ambient temperature before mixing with fresh herbs."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle dried mint over cooling grain to infuse subtle herb notes into bulgur."
+        },
+        {
+          "number": 10,
+          "step": "Transfer cooled bulgur back into large mixing bowl and set aside for salad assembly."
+        }
+      ]
+    },
+    {
+      "name": "Herb Chopping and Chilling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash flat leaf parsley thoroughly under cold tap water to remove sand or dirt completely."
+        },
+        {
+          "number": 2,
+          "step": "Spin washed parsley in a salad spinner until leaves are thoroughly dried and crisp."
+        },
+        {
+          "number": 3,
+          "step": "Finely chop parsley leaves and tender stems using a sharp chef knife on wooden board."
+        },
+        {
+          "number": 4,
+          "step": "Wash fresh mint leaves gently then dry with clean paper towels before cutting."
+        },
+        {
+          "number": 5,
+          "step": "Chop mint leaves finely avoiding overchopping which causes bruising or darkening."
+        },
+        {
+          "number": 6,
+          "step": "Dice Persian cucumbers into small quarter inch pieces and collect in a ceramic bowl."
+        },
+        {
+          "number": 7,
+          "step": "Cut cherry tomatoes into quarters and slice radishes into very thin crisp rounds."
+        },
+        {
+          "number": 8,
+          "step": "Slice green onions thinly including both green tops and white bulb sections fully."
+        },
+        {
+          "number": 9,
+          "step": "Combine chopped herbs cucumbers tomatoes radishes and green onions in bowl."
+        },
+        {
+          "number": 10,
+          "step": "Cover chopped vegetable bowl loosely and place in refrigerator while making dressing."
+        }
+      ]
+    },
+    {
+      "name": "Dressing Emulsification",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour extra virgin olive oil into a clean glass mason jar or small stainless bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add freshly squeezed lemon juice and pomegranate molasses to olive oil in jar."
+        },
+        {
+          "number": 3,
+          "step": "Add garlic paste ground sumac ground cumin and ground allspice to dressing mixture."
+        },
+        {
+          "number": 4,
+          "step": "Season dressing with remaining half teaspoon sea salt and freshly cracked black pepper."
+        },
+        {
+          "number": 5,
+          "step": "Add fresh lemon zest to dressing jar for bright citrus aroma and clean flavor note."
+        },
+        {
+          "number": 6,
+          "step": "Screw lid tightly onto jar and shake vigorously for thirty seconds to emulsify."
+        },
+        {
+          "number": 7,
+          "step": "Taste dressing with a spoon and adjust salt or sumac intensity according to taste."
+        },
+        {
+          "number": 8,
+          "step": "Heat pine nuts in a small dry skillet over medium heat for three minutes to toast."
+        },
+        {
+          "number": 9,
+          "step": "Toss toasted pine nuts constantly until pale golden brown and fragrant throughout."
+        },
+        {
+          "number": 10,
+          "step": "Transfer toasted pine nuts to small plate immediately so they do not scorch in pan."
+        }
+      ]
+    },
+    {
+      "name": "Final Toss and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add chilled chopped herbs and vegetable mixture to bowl containing cooled bulgur."
+        },
+        {
+          "number": 2,
+          "step": "Add cooked chickpeas and fresh pomegranate seeds to grain and herb salad mixture."
+        },
+        {
+          "number": 3,
+          "step": "Pour half of emulsified sumac dressing over salad and toss gently using two spoons."
+        },
+        {
+          "number": 4,
+          "step": "Pour remaining dressing over salad and continue tossing until every component coats."
+        },
+        {
+          "number": 5,
+          "step": "Let assembled salad sit at room temperature for ten minutes for flavors to harmonize."
+        },
+        {
+          "number": 6,
+          "step": "Brush pita bread rounds with olive oil and toast in warm oven until crispy edges."
+        },
+        {
+          "number": 7,
+          "step": "Cut toasted pita bread into triangular wedges for dipping or serving alongside salad."
+        },
+        {
+          "number": 8,
+          "step": "Mound salad onto wide serving platter creating a rustic mound in center of dish."
+        },
+        {
+          "number": 9,
+          "step": "Scatter toasted pine nuts and extra pomegranate seeds over top for decorative finish."
+        },
+        {
+          "number": 10,
+          "step": "Serve immediately with pita wedges and red pepper flakes for optional spice enhancement."
+        }
+      ]
+    }
+  ]
+}

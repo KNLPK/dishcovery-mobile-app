@@ -1,0 +1,552 @@
+{
+  "id": 9001047,
+  "title": "Moroccan Lamb Tagine with Fermented Preserved Lemons",
+  "image": "generated://dishcovery/9001047.jpg",
+  "readyInMinutes": 120,
+  "servings": 6,
+  "summary": "This aromatic Moroccan <b>lamb tagine</b> features the punchy flavor of traditional fermented preserved lemons. Succulent tender lamb shoulder pieces are braised low and slow with warm Ras el Hanout spices, plump dried apricots, green olives, and thinly sliced fermented lemon peel. The fermentation process transforms citrus peel into a salty, complex, umami-packed seasoning element that cuts through rich tender lamb. Cooked in a cone-shaped clay tagine or heavy pot, the condensation continuously bastes the meat, yielding succulent melt-in-your-mouth tenderness. Topped with toasted slivered almonds and fresh coriander, this North African masterpiece delivers a stunning interplay of sweet, sour, and savory dimensions. Teeming with high-grade proteins, healthy fats, dietary fiber, and essential micronutrients like iron, zinc, and vitamin B12, this celebratory stew is both nourishing and luxurious. Pair with fluffy steamed couscous or warm flatbread to enjoy an authentic Maghrebi culinary experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2.5,
+      "unit": "lbs",
+      "name": "boneless lamb shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "whole",
+      "name": "fermented preserved lemons"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "pitted green olives"
+    },
+    {
+      "id": 90003,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "dried Turkish apricots"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ras el hanout spice"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "cinnamon",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "large",
+      "name": "yellow onions diced"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "cups",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro chopped"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh mint chopped"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "warm water"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "cup",
+      "name": "canned chickpeas"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Tagine Spice and Meat Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut boneless lamb shoulder into uniform one and a half inch cubes removing excess gristle."
+        },
+        {
+          "number": 2,
+          "step": "Rinse fermented preserved lemons under cold water, remove fruit pulp, and slice peel thinly."
+        },
+        {
+          "number": 3,
+          "step": "Crush saffron threads gently into small cup and soak in two tablespoons of warm water."
+        },
+        {
+          "number": 4,
+          "step": "Combine ras el hanout, ground ginger, turmeric, cumin, salt, and pepper in glass bowl."
+        },
+        {
+          "number": 5,
+          "step": "Toss lamb cubes in spice mixture until all sides are evenly coated with dry seasoning paste."
+        },
+        {
+          "number": 6,
+          "step": "Heat olive oil in heavy tagine base or broad Dutch oven over medium flame."
+        },
+        {
+          "number": 7,
+          "step": "Add diced yellow onions to hot oil and sauté for six minutes until golden and translucent."
+        },
+        {
+          "number": 8,
+          "step": "Add minced garlic and tomato paste to pot and stir for two minutes until aromatic."
+        },
+        {
+          "number": 9,
+          "step": "Add seasoned lamb cubes to pot in single layer and sear for six minutes turning frequently."
+        },
+        {
+          "number": 10,
+          "step": "Pour soaked saffron water including threads over seared lamb and onion foundation."
+        },
+        {
+          "number": 11,
+          "step": "Pour chicken broth into pot and stir well to loosen any caramelized spices on bottom."
+        },
+        {
+          "number": 12,
+          "step": "Add cinnamon stick to liquid and bring stew to active rolling boil over high heat."
+        },
+        {
+          "number": 13,
+          "step": "Reduce burner heat setting down to low to maintain gentle simmer across pot surface."
+        },
+        {
+          "number": 14,
+          "step": "Cover tagine with heavy conical lid or Dutch oven cover to trap essential steam inside."
+        },
+        {
+          "number": 15,
+          "step": "Simmer lamb stew undisturbed for sixty minutes allowing meat fibers to soften tenderly."
+        },
+        {
+          "number": 16,
+          "step": "Check stew liquid level after one hour and add additional broth if pan appears dry."
+        },
+        {
+          "number": 17,
+          "step": "Halve dried Turkish apricots using kitchen shears and measure pitted green olives."
+        },
+        {
+          "number": 18,
+          "step": "Rinse canned chickpeas under cool tap water in mesh colander and drain thoroughly."
+        },
+        {
+          "number": 19,
+          "step": "Toast slivered almonds in dry skillet over medium heat for three minutes until golden."
+        },
+        {
+          "number": 20,
+          "step": "Chop fresh cilantro and mint leaves finely using sharp knife for final herb garnish."
+        },
+        {
+          "number": 21,
+          "step": "Set sliced preserved lemon peel, dried apricots, olives, and chickpeas near tagine vessel."
+        },
+        {
+          "number": 22,
+          "step": "Maintain low steady heat while preparing to add sweet and sour finishing elements."
+        }
+      ]
+    },
+    {
+      "name": "Slow Stewing and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully lift tagine lid using cloth towel to avoid hot rising steam burns."
+        },
+        {
+          "number": 2,
+          "step": "Stir sliced fermented preserved lemon peel into simmering lamb stew base gently."
+        },
+        {
+          "number": 3,
+          "step": "Add halved dried apricots and pitted green olives into pot, folding into gravy."
+        },
+        {
+          "number": 4,
+          "step": "Add drained chickpeas to tagine to absorb aromatic spiced broth during final simmer."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle honey over meat and fruit mixture to balance tangy preserved lemon flavors."
+        },
+        {
+          "number": 6,
+          "step": "Stir in orange blossom water to infuse delicate floral fragrance throughout stew liquid."
+        },
+        {
+          "number": 7,
+          "step": "Replace tagine lid securely and simmer stew for twenty-five additional minutes."
+        },
+        {
+          "number": 8,
+          "step": "Test lamb tenderness with fork ensuring meat splits effortlessly without tough resistance."
+        },
+        {
+          "number": 9,
+          "step": "Skim any excess surface oil gently from sauce using broad stainless steel spoon."
+        },
+        {
+          "number": 10,
+          "step": "Simmer stew uncovered for five minutes to reduce gravy into rich glossy sauce consistency."
+        },
+        {
+          "number": 11,
+          "step": "Taste sauce and adjust seasoning with additional sea salt or black pepper as needed."
+        },
+        {
+          "number": 12,
+          "step": "Turn off burner heat source and let tagine rest covered for ten minutes before serving."
+        },
+        {
+          "number": 13,
+          "step": "Remove cinnamon stick from pot using tongs and discard before bringing dish to table."
+        },
+        {
+          "number": 14,
+          "step": "Scatter toasted slivered almonds evenly across surface of hot spiced lamb tagine."
+        },
+        {
+          "number": 15,
+          "step": "Sprinkle fresh chopped cilantro and mint over top for vibrant green herb finish."
+        },
+        {
+          "number": 16,
+          "step": "Serve tagine directly from clay cooking vessel for authentic family style presentation."
+        },
+        {
+          "number": 17,
+          "step": "Ladle hot lamb, fruit, and olives over beds of fluffy warm steamed couscous."
+        },
+        {
+          "number": 18,
+          "step": "Provide warm Moroccan flatbread at table for dipping into rich aromatic gravy."
+        },
+        {
+          "number": 19,
+          "step": "Ensure each portion receives generous slice of fermented preserved lemon for citrus punch."
+        },
+        {
+          "number": 20,
+          "step": "Store leftover tagine in airtight glass vessel in refrigerator for up to three days."
+        },
+        {
+          "number": 21,
+          "step": "Reheat leftovers slowly in covered saucepan over low flame to retain juicy tenderness."
+        }
+      ]
+    }
+  ]
+}

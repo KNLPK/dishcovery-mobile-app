@@ -1,0 +1,552 @@
+{
+  "id": 9001080,
+  "title": "Make-Ahead Cassava and Tapioca Cheese Flatbreads",
+  "image": "generated://dishcovery/9001080.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "Perfect for advance prep, these Brazilian cassava and tapioca flatbreads can be mixed, shaped, and refrigerated or frozen before baking fresh. Formed from a blend of sour tapioca starch, cassava flour, queue de canastra cheese, and milk, the dough bakes into golden disks with a chewy interior and crisp crust. A brush of garlic-herb butter right out of the oven enhances their irresistible aroma. Simply bake stored dough pieces straight from cold storage to enjoy hot, cheesy flatbreads whenever needed. Serve them alongside black bean dip, chimichurri, or cured meats for an effortless appetizer or breakfast course. The combination of fermented tapioca flour gives these flatbreads their signature puff and airy bite. The <b>cheesy cassava dough</b> maintains structure through cooling, making this <b>prep-ahead flatbread</b> ideal for effortless entertaining.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 52.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 44,
+        "unit": "g",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 2.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 2.3
+      },
+      {
+        "name": "Protein",
+        "amount": 10.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 480,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2.9
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.9
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.9
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.6
+      },
+      {
+        "name": "Folate",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22.9
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.11,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.9
+      },
+      {
+        "name": "Potassium",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5.1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "sour tapioca starch"
+    },
+    {
+      "id": 90001,
+      "amount": 100,
+      "unit": "g",
+      "name": "toasted cassava flour"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "canastra cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "grated parmesan cheese"
+    },
+    {
+      "id": 90004,
+      "amount": 200,
+      "unit": "ml",
+      "name": "whole milk"
+    },
+    {
+      "id": 90005,
+      "amount": 80,
+      "unit": "ml",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90006,
+      "amount": 50,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fine sea salt"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "fresh garlic"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "minced fresh oregano"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "id": 90016,
+      "amount": 50,
+      "unit": "ml",
+      "name": "warm water"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white sesame seeds"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "black sesame seeds"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "honey"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90024,
+      "amount": 50,
+      "unit": "g",
+      "name": "cream cheese"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation and Storage",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine whole milk, vegetable oil, and fine sea salt in a medium saucepan over medium stovetop heat."
+        },
+        {
+          "number": 2,
+          "step": "Bring milk mixture to a rolling scald, watching closely so it does not boil over pot edges."
+        },
+        {
+          "number": 3,
+          "step": "Sift sour tapioca starch and toasted cassava flour together in a heatproof mixing bowl."
+        },
+        {
+          "number": 4,
+          "step": "Pour scalding liquid carefully over starches, stirring with a wooden spoon until gelatinized."
+        },
+        {
+          "number": 5,
+          "step": "Allow scalded starch paste to cool for fifteen minutes until safe to touch with bare hands."
+        },
+        {
+          "number": 6,
+          "step": "Whisk eggs, garlic powder, onion powder, and white pepper together in a small measuring cup."
+        },
+        {
+          "number": 7,
+          "step": "Grate firm canastra cheese and parmesan cheese using coarse side of a box hand grater."
+        },
+        {
+          "number": 8,
+          "step": "Knead egg mixture into cooled cassava paste until dough turns yellow and completely smooth."
+        },
+        {
+          "number": 9,
+          "step": "Fold grated cheeses, cream cheese, and baking powder into cassava dough until fully incorporated."
+        },
+        {
+          "number": 10,
+          "step": "Add warm water one tablespoon at a time if dough feels dry, aiming for soft malleable texture."
+        },
+        {
+          "number": 11,
+          "step": "Divide prepared cassava dough into twelve equal balls weighing approximately sixty grams each."
+        },
+        {
+          "number": 12,
+          "step": "Flatten each dough ball between palms into a five-inch flatbread disk half an inch thick."
+        },
+        {
+          "number": 13,
+          "step": "Arrange shaped flatbread disks on parchment-lined baking sheets without touching one another."
+        },
+        {
+          "number": 14,
+          "step": "Sprinkle white and black sesame seeds over flatbread tops, pressing seeds lightly into surface."
+        },
+        {
+          "number": 15,
+          "step": "Wrap baking sheet tightly with plastic film if baking within forty-eight refrigeration hours."
+        },
+        {
+          "number": 16,
+          "step": "Alternatively, freeze flatbread disks on tray until solid, then transfer to freezer bags for long storage."
+        },
+        {
+          "number": 17,
+          "step": "Label storage container with date, noting frozen flatbreads stay fresh for up to three months."
+        },
+        {
+          "number": 18,
+          "step": "Clean work surfaces thoroughly and ensure oven is ready for baking step whenever needed."
+        },
+        {
+          "number": 19,
+          "step": "Store remaining cassava flour and dry starch ingredients in airtight containers in pantry."
+        },
+        {
+          "number": 20,
+          "step": "Prepare garlic butter basting glaze if planning to bake flatbread portions immediately."
+        },
+        {
+          "number": 21,
+          "step": "Ensure dough disks sit at room temperature ten minutes prior to baking if taking from fridge."
+        },
+        {
+          "number": 22,
+          "step": "Confirm flatbread shapes are uniform to guarantee even cooking throughout entire oven batch."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Herb Finish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat your oven to 400 degrees Fahrenheit and position oven racks in upper and middle slots."
+        },
+        {
+          "number": 2,
+          "step": "Unwrap chilled or frozen flatbread disks and place on parchment-lined heavy baking trays."
+        },
+        {
+          "number": 3,
+          "step": "Melt unsalted butter with olive oil, minced fresh garlic, and smoked paprika in small pan."
+        },
+        {
+          "number": 4,
+          "step": "Bake flatbread disks in preheated oven for eighteen minutes until edges puff and turn golden."
+        },
+        {
+          "number": 5,
+          "step": "Rotate baking sheets halfway through cooking time to ensure heat distribution remains uniform."
+        },
+        {
+          "number": 6,
+          "step": "Check that bottoms of flatbreads show crisp brown coloration without over-browning tops."
+        },
+        {
+          "number": 7,
+          "step": "Remove baked flatbread trays from oven using heat-resistant kitchen gloves onto heatproof counter."
+        },
+        {
+          "number": 8,
+          "step": "Brush warm garlic-paprika butter glaze evenly over puffed tops of hot cassava flatbreads."
+        },
+        {
+          "number": 9,
+          "step": "Stir minced oregano, fresh parsley, lime juice, honey, and red pepper flakes into remaining butter."
+        },
+        {
+          "number": 10,
+          "step": "Drizzle herb-citrus butter over glazes flatbread surfaces for secondary layer of rich flavor."
+        },
+        {
+          "number": 11,
+          "step": "Transfer warm flatbreads to wire cooling rack for three minutes so bottom crusts set firmly."
+        },
+        {
+          "number": 12,
+          "step": "Observe as golden crust crackles slightly while soft tapioca center retains elastic chewy bite."
+        },
+        {
+          "number": 13,
+          "step": "Stack flatbreads on a woven serving basket lined with clean cloth napkin to keep warm."
+        },
+        {
+          "number": 14,
+          "step": "Serve alongside favorite savory dips like spicy black bean puree or fresh chimichurri sauce."
+        },
+        {
+          "number": 15,
+          "step": "Slice flatbreads into wedges if serving as finger food appetizers for larger party crowds."
+        },
+        {
+          "number": 16,
+          "step": "Store any leftovers in a sealed container and reheat in a toaster oven for four minutes."
+        },
+        {
+          "number": 17,
+          "step": "Verify texture remains pleasantly chewy inside and crisp on outside upon reheating flatbreads."
+        },
+        {
+          "number": 18,
+          "step": "Pair flatbreads with rich Brazilian coffee or tropical fruit juice for traditional pairing."
+        },
+        {
+          "number": 19,
+          "step": "Enjoy easy make-ahead convenience of hot fresh bread with minimal active kitchen labor time."
+        },
+        {
+          "number": 20,
+          "step": "Keep remaining unbaked frozen dough pieces in freezer for future rapid dinner additions."
+        },
+        {
+          "number": 21,
+          "step": "Present completed golden cassava cheese flatbreads while warm and fragrant to hungry guests."
+        }
+      ]
+    }
+  ]
+}

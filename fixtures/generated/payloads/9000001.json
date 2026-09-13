@@ -1,0 +1,303 @@
+{
+  "id": 9000001,
+  "title": "Quick Braised Beef Chuck with San Marzano Tomatoes",
+  "image": "generated://dishcovery/9000001.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This savory <b>Italian braised beef</b> brings rich dinner flavors to your table without spending all day in the kitchen. Traditional long-simmered dishes often require several hours of patience, but this weeknight interpretation relies on thinly cut beef chuck and concentrated tomato paste to build deep flavor quickly. Sweet onions, crushed garlic, and aromatic rosemary soften in rich olive oil before bright red San Marzano tomatoes create a glossy sauce. Served over creamy polenta or warm rustic bread, this warm meal brings authentic Mediterranean warmth to any busy evening. The addition of red wine helps tenderize the meat while releasing complex aromas throughout your kitchen. A final sprinkle of fresh parsley adds brightness to balance the savory stewed beef. This recipe proves that comforting braises are not reserved exclusively for slow weekends. Your family will adore the luscious gravy and melt-in-your-mouth tenderness achieved in under an hour. Enjoy this fragrant, hearty feast alongside a crisp green salad for a complete Italian dining experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Folate",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 158
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 8.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Selenium",
+        "amount": 34,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Potassium",
+        "amount": 720,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "beef chuck roast"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90005,
+      "amount": 400,
+      "unit": "g",
+      "name": "san marzano tomatoes"
+    },
+    {
+      "id": 90006,
+      "amount": 120,
+      "unit": "ml",
+      "name": "dry red wine"
+    },
+    {
+      "id": 90007,
+      "amount": 250,
+      "unit": "ml",
+      "name": "beef broth"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Braising",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat the beef chuck dry with paper towels, cut into bite-sized cubes, and season evenly with salt and black pepper."
+        },
+        {
+          "number": 2,
+          "step": "Heat the olive oil in a heavy skillet over medium-high heat and sear the beef cubes until golden brown on all sides."
+        },
+        {
+          "number": 3,
+          "step": "Remove the beef, then add chopped onion and garlic to the pan, cooking until softened and fragrant for three minutes."
+        },
+        {
+          "number": 4,
+          "step": "Stir in tomato paste and cook for one minute, then pour in red wine to deglaze the skillet while scraping the bottom."
+        },
+        {
+          "number": 5,
+          "step": "Return the beef to the skillet, add tomatoes, broth, and fresh rosemary, then cover and simmer over low heat for 30 minutes."
+        },
+        {
+          "number": 6,
+          "step": "Remove from heat, discard the rosemary sprig, stir in chopped fresh parsley, and serve hot over cooked polenta."
+        }
+      ]
+    }
+  ]
+}

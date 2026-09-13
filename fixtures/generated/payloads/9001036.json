@@ -1,0 +1,553 @@
+{
+  "id": 9001036,
+  "title": "Vietnamese Rice Paper Breakfast Flatbread with Crispy Pork and Eggs",
+  "image": "generated://dishcovery/9001036.jpg",
+  "readyInMinutes": 25,
+  "servings": 2,
+  "summary": "Start your morning with a popular street-food favourite adapted into a crisp, savory <b>Vietnamese flatbread</b>. Built upon a base of thin rice paper toasted over low heat, this morning dish is brushed with beaten egg, scallion oil, and spicy chili paste to create a golden, flavorful crust. Savory minced pork, dried shrimp flakes, and fried shallots are layered across the top, delivering an incredible balance of crunchy textures and deeply satisfying umami note. A light drizzle of creamy mayo and tangy sriracha completes the assembly before folding or slicing into shareable portions. Perfectly tailored for a quick <b>breakfast routine</b>, this recipe transforms simple pantry staples into a vibrant pan-roasted flatbread filled with aromatic flair. Enjoy it hot right out of the skillet alongside fresh herbs for a unique morning culinary experience that offers both <b>balanced protein</b> and quick preparation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 33.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 11.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Protein",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.9
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 520,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.5
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 42,
+        "unit": "IU",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45.8
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.3
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Magnesium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.1
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50.9
+      },
+      {
+        "name": "Copper",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Choline",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.7
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Biotin",
+        "amount": 8.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28.3
+      },
+      {
+        "name": "Chloride",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "sheets",
+      "name": "rice paper rounds"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "ground pork"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "stalks",
+      "name": "scallions"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dried shrimp"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fried shallots"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sriracha sauce"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mayonnaise"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili oil"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "hoisin sauce"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "wedges",
+      "name": "lime"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "roasted sesame seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "jalapeno",
+      "name": "fresh jalapeno"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "slices",
+      "name": "laughing cow cheese"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "salt"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Pork and Scallion Oil Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice four green scallion stalks thinly into tiny round rings using a sharp chef knife."
+        },
+        {
+          "number": 2,
+          "step": "Heat two tablespoons vegetable oil in a small pan until shimmering hot over medium heat."
+        },
+        {
+          "number": 3,
+          "step": "Pour hot oil over chopped scallions in a small heatproof bowl to make scallion oil."
+        },
+        {
+          "number": 4,
+          "step": "Mince one garlic clove finely and set aside on cutting board for cooking ground pork."
+        },
+        {
+          "number": 5,
+          "step": "Heat butter in skillet over medium-high heat until bubbly and completely melted."
+        },
+        {
+          "number": 6,
+          "step": "Add minced pork and garlic to skillet, crumbling meat into small bits with spatula."
+        },
+        {
+          "number": 7,
+          "step": "Season pork with fish sauce, soy sauce, sugar, and black pepper, stirring frequently."
+        },
+        {
+          "number": 8,
+          "step": "Sauté ground pork for six minutes until fully cooked through and crispy around edges."
+        },
+        {
+          "number": 9,
+          "step": "Transfer crisp pork to a small bowl and set aside near your flatbread cooking station."
+        },
+        {
+          "number": 10,
+          "step": "Finely chop dried shrimp using a sharp knife until reduced to small savory specks."
+        },
+        {
+          "number": 11,
+          "step": "Whisk eggs, water, and pinch of salt together in a shallow dish until smooth yellow mixture."
+        },
+        {
+          "number": 12,
+          "step": "Slice fresh jalapeno thinly into round rings for garnishing flatbread at assembly time."
+        },
+        {
+          "number": 13,
+          "step": "Unwrap cheese slices and cut into small soft pieces ready to spread on warm flatbread."
+        },
+        {
+          "number": 14,
+          "step": "Clean skillet thoroughly with paper towel before starting the rice paper base roasting."
+        }
+      ]
+    },
+    {
+      "name": "Flatbread Crisp and Toast",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place one dry sheet of rice paper flat inside dry nonstick skillet over low flame."
+        },
+        {
+          "number": 2,
+          "step": "Brush top surface of rice paper with one tablespoon prepared scallion oil right away."
+        },
+        {
+          "number": 3,
+          "step": "Pour two tablespoons beaten egg mixture directly onto center of warming rice paper sheet."
+        },
+        {
+          "number": 4,
+          "step": "Use back of spoon to spread egg evenly across surface, staying near edges carefully."
+        },
+        {
+          "number": 5,
+          "step": "Dot soft cheese pieces over egg layer so they begin melting from skillet heat below."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle seasoned ground pork evenly across top of setting egg layer in skillet base."
+        },
+        {
+          "number": 7,
+          "step": "Scatter chopped dried shrimp flakes over meat to add deep savory seafood flavor notes."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle chili oil and hoisin sauce evenly across surface using quick zig-zag motions."
+        },
+        {
+          "number": 9,
+          "step": "Cook flatbread for three minutes on low until bottom of rice paper turns crisp and golden."
+        },
+        {
+          "number": 10,
+          "step": "Check bottom edges using spatulas to ensure base does not burn while egg sets completely."
+        },
+        {
+          "number": 11,
+          "step": "Sprinkle crispy fried shallots evenly across warm melted cheese and cooked egg layer."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle mayonnaise and sriracha sauce in crosshatch pattern over cooked flatbread top."
+        },
+        {
+          "number": 13,
+          "step": "Fold flatbread in half like taco or keep flat, cooking ten additional seconds to set."
+        },
+        {
+          "number": 14,
+          "step": "Slide golden cooked flatbread carefully onto clean wooden cutting board for final slicing."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Repeat cooking process for remaining rice paper sheets and toppings to yield four portions."
+        },
+        {
+          "number": 2,
+          "step": "Slice each folded flatbread into three triangular handheld pieces using kitchen shears."
+        },
+        {
+          "number": 3,
+          "step": "Scatter fresh cilantro leaves across sliced flatbread portions on board for brightness."
+        },
+        {
+          "number": 4,
+          "step": "Garnish slices with jalapeno rounds to add optional fresh fiery spice to each bite."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle toasted sesame seeds evenly over decorated flatbread pieces before serving hot."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle sesame oil lightly over fresh cilantro garnish to enhance warm nutty aroma."
+        },
+        {
+          "number": 7,
+          "step": "Arrange sliced flatbread pieces neatly on warm serving platter alongside lime wedges."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately while rice paper crust remains ultra crisp and cheese stays melted."
+        },
+        {
+          "number": 9,
+          "step": "Provide extra sriracha and mayonnaise dipping dishes on table for added customization."
+        },
+        {
+          "number": 10,
+          "step": "Ensure flatbread bottoms remain dry by serving on wooden board or parchment paper."
+        },
+        {
+          "number": 11,
+          "step": "Instruct guests to squeeze fresh lime juice over warm toppings just before eating."
+        },
+        {
+          "number": 12,
+          "step": "Pair breakfast flatbread with hot Vietnamese iced coffee for full traditional style."
+        },
+        {
+          "number": 13,
+          "step": "Check crispiness of flatbread edge before serving to confirm ideal texture match."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy immediately as vibrant breakfast item rich in crisp textures and bold spices."
+        }
+      ]
+    }
+  ]
+}

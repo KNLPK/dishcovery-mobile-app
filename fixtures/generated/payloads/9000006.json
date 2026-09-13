@@ -1,0 +1,303 @@
+{
+  "id": 9000006,
+  "title": "Smoked Trout Quenelles in Chive Butter Broth",
+  "image": "generated://dishcovery/9000006.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Delight in the delicate elegance of traditional <b>French dumplings</b> featuring cold-smoked trout folded into a light choux paste. These airy quenelles are gently shaped using warm spoons before being poached in lightly salted simmering water until tender and fluffy. The smoky aroma of the fish pairs harmoniously with a silky sauce made from reduced white wine, rich butter, and chopped fresh chives. As the dumplings float gracefully in the hot poaching liquid, their texture transforms into a pillowy treat that melts in your mouth. Smoked seafood offers a distinct depth that elevates this classic bistro creation into an extraordinary dining experience. A splash of heavy cream enriches the herbal broth, highlighting the natural oils and delicate smoke of the fish without overwhelming it. Serve these hot dumplings in shallow bowls with crusty French bread to soak up every drop of aromatic broth. Ideal for elegant starter courses or light formal suppers.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 360,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Protein",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 1,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 920,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 180,
+        "unit": "IU",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 129
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Calcium",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Copper",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "smoked trout"
+    },
+    {
+      "id": 90001,
+      "amount": 60,
+      "unit": "g",
+      "name": "butter"
+    },
+    {
+      "id": 90002,
+      "amount": 75,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90003,
+      "amount": 120,
+      "unit": "ml",
+      "name": "milk"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90005,
+      "amount": 60,
+      "unit": "ml",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90006,
+      "amount": 80,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90007,
+      "amount": 300,
+      "unit": "ml",
+      "name": "fish stock"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh chives"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "nutmeg"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dumpling Preparation and Poaching",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt half the butter with milk in a saucepan, stir in flour, and cook until dough forms a smooth ball."
+        },
+        {
+          "number": 2,
+          "step": "Remove from heat, beat in eggs one at a time, then fold in finely flaked smoked trout and nutmeg."
+        },
+        {
+          "number": 3,
+          "step": "Shape the mixture into oval quenelles using two wet tablespoons and set them on a parchment sheet."
+        },
+        {
+          "number": 4,
+          "step": "Gently drop quenelles into a wide pan of simmering salted water, poaching for six minutes until puffed."
+        },
+        {
+          "number": 5,
+          "step": "In another saucepan, simmer fish stock and white wine, then whisk in remaining butter and heavy cream."
+        },
+        {
+          "number": 6,
+          "step": "Transfer poached dumplings to warm bowls, spoon over the chive butter broth, and drizzle with lemon juice."
+        }
+      ]
+    }
+  ]
+}

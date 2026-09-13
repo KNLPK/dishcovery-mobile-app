@@ -1,0 +1,855 @@
+{
+  "id": 9002024,
+  "title": "Slow-Braised Italian Pork Shoulder with Fermented Giardiniera",
+  "image": "generated://dishcovery/9002024.jpg",
+  "readyInMinutes": 210,
+  "servings": 6,
+  "summary": "This succulent <b>slow-braised pork shoulder</b> offers a masterclass in balancing rich meat with complex acidity. Pork roast is seared to deep mahogany brown, then gently braised for hours in a fragrant bath of Chianti wine, rosemary, garlic, and tomato passata until fork tender. What elevates this traditional rustic dish is the inclusion of a spicy homemade <b>fermented giardiniera relish</b>, which is stirred into the reduction sauce during final moments of cooking. The naturally fermented pickles—brimming with cauliflower floret crunch, chili heat, and lacto-tang—cut through the luscious pork fat while providing bright structural contrast. As the pork slow-braises, collagen transforms into gelatin, yielding a silky sauce that coats every strand of meat. Serve this showstopping main course over soft parmesan polenta or crusty charred bread to soak up every drop of rich gravy. Ideal for cold weekend dinners, this braise tastes even better warmed up the next day as flavors continue to meld harmoniously.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 640,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Fat",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 64.6
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 72.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.2
+      },
+      {
+        "name": "Sugar",
+        "amount": 6.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.6
+      },
+      {
+        "name": "Protein",
+        "amount": 44.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 88.4
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.2
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.3,
+        "unit": "g",
+        "percentOfDailyNeeds": 1.5
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 19.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 29.5
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.5
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Potassium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 920,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.5
+      },
+      {
+        "name": "Niacin",
+        "amount": 9.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 57.5
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47.1
+      },
+      {
+        "name": "Folate",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62.5
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.4
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Chromium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17.1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1400,
+      "unit": "g",
+      "name": "boneless pork shoulder roast"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "fermented giardiniera relish"
+    },
+    {
+      "id": 90002,
+      "amount": 350,
+      "unit": "ml",
+      "name": "dry chianti red wine"
+    },
+    {
+      "id": 90003,
+      "amount": 400,
+      "unit": "g",
+      "name": "strained tomato passata"
+    },
+    {
+      "id": 90004,
+      "amount": 500,
+      "unit": "ml",
+      "name": "rich beef bone broth"
+    },
+    {
+      "id": 90005,
+      "amount": 150,
+      "unit": "g",
+      "name": "diced yellow onion"
+    },
+    {
+      "id": 90006,
+      "amount": 100,
+      "unit": "g",
+      "name": "diced carrots"
+    },
+    {
+      "id": 90007,
+      "amount": 100,
+      "unit": "g",
+      "name": "diced celery stalks"
+    },
+    {
+      "id": 90008,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "peeled whole garlic"
+    },
+    {
+      "id": 90009,
+      "amount": 30,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90010,
+      "amount": 25,
+      "unit": "g",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "sprigs",
+      "name": "fresh rosemary"
+    },
+    {
+      "id": 90012,
+      "amount": 4,
+      "unit": "sprigs",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "items",
+      "name": "dried bay leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 10,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 5,
+      "unit": "g",
+      "name": "coarsely cracked black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 3,
+      "unit": "g",
+      "name": "fennel seeds"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "g",
+      "name": "crushed red pepper flakes"
+    },
+    {
+      "id": 90018,
+      "amount": 30,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90019,
+      "amount": 15,
+      "unit": "ml",
+      "name": "balsamic vinegar"
+    },
+    {
+      "id": 90020,
+      "amount": 20,
+      "unit": "g",
+      "name": "flat leaf parsley"
+    },
+    {
+      "id": 90021,
+      "amount": 50,
+      "unit": "g",
+      "name": "pitted kalamata olives"
+    },
+    {
+      "id": 90022,
+      "amount": 30,
+      "unit": "g",
+      "name": "drained capers"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "g",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "g",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "g",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90026,
+      "amount": 50,
+      "unit": "g",
+      "name": "pancetta lardons"
+    },
+    {
+      "id": 90027,
+      "amount": 10,
+      "unit": "ml",
+      "name": "anchovy paste"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "lemon",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90029,
+      "amount": 10,
+      "unit": "g",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90030,
+      "amount": 5,
+      "unit": "g",
+      "name": "onion powder"
+    },
+    {
+      "id": 90031,
+      "amount": 5,
+      "unit": "g",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90032,
+      "amount": 30,
+      "unit": "ml",
+      "name": "grape seed oil"
+    },
+    {
+      "id": 90033,
+      "amount": 100,
+      "unit": "g",
+      "name": "sliced cremini mushrooms"
+    },
+    {
+      "id": 90034,
+      "amount": 15,
+      "unit": "ml",
+      "name": "fermented brine juice"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "g",
+      "name": "celery salt"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "g",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90037,
+      "amount": 20,
+      "unit": "g",
+      "name": "grated parmesan cheese"
+    },
+    {
+      "id": 90038,
+      "amount": 10,
+      "unit": "ml",
+      "name": "sherry vinegar"
+    },
+    {
+      "id": 90039,
+      "amount": 5,
+      "unit": "g",
+      "name": "sweet paprika"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "g",
+      "name": "rubbed sage"
+    },
+    {
+      "id": 90041,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh marjoram"
+    },
+    {
+      "id": 90042,
+      "amount": 40,
+      "unit": "g",
+      "name": "diced shallots"
+    },
+    {
+      "id": 90043,
+      "amount": 15,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90044,
+      "amount": 2,
+      "unit": "g",
+      "name": "black pepper"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Meat Searing and Mirepoix Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat pork shoulder roast dry with paper towels to ensure optimal crisp browning during initial searing."
+        },
+        {
+          "number": 2,
+          "step": "Trim excessive hard outer fat cap from pork, leaving approximately one quarter inch layer intact."
+        },
+        {
+          "number": 3,
+          "step": "Season pork shoulder roast generously on all sides with sea salt, cracked black pepper, and fennel seeds."
+        },
+        {
+          "number": 4,
+          "step": "Rub garlic powder, onion powder, sweet paprika, and rubbed sage thoroughly into meat surface crevices."
+        },
+        {
+          "number": 5,
+          "step": "Heat grape seed oil and extra virgin olive oil in a heavy Dutch oven over medium-high heat until hot."
+        },
+        {
+          "number": 6,
+          "step": "Add pancetta lardons to pot and render fat for three minutes until pancetta turns lightly golden."
+        },
+        {
+          "number": 7,
+          "step": "Place seasoned pork shoulder roast into Dutch oven and sear for four minutes without moving meat."
+        },
+        {
+          "number": 8,
+          "step": "Turn pork roast onto next side and continue searing until deep mahogany crust forms all around."
+        },
+        {
+          "number": 9,
+          "step": "Repeat turning process until all four sides and narrow ends of pork roast are dark caramelized brown."
+        },
+        {
+          "number": 10,
+          "step": "Transfer seared pork roast onto a warm side platter, leaving rendered fat and juices inside pot."
+        },
+        {
+          "number": 11,
+          "step": "Add diced yellow onion, diced carrots, and diced celery stalks directly into hot rendered pot fats."
+        },
+        {
+          "number": 12,
+          "step": "Sauté soffritto vegetable mixture over medium heat for eight minutes until soft and golden brown."
+        },
+        {
+          "number": 13,
+          "step": "Stir in sliced cremini mushrooms, diced shallots, and whole garlic cloves, cooking two minutes more."
+        },
+        {
+          "number": 14,
+          "step": "Add tomato paste and anchovy paste to pot center, stirring into fat until dark red and fragrant."
+        },
+        {
+          "number": 15,
+          "step": "Season vegetable base with dried oregano, crushed red pepper flakes, ground nutmeg, and ground cloves."
+        },
+        {
+          "number": 16,
+          "step": "Verify soffritto is deeply caramelized and tomato paste has browned well without burning on pot bottom."
+        },
+        {
+          "number": 17,
+          "step": "Scrape bottom of pot with wooden spoon to incorporate rendered pork solids into softening vegetables."
+        }
+      ]
+    },
+    {
+      "name": "Deglazing and Braising Liquids Setup",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour dry Chianti red wine into hot pot to deglaze, scraping up all rich fond stuck to bottom."
+        },
+        {
+          "number": 2,
+          "step": "Simmer wine reduction vigorously for six minutes until alcohol vapors dissipate and volume halves."
+        },
+        {
+          "number": 3,
+          "step": "Pour in strained tomato passata and rich beef bone broth, stirring liquid to combine smoothly."
+        },
+        {
+          "number": 4,
+          "step": "Toss fresh rosemary sprigs, fresh thyme sprigs, fresh marjoram, and dried bay leaves into pot."
+        },
+        {
+          "number": 5,
+          "step": "Add balsamic vinegar, fermented brine juice, and brown sugar to balance acid and deep braise notes."
+        },
+        {
+          "number": 6,
+          "step": "Bring braising liquid to a steady rolling boil over medium-high burner heat while stirring occasionally."
+        },
+        {
+          "number": 7,
+          "step": "Nestle seared pork shoulder roast back into pot, ensuring liquid comes halfway up sides of roast."
+        },
+        {
+          "number": 8,
+          "step": "Scatter pitted kalamata olives and drained capers into liquid around roast for salty depth."
+        },
+        {
+          "number": 9,
+          "step": "Cover Dutch oven tightly with heavy lid and transfer to preheated three-hundred-degree oven."
+        },
+        {
+          "number": 10,
+          "step": "Braise pork undisturbed in warm oven for two hours until meat begins yielding to gentle pressure."
+        },
+        {
+          "number": 11,
+          "step": "Carefully remove lid, turn roast over in cooking liquid, and baste top surface with pan juices."
+        },
+        {
+          "number": 12,
+          "step": "Return covered pot to oven for additional hour until meat is completely tender when tested with fork."
+        },
+        {
+          "number": 13,
+          "step": "Check braising liquid periodically to ensure pot has not dried out, adding water if necessary."
+        },
+        {
+          "number": 14,
+          "step": "Confirm meat fibers separate effortlessly when pressed lightly with tip of long carving fork."
+        },
+        {
+          "number": 15,
+          "step": "Carefully lift tender pork shoulder roast from Dutch oven and set on cutting board to rest warm."
+        },
+        {
+          "number": 16,
+          "step": "Skim off excess clear pork fat floating on surface of braising liquid using shallow metal ladle."
+        },
+        {
+          "number": 17,
+          "step": "Discard herb stems and bay leaves from braising sauce before starting reduction phase on stove."
+        }
+      ]
+    },
+    {
+      "name": "Sauce Reduction and Fermented Accent",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place Dutch oven containing remaining braising liquid over medium burner heat on stovetop surface."
+        },
+        {
+          "number": 2,
+          "step": "Simmer braising liquid uncovered for twelve minutes to reduce liquid into a glossy thick gravy."
+        },
+        {
+          "number": 3,
+          "step": "Whisk unsalted butter into simmering sauce to impart silky mouthfeel and rich shine to reduction."
+        },
+        {
+          "number": 4,
+          "step": "Stir coarse-chopped fermented giardiniera relish into reducing sauce during last three minutes of heat."
+        },
+        {
+          "number": 5,
+          "step": "Warm fermented giardiniera gently in sauce so vegetable crunch and pickled acidity remain vibrant."
+        },
+        {
+          "number": 6,
+          "step": "Add fresh lemon zest and sherry vinegar to brighten rich gravy right before removing from heat."
+        },
+        {
+          "number": 7,
+          "step": "Taste braising sauce and adjust seasoning with small additions of sea salt or celery salt if needed."
+        },
+        {
+          "number": 8,
+          "step": "Shred cooked pork shoulder into large rustic chunks using two large forks on cutting board."
+        },
+        {
+          "number": 9,
+          "step": "Discard any remaining tough fatty bits or connective tissue while shredding tender pork roast."
+        },
+        {
+          "number": 10,
+          "step": "Return shredded pork pieces into Dutch oven, tossing meat gently with sauce and giardiniera."
+        },
+        {
+          "number": 11,
+          "step": "Simmer pork in giardiniera braise sauce for three minutes to ensure meat absorbs hot pickled gravy."
+        },
+        {
+          "number": 12,
+          "step": "Stir in half of fresh chopped flat-leaf parsley to introduce herbal fresh notes throughout pot."
+        },
+        {
+          "number": 13,
+          "step": "Verify pork pieces are thoroughly saturated with glossy tomato, wine, and fermented vegetable gravy."
+        },
+        {
+          "number": 14,
+          "step": "Keep pot covered on warm burner while preparing serving platters and traditional grain bases."
+        },
+        {
+          "number": 15,
+          "step": "Ensure giardiniera cauliflower and pepper bits maintain distinct crisp texture in hot gravy."
+        },
+        {
+          "number": 16,
+          "step": "Check that sauce coats back of wooden spoon without being watery or excessively thick."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Garnish Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spoon hot creamy polenta or warm toasted rustic bread onto center of wide warm dinner plates."
+        },
+        {
+          "number": 2,
+          "step": "Ladle generous portions of shredded braised pork and fermented giardiniera gravy directly over top."
+        },
+        {
+          "number": 3,
+          "step": "Ensure each serving receives ample fermented pickle bits, olives, capers, and tender pork chunks."
+        },
+        {
+          "number": 4,
+          "step": "Garnish each plate with remaining fresh chopped flat-leaf parsley and freshly grated parmesan cheese."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle a light thread of extra virgin olive oil over finished plates for rich aromatic finish."
+        },
+        {
+          "number": 6,
+          "step": "Serve immediately while steaming hot alongside full-bodied Italian Chianti red wine for dining."
+        },
+        {
+          "number": 7,
+          "step": "Provide extra jar of fermented giardiniera at table for guests who love extra vinegary crunch."
+        },
+        {
+          "number": 8,
+          "step": "Store leftover braised pork and sauce in airtight container in refrigerator for up to four days."
+        },
+        {
+          "number": 9,
+          "step": "Reheat leftovers gently in covered pot over medium-low heat, adding splash of broth if needed."
+        },
+        {
+          "number": 10,
+          "step": "Flavors deepen significantly after overnight chill, making leftovers exceptionally rich and savory."
+        },
+        {
+          "number": 11,
+          "step": "Wipe outer rims of serving plates clean with damp cloth before delivering meal to table guests."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy tender slow-braised pork complemented by zesty fermented Italian vegetables and red wine."
+        },
+        {
+          "number": 13,
+          "step": "Ensure parmesan cheese melts slightly over hot meat gravy to enhance savory umami top layer."
+        },
+        {
+          "number": 14,
+          "step": "Offer cracked black pepper mill at table for individual guest seasoning preferences at dinner."
+        },
+        {
+          "number": 15,
+          "step": "Pair dish with simple bitter green salad dressed in lemon vinaigrette to cut through meat depth."
+        },
+        {
+          "number": 16,
+          "step": "Celebrate classical Italian braising technique transformed through modern fermented flavor accents."
+        }
+      ]
+    },
+    {
+      "name": "Storage and Leftover Management",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cool leftover braise to room temperature within two hours before sealing tightly for cold storage."
+        },
+        {
+          "number": 2,
+          "step": "Package meat and sauce together so pork remains fully submerged and moist inside storage container."
+        },
+        {
+          "number": 3,
+          "step": "Label storage container with date and freeze for up to three months if long-term storage is needed."
+        },
+        {
+          "number": 4,
+          "step": "Thaw frozen braise overnight in refrigerator before reheating gently over medium heat on stovetop."
+        },
+        {
+          "number": 5,
+          "step": "Stir in fresh splash of fermented pickle juice during reheating to revive crisp pickled acid notes."
+        },
+        {
+          "number": 6,
+          "step": "Use leftover shredded pork as filling for toasted paninis, baked pasta, or rustic rustic tacos."
+        },
+        {
+          "number": 7,
+          "step": "Ensure reheated meat reaches internal temperature of one hundred sixty-five degrees Fahrenheit minimum."
+        },
+        {
+          "number": 8,
+          "step": "Discard leftover portions left at room temperature for over two hours to ensure food safety."
+        },
+        {
+          "number": 9,
+          "step": "Skim any cold fat layer off stored pork gravy before reheating for a leaner leftover meal."
+        },
+        {
+          "number": 10,
+          "step": "Add additional chopped fresh herbs during reheating to refresh fragrant notes of original dish."
+        },
+        {
+          "number": 11,
+          "step": "Serve leftover braise over roasted potatoes or buttered egg noodles for rapid weeknight meals."
+        },
+        {
+          "number": 12,
+          "step": "Check that meat texture remains succulent and sauce retains its rich savory giardiniera balance."
+        },
+        {
+          "number": 13,
+          "step": "Store extra giardiniera separately in glass jar to preserve maximum vegetable crunchiness for later."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy convenient make-ahead flexibility of slow braised pork dishes during busy holiday schedules."
+        },
+        {
+          "number": 15,
+          "step": "Clean braising pot promptly with warm soapy water to remove caramelized glaze remnants easily."
+        },
+        {
+          "number": 16,
+          "step": "Savor final portions of rich Italian pork braise with fresh crusty bread for effortless dining."
+        }
+      ]
+    }
+  ]
+}

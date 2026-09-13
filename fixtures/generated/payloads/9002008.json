@@ -1,0 +1,858 @@
+{
+  "id": 9002008,
+  "title": "Smoked Teff and Vegetable Layered Casserole",
+  "image": "generated://dishcovery/9002008.jpg",
+  "readyInMinutes": 90,
+  "servings": 8,
+  "summary": "Rooted in the complex aromatic traditions of Ethiopian culinary craft, this baked dish features a foundation of <b>smoked whole teff grain</b> layered with spiced vegetables and legumes. Teff, an ancient grain famed for its delicate nutty taste, is first toasted over hardwood embers to infuse each tiny grain with profound smoky depth before being simmering into a rich porridge base. Between these savory grain layers lies a filling of slow-cooked yellow split peas infused with aromatic berbere spices, garlic, fresh ginger, and holy basil leaves. Roasted root vegetables including sweet potatoes and carrots are sliced thin and layered alongside braised collard greens, creating an impressive structural cross-section once sliced. The entire casserole is topped with a thin layer of spiced clarified oil and baked until the edges turn crisp and bubbly. Each portion delivers a compelling interplay of textures—from the soft, porridge-like teff to the tender root vegetables and crisp browned crust. Served piping hot with extra spice oil on the side, this rich casserole offers a smoky and elevated take on traditional Ethiopian feast dishes.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 68,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Sugar",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 4800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 96
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Magnesium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 117
+      },
+      {
+        "name": "Copper",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Manganese",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 104
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "brown teff grain"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "yellow split peas"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "medium",
+      "name": "sweet potatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "collard greens"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onion"
+    },
+    {
+      "id": 90006,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh ginger root"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "berbere spice mix"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground korarima"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground fenugreek"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground nigella seeds"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 4,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "medium",
+      "name": "leek"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "cooked green lentils"
+    },
+    {
+      "id": 90025,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced yellow onion"
+    },
+    {
+      "id": 90027,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90028,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh holy basil"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked salt"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90032,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90033,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "small",
+      "name": "jalapeno pepper"
+    },
+    {
+      "id": 90036,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "nutritional yeast"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90038,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mustard powder"
+    },
+    {
+      "id": 90039,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "water chestnuts"
+    },
+    {
+      "id": 90040,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "flaxseed meal"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90043,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "dried rosemary"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "nutmeg"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Smoked Teff Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spread dry teff grain in a single layer over a fine wire baking screen."
+        },
+        {
+          "number": 2,
+          "step": "Place the baking screen inside a smoker box set to low hardwood smoke for fifteen minutes."
+        },
+        {
+          "number": 3,
+          "step": "Remove the smoked teff grain and pour it into a heavy cast iron Dutch oven."
+        },
+        {
+          "number": 4,
+          "step": "Toast the smoked teff dry over medium heat for four minutes until crackling and fragrant."
+        },
+        {
+          "number": 5,
+          "step": "Pour in four cups of vegetable broth and two cups of water while stirring continuously."
+        },
+        {
+          "number": 6,
+          "step": "Add half of the smoked salt and fenugreek powder directly into the bubbling liquid."
+        },
+        {
+          "number": 7,
+          "step": "Reduce heat to low, cover the Dutch oven tightly, and simmer for twenty minutes."
+        },
+        {
+          "number": 8,
+          "step": "Remove cover and check teff texture; grains should be soft and liquid fully absorbed."
+        },
+        {
+          "number": 9,
+          "step": "Stir in flaxseed meal to help bind the cooked teff grain into a cohesive layer."
+        },
+        {
+          "number": 10,
+          "step": "Add nutritional yeast and sesame oil, stirring thoroughly to incorporate completely."
+        },
+        {
+          "number": 11,
+          "step": "Spread half of the cooked smoked teff into the bottom of a greased baking dish."
+        },
+        {
+          "number": 12,
+          "step": "Press the grain layer flat using the back of a silicone spatula for even thickness."
+        },
+        {
+          "number": 13,
+          "step": "Cover the baking dish loosely with foil to keep the teff moist while preparing fillings."
+        },
+        {
+          "number": 14,
+          "step": "Keep the remaining half of the cooked teff warm in a covered bowl nearby."
+        },
+        {
+          "number": 15,
+          "step": "Wipe out the cast iron Dutch oven with paper towels to prepare for cooking split peas."
+        },
+        {
+          "number": 16,
+          "step": "Rinse yellow split peas under cold water in a mesh colander until water runs clear."
+        },
+        {
+          "number": 17,
+          "step": "Drain split peas thoroughly and set aside on paper towels to remove excess moisture."
+        },
+        {
+          "number": 18,
+          "step": "Mince three cloves of garlic finely and place in a bowl alongside grated ginger."
+        },
+        {
+          "number": 19,
+          "step": "Finely dice the red onion and set aside for the split pea spice mixture."
+        },
+        {
+          "number": 20,
+          "step": "Measure out berbere spice, korarima, and smoked paprika into a small spice vessel."
+        },
+        {
+          "number": 21,
+          "step": "Verify that all cooked teff components maintain heat and proper moisture level."
+        }
+      ]
+    },
+    {
+      "name": "Spiced Split Pea Filling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat two tablespoons of vegetable oil in the Dutch oven over medium flame."
+        },
+        {
+          "number": 2,
+          "step": "Add the diced red onion and sauté for six minutes until soft and caramelized."
+        },
+        {
+          "number": 3,
+          "step": "Add minced garlic and grated ginger, cooking for two minutes until aromatic."
+        },
+        {
+          "number": 4,
+          "step": "Stir in the tomato paste and roast for two minutes until deep reddish brown."
+        },
+        {
+          "number": 5,
+          "step": "Add the berbere spice mixture, korarima, and smoked paprika, stirring quickly to prevent burning."
+        },
+        {
+          "number": 6,
+          "step": "Pour in the rinsed yellow split peas and stir to coat every pea in spice paste."
+        },
+        {
+          "number": 7,
+          "step": "Add two cups of hot water and bring the split pea mixture to a rapid boil."
+        },
+        {
+          "number": 8,
+          "step": "Lower heat, cover pot, and simmer for thirty minutes until split peas are completely tender."
+        },
+        {
+          "number": 9,
+          "step": "Stir in diced tomatoes and green lentils during the final ten minutes of cooking."
+        },
+        {
+          "number": 10,
+          "step": "Season with remaining kosher salt, black pepper, and cayenne pepper to taste."
+        },
+        {
+          "number": 11,
+          "step": "Fold in chopped cilantro and holy basil leaves right before taking off the burner."
+        },
+        {
+          "number": 12,
+          "step": "Add lemon juice and apple cider vinegar to brighten up the heavy legume profile."
+        },
+        {
+          "number": 13,
+          "step": "Mash one-third of the split pea mixture using a potato masher for structural body."
+        },
+        {
+          "number": 14,
+          "step": "Transfer the pea filling onto the prepared bottom layer of smoked teff grain."
+        },
+        {
+          "number": 15,
+          "step": "Smooth the split pea filling into an even layer using an offset spatula."
+        },
+        {
+          "number": 16,
+          "step": "Dice the jalapeno pepper thinly and scatter over the hot split pea filling."
+        },
+        {
+          "number": 17,
+          "step": "Finely chop the leek and sprinkle over the pea layer for crisp aromatic texture."
+        },
+        {
+          "number": 18,
+          "step": "Add diced red bell pepper evenly across the spicy legume layer surface."
+        },
+        {
+          "number": 19,
+          "step": "Sprinkle ground nigella seeds across the filled dish for pepper flavor."
+        },
+        {
+          "number": 20,
+          "step": "Taste filling edge to verify salt balance before adding vegetable layers."
+        },
+        {
+          "number": 21,
+          "step": "Set assembled base aside while preparing the slice-able root vegetables."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Layering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel sweet potatoes and slice them into thin rounds using a mandoline cutter."
+        },
+        {
+          "number": 2,
+          "step": "Peel carrots and slice into identical thin diagonal ribbons for easy stacking."
+        },
+        {
+          "number": 3,
+          "step": "Wash collard greens, remove central tough ribs, and cut leaves into wide bands."
+        },
+        {
+          "number": 4,
+          "step": "Toss sweet potato slices with one tablespoon olive oil, turmeric, and cumin."
+        },
+        {
+          "number": 5,
+          "step": "Toss carrot ribbons with remaining olive oil, ground cardamom, and cinnamon."
+        },
+        {
+          "number": 6,
+          "step": "Blanch collard greens in boiling water for two minutes, then plunge into ice water."
+        },
+        {
+          "number": 7,
+          "step": "Drain collard greens and pat thoroughly dry using clean kitchen towel linens."
+        },
+        {
+          "number": 8,
+          "step": "Arrange sweet potato rounds in overlapping scales directly over the split pea layer."
+        },
+        {
+          "number": 9,
+          "step": "Layer blanched collard greens over sweet potatoes to create a green dividing ribbon."
+        },
+        {
+          "number": 10,
+          "step": "Arrange carrot ribbons neatly over collard greens to build vertical color layers."
+        },
+        {
+          "number": 11,
+          "step": "Sprinkle ground cloves, nutmeg, and dried thyme over the root vegetable stack."
+        },
+        {
+          "number": 12,
+          "step": "Dice water chestnuts finely and scatter between root layers for hidden crunch."
+        },
+        {
+          "number": 13,
+          "step": "Spoon reserved warm smoked teff over the carrot layer, covering entirely."
+        },
+        {
+          "number": 14,
+          "step": "Press top teff layer down firmly using parchment paper and flat press weight."
+        },
+        {
+          "number": 15,
+          "step": "Remove parchment paper and check that casserole surface is smooth and uniform."
+        },
+        {
+          "number": 16,
+          "step": "Dust remaining smoked salt across top teff layer for crisp salt crust finish."
+        },
+        {
+          "number": 17,
+          "step": "Sprinkle dried rosemary evenly over the surface of the casserole top."
+        },
+        {
+          "number": 18,
+          "step": "Drizzle remaining vegetable oil across top teff surface to assist browning."
+        },
+        {
+          "number": 19,
+          "step": "Preheat oven to 375 degrees Fahrenheit and position rack in central position."
+        },
+        {
+          "number": 20,
+          "step": "Cover baking dish tightly with aluminum foil to trap moisture during early bake."
+        },
+        {
+          "number": 21,
+          "step": "Place casserole dish onto heavy baking tray to catch any potential drips."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Finishes",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer baking dish onto central oven rack and bake covered for thirty minutes."
+        },
+        {
+          "number": 2,
+          "step": "Remove aluminum foil cover carefully, allowing steam to escape away from face."
+        },
+        {
+          "number": 3,
+          "step": "Continue baking uncovered for fifteen minutes until top teff layer forms crisp crust."
+        },
+        {
+          "number": 4,
+          "step": "Check root vegetable tenderness by inserting skewer into center of casserole."
+        },
+        {
+          "number": 5,
+          "step": "Bake five additional minutes if skewer encounters resistance in sweet potato core."
+        },
+        {
+          "number": 6,
+          "step": "Switch oven setting to broil on high heat for final two minutes for top crisping."
+        },
+        {
+          "number": 7,
+          "step": "Monitor surface closely under broil to prevent scorching smoked teff crust layer."
+        },
+        {
+          "number": 8,
+          "step": "Remove casserole from oven using heavy oven mitts and set on wire rack."
+        },
+        {
+          "number": 9,
+          "step": "Allow casserole to rest undisturbed for fifteen minutes so layers set firm."
+        },
+        {
+          "number": 10,
+          "step": "Mix extra berbere spice with warmed oil in small dish to create table drizzle."
+        },
+        {
+          "number": 11,
+          "step": "Garnish surface of bake with fresh holy basil leaves and sliced jalapeno."
+        },
+        {
+          "number": 12,
+          "step": "Slice casserole into square portions using sharp serrated chef utility knife."
+        },
+        {
+          "number": 13,
+          "step": "Wipe blade between cuts to ensure clean geometric cross-section visibility."
+        },
+        {
+          "number": 14,
+          "step": "Lift portions gently using wide spatula to keep layered structure intact."
+        },
+        {
+          "number": 15,
+          "step": "Plate portions onto warm shallow bowls for individual service presentation."
+        },
+        {
+          "number": 16,
+          "step": "Drizzle berbere spice oil over each serving right before placing on table."
+        },
+        {
+          "number": 17,
+          "step": "Scatter remaining fresh cilantro over plated slices for bright herbal accent."
+        },
+        {
+          "number": 18,
+          "step": "Serve alongside extra lemon wedges and traditional warm flatbread pieces."
+        },
+        {
+          "number": 19,
+          "step": "Store leftover casserole portions in airtight containers in refrigerator promptly."
+        },
+        {
+          "number": 20,
+          "step": "Reheat leftovers in warm oven to restore crisp surface crust texture properly."
+        },
+        {
+          "number": 21,
+          "step": "Verify temperature reaching 165 degrees Fahrenheit when reheating dish next day."
+        }
+      ]
+    }
+  ]
+}

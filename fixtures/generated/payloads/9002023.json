@@ -1,0 +1,858 @@
+{
+  "id": 9002023,
+  "title": "One-Pot Brazilian Beef Skewers with Herb Chimichurri",
+  "image": "generated://dishcovery/9002023.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "Designed for minimal cleanup without sacrificing authentic sizzle, these <b>Brazilian beef skewers</b> are cooked entirely inside a single heavy pot. Top sirloin cap steak, cut into juicy tender cubes, is skewered alongside colorful peppers and onions before searing directly over high heat. By cooking the skewers directly in a single pot, all the caramelized juices and rendered fats are captured, building a savory cooking base that coats each element with intense flavor. A vibrant homemade <b>chimichurri herb sauce</b> is whipped up to cut through the rich meat, adding herbal brightness, garlic kick, and tangy red wine vinegar contrast. This technique delivers all the smoky charm of a churrasco steakhouses in a streamlined kitchen-friendly format. Perfect for busy weeknights or informal weekend gatherings, this dish pairs wonderfully with toasted cassava flour or warm garlic rice. Enjoy the succulent, high-heat seared beef complemented by zesty fresh herbs, crisp charred vegetables, and aromatic spices in every single delicious bite.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Fat",
+        "amount": 34.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 52.6
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 47.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 14.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.9
+      },
+      {
+        "name": "Sugar",
+        "amount": 4.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.7
+      },
+      {
+        "name": "Protein",
+        "amount": 36.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 73
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.6,
+        "unit": "g",
+        "percentOfDailyNeeds": 14.4
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 18.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.5
+      },
+      {
+        "name": "Calcium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.2
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Potassium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.3
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 141.7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0.7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 54.2
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.2
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 116.7
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Iodine",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52.7
+      },
+      {
+        "name": "Selenium",
+        "amount": 28.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51.6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.4
+      },
+      {
+        "name": "Chromium",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 700,
+      "unit": "g",
+      "name": "top sirloin cap steak"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "items",
+      "name": "red bell peppers"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "items",
+      "name": "yellow bell peppers"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "items",
+      "name": "red onions"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "item",
+      "name": "green zucchini"
+    },
+    {
+      "id": 90005,
+      "amount": 45,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90006,
+      "amount": 30,
+      "unit": "ml",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "cup",
+      "name": "fresh flat parsley"
+    },
+    {
+      "id": 90008,
+      "amount": 30,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90009,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh oregano"
+    },
+    {
+      "id": 90010,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 5,
+      "unit": "g",
+      "name": "coarse sea salt"
+    },
+    {
+      "id": 90012,
+      "amount": 3,
+      "unit": "g",
+      "name": "coarsely ground black pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 3,
+      "unit": "g",
+      "name": "crushed red pepper flakes"
+    },
+    {
+      "id": 90014,
+      "amount": 5,
+      "unit": "g",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90015,
+      "amount": 5,
+      "unit": "g",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "g",
+      "name": "onion powder"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "g",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90018,
+      "amount": 15,
+      "unit": "ml",
+      "name": "lime juice"
+    },
+    {
+      "id": 90019,
+      "amount": 30,
+      "unit": "ml",
+      "name": "avocado oil"
+    },
+    {
+      "id": 90020,
+      "amount": 15,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90021,
+      "amount": 10,
+      "unit": "g",
+      "name": "cassava flour"
+    },
+    {
+      "id": 90022,
+      "amount": 200,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "item",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90024,
+      "amount": 15,
+      "unit": "ml",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90025,
+      "amount": 10,
+      "unit": "ml",
+      "name": "worcestershire sauce"
+    },
+    {
+      "id": 90026,
+      "amount": 2,
+      "unit": "g",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "g",
+      "name": "dried basil"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "g",
+      "name": "celery seed"
+    },
+    {
+      "id": 90029,
+      "amount": 5,
+      "unit": "g",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90030,
+      "amount": 15,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90031,
+      "amount": 30,
+      "unit": "g",
+      "name": "diced shallots"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "item",
+      "name": "seeded jalapeno pepper"
+    },
+    {
+      "id": 90033,
+      "amount": 2,
+      "unit": "g",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "g",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90035,
+      "amount": 15,
+      "unit": "ml",
+      "name": "white vinegar"
+    },
+    {
+      "id": 90036,
+      "amount": 10,
+      "unit": "g",
+      "name": "chopped mint"
+    },
+    {
+      "id": 90037,
+      "amount": 5,
+      "unit": "g",
+      "name": "grated lemon zest"
+    },
+    {
+      "id": 90038,
+      "amount": 2,
+      "unit": "g",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90039,
+      "amount": 10,
+      "unit": "ml",
+      "name": "sunflower oil"
+    },
+    {
+      "id": 90040,
+      "amount": 100,
+      "unit": "g",
+      "name": "sliced mushrooms"
+    },
+    {
+      "id": 90041,
+      "amount": 50,
+      "unit": "g",
+      "name": "diced bacon"
+    },
+    {
+      "id": 90042,
+      "amount": 15,
+      "unit": "ml",
+      "name": "cider vinegar"
+    },
+    {
+      "id": 90043,
+      "amount": 2,
+      "unit": "g",
+      "name": "black mustard seeds"
+    },
+    {
+      "id": 90044,
+      "amount": 5,
+      "unit": "g",
+      "name": "fresh chives"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade and Skewer Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut the top sirloin cap steak into uniform one-and-a-half inch cubes for even skillet cooking."
+        },
+        {
+          "number": 2,
+          "step": "Place the beef cubes into a large bowl and sprinkle with coarse sea salt and ground black pepper."
+        },
+        {
+          "number": 3,
+          "step": "Add ground cumin, smoked paprika, garlic powder, and onion powder over the seasoned meat."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle with avocado oil, worcestershire sauce, and soy sauce to coat all sides of the beef."
+        },
+        {
+          "number": 5,
+          "step": "Toss the beef cubes thoroughly by hand to make sure spices adhere evenly to all surfaces."
+        },
+        {
+          "number": 6,
+          "step": "Cover the bowl with wrap and let the steak marinate at room temperature for twenty minutes."
+        },
+        {
+          "number": 7,
+          "step": "Cut the red bell peppers and yellow bell peppers into broad squares matching the steak size."
+        },
+        {
+          "number": 8,
+          "step": "Peel red onions and cut them into thick wedges, separating layers into sturdy square pieces."
+        },
+        {
+          "number": 9,
+          "step": "Slice the green zucchini into half-inch thick rounds that will hold up well during high searing."
+        },
+        {
+          "number": 10,
+          "step": "Wipe cherry tomatoes and whole mushrooms clean with a damp paper towel and set them nearby."
+        },
+        {
+          "number": 11,
+          "step": "Soak wooden skewer sticks in cold water for fifteen minutes to prevent scorching during cooking."
+        },
+        {
+          "number": 12,
+          "step": "Thread seasoned beef cubes onto skewers alternating with pepper squares, onion wedges, and zucchini."
+        },
+        {
+          "number": 13,
+          "step": "Cap each finished skewer with a sturdy cherry tomato on the tip to lock ingredients tightly."
+        },
+        {
+          "number": 14,
+          "step": "Repeat the threading process until all meat cubes and sliced vegetables are used up evenly."
+        },
+        {
+          "number": 15,
+          "step": "Lightly brush assembled skewers with extra avocado oil and dust with a light pinch of kosher salt."
+        },
+        {
+          "number": 16,
+          "step": "Arrange skewers on a clean tray and allow them to sit while warming the cooking pot on stovetop."
+        },
+        {
+          "number": 17,
+          "step": "Verify skewers fit inside your large wide heavy Dutch oven or shallow pot without crowding ends."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra cut vegetables nearby to toss into the pot fat after cooking the meat skewers."
+        },
+        {
+          "number": 19,
+          "step": "Ensure beef skewer tips are trim so skewers lie completely flat on the bottom cooking surface."
+        },
+        {
+          "number": 20,
+          "step": "Set aside marinated skewers at room temperature while preparing the vibrant green chimichurri."
+        },
+        {
+          "number": 21,
+          "step": "Confirm all meat pieces are firmly secured on skewers so they turn cleanly without spinning."
+        }
+      ]
+    },
+    {
+      "name": "Chimichurri Sauce Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely chop fresh flat parsley leaves and stems using a sharp chef's knife on a dry cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Finely chop fresh cilantro and fresh oregano, adding them to the bowl with chopped parsley."
+        },
+        {
+          "number": 3,
+          "step": "Minced garlic cloves, diced shallots, and seeded jalapeno pepper into very tiny uniform pieces."
+        },
+        {
+          "number": 4,
+          "step": "Transfer all chopped herbs, garlic, shallots, and jalapeno into a medium non-reactive glass bowl."
+        },
+        {
+          "number": 5,
+          "step": "Pour in extra virgin olive oil, red wine vinegar, white vinegar, and fresh lime juice over herbs."
+        },
+        {
+          "number": 6,
+          "step": "Add crushed red pepper flakes, dried thyme, dried basil, celery seed, and ground coriander."
+        },
+        {
+          "number": 7,
+          "step": "Add brown sugar, grated lemon zest, chopped mint, and kosher salt to balance acid and heat."
+        },
+        {
+          "number": 8,
+          "step": "Whisk the chimichurri sauce mixture vigorously until oil and vinegars emulsify with fresh herbs."
+        },
+        {
+          "number": 9,
+          "step": "Add two tablespoons of warm water to loosen the consistency of sauce slightly if too dense."
+        },
+        {
+          "number": 10,
+          "step": "Taste the finished sauce and adjust seasoning with a extra splash of lime juice if needed."
+        },
+        {
+          "number": 11,
+          "step": "Cover the chimichurri bowl and set aside at room temperature so herb flavors meld thoroughly."
+        },
+        {
+          "number": 12,
+          "step": "Divide the sauce into two equal portions, reserving one clean portion for final table serving."
+        },
+        {
+          "number": 13,
+          "step": "Keep the remaining chimichurri portion near the stove for basting cooked skewers in the pot."
+        },
+        {
+          "number": 14,
+          "step": "Stir chimichurri once more right before use to keep oil and herb bits suspended evenly."
+        },
+        {
+          "number": 15,
+          "step": "Ensure garlic and pepper flakes have softened slightly in the vinegar acid base before serving."
+        },
+        {
+          "number": 16,
+          "step": "Check that chimichurri exhibits a bright green color and bold punchy herb aroma throughout."
+        },
+        {
+          "number": 17,
+          "step": "Place serving spoon into reserved chimichurri bowl and set it on table for dinner presentation."
+        },
+        {
+          "number": 18,
+          "step": "Clean cutting board and tools thoroughly before moving on to high heat skewer cooking process."
+        },
+        {
+          "number": 19,
+          "step": "Ensure sauce retains a vibrant pourable texture with plenty of textured cut herbs floating."
+        },
+        {
+          "number": 20,
+          "step": "Keep chimichurri away from direct cooking heat to protect its fresh vibrant green appearance."
+        },
+        {
+          "number": 21,
+          "step": "Confirm balance between garlic bite, spicy jalapeno warmth, and clean tangy vinegar notes."
+        }
+      ]
+    },
+    {
+      "name": "One-Pot Searing Process",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat sunflower oil and butter in a large wide pot over high heat until fat shimmers intensely."
+        },
+        {
+          "number": 2,
+          "step": "Add diced bacon into pot first to render grease and crisp up for two minutes as savory base."
+        },
+        {
+          "number": 3,
+          "step": "Lay two to three skewers flat into hot pot bottom, making sure not to overlap meat pieces."
+        },
+        {
+          "number": 4,
+          "step": "Sear beef skewers undisturbed for three minutes until deep brown caramelized crust develops."
+        },
+        {
+          "number": 5,
+          "step": "Turn skewers carefully using tongs to sear the second side for another three minutes of cooking."
+        },
+        {
+          "number": 6,
+          "step": "Rotate skewers to sear vegetable edges for one to two minutes until edges show light char ring."
+        },
+        {
+          "number": 7,
+          "step": "Baste skewers with a spoon of basting chimichurri during final thirty seconds of pot searing."
+        },
+        {
+          "number": 8,
+          "step": "Transfer seared skewers to a clean warm platter and tent loosely with foil to retain juices."
+        },
+        {
+          "number": 9,
+          "step": "Repeat searing process with remaining skewers, adding extra sunflower oil to pot if pan dries."
+        },
+        {
+          "number": 10,
+          "step": "Ensure pot remains very hot between batches so beef sears quickly without boiling in steam."
+        },
+        {
+          "number": 11,
+          "step": "Add any leftover un-skewered peppers and mushrooms to hot pan fat after skewers are cooked."
+        },
+        {
+          "number": 12,
+          "step": "Sauté loose vegetables in pot juices for four minutes until charred, tender, and intensely flavorful."
+        },
+        {
+          "number": 13,
+          "step": "Add cassava flour to the remaining pot juices and toss for two minutes until toasted golden brown."
+        },
+        {
+          "number": 14,
+          "step": "Deglaze pot bottom with cider vinegar and a splash of water, stirring up rich browned meat bits."
+        },
+        {
+          "number": 15,
+          "step": "Pour rendered pot pan gravy and toasted cassava flour mixture over loose cooked pot vegetables."
+        },
+        {
+          "number": 16,
+          "step": "Return all cooked skewers back into pot on top of sauteed vegetables to rewarm for two minutes."
+        },
+        {
+          "number": 17,
+          "step": "Cover pot with lid briefly to let steam trapped inside equalize internal temperature of skewers."
+        },
+        {
+          "number": 18,
+          "step": "Remove lid and sprinkle black mustard seeds and chopped chives over top of skewers inside pot."
+        },
+        {
+          "number": 19,
+          "step": "Check internal temperature of beef cubes to ensure medium rare to medium target doneness."
+        },
+        {
+          "number": 20,
+          "step": "Turn off burner heat completely while keeping pot covered to preserve moisture before serving."
+        },
+        {
+          "number": 21,
+          "step": "Verify pan juices have fully coated skewers and toasted cassava pan mixture for rich texture."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Finishing Touch",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Arrange warm beef skewers neatly across a large rustic ceramic platter or individual dinner plates."
+        },
+        {
+          "number": 2,
+          "step": "Spoon charred pot vegetables and toasted cassava pan mixture alongside meat skewers onto plates."
+        },
+        {
+          "number": 3,
+          "step": "Generously drizzle reserved fresh green chimichurri sauce over seared beef and charred peppers."
+        },
+        {
+          "number": 4,
+          "step": "Garnish platter with fresh lime wedges, extra chopped fresh parsley, and crisp bacon bits."
+        },
+        {
+          "number": 5,
+          "step": "Serve immediately while beef skewers are steaming hot, juicy, and rich with high-heat sear."
+        },
+        {
+          "number": 6,
+          "step": "Pass additional bowl of fresh chimichurri at table for guests who prefer extra herbaceous tangy sauce."
+        },
+        {
+          "number": 7,
+          "step": "Pair with cold Brazilian lager or fresh fruit beverage for ultimate contrast against savory beef."
+        },
+        {
+          "number": 8,
+          "step": "Store leftover skewers wrapped tightly in foil in refrigerator for up to two days maximum."
+        },
+        {
+          "number": 9,
+          "step": "Reheat leftovers quickly in a hot skillet with a touch of butter to preserve charred texture."
+        },
+        {
+          "number": 10,
+          "step": "Discard used wooden skewer sticks safely after dining to ensure clean kitchen cleanup ease."
+        },
+        {
+          "number": 11,
+          "step": "Wipe platter edges clean before presenting this vibrant Brazilian one-pot dish to dining guests."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy succulent beef chunks infused with savory pot pan drips and lively green herb chimichurri."
+        },
+        {
+          "number": 13,
+          "step": "Ensure each guest gets a mix of charred peppers, sweet red onion, and juicy tender sirloin."
+        },
+        {
+          "number": 14,
+          "step": "Squeeze fresh lime juice over warm skewers right at table to elevate crisp citrus acidity."
+        },
+        {
+          "number": 15,
+          "step": "Take advantage of single-pot preparation for rapid pan cleaning while guests enjoy their meal."
+        },
+        {
+          "number": 16,
+          "step": "Offer toasted farofa cassava crumbs on side to sprinkle over meat for classic crunchy texture."
+        },
+        {
+          "number": 17,
+          "step": "Check that skewers present a tempting visual contrast between dark sear and green herb sauce."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra lime wedges on platter for decorative accent and customized tabletop citrus seasoning."
+        },
+        {
+          "number": 19,
+          "step": "Ensure pan drip gravy from cassava farofa is fully enjoyed alongside skewers for deep depth."
+        },
+        {
+          "number": 20,
+          "step": "Serve promptly to capture peak tenderness of warm, medium-rare top sirloin cap beef skewers."
+        },
+        {
+          "number": 21,
+          "step": "Celebrate rich South American churrasco flavours crafted effortlessly within a single cooking pot."
+        }
+      ]
+    }
+  ]
+}

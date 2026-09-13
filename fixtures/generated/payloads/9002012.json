@@ -1,0 +1,846 @@
+{
+  "id": 9002012,
+  "title": "Polish Sweet Noodle Dessert Bowl with Quark and Cherries",
+  "image": "generated://dishcovery/9002012.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "This traditional <b>Polish sweet noodle bowl</b> transforms classic egg pasta into an exquisite dessert course. Broad egg ribbons are tossed with sweetened Polish quark cheese, fragrant vanilla, and a hint of warm cinnamon. A tart cherry reduction, brightened with lemon zest and sweet butter, drapes over the creamy pasta base. Topped with toasted breadcrumbs, crunchy almonds, and fresh mint, this dish offers a delightful balance of sour, sweet, creamy, and crispy elements. Rooted in traditional Central European home cooking, this dessert pasta showcases how comforting noodles can anchor a memorable end to any festive meal. It is best served warm or at room temperature, making it a flexible sweet finish for dinner parties. The contrast between tender noodles, silky cheese, and tart fruit makes every spoon rich and satisfying without being overly heavy. Prepare the fruit reduction and sweetened curd ahead of time for quick assembly before serving your guests.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 440,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Sodium",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 510,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Calcium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Choline",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Saturated Fatty Acids",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 55,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 350,
+      "unit": "g",
+      "name": "broad egg noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 250,
+      "unit": "g",
+      "name": "polish quark cheese"
+    },
+    {
+      "id": 90002,
+      "amount": 300,
+      "unit": "g",
+      "name": "pitted sour cherries"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90004,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90005,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla bean paste"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fine breadcrumbs"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sour cream"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cherry liqueur"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "orange zest"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90021,
+      "amount": 0.125,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped walnuts"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "poppy seeds"
+    },
+    {
+      "id": 90027,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "almond extract"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90030,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "plum jam"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "rum extract"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "powdered cinnamon"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "turbinado sugar"
+    },
+    {
+      "id": 90035,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "dried cranberries"
+    },
+    {
+      "id": 90036,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped pistachios"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "grated ginger"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "melted butter"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "whole milk"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "egg",
+      "name": "yolk"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon juice extra"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "icing sugar"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "allspice"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Boil Pasta",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fill a large deep stockpot with four quarts of clear cold water and place it on high heat."
+        },
+        {
+          "number": 2,
+          "step": "Add a generous pinch of salt to the water and bring it to a rolling boil across the surface."
+        },
+        {
+          "number": 3,
+          "step": "Drop the broad egg noodles into the boiling water and stir immediately to prevent sticking."
+        },
+        {
+          "number": 4,
+          "step": "Cook the noodles uncovered for seven minutes until they reach an al dente chewy texture."
+        },
+        {
+          "number": 5,
+          "step": "Drain the cooked pasta into a colander set in the sink, reserving half a cup of warm water."
+        },
+        {
+          "number": 6,
+          "step": "Return the warm noodles to the warm pot and toss with one tablespoon of melted butter."
+        },
+        {
+          "number": 7,
+          "step": "Cover the pot tightly to keep the egg noodles moist and warm while preparing the cheese base."
+        },
+        {
+          "number": 8,
+          "step": "Measure out the polish quark cheese and sour cream into a clean glass mixing bowl."
+        },
+        {
+          "number": 9,
+          "step": "Sift powdered sugar, vanilla bean paste, and cinnamon into the curd cheese bowl."
+        },
+        {
+          "number": 10,
+          "step": "Whisk the curd mixture vigorously with a fork until silky, smooth, and lump-free."
+        },
+        {
+          "number": 11,
+          "step": "Stir in the heavy cream, egg yolk, and almond extract to enrich the sweet cheese base."
+        },
+        {
+          "number": 12,
+          "step": "Fold the sweet quark mixture into the warm cooked noodles until every ribbon is coated."
+        },
+        {
+          "number": 13,
+          "step": "Keep the noodle and sweet cheese mixture on low stove heat to remain pleasantly warm."
+        },
+        {
+          "number": 14,
+          "step": "Check the sweetness level of the pasta and add extra powdered sugar if desired for taste."
+        }
+      ]
+    },
+    {
+      "name": "Prepare Cherry Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place pitted sour cherries, granulated sugar, and cherry liqueur into a medium saucepan."
+        },
+        {
+          "number": 2,
+          "step": "Heat the cherry mixture over medium burner heat while stirring constantly with a wooden spoon."
+        },
+        {
+          "number": 3,
+          "step": "Add lemon zest, lemon juice, orange zest, and ground cardamom to the simmering fruit sauce."
+        },
+        {
+          "number": 4,
+          "step": "Whisk cornstarch and cold water together in a small cup until smooth to form a slurry paste."
+        },
+        {
+          "number": 5,
+          "step": "Pour the cornstarch slurry into the bubbling cherry sauce while stirring rapidly."
+        },
+        {
+          "number": 6,
+          "step": "Simmer the cherry reduction for three minutes until thick, glossy, and beautifully translucent."
+        },
+        {
+          "number": 7,
+          "step": "Stir in golden raisins and dried cranberries so they plump up in the hot fruit syrup."
+        },
+        {
+          "number": 8,
+          "step": "Add plum jam and honey into the sauce pot to deepen the fruit complexity and sweetness."
+        },
+        {
+          "number": 9,
+          "step": "Remove the cherry sauce from heat and drop in one tablespoon of cold unsalted butter."
+        },
+        {
+          "number": 10,
+          "step": "Swirl the butter through the warm sauce until completely melted and glossy in appearance."
+        },
+        {
+          "number": 11,
+          "step": "Season the fruity reduction with a tiny pinch of ground cloves and ground nutmeg."
+        },
+        {
+          "number": 12,
+          "step": "Cover the sauce pan to keep the cherry topping warm until final bowl assembly begins."
+        },
+        {
+          "number": 13,
+          "step": "Taste the cherry topping for acidity and adjust with extra sugar or lemon juice as needed."
+        },
+        {
+          "number": 14,
+          "step": "Set the prepared cherry pan next to the dessert bowl assembly station on the counter."
+        }
+      ]
+    },
+    {
+      "name": "Toast Crumb Topping",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt two tablespoons of unsalted butter in a small nonstick skillet over medium-low heat."
+        },
+        {
+          "number": 2,
+          "step": "Add fine breadcrumbs, turbinado sugar, and ground cinnamon into the foaming melted butter."
+        },
+        {
+          "number": 3,
+          "step": "Stir the breadcrumbs continuously for four minutes until golden brown and intensely fragrant."
+        },
+        {
+          "number": 4,
+          "step": "Add sliced almonds, chopped walnuts, and poppy seeds to the toasted crumb pan mix."
+        },
+        {
+          "number": 5,
+          "step": "Toast the nut and crumb mixture for two more minutes, watching carefully to prevent burning."
+        },
+        {
+          "number": 6,
+          "step": "Remove the toasted crumb topping from heat and spread onto a plate to cool slightly."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle sea salt flakes over the warm crispy topping to accentuate the sweet nutty notes."
+        },
+        {
+          "number": 8,
+          "step": "Set the crispy crumb platter aside while preparing the final dessert bowl presentation."
+        },
+        {
+          "number": 9,
+          "step": "Clean the workspace to ensure quick seamless assembly of the individual dessert portions."
+        },
+        {
+          "number": 10,
+          "step": "Gather six wide warm dessert bowls and arrange them in a row on your prep kitchen table."
+        },
+        {
+          "number": 11,
+          "step": "Verify that the sweet noodle mixture remains warm and moist prior to scooping into bowls."
+        },
+        {
+          "number": 12,
+          "step": "Mix the dessert pasta once more to re-distribute the sweet vanilla quark cheese evenly."
+        },
+        {
+          "number": 13,
+          "step": "Prepare fresh mint sprigs for the final aromatic garnish on each assembled dessert bowl."
+        }
+      ]
+    },
+    {
+      "name": "Assemble Bowls",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spoon a warm mound of sweet quark egg noodles into the center of each dessert bowl."
+        },
+        {
+          "number": 2,
+          "step": "Ladle warm sour cherry reduction generously over the warm pasta ribbons in each bowl."
+        },
+        {
+          "number": 3,
+          "step": "Ensure equal distribution of whole cherries and fruit syrup across all six dessert portions."
+        },
+        {
+          "number": 4,
+          "step": "Scatter the toasted cinnamon breadcrumb and almond crumble over top of the fruit layer."
+        },
+        {
+          "number": 5,
+          "step": "Dust each assembled bowl lightly with icing sugar using a fine mesh sifter screen."
+        },
+        {
+          "number": 6,
+          "step": "Garnish each portion with a fresh sprig of mint and chopped pistachios for color contrast."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle maple syrup over the top for extra sheen and rich caramel flavor notes."
+        },
+        {
+          "number": 8,
+          "step": "Check that every bowl has a balanced proportion of noodles, cherries, and crunchy crumbs."
+        },
+        {
+          "number": 9,
+          "step": "Wipe the bowl edges clean with a fresh damp cloth for a clean restaurant presentation."
+        },
+        {
+          "number": 10,
+          "step": "Serve the Polish dessert noodle bowls immediately while the components are comfortably warm."
+        },
+        {
+          "number": 11,
+          "step": "Provide long dessert spoons so guests can easily capture all sweet texturised layers."
+        },
+        {
+          "number": 12,
+          "step": "Offer extra cherry sauce on the side for guests who enjoy additional fruity dessert moisture."
+        },
+        {
+          "number": 13,
+          "step": "Store any leftover dessert pasta and fruit sauce separately in airtight chilled containers."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Finish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sprinkle remaining poppy seeds lightly over the whipped quark noodles for visual contrast."
+        },
+        {
+          "number": 2,
+          "step": "Add a final dash of grated ginger to the fruit sauce if extra zing is desired by guests."
+        },
+        {
+          "number": 3,
+          "step": "Ensure the serving bowls stay warm during dinner service for optimal guest enjoyment."
+        },
+        {
+          "number": 4,
+          "step": "Pair this Polish sweet dish with hot tea or black coffee to balance the creamy sweetness."
+        },
+        {
+          "number": 5,
+          "step": "Reheat leftover dessert noodles gently in a microwave with a splash of milk before eating."
+        },
+        {
+          "number": 6,
+          "step": "Enjoy the wonderful synthesis of warm sweet pasta, tangy quark, and bright tart cherries."
+        },
+        {
+          "number": 7,
+          "step": "Vary the fruit next time by substituting blueberries or stewed plums for seasonal variety."
+        },
+        {
+          "number": 8,
+          "step": "Keep extra toasted crumbs in a jar to add texture to fruit purees or warm cereal dishes."
+        },
+        {
+          "number": 9,
+          "step": "Appreciate this rustic traditional Central European sweet pasta as a comforting treat."
+        },
+        {
+          "number": 10,
+          "step": "Clean all dessert prep items promptly to finalize your Polish culinary experience."
+        },
+        {
+          "number": 11,
+          "step": "Serve additional fresh mint leaves alongside for custom bowl decorating by your guests."
+        },
+        {
+          "number": 12,
+          "step": "Celebrate the unique dessert application of broad egg noodles at your dinner table."
+        },
+        {
+          "number": 13,
+          "step": "Enjoy every bite of this satisfyingly sweet, rich Polish dessert bowl creation."
+        }
+      ]
+    },
+    {
+      "name": "Final Dessert Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Present the dessert bowls to your dining guests immediately after the main meal concludes."
+        },
+        {
+          "number": 2,
+          "step": "Explain the traditional Polish heritage of sweet curd cheese and cherry egg noodle dishes."
+        },
+        {
+          "number": 3,
+          "step": "Encourage guests to mix the topping into the warm noodles for the best texturised bite."
+        },
+        {
+          "number": 4,
+          "step": "Keep leftover sweet quark cold in the refrigerator for quick dessert bowl prep next day."
+        },
+        {
+          "number": 5,
+          "step": "Enjoy the compliments from your dinner guests on this unexpected sweet dessert course."
+        },
+        {
+          "number": 6,
+          "step": "Save any remaining fruit syrup to pour over morning pancakes or french toast slices."
+        },
+        {
+          "number": 7,
+          "step": "Store extra nut crumble in an airtight container to maintain maximum crunchiness."
+        },
+        {
+          "number": 8,
+          "step": "Experiment with adding lemon thyme or sweet basil as alternate fresh green garnishes."
+        },
+        {
+          "number": 9,
+          "step": "Mastering this dish brings authentic Polish dessert comfort straight into your kitchen."
+        },
+        {
+          "number": 10,
+          "step": "Double the sour cherry reduction volume when catering for larger sweet dessert gatherings."
+        },
+        {
+          "number": 11,
+          "step": "Maintain correct noodle boiling times to prevent pasta soft mushiness during sweet assembly."
+        },
+        {
+          "number": 12,
+          "step": "Wrap up the sweet dessert experience with a relaxing cup of spiced fruit infusion tea."
+        },
+        {
+          "number": 13,
+          "step": "Reflect on how simple household ingredients create extraordinary global sweet tradition."
+        }
+      ]
+    }
+  ]
+}

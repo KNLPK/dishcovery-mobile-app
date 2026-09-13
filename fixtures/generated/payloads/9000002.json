@@ -1,0 +1,303 @@
+{
+  "id": 9000002,
+  "title": "Celebration Duck Breast and Taro Stew",
+  "image": "generated://dishcovery/9000002.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Elevate your festive table with this elegant <b>Japanese duck stew</b>, created specifically for joyful family celebrations and seasonal gatherings. Thick slices of tender duck breast are gently simmered alongside carved lotus root, tender taro, and colorful carrots in a dashi broth infused with mirin and light soy sauce. This savory celebration stew showcases traditional cuts of winter vegetables shaped into decorative blossom patterns that add visual beauty to every bowl. The rich, velvety duck fat renders into the sweet broth, giving it an unmistakable body and depth that warming simmered dishes demand. Fresh shiitake mushrooms absorb the savory seasonings while sweet snow peas add a bright green finish just before serving. A subtle hint of fresh ginger warms the palate, making this heartwarming stew a memorable main course for special occasions. Prepare this vibrant dish when welcoming guests or celebrating new beginnings with family. The balance of sweet, salty, and rich flavors ensures a dining experience that feels honorable and deeply satisfying.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Niacin",
+        "amount": 9.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Iodine",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Potassium",
+        "amount": 850,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "duck breast"
+    },
+    {
+      "id": 90001,
+      "amount": 750,
+      "unit": "ml",
+      "name": "dashi stock"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "taro root"
+    },
+    {
+      "id": 90003,
+      "amount": 150,
+      "unit": "g",
+      "name": "lotus root"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "carrot"
+    },
+    {
+      "id": 90005,
+      "amount": 6,
+      "unit": "caps",
+      "name": "shiitake mushrooms"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "light soy sauce"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90010,
+      "amount": 50,
+      "unit": "g",
+      "name": "snow peas"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Stewing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Score the skin of the duck breast in a crosshatch pattern and cut into thick, bite-sized diagonal slices."
+        },
+        {
+          "number": 2,
+          "step": "Peel the taro, lotus root, and carrot, then slice them into decorative shapes for a celebratory presentation."
+        },
+        {
+          "number": 3,
+          "step": "Heat a dry skillet over medium heat and lightly sear the duck slices skin-side down until fat renders out."
+        },
+        {
+          "number": 4,
+          "step": "Bring dashi stock, mirin, soy sauce, sake, and minced ginger to a gentle simmer in a large clay pot."
+        },
+        {
+          "number": 5,
+          "step": "Add the root vegetables and shiitake mushrooms to the broth, covering to simmer on low heat for 20 minutes."
+        },
+        {
+          "number": 6,
+          "step": "Skim off excess fat, add the seared duck and snow peas, and cook for another five minutes before serving warm."
+        }
+      ]
+    }
+  ]
+}

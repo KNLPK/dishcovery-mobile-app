@@ -1,0 +1,552 @@
+{
+  "id": 9001040,
+  "title": "Make-Ahead Polish Sour Rye Soup with Sausage and Boiled Eggs",
+  "image": "generated://dishcovery/9001040.jpg",
+  "readyInMinutes": 90,
+  "servings": 6,
+  "summary": "This comforting <b>Polish soup</b> showcases the rich depth of traditional fermentation combined with savory smoked meats. A tangy fermented rye flour starter forms the signature acidic broth base, simmered with marjoram, garlic, bay leaves, and allspice berries. Threw-in chunks of smoked kielbasa sausage, diced potatoes, and soft hard-boiled egg halves create a satisfying meal in a bowl. Specially adapted as a <b>make-ahead version</b>, the soup gains even more depth and harmony of flavor when rested overnight in the refrigerator. A touch of heavy cream and prepared horseradish finishes the broth, balancing tart notes with velvety warmth. Serve this classic żurek alongside crusty rye bread for an authentic Polish dining experience. Nutrient-dense, offering generous amounts of <b>vital minerals</b> and protein, this hearty soup brings cozy European tavern tradition directly into your home kitchen.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 460,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 47.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Protein",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 61.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 940,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 90,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 410,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8.2
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 35,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5.8
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37.5
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.9
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58.3
+      },
+      {
+        "name": "Folate",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 31,
+        "unit": "µg",
+        "percentOfDailyNeeds": 56.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.21,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.6
+      },
+      {
+        "name": "Choline",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.7
+      },
+      {
+        "name": "Chloride",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "ml",
+      "name": "fermented rye sour starter"
+    },
+    {
+      "id": 90001,
+      "amount": 350,
+      "unit": "g",
+      "name": "smoked kielbasa sausage"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "smoked bacon"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "medium",
+      "name": "yellow potatoes"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 6,
+      "unit": "cups",
+      "name": "marrow bone broth"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "hardboiled",
+      "name": "eggs"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dried marjoram"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "whole",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90010,
+      "amount": 5,
+      "unit": "whole",
+      "name": "allspice berries"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "prepared horseradish"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black peppercorns"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "medium",
+      "name": "parsnip"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "celery"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sunflower oil"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rye flour"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white vinegar"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard powder"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90024,
+      "amount": 6,
+      "unit": "slices",
+      "name": "crusty rye bread"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Broth and Base Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Dice smoked bacon into small half-inch lardons using sharp chef knife on clean board."
+        },
+        {
+          "number": 2,
+          "step": "Slice smoked kielbasa sausage into half-inch thick circular rounds on cutting board."
+        },
+        {
+          "number": 3,
+          "step": "Peel yellow potatoes, parsnip, and celery, cutting all into uniform one-inch cubes."
+        },
+        {
+          "number": 4,
+          "step": "Dice yellow onion finely and crush four garlic cloves with flat side of chef knife."
+        },
+        {
+          "number": 5,
+          "step": "Heat sunflower oil in large heavy Dutch oven pot over medium flame until hot."
+        },
+        {
+          "number": 6,
+          "step": "Add bacon lardons to Dutch oven, frying six minutes until fat renders out completely."
+        },
+        {
+          "number": 7,
+          "step": "Add diced onion to rendered bacon fat, stirring five minutes until soft and translucent."
+        },
+        {
+          "number": 8,
+          "step": "Stir sliced kielbasa sausage into pot, searing four minutes until meat edges brown."
+        },
+        {
+          "number": 9,
+          "step": "Add crushed garlic, bay leaves, allspice berries, and black peppercorns to pan."
+        },
+        {
+          "number": 10,
+          "step": "Cook aromatics for two minutes until fragrant spices release their oils into fat."
+        },
+        {
+          "number": 11,
+          "step": "Pour six cups bone broth into Dutch oven, scraping up all browned bits from bottom."
+        },
+        {
+          "number": 12,
+          "step": "Add cubed potatoes, parsnips, celery, caraway seeds, and salt to stock pot."
+        },
+        {
+          "number": 13,
+          "step": "Bring broth to rolling boil over high heat, then reduce flame to maintain simmer."
+        },
+        {
+          "number": 14,
+          "step": "Simmer soup covered for twenty minutes until potato cubes are tender throughout."
+        },
+        {
+          "number": 15,
+          "step": "Shake fermented rye sour starter jar well to suspend settled flour evenly in starter."
+        },
+        {
+          "number": 16,
+          "step": "Pour fermented rye starter slowly into simmering soup while stirring constantly with spoon."
+        },
+        {
+          "number": 17,
+          "step": "Rub dried marjoram between palms into soup pot to release maximum fragrant herb oil."
+        },
+        {
+          "number": 18,
+          "step": "Simmer sour soup fifteen minutes until broth thickens slightly and turns velvety opaque."
+        },
+        {
+          "number": 19,
+          "step": "Whisk heavy cream, prepared horseradish, and rye flour together in small bowl until smooth."
+        },
+        {
+          "number": 20,
+          "step": "Temper cream mixture with ladle of hot soup, then stir tempered cream into pot."
+        },
+        {
+          "number": 21,
+          "step": "Stir in white vinegar and mustard powder, simmering three additional minutes on low."
+        },
+        {
+          "number": 22,
+          "step": "Remove pot from burner and allow soup to cool down completely to room temperature."
+        }
+      ]
+    },
+    {
+      "name": "Overnight Rest and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cover cooled soup pot with tight lid and refrigerate overnight for full flavor development."
+        },
+        {
+          "number": 2,
+          "step": "Next day, peel shell from hardboiled eggs and slice each egg cleanly in half lengthways."
+        },
+        {
+          "number": 3,
+          "step": "Remove soup pot from refrigerator and skim off any excess solid fat from cold surface."
+        },
+        {
+          "number": 4,
+          "step": "Place soup pot over medium heat and warm slowly, stirring occasionally to prevent sticking."
+        },
+        {
+          "number": 5,
+          "step": "Bring soup to gentle simmer for ten minutes until piping hot throughout whole pot."
+        },
+        {
+          "number": 6,
+          "step": "Taste broth and add small pinch of salt or extra horseradish if bolder kick is desired."
+        },
+        {
+          "number": 7,
+          "step": "Chop fresh dill and flat leaf parsley finely on clean cutting board for herbal garnish."
+        },
+        {
+          "number": 8,
+          "step": "Ladle hot sour rye soup into six deep soup bowls, ensuring equal sausage and potatoes."
+        },
+        {
+          "number": 9,
+          "step": "Place two hardboiled egg halves carefully into center of each served bowl of warm soup."
+        },
+        {
+          "number": 10,
+          "step": "Garnish each portion generously with chopped fresh dill and minced green parsley."
+        },
+        {
+          "number": 11,
+          "step": "Sprinkle extra dried marjoram lightly over egg tops for classic traditional look."
+        },
+        {
+          "number": 12,
+          "step": "Toast slices of crusty rye bread until warm and slightly crispy around outer edges."
+        },
+        {
+          "number": 13,
+          "step": "Serve hot sour rye soup immediately alongside warm buttered rye bread slices."
+        },
+        {
+          "number": 14,
+          "step": "Provide extra prepared horseradish on table for guests who prefer more fiery tang."
+        },
+        {
+          "number": 15,
+          "step": "Check soup temperature to ensure steam rises from bowls as served to guests."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy make-ahead żurek as deeply satisfying classic Polish culinary comfort dish."
+        },
+        {
+          "number": 17,
+          "step": "Store any remaining soup leftovers in sealed glass container in fridge for three days."
+        },
+        {
+          "number": 18,
+          "step": "Reheat remaining portions gently on stovetop, adding splash of water if broth thickens."
+        },
+        {
+          "number": 19,
+          "step": "Verify balance of sour starter acidity and rich sausage fat in reheated portions."
+        },
+        {
+          "number": 20,
+          "step": "Serve with fresh hardboiled eggs added right before eating for best texture match."
+        },
+        {
+          "number": 21,
+          "step": "Appreciate complex fermented tang achieved through overnight resting method step."
+        }
+      ]
+    }
+  ]
+}

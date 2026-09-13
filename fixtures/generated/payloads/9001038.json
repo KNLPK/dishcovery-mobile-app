@@ -1,0 +1,553 @@
+{
+  "id": 9001038,
+  "title": "Quick Lebanese Freekeh Grain Salad with Lemon Tahini Dressing",
+  "image": "generated://dishcovery/9001038.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "Designed for busy evenings, this <b>Lebanese grain salad</b> offers a vibrant mix of smoky freekeh, crisp garden vegetables, and warm aromatic spices. Roasted green wheat serves as the robust foundation, cooked quickly and tossed with English cucumbers, sweet cherry tomatoes, and red onion. Fresh flat-leaf parsley and spearmint add herbs that lighten the earthy whole grain texture, while toasted chickpeas and pomegranate seeds provide delightful crunch and sweet-tart bursts. A creamy lemon-tahini dressing binds the ingredients together, adding a smooth garlic kick. Perfect for a speedy <b>weeknight dinner</b>, this colorful salad comes together in just thirty minutes while staying true to traditional Levantine flavor profiles. Nutritious, high in <b>dietary fiber</b>, and completely plant-forward, it makes a satisfying standalone main or a versatile side dish for grilled proteins.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 24.6
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.9
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Fiber",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Calcium",
+        "amount": 120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42.4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 54.2
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.2
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.4
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27.5
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Magnesium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.6
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 32.7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 60.9
+      },
+      {
+        "name": "Choline",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.9
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.3
+      },
+      {
+        "name": "Chloride",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "cracked freekeh"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90002,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "tahini paste"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "can",
+      "name": "chickpeas"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "medium",
+      "name": "english cucumber"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "flat leaf parsley"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "bunch",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground sumac"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "warm water"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "zaatar spice blend"
+    },
+    {
+      "id": 90021,
+      "amount": 50,
+      "unit": "g",
+      "name": "radishes"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Cooking and Chickpea Toasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse cracked freekeh under cold water in fine mesh strainer until water runs clear."
+        },
+        {
+          "number": 2,
+          "step": "Combine rinsed freekeh and four hundred milliliters water in medium saucepan over high heat."
+        },
+        {
+          "number": 3,
+          "step": "Add a quarter teaspoon salt to boiling freekeh water and stir once with wooden spoon."
+        },
+        {
+          "number": 4,
+          "step": "Cover saucepan tightly, reduce flame to low, and simmer freekeh for fifteen minutes."
+        },
+        {
+          "number": 5,
+          "step": "Drain canned chickpeas into strainer and rinse thoroughly under cool tap water."
+        },
+        {
+          "number": 6,
+          "step": "Pat washed chickpeas dry between clean paper towels to remove excess exterior moisture."
+        },
+        {
+          "number": 7,
+          "step": "Heat one tablespoon olive oil in skillet over medium-high heat until hot."
+        },
+        {
+          "number": 8,
+          "step": "Add chickpeas to skillet with ground cumin and quarter teaspoon salt, stirring fast."
+        },
+        {
+          "number": 9,
+          "step": "Toast chickpeas for five minutes until skin turns crisp and light golden reddish brown."
+        },
+        {
+          "number": 10,
+          "step": "Add slivered almonds to skillet during final two minutes to toast alongside chickpeas."
+        },
+        {
+          "number": 11,
+          "step": "Remove skillet from heat and let toasted chickpea almond mixture cool completely."
+        },
+        {
+          "number": 12,
+          "step": "Check freekeh tender texture, remove pot from burner, and let rest covered five minutes."
+        },
+        {
+          "number": 13,
+          "step": "Fluff cooked freekeh with fork and spread across baking sheet to cool down rapidly."
+        },
+        {
+          "number": 14,
+          "step": "Ensure grains reach room temperature before combining with fresh salad ingredients."
+        }
+      ]
+    },
+    {
+      "name": "Dressing and Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel garlic cloves and crush them into smooth paste using mortar and pestle with salt."
+        },
+        {
+          "number": 2,
+          "step": "In small bowl, whisk tahini paste, garlic paste, lemon juice, and apple cider vinegar."
+        },
+        {
+          "number": 3,
+          "step": "Pour warm water into tahini mixture slowly while whisking until smooth creamy dressing forms."
+        },
+        {
+          "number": 4,
+          "step": "Whisk two tablespoons extra virgin olive oil and pomegranate molasses into dressing."
+        },
+        {
+          "number": 5,
+          "step": "Dice English cucumber into uniform quarter-inch cubes on clean wooden cutting board."
+        },
+        {
+          "number": 6,
+          "step": "Halve cherry tomatoes neatly using sharp serrated knife to preserve juicy interior."
+        },
+        {
+          "number": 7,
+          "step": "Slice red onion into paper-thin slivers and soak in cold water three minutes to tame sharp bite."
+        },
+        {
+          "number": 8,
+          "step": "Slice radishes thinly into round translucent disks for crisp peppery crunch."
+        },
+        {
+          "number": 9,
+          "step": "Chop fresh flat leaf parsley finely, including soft upper stem sections for flavor."
+        },
+        {
+          "number": 10,
+          "step": "Strip fresh mint leaves from tough stems and slice mint thinly into neat ribbons."
+        },
+        {
+          "number": 11,
+          "step": "Drain red onion slivers in strainer and pat dry with clean paper towels carefully."
+        },
+        {
+          "number": 12,
+          "step": "Taste lemon tahini dressing and adjust salt or lemon juice levels if extra acidity is needed."
+        },
+        {
+          "number": 13,
+          "step": "Place chopped cucumber, tomatoes, onion, and radishes into large glass salad bowl."
+        },
+        {
+          "number": 14,
+          "step": "Add fresh herbs to vegetable bowl and toss lightly using large wooden salad servers."
+        }
+      ]
+    },
+    {
+      "name": "Salad Mixing and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer cooled freekeh grain directly into large bowl with prepared fresh vegetables."
+        },
+        {
+          "number": 2,
+          "step": "Pour lemon tahini dressing over grain and vegetable mixture in salad bowl."
+        },
+        {
+          "number": 3,
+          "step": "Toss salad thoroughly using wooden servers until freekeh is evenly coated with dressing."
+        },
+        {
+          "number": 4,
+          "step": "Add toasted chickpeas and slivered almonds to grain salad bowl, folding gently."
+        },
+        {
+          "number": 5,
+          "step": "Scatter bright red pomegranate seeds over top of salad to provide color contrast."
+        },
+        {
+          "number": 6,
+          "step": "Dust salad surface with ground sumac and zaatar spice blend for authentic aromatic finish."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle toasted sesame seeds and chili flakes lightly across top layer of grain salad."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle remaining tablespoon olive oil over salad top for glossy appetizing finish."
+        },
+        {
+          "number": 9,
+          "step": "Let assembled grain salad sit for five minutes at room temperature so flavors meld."
+        },
+        {
+          "number": 10,
+          "step": "Taste salad and adjust seasoning with small pinch of fine black pepper if desired."
+        },
+        {
+          "number": 11,
+          "step": "Divide salad into four shallow serving bowls using large spoon or salad tongs."
+        },
+        {
+          "number": 12,
+          "step": "Ensure each serving contains balanced mix of grain, vegetables, chickpeas, and seeds."
+        },
+        {
+          "number": 13,
+          "step": "Garnish individual bowls with additional fresh mint leaf or extra sumac if preferred."
+        },
+        {
+          "number": 14,
+          "step": "Serve immediately at room temperature as satisfying weeknight main meal or side."
+        }
+      ]
+    }
+  ]
+}

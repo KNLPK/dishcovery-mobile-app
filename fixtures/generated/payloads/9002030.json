@@ -1,0 +1,934 @@
+{
+  "id": 9002030,
+  "title": "Japanese Breakfast Grain Salad with Miso Salmon",
+  "image": "generated://dishcovery/9002030.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Start your morning with a refined <b>Japanese grain salad</b> designed as a balanced, savory <b>breakfast salad</b>. Warm short-grain brown rice and pearl barley form a hearty foundation, topped with flaked miso-glazed salmon, soft-boiled ramen eggs, and pickled radish. Inspired by traditional Japanese breakfast spreads (asagohan), this dish transforms classic morning components into a modern layered salad bowl. Umami-rich seasonings like dashi broth, furikake, soy sauce, and toasted sesame oil tie every element together into a harmonized bowl. Fresh cucumber, steamed edamame, and crispy nori strips add layers of crunch and freshness that energize your palate. Rich in lean protein, complex carbohydrates, and essential omega-3 fatty acids, this breakfast creation provides sustained energy while celebrating authentic Japanese culinary discipline. Prepare components ahead for quick weekday mornings or serve fresh for a relaxing weekend brunch.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 29.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.5
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 225,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Sodium",
+        "amount": 760,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Dietary Fiber",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23.2
+      },
+      {
+        "name": "Sugars",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.6
+      },
+      {
+        "name": "Protein",
+        "amount": 31,
+        "unit": "g",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 540,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10.8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.5
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.8
+      },
+      {
+        "name": "Potassium",
+        "amount": 640,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 410,
+        "unit": "IU",
+        "percentOfDailyNeeds": 102.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 35,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 29.1
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.1
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.7
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.2
+      },
+      {
+        "name": "Folate",
+        "amount": 78,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.2,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 133.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 12,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 360,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Iodine",
+        "amount": 42,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 36,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 65.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.8
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52.1
+      },
+      {
+        "name": "Choline",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "cup",
+      "name": "short-grain brown rice"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pearl barley"
+    },
+    {
+      "id": 90002,
+      "amount": 2.5,
+      "unit": "cups",
+      "name": "dashi stock"
+    },
+    {
+      "id": 90003,
+      "amount": 12,
+      "unit": "oz",
+      "name": "salmon fillet"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "white miso paste"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "low-sodium soy sauce"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shelled edamame"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sliced persian cucumber"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced red radishes"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "furikake seasoning"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "sheets",
+      "name": "nori seaweed strips"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "black sesame seeds"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pickled red ginger"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated daikon radish"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "avocado oil"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "wasabi paste"
+    },
+    {
+      "id": 90025,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ponzu sauce"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "micro greens"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "shichimi togarashi"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "id": 90029,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "matcha powder"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "yuzu juice"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "watercress sprigs"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "hemp heart seeds"
+    },
+    {
+      "id": 90036,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "blanched spinach"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "seaweed flakes"
+    },
+    {
+      "id": 90038,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ghee oil"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sansho pepper"
+    },
+    {
+      "id": 90041,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "diced avocado"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "shiso leaves torn"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "flaky sea salt"
+    },
+    {
+      "id": 90044,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water for eggs"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse short-grain brown rice and pearl barley together under cold running water thoroughly."
+        },
+        {
+          "number": 2,
+          "step": "Drain grains in a fine mesh strainer until water runs completely clear from bottom."
+        },
+        {
+          "number": 3,
+          "step": "Transfer rinsed grains into a medium saucepan or electric rice cooker pot evenly."
+        },
+        {
+          "number": 4,
+          "step": "Pour dashi stock over grains to infuse rich umami broth flavors into cooked base."
+        },
+        {
+          "number": 5,
+          "step": "Add matcha powder and garlic powder, whisking into dashi stock before cooking begins."
+        },
+        {
+          "number": 6,
+          "step": "Stir in onion powder and sea salt to ensure even distribution of grain seasonings."
+        },
+        {
+          "number": 7,
+          "step": "Bring stock to a full boiling boil over medium-high heat setting on your stovetop."
+        },
+        {
+          "number": 8,
+          "step": "Cover saucepan with tight lid, reduce heat to low, and simmer for thirty-five minutes."
+        },
+        {
+          "number": 9,
+          "step": "Turn off heat source completely after thirty-five minutes without lifting saucepan lid."
+        },
+        {
+          "number": 10,
+          "step": "Let grains steam quietly inside covered pot for ten extra minutes to fluff properly."
+        },
+        {
+          "number": 11,
+          "step": "Uncover pot and fluff cooked grain mixture gently using a wet wooden rice paddle."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle rice vinegar and maple syrup over warm grains while tossing with paddle lightly."
+        },
+        {
+          "number": 13,
+          "step": "Fold toasted white sesame seeds into grain mixture for delicate aroma and light crunch."
+        },
+        {
+          "number": 14,
+          "step": "Sprinkle hemp heart seeds across warm cooked grains to boost breakfast protein content."
+        },
+        {
+          "number": 15,
+          "step": "Fold blanched spinach gently into grains to add vibrant green color throughout salad base."
+        },
+        {
+          "number": 16,
+          "step": "Cover cooked grain pot loosely to maintain warm serving temperature until bowl assembly."
+        },
+        {
+          "number": 17,
+          "step": "Taste grains for tender chew texture and add small splash of dashi if extra moisture needed."
+        },
+        {
+          "number": 18,
+          "step": "Divide cooked grain mixture mentally into four equal portions ready for serving bowls."
+        },
+        {
+          "number": 19,
+          "step": "Keep grain base warm while moving forward with fish and egg preparation steps quickly."
+        },
+        {
+          "number": 20,
+          "step": "Ensure rice paddle remains clean and moist during handling to avoid crushing cooked grains."
+        },
+        {
+          "number": 21,
+          "step": "Inspect grain texture to verify barley and brown rice are fully tender and fragrant."
+        },
+        {
+          "number": 22,
+          "step": "Transfer grains to large shallow wooden bowl if cooling slightly for warm salad feel."
+        },
+        {
+          "number": 23,
+          "step": "Cover wooden bowl with moist paper towel to prevent surface grains from drying out."
+        },
+        {
+          "number": 24,
+          "step": "Keep grain prep station neat and clear counter space for fish glaze assembly step."
+        },
+        {
+          "number": 25,
+          "step": "Check that all dry seasonings have dissolved completely into grain broth base."
+        },
+        {
+          "number": 26,
+          "step": "Set aside completed Japanese grain base near assembly area for efficient bowl building."
+        }
+      ]
+    },
+    {
+      "name": "Miso Salmon Glaze",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk white miso paste, mirin, low-sodium soy sauce, and sake together in small bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add toasted sesame oil and grated fresh ginger into glaze mixture until smooth texture."
+        },
+        {
+          "number": 3,
+          "step": "Incorporate yuzu juice into miso glaze to add bright citrus fragrance and balanced tang."
+        },
+        {
+          "number": 4,
+          "step": "Pat salmon fillet dry on all sides using clean paper towels on cutting board."
+        },
+        {
+          "number": 5,
+          "step": "Cut salmon fillet into four equal portion blocks using a sharp chef knife carefully."
+        },
+        {
+          "number": 6,
+          "step": "Brush avocado oil over skin side of salmon portions before placing in baking dish."
+        },
+        {
+          "number": 7,
+          "step": "Spoon miso marinade generously over top flesh of each salmon portion to coat fully."
+        },
+        {
+          "number": 8,
+          "step": "Let salmon marinate at room temperature for ten minutes while oven preheats to high broiler."
+        },
+        {
+          "number": 9,
+          "step": "Place salmon under broiler four inches from heat source for seven to eight minutes total."
+        },
+        {
+          "number": 10,
+          "step": "Watch for miso glaze to turn golden brown and caramelized along edges of fish."
+        },
+        {
+          "number": 11,
+          "step": "Check salmon center with fork to ensure flesh flakes easily while remaining juicy inside."
+        },
+        {
+          "number": 12,
+          "step": "Remove glazed salmon from oven and let rest on cutting board for three minutes."
+        },
+        {
+          "number": 13,
+          "step": "Flake cooked miso salmon gently into large bite-sized chunks using two clean forks."
+        },
+        {
+          "number": 14,
+          "step": "Drizzle remaining pan juices from baking dish over flaked salmon chunks for maximum flavor."
+        },
+        {
+          "number": 15,
+          "step": "Dust flaked salmon lightly with shichimi togarashi spice powder for subtle warm heat."
+        },
+        {
+          "number": 16,
+          "step": "Keep warm flaked salmon covered loosely with foil until breakfast salad bowl assembly."
+        },
+        {
+          "number": 17,
+          "step": "Inspect salmon flakes to remove any tiny pin bones carefully before final bowl plating."
+        },
+        {
+          "number": 18,
+          "step": "Drizzle tiny drop of ponzu sauce over flaked fish to enhance savory depth right away."
+        },
+        {
+          "number": 19,
+          "step": "Ensure salmon skin is removed if guests prefer skinless flaked fish in grain salad."
+        },
+        {
+          "number": 20,
+          "step": "Set prepared miso salmon adjacent to warm grain pot on counter for rapid plating."
+        },
+        {
+          "number": 21,
+          "step": "Verify salmon glaze achieved proper glossy sheen and rich caramelized aromatic notes."
+        },
+        {
+          "number": 22,
+          "step": "Maintain warm temperature of flaked salmon so it integrates well with warm grains."
+        },
+        {
+          "number": 23,
+          "step": "Prepare small dish of extra miso glaze for guests who desire richer flavor boost."
+        },
+        {
+          "number": 24,
+          "step": "Clean glazing tools and prep dishes promptly to maintain tidy morning kitchen environment."
+        },
+        {
+          "number": 25,
+          "step": "Keep fish warm without continuing to cook flesh past ideal flake tenderness level."
+        },
+        {
+          "number": 26,
+          "step": "Confirm all four salmon portions are flaked evenly to ensure uniform breakfast servings."
+        }
+      ]
+    },
+    {
+      "name": "Egg & Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring two cups of water to a rolling boil in a small deep pot over high heat."
+        },
+        {
+          "number": 2,
+          "step": "Lower four large eggs gently into boiling water using a slotted spoon one by one."
+        },
+        {
+          "number": 3,
+          "step": "Boil eggs for exactly six minutes and thirty seconds to achieve jammy soft yolks."
+        },
+        {
+          "number": 4,
+          "step": "Prepare an ice water bath in a medium bowl while eggs boil on stovetop."
+        },
+        {
+          "number": 5,
+          "step": "Transfer cooked eggs immediately into ice water bath using slotted spoon to stop cooking."
+        },
+        {
+          "number": 6,
+          "step": "Let eggs chill in ice water for five minutes before gently cracking shells all around."
+        },
+        {
+          "number": 7,
+          "step": "Peel soft-boiled eggs carefully under cold running water to keep white surface smooth."
+        },
+        {
+          "number": 8,
+          "step": "Slice peeled jammy eggs in half lengthwise with clean wet knife right before plating."
+        },
+        {
+          "number": 9,
+          "step": "Combine sliced red radishes, rice vinegar, sugar, and salt in small bowl for pickling."
+        },
+        {
+          "number": 10,
+          "step": "Let radishes pickle at room temperature for ten minutes until crisp and bright pink."
+        },
+        {
+          "number": 11,
+          "step": "Steam shelled edamame in microwave or small basket for two minutes until tender green."
+        },
+        {
+          "number": 12,
+          "step": "Toss edamame with pinch of sea salt and black sesame seeds in small dish."
+        },
+        {
+          "number": 13,
+          "step": "Slice Persian cucumber into thin coins and toss lightly with extra virgin olive oil."
+        },
+        {
+          "number": 14,
+          "step": "Grate daikon radish finely and squeeze out excess moisture using clean paper towel."
+        },
+        {
+          "number": 15,
+          "step": "Cut nori seaweed sheets into thin two-inch strips using kitchen shears carefully."
+        },
+        {
+          "number": 16,
+          "step": "Chop green onions thinly on bias for fresh crisp garnish over salad bowls."
+        },
+        {
+          "number": 17,
+          "step": "Tear fresh shiso leaves into small rustic pieces to add herbaceous citrus anise notes."
+        },
+        {
+          "number": 18,
+          "step": "Dice fresh avocado into neat cubes and toss with splash of ponzu sauce gently."
+        },
+        {
+          "number": 19,
+          "step": "Arrange all fresh vegetable toppings in separate small ramekins for efficient assembly line."
+        },
+        {
+          "number": 20,
+          "step": "Check pickled radishes for ideal tangy flavor balance before spooning onto finished dish."
+        },
+        {
+          "number": 21,
+          "step": "Ensure egg yolks remain soft and jammy without breaking during slicing step carefully."
+        },
+        {
+          "number": 22,
+          "step": "Keep watercress sprigs crisp in cold water bath until final bowl decoration step."
+        },
+        {
+          "number": 23,
+          "step": "Drain watercress thoroughly on paper towel before placing over finished grain bowl."
+        },
+        {
+          "number": 24,
+          "step": "Inspect cucumber slices for crisp texture and uniform thickness across all bowl portions."
+        },
+        {
+          "number": 25,
+          "step": "Verify all vegetable toppings are cold and crisp to contrast warm grains and salmon."
+        },
+        {
+          "number": 26,
+          "step": "Keep all topping elements close to plating area for fast organized breakfast assembly."
+        }
+      ]
+    },
+    {
+      "name": "Bowl Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Scoop warm dashi grain base evenly into four deep ceramic breakfast salad bowls."
+        },
+        {
+          "number": 2,
+          "step": "Arrange flaked miso salmon over one quadrant of cooked grain base in each bowl."
+        },
+        {
+          "number": 3,
+          "step": "Place two soft-boiled jammy egg halves side-by-side next to salmon in bowl center."
+        },
+        {
+          "number": 4,
+          "step": "Spoon seasoned edamame beans into separate quadrant opposite to flaked miso salmon."
+        },
+        {
+          "number": 5,
+          "step": "Nestle sliced Persian cucumber coins neatly between edamame and grain edges in bowl."
+        },
+        {
+          "number": 6,
+          "step": "Add pickled red radishes next to cucumbers to provide bright magenta color splash."
+        },
+        {
+          "number": 7,
+          "step": "Place a mound of grated daikon radish and pickled red ginger beside soft egg halves."
+        },
+        {
+          "number": 8,
+          "step": "Scatter diced avocado cubes into remaining open space on grain salad surface."
+        },
+        {
+          "number": 9,
+          "step": "Tuck watercress sprigs and torn shiso leaves along inside rim of each salad bowl."
+        },
+        {
+          "number": 10,
+          "step": "Drizzle remaining ponzu sauce generously over vegetable components in all bowls."
+        },
+        {
+          "number": 11,
+          "step": "Sprinkle furikake seasoning across eggs, salmon, and grain base for savory umami finish."
+        },
+        {
+          "number": 12,
+          "step": "Top each breakfast salad with crisp nori seaweed strips piled neatly over salmon."
+        },
+        {
+          "number": 13,
+          "step": "Garnish with sliced green onions and black sesame seeds across entire bowl surface."
+        },
+        {
+          "number": 14,
+          "step": "Dust sansho pepper lightly over soft egg yolk center for authentic Japanese bite."
+        },
+        {
+          "number": 15,
+          "step": "Add small dollop of wasabi paste on bowl rim for optional spicy customization by guest."
+        },
+        {
+          "number": 16,
+          "step": "Sprinkle flaky sea salt over fresh avocado and egg halves right before serving."
+        },
+        {
+          "number": 17,
+          "step": "Dust seaweed flakes over cucumber slices for additional ocean flavor enhancement."
+        },
+        {
+          "number": 18,
+          "step": "Inspect each bowl to ensure balanced arrangement of colors, textures, and rich aromas."
+        },
+        {
+          "number": 19,
+          "step": "Wipe bowl rims clean with warm towel for pristine breakfast table presentation."
+        },
+        {
+          "number": 20,
+          "step": "Serve immediately while grains and salmon are warm and fresh vegetables are crisp."
+        },
+        {
+          "number": 21,
+          "step": "Provide chopsticks and soup spoon with each bowl for traditional Japanese dining style."
+        },
+        {
+          "number": 22,
+          "step": "Pairs splendidly with hot green tea or roasted hojicha tea for full breakfast experience."
+        },
+        {
+          "number": 23,
+          "step": "Instruct guests to mix ingredients together into grains for balanced flavor in each bite."
+        },
+        {
+          "number": 24,
+          "step": "Store remaining cooked components separately in airtight containers in refrigerator promptly."
+        },
+        {
+          "number": 25,
+          "step": "Reheat leftover grains gently with splash of water before re-assembling fresh breakfast bowls."
+        }
+      ]
+    }
+  ]
+}

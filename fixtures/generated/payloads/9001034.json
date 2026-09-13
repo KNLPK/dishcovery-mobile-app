@@ -1,0 +1,550 @@
+{
+  "id": 9001034,
+  "title": "Festive Royal Couscous Salad with Pomegranate",
+  "image": "generated://dishcovery/9001034.jpg",
+  "readyInMinutes": 40,
+  "servings": 8,
+  "summary": "This vibrant <b>Moroccan couscous salad</b> brings regal flair to celebration tables with its jewel-toned garnishes. Built around light <b>steamed fluffy couscous</b>, the grain is tossed with juicy pomegranate seeds, toasted almonds, dried apricots, and fresh herbs. A warm dressing infused with orange blossom water, cinnamon, and cumin brings intoxicating aromatic complexity. Perfect for family feasts or festive gatherings, this salad serves as a breathtaking centerpiece dish. Loaded with natural antioxidants, fiber, and healthy plant oils, it is as nourishing as it is visually spectacular. Steaming the couscous properly ensures fluffy separate grains that absorb the citrus dressing without becoming heavy or dense. Prepare the salad an hour in advance to let dried fruits absorb warm spices and plump up naturally. Garnish generously with fresh mint, crumbled feta cheese, and extra toasted nuts right before serving to guests.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Sodium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Fiber",
+        "amount": 5.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 680,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 130,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Copper",
+        "amount": 0.21,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "vegetable stock"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "pomegranate"
+    },
+    {
+      "id": 90003,
+      "amount": 80,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90004,
+      "amount": 60,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90005,
+      "amount": 50,
+      "unit": "g",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "orange juice"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "flat-leaf parsley"
+    },
+    {
+      "id": 90017,
+      "amount": 3,
+      "unit": "pcs",
+      "name": "scallions"
+    },
+    {
+      "id": 90018,
+      "amount": 60,
+      "unit": "g",
+      "name": "crumbled feta cheese"
+    },
+    {
+      "id": 90019,
+      "amount": 40,
+      "unit": "g",
+      "name": "toasted pistachios"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "english cucumber"
+    },
+    {
+      "id": 90022,
+      "amount": 150,
+      "unit": "g",
+      "name": "canned chickpeas"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground ginger"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Steaming Couscous Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure dry couscous grains into a large heatproof ceramic bowl and add sea salt."
+        },
+        {
+          "number": 2,
+          "step": "Pour vegetable stock into a saucepan and bring to a rolling boil over high heat."
+        },
+        {
+          "number": 3,
+          "step": "Pour boiling stock over dry couscous, adding one tablespoon of olive oil quickly."
+        },
+        {
+          "number": 4,
+          "step": "Stir couscous once with a fork, cover bowl tightly with plastic film, wait ten minutes."
+        },
+        {
+          "number": 5,
+          "step": "Remove plastic wrap carefully and fluff couscous grains thoroughly using a large fork."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle orange blossom water over steamed couscous, raking gently to separate grains."
+        },
+        {
+          "number": 7,
+          "step": "Spread steamed couscous onto a clean wide baking sheet to cool to room temperature."
+        },
+        {
+          "number": 8,
+          "step": "Ensure grains do not clump together while cooling on baking sheet before mixing."
+        },
+        {
+          "number": 9,
+          "step": "Measure out golden raisins and place into a small bowl filled with warm water."
+        },
+        {
+          "number": 10,
+          "step": "Soak raisins for ten minutes to plump up, then drain completely using fine sieve."
+        }
+      ]
+    },
+    {
+      "name": "Prep Mix-ins and Toasting Nuts",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place slivered almonds into a dry skillet set over medium heat on burner top."
+        },
+        {
+          "number": 2,
+          "step": "Toast almonds for four minutes until light golden brown, stirring continuously to prevent burning."
+        },
+        {
+          "number": 3,
+          "step": "Transfer toasted almonds to a small plate to cool completely before adding to salad."
+        },
+        {
+          "number": 4,
+          "step": "Toast pistachios in same skillet for two minutes, then coarsely chop on cutting board."
+        },
+        {
+          "number": 5,
+          "step": "Cut dried apricots into small uniform quarter-inch dice using a sharp chef's knife."
+        },
+        {
+          "number": 6,
+          "step": "Cut pomegranate in half underwater in a deep bowl to release vibrant red seeds easily."
+        },
+        {
+          "number": 7,
+          "step": "Skim floating white pith off water surface and drain bright red seeds in colander."
+        },
+        {
+          "number": 8,
+          "step": "Rinse canned chickpeas under cold tap water and drain dry using clean paper towels."
+        },
+        {
+          "number": 9,
+          "step": "Dice English cucumber into small seedless quarter-inch cubes for fresh cool crunch."
+        },
+        {
+          "number": 10,
+          "step": "Thinly slice scallions, fresh mint leaves, and flat-leaf parsley sprigs fine on board."
+        }
+      ]
+    },
+    {
+      "name": "Dressing and Combining",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk remaining extra virgin olive oil, fresh orange juice, and lemon juice in glass bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add honey, ground cinnamon, ground cumin, ground coriander, and ground ginger to dressing."
+        },
+        {
+          "number": 3,
+          "step": "Season dressing with black pepper and lemon zest, whisking vigorously until emulsion forms."
+        },
+        {
+          "number": 4,
+          "step": "Transfer cooled fluffy couscous from tray into a very large decorative wooden mixing bowl."
+        },
+        {
+          "number": 5,
+          "step": "Add chopped dried apricots, soaked golden raisins, and drained chickpeas into couscous."
+        },
+        {
+          "number": 6,
+          "step": "Add diced English cucumber, sliced scallions, chopped parsley, and half of fresh mint."
+        },
+        {
+          "number": 7,
+          "step": "Pour prepared aromatic citrus dressing evenly over couscous and mix-ins in bowl."
+        },
+        {
+          "number": 8,
+          "step": "Toss salad gently using two wooden servers until dressing coats all grains evenly."
+        },
+        {
+          "number": 9,
+          "step": "Stir half of toasted almonds, toasted pistachios, and pomegranate seeds into salad."
+        },
+        {
+          "number": 10,
+          "step": "Cover bowl with plastic wrap and chill in refrigerator for twenty minutes to marry flavors."
+        }
+      ]
+    },
+    {
+      "name": "Garnishing and Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove chilled couscous salad from refrigerator and remove plastic film wrapper."
+        },
+        {
+          "number": 2,
+          "step": "Toss salad once more with wooden servers to loosen grains and refresh dressing distribution."
+        },
+        {
+          "number": 3,
+          "step": "Taste salad and add a small pinch of extra sea salt or lemon juice if needed."
+        },
+        {
+          "number": 4,
+          "step": "Mound salad neatly in center of large Moroccan decorative ceramic serving platter."
+        },
+        {
+          "number": 5,
+          "step": "Scatter remaining bright red pomegranate seeds over top surface of salad dome."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle remaining toasted slivered almonds and chopped pistachios over salad for crunch."
+        },
+        {
+          "number": 7,
+          "step": "Crumble feta cheese evenly over top surface, adding creamy salty flavor balance."
+        },
+        {
+          "number": 8,
+          "step": "Garnish top with remaining fresh mint leaves to provide vibrant green color contrast."
+        },
+        {
+          "number": 9,
+          "step": "Serve salad at cool room temperature as a festive central dish alongside roasted meats."
+        },
+        {
+          "number": 10,
+          "step": "Refrigerate leftover salad in airtight container; stays fresh and delicious up to two days."
+        }
+      ]
+    }
+  ]
+}

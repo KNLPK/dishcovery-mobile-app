@@ -1,0 +1,855 @@
+{
+  "id": 9002022,
+  "title": "Make-Ahead Polish Smoked Sausage and Marjoram Rye Soup",
+  "image": "generated://dishcovery/9002022.jpg",
+  "readyInMinutes": 95,
+  "servings": 6,
+  "summary": "This deep and hearty <b>Polish smoked sausage soup</b> is specifically designed to be prepared a day ahead so that the rich marjoram, sour rye starter, and braised root vegetables can fuse into a perfectly balanced flavor profile. Rooted in traditional central European broth crafting, the soup combines double-simmered smoked meats with earthy vegetables and aromatic herbs to yield a fragrant, soothing bowl. Utilizing a fermented rye base gives it a characteristic gentle tang, which cuts cleanly through the savory richness of pork fat and smoked paprika. For maximum enjoyment, allow the finished soup to rest overnight in the refrigerator before reheating gently over medium flame. Serve each steaming portion with half a hard-boiled egg, fresh chopped dill, and a side of dark rye bread spread with soft cultured butter. The extended cooking procedure breaks down tough root starches while retaining structural integrity, making it an outstanding recipe for batch cooking, family gatherings, and cold winter evenings. Incorporating <b>fermented sour rye</b> adds both digestive comfort and unmistakable rustic charm to this timeless soup.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420.5,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 22.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 34.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 5.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.7
+      },
+      {
+        "name": "Protein",
+        "amount": 18.6,
+        "unit": "g",
+        "percentOfDailyNeeds": 37.2
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 940,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40.8
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 19.2
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 0.5
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 10.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.9
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.7
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 34,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.4
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45.8
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.6
+      },
+      {
+        "name": "Selenium",
+        "amount": 18.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.1
+      },
+      {
+        "name": "Chromium",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "smoked polish sausage"
+    },
+    {
+      "id": 90001,
+      "amount": 250,
+      "unit": "g",
+      "name": "sour rye starter base"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "l",
+      "name": "clear vegetable stock"
+    },
+    {
+      "id": 90003,
+      "amount": 200,
+      "unit": "g",
+      "name": "diced yellow onion"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "cubed Yukon gold potatoes"
+    },
+    {
+      "id": 90005,
+      "amount": 120,
+      "unit": "g",
+      "name": "sliced carrots"
+    },
+    {
+      "id": 90006,
+      "amount": 100,
+      "unit": "g",
+      "name": "diced root celery"
+    },
+    {
+      "id": 90007,
+      "amount": 80,
+      "unit": "g",
+      "name": "sliced parsnips"
+    },
+    {
+      "id": 90008,
+      "amount": 60,
+      "unit": "g",
+      "name": "chopped leeks"
+    },
+    {
+      "id": 90009,
+      "amount": 15,
+      "unit": "g",
+      "name": "dried marjoram"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "pieces",
+      "name": "dried bay leaves"
+    },
+    {
+      "id": 90012,
+      "amount": 6,
+      "unit": "berries",
+      "name": "whole allspice"
+    },
+    {
+      "id": 90013,
+      "amount": 8,
+      "unit": "berries",
+      "name": "black peppercorns"
+    },
+    {
+      "id": 90014,
+      "amount": 30,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90015,
+      "amount": 15,
+      "unit": "ml",
+      "name": "sunflower seed oil"
+    },
+    {
+      "id": 90016,
+      "amount": 100,
+      "unit": "g",
+      "name": "heavy sour cream"
+    },
+    {
+      "id": 90017,
+      "amount": 4,
+      "unit": "items",
+      "name": "hard boiled eggs"
+    },
+    {
+      "id": 90018,
+      "amount": 20,
+      "unit": "g",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90019,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh flat parsley"
+    },
+    {
+      "id": 90020,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90021,
+      "amount": 3,
+      "unit": "g",
+      "name": "ground white pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 5,
+      "unit": "g",
+      "name": "sweet smoked paprika"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "g",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90024,
+      "amount": 50,
+      "unit": "g",
+      "name": "grated horseradish"
+    },
+    {
+      "id": 90025,
+      "amount": 10,
+      "unit": "ml",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90026,
+      "amount": 100,
+      "unit": "g",
+      "name": "diced bacon lardons"
+    },
+    {
+      "id": 90027,
+      "amount": 50,
+      "unit": "g",
+      "name": "chopped garlic chives"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "dried savory"
+    },
+    {
+      "id": 90030,
+      "amount": 20,
+      "unit": "g",
+      "name": "rye flour"
+    },
+    {
+      "id": 90031,
+      "amount": 100,
+      "unit": "ml",
+      "name": "cold water"
+    },
+    {
+      "id": 90032,
+      "amount": 50,
+      "unit": "g",
+      "name": "diced parsley root"
+    },
+    {
+      "id": 90033,
+      "amount": 30,
+      "unit": "g",
+      "name": "chopped green onions"
+    },
+    {
+      "id": 90034,
+      "amount": 5,
+      "unit": "g",
+      "name": "celery seeds"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "g",
+      "name": "ground mustard powder"
+    },
+    {
+      "id": 90036,
+      "amount": 15,
+      "unit": "ml",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90037,
+      "amount": 2,
+      "unit": "g",
+      "name": "crushed juniper berries"
+    },
+    {
+      "id": 90038,
+      "amount": 10,
+      "unit": "g",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90039,
+      "amount": 5,
+      "unit": "g",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "g",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "g",
+      "name": "dried lovage"
+    },
+    {
+      "id": 90042,
+      "amount": 40,
+      "unit": "g",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90043,
+      "amount": 2,
+      "unit": "g",
+      "name": "celery salt"
+    },
+    {
+      "id": 90044,
+      "amount": 50,
+      "unit": "ml",
+      "name": "dry white wine"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Aromatic Base Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice the smoked sausage evenly into medium-sized round discs and set them aside on a plate."
+        },
+        {
+          "number": 2,
+          "step": "Heat sunflower oil and butter in a heavy-bottomed Dutch oven over medium heat until quiet sizzling starts."
+        },
+        {
+          "number": 3,
+          "step": "Add the diced bacon lardons to the hot pan and render their fat until crisp and golden brown."
+        },
+        {
+          "number": 4,
+          "step": "Transfer half of the crisp bacon lardons to a paper towel lined plate to use for final garnishing."
+        },
+        {
+          "number": 5,
+          "step": "Add the chopped yellow onions and sliced shallots to the hot fat remaining in the heavy pan."
+        },
+        {
+          "number": 6,
+          "step": "Sauté the onion mixture for six minutes until softened, translucent, and slightly golden around edges."
+        },
+        {
+          "number": 7,
+          "step": "Stir in the minced garlic and sliced leeks, stirring constantly for two minutes until fragrant."
+        },
+        {
+          "number": 8,
+          "step": "Add caraway seeds, crushed juniper, and celery seeds to the pan to briefly toast the dry spices."
+        },
+        {
+          "number": 9,
+          "step": "Pour in the dry white wine to deglaze the bottom of the pot, scraping up all browned bits."
+        },
+        {
+          "number": 10,
+          "step": "Simmer the wine reduction for three minutes until the liquid has evaporated by roughly half."
+        },
+        {
+          "number": 11,
+          "step": "Add the sliced sausage rounds to the pot and toss them gently with the aromatic mixture."
+        },
+        {
+          "number": 12,
+          "step": "Cook the sausage and aromatic base together for five minutes to allow fat rendering and rich color."
+        },
+        {
+          "number": 13,
+          "step": "Season the mixture lightly with ground mustard powder, sweet smoked paprika, and ground coriander."
+        },
+        {
+          "number": 14,
+          "step": "Stir all components thoroughly to ensure spices coat the sausage and caramelized vegetable surfaces."
+        },
+        {
+          "number": 15,
+          "step": "Remove one quarter of cooked sausage pieces to reserve for garnish along with the crispy bacon."
+        },
+        {
+          "number": 16,
+          "step": "Turn off heat momentarily while preparing the aromatic root vegetables for the upcoming simmer phase."
+        },
+        {
+          "number": 17,
+          "step": "Verify that all browned vegetable bits are fully suspended in the rendered fats and wine reduction."
+        }
+      ]
+    },
+    {
+      "name": "Broth and Root Vegetable Simmer",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour two liters of clear vegetable stock into the Dutch oven over the sausage and aromatic base."
+        },
+        {
+          "number": 2,
+          "step": "Add the cubed Yukon gold potatoes, sliced carrots, diced root celery, and sliced parsnips into pot."
+        },
+        {
+          "number": 3,
+          "step": "Toss in the diced parsley root, dried bay leaves, whole allspice berries, and black peppercorns."
+        },
+        {
+          "number": 4,
+          "step": "Bring the contents of the pot to a rapid boil over medium-high heat while stirring gently."
+        },
+        {
+          "number": 5,
+          "step": "Reduce the heat to low, cover the pot tightly with a lid, and let simmer for twenty minutes."
+        },
+        {
+          "number": 6,
+          "step": "Check the vegetables with a fork to ensure they are tender but retain their structural shape."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle dried marjoram, dried thyme, dried savory, and dried lovage into the gently bubbling broth."
+        },
+        {
+          "number": 8,
+          "step": "Stir the herbs carefully into the liquid to distribute their green notes throughout the stewing pot."
+        },
+        {
+          "number": 9,
+          "step": "Simmer uncovered for another ten minutes to concentrate the savory flavors of the vegetable broth."
+        },
+        {
+          "number": 10,
+          "step": "Taste the simmering stock and adjust salt levels by adding sea salt and a pinch of celery salt."
+        },
+        {
+          "number": 11,
+          "step": "Add ground white pepper and brown sugar to balance the deep savory notes with subtle sweetness."
+        },
+        {
+          "number": 12,
+          "step": "Maintain a steady low simmer so the delicate starch from the potatoes releases slowly into broth."
+        },
+        {
+          "number": 13,
+          "step": "Skim off any excessive foam or oil floating on top of the broth using a wide shallow spoon."
+        },
+        {
+          "number": 14,
+          "step": "Stir in grated horseradish to introduce a sharp kick that complements the sweet root vegetables."
+        },
+        {
+          "number": 15,
+          "step": "Allow the spiced broth to simmer for five additional minutes so horseradish flavor infuses smoothly."
+        },
+        {
+          "number": 16,
+          "step": "Verify that potatoes and parsnips are soft enough to yield easily when pressed with a spoon."
+        },
+        {
+          "number": 17,
+          "step": "Turn the burner down to the lowest possible setting in preparation for integrating the sour starter."
+        }
+      ]
+    },
+    {
+      "name": "Sour Starter Integration",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk the sour rye starter base thoroughly in a small bowl until it reaches a smooth consistency."
+        },
+        {
+          "number": 2,
+          "step": "Whisk rye flour into cold water in a separate mug until no lumps remain in the thick mixture."
+        },
+        {
+          "number": 3,
+          "step": "Combine the rye flour liquid with the sour starter base to create a uniform thickening mixture."
+        },
+        {
+          "number": 4,
+          "step": "Ladle two cups of hot soup broth into a glass measuring cup to temper the cold rye starter mixture."
+        },
+        {
+          "number": 5,
+          "step": "Slowly pour the rye starter liquid into the hot broth cup while whisking vigorously without stopping."
+        },
+        {
+          "number": 6,
+          "step": "Pour the tempered starter back into the main soup pot in a thin stream, stirring continuously."
+        },
+        {
+          "number": 7,
+          "step": "Increase the burner heat slightly to bring the soup to a very gentle simmer while stirring constantly."
+        },
+        {
+          "number": 8,
+          "step": "Watch the soup closely as it begins to thicken into a silky, opaque broth with a creamy texture."
+        },
+        {
+          "number": 9,
+          "step": "Simmer the thickened soup for eight minutes to cook out any raw starch taste from added flour."
+        },
+        {
+          "number": 10,
+          "step": "Add apple cider vinegar and fresh lemon juice to highlight the natural sour tang of the starter."
+        },
+        {
+          "number": 11,
+          "step": "Place heavy sour cream into a bowl and temper it with one ladle of hot soup before adding to pot."
+        },
+        {
+          "number": 12,
+          "step": "Stir the tempered sour cream into the pot until completely blended and free of white flecks."
+        },
+        {
+          "number": 13,
+          "step": "Keep the soup at a barely perceptible simmer to prevent the fresh sour cream from curdling."
+        },
+        {
+          "number": 14,
+          "step": "Sample the soup to ensure a harmonic balance between sour rye, rich sausage, and herbaceous marjoram."
+        },
+        {
+          "number": 15,
+          "step": "Adjust acid or salt with tiny increments of lemon juice or sea salt if necessary for crispness."
+        },
+        {
+          "number": 16,
+          "step": "Remove the whole bay leaves and black peppercorns using a slotted spoon and discard them safely."
+        }
+      ]
+    },
+    {
+      "name": "Overnight Maturation Phase",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Turn off the heat entirely and move the heavy Dutch oven to a heatproof cooling rack immediately."
+        },
+        {
+          "number": 2,
+          "step": "Let the soup sit uncovered at room temperature for roughly forty-five minutes to cool down slowly."
+        },
+        {
+          "number": 3,
+          "step": "Stir the soup three times during the cooling phase to release trapped steam and equalize temperature."
+        },
+        {
+          "number": 4,
+          "step": "Cover the pot tightly with its heavy lid once the liquid drops near room temperature levels."
+        },
+        {
+          "number": 5,
+          "step": "Place the covered soup pot into the refrigerator and let rest undisturbed for twelve to twenty-four hours."
+        },
+        {
+          "number": 6,
+          "step": "Allowing this extended rest lets starches thicken and flavors marry into a cohesive broth profile."
+        },
+        {
+          "number": 7,
+          "step": "Retrieve the chilled soup pot from the refrigerator when ready to serve the following day."
+        },
+        {
+          "number": 8,
+          "step": "Skim any solidified fat layer off the cold soup surface with a spoon if a lighter body is desired."
+        },
+        {
+          "number": 9,
+          "step": "Set the pot over low heat on the stovetop and cover to begin the gentle reheating process."
+        },
+        {
+          "number": 10,
+          "step": "Stir every few minutes while heating to ensure heat distributes evenly without scorching bottom."
+        },
+        {
+          "number": 11,
+          "step": "Bring the soup to a soft bubble, avoiding a hard boil to preserve the texture of tempered cream."
+        },
+        {
+          "number": 12,
+          "step": "Taste the reheated broth once hot, adding fresh lemon juice or salt if flavors need brightening."
+        },
+        {
+          "number": 13,
+          "step": "Stir in chopped garlic chives and half of the fresh chopped dill just before taking off heat."
+        },
+        {
+          "number": 14,
+          "step": "Ensure the reserved sausage pieces and bacon lardons are warmed gently in a small skillet."
+        },
+        {
+          "number": 15,
+          "step": "Verify that all root vegetables have retained their pleasing texture without breaking down into mash."
+        },
+        {
+          "number": 16,
+          "step": "Turn off heat once the soup is thoroughly steaming and ready for immediate dish assembly."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Serving Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel the hard-boiled eggs carefully and slice each egg cleanly in half lengthwise with a sharp knife."
+        },
+        {
+          "number": 2,
+          "step": "Ladle hot soup and generous portions of vegetables and sausage into six wide deep soup bowls."
+        },
+        {
+          "number": 3,
+          "step": "Place two hard-boiled egg halves gently cut-side up on top of each filled soup bowl."
+        },
+        {
+          "number": 4,
+          "step": "Scatter reserved warm crisp bacon lardons and warm sausage slices evenly across all portions."
+        },
+        {
+          "number": 5,
+          "step": "Garnish generously with remaining fresh chopped dill and finely chopped fresh flat-leaf parsley."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle green onions across the top of each bowl for a fresh burst of bright color and onion heat."
+        },
+        {
+          "number": 7,
+          "step": "Dust a tiny pinch of sweet smoked paprika over the egg halves for visual accent and smokiness."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately alongside slices of toasted sourdough or dark rye bread spread with butter."
+        },
+        {
+          "number": 9,
+          "step": "Provide extra horseradish and sour cream at the dining table for guests to customize their bowls."
+        },
+        {
+          "number": 10,
+          "step": "Pair with a crisp amber ale or traditional mineral water to balance the deep savory notes."
+        },
+        {
+          "number": 11,
+          "step": "Ensure bowls are served hot to maintain the ideal viscosity of the velvety sour rye broth."
+        },
+        {
+          "number": 12,
+          "step": "Store any remaining leftovers in an airtight container in the refrigerator for up to three days."
+        },
+        {
+          "number": 13,
+          "step": "Reheat remaining portions over low stove heat, adding a splash of stock if soup has thickened."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy this hearty Polish classic that improves dramatically in flavor with every passing day."
+        },
+        {
+          "number": 15,
+          "step": "Clean rim edges of serving bowls with a warm moist towel before presenting to your dining guests."
+        },
+        {
+          "number": 16,
+          "step": "Encourage diners to break the egg yolk into the broth for an even richer texture experience."
+        }
+      ]
+    }
+  ]
+}

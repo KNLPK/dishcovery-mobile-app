@@ -1,0 +1,552 @@
+{
+  "id": 9001042,
+  "title": "Japanese Sweet Barley and Mochigome Dessert Salad",
+  "image": "generated://dishcovery/9001042.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This unique Japanese <b>grain salad dessert</b> presents a harmonious balance of texture and delicate sweetness. Built around a foundation of nutty barley and sweet glutinous rice, this cold dish is prepared through precise steaming before being gently folded with sweet red azuki beans, crushed roasted chestnuts, and a fragrant brown sugar syrup infused with fresh ginger. A light dusting of toasted kinako soybean flour adds an earthy nutty aroma, while freshly grated yuzu zest elevates the overall profile with vibrant citrus notes. Perfect for summer gatherings, this dessert grain salad can be prepared ahead of time and served chilled in traditional ceramic glassware. The contrast between chewiness of cooked grains and velvety smooth bean paste creates a sophisticated finish to any formal meal. Packed with wholesome dietary fiber, essential B-complex vitamins, and rich plant-based proteins, it delivers a nutritious twist on classical Asian desserts. The complex syrup brings subtle caramel notes without overpowering the natural flavors of high-quality grains. Garnish with mint for a fresh presentation that delights guests.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "cup",
+      "name": "glutinous sweet rice"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "pressed pearl barley"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sweet red azuki beans"
+    },
+    {
+      "id": 90003,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "kuromitsu brown syrup"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "kinako soybean powder"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fresh yuzu zest"
+    },
+    {
+      "id": 90006,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "roasted chestnuts"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sweetened condensed milk"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "matcha green tea powder"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "fine sea salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced dried persimmons"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh grated ginger"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "coconut palm sugar"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "filtered cold water"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mirin sweet rice wine"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "agar agar powder"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped dried figs"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "yuzu juice"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sweetened lotus seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "shiso mint leaves"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sweet plum syrup"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "candied orange peel"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vanilla bean paste"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Base Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure out the sweet glutinous rice and pearl barley accurately using standard dry measuring tools."
+        },
+        {
+          "number": 2,
+          "step": "Transfer both grains into a large ceramic mixing bowl and cover completely with cold tap water."
+        },
+        {
+          "number": 3,
+          "step": "Swirl the grains gently using your fingertips until the steeping liquid turns slightly cloudy and opaque."
+        },
+        {
+          "number": 4,
+          "step": "Pour the liquid out through a fine strainer while keeping the grains retained safely inside the bowl."
+        },
+        {
+          "number": 5,
+          "step": "Repeat this thorough rinsing process three distinct times until the draining water remains crystal clear."
+        },
+        {
+          "number": 6,
+          "step": "Transfer the drained grains into a heavy rice cooker pot and add the exact measured filtered water."
+        },
+        {
+          "number": 7,
+          "step": "Allow the grains to soak undisturbed at room temperature for at least twenty full soaking minutes."
+        },
+        {
+          "number": 8,
+          "step": "Close the cooker lid tightly and select the standard glutinous grain setting to begin the heating phase."
+        },
+        {
+          "number": 9,
+          "step": "While grains cook, prepare a shallow rimmed baking sheet by lining it with fresh parchment paper."
+        },
+        {
+          "number": 10,
+          "step": "When cooking finishes, allow the covered steam to rest inside the sealed cooker for ten additional minutes."
+        },
+        {
+          "number": 11,
+          "step": "Open the lid carefully and fluff the steaming grains using a wet wooden paddle with light lifting motions."
+        },
+        {
+          "number": 12,
+          "step": "Spread the hot cooked grain mixture evenly across the prepared baking sheet in a thin uniform layer."
+        },
+        {
+          "number": 13,
+          "step": "Place the baking sheet near an open cool window or fan to accelerate the cooling process quickly."
+        },
+        {
+          "number": 14,
+          "step": "Drizzle the sweet mirin and rice vinegar evenly over the warm grains using a light circular motion."
+        },
+        {
+          "number": 15,
+          "step": "Gently fold the grains using a plastic spatula to distribute seasonings without mashing the individual grains."
+        },
+        {
+          "number": 16,
+          "step": "Scatter diced dried persimmons and candied orange peel across the cooled grain bed for layered sweetness."
+        },
+        {
+          "number": 17,
+          "step": "Add chopped dried figs and sweetened lotus seeds evenly across the mixture before turning it gently."
+        },
+        {
+          "number": 18,
+          "step": "Transfer the seasoned grain foundation into a clean glass bowl and cover tightly with food wrap."
+        },
+        {
+          "number": 19,
+          "step": "Chill the covered grain base in your refrigerator for thirty minutes to let flavors harmonize properly."
+        },
+        {
+          "number": 20,
+          "step": "Check the temperature of the grains to ensure they are thoroughly chilled prior to dressing final components."
+        },
+        {
+          "number": 21,
+          "step": "Stir the chilled grains once more using broad gentle strokes to keep the texture fluffy and separated."
+        },
+        {
+          "number": 22,
+          "step": "Set the chilled grain dish aside on the counter while preparing the dessert dressing ingredients."
+        }
+      ]
+    },
+    {
+      "name": "Sweet Sauce and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine kuromitsu brown syrup and fresh yuzu juice together in a small stainless steel saucepan."
+        },
+        {
+          "number": 2,
+          "step": "Add grated fresh ginger and sweet plum syrup into the pan while whisking constantly over low heat."
+        },
+        {
+          "number": 3,
+          "step": "Heat the mixture until small bubbles begin forming around the inner perimeter of the saucepan surface."
+        },
+        {
+          "number": 4,
+          "step": "Whisk in the agar agar powder slowly to ensure full dissolution without creating unwanted lumps."
+        },
+        {
+          "number": 5,
+          "step": "Simmer the syrup coating for two minutes until it reaches a thick glossy coat-the-back sauce consistency."
+        },
+        {
+          "number": 6,
+          "step": "Remove saucepan from heat source and pour hot syrup into a shallow heatproof glass measuring pitcher."
+        },
+        {
+          "number": 7,
+          "step": "Allow sauce mixture to drop down to lukewarm room temperature before applying to chilled grains."
+        },
+        {
+          "number": 8,
+          "step": "Retrieve the chilled grain base bowl from the refrigerator and uncover the plastic wrapping carefully."
+        },
+        {
+          "number": 9,
+          "step": "Spoon cooked sweet red azuki beans over top of the grain base in four neat equal portions."
+        },
+        {
+          "number": 10,
+          "step": "Add chopped roasted chestnuts evenly across each section to provide an enjoyable crunchy contrast."
+        },
+        {
+          "number": 11,
+          "step": "Drizzle sweetened condensed milk lightly over each serving area in decorative crisscross lines."
+        },
+        {
+          "number": 12,
+          "step": "Pour cooled ginger yuzu syrup over the entire grain composition ensuring good surface coverage."
+        },
+        {
+          "number": 13,
+          "step": "Dust kinako soybean powder evenly across the top using a fine mesh sifter held high above bowl."
+        },
+        {
+          "number": 14,
+          "step": "Sift matcha green tea powder around the outer rim for a colorful vibrant emerald border detail."
+        },
+        {
+          "number": 15,
+          "step": "Sprinkle toasted white sesame seeds across central area to enhance overall nuttiness and visuals."
+        },
+        {
+          "number": 16,
+          "step": "Garnish each portion with finely grated yuzu zest for an enticing aromatic aromatic citrus opening."
+        },
+        {
+          "number": 17,
+          "step": "Place fresh shiso mint leaves delicately in center of each portion right before final service."
+        },
+        {
+          "number": 18,
+          "step": "Portion dessert grain salad into individual glass dessert coupes using a silver serving spoon."
+        },
+        {
+          "number": 19,
+          "step": "Ensure equal distribution of chewy grains, soft red beans, and crunchy nuts in every single dish."
+        },
+        {
+          "number": 20,
+          "step": "Drizzle extra kuromitsu syrup along rim of each serving vessel for enhanced presentation."
+        },
+        {
+          "number": 21,
+          "step": "Serve immediately while cold to enjoy optimal combination of flavors, aromas, and contrasting textures."
+        }
+      ]
+    }
+  ]
+}

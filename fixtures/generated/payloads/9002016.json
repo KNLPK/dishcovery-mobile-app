@@ -1,0 +1,835 @@
+{
+  "id": 9002016,
+  "title": "Mexican One-Pot Layered Tortilla and Bean Bake",
+  "image": "generated://dishcovery/9002016.jpg",
+  "readyInMinutes": 50,
+  "servings": 6,
+  "summary": "This comforting <b>Mexican layered bake</b> streamlines classic enchilada flavors into an easy one-pot skillet meal. Built inside a single heavy dutch oven or skillet, layers of corn tortillas, seasoned black beans, sweet corn, and roasted poblano peppers simmer together on the stovetop. A rich tomato chipotle sauce, scented with cumin, oregano, and garlic, infuses every layer with smoky depth. Topped with melted Monterey Jack and cheddar cheeses, fresh avocado, and cilantro, this dish delivers festive Mexican comfort without multiple baking pans. The simple stovetop baking technique keeps preparation quick while developing deep caramelized flavors on the pot bottom. Perfect for busy weeknights or informal gatherings, this one-pot bake offers easy cleanup and crowd-pleasing appeal. Serve straight from the pot with warm tortilla chips, sour cream, and fresh lime wedges for a complete feast. The harmony of soft corn tortillas, hearty beans, and gooey cheese makes it an instant family favorite.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 460,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Calcium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iron",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.7,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 6,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Copper",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Choline",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Saturated Fatty Acids",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 12,
+      "unit": "small",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cans",
+      "name": "black beans"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sweet corn kernels"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "poblano peppers"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "can",
+      "name": "crushed tomatoes"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chipotle in adobo"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90014,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "shredded monterey jack cheese"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shredded cheddar cheese"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "large",
+      "name": "avocado"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90019,
+      "amount": 4,
+      "unit": "medium",
+      "name": "green onions"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pickled jalapeno slices"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "cotija cheese"
+    },
+    {
+      "id": 90030,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced black olives"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "medium",
+      "name": "roma tomato"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped fresh radishes"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lime zest"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "salsa verde"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh oregano"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "bag",
+      "name": "tortilla chips"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Build Tomato Base Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat olive oil in a heavy five-quart dutch oven or deep skillet over medium stove heat."
+        },
+        {
+          "number": 2,
+          "step": "Add finely chopped yellow onion to the hot pot and sauté for four minutes until translucent."
+        },
+        {
+          "number": 3,
+          "step": "Add minced garlic, chili powder, ground cumin, dried oregano, and smoked paprika to the onion."
+        },
+        {
+          "number": 4,
+          "step": "Stir spices continuously for sixty seconds until intensely fragrant and toasted in oil."
+        },
+        {
+          "number": 5,
+          "step": "Pour in crushed tomatoes, minced chipotle in adobo, and tomato paste into the pot base."
+        },
+        {
+          "number": 6,
+          "step": "Add vegetable broth, sugar, sea salt, black pepper, and ground coriander to tomato sauce."
+        },
+        {
+          "number": 7,
+          "step": "Simmer tomato sauce over medium-low heat for ten minutes until flavors blend and sauce thickens."
+        },
+        {
+          "number": 8,
+          "step": "Taste tomato sauce and adjust seasoning with extra salt or lime juice if needed."
+        },
+        {
+          "number": 9,
+          "step": "Transfer two cups of cooked tomato sauce to a glass bowl and reserve for layering."
+        },
+        {
+          "number": 10,
+          "step": "Leave a thin layer of sauce covering the bottom surface of the dutch oven pot."
+        },
+        {
+          "number": 11,
+          "step": "Dice poblano peppers into small uniform cubes after removing seeds and internal ribs."
+        },
+        {
+          "number": 12,
+          "step": "Drain and rinse black beans in a colander under cold water to remove canned starch."
+        },
+        {
+          "number": 13,
+          "step": "Combine rinsed black beans, sweet corn, and diced poblano peppers in a large bowl."
+        },
+        {
+          "number": 14,
+          "step": "Season bean and corn mixture with garlic powder, onion powder, and a pinch of salt."
+        },
+        {
+          "number": 15,
+          "step": "Cut corn tortillas into halves or quarters to easily fit round shape of one-pot skillet."
+        },
+        {
+          "number": 16,
+          "step": "Combine shredded Monterey Jack and cheddar cheeses in a mixing bowl for quick layering."
+        },
+        {
+          "number": 17,
+          "step": "Set all prepped layer components near your stove for fast efficient one-pot assembly."
+        }
+      ]
+    },
+    {
+      "name": "Layer One-Pot Skillet",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Arrange a layer of cut corn tortillas directly over the thin sauce base in dutch oven."
+        },
+        {
+          "number": 2,
+          "step": "Spoon one-third of seasoned black bean, corn, and poblano pepper mixture over tortillas."
+        },
+        {
+          "number": 3,
+          "step": "Ladle three-quarters cup of reserved tomato sauce evenly over bean vegetable layer."
+        },
+        {
+          "number": 4,
+          "step": "Scatter half cup of mixed shredded Monterey Jack and cheddar cheese over tomato sauce."
+        },
+        {
+          "number": 5,
+          "step": "Place a second layer of cut corn tortillas over cheese, pressing down gently to compact."
+        },
+        {
+          "number": 6,
+          "step": "Add another third of bean mixture, followed by another layer of tomato sauce and cheese."
+        },
+        {
+          "number": 7,
+          "step": "Top with final layer of corn tortillas, remaining bean mixture, and remaining tomato sauce."
+        },
+        {
+          "number": 8,
+          "step": "Spread remaining shredded cheese generously over top surface to seal the layered bake."
+        },
+        {
+          "number": 9,
+          "step": "Cover dutch oven pot with tight-fitting lid and place over low-medium stove heat."
+        },
+        {
+          "number": 10,
+          "step": "Cook covered on stovetop for twenty minutes until sauce bubbles and cheese melts completely."
+        },
+        {
+          "number": 11,
+          "step": "Check pot occasionally to ensure low burner heat prevents bottom sauce layer from scorching."
+        },
+        {
+          "number": 12,
+          "step": "Dice fresh avocado and roma tomato into small clean cubes for cold garnish topping."
+        },
+        {
+          "number": 13,
+          "step": "Slice green onions, pickled jalapenos, and fresh radishes thinly on cutting board."
+        },
+        {
+          "number": 14,
+          "step": "Chop fresh cilantro leaves finely and crumble cotija cheese into a small garnish bowl."
+        },
+        {
+          "number": 15,
+          "step": "Whisk sour cream with lime juice, lime zest, and a pinch of salt to make lime crema."
+        },
+        {
+          "number": 16,
+          "step": "Prepare tortilla chips on a large platter for serving alongside warm layered bake."
+        },
+        {
+          "number": 17,
+          "step": "Verify cheese on layered bake is completely melted, bubbly, and gooey throughout."
+        }
+      ]
+    },
+    {
+      "name": "Stovetop Baking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove lid carefully from dutch oven, allowing steam to escape away from face."
+        },
+        {
+          "number": 2,
+          "step": "Turn off burner heat and let the layered bake rest covered for five minutes on stove."
+        },
+        {
+          "number": 3,
+          "step": "Resting allows corn tortillas to absorb sauces and structural layers to set before serving."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle lime crema generously in zigzag pattern across melted cheese top of layered bake."
+        },
+        {
+          "number": 5,
+          "step": "Scatter diced avocado, diced roma tomato, and sliced green onions over lime crema."
+        },
+        {
+          "number": 6,
+          "step": "Top layered bake with pickled jalapeno slices, sliced black olives, and fresh radishes."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle crumbled cotija cheese, chopped cilantro, and sea salt flakes over garnishes."
+        },
+        {
+          "number": 8,
+          "step": "Place entire dutch oven directly onto a heat-safe trivet on dining room table."
+        },
+        {
+          "number": 9,
+          "step": "Provide large serving spoon for scooping deep layered portions from one-pot bake."
+        },
+        {
+          "number": 10,
+          "step": "Serve immediate warm helpings alongside crispy tortilla chips and extra salsa verde."
+        },
+        {
+          "number": 11,
+          "step": "Enjoy rich smoky enchilada flavors cooked effortlessly in a single stovetop vessel."
+        },
+        {
+          "number": 12,
+          "step": "Refrigerate leftover Mexican layered bake in airtight container for up to three days."
+        },
+        {
+          "number": 13,
+          "step": "Reheat leftover portions in microwave or skillet with a splash of broth for quick lunch."
+        },
+        {
+          "number": 14,
+          "step": "Vary ingredients in future bakes by adding shredded chicken, ground beef, or pinto beans."
+        },
+        {
+          "number": 15,
+          "step": "Appreciate minimal cleanup convenience of preparing complete Mexican feast in one pot."
+        },
+        {
+          "number": 16,
+          "step": "Celebrate rich cheesy stovetop baking traditions with family and friends around table."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Serve",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Scoop generous square or wedge portions of layered tortilla bake onto dinner plates."
+        },
+        {
+          "number": 2,
+          "step": "Ensure each serving contains equal layers of tortilla, black beans, corn, and cheese."
+        },
+        {
+          "number": 3,
+          "step": "Offer extra sour cream, guacamole, and hot sauce at table for custom seasoning."
+        },
+        {
+          "number": 4,
+          "step": "Pair this hearty one-pot bake with crisp Mexican lager or fresh hibiscus iced tea."
+        },
+        {
+          "number": 5,
+          "step": "Encourage guests to scoop up warm layered bake using crisp corn tortilla chips."
+        },
+        {
+          "number": 6,
+          "step": "Keep extra salsa verde in small bowl for guests who enjoy additional tart acidity."
+        },
+        {
+          "number": 7,
+          "step": "Clean dutch oven pot easily after dinner thanks to moist simmered tomato sauce layer."
+        },
+        {
+          "number": 8,
+          "step": "Store remaining cotija cheese and fresh cilantro wrapped tightly in refrigerator."
+        },
+        {
+          "number": 9,
+          "step": "Enjoy balanced savory heat and creamy cheesy comfort of this home-cooked recipe."
+        },
+        {
+          "number": 10,
+          "step": "Double layered bake recipe when using a larger dutch oven for party gatherings."
+        },
+        {
+          "number": 11,
+          "step": "Maintain low burner temperature during stovetop baking to ensure perfectly soft tortillas."
+        },
+        {
+          "number": 12,
+          "step": "Mastering one-pot layered bake technique saves precious time on busy weeknight evenings."
+        },
+        {
+          "number": 13,
+          "step": "Share recipe with friends seeking fast flavorful one-pot dinner party solutions."
+        },
+        {
+          "number": 14,
+          "step": "Keep canned black beans and corn stocked in pantry for rapid meal assembly."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy leftover bake next day as flavors deepen and meld together even further."
+        }
+      ]
+    },
+    {
+      "name": "Final Storage",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Allow leftover layered bake to cool to room temperature before covering for storage."
+        },
+        {
+          "number": 2,
+          "step": "Transfer remaining portions into airtight glass containers to maintain fresh flavor."
+        },
+        {
+          "number": 3,
+          "step": "Store in refrigerator for up to three days for easy weekday lunch heating."
+        },
+        {
+          "number": 4,
+          "step": "Reheat individual portions in microwave for two minutes until cheese is melted."
+        },
+        {
+          "number": 5,
+          "step": "Add fresh avocado and cilantro garnishes after reheating for best fresh appeal."
+        },
+        {
+          "number": 6,
+          "step": "Wash dutch oven pot with warm soapy water and non-abrasive sponge to clean."
+        },
+        {
+          "number": 7,
+          "step": "Dry cookware thoroughly before storing back in kitchen cabinet storage space."
+        },
+        {
+          "number": 8,
+          "step": "Keep chipotle peppers in adobo stored in jar in fridge for future one-pot bakes."
+        },
+        {
+          "number": 9,
+          "step": "Reflect on easy satisfaction of preparing delicious one-pot Mexican comfort food."
+        },
+        {
+          "number": 10,
+          "step": "Plan next weeknight dinner using alternative protein or vegetable ingredient layers."
+        },
+        {
+          "number": 11,
+          "step": "Enjoy convenient high-fiber meal option that keeps family satisfied for hours."
+        },
+        {
+          "number": 12,
+          "step": "Finalize kitchen cleanup and relax after serving successful Mexican one-pot feast."
+        },
+        {
+          "number": 13,
+          "step": "Keep recipe in regular dinner rotation for effortless flavorful family weeknight meals."
+        },
+        {
+          "number": 14,
+          "step": "Savor every delicious layered bite of authentic spicy corn tortilla and bean bake."
+        },
+        {
+          "number": 15,
+          "step": "Conclude meal service with great memories of easy one-pot cooking success."
+        }
+      ]
+    }
+  ]
+}

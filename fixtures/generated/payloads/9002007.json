@@ -1,0 +1,855 @@
+{
+  "id": 9002007,
+  "title": "Fermented Kishk and Ancient Grain Salad",
+  "image": "generated://dishcovery/9002007.jpg",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "summary": "This vibrant dish brings together the deep, tangy character of <b>fermented kishk powder</b> with hearty bulgur wheat and an abundance of finely chopped herbs. A traditional staple across Levantine countryside kitchens, fermented kishk is produced by drying a cultured blend of yogurt and cracked wheat, creating a rich micro-flora baseline that amplifies every fresh element in this composition. Crisp diced cucumbers, sweet cherry tomatoes, and sharp red onion offer textural crunch against the tender pre-soaked grains. The salad is bound with a velvety emulsified dressing composed of cold-pressed extra virgin olive oil, freshly squeezed lemon juice, dark pomegranate molasses, and fragrant wild sumac. Toasted pine nuts and crushed walnuts provide an earthy richness that balances the bright acidity of the citrus and fermented grains. Perfect for warm weather gatherings, this dish improves as it rests, allowing the savory cultured notes of the kishk to permeate the vegetable juices. Serve alongside warm flatbreads or as a central element in a mezze spread for a truly authentic presentation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 71
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 45,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "coarse bulgur"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "kishk powder"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "labneh"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "persian cucumbers"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "flat leaf parsley"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "bunch",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "small",
+      "name": "radishes"
+    },
+    {
+      "id": 90009,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90011,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "ground sumac"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fine sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "walnuts"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90018,
+      "amount": 3,
+      "unit": "stalks",
+      "name": "green onion"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "zaatar blend"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "dried dill"
+    },
+    {
+      "id": 90025,
+      "amount": 0.5,
+      "unit": "medium",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "medium",
+      "name": "yellow bell pepper"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "rib",
+      "name": "celery"
+    },
+    {
+      "id": 90028,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh chives"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90030,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dried barberries"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "flaked sea salt"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "preserved lemon rind"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "small",
+      "name": "shallot"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90035,
+      "amount": 0.125,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "cup",
+      "name": "wild arugula"
+    },
+    {
+      "id": 90039,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh basil"
+    },
+    {
+      "id": 90040,
+      "amount": 4,
+      "unit": "leaves",
+      "name": "grape leaves"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "date syrup"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sour cherry juice concentrate"
+    },
+    {
+      "id": 90044,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure out the coarse bulgur and transfer it directly into a heatproof glass mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Pour two cups of boiling filtered water evenly over the dry grains in the glass bowl."
+        },
+        {
+          "number": 3,
+          "step": "Cover the mixing bowl tightly with food-grade plastic wrap to trap all steam inside."
+        },
+        {
+          "number": 4,
+          "step": "Allow the bulgur to steep undisturbed for twenty minutes until tender and fully plumped."
+        },
+        {
+          "number": 5,
+          "step": "Uncover the bowl and use a fork to fluff the grains, breaking up any tight clusters."
+        },
+        {
+          "number": 6,
+          "step": "Spread the warm bulgur across a broad baking sheet to speed up the cooling process."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle half of the fine sea salt over the warm grains to enhance their natural nuttiness."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle one tablespoon of olive oil over the bulgur and toss gently to coat each grain."
+        },
+        {
+          "number": 9,
+          "step": "Dust half of the ground sumac across the cooling grain layer for early flavor absorption."
+        },
+        {
+          "number": 10,
+          "step": "Scatter the dried barberries over the warm bulgur so they soften slightly as it cools."
+        },
+        {
+          "number": 11,
+          "step": "Stir in the ground coriander and ground cumin until evenly distributed throughout the grains."
+        },
+        {
+          "number": 12,
+          "step": "Add the ground allspice and white pepper, tossing thoroughly to eliminate spice pockets."
+        },
+        {
+          "number": 13,
+          "step": "Check the temperature of the grains to ensure they have cooled down to room temperature."
+        },
+        {
+          "number": 14,
+          "step": "Transfer the seasoned bulgur back into a clean, large stainless steel mixing bowl."
+        },
+        {
+          "number": 15,
+          "step": "Cover the bowl loosely with a dry towel while preparing the remaining salad elements."
+        },
+        {
+          "number": 16,
+          "step": "Toast the slivered almonds in a dry skillet over medium heat for three minutes until golden."
+        },
+        {
+          "number": 17,
+          "step": "Set the toasted almonds aside on a paper towel to cool completely before final assembly."
+        }
+      ]
+    },
+    {
+      "name": "Fermented Dressing Mixture",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sift the dry kishk powder through a fine mesh strainer into a small ceramic bowl."
+        },
+        {
+          "number": 2,
+          "step": "Spoon the labneh into the sifted kishk powder and stir vigorously until uniform."
+        },
+        {
+          "number": 3,
+          "step": "Pour in the remaining extra virgin olive oil while whisking constantly to form a thick paste."
+        },
+        {
+          "number": 4,
+          "step": "Whisk in the fresh lemon juice to loosen the texture into a smooth emulsified dressing."
+        },
+        {
+          "number": 5,
+          "step": "Add the pomegranate molasses and stir until fully integrated into the creamy emulsion."
+        },
+        {
+          "number": 6,
+          "step": "Grate the garlic cloves directly into the dressing mixture using a microplane tool."
+        },
+        {
+          "number": 7,
+          "step": "Add the apple cider vinegar and sour cherry juice concentrate to boost the overall acidity."
+        },
+        {
+          "number": 8,
+          "step": "Stir in the remaining sea salt, ground black pepper, and cayenne pepper until combined."
+        },
+        {
+          "number": 9,
+          "step": "Add the lemon zest and zaatar blend, whisking thoroughly to evenly distribute the herbs."
+        },
+        {
+          "number": 10,
+          "step": "Pour in the date syrup to soften the sharp bite of the fermented kishk component."
+        },
+        {
+          "number": 11,
+          "step": "Taste the dressing emulsion and make minor adjustments to salt or lemon if desired."
+        },
+        {
+          "number": 12,
+          "step": "Whisk in two tablespoons of ice-cold water to achieve a pourable creamy consistency."
+        },
+        {
+          "number": 13,
+          "step": "Finely mince the shallot and fold it into the dressing to infuse subtle onion flavor."
+        },
+        {
+          "number": 14,
+          "step": "Cover the dressing container and place it in the refrigerator for ten minutes to rest."
+        },
+        {
+          "number": 15,
+          "step": "Toast the pine nuts in a small skillet over low heat until pale golden and fragrant."
+        },
+        {
+          "number": 16,
+          "step": "Transfer the toasted pine nuts to a cool plate to stop the cooking process immediately."
+        },
+        {
+          "number": 17,
+          "step": "Remove the dressing from the refrigerator and whisk once more before incorporating."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Chopping",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim the ends of the Persian cucumbers and dice them into tiny, uniform quarter-inch cubes."
+        },
+        {
+          "number": 2,
+          "step": "Slice the cherry tomatoes into neat halves or quarters depending on their overall size."
+        },
+        {
+          "number": 3,
+          "step": "Finely dice the half red onion using a sharp chef knife to ensure tiny crisp pieces."
+        },
+        {
+          "number": 4,
+          "step": "Thinly slice the radishes into translucent rounds using a mandoline or sharp knife."
+        },
+        {
+          "number": 5,
+          "step": "Stem the flat leaf parsley and chop it finely until you yield a full loose cup."
+        },
+        {
+          "number": 6,
+          "step": "Pluck the fresh mint leaves from stems and chiffonade them into delicate thin ribbons."
+        },
+        {
+          "number": 7,
+          "step": "Dice the red bell pepper into neat small squares matching the cucumber slice dimensions."
+        },
+        {
+          "number": 8,
+          "step": "Dice the yellow bell pepper into identical small squares for vibrant color contrast."
+        },
+        {
+          "number": 9,
+          "step": "Trim and finely slice the celery rib into delicate crescents to add extra crunch."
+        },
+        {
+          "number": 10,
+          "step": "Slice the green onions thinly on a bias, utilizing both white and green portions."
+        },
+        {
+          "number": 11,
+          "step": "Finely mince the preserved lemon rind after scraping away and discarding the pulp."
+        },
+        {
+          "number": 12,
+          "step": "Chop the fresh chives into tiny ringlets using a very sharp utility knife."
+        },
+        {
+          "number": 13,
+          "step": "Tear the wild arugula leaves into manageable bite-sized pieces for easy mixing."
+        },
+        {
+          "number": 14,
+          "step": "Hand-tear the fresh basil leaves right before mixing to prevent premature darkening."
+        },
+        {
+          "number": 15,
+          "step": "Combine all prepared raw vegetables in a secondary large mixing vessel for convenience."
+        },
+        {
+          "number": 16,
+          "step": "Toss the vegetable blend gently using large wooden spoons to intermix all ingredients."
+        }
+      ]
+    },
+    {
+      "name": "Secondary Mixins",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Roughly chop the walnuts into bite-sized pieces using a heavy chef knife."
+        },
+        {
+          "number": 2,
+          "step": "Extract fresh pomegranate seeds from the fruit skin, removing any bitter white pith."
+        },
+        {
+          "number": 3,
+          "step": "Measure out the dried oregano and crush it between your palms directly into the bowl."
+        },
+        {
+          "number": 4,
+          "step": "Measure out the dried dill and sprinkle it over the prepared vegetable mixture."
+        },
+        {
+          "number": 5,
+          "step": "Add the toasted sesame seeds to the nut mixture for additional texture and aroma."
+        },
+        {
+          "number": 6,
+          "step": "Rinse the grape leaves under cold water, pat dry, and slice into micro-strips."
+        },
+        {
+          "number": 7,
+          "step": "Combine chopped walnuts, pomegranate seeds, and grape leaves in a small rimmed tray."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle the flaked sea salt over the nut and fruit mixture to enhance sweet-savory notes."
+        },
+        {
+          "number": 9,
+          "step": "Add the remaining sumac to the nut tray and toss lightly until thoroughly coated."
+        },
+        {
+          "number": 10,
+          "step": "Transfer half of the pomegranate seeds into the vegetable bowl, reserving the rest."
+        },
+        {
+          "number": 11,
+          "step": "Fold the minced preserved lemon rind directly into the resting bulgur grain bowl."
+        },
+        {
+          "number": 12,
+          "step": "Add the sliced green onions into the grain bowl and mix thoroughly with a broad spoon."
+        },
+        {
+          "number": 13,
+          "step": "Incorporate the chopped parsley and fresh mint into the grain base with broad strokes."
+        },
+        {
+          "number": 14,
+          "step": "Add the diced cucumbers, peppers, and celery to the grain and herb foundation."
+        },
+        {
+          "number": 15,
+          "step": "Verify that all components are at uniform ambient temperature before final dress."
+        },
+        {
+          "number": 16,
+          "step": "Prepare the serving platter by wiping the edges clean with a damp paper cloth."
+        }
+      ]
+    },
+    {
+      "name": "Final Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour the fermented kishk dressing slowly over the bulgur and chopped vegetable base."
+        },
+        {
+          "number": 2,
+          "step": "Use two large spoon servers to gently toss the salad, lifting from bottom to top."
+        },
+        {
+          "number": 3,
+          "step": "Ensure every grain of bulgur and piece of vegetable is coated in dressing paste."
+        },
+        {
+          "number": 4,
+          "step": "Fold in the torn arugula and basil leaves carefully to prevent bruising the greens."
+        },
+        {
+          "number": 5,
+          "step": "Add the diced red onion and radishes, tossing twice more for equal distribution."
+        },
+        {
+          "number": 6,
+          "step": "Transfer the dressed grain salad onto the wide serving platter, forming a mound."
+        },
+        {
+          "number": 7,
+          "step": "Scatter the chopped walnuts evenly over the top layer of the assembled salad base."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle the toasted pine nuts across the top to create an attractive surface texture."
+        },
+        {
+          "number": 9,
+          "step": "Garnish with the reserved red pomegranate seeds for striking rubylike color contrast."
+        },
+        {
+          "number": 10,
+          "step": "Distribute the toasted slivered almonds around the perimeter of the platter mound."
+        },
+        {
+          "number": 11,
+          "step": "Decorate the summit of the salad with the sliced grape leaf ribbons gracefully."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle three drops of extra virgin olive oil over the top for a shiny surface luster."
+        },
+        {
+          "number": 13,
+          "step": "Finish with a light dusting of zaatar blend across the center of the dish."
+        },
+        {
+          "number": 14,
+          "step": "Scatter the remaining flaked sea salt lightly over the garnishes just before serving."
+        },
+        {
+          "number": 15,
+          "step": "Allow the assembled salad to sit for five minutes so flavors lock in seamlessly."
+        },
+        {
+          "number": 16,
+          "step": "Serve immediately at room temperature alongside cold lemon wedges and flatbreads."
+        }
+      ]
+    }
+  ]
+}

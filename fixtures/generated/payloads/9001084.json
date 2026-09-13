@@ -1,0 +1,550 @@
+{
+  "id": 9001084,
+  "title": "Festive Royal Thai Stuffed Roti Mataba",
+  "image": "generated://dishcovery/9001084.jpg",
+  "readyInMinutes": 110,
+  "servings": 6,
+  "summary": "This celebratory <b>Royal Thai Stuffed Roti Mataba</b> is a festive flatbread feast featuring paper-thin, buttery layers of handmade dough wrapped around an intensely aromatic yellow curry duck filling. Originating from Southern Thai Muslim culinary traditions, this dish is traditionally prepared for special family gatherings, cultural festivities, and grand banquets. The dough is enriched with sweet condensed milk, coconut milk, and rich clarified butter, producing a exceptionally flaky and crispy shell when pan-fried on a blistering hot iron griddle. Inside, rich minced duck leg is slow-cooked with fresh lemongrass, kaffir lime leaves, minced coriander roots, and aromatic roasted spices until golden and flavorful. Served alongside a bright, tangy <b>Ajat cucumber pickle</b> crafted from sweet rice vinegar, fresh red chili rings, and crisp shallots, every bite delivers a harmonious balance of savory, rich, sour, and mildly spicy notes. Master the technique of stretching paper-thin dough and frying to golden perfection for an unforgettable center-piece recipe.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Folate",
+        "amount": 95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Choline",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 9.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.3,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 3,
+      "unit": "cups",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "condensed milk"
+    },
+    {
+      "id": 90003,
+      "amount": 5,
+      "unit": "large",
+      "name": "egg"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "ghee"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "lb",
+      "name": "minced duck leg meat"
+    },
+    {
+      "id": 90007,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "yellow curry powder"
+    },
+    {
+      "id": 90008,
+      "amount": 8,
+      "unit": "medium",
+      "name": "shallots"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh coriander roots"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander seeds"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "medium",
+      "name": "cucumber"
+    },
+    {
+      "id": 90017,
+      "amount": 3,
+      "unit": "medium",
+      "name": "red chili peppers"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "white vinegar"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90020,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90022,
+      "amount": 4,
+      "unit": "leaves",
+      "name": "kaffir lime leaves"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "lemongrass"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro sprigs"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sift the all-purpose flour into a wide mixing bowl to break up any stubborn clumps and create a light texture."
+        },
+        {
+          "number": 2,
+          "step": "Whisk the warm water together with sweet condensed milk, liquid coconut milk, and sea salt until dissolved."
+        },
+        {
+          "number": 3,
+          "step": "Crack one egg into the liquid milk mixture and beat briskly until thoroughly blended and pale yellow."
+        },
+        {
+          "number": 4,
+          "step": "Create a deep well in the middle of the sifted flour and pour in the whisked liquid mixture gradually."
+        },
+        {
+          "number": 5,
+          "step": "Stir the mixture with a sturdy wooden spoon until a shaggy dough begins to form around the bowl edges."
+        },
+        {
+          "number": 6,
+          "step": "Transfer the shaggy dough onto a clean surface and knead firmly for ten minutes until smooth and elastic."
+        },
+        {
+          "number": 7,
+          "step": "Divide the supple dough into six equal portions and shape each piece into a perfectly smooth round ball."
+        },
+        {
+          "number": 8,
+          "step": "Coat each portion generously with melted ghee to prevent drying and ensure soft layers during stretching."
+        },
+        {
+          "number": 9,
+          "step": "Place the oiled dough portions into a shallow bowl and cover tightly with plastic wrap to rest undisturbed."
+        },
+        {
+          "number": 10,
+          "step": "Let the resting dough sit at room temperature for at least ninety minutes so the gluten fully relaxes."
+        }
+      ]
+    },
+    {
+      "name": "Curry Duck Filling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely chop the fresh shallots, garlic cloves, lemongrass stalks, and coriander roots on a wooden board."
+        },
+        {
+          "number": 2,
+          "step": "Pound the chopped aromatics in a heavy granite mortar until they form a coarse, highly fragrant paste."
+        },
+        {
+          "number": 3,
+          "step": "Heat a splash of vegetable oil in a wide skillet over medium flame until it shimmers gently."
+        },
+        {
+          "number": 4,
+          "step": "Add the pounded aromatic paste to the skillet and sauté for three minutes until deeply fragrant."
+        },
+        {
+          "number": 5,
+          "step": "Stir in yellow curry powder, ground cumin, ground coriander, and ground turmeric until well combined."
+        },
+        {
+          "number": 6,
+          "step": "Add the minced duck leg meat to the fragrant spices and cook while breaking up lumps with a spatula."
+        },
+        {
+          "number": 7,
+          "step": "Season the duck mixture with shaved palm sugar and fish sauce, stirring well over medium heat."
+        },
+        {
+          "number": 8,
+          "step": "Fold thin ribbon slices of fresh kaffir lime leaves into the skillet to infuse bright citrus notes."
+        },
+        {
+          "number": 9,
+          "step": "Continue frying the duck filling until all excess moisture evaporates and the meat turns deeply golden."
+        },
+        {
+          "number": 10,
+          "step": "Remove the seasoned filling from the heat and allow it to cool completely before assembling the flatbreads."
+        }
+      ]
+    },
+    {
+      "name": "Ajat Cucumber Pickling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour the white vinegar, water, and granulated sugar into a small saucepan placed over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Add a pinch of salt to the pan and stir continuously until all sugar crystals dissolve completely."
+        },
+        {
+          "number": 3,
+          "step": "Bring the pickling liquid to a gentle boil, then remove it from heat to cool down to room temperature."
+        },
+        {
+          "number": 4,
+          "step": "Slice the fresh cucumber lengthwise into quarters and remove any watery core seeds with a spoon."
+        },
+        {
+          "number": 5,
+          "step": "Thinly slice the deseeded cucumbers into neat quarter-moon pieces and place them in a glass serving bowl."
+        },
+        {
+          "number": 6,
+          "step": "Thinly slice red chili peppers diagonally to create vibrant red rings for color and mild heat."
+        },
+        {
+          "number": 7,
+          "step": "Peel and thinly slice the remaining fresh shallots into delicate rings to add to the pickled salad."
+        },
+        {
+          "number": 8,
+          "step": "Toss the sliced cucumbers, red chili rings, and sliced shallots together in the glass serving bowl."
+        },
+        {
+          "number": 9,
+          "step": "Pour the cooled sweet vinegar liquid over the fresh vegetable mixture until everything is submerged."
+        },
+        {
+          "number": 10,
+          "step": "Garnish the pickled cucumber relish with fresh cilantro sprigs and set aside until serving time."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Griddling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Lightly grease a large flat work surface with melted ghee to prevent the soft dough from sticking."
+        },
+        {
+          "number": 2,
+          "step": "Take one rested dough ball and press it flat using your palms to create a thick circular disc."
+        },
+        {
+          "number": 3,
+          "step": "Gently stretch and flip the dough outwards until it becomes paper-thin and nearly translucent."
+        },
+        {
+          "number": 4,
+          "step": "Crack one egg into a bowl, add a quarter of the cooled duck filling, and whisk lightly to combine."
+        },
+        {
+          "number": 5,
+          "step": "Spoon the savory duck and egg mixture onto the center of the stretched translucent dough sheet evenly."
+        },
+        {
+          "number": 6,
+          "step": "Fold the edges of the thin dough over the rich center filling to create a neat square package."
+        },
+        {
+          "number": 7,
+          "step": "Heat a tablespoon of ghee in a heavy cast-iron skillet over medium flame until shimmering hot."
+        },
+        {
+          "number": 8,
+          "step": "Carefully place the stuffed dough package into the hot skillet with seam side facing downward."
+        },
+        {
+          "number": 9,
+          "step": "Fry the flatbread for three minutes per side until crisp, golden brown, and fully cooked through."
+        },
+        {
+          "number": 10,
+          "step": "Slice the warm crispy mataba into square pieces and serve immediately alongside the chilled ajat pickle."
+        }
+      ]
+    }
+  ]
+}

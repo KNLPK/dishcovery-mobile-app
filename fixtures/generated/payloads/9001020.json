@@ -1,0 +1,550 @@
+{
+  "id": 9001020,
+  "title": "Grilled Lemongrass Tofu and Mushroom Skewers",
+  "image": "generated://dishcovery/9001020.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "These aromatic <b>Thai vegetarian skewers</b> feature extra-firm tofu, king oyster mushrooms, colorful bell peppers, and fresh shallots charred to perfection over an open grill. The skewers are marinated in a pungent mixture of pounded lemongrass, galangal, kaffir lime leaves, coconut milk, and tamari sauce, ensuring maximum herb infusion. As the skewers grill, they are brushed continuously with a rich coconut curry glaze that caramelizes into a savory sweet crust. Served over a bed of warm jasmine rice with a side of crunchy cucumber peanut dip, this dish delivers an explosion of classic Thai flavors without any meat products. Soaking the wooden skewers in water prevents charring while grilling over hot coals. The combination of chewy tofu and juicy mushrooms offers a incredibly satisfying texture profile. Bright lime juice, fresh cilantro, and crushed roasted peanuts complete this vibrant outdoor feast, perfect for warm summer dinner parties.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 29.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.7
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 590,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.5
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.9
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.7
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.6
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.75
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.8
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.3
+      },
+      {
+        "name": "Selenium",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27.2
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.6
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 21,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.6
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "extra firm tofu"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "king oyster mushrooms"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "fresh lemongrass"
+    },
+    {
+      "id": 90003,
+      "amount": 20,
+      "unit": "g",
+      "name": "fresh galangal"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "leaves",
+      "name": "kaffir lime leaves"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "ml",
+      "name": "full fat coconut milk"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tamari soy sauce"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "thai yellow curry paste"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90011,
+      "amount": 4,
+      "unit": "whole",
+      "name": "shallots"
+    },
+    {
+      "id": 90012,
+      "amount": 50,
+      "unit": "g",
+      "name": "roasted unsalted peanuts"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "small",
+      "name": "cucumber"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "red",
+      "name": "thai bird chili"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander seeds"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90022,
+      "amount": 8,
+      "unit": "whole",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 100,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak eight bamboo skewers in a shallow tray filled with cold water for thirty minutes."
+        },
+        {
+          "number": 2,
+          "step": "Trim tough outer leaves from lemongrass stalks and mince soft white inner heart finely."
+        },
+        {
+          "number": 3,
+          "step": "Peel galangal skin with a spoon and grate flesh finely into a mortar and pestle."
+        },
+        {
+          "number": 4,
+          "step": "Pound lemongrass, galangal, kaffir lime leaves, and garlic into a smooth aromatic paste."
+        },
+        {
+          "number": 5,
+          "step": "Toast coriander seeds and cumin seeds in a dry skillet over medium heat for two minutes."
+        },
+        {
+          "number": 6,
+          "step": "Grind toasted spices in a spice grinder and transfer into mortar paste mixture."
+        },
+        {
+          "number": 7,
+          "step": "Whisk coconut milk, tamari soy sauce, yellow curry paste, palm sugar, and lime juice in bowl."
+        },
+        {
+          "number": 8,
+          "step": "Stir pounded herb paste into coconut milk mixture until fully incorporated."
+        },
+        {
+          "number": 9,
+          "step": "Season marinade with ground turmeric and salt, whisking until sugar dissolves."
+        },
+        {
+          "number": 10,
+          "step": "Reserve half cup of marinade liquid in a separate clean vessel to use as basting glaze."
+        }
+      ]
+    },
+    {
+      "name": "Ingredient Prep and Threading",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Press extra firm tofu block between paper towels under a heavy skillet for fifteen minutes."
+        },
+        {
+          "number": 2,
+          "step": "Cut pressed tofu into uniform one inch cube blocks using a sharp chef knife."
+        },
+        {
+          "number": 3,
+          "step": "Slice king oyster mushroom stems into thick half inch circular coins."
+        },
+        {
+          "number": 4,
+          "step": "Cut red bell pepper into one inch square pieces discarding seeds and core."
+        },
+        {
+          "number": 5,
+          "step": "Peel whole shallots and cut each in half lengthwise keeping layers intact."
+        },
+        {
+          "number": 6,
+          "step": "Submerge tofu cubes and mushroom coins in bowl with remaining marinade for twenty minutes."
+        },
+        {
+          "number": 7,
+          "step": "Remove soaked bamboo skewers from water bath and wipe clean with paper towels."
+        },
+        {
+          "number": 8,
+          "step": "Thread marinated tofu, mushroom coin, red bell pepper, and shallot half onto skewer."
+        },
+        {
+          "number": 9,
+          "step": "Repeat threading sequence until skewer is full, leaving two inches handle at bottom."
+        },
+        {
+          "number": 10,
+          "step": "Arrange eight filled skewers on a parchment lined tray and drizzle remaining marinade over top."
+        }
+      ]
+    },
+    {
+      "name": "Grilling and Basting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat outdoor charcoal grill or indoor cast iron grill pan over medium high heat."
+        },
+        {
+          "number": 2,
+          "step": "Oil grill grates lightly using a paper towel dipped in coconut oil held with tongs."
+        },
+        {
+          "number": 3,
+          "step": "Lay skewers onto hot grill grates leaving half inch space between individual skewers."
+        },
+        {
+          "number": 4,
+          "step": "Grill skewers undisturbed for three minutes until deep char marks form on bottom side."
+        },
+        {
+          "number": 5,
+          "step": "Brush top surface of skewers generously with reserved coconut curry basting glaze."
+        },
+        {
+          "number": 6,
+          "step": "Turn skewers ninety degrees using tongs and grill for another three minutes."
+        },
+        {
+          "number": 7,
+          "step": "Continue turning and basting skewers every two minutes until all sides are lightly charred."
+        },
+        {
+          "number": 8,
+          "step": "Ensure tofu edges turn crispy and mushrooms become tender and juicy throughout."
+        },
+        {
+          "number": 9,
+          "step": "Remove skewers from grill carefully using tongs and transfer onto a warm platter."
+        },
+        {
+          "number": 10,
+          "step": "Cover skewers loosely with foil to keep warm while preparing dip and garnishes."
+        }
+      ]
+    },
+    {
+      "name": "Dipper and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Dice fresh cucumber into small quarter inch cubes for refreshing dipping sauce."
+        },
+        {
+          "number": 2,
+          "step": "Finely mince red Thai bird chili and chop fresh cilantro leaves on cutting board."
+        },
+        {
+          "number": 3,
+          "step": "Crush roasted peanuts coarsely using a mortar and pestle or rolling pin."
+        },
+        {
+          "number": 4,
+          "step": "Whisk rice vinegar, sugar, and warm water in a small ramekin until sugar dissolves."
+        },
+        {
+          "number": 5,
+          "step": "Stir diced cucumber, minced chili, and crushed peanuts into sweet vinegar dip."
+        },
+        {
+          "number": 6,
+          "step": "Arrange grilled skewers decoratively across a bed of warm steamed jasmine rice."
+        },
+        {
+          "number": 7,
+          "step": "Spoon remaining warm coconut glaze drizzling over charred skewer ingredients."
+        },
+        {
+          "number": 8,
+          "step": "Scatter crushed peanuts and fresh cilantro leaves over grilled skewer platter."
+        },
+        {
+          "number": 9,
+          "step": "Place fresh lime wedges around platter edge for squeezing over skewers before eating."
+        },
+        {
+          "number": 10,
+          "step": "Serve hot grilled skewers immediately alongside small bowls of crunchy cucumber dip."
+        }
+      ]
+    }
+  ]
+}

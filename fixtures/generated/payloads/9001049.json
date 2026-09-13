@@ -1,0 +1,550 @@
+{
+  "id": 9001049,
+  "title": "Festive Lemongrass Pork Skewers with Herb Glaze",
+  "image": "generated://dishcovery/9001049.jpg",
+  "readyInMinutes": 75,
+  "servings": 6,
+  "summary": "This vibrant <b>celebration skewered dish</b> brings traditional Southeast Asian flavors directly to your festive dining table. Thin ribbons of pork shoulder are infused overnight with garlic, crushed lemongrass, fish sauce, and dark brown sugar before being woven onto skewers and charred over hot coals. The high-heat roasting caramelizes the sweet glaze, delivering a fragrant balance of savory and sweet notes in every single bite. Served alongside cold rice vermicelli, quick-pickled daikon, and crisp lettuce leaves, these skewers offer a interactive dining experience suitable for special gatherings. A final brush of scallion oil adds richness and a shiny coating that makes the platter pop visually. Guests can build their own lettuce wraps filled with fresh mint, Thai basil, cucumber ribbons, and crushed roasted peanuts for contrasting textures. Prepare all sauce elements early to streamline the cooking process when host responsibilities require your attention.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 33.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 37.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Protein",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.4,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0.1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 66.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40.6
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.3
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 37.5
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.9
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50.9
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.4
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.9
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 900,
+      "unit": "g",
+      "name": "pork shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "minced lemongrass"
+    },
+    {
+      "id": 90002,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "shallots"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dark soy sauce"
+    },
+    {
+      "id": 90006,
+      "amount": 2.5,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90009,
+      "amount": 200,
+      "unit": "g",
+      "name": "rice vermicelli"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "head",
+      "name": "butter lettuce"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "cup",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "cup",
+      "name": "thai basil"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cilantro leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "large",
+      "name": "cucumber"
+    },
+    {
+      "id": 90015,
+      "amount": 100,
+      "unit": "g",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90016,
+      "amount": 100,
+      "unit": "g",
+      "name": "carrots"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "white sugar"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90020,
+      "amount": 4,
+      "unit": "scallions",
+      "name": "scallions"
+    },
+    {
+      "id": 90021,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "neutral cooking oil"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90024,
+      "amount": 12,
+      "unit": "pieces",
+      "name": "bamboo skewers"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim excess fat from the pork shoulder while retaining a thin outer layer for flavor and moisture."
+        },
+        {
+          "number": 2,
+          "step": "Slice the pork across the grain into ribbons measuring two inches long and one quarter inch thick."
+        },
+        {
+          "number": 3,
+          "step": "Peel the fresh garlic cloves and shallots before chopping them finely on a large wooden board."
+        },
+        {
+          "number": 4,
+          "step": "Mince the tender inner stalks of lemongrass until completely pulverized into a coarse paste."
+        },
+        {
+          "number": 5,
+          "step": "Whisk fish sauce, dark soy sauce, sesame oil, and brown sugar together in a glass mixing bowl."
+        },
+        {
+          "number": 6,
+          "step": "Stir the minced garlic, chopped shallots, black pepper, and prepared lemongrass into liquid seasoning."
+        },
+        {
+          "number": 7,
+          "step": "Transfer sliced pork into the marinade, turning every piece until evenly coated across all sides."
+        },
+        {
+          "number": 8,
+          "step": "Cover the bowl tightly with plastic film and chill in the refrigerator for at least four hours."
+        },
+        {
+          "number": 9,
+          "step": "Submerge long wooden skewers completely in cold water to prevent burning during the broiling process."
+        },
+        {
+          "number": 10,
+          "step": "Remove soaked skewers from water bath after one hour and set aside on clean kitchen towels to dry."
+        }
+      ]
+    },
+    {
+      "name": "Side Accompaniments",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Julienne daikon radish and peeled carrots into uniform matchsticks using a sharp chef knife."
+        },
+        {
+          "number": 2,
+          "step": "Combine rice vinegar, warm water, and white sugar in a jar, stirring until dissolved completely."
+        },
+        {
+          "number": 3,
+          "step": "Pour vinegar mix over matchstick vegetables and let pickle at room temperature for thirty minutes."
+        },
+        {
+          "number": 4,
+          "step": "Boil water in a heavy saucepan and cook rice vermicelli noodles according to package directions."
+        },
+        {
+          "number": 5,
+          "step": "Drain cooked vermicelli through a fine colander and rinse under cold tap water to stop cooking."
+        },
+        {
+          "number": 6,
+          "step": "Slice fresh cucumber lengthwise into thin ribbon strips, discarding seeds for better crisp texture."
+        },
+        {
+          "number": 7,
+          "step": "Wash fresh mint, cilantro, and Thai basil leaves thoroughly under cold water, then pat dry carefully."
+        },
+        {
+          "number": 8,
+          "step": "Separate butter lettuce heads into individual whole leaves to form sturdy serving cups on platter."
+        },
+        {
+          "number": 9,
+          "step": "Toast raw peanuts in a dry skillet over low heat until golden brown, then crush into small bits."
+        },
+        {
+          "number": 10,
+          "step": "Slice scallions finely and heat in neutral oil for two minutes to create aromatic scallion oil."
+        }
+      ]
+    },
+    {
+      "name": "Skewer Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove marinated pork slices from refrigerator twenty minutes prior to assembly to lower chill."
+        },
+        {
+          "number": 2,
+          "step": "Thread pork ribbons accordion-style onto soaked skewers, packing meat tightly without crowding ends."
+        },
+        {
+          "number": 3,
+          "step": "Wipe off excessive chunks of lemongrass from meat surface to avoid burning while over hot flame."
+        },
+        {
+          "number": 4,
+          "step": "Arrange threaded skewers onto a rimmed baking sheet lined with aluminum foil for clean handling."
+        },
+        {
+          "number": 5,
+          "step": "Lightly brush remaining marinade over assembled skewers for extra surface seasoning before cook."
+        },
+        {
+          "number": 6,
+          "step": "Preheat charcoal grill or indoor cast iron grill pan over medium-high heat until smoking slightly."
+        },
+        {
+          "number": 7,
+          "step": "Oil the hot grill grate thoroughly using folded paper towels held with long barbecue tongs."
+        },
+        {
+          "number": 8,
+          "step": "Place skewers onto prepared grill grate with half-inch gaps between skewers for heat circulation."
+        },
+        {
+          "number": 9,
+          "step": "Sear pork skewers undisturbed for four minutes until deep grill marks form on bottom surface."
+        },
+        {
+          "number": 10,
+          "step": "Turn skewers over carefully using tongs and cook for an additional four minutes until fully done."
+        }
+      ]
+    },
+    {
+      "name": "Final Glaze and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Brush cooked pork skewers with prepared warm scallion oil while still hot from the grill surface."
+        },
+        {
+          "number": 2,
+          "step": "Arrange cooked vermicelli noodles into small neat nests around the edge of a large platter."
+        },
+        {
+          "number": 3,
+          "step": "Cluster fresh herb leaves, cucumber ribbons, and pickled vegetables alongside vermicelli nests."
+        },
+        {
+          "number": 4,
+          "step": "Lay hot glazed skewers across center of platter, stacking them neatly for handsome presentation."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle crushed toasted peanuts over hot meat skewers and crisp herbs just before serving guests."
+        },
+        {
+          "number": 6,
+          "step": "Mix lime juice, chili flakes, and extra fish sauce together in small bowls for individual dipping."
+        },
+        {
+          "number": 7,
+          "step": "Place butter lettuce cups on a side tray to allow guests to build custom fresh wraps easily."
+        },
+        {
+          "number": 8,
+          "step": "Garnish final platter with reserved scallion rings and fresh coriander sprigs for contrast color."
+        },
+        {
+          "number": 9,
+          "step": "Serve immediately while skewers remain sizzling hot and fresh vegetables stay crisp and chilled."
+        },
+        {
+          "number": 10,
+          "step": "Provide extra dip bowls at table so guests can season their custom lettuce wraps to preference."
+        }
+      ]
+    }
+  ]
+}

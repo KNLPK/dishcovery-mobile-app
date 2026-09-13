@@ -1,0 +1,303 @@
+{
+  "id": 9000003,
+  "title": "Make-Ahead Achiote Marinated Pork Roast",
+  "image": "generated://dishcovery/9000003.jpg",
+  "readyInMinutes": 75,
+  "servings": 6,
+  "summary": "Prepare for busy weeknights or weekend gatherings with this flavorful <b>Mexican pork roast</b> that gets even better when made ahead. Tender pork loin marinates deeply in an aromatic mixture of earthy achiote paste, freshly squeezed orange juice, tangy lime, and ground spices. Roasted slowly until juicy and golden brown, the meat retains its rich moisture while absorbing vibrant citrus and garlic notes. Slice the roast in advance and store it in its savory baking juices; overnight resting allows the citrus and spice marinade to penetrate the pork completely. Reheating the sliced roast yields an amazingly tender dish that tastes like it was cooked for hours. Serve this fragrant pork with warm corn tortillas, pickled red onions, and fresh cilantro for an easy taco bar or platter feast. The sweet and savory balance of roasted pork infused with authentic Yucatan spices makes this dish a reliable standout. Enjoy stress-free hosting with a spectacular main dish ready whenever you are.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 410,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 25,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 11.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Folate",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Biotin",
+        "amount": 5.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Calcium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 59
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "kg",
+      "name": "pork loin"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "achiote paste"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "ml",
+      "name": "orange juice"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90008,
+      "amount": 200,
+      "unit": "ml",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh cilantro"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation and Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk achiote paste, orange juice, lime juice, minced garlic, oregano, cumin, and olive oil into a smooth paste."
+        },
+        {
+          "number": 2,
+          "step": "Rub the marinade thoroughly over the pork loin and chill in a covered container for at least four hours."
+        },
+        {
+          "number": 3,
+          "step": "Preheat your oven to 190 degrees Celsius and transfer the marinated pork to a shallow roasting pan."
+        },
+        {
+          "number": 4,
+          "step": "Pour chicken broth into the bottom of the pan to keep the meat moist and roast for 45 to 50 minutes."
+        },
+        {
+          "number": 5,
+          "step": "Remove the roast from the oven, let it rest for 10 minutes, then slice thinly and transfer to a storage dish."
+        },
+        {
+          "number": 6,
+          "step": "Pour the pan drippings over the slices to store ahead, or serve immediately with sliced red onion and cilantro."
+        }
+      ]
+    }
+  ]
+}

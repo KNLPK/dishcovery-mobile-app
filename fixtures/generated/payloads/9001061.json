@@ -1,0 +1,553 @@
+{
+  "id": 9001061,
+  "title": "Korean Breakfast Kimchi and Potato Layered Bake",
+  "image": "generated://dishcovery/9001061.jpg",
+  "readyInMinutes": 60,
+  "servings": 6,
+  "summary": "Adapted into an energizing morning dish, this <b>Korean breakfast bake</b> layers sliced potatoes, aged kimchi, scallions, and melted cheese under a savory egg custard. Baked until golden brown and bubbly, the casserole combines spicy, tangy, and rich morning flavors in every slice. Toasted sesame oil and gochugaru chili flakes infuse the dish with authentic Korean notes while crispy seaweed shreds add delicate ocean crunch. Ideal for weekend brunches or meal-prep breakfasts, this bake offers a hearty start to the day. The creamy egg custard binds the potato layers together smoothly while aged kimchi provides bold gut-friendly tanginess. Pan-searing the kimchi beforehand removes excess moisture and concentrates its deep chili flavor base. Serve warm alongside fresh fruit wedges and green tea for a balanced Korean-inspired breakfast spread. Reheats effortlessly in the oven without losing structural integrity or rich savory aroma.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 215,
+        "unit": "mg",
+        "percentOfDailyNeeds": 72
+      },
+      {
+        "name": "Sodium",
+        "amount": 840,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 45,
+        "unit": "IU",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Folate",
+        "amount": 58,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Calcium",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Choline",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Chromium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "medium",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90001,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "napa cabbage kimchi"
+    },
+    {
+      "id": 90002,
+      "amount": 6,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90003,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "whole milk"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shredded mozzarella"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shredded cheddar"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "gochugaru"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "stalks",
+      "name": "scallions"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "gim seaweed"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "gochujang"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "strips",
+      "name": "cooked bacon"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced chives"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation and Layering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to 375 degrees Fahrenheit and grease a nine-by-thirteen inch baking dish with butter."
+        },
+        {
+          "number": 2,
+          "step": "Peel russet potatoes and slice them into thin one-eighth inch rounds using a sharp mandoline."
+        },
+        {
+          "number": 3,
+          "step": "Submerge potato slices in cold water for ten minutes to remove starch, then pat dry thoroughly."
+        },
+        {
+          "number": 4,
+          "step": "Drain aged napa cabbage kimchi, squeezing out excess liquid into a cup to save for egg custard."
+        },
+        {
+          "number": 5,
+          "step": "Chop drained kimchi into bite-sized pieces and slice yellow onion into thin crescent slivers."
+        },
+        {
+          "number": 6,
+          "step": "Heat vegetable oil in skillet over medium heat and sauté onions and kimchi for five minutes."
+        },
+        {
+          "number": 7,
+          "step": "Stir sugar, gochugaru, gochujang, and sesame oil into sauteed kimchi mixture until aromatic."
+        },
+        {
+          "number": 8,
+          "step": "Slice scallions finely into thin green and white rounds on cutting board for layering mix."
+        },
+        {
+          "number": 9,
+          "step": "Mince garlic cloves finely and crumble cooked bacon strips into small bite-sized bits."
+        },
+        {
+          "number": 10,
+          "step": "Whisk eggs, whole milk, heavy cream, soy sauce, reserved kimchi juice, salt, and pepper in bowl."
+        },
+        {
+          "number": 11,
+          "step": "Add minced garlic and garlic powder to egg custard mixture, whisking until thoroughly smooth."
+        },
+        {
+          "number": 12,
+          "step": "Combine shredded mozzarella and cheddar cheeses together in a separate bowl for layering."
+        },
+        {
+          "number": 13,
+          "step": "Arrange one layer of potato slices along bottom of greased baking dish in overlapping pattern."
+        },
+        {
+          "number": 14,
+          "step": "Spread half sautéed kimchi onion mixture evenly over bottom layer of sliced potatoes."
+        }
+      ]
+    },
+    {
+      "name": "Baking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sprinkle half scallions, crumbled bacon, and half mixed shredded cheeses across kimchi layer."
+        },
+        {
+          "number": 2,
+          "step": "Arrange second layer of sliced potatoes neatly over cheese, pressing down gently with hands."
+        },
+        {
+          "number": 3,
+          "step": "Spread remaining sautéed kimchi mixture evenly across second potato layer in baking dish."
+        },
+        {
+          "number": 4,
+          "step": "Pour whisked egg custard mixture slowly over entire layered bake until liquid settles deeply."
+        },
+        {
+          "number": 5,
+          "step": "Top bake evenly with remaining shredded mozzarella and cheddar cheese mixture across surface."
+        },
+        {
+          "number": 6,
+          "step": "Cover baking dish tightly with aluminum foil to trap steam during initial oven baking phase."
+        },
+        {
+          "number": 7,
+          "step": "Bake covered at 375 degrees Fahrenheit for thirty minutes until potatoes soften inside."
+        },
+        {
+          "number": 8,
+          "step": "Remove aluminum foil carefully and return bake to oven uncovered for fifteen minutes."
+        },
+        {
+          "number": 9,
+          "step": "Bake until top cheese layer turns deeply golden brown and egg custard sets firmly in center."
+        },
+        {
+          "number": 10,
+          "step": "Insert knife into center of bake to verify potatoes test tender without resistance."
+        },
+        {
+          "number": 11,
+          "step": "Remove hot breakfast bake from oven and place on cooling rack for ten minutes to settle."
+        },
+        {
+          "number": 12,
+          "step": "Toast sesame seeds in small dry skillet for two minutes until golden and fragrant smelling."
+        },
+        {
+          "number": 13,
+          "step": "Cut gim seaweed sheets into thin delicate strips using clean kitchen shears for garnish."
+        },
+        {
+          "number": 14,
+          "step": "Scatter remaining scallions, toasted sesame seeds, and sliced chives over warm golden bake."
+        }
+      ]
+    },
+    {
+      "name": "Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Top breakfast bake with crispy gim seaweed strips right before cutting into square portions."
+        },
+        {
+          "number": 2,
+          "step": "Slice bake into six equal rectangular breakfast portions using a sharp serrated knife."
+        },
+        {
+          "number": 3,
+          "step": "Lift individual bake squares carefully using wide metal spatula onto warm serving plates."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle light drop of toasted sesame oil over each served portion for extra shine and aroma."
+        },
+        {
+          "number": 5,
+          "step": "Serve hot alongside chilled fruit slices, fresh orange juice, or hot Korean barley tea."
+        },
+        {
+          "number": 6,
+          "step": "Offer extra gochugaru chili flakes on side for guests who enjoy additional morning spice heat."
+        },
+        {
+          "number": 7,
+          "step": "Cover leftover casserole dish tightly with plastic wrap after cooling down to room temperature."
+        },
+        {
+          "number": 8,
+          "step": "Store remaining bake in refrigerator for up to three days for easy morning reheating convenience."
+        },
+        {
+          "number": 9,
+          "step": "Reheat single slice portions in microwave for ninety seconds or toaster oven until hot."
+        },
+        {
+          "number": 10,
+          "step": "Pair reheating slices with fried egg on top for extra rich breakfast protein enhancement."
+        },
+        {
+          "number": 11,
+          "step": "Enjoy unique combination of tangy aged kimchi, tender potatoes, and baked cheesy egg custard."
+        },
+        {
+          "number": 12,
+          "step": "Clean all prep tools, cutting boards, and baking utensils promptly after breakfast service."
+        },
+        {
+          "number": 13,
+          "step": "Note recipe variations such as adding mushroom or spinach for future weekend breakfast bakes."
+        },
+        {
+          "number": 14,
+          "step": "Share this comforting Korean breakfast casserole dish with family and friends for morning feasts."
+        }
+      ]
+    }
+  ]
+}

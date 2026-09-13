@@ -1,0 +1,553 @@
+{
+  "id": 9001048,
+  "title": "Smoked Gochujang Glazed Korean Pork Belly Roast",
+  "image": "generated://dishcovery/9001048.jpg",
+  "readyInMinutes": 90,
+  "servings": 4,
+  "summary": "This spectacular Korean <b>smoked pork belly roast</b> combines deep oven caramelization with bold savory flavor profile. Pork belly slab is coated in a vibrant glaze of smoked gochujang chili paste, soybean paste (doenjang), toasted sesame oil, minced garlic, and grated ginger before roasting to crackling tender perfection. The inclusion of smoked chili elements brings a complex outdoorsy note that cuts through rich pork fat gracefully. Roasting on a rack allows excess fat to render out while crisping the scored skin into golden perfection. Served alongside pickled daikon radish, garlic chips, and fresh red leaf lettuce wraps, this dish delivers an interactive feast filled with contrasting textures. Packed with high-energy fats, bioavailable protein, iron, and key micronutrients like zinc and B-complex vitamins, this roast offers decadent satisfaction. The sweet and spicy glaze forms a sticky lacquered shell that locks in moisture while creating an unforgettable centerpiece for dinner parties.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2.5,
+      "unit": "lbs",
+      "name": "pork belly slab skin on"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "smoked gochujang paste"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "doenjang soybean paste"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ginger grated"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rice wine"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "head",
+      "name": "red leaf lettuce"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "cup",
+      "name": "pickled daikon radish"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic thinly sliced"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "gochugaru chili flakes"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "ssamjang dipping sauce"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "cucumber",
+      "name": "sliced thin"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat pork belly slab completely dry using absorbent paper towels on all sides."
+        },
+        {
+          "number": 2,
+          "step": "Score skin of pork belly in diamond pattern using sharp knife without cutting meat."
+        },
+        {
+          "number": 3,
+          "step": "Rub sea salt evenly into scored skin gashes to draw out surface moisture."
+        },
+        {
+          "number": 4,
+          "step": "Whisk smoked gochujang paste, doenjang soybean paste, and honey in mixing bowl."
+        },
+        {
+          "number": 5,
+          "step": "Add brown sugar, minced garlic, grated ginger, rice wine, and soy sauce to glaze base."
+        },
+        {
+          "number": 6,
+          "step": "Incorporate toasted sesame oil, apple cider vinegar, and smoked paprika into glaze."
+        },
+        {
+          "number": 7,
+          "step": "Whisk glaze vigorously for two minutes until sugar dissolves completely and turns glossy."
+        },
+        {
+          "number": 8,
+          "step": "Brush three quarters of glaze over meat side of pork belly keeping skin dry."
+        },
+        {
+          "number": 9,
+          "step": "Reserve remaining quarter of glaze in small bowl for final basting step later."
+        },
+        {
+          "number": 10,
+          "step": "Place glazed pork belly on wire rack set inside rimmed baking sheet uncovered."
+        },
+        {
+          "number": 11,
+          "step": "Refrigerate pork belly for forty-five minutes to allow skin to dry out completely."
+        },
+        {
+          "number": 12,
+          "step": "Preheat oven to 350 degrees Fahrenheit with oven rack set in upper middle position."
+        },
+        {
+          "number": 13,
+          "step": "Thinly slice extra garlic cloves and set aside for preparing crispy garlic chips."
+        },
+        {
+          "number": 14,
+          "step": "Wash red leaf lettuce leaves thoroughly in cold water and pat dry with towels."
+        }
+      ]
+    },
+    {
+      "name": "Oven Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove pork belly tray from refrigerator and let sit ten minutes at room temperature."
+        },
+        {
+          "number": 2,
+          "step": "Place rimmed baking sheet with rack into preheated oven on center roasting position."
+        },
+        {
+          "number": 3,
+          "step": "Roast pork belly at 350 degrees for fifty minutes until meat is render tender."
+        },
+        {
+          "number": 4,
+          "step": "Heat vegetable oil in small frying pan over medium burner flame until shimmering."
+        },
+        {
+          "number": 5,
+          "step": "Add thin garlic slices to hot oil and fry for two minutes until crispy golden."
+        },
+        {
+          "number": 6,
+          "step": "Transfer fried garlic chips onto paper towel lined plate using slotted spoon to drain."
+        },
+        {
+          "number": 7,
+          "step": "Carefully remove baking sheet with pork belly from oven using heavy oven mitts."
+        },
+        {
+          "number": 8,
+          "step": "Increase oven temperature setting to 425 degrees Fahrenheit for final crisping phase."
+        },
+        {
+          "number": 9,
+          "step": "Brush reserved gochujang glaze evenly over top meat surfaces of pork belly roast."
+        },
+        {
+          "number": 10,
+          "step": "Return roast to high heat oven for fifteen minutes until glaze caramelizes and bubbles."
+        },
+        {
+          "number": 11,
+          "step": "Watch roast surface carefully to prevent sweet glaze from scorching or blackening."
+        },
+        {
+          "number": 12,
+          "step": "Check internal pork temperature with digital thermometer ensuring it reads 160 degrees."
+        },
+        {
+          "number": 13,
+          "step": "Remove roast from oven and place wire rack on heatproof counter space to cool."
+        },
+        {
+          "number": 14,
+          "step": "Rest pork belly roast undisturbed for ten full minutes to lock in juicy meat juices."
+        }
+      ]
+    },
+    {
+      "name": "Glazing and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer rested pork belly onto wooden cutting board using broad spatulas carefully."
+        },
+        {
+          "number": 2,
+          "step": "Slice pork belly roast into half-inch thick pieces using sharp chef knife smoothly."
+        },
+        {
+          "number": 3,
+          "step": "Arrange warm pork belly slices neatly in overlapping fan pattern on serving platter."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle any warm pan drippings over pork slices for maximum richness and glossy shine."
+        },
+        {
+          "number": 5,
+          "step": "Scatter toasted sesame seeds evenly over glazed pork belly slices for visual accent."
+        },
+        {
+          "number": 6,
+          "step": "Garnish platter with green onions sliced on bias and crispy fried garlic chips."
+        },
+        {
+          "number": 7,
+          "step": "Arrange washed red leaf lettuce leaves on side tray alongside thin cucumber slices."
+        },
+        {
+          "number": 8,
+          "step": "Place bowls of ssamjang dipping sauce and pickled daikon radish around serving table."
+        },
+        {
+          "number": 9,
+          "step": "Instruct guests to wrap pork slice, cucumber, and ssamjang inside fresh lettuce leaf."
+        },
+        {
+          "number": 10,
+          "step": "Pair roast pork wraps with warm steamed short-grain white rice for classic presentation."
+        },
+        {
+          "number": 11,
+          "step": "Provide extra gochugaru chili flakes at table for guests desiring additional heat."
+        },
+        {
+          "number": 12,
+          "step": "Store leftover roast pork in airtight container in refrigerator for up to three days."
+        },
+        {
+          "number": 13,
+          "step": "Slice leftover pork thinly and sear in hot skillet before serving next day."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy rich contrast between crispy glazed pork, savory sauce, and crisp lettuce wrap."
+        }
+      ]
+    }
+  ]
+}

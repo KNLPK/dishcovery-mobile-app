@@ -1,0 +1,553 @@
+{
+  "id": 9001031,
+  "title": "Spiced Sevai Morning Noodle Bowl",
+  "image": "generated://dishcovery/9001031.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "Brighten your morning table with this savory Indian <b>sevai noodle bowl</b>, reimagined for a satisfying breakfast. Built around delicate <b>rice vermicelli noodles</b>, this dish is tempered with mustard seeds, curry leaves, and crunchy roasted cashews. Sweet green peas, diced carrots, and fresh grated coconut add texture, color, and gentle natural sweetness. Turmeric imparts a warm golden hue that makes the bowl as visual as it is delicious. Light yet filling, this morning creation provides quick complex carbohydrates and sustained energy for the day ahead. Squeezed lemon juice right before serving lifts the spice notes with a refreshing citrus pop. It is an ideal alternative to standard breakfast grains, offering fragrant Indian spices in under thirty minutes. The technique of tempering whole spices in ghee creates an fragrant oil that coats every strand of vermicelli evenly. Top with fresh cilantro and toasted nuts for contrasting crunch in every bite.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Potassium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "rice vermicelli noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chana dal"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "urad dal"
+    },
+    {
+      "id": 90006,
+      "amount": 15,
+      "unit": "pcs",
+      "name": "raw cashews"
+    },
+    {
+      "id": 90007,
+      "amount": 10,
+      "unit": "pcs",
+      "name": "fresh curry leaves"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "green chili"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "small red onion"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "medium carrot"
+    },
+    {
+      "id": 90011,
+      "amount": 75,
+      "unit": "g",
+      "name": "green peas"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "asafoetida powder"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 500,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh grated coconut"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "lemon"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "grated ginger"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "red chili powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "slivered almonds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Noodle Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring five hundred milliliters of clean filtered water to a rolling boil in a deep saucepan."
+        },
+        {
+          "number": 2,
+          "step": "Add half a teaspoon of sea salt and one teaspoon of vegetable oil to boiling water."
+        },
+        {
+          "number": 3,
+          "step": "Submerge rice vermicelli noodles completely into boiling water using silicone tongs."
+        },
+        {
+          "number": 4,
+          "step": "Cook vermicelli for exactly three minutes until strands become tender but firm."
+        },
+        {
+          "number": 5,
+          "step": "Drain cooked noodles immediately into a fine mesh colander set inside sink."
+        },
+        {
+          "number": 6,
+          "step": "Rinse vermicelli under cold tap water for thirty seconds to stop cooking process."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle half a teaspoon of oil over noodles, tossing lightly to prevent sticking."
+        },
+        {
+          "number": 8,
+          "step": "Spread drained noodles onto a large wide plate to air-dry while preparing spices."
+        },
+        {
+          "number": 9,
+          "step": "Finely dice red onion into tiny quarter-inch cubes using a sharp chef's knife."
+        },
+        {
+          "number": 10,
+          "step": "Peel carrot and cut into very small uniform dice matching the size of green peas."
+        },
+        {
+          "number": 11,
+          "step": "Slit green chili lengthwise into thin halves, keeping seeds for extra heat if liked."
+        },
+        {
+          "number": 12,
+          "step": "Grate fresh ginger finely until you have half a teaspoon of smooth aromatic paste."
+        },
+        {
+          "number": 13,
+          "step": "Measure out chana dal, urad dal, mustard seeds, cumin seeds, and fresh curry leaves."
+        },
+        {
+          "number": 14,
+          "step": "Coarsely chop raw cashews and slivered almonds, setting aside on small saucers."
+        }
+      ]
+    },
+    {
+      "name": "Tempering and Sautéing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt ghee in a large non-stick skillet or wok over medium heat until warm and clear."
+        },
+        {
+          "number": 2,
+          "step": "Add raw cashew pieces and slivered almonds to hot ghee, stirring continuously."
+        },
+        {
+          "number": 3,
+          "step": "Fry nuts for two minutes until light golden brown, then transfer to a small dish."
+        },
+        {
+          "number": 4,
+          "step": "Scatter mustard seeds into remaining hot ghee and wait until they crackle loudly."
+        },
+        {
+          "number": 5,
+          "step": "Add cumin seeds, chana dal, and urad dal to pan, stirring for one minute to roast."
+        },
+        {
+          "number": 6,
+          "step": "Toss fresh curry leaves, split green chili, and grated ginger into pan safely."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle asafoetida powder into oil, stirring quickly to release rich warm fragrance."
+        },
+        {
+          "number": 8,
+          "step": "Add diced red onions to skillet and cook for three minutes until translucent and soft."
+        },
+        {
+          "number": 9,
+          "step": "Add diced carrots and sweet green peas, stirring well to combine with spice base."
+        },
+        {
+          "number": 10,
+          "step": "Season vegetables with turmeric powder, red chili powder, sugar, and remaining salt."
+        },
+        {
+          "number": 11,
+          "step": "Pour two tablespoons of water into skillet, cover with lid, and cook for four minutes."
+        },
+        {
+          "number": 12,
+          "step": "Remove lid and test that carrot dice are tender when pressed gently with a spoon."
+        },
+        {
+          "number": 13,
+          "step": "Stir in roasted peanuts and half of fresh grated coconut into sautéed vegetables."
+        },
+        {
+          "number": 14,
+          "step": "Adjust heat to low and ensure pan liquid has completely evaporated before noodles."
+        }
+      ]
+    },
+    {
+      "name": "Mixing and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Gently fluff cooked vermicelli noodles using a fork to separate any clumping strands."
+        },
+        {
+          "number": 2,
+          "step": "Add vermicelli into skillet with spiced vegetables in two separate additions."
+        },
+        {
+          "number": 3,
+          "step": "Toss noodles gently using two wooden spoons until evenly coated with yellow turmeric."
+        },
+        {
+          "number": 4,
+          "step": "Cook noodle mixture over low heat for three minutes, allowing flavors to blend together."
+        },
+        {
+          "number": 5,
+          "step": "Turn off burner heat completely and move pan away from direct stovetop element."
+        },
+        {
+          "number": 6,
+          "step": "Squeeze fresh lemon juice over warm noodles, tossing lightly to distribute citrus juice."
+        },
+        {
+          "number": 7,
+          "step": "Stir in half of toasted golden cashews and slivered almonds into noodle skillet."
+        },
+        {
+          "number": 8,
+          "step": "Finely chop fresh cilantro leaves and stems to yield two tablespoons of garnish."
+        },
+        {
+          "number": 9,
+          "step": "Divide warm spiced sevai noodles evenly among four wide shallow breakfast bowls."
+        },
+        {
+          "number": 10,
+          "step": "Garnish top of each bowl with remaining fresh grated coconut and chopped cilantro."
+        },
+        {
+          "number": 11,
+          "step": "Scatter remaining toasted cashews and almonds over noodle bowls for extra crunch."
+        },
+        {
+          "number": 12,
+          "step": "Serve immediately alongside warm spiced chai tea or freshly squeezed orange juice."
+        },
+        {
+          "number": 13,
+          "step": "Offer additional lemon wedges on dish rim for guests who prefer extra sour kick."
+        },
+        {
+          "number": 14,
+          "step": "Store cooled leftover noodles in airtight container in fridge for up to two days."
+        }
+      ]
+    }
+  ]
+}

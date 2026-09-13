@@ -1,0 +1,852 @@
+{
+  "id": 9002005,
+  "title": "Fermented Cassava Flatbread with Sun-Dried Tomato Spread",
+  "image": "generated://dishcovery/9002005.jpg",
+  "readyInMinutes": 180,
+  "servings": 6,
+  "summary": "Highlighting South America's rich culinary traditions, this unique <b>Brazilian flatbread</b> showcases the incredible tangy flavor of a <b>fermented component</b>. Naturally fermented cassava pulp is mixed with tapioca starch, coconut oil, and crushed sea salt to create a pliable, elastic dough. Griddled on a blistering hot cast-iron skillet, these flatbreads puff beautifully, creating a delightfully crisp exterior wrapper around a chewy, airy interior structure. A vibrant spread made from sun-dried tomatoes, toasted pumpkin seeds, garlic, and cold-pressed olive oil adds a savory, umami-rich layer of flavor. Fresh cilantro, sliced red onion, and creamy goat cheese crumble complete this satisfying plant-forward creation. Ideal for light lunches or party appetizers, this recipe turns humble cassava root into a sophisticated bread alternative naturally free of gluten. Packed with healthy fats, gut-friendly fermented notes, and essential trace minerals, this flatbread offers a memorable tasting experience that will impress any bread lover.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 380,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fermented cassava starter"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "tapioca starch"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "melted coconut oil"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fine sea salt"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "warm water"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sun-dried tomatoes in oil"
+    },
+    {
+      "id": 90006,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "toasted pumpkin seeds"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "crumbled goat cheese"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh cilantro leaves"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "small",
+      "name": "red onion"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chia seeds"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "flaxseeds"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced avocado"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced black olives"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped oregano"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sunflower seeds"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "arugula"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "balsamic glaze"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90032,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "avocado oil"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "grated parmesan"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "diced jalapeno"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90037,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cassava flour"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "melted butter"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "id": 90042,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "xanthan gum"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "turmeric"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Fermented Starter prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure out two cups of active fermented cassava starter paste into a large mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Check fermented starter for pleasant sharp tangy aroma before proceeding with dough."
+        },
+        {
+          "number": 3,
+          "step": "Add tapioca starch, chia seeds, flaxseeds, cumin seeds, and fine sea salt into starter."
+        },
+        {
+          "number": 4,
+          "step": "Pour in three tablespoons of warm melted coconut oil to add richness and texture."
+        },
+        {
+          "number": 5,
+          "step": "Add xanthan gum, baking powder, and a pinch of turmeric powder to boost dough elasticity."
+        },
+        {
+          "number": 6,
+          "step": "Stir ingredients together using a sturdy wooden spoon until a shaggy dough begins forming."
+        },
+        {
+          "number": 7,
+          "step": "Pour in warm water two tablespoons at a time while mixing to bring dough together."
+        },
+        {
+          "number": 8,
+          "step": "Turn shaggy cassava dough out onto a clean work surface lightly dusted with cassava flour."
+        },
+        {
+          "number": 9,
+          "step": "Knead dough smoothly for five minutes until supple, non-sticky, and completely cohesive."
+        },
+        {
+          "number": 10,
+          "step": "Shape kneaded fermented dough into a neat ball and return to bowl under damp towel."
+        },
+        {
+          "number": 11,
+          "step": "Let dough rest undisturbed at room temperature for thirty minutes to hydrate fully."
+        },
+        {
+          "number": 12,
+          "step": "Clean work surface and prepare parchment paper sheets for rolling out flatbread rounds."
+        },
+        {
+          "number": 13,
+          "step": "Divide rested dough into six equal portion balls, rolling each smoothly between palms."
+        },
+        {
+          "number": 14,
+          "step": "Keep dough balls covered under damp kitchen towel so they do not dry while waiting."
+        }
+      ]
+    },
+    {
+      "name": "Spread Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place sun-dried tomatoes with their oil, toasted pumpkin seeds, and garlic into food processor."
+        },
+        {
+          "number": 2,
+          "step": "Add extra virgin olive oil, lime juice, apple cider vinegar, and honey into processor bowl."
+        },
+        {
+          "number": 3,
+          "step": "Add smoked paprika, chili powder, oregano, thyme, salt, and pepper into tomato mix."
+        },
+        {
+          "number": 4,
+          "step": "Pulse food processor ten times to chop ingredients before blending into coarse paste."
+        },
+        {
+          "number": 5,
+          "step": "Process spread mixture for two minutes until thick, vibrant red, and spreadably smooth."
+        },
+        {
+          "number": 6,
+          "step": "Transfer sun-dried tomato spread into small bowl and taste for salt and lime balance."
+        },
+        {
+          "number": 7,
+          "step": "Stir in chopped fresh jalapeno and lemon zest for extra kick and bright herbal lift."
+        },
+        {
+          "number": 8,
+          "step": "Cover tomato spread container and store at room temperature while cooking flatbreads."
+        },
+        {
+          "number": 9,
+          "step": "Clean food processor bowl immediately to prevent tomato oils from staining plastic."
+        },
+        {
+          "number": 10,
+          "step": "Slice red onion paper-thin on a mandoline slicer and toss with lime juice in bowl."
+        },
+        {
+          "number": 11,
+          "step": "Slice ripe avocado thinly and fan out slices on a plate, drizzling with olive oil."
+        },
+        {
+          "number": 12,
+          "step": "Crumble fresh goat cheese into small nuggets and keep chilled in refrigerator until needed."
+        },
+        {
+          "number": 13,
+          "step": "Wash fresh arugula leaves thoroughly and dry them completely in salad spinner basket."
+        },
+        {
+          "number": 14,
+          "step": "Set out sesame seeds, sunflower seeds, and sea salt flakes in small topping bowls."
+        }
+      ]
+    },
+    {
+      "name": "Rolling Flatbreads",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place one dough ball between two sheets of unbleached parchment paper on work counter."
+        },
+        {
+          "number": 2,
+          "step": "Press down dough ball with palm of hand to flatten into thick disk shape initially."
+        },
+        {
+          "number": 3,
+          "step": "Roll out dough evenly using wooden rolling pin until disk reaches eight inches diameter."
+        },
+        {
+          "number": 4,
+          "step": "Peel top layer of parchment paper off rolled flatbread round gently and carefully."
+        },
+        {
+          "number": 5,
+          "step": "Dust rolled flatbread top lightly with extra tapioca starch to prevent sticking later."
+        },
+        {
+          "number": 6,
+          "step": "Repeat rolling process for remaining five dough balls between parchment paper sheets."
+        },
+        {
+          "number": 7,
+          "step": "Stack rolled flatbread rounds with parchment sheets between them to prevent sticking."
+        },
+        {
+          "number": 8,
+          "step": "Inspect rolled dough rounds for uniform eighth-inch thickness to ensure even griddling."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle sesame seeds and sunflower seeds onto one side of each dough round, pressing in."
+        },
+        {
+          "number": 10,
+          "step": "Trim any ragged dough edges using round pastry cutter if perfectly neat circles desired."
+        },
+        {
+          "number": 11,
+          "step": "Keep stacked flatbread rounds covered with damp cloth while preheating cast-iron skillet."
+        },
+        {
+          "number": 12,
+          "step": "Prepare wide spatula near stove to turn hot flatbreads smoothly during cooking step."
+        },
+        {
+          "number": 13,
+          "step": "Set baking sheet lined with clean towel inside warm 200 degree oven for cooked bread."
+        }
+      ]
+    },
+    {
+      "name": "Griddling Bread",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place heavy cast-iron skillet or griddle pan over medium-high heat on stove burner."
+        },
+        {
+          "number": 2,
+          "step": "Brush skillet surface lightly with avocado oil using silicone pastry brush to coat."
+        },
+        {
+          "number": 3,
+          "step": "Carefully transfer first flatbread round onto hot dry skillet surface seed-side down."
+        },
+        {
+          "number": 4,
+          "step": "Cook flatbread for two minutes until bottom turns golden with characteristic brown spots."
+        },
+        {
+          "number": 5,
+          "step": "Watch for dough surface to bubble and puff up as steam expands inside structure."
+        },
+        {
+          "number": 6,
+          "step": "Flip flatbread over using wide spatula and cook second side for ninety seconds more."
+        },
+        {
+          "number": 7,
+          "step": "Press down edges gently with spatula to ensure even contact with hot skillet surface."
+        },
+        {
+          "number": 8,
+          "step": "Transfer cooked flatbread to warm towel-lined baking sheet in oven to keep soft."
+        },
+        {
+          "number": 9,
+          "step": "Repeat griddling process for remaining five flatbreads, re-oiling pan lightly as needed."
+        },
+        {
+          "number": 10,
+          "step": "Adjust stove burner heat slightly if skillet becomes too smoking hot between batches."
+        },
+        {
+          "number": 11,
+          "step": "Ensure each flatbread is fully cooked through with appealing crisp spots on both sides."
+        },
+        {
+          "number": 12,
+          "step": "Keep all cooked griddled flatbreads wrapped in warm cloth until ready to assemble toppings."
+        },
+        {
+          "number": 13,
+          "step": "Turn off stove burner safely once final flatbread is removed from hot skillet surface."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Lay warm cooked fermented cassava flatbreads out onto clean wooden serving boards."
+        },
+        {
+          "number": 2,
+          "step": "Spoon two generous tablespoons of sun-dried tomato spread onto center of each bread."
+        },
+        {
+          "number": 3,
+          "step": "Spread tomato mixture evenly across top of each flatbread, leaving half-inch border free."
+        },
+        {
+          "number": 4,
+          "step": "Arrange sliced avocado fan pieces artfully over sun-dried tomato spread on each flatbread."
+        },
+        {
+          "number": 5,
+          "step": "Scatter crumbled fresh goat cheese nuggets evenly over avocado and tomato layer."
+        },
+        {
+          "number": 6,
+          "step": "Top flatbreads with pickled red onion slices, sliced black olives, and fresh arugula."
+        },
+        {
+          "number": 7,
+          "step": "Scatter fresh cilantro leaves and chopped parsley over assembled toppings for green color."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle extra virgin olive oil and rich balsamic glaze lightly across all toppings."
+        },
+        {
+          "number": 9,
+          "step": "Finish each flatbread with light sprinkling of sea salt flakes and cracked black pepper."
+        },
+        {
+          "number": 10,
+          "step": "Scatter grated parmesan cheese over tops for extra savory umami punch if desired."
+        },
+        {
+          "number": 11,
+          "step": "Inspect assembled flatbreads to verify balanced colorful presentation across all six portions."
+        },
+        {
+          "number": 12,
+          "step": "Slice flatbreads into quarters using sharp pizza cutter wheel before carrying to table."
+        },
+        {
+          "number": 13,
+          "step": "Serve immediately while flatbreads remain warm and crisp around golden griddled edges."
+        }
+      ]
+    },
+    {
+      "name": "Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Present sliced cassava flatbread boards family style at center of table for sharing."
+        },
+        {
+          "number": 2,
+          "step": "Pair flatbreads with fresh tropical fruit juices or cold iced teas for refreshing meal."
+        },
+        {
+          "number": 3,
+          "step": "Provide extra sun-dried tomato spread in small side dip bowl with spoon for guests."
+        },
+        {
+          "number": 4,
+          "step": "Offer additional lime wedges at table for guests to squeeze over fresh salad toppings."
+        },
+        {
+          "number": 5,
+          "step": "Enjoy unique tangy flavor and crispy chewy texture of fermented cassava bread dough."
+        },
+        {
+          "number": 6,
+          "step": "Highlight natural gluten-free whole food benefits of cassava starter dough to guests."
+        },
+        {
+          "number": 7,
+          "step": "Wipe wooden serving boards clean after meal using warm soapy cloth and dry immediately."
+        },
+        {
+          "number": 8,
+          "step": "Store leftover flatbreads wrapped tightly in foil in refrigerator for up to three days."
+        },
+        {
+          "number": 9,
+          "step": "Reheat leftover flatbreads in dry skillet for one minute per side to restore crunch."
+        },
+        {
+          "number": 10,
+          "step": "Store remaining tomato spread in glass jar in fridge for up to one week use."
+        },
+        {
+          "number": 11,
+          "step": "Use remaining spread as condiment for sandwiches, grain bowls, or grilled vegetables."
+        },
+        {
+          "number": 12,
+          "step": "Celebrate rich traditional South American cassava fermentation methods in home kitchen."
+        },
+        {
+          "number": 13,
+          "step": "Conclude meal with light berry dessert to complement warm savory cassava flatbreads."
+        }
+      ]
+    }
+  ]
+}

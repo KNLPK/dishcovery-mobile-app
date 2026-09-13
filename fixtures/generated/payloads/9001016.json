@@ -1,0 +1,552 @@
+{
+  "id": 9001016,
+  "title": "Make-Ahead Spinach Ricotta Malfatti Dumplings",
+  "image": "generated://dishcovery/9001016.jpg",
+  "readyInMinutes": 120,
+  "servings": 6,
+  "summary": "These tender <b>Italian spinach malfatti</b> dumplings offer a convenient make-ahead option for hosting stress-free dinner parties. Made from fresh ricotta cheese, blanched spinach, grated Parmigiano-Reggiano, and a touch of nutmeg, these freeform dumplings are shaped ahead of time and chilled to set their delicate texture. Chilling allowing the binders to fully hydrate, guaranteeing they hold their rounded shape during poaching. Served over a rich, slow-simmered tomato butter sauce and finished with crisp sage leaves, this classic Lombardy specialty combines rustic Italian warmth with refined flavor. The dumpling dough remains light and cloud-like, absorbing the velvety herbal sauce gracefully. Perfect for advance meal prep, the dumplings can sit refrigerated for hours before brief poaching in salted boiling water. A final dusting of freshly shaved cheese brings out the subtle savory notes of high-quality ricotta. This crowd-pleasing dish pairs wonderfully with crusty Italian bread and a crisp white wine.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 33.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Protein",
+        "amount": 21,
+        "unit": "g",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.8
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 116.6
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.9
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.5
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.75,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31.2
+      },
+      {
+        "name": "Folate",
+        "amount": 95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23.7
+      },
+      {
+        "name": "Calcium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.7
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Selenium",
+        "amount": 16.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Choline",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.9
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 20.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.4
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 26.1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "whole milk ricotta cheese"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "fresh baby spinach"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "parmigiano reggiano"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "large",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "whole",
+      "name": "large egg"
+    },
+    {
+      "id": 90005,
+      "amount": 80,
+      "unit": "g",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "freshly grated nutmeg"
+    },
+    {
+      "id": 90007,
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground black pepper"
+    },
+    {
+      "id": 90009,
+      "amount": 400,
+      "unit": "g",
+      "name": "canned crushed tomatoes"
+    },
+    {
+      "id": 90010,
+      "amount": 50,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90011,
+      "amount": 12,
+      "unit": "leaves",
+      "name": "fresh sage"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "small",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90015,
+      "amount": 50,
+      "unit": "g",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90016,
+      "amount": 30,
+      "unit": "g",
+      "name": "pecorino romano"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh basil leaves"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sea salt for boiling water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dumpling Preparation and Chilling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Line a large fine mesh sieve with cheesecloth and place over a deep bowl to catch liquid."
+        },
+        {
+          "number": 2,
+          "step": "Spoon whole milk ricotta into cheesecloth and let drain for two hours to reduce excess whey."
+        },
+        {
+          "number": 3,
+          "step": "Bring a large pot of water to a roll boil over high heat and add one tablespoon of salt."
+        },
+        {
+          "number": 4,
+          "step": "Submerge fresh baby spinach leaves in boiling water for thirty seconds until vibrant green."
+        },
+        {
+          "number": 5,
+          "step": "Transfer blanched spinach immediately into an ice water bath to halt cooking process."
+        },
+        {
+          "number": 6,
+          "step": "Drain cooled spinach and squeeze forcefully inside a clean kitchen towel to remove all water."
+        },
+        {
+          "number": 7,
+          "step": "Chop drained spinach very finely on a heavy wooden cutting board until uniform in size."
+        },
+        {
+          "number": 8,
+          "step": "Transfer drained ricotta cheese into a large bowl and beat gently with a rubber spatula."
+        },
+        {
+          "number": 9,
+          "step": "Fold chopped spinach into drained ricotta cheese until combined without visible white clumps."
+        },
+        {
+          "number": 10,
+          "step": "Whisk whole egg, egg yolks, grated parmigiano reggiano, and grated nutmeg in a small bowl."
+        },
+        {
+          "number": 11,
+          "step": "Pour egg mixture into spinach ricotta base and mix thoroughly using a wide wooden spoon."
+        },
+        {
+          "number": 12,
+          "step": "Sift all purpose flour over mixture and fold gently until a soft cohesive dough comes together."
+        },
+        {
+          "number": 13,
+          "step": "Dust a large rimmed baking sheet generously with semolina flour to prevent dumplings from sticking."
+        },
+        {
+          "number": 14,
+          "step": "Scoop tablespoons of dough and roll lightly between palms to form small rustic oval dumplings."
+        },
+        {
+          "number": 15,
+          "step": "Arrange dumplings on prepared baking sheet leaving a small space between individual pieces."
+        },
+        {
+          "number": 16,
+          "step": "Dust top of shaped dumplings lightly with additional semolina flour for protective coating."
+        },
+        {
+          "number": 17,
+          "step": "Cover baking sheet loosely with plastic wrap and place in refrigerator for at least two hours."
+        },
+        {
+          "number": 18,
+          "step": "Dice yellow onion finely and mince garlic cloves on cutting board for tomato sauce prep."
+        },
+        {
+          "number": 19,
+          "step": "Heat olive oil and half of butter in a medium saucepan over medium low heat until shimmering."
+        },
+        {
+          "number": 20,
+          "step": "Add onion and garlic to pan and cook for six minutes until softened and translucent."
+        },
+        {
+          "number": 21,
+          "step": "Pour in crushed tomatoes, red pepper flakes, sugar, and salt, then simmer sauce for twenty minutes."
+        },
+        {
+          "number": 22,
+          "step": "Stir heavy cream into tomato sauce and keep warm over very low heat until dumplings finish cooking."
+        }
+      ]
+    },
+    {
+      "name": "Poaching and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring a large wide pot filled with four quarts of water to a gentle simmer over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Add two tablespoons of sea salt to simmering water and stir until completely dissolved."
+        },
+        {
+          "number": 3,
+          "step": "Remove chilled dumplings from refrigerator and carefully uncover the baking sheet."
+        },
+        {
+          "number": 4,
+          "step": "Drop eight dumplings into simmering water one by one using a wide slotted metal spoon."
+        },
+        {
+          "number": 5,
+          "step": "Adjust flame so water maintains a gentle simmer without heavy boiling to preserve shape."
+        },
+        {
+          "number": 6,
+          "step": "Poach dumplings for three minutes after they float to top surface of simmering water."
+        },
+        {
+          "number": 7,
+          "step": "Melt remaining butter in a wide skillet over medium heat until foam subsides completely."
+        },
+        {
+          "number": 8,
+          "step": "Add fresh sage leaves to hot butter and fry for ninety seconds until fragrant and crispy."
+        },
+        {
+          "number": 9,
+          "step": "Scoop cooked dumplings out of water using slotted spoon and transfer into butter skillet."
+        },
+        {
+          "number": 10,
+          "step": "Repeat poaching process with remaining chilled dumplings in two equal separate batches."
+        },
+        {
+          "number": 11,
+          "step": "Toss cooked dumplings gently in brown butter and crisp sage leaves for one minute to coat."
+        },
+        {
+          "number": 12,
+          "step": "Spoon a warm layer of creamed tomato sauce onto bottom of six wide shallow serving bowls."
+        },
+        {
+          "number": 13,
+          "step": "Divide butter coated malfatti dumplings evenly among prepared warm serving bowls."
+        },
+        {
+          "number": 14,
+          "step": "Spoon remaining butter sauce and fried sage leaves over top of arranged dumplings."
+        },
+        {
+          "number": 15,
+          "step": "Grate pecorino romano cheese generously over warm dumplings in each individual bowl."
+        },
+        {
+          "number": 16,
+          "step": "Garnish each portion with fresh lemon zest and toasted pine nuts for texture contrast."
+        },
+        {
+          "number": 17,
+          "step": "Tear fresh basil leaves into tiny pieces and sprinkle over top of finished dumplings."
+        },
+        {
+          "number": 18,
+          "step": "Season each dish with a light pinch of coarse black pepper right before presenting to table."
+        },
+        {
+          "number": 19,
+          "step": "Clean rim of each serving bowl with a damp towel for a neat professional presentation."
+        },
+        {
+          "number": 20,
+          "step": "Serve warm malfatti immediately while sauce remains hot and dumplings are tender."
+        },
+        {
+          "number": 21,
+          "step": "Provide extra grated cheese on side so dinner guests can add additional topping as desired."
+        }
+      ]
+    }
+  ]
+}

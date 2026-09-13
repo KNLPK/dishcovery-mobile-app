@@ -1,0 +1,553 @@
+{
+  "id": 9001066,
+  "title": "Polish Rye Sour Cream Breakfast Soup",
+  "image": "generated://dishcovery/9001066.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Transforming traditional Polish comfort food into an invigorating morning meal, this unique breakfast soup revamps classic sour rye flavors. Featuring a foundation of <b>fermented rye sourdough starter</b>, the creamy broth is gently simmered with smoked marjoram, diced root vegetables, and fragrant garlic cloves. To make it morning-friendly, soft poached eggs and delicate potato-chive dumplings are nestled directly into the steaming bowl just before serving. A touch of heavy sour cream and fresh dill creates a silky texture that coats the spoon with soothing warmth. Diced pan-fried caraway bacon provides a savory crunch that balances the characteristic tartness of the soup. Designed to provide long-lasting energy for the day ahead, this hearty dish offers an authentic taste of Eastern European hospitality in a vibrant breakfast format. Serve hot with thick slices of toasted sourdough bread spread with cultured butter to complete a comforting start to your morning routine that will leave everyone thoroughly satisfied.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 360,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 620,
+        "unit": "IU",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 44,
+        "unit": "IU",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 52,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Biotin",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "ml",
+      "name": "fermented rye starter"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "liter",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "smoked bacon"
+    },
+    {
+      "id": 90003,
+      "amount": 150,
+      "unit": "g",
+      "name": "sour cream"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "mashed potatoes"
+    },
+    {
+      "id": 90006,
+      "amount": 50,
+      "unit": "g",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dried marjoram"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "small",
+      "name": "parsley root"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "medium",
+      "name": "celeriac bulb"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "bay",
+      "name": "dried bay leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "berries",
+      "name": "allspice berries"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh dill"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "horseradish paste"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white vinegar"
+    },
+    {
+      "id": 90022,
+      "amount": 4,
+      "unit": "slices",
+      "name": "sourdough bread"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cultured butter"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "paprika"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Broth Infusion",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour vegetable broth into a heavy soup pot and bring to a simmer over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Peel carrot parsley root and celeriac bulb then dice into small uniform cubes."
+        },
+        {
+          "number": 3,
+          "step": "Add diced root vegetables dried bay leaves and allspice berries to simmering broth."
+        },
+        {
+          "number": 4,
+          "step": "Mince garlic cloves finely and add to broth along with dried marjoram leaves."
+        },
+        {
+          "number": 5,
+          "step": "Simmer broth uncovered for fifteen minutes until root vegetables are soft."
+        },
+        {
+          "number": 6,
+          "step": "Dice smoked bacon into quarter inch cubes using a sharp utility knife."
+        },
+        {
+          "number": 7,
+          "step": "Heat butter in a separate frying pan over medium heat for one minute."
+        },
+        {
+          "number": 8,
+          "step": "Add diced bacon and caraway seeds to pan and cook until crisp golden brown."
+        },
+        {
+          "number": 9,
+          "step": "Transfer cooked bacon to paper towels using slotted spoon leaving rendered fat."
+        },
+        {
+          "number": 10,
+          "step": "Shake fermented rye starter jar well to suspend settled flour prior to pouring."
+        },
+        {
+          "number": 11,
+          "step": "Whisk fermented rye starter gradually into simmering vegetable broth pot."
+        },
+        {
+          "number": 12,
+          "step": "Simmer soup continuously for five minutes until liquid thickens slightly."
+        },
+        {
+          "number": 13,
+          "step": "Whisk sour cream and horseradish paste together in a small ceramic bowl."
+        },
+        {
+          "number": 14,
+          "step": "Ladle hot soup slowly into sour cream bowl to temper cream before adding."
+        }
+      ]
+    },
+    {
+      "name": "Breakfast Dumpling Dough",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine cold mashed potatoes all purpose flour and chopped chives in bowl."
+        },
+        {
+          "number": 2,
+          "step": "Season potato dumpling dough mixture with salt black pepper and paprika."
+        },
+        {
+          "number": 3,
+          "step": "Knead potato dough briefly with clean hands until smooth ball dough forms."
+        },
+        {
+          "number": 4,
+          "step": "Pinch off small tablespoon sized pieces of dough and roll into smooth balls."
+        },
+        {
+          "number": 5,
+          "step": "Press thumb gently into center of each dumpling ball to create small dimple."
+        },
+        {
+          "number": 6,
+          "step": "Bring a separate pot of salted water to gentle boil for cooking dumplings."
+        },
+        {
+          "number": 7,
+          "step": "Drop potato dumplings into boiling water carefully using slotted spoon."
+        },
+        {
+          "number": 8,
+          "step": "Cook dumplings for three minutes after they float to surface of boiling water."
+        },
+        {
+          "number": 9,
+          "step": "Remove cooked dumplings with slotted spoon and transfer to clean warm plate."
+        },
+        {
+          "number": 10,
+          "step": "Drizzle dumplings lightly with bacon fat from skillet to prevent sticking."
+        },
+        {
+          "number": 11,
+          "step": "Keep cooked dumplings covered loosely with foil in warm area of kitchen."
+        },
+        {
+          "number": 12,
+          "step": "Prepare poaching bath by filling wide shallow skillet with two inches water."
+        },
+        {
+          "number": 13,
+          "step": "Add white vinegar to poaching water and bring to gentle barely bubbling simmer."
+        },
+        {
+          "number": 14,
+          "step": "Crack fresh eggs into individual small ramekins for easy poaching drop."
+        }
+      ]
+    },
+    {
+      "name": "Simmering and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour tempered sour cream mixture back into soup pot while stirring constantly."
+        },
+        {
+          "number": 2,
+          "step": "Season soup with salt and freshly ground black pepper according to taste preference."
+        },
+        {
+          "number": 3,
+          "step": "Keep soup on lowest heat setting so cream does not curdle or separate."
+        },
+        {
+          "number": 4,
+          "step": "Slide cracked eggs gently into simmering poached water bath one at a time."
+        },
+        {
+          "number": 5,
+          "step": "Poach eggs for exactly three minutes until whites set and yolks remain runny."
+        },
+        {
+          "number": 6,
+          "step": "Remove poached eggs carefully with slotted spoon and drain on paper towel."
+        },
+        {
+          "number": 7,
+          "step": "Divide cooked potato dumplings evenly among four wide prewarmed soup bowls."
+        },
+        {
+          "number": 8,
+          "step": "Ladle hot rye sour cream soup over dumplings in bowls leaving room for egg."
+        },
+        {
+          "number": 9,
+          "step": "Place one poached egg gently into center of each soup bowl onto dumplings."
+        },
+        {
+          "number": 10,
+          "step": "Garnish soup bowls generously with crisp caraway bacon and chopped fresh dill."
+        },
+        {
+          "number": 11,
+          "step": "Toast sourdough bread slices until golden brown and spread with cultured butter."
+        },
+        {
+          "number": 12,
+          "step": "Serve steaming breakfast soup immediately accompanied by warm sourdough toast."
+        },
+        {
+          "number": 13,
+          "step": "Instruct diners to break poached egg yolk into soup broth before eating."
+        },
+        {
+          "number": 14,
+          "step": "Provide extra fresh dill and horseradish at table for customized seasoning."
+        }
+      ]
+    }
+  ]
+}

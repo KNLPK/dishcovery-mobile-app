@@ -1,0 +1,553 @@
+{
+  "id": 9001007,
+  "title": "Celebration Lebanese Lamb Shank Stew with Pomegranate",
+  "image": "generated://dishcovery/9001007.jpg",
+  "readyInMinutes": 120,
+  "servings": 6,
+  "summary": "Designed for festive gatherings, this showstopping Lebanese celebration stew centers on tender <b>lamb shoulder shanks</b> braised in a saffron pomegranate broth. Marinated with seven spices, sumac, and garlic, the lamb is seared until deeply browned before simmering slowly with sweet shallots and dried figs. Pomegranate molasses and fresh pomegranate arils infuse the broth with rich ruby color and vibrant tart contrast. Tender chickpeas and roasted butternut squash chunks melt into the silky sauce, absorbing warm cinnamon and clove aromatics. Finished with toasted pine nuts, slivered almonds, and fresh mint, this dish offers magnificent texture and fragrance. Served over fragrant golden saffron rice, it forms the centerpiece of traditional feast tables. Rich, spicy, and fruit-scented, this special-occasion stew honors classic Levantine culinary heritage in every savory bite.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 620,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 45,
+        "unit": "g",
+        "percentOfDailyNeeds": 90
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Fiber",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Folate",
+        "amount": 62,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Iodine",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Copper",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1000,
+      "unit": "g",
+      "name": "lamb shoulder shank"
+    },
+    {
+      "id": 90001,
+      "amount": 45,
+      "unit": "ml",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90002,
+      "amount": 60,
+      "unit": "g",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90003,
+      "amount": 6,
+      "unit": "piece",
+      "name": "shallots"
+    },
+    {
+      "id": 90004,
+      "amount": 5,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "cooked chickpeas"
+    },
+    {
+      "id": 90006,
+      "amount": 200,
+      "unit": "g",
+      "name": "butternut squash"
+    },
+    {
+      "id": 90007,
+      "amount": 60,
+      "unit": "g",
+      "name": "dried figs"
+    },
+    {
+      "id": 90008,
+      "amount": 10,
+      "unit": "g",
+      "name": "lebanese seven spice"
+    },
+    {
+      "id": 90009,
+      "amount": 5,
+      "unit": "g",
+      "name": "sumac"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "piece",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "piece",
+      "name": "whole cloves"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "g",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90013,
+      "amount": 750,
+      "unit": "ml",
+      "name": "lamb stock"
+    },
+    {
+      "id": 90014,
+      "amount": 45,
+      "unit": "ml",
+      "name": "olive oil"
+    },
+    {
+      "id": 90015,
+      "amount": 30,
+      "unit": "g",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90016,
+      "amount": 30,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90017,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90018,
+      "amount": 15,
+      "unit": "g",
+      "name": "flat-leaf parsley"
+    },
+    {
+      "id": 90019,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90020,
+      "amount": 3,
+      "unit": "g",
+      "name": "black pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 200,
+      "unit": "g",
+      "name": "basmati rice"
+    },
+    {
+      "id": 90022,
+      "amount": 15,
+      "unit": "ml",
+      "name": "rose water"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "piece",
+      "name": "lemon"
+    },
+    {
+      "id": 90024,
+      "amount": 30,
+      "unit": "g",
+      "name": "clarified butter"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade and Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim excess surface fat from lamb shoulder shanks using a sharp butcher knife."
+        },
+        {
+          "number": 2,
+          "step": "Mix Lebanese seven spice, sumac, sea salt, black pepper, and olive oil in bowl."
+        },
+        {
+          "number": 3,
+          "step": "Rub spice paste thoroughly over all sides of trimmed lamb shanks on large tray."
+        },
+        {
+          "number": 4,
+          "step": "Cover spiced lamb shanks with plastic wrap and let marinate twenty minutes."
+        },
+        {
+          "number": 5,
+          "step": "Peel whole shallots cleanly leaving them intact for slow festive braise."
+        },
+        {
+          "number": 6,
+          "step": "Mince garlic cloves finely and steep saffron threads in two tablespoons warm water."
+        },
+        {
+          "number": 7,
+          "step": "Heat clarified butter in a large heavy Dutch oven over medium-high heat."
+        },
+        {
+          "number": 8,
+          "step": "Place marinated lamb shanks in Dutch oven and sear eight minutes until deep brown."
+        },
+        {
+          "number": 9,
+          "step": "Turn lamb shanks using sturdy tongs to sear all sides evenly to rich color."
+        },
+        {
+          "number": 10,
+          "step": "Transfer seared lamb shanks to a warm platter setting aside while building base."
+        },
+        {
+          "number": 11,
+          "step": "Add whole peeled shallots and garlic to hot Dutch oven sautéing four minutes."
+        },
+        {
+          "number": 12,
+          "step": "Add cinnamon stick and whole cloves stirring until warm spices become fragrant."
+        },
+        {
+          "number": 13,
+          "step": "Pour pomegranate molasses into Dutch oven deglazing pan bottom with spatula."
+        },
+        {
+          "number": 14,
+          "step": "Pour in lamb stock and steeped saffron liquid stirring base until fully blended."
+        }
+      ]
+    },
+    {
+      "name": "Celebration Broth Simmer",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Return seared lamb shanks to Dutch oven submerging partially in saffron broth."
+        },
+        {
+          "number": 2,
+          "step": "Bring braising broth to a boil over high flame then turn heat down to low."
+        },
+        {
+          "number": 3,
+          "step": "Cover Dutch oven tightly with heavy lid and simmer gently for ninety minutes."
+        },
+        {
+          "number": 4,
+          "step": "Peel butternut squash and cut into neat two-inch chunks on plastic cutting board."
+        },
+        {
+          "number": 5,
+          "step": "Stem dried figs and slice in half lengthwise on cutting board ready for pot."
+        },
+        {
+          "number": 6,
+          "step": "Rinse cooked chickpeas in strainer under cold tap water and drain completely."
+        },
+        {
+          "number": 7,
+          "step": "After ninety minutes uncover Dutch oven and stir in squash, figs, and chickpeas."
+        },
+        {
+          "number": 8,
+          "step": "Cover Dutch oven again and simmer twenty more minutes until squash is tender."
+        },
+        {
+          "number": 9,
+          "step": "Rinse basmati rice under cold water until water runs clear then drain well."
+        },
+        {
+          "number": 10,
+          "step": "Cook basmati rice in saucepan with water and pinch of saffron fifteen minutes."
+        },
+        {
+          "number": 11,
+          "step": "Toast pine nuts and slivered almonds in dry skillet until golden and fragrant."
+        },
+        {
+          "number": 12,
+          "step": "Chop fresh mint leaves and flat-leaf parsley coarsely on dry cutting board."
+        },
+        {
+          "number": 13,
+          "step": "Stir rose water and fresh lemon juice into braising stew liquid right at end."
+        },
+        {
+          "number": 14,
+          "step": "Verify lamb shoulder meat is tender and easily yields to gentle pressure of fork."
+        }
+      ]
+    },
+    {
+      "name": "Final Assembly and Garnish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove cinnamon stick and whole cloves from stew pot carefully using tongs."
+        },
+        {
+          "number": 2,
+          "step": "Taste celebration stew broth and adjust salt or black pepper to perfection."
+        },
+        {
+          "number": 3,
+          "step": "Mound warm golden saffron basmati rice onto center of large festive platter."
+        },
+        {
+          "number": 4,
+          "step": "Arrange tender braised lamb shanks on top of warm saffron rice neatly."
+        },
+        {
+          "number": 5,
+          "step": "Spoon whole shallots, butternut squash, figs, and chickpeas around lamb base."
+        },
+        {
+          "number": 6,
+          "step": "Ladle rich ruby pomegranate stew sauce generously over lamb meat and rice."
+        },
+        {
+          "number": 7,
+          "step": "Scatter toasted pine nuts and slivered almonds over entire plated celebration stew."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle bright ruby pomegranate seeds across top for festive jewel accent."
+        },
+        {
+          "number": 9,
+          "step": "Garnish dish generously with chopped fresh mint and flat-leaf parsley leaves."
+        },
+        {
+          "number": 10,
+          "step": "Dust extra ground sumac around rim of serving platter for decorative touch."
+        },
+        {
+          "number": 11,
+          "step": "Check temperature ensuring lamb shanks and rice are steaming hot for feast."
+        },
+        {
+          "number": 12,
+          "step": "Present celebration Lebanese lamb stew to guests at center of dining table."
+        },
+        {
+          "number": 13,
+          "step": "Serve alongside warm pita bread and extra pomegranate molasses for drizzling."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy this rich festive lamb stew surrounded by family and celebration warmth."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,855 @@
+{
+  "id": 9002011,
+  "title": "Ethiopian Breakfast Spiced Beef and Potato Roast",
+  "image": "generated://dishcovery/9002011.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This vibrant <b>Ethiopian breakfast roast</b> offers a bold, morning-ready variation on traditional roasted meat dishes. Featuring tender beef sirloin tossed with berbere spice and golden potatoes, it brings hearty savory warmth to your dawn routine. Crisp bell peppers, red onions, and sweet carrots build a caramelized base in the roasting pan. Finish with fresh herbs and a drizzle of spiced butter to anchor this satisfying skillet roast. It pairs exceptionally well with warm injera, fried eggs, or flatbreads for a complete dawn feast. The combination of slow-roasted root vegetables and quick-seared spiced beef ensures every bite is rich in texture and aromatic depth. Preparing the berbere mixture ahead allows the flavors to meld thoroughly while keeping morning assembly straightforward. Enjoy this unique twist on Ethiopian flavors whenever you need a robust, nutrient-dense breakfast to fuel a long morning schedule. The dish easily adapts to cooked grains or extra toasted greens for custom breakfasts.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 35,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Calcium",
+        "amount": 90,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Potassium",
+        "amount": 850,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 6.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Choline",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Saturated Fatty Acids",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 35,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "beef sirloin"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "yukon gold potatoes"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "berbere spice blend"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onion"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "large",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced fresh ginger"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground fenugreek"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "small",
+      "name": "roma tomatoes"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90025,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "low sodium beef broth"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90028,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90030,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90036,
+      "amount": 4,
+      "unit": "slices",
+      "name": "injera bread"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black sesame seeds"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "white sesame seeds"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90042,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Prep Spice Blend",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Gather the berbere spice, cardamom, coriander, cumin, fenugreek, and cloves in a small glass mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Whisk the dried spices together thoroughly until the color and aroma are completely uniform throughout."
+        },
+        {
+          "number": 3,
+          "step": "Add the sea salt, black pepper, garlic powder, and onion powder into the spice container and stir well."
+        },
+        {
+          "number": 4,
+          "step": "Measure out two tablespoons of the spice mixture and reserve the remainder for future breakfast seasoning."
+        },
+        {
+          "number": 5,
+          "step": "Set the small spiced blend bowl aside near your primary cooking station for easy access during pan roasting."
+        },
+        {
+          "number": 6,
+          "step": "Slice the beef sirloin into uniform half-inch cubes to promote even cooking in the hot skillet pan."
+        },
+        {
+          "number": 7,
+          "step": "Place the cubed beef into a medium glass bowl and sprinkle half of the reserved berbere spice over top."
+        },
+        {
+          "number": 8,
+          "step": "Toss the meat with your hands to coat every piece evenly in the aromatic regional spice marinade."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle one tablespoon of olive oil over the beef to lock in moisture while preparing the vegetables."
+        },
+        {
+          "number": 10,
+          "step": "Cover the bowl with plastic wrap and let it marinate at room temperature for fifteen full minutes."
+        },
+        {
+          "number": 11,
+          "step": "Wash and dice the yukon gold potatoes into consistent small bite-sized cubes for even baking results."
+        },
+        {
+          "number": 12,
+          "step": "Pat the potato pieces dry using clean paper towels to eliminate surface moisture prior to roasting."
+        },
+        {
+          "number": 13,
+          "step": "Dice the red onion, yellow onion, and red bell pepper into clean uniform pieces about half an inch wide."
+        },
+        {
+          "number": 14,
+          "step": "Peel and slice the carrots into thin rounds to ensure they soften at the same rate as the root potatoes."
+        },
+        {
+          "number": 15,
+          "step": "Mince the garlic cloves and fresh ginger root finely using a sharp chef knife on a cutting board."
+        },
+        {
+          "number": 16,
+          "step": "Dice the roma tomatoes coarsely and collect all excess juices in a small prep cup for later use."
+        },
+        {
+          "number": 17,
+          "step": "Preheat your heavy cast iron skillet over medium-high heat until hot before adding roasting fats."
+        }
+      ]
+    },
+    {
+      "name": "Roast Vegetables",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt two tablespoons of clarified butter alongside one tablespoon of vegetable oil in the hot pan."
+        },
+        {
+          "number": 2,
+          "step": "Add the diced yukon gold potatoes to the skillet in a single layer to begin browning the edges."
+        },
+        {
+          "number": 3,
+          "step": "Season the roasting potatoes with a pinch of sea salt, black pepper, and ground turmeric powder."
+        },
+        {
+          "number": 4,
+          "step": "Cook the potatoes undisturbed for five minutes until a light golden crust forms on the bottom surfaces."
+        },
+        {
+          "number": 5,
+          "step": "Turn the potato cubes with a spatula to brown the opposite sides evenly over medium-high heat."
+        },
+        {
+          "number": 6,
+          "step": "Stir in the sliced carrots and diced yellow onions, blending them gently into the potato mixture."
+        },
+        {
+          "number": 7,
+          "step": "Add the minced garlic and fresh ginger, stirring continuously for two minutes until extremely fragrant."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle the remaining berbere spice mixture over the browning vegetables and toss thoroughly to coat."
+        },
+        {
+          "number": 9,
+          "step": "Add the red bell pepper cubes and continue roasting for another four minutes until tender-crisp."
+        },
+        {
+          "number": 10,
+          "step": "Pour in the low sodium beef broth to deglaze the skillet and scrape up browned bits from the bottom."
+        },
+        {
+          "number": 11,
+          "step": "Add the diced roma tomatoes and tomato paste, mixing them into the warm pan juices until smooth."
+        },
+        {
+          "number": 12,
+          "step": "Reduce the stove heat to medium-low and simmer the vegetable mix until the pan liquid reduces."
+        },
+        {
+          "number": 13,
+          "step": "Cover the skillet loosely with foil to help the potatoes cook through to their centers without drying."
+        },
+        {
+          "number": 14,
+          "step": "Test the potato tenderness with a fork to ensure they are fully soft before adding meat components."
+        },
+        {
+          "number": 15,
+          "step": "Transfer the roasted spiced vegetables to a clean warm plate and return the skillet to the stove."
+        },
+        {
+          "number": 16,
+          "step": "Add the remaining tablespoon of vegetable oil to the skillet and increase heat to high setting."
+        },
+        {
+          "number": 17,
+          "step": "Ensure the pan surface is smoking hot before adding the marinated beef sirloin pieces for sear."
+        }
+      ]
+    },
+    {
+      "name": "Sear Beef",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add the seasoned beef cubes to the hot pan in a spread layer without overcrowding the skillet."
+        },
+        {
+          "number": 2,
+          "step": "Allow the meat to sear untouched for ninety seconds to develop a deep brown caramelized spice crust."
+        },
+        {
+          "number": 3,
+          "step": "Flip the beef cubes quickly using tongs to sear the remaining sides for another sixty seconds."
+        },
+        {
+          "number": 4,
+          "step": "Add the sliced red onion to the beef and saute rapidly until slightly softened but vibrant."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle paprika, chili powder, and ground cinnamon over the pan contents while stirring rapidly."
+        },
+        {
+          "number": 6,
+          "step": "Splash lemon juice and apple cider vinegar over the beef to brighten the rich breakfast roast."
+        },
+        {
+          "number": 7,
+          "step": "Return the warm roasted vegetable mixture into the skillet with the cooked sirloin and onions."
+        },
+        {
+          "number": 8,
+          "step": "Toss all roasted ingredients together gently over medium heat to integrate all flavors thoroughly."
+        },
+        {
+          "number": 9,
+          "step": "Season the combined skillet mixture with sea salt flakes and ground nutmeg according to taste."
+        },
+        {
+          "number": 10,
+          "step": "Cook for two additional minutes until the entire breakfast roast is steaming hot and well glazed."
+        },
+        {
+          "number": 11,
+          "step": "Push the roasted contents toward the sides of the skillet to create two small wells in the center."
+        },
+        {
+          "number": 12,
+          "step": "Melt one tablespoon of unsalted butter directly into the center wells of the hot skillet pan."
+        },
+        {
+          "number": 13,
+          "step": "Crack two fresh eggs directly into the hot clear spaces within the skillet roast mixture."
+        },
+        {
+          "number": 14,
+          "step": "Reduce heat to low and cover the pan for three minutes until egg whites are set but yolks runny."
+        },
+        {
+          "number": 15,
+          "step": "Remove the cover and verify that the breakfast roast pan is ready for final herbs and garnishes."
+        },
+        {
+          "number": 16,
+          "step": "Turn off the stove burner entirely and let the skillet rest on a heat-safe trivet for two minutes."
+        },
+        {
+          "number": 17,
+          "step": "Prepare the garnishes while the pan rests to make sure everything is fresh and ready for serving."
+        }
+      ]
+    },
+    {
+      "name": "Prepare Garnishes",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely chop fresh cilantro leaves and green onions on a clean wooden cutting board surface."
+        },
+        {
+          "number": 2,
+          "step": "Combine toasted black sesame seeds and white sesame seeds in a tiny prep cup for sprinkling."
+        },
+        {
+          "number": 3,
+          "step": "Strip fresh rosemary leaves from the sprig and chop them into microscopic aromatic bits."
+        },
+        {
+          "number": 4,
+          "step": "Warm four slices of traditional injera bread in a hot dry skillet for thirty seconds per side."
+        },
+        {
+          "number": 5,
+          "step": "Fold the warmed injera slices neatly into triangles and arrange them on a wooden serving platter."
+        },
+        {
+          "number": 6,
+          "step": "Scatter the chopped cilantro and sliced green onions generously over the hot breakfast roast."
+        },
+        {
+          "number": 7,
+          "step": "Dust the top of the dish with the mixed sesame seeds and chopped rosemary for color contrast."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle fresh chopped parsley around the egg yolks for a vibrant breakfast appearance."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle any remaining pan juices from the skillet over the crisp roasted potato edges."
+        },
+        {
+          "number": 10,
+          "step": "Place the entire cast iron skillet directly on the dining table alongside the warmed injera."
+        },
+        {
+          "number": 11,
+          "step": "Provide extra lemon wedges on the side for guests who prefer additional citrus acidity."
+        },
+        {
+          "number": 12,
+          "step": "Check that all breakfast accompaniments are set out and ready for immediate family dining."
+        },
+        {
+          "number": 13,
+          "step": "Pass around warm plates so everyone can scoop out generous portions of meat and vegetables."
+        },
+        {
+          "number": 14,
+          "step": "Instruct diners to tear pieces of injera to wrap around the warm roasted breakfast items."
+        },
+        {
+          "number": 15,
+          "step": "Serve immediately while the potatoes are crisp and the egg yolks remain rich and runny."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy this fragrant Ethiopian morning dish as a hearty feast to start your full day."
+        }
+      ]
+    },
+    {
+      "name": "Final Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spoon a large portion of the potato and beef roast into individual serving bowls or plates."
+        },
+        {
+          "number": 2,
+          "step": "Place one skillet-poached egg carefully on top of each assembled breakfast roast serving."
+        },
+        {
+          "number": 3,
+          "step": "Garnish with extra sea salt flakes and freshly cracked pepper for final taste adjustment."
+        },
+        {
+          "number": 4,
+          "step": "Serve with additional injera or crusty bread on the side to mop up all the spiced juices."
+        },
+        {
+          "number": 5,
+          "step": "Store any leftover breakfast roast in an airtight container in the refrigerator for three days."
+        },
+        {
+          "number": 6,
+          "step": "Reheat leftovers in a hot skillet with a splash of water to restore moisture and texture."
+        },
+        {
+          "number": 7,
+          "step": "Pair this dish with strong coffee or tea to complete the traditional morning dining experience."
+        },
+        {
+          "number": 8,
+          "step": "Enjoy the rich spicy flavors and textures of this unique Ethiopian breakfast creation."
+        },
+        {
+          "number": 9,
+          "step": "Clean the hot skillet promptly after eating to maintain its seasoned nonstick cooking surface."
+        },
+        {
+          "number": 10,
+          "step": "Keep extra berbere spice in a sealed jar for future morning breakfast roast endeavors."
+        },
+        {
+          "number": 11,
+          "step": "Vary the root vegetables next time by adding sweet potatoes or parsnips as preferred."
+        },
+        {
+          "number": 12,
+          "step": "Ensure all fresh herbs are used promptly to maintain vibrant garnish presentation."
+        },
+        {
+          "number": 13,
+          "step": "Double the meat recipe if serving a larger group for brunch or morning celebrations."
+        },
+        {
+          "number": 14,
+          "step": "Appreciate the balanced heat and savory notes of this authentic Ethiopian breakfast roast."
+        },
+        {
+          "number": 15,
+          "step": "Complete your breakfast service with fresh fruit or light tea alongside this hearty dish."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "id": 9001069,
+  "title": "Celebration Japanese Sea Bream Donabe Stew",
+  "image": "generated://dishcovery/9001069.jpg",
+  "readyInMinutes": 65,
+  "servings": 6,
+  "summary": "Designed for auspicious occasions and grand gatherings, this Japanese hot pot stew highlights the pristine flavors of fresh sea produce and umami broth. Whole red snapper fillets are simmered alongside shiitake mushrooms, sweet napa cabbage, and silky tofu in a golden <b>dashi kombu broth</b>. Fragrant mirin, light soy sauce, grated ginger, and sliced scallions season the liquid, creating a subtle balance of savory, sweet, and aromatic notes. Beautifully arranged in a clay donabe pot, the ingredients cook harmoniously at the center of the table, inviting guests to share in the communal experience. Lotus root rounds and chrysanthemum leaves add festive textures and traditional symbolism representing good fortune and longevity. A side of citrusy ponzu dipping sauce provides a bright contrast to the tender fish and rich mushrooms. Perfect for New Year celebrations or family reunions, this luxurious stew honors Japanese culinary artistry while delivering a comforting and deeply satisfying feast.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 72
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 60,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 750,
+        "unit": "IU",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 110,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Folate",
+        "amount": 58,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 100
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Choline",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Calcium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iron",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Iodine",
+        "amount": 120,
+        "unit": "µg",
+        "percentOfDailyNeeds": 80
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "red snapper fillets"
+    },
+    {
+      "id": 90001,
+      "amount": 1.2,
+      "unit": "liters",
+      "name": "dashi stock"
+    },
+    {
+      "id": 90002,
+      "amount": 10,
+      "unit": "g",
+      "name": "kombu dried kelp"
+    },
+    {
+      "id": 90003,
+      "amount": 15,
+      "unit": "g",
+      "name": "bonito flakes"
+    },
+    {
+      "id": 90004,
+      "amount": 300,
+      "unit": "g",
+      "name": "napa cabbage"
+    },
+    {
+      "id": 90005,
+      "amount": 150,
+      "unit": "g",
+      "name": "shiitake mushrooms"
+    },
+    {
+      "id": 90006,
+      "amount": 300,
+      "unit": "g",
+      "name": "silken tofu"
+    },
+    {
+      "id": 90007,
+      "amount": 100,
+      "unit": "g",
+      "name": "lotus root"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "g",
+      "name": "shungiku chrysanthemum leaves"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "stems",
+      "name": "scallions"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "light soy sauce"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90015,
+      "amount": 100,
+      "unit": "ml",
+      "name": "ponzu sauce"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "grated daikon radish"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "shichimi togarashi"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "enoki mushrooms"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot decorative cut"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90021,
+      "amount": 200,
+      "unit": "g",
+      "name": "udons noodles"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "piece",
+      "name": "yuzu peel"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dashi Stock Crafting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wipe dried kombu kelp lightly with damp cloth to remove excess surface salt dust."
+        },
+        {
+          "number": 2,
+          "step": "Place kombu kelp into large pot filled with cold water and steep thirty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Heat pot over medium flame slowly until liquid almost reaches boiling point."
+        },
+        {
+          "number": 4,
+          "step": "Remove kombu kelp immediately using tongs right before water boils to avoid bitterness."
+        },
+        {
+          "number": 5,
+          "step": "Add bonito flakes to hot water pot bring to boil and turn off flame immediately."
+        },
+        {
+          "number": 6,
+          "step": "Let bonito flakes steep undisturbed in hot liquid for five minutes to settle."
+        },
+        {
+          "number": 7,
+          "step": "Strain dashi stock through fine mesh sieve lined with paper towel into glass bowl."
+        },
+        {
+          "number": 8,
+          "step": "Add mirin sake light soy sauce and sea salt to strained dashi stock and stir well."
+        },
+        {
+          "number": 9,
+          "step": "Add grated fresh ginger to dashi stock base for clean aromatic warming depth."
+        },
+        {
+          "number": 10,
+          "step": "Keep seasoned celebration dashi stock warm over lowest stove heat burner setting."
+        }
+      ]
+    },
+    {
+      "name": "Celebration Fish Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Inspect red snapper fillets carefully for remaining small pin bones using tweezers."
+        },
+        {
+          "number": 2,
+          "step": "Rinse red snapper fillets under cold running water and dry completely with towels."
+        },
+        {
+          "number": 3,
+          "step": "Cut red snapper fillets into angled three inch slices keeping skin layer intact."
+        },
+        {
+          "number": 4,
+          "step": "Place fish slices onto wire rack and pour boiling water over skin to tighten it."
+        },
+        {
+          "number": 5,
+          "step": "Transfer blanched fish immediately into ice water bath to stop further cooking process."
+        },
+        {
+          "number": 6,
+          "step": "Drain fish slices on paper towels and pat dry prior to pot assembly layering."
+        },
+        {
+          "number": 7,
+          "step": "Cut silken tofu block into six neat thick rectangular blocks on board surface."
+        },
+        {
+          "number": 8,
+          "step": "Cut fresh shiitake mushroom caps with decorative cross star patterns on top sides."
+        },
+        {
+          "number": 9,
+          "step": "Trim stem ends from enoki mushrooms separating clusters into small decorative bundles."
+        },
+        {
+          "number": 10,
+          "step": "Arrange prepared sea bream fish slices and tofu on prep tray near donabe pot."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Sculpting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut napa cabbage leaves into three inch wide bite sized pieces separating stems."
+        },
+        {
+          "number": 2,
+          "step": "Peel lotus root and cut into thin decorative wheel slices showing natural hole pattern."
+        },
+        {
+          "number": 3,
+          "step": "Soak sliced lotus root in bowl of water with rice vinegar to preserve white color."
+        },
+        {
+          "number": 4,
+          "step": "Cut carrot into thin rounds and stamp into traditional plum blossom flower shapes."
+        },
+        {
+          "number": 5,
+          "step": "Cut scallions diagonally into two inch long slices for color and mild onion bite."
+        },
+        {
+          "number": 6,
+          "step": "Wash shungiku chrysanthemum greens in cold water bath and drain thoroughly in colander."
+        },
+        {
+          "number": 7,
+          "step": "Combine ponzu sauce grated daikon radish and pinch sugar in small dipping bowls."
+        },
+        {
+          "number": 8,
+          "step": "Add thin slice yuzu peel to each dipping sauce bowl for refreshing citrus scent."
+        },
+        {
+          "number": 9,
+          "step": "Cook udon noodles in boiling water for three minutes then drain and rinse cold."
+        },
+        {
+          "number": 10,
+          "step": "Arrange carved vegetables organized by color and texture on large bamboo tray."
+        }
+      ]
+    },
+    {
+      "name": "Tabletop Hot Pot Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place napa cabbage stem pieces in bottom layer of traditional clay donabe pot."
+        },
+        {
+          "number": 2,
+          "step": "Arrange sea bream fish slices shiitake mushrooms tofu and lotus root in sections."
+        },
+        {
+          "number": 3,
+          "step": "Nestle enoki mushroom clusters carrot flowers and napa cabbage leaves into gaps."
+        },
+        {
+          "number": 4,
+          "step": "Pour warm seasoned dashi stock into donabe pot covering lower half of vegetables."
+        },
+        {
+          "number": 5,
+          "step": "Cover donabe pot with clay lid and place onto portable tabletop gas burner burner."
+        },
+        {
+          "number": 6,
+          "step": "Bring hot pot stew to simmer over medium heat cooking for eight to ten minutes."
+        },
+        {
+          "number": 7,
+          "step": "Add chrysanthemum greens and sliced scallions during last two minutes of cooking."
+        },
+        {
+          "number": 8,
+          "step": "Remove donabe lid carefully at table allowing guests to admire vibrant colors."
+        },
+        {
+          "number": 9,
+          "step": "Ladle hot fish vegetables and broth into individual bowls containing ponzu dip."
+        },
+        {
+          "number": 10,
+          "step": "Add udon noodles to remaining hot broth at end of meal for final noodle course."
+        }
+      ]
+    }
+  ]
+}

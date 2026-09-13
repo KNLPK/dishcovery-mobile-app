@@ -1,0 +1,863 @@
+{
+  "id": 9002009,
+  "title": "Sweet Kabocha and Adzuki Dessert Stew",
+  "image": "generated://dishcovery/9002009.jpg",
+  "readyInMinutes": 55,
+  "servings": 6,
+  "summary": "This comforting Japanese dish presents a dessert variation of classic <b>kabocha squash stew</b>, combining naturally sweet pumpkin with red adzuki beans in a fragrant brothy base. Kabocha squash, prized for its dense chestnut-like sweetness, is simmered alongside pre-cooked adzuki beans in a delicate stock sweetened with Okinawa black sugar (kokuto), mirin, and a touch of light soy sauce. A hint of fresh ginger and orange peel infuses the sweet stew liquid with warming aromatic notes. Once the squash becomes fork-tender, small hand-shaped shiratama dango mochi rice dumplings are dropped into the simmering pot, cooking until soft and chewy. The dessert stew is served hot or lukewarm in rustic ceramic bowls, topped with toasted black sesame seeds, ground kinako roasted soybean flour, and delicate edible gold flakes for visual elegance. With its balance of earthy squash, sweet beans, and chewy rice dumplings, this dish offers a refined, low-sugar finale to an authentic multi-course Japanese meal.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 0.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 64,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Protein",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Choline",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 1.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Iodine",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "lb",
+      "name": "kabocha squash"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cooked adzuki beans"
+    },
+    {
+      "id": 90002,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "okinawa kokuto black sugar"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "light soy sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "piece",
+      "name": "kombu dried kelp"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger juice"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "strip",
+      "name": "fresh orange peel"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shiratamako glutinous rice flour"
+    },
+    {
+      "id": 90010,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "warm water"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "kinako roasted soybean flour"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted black sesame seeds"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "matcha powder"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sweetened chestnut purée"
+    },
+    {
+      "id": 90017,
+      "amount": 6,
+      "unit": "whole",
+      "name": "candied chestnuts kurikinton"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "yuzu juice"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cold water"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "coconut palm sugar"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "grated orange zest"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "agave nectar"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "edible gold leaf flakes"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sweet red bean paste anko"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "roasted star anise"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sake cook rice wine"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "ground clove"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced lotus root"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown rice syrup"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "grated lemon peel"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tapioca pearls"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "arrowroot powder"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced Asian pear"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "plum wine umechu"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried osmanthus flowers"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "flaked sea salt"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sweet rice wine"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Kabocha and Dashi Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wipe kombu dried kelp strip gently with damp cloth to remove excess white powder."
+        },
+        {
+          "number": 2,
+          "step": "Soak wiped kombu strip in three cups cold water inside medium pot twenty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Cut kabocha squash in half using heavy knife, scooping out seeds and fibrous string."
+        },
+        {
+          "number": 4,
+          "step": "Trim outer green skin partially using vegetable peeler, leaving striped skin pattern."
+        },
+        {
+          "number": 5,
+          "step": "Cut trimmed kabocha squash into uniform one-inch bite-sized chunk pieces."
+        },
+        {
+          "number": 6,
+          "step": "Bevel sharp edges of kabocha chunks slightly using small knife to prevent crumbling."
+        },
+        {
+          "number": 7,
+          "step": "Heat kombu soaking pot over medium burner until water almost reaches gentle boil."
+        },
+        {
+          "number": 8,
+          "step": "Remove kombu strip right before boiling point to prevent bitter dashi stock flavor."
+        },
+        {
+          "number": 9,
+          "step": "Add cut kabocha squash chunks skin-side down into hot kombu dashi broth base."
+        },
+        {
+          "number": 10,
+          "step": "Add sake cooking rice wine and fresh orange peel strip to simmering dashi broth."
+        },
+        {
+          "number": 11,
+          "step": "Cover pot with drop-lid otoshibuta to keep kabocha chunks submerged in broth."
+        },
+        {
+          "number": 12,
+          "step": "Simmer kabocha on medium-low heat ten minutes until squash starts to soften slightly."
+        },
+        {
+          "number": 13,
+          "step": "Measure out Okinawa kokuto black sugar and coconut palm sugar into small bowl."
+        },
+        {
+          "number": 14,
+          "step": "Grind kokuto sugar lumps fine using pestle so it dissolves smoothly in stew."
+        },
+        {
+          "number": 15,
+          "step": "Check kabocha texture with bamboo skewer to ensure center is heating through."
+        },
+        {
+          "number": 16,
+          "step": "Keep stew temperature low and steady so squash chunks maintain neat shapes."
+        },
+        {
+          "number": 17,
+          "step": "Prepare cooked adzuki beans by rinsing in colander under cold water stream."
+        }
+      ]
+    },
+    {
+      "name": "Sweet Stew Simmering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add ground kokuto black sugar and coconut palm sugar into simmering kabocha pot."
+        },
+        {
+          "number": 2,
+          "step": "Pour in mirin and sweet rice wine, stirring gently so squash chunks do not break."
+        },
+        {
+          "number": 3,
+          "step": "Add light soy sauce and sea salt to balance sweetness with subtle savory note."
+        },
+        {
+          "number": 4,
+          "step": "Add fresh ginger juice and grated orange zest, stirring liquid between chunks."
+        },
+        {
+          "number": 5,
+          "step": "Fold pre-cooked adzuki beans gently into sweet stew broth surrounding kabocha."
+        },
+        {
+          "number": 6,
+          "step": "Add sweet chestnuts purée and agave nectar, blending into simmering sweet broth."
+        },
+        {
+          "number": 7,
+          "step": "Add ground cinnamon, cardamom, and roasted star anise powder to spice stew liquid."
+        },
+        {
+          "number": 8,
+          "step": "Replace drop-lid otoshibuta and simmer stew ten minutes until kabocha is tender."
+        },
+        {
+          "number": 9,
+          "step": "Add sliced lotus root and tapioca pearls during final five minutes of simmer."
+        },
+        {
+          "number": 10,
+          "step": "Stir cornstarch slurry into stew liquid to create delicate silky dessert sheen."
+        },
+        {
+          "number": 11,
+          "step": "Add plum wine umechu and maple syrup, stirring gently around squash pieces."
+        },
+        {
+          "number": 12,
+          "step": "Taste sweet broth liquid, adjusting sugar or soy sauce for perfect taste balance."
+        },
+        {
+          "number": 13,
+          "step": "Remove orange peel strip from stew pot using kitchen tongs and discard."
+        },
+        {
+          "number": 14,
+          "step": "Turn burner heat to lowest hold setting while preparing dango mochi dumplings."
+        },
+        {
+          "number": 15,
+          "step": "Verify kabocha chunks remain completely intact and beautifully cooked through."
+        },
+        {
+          "number": 16,
+          "step": "Cover pot loosely with lid to retain heat during dumpling assembly steps."
+        },
+        {
+          "number": 17,
+          "step": "Fill secondary medium pot with water and bring to rolling boil on adjacent burner."
+        }
+      ]
+    },
+    {
+      "name": "Shiratama Dango Dumplings",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place shiratamako glutinous rice flour into medium ceramic mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add pinch sea salt and pour in warm water slowly while mixing by hand."
+        },
+        {
+          "number": 3,
+          "step": "Knead rice dough until smooth, pliable texture like soft earlobe consistency."
+        },
+        {
+          "number": 4,
+          "step": "Add extra teaspoon warm water if dough feels dry or crumbles during kneading."
+        },
+        {
+          "number": 5,
+          "step": "Divide rice dough into twelve equal small portions, rolling into smooth balls."
+        },
+        {
+          "number": 6,
+          "step": "Press center of each dough ball gently with thumb to make small central dent."
+        },
+        {
+          "number": 7,
+          "step": "Drop dango dough balls into boiling water pot in single batch carefully."
+        },
+        {
+          "number": 8,
+          "step": "Boil dango dumplings three minutes until they float to boiling water surface."
+        },
+        {
+          "number": 9,
+          "step": "Cook floating dango dumplings two additional minutes to ensure chewy interior."
+        },
+        {
+          "number": 10,
+          "step": "Transfer cooked dango with slotted spoon into bowl of ice cold water to cool."
+        },
+        {
+          "number": 11,
+          "step": "Drain chilled dango dumplings on paper towels right before serving dessert stew."
+        },
+        {
+          "number": 12,
+          "step": "Dust dango dumplings lightly with matcha powder for color contrast accent."
+        },
+        {
+          "number": 13,
+          "step": "Verify dango texture is tender and chewy without any floury core center."
+        },
+        {
+          "number": 14,
+          "step": "Keep dango dumplings moist under damp paper towel while setting up dessert bowls."
+        },
+        {
+          "number": 15,
+          "step": "Pre-warm six traditional Japanese ceramic dessert bowls with hot rinse water."
+        },
+        {
+          "number": 16,
+          "step": "Dry warmed dessert bowls thoroughly using clean linen kitchen napkin cloth."
+        },
+        {
+          "number": 17,
+          "step": "Gather kinako roasted soybean flour and toasted black sesame seeds for topping."
+        }
+      ]
+    },
+    {
+      "name": "Finishing and Garnishes",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add candied chestnuts kurikinton into warm sweet stew pot right before plating."
+        },
+        {
+          "number": 2,
+          "step": "Stir sweet red bean paste anko into stew liquid to deepen red bean richness."
+        },
+        {
+          "number": 3,
+          "step": "Add yuzu juice and vanilla extract to stew liquid for bright aromatic lift."
+        },
+        {
+          "number": 4,
+          "step": "Drop cooked dango dumplings into warm sweet stew pot, tossing gently to coat."
+        },
+        {
+          "number": 5,
+          "step": "Add diced Asian pear and brown rice syrup into stew pot, mixing carefully."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle dried osmanthus flowers into sweet broth for floral aroma notes."
+        },
+        {
+          "number": 7,
+          "step": "Add flaked sea salt and ground ginger pinch to heighten natural squash sweet."
+        },
+        {
+          "number": 8,
+          "step": "Check that stew liquid has glossy syrup sheen coating kabocha and dango."
+        },
+        {
+          "number": 9,
+          "step": "Ensure all stew elements are evenly warmed to gentle serving temperature."
+        },
+        {
+          "number": 10,
+          "step": "Prepare kinako powder sift in small tea strainer for delicate dusting top."
+        },
+        {
+          "number": 11,
+          "step": "Toast white sesame seeds in small dry pan for secondary seed garnish blend."
+        },
+        {
+          "number": 12,
+          "step": "Combine toasted white and black sesame seeds in small pinch bowl tray."
+        },
+        {
+          "number": 13,
+          "step": "Verify sweet broth consistency is thick enough to coat dessert spoon back."
+        },
+        {
+          "number": 14,
+          "step": "Turn off burner flame completely under stew pot before spooning into bowls."
+        },
+        {
+          "number": 15,
+          "step": "Arrange serving spoons and chopsticks beside pre-warmed dessert bowls."
+        },
+        {
+          "number": 16,
+          "step": "Check overall aroma balance of sweet squash, ginger, citrus, and red bean."
+        },
+        {
+          "number": 17,
+          "step": "Prepare edible gold leaf flakes using fine wooden tweezers for final flourish."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle two tender kabocha squash chunks into center of each warmed ceramic bowl."
+        },
+        {
+          "number": 2,
+          "step": "Spoon warm adzuki beans and sweet syrup broth around kabocha squash chunks."
+        },
+        {
+          "number": 3,
+          "step": "Nestle two cooked dango dumplings and one candied chestnut into each bowl."
+        },
+        {
+          "number": 4,
+          "step": "Ensure lotus root slices and Asian pear pieces are visible on surface top."
+        },
+        {
+          "number": 5,
+          "step": "Dust kinako roasted soybean flour lightly across top surface of each dessert."
+        },
+        {
+          "number": 6,
+          "step": "Scatter toasted black and white sesame seeds over dango dumplings and squash."
+        },
+        {
+          "number": 7,
+          "step": "Place delicate flake edible gold leaf onto apex of kabocha chunk in bowl."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle three drops of warm brown rice syrup over chestnuts for shiny gloss."
+        },
+        {
+          "number": 9,
+          "step": "Wipe outer rims of ceramic dessert bowls clean with dry white cotton cloth."
+        },
+        {
+          "number": 10,
+          "step": "Serve immediately while warm alongside cups of hot roasted hojicha green tea."
+        },
+        {
+          "number": 11,
+          "step": "Instruct guests to enjoy chewy dango dumplings together with sweet squash broth."
+        },
+        {
+          "number": 12,
+          "step": "Store remaining sweet kabocha stew in covered glass container in refrigerator."
+        },
+        {
+          "number": 13,
+          "step": "Reheat leftover stew gently on stove top, adding splash of water if needed."
+        },
+        {
+          "number": 14,
+          "step": "Prepare fresh dango dumplings when serving leftover stew next day for texture."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy refined autumn flavors of classic Japanese sweet kabocha dessert course."
+        },
+        {
+          "number": 16,
+          "step": "Finish remaining dessert portions within two days to enjoy peak squash flavor."
+        }
+      ]
+    }
+  ]
+}

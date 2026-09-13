@@ -1,0 +1,843 @@
+{
+  "id": 9002014,
+  "title": "Italian Celebration Pumpkin Ricotta Dumplings with Sage Butter",
+  "image": "generated://dishcovery/9002014.jpg",
+  "readyInMinutes": 65,
+  "servings": 6,
+  "summary": "These festive <b>Italian pumpkin dumplings</b> deliver an elevated celebration course perfect for holiday dinners. Silky ricotta, roasted pumpkin puree, and aged parmesan yield tender, pillowy gnudi dumplings that melt in your mouth. Gently poached in salted water, the dumplings are then tossed in a nutty brown butter sauce infused with crisp fresh sage leaves and crushed amaretti cookies. Sautéed wild mushrooms and sweet balsamic glaze add earthy depth and visual flair to this classic dish. Crafted with careful technique, this recipe brings refined Italian elegance to special occasions and feast days. The harmony of sweet pumpkin, savory cheese, aromatic sage, and brown butter creates an unforgettable flavor profile. Serve these delicate golden dumplings immediately on warm plates garnished with grated parmesan and toasted pine nuts. It is an impressive center-piece pasta dish designed to make any celebratory gathering truly special.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 590,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 6500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 130
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Choline",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Saturated Fatty Acids",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 42.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "whole milk ricotta cheese"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "pumpkin puree"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "cup",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "cup",
+      "name": "grated parmesan cheese"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "large",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "large",
+      "name": "egg"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90011,
+      "amount": 20,
+      "unit": "leaves",
+      "name": "fresh sage"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90013,
+      "amount": 150,
+      "unit": "g",
+      "name": "chanterelle mushrooms"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "balsamic glaze"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crushed amaretti cookies"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated pecorino romano cheese"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fresh thyme leaves"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90028,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "hazelnuts"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "truffle oil"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90032,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unrefined sugar"
+    },
+    {
+      "id": 90036,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "bread crumbs"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "melted butter"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Prepare Pumpkin Dough",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place whole milk ricotta cheese into a fine mesh sieve lined with cheesecloth to drain excess liquid."
+        },
+        {
+          "number": 2,
+          "step": "Spread pumpkin puree over paper towels on a baking sheet to absorb surplus water content."
+        },
+        {
+          "number": 3,
+          "step": "Combine drained ricotta and dried pumpkin puree in a large glass mixing bowl."
+        },
+        {
+          "number": 4,
+          "step": "Add egg yolks, whole egg, grated parmesan cheese, and pecorino romano to the bowl."
+        },
+        {
+          "number": 5,
+          "step": "Season mixture with ground nutmeg, sea salt, black pepper, white pepper, and ground cinnamon."
+        },
+        {
+          "number": 6,
+          "step": "Whisk egg and cheese mixture gently with a wooden spoon until smooth and uniform."
+        },
+        {
+          "number": 7,
+          "step": "Sift all-purpose flour and semolina flour together into a separate dry container bowl."
+        },
+        {
+          "number": 8,
+          "step": "Gently fold sifted flour mixture into wet pumpkin ricotta base until dough just forms."
+        },
+        {
+          "number": 9,
+          "step": "Avoid overmixing the celebration dumpling dough to ensure a light, pillowy final texture."
+        },
+        {
+          "number": 10,
+          "step": "Cover dough bowl with plastic wrap and chill in refrigerator for thirty minutes to firm up."
+        },
+        {
+          "number": 11,
+          "step": "Dust a large rimmed baking sheet generously with extra semolina flour for coating dumplings."
+        },
+        {
+          "number": 12,
+          "step": "Scoop chilled dumpling dough using a small tablespoon to form uniform walnut-sized balls."
+        },
+        {
+          "number": 13,
+          "step": "Roll dough balls gently in semolina flour to form smooth oval gnudi shapes."
+        },
+        {
+          "number": 14,
+          "step": "Arrange shaped pumpkin dumplings on the prepared semolina tray in a single spaced layer."
+        },
+        {
+          "number": 15,
+          "step": "Chill shaped dumplings in refrigerator for fifteen minutes to lock in shape before boiling."
+        },
+        {
+          "number": 16,
+          "step": "Bring a large wide stockpot filled with six quarts of water to a gentle simmer on stove."
+        },
+        {
+          "number": 17,
+          "step": "Add two tablespoons of coarse sea salt to simmering water to season dumplings properly."
+        }
+      ]
+    },
+    {
+      "name": "Poach Dumplings",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Lower stove heat so water maintains a gentle simmer without violent boiling agitation."
+        },
+        {
+          "number": 2,
+          "step": "Drop half of shaped pumpkin dumplings carefully into simmering water using a slotted spoon."
+        },
+        {
+          "number": 3,
+          "step": "Cook dumplings for four minutes until they float smoothly to surface of simmering water."
+        },
+        {
+          "number": 4,
+          "step": "Allow floating dumplings to simmer for one additional minute to ensure center is hot."
+        },
+        {
+          "number": 5,
+          "step": "Remove poached dumplings carefully with slotted spoon and transfer to a warm buttered tray."
+        },
+        {
+          "number": 6,
+          "step": "Poach remaining batch of pumpkin dumplings in same gentle simmering salted water."
+        },
+        {
+          "number": 7,
+          "step": "Reserve half a cup of starchy dumpling cooking water for finishing sage butter sauce."
+        },
+        {
+          "number": 8,
+          "step": "Keep all warm poached dumplings covered loosely with foil near cooking station."
+        },
+        {
+          "number": 9,
+          "step": "Clean chanterelle mushrooms gently with a damp paper towel to remove surface soil."
+        },
+        {
+          "number": 10,
+          "step": "Slice larger chanterelles in half while leaving small wild mushrooms whole for presentation."
+        },
+        {
+          "number": 11,
+          "step": "Heat olive oil in a wide skillet over medium-high heat until hot and shimmering."
+        },
+        {
+          "number": 12,
+          "step": "Add chanterelle mushrooms to skillet and sauté for five minutes until golden brown."
+        },
+        {
+          "number": 13,
+          "step": "Stir in minced garlic, fresh thyme leaves, and a pinch of salt during last minute."
+        },
+        {
+          "number": 14,
+          "step": "Deglaze mushroom skillet with dry white wine and cook until liquid evaporates fully."
+        },
+        {
+          "number": 15,
+          "step": "Transfer browned wild mushrooms to a warm plate and set aside for final plating."
+        },
+        {
+          "number": 16,
+          "step": "Wipe skillet clean with paper towel and return to stove for making sage brown butter."
+        },
+        {
+          "number": 17,
+          "step": "Verify all celebration garnishes are prepared and ready before browning unsalted butter."
+        }
+      ]
+    },
+    {
+      "name": "Brown Butter Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt half a cup of unsalted butter in wide skillet over medium burner heat."
+        },
+        {
+          "number": 2,
+          "step": "Allow butter to foam and swirl pan frequently as milk solids begin to brown."
+        },
+        {
+          "number": 3,
+          "step": "Add fresh sage leaves to foaming butter and fry for two minutes until crispy."
+        },
+        {
+          "number": 4,
+          "step": "Remove crisp sage leaves with tongs and drain on paper towels, leaving browned butter."
+        },
+        {
+          "number": 5,
+          "step": "Stir lemon juice, lemon zest, and reserved starchy cooking water into brown butter sauce."
+        },
+        {
+          "number": 6,
+          "step": "Whisk brown butter sauce rapidly to form a glossy, emulsified celebration pasta glaze."
+        },
+        {
+          "number": 7,
+          "step": "Add pine nuts to pan butter and toast for ninety seconds until fragrant and golden."
+        },
+        {
+          "number": 8,
+          "step": "Season sage brown butter sauce with a pinch of sea salt flakes and cayenne pepper."
+        },
+        {
+          "number": 9,
+          "step": "Transfer poached pumpkin dumplings gently into skillet with warm brown butter sauce."
+        },
+        {
+          "number": 10,
+          "step": "Spoon nutty brown butter repeatedly over dumplings to coat every piece thoroughly."
+        },
+        {
+          "number": 11,
+          "step": "Add sautéed chanterelle mushrooms into skillet with dumplings and toss gently once."
+        },
+        {
+          "number": 12,
+          "step": "Simmer dumplings in brown butter sauce for one minute until piping hot throughout."
+        },
+        {
+          "number": 13,
+          "step": "Remove skillet from burner heat to prevent overcooking delicate pumpkin gnudi dumplings."
+        },
+        {
+          "number": 14,
+          "step": "Prepare warm celebration serving plates on counter next to cooking skillet station."
+        },
+        {
+          "number": 15,
+          "step": "Crush amaretti cookies finely in a small bowl to use as festive sweet-savory garnish."
+        },
+        {
+          "number": 16,
+          "step": "Grate extra parmesan cheese finely for dusting over plated dumplings at table."
+        },
+        {
+          "number": 17,
+          "step": "Verify dumpling internal temperature is hot and sauce emulsion remains smooth."
+        }
+      ]
+    },
+    {
+      "name": "Assemble Dish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spoon five poached pumpkin dumplings onto center of each warm celebration dinner plate."
+        },
+        {
+          "number": 2,
+          "step": "Divide sautéed chanterelle mushrooms evenly among plated pumpkin dumpling portions."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle warm sage brown butter sauce generously over dumplings and wild mushrooms."
+        },
+        {
+          "number": 4,
+          "step": "Top each serving with crisp fried sage leaves and toasted golden pine nuts."
+        },
+        {
+          "number": 5,
+          "step": "Scatter crushed amaretti cookies lightly over dumplings for festive textural contrast."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle sweet balsamic glaze in an elegant spiral pattern around plate borders."
+        },
+        {
+          "number": 7,
+          "step": "Dust dumplings with grated parmesan cheese and finely chopped fresh parsley leaves."
+        },
+        {
+          "number": 8,
+          "step": "Finish plating with a tiny drizzle of truffle oil over each celebration serving."
+        },
+        {
+          "number": 9,
+          "step": "Wipe plate rims with clean damp cloth to guarantee immaculate holiday presentation."
+        },
+        {
+          "number": 10,
+          "step": "Serve celebration pumpkin dumplings immediately while butter sauce is hot and aromatic."
+        },
+        {
+          "number": 11,
+          "step": "Provide extra grated cheese and amaretti crumbs at table for guests to customize."
+        },
+        {
+          "number": 12,
+          "step": "Pair this festive dish with full-bodied Italian white wine or crisp prosecco glass."
+        },
+        {
+          "number": 13,
+          "step": "Refrigerate leftover dumplings in airtight container with remaining sauce for two days."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftovers gently in a skillet over low heat with a splash of water."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy rich luxurious flavors of this authentic festive pumpkin gnudi dumpling course."
+        },
+        {
+          "number": 16,
+          "step": "Celebrate special occasions with this elegant handmade Italian pasta tradition."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Serve",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Present plated celebration dumplings to guests with enthusiasm for Italian tradition."
+        },
+        {
+          "number": 2,
+          "step": "Explain component interplay of sweet pumpkin, savory parmesan, and crisp fried sage."
+        },
+        {
+          "number": 3,
+          "step": "Encourage guests to catch mushrooms, amaretti, and dumpling in every single bite."
+        },
+        {
+          "number": 4,
+          "step": "Keep leftover brown butter sauce warm if serving second helpings to dining guests."
+        },
+        {
+          "number": 5,
+          "step": "Store unused semolina flour in airtight pantry bin for future pasta making sessions."
+        },
+        {
+          "number": 6,
+          "step": "Enjoy compliments from dining guests on this memorable celebration meal centerpiece."
+        },
+        {
+          "number": 7,
+          "step": "Vary roasted squash varieties in autumn using butternut or kabocha squash purée."
+        },
+        {
+          "number": 8,
+          "step": "Mastering pillowy gnudi texture brings professional Italian culinary flair into home kitchen."
+        },
+        {
+          "number": 9,
+          "step": "Clean stockpot and skillet promptly after dinner to conclude successful pasta feast."
+        },
+        {
+          "number": 10,
+          "step": "Keep extra amaretti cookies stored in cookie tin for holiday baking and snacks."
+        },
+        {
+          "number": 11,
+          "step": "Offer fresh fruit or light sorbet after this rich celebration dumpling first course."
+        },
+        {
+          "number": 12,
+          "step": "Double recipe quantities easily when hosting larger family holiday dinner gatherings."
+        },
+        {
+          "number": 13,
+          "step": "Ensure dumplings remain light by maintaining low gentle simmer during poaching stage."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy remaining festive dinner evening in good company with delicious Italian food."
+        },
+        {
+          "number": 15,
+          "step": "Save recipe notes to recreate this successful pumpkin dumpling dish next holiday season."
+        }
+      ]
+    }
+  ]
+}

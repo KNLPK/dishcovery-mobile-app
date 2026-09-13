@@ -1,0 +1,550 @@
+{
+  "id": 9001015,
+  "title": "Festive Brazilian Tapioca and Meia Cura Flatbread",
+  "image": "generated://dishcovery/9001015.jpg",
+  "readyInMinutes": 75,
+  "servings": 8,
+  "summary": "This festive <b>Brazilian tapioca flatbread</b> is a celebratory variation of traditional beiju, designed for large family gatherings and special holidays. Featuring a fragrant dough crafted from sour cassava starch and sweet tapioca flour, it yields a delightfully crisp outer crust with a tender, chewy interior. The dough is enriched with grated cured cheese, toasted coconut flakes, and ground urucum for a vibrant golden color. Served alongside rich garlic butter, roasted palm heart slices, and seasoned black beans, this dish brings authentic regional flair to any festive table setting. Preparing the dough in advance allows the starch to hydrate fully, ensuring an ideal texture upon griddling on cast iron. Each bite offers a harmonious contrast between savory cured cheese and subtle coconut sweetness. This versatile recipe pairs wonderfully with fresh tropical fruit juices or cold spiced beverages. It remains a cherished center of traditional feast tables across Bahia and Minas Gerais, celebrated for its unique texture, comforting warmth, and rich cultural heritage.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3.3
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.6
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Folate",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Calcium",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Iron",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Potassium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4.5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.2
+      },
+      {
+        "name": "Selenium",
+        "amount": 9.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Choline",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3.2
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 50,
+        "unit": "g",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 5.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "sour cassava starch"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "sweet tapioca flour"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "meia cura cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 60,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90004,
+      "amount": 50,
+      "unit": "g",
+      "name": "toasted coconut flakes"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground urucum"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90007,
+      "amount": 150,
+      "unit": "ml",
+      "name": "filtered water"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "fresh garlic"
+    },
+    {
+      "id": 90009,
+      "amount": 200,
+      "unit": "g",
+      "name": "hearts of palm"
+    },
+    {
+      "id": 90010,
+      "amount": 150,
+      "unit": "g",
+      "name": "cooked black beans"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "whole",
+      "name": "fresh limes"
+    },
+    {
+      "id": 90018,
+      "amount": 50,
+      "unit": "g",
+      "name": "queijo coalho"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "annatto powder"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cumin seed"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cassava flour"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced onion"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "chili flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Starch Hydration Phase",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sift the sour cassava starch into a large mixing bowl to eliminate any lumps and ensure a uniform texture."
+        },
+        {
+          "number": 2,
+          "step": "Combine the sweet tapioca flour with cold water in a separate vessel and whisk until completely blended."
+        },
+        {
+          "number": 3,
+          "step": "Pour the starch liquid gradually into the sifted flour while stirring continuously with a wooden spoon."
+        },
+        {
+          "number": 4,
+          "step": "Rub the hydrated mixture gently between your palms until coarse crumbly granules begin to form uniformly."
+        },
+        {
+          "number": 5,
+          "step": "Pass the crumbly starch mixture through a medium mesh sieve to create light and airy starch pearls."
+        },
+        {
+          "number": 6,
+          "step": "Cover the sieved starch with a damp cloth and allow it to rest at room temperature for fifteen minutes."
+        },
+        {
+          "number": 7,
+          "step": "Fold ground urucum powder into the rested starch mixture to give the flatbread a warm golden hue."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle fine sea salt evenly over the prepared starch and mix thoroughly using a wide rubber spatula."
+        },
+        {
+          "number": 9,
+          "step": "Divide the hydrated cassava mixture into eight equal portions on a clean parchment lined tray."
+        },
+        {
+          "number": 10,
+          "step": "Chill the portioned starch granules in the refrigerator for ten minutes to lock in residual moisture."
+        }
+      ]
+    },
+    {
+      "name": "Savory Cheese Mixture",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Grate the cured meia cura cheese coarsely into a clean glass bowl using the medium holes of a box grater."
+        },
+        {
+          "number": 2,
+          "step": "Melt unsalted butter in a small skillet over low heat until liquid and slightly bubbling around edges."
+        },
+        {
+          "number": 3,
+          "step": "Sauté finely minced garlic in the melted butter for two minutes until fragrant but not browned."
+        },
+        {
+          "number": 4,
+          "step": "Stir in toasted coconut flakes and remove the skillet from heat source to cool down for five minutes."
+        },
+        {
+          "number": 5,
+          "step": "Fold the garlic coconut oil mixture into the grated cheese until evenly distributed throughout."
+        },
+        {
+          "number": 6,
+          "step": "Add finely chopped fresh cilantro leaves to the cheese mix and toss lightly using two small forks."
+        },
+        {
+          "number": 7,
+          "step": "Season the mixture with ground white pepper and a pinch of grated nutmeg for additional fragrance."
+        },
+        {
+          "number": 8,
+          "step": "Cover the cheese mixture tightly with wrap and place in the refrigerator until ready for assembly."
+        },
+        {
+          "number": 9,
+          "step": "Slice hearts of palm into thin round coins and pat them dry thoroughly using paper towels."
+        },
+        {
+          "number": 10,
+          "step": "Arrange the dried heart of palm coins on a side platter and keep covered until final assembly phase."
+        }
+      ]
+    },
+    {
+      "name": "Griddling and Shaping",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat a heavy cast iron skillet over medium flame for five minutes until evenly heated throughout."
+        },
+        {
+          "number": 2,
+          "step": "Lightly wipe the heated pan surface with a paper towel dampened with a few drops of vegetable oil."
+        },
+        {
+          "number": 3,
+          "step": "Spread one portion of starch granules onto the hot skillet in a circular layer six inches wide."
+        },
+        {
+          "number": 4,
+          "step": "Press the granules down gently with the back of a spoon so they melt together into a solid disk."
+        },
+        {
+          "number": 5,
+          "step": "Cook the flatbread base for two minutes until the edges curl slightly and the bottom sets firmly."
+        },
+        {
+          "number": 6,
+          "step": "Spoon a quarter cup of cheese filling evenly across one half of the warm cooking cassava disk."
+        },
+        {
+          "number": 7,
+          "step": "Fold the empty half of the flatbread over the filled half using a heatproof spatula to form a half moon."
+        },
+        {
+          "number": 8,
+          "step": "Press the outer folded edges lightly for thirty seconds to seal the melting cheese inside the bread."
+        },
+        {
+          "number": 9,
+          "step": "Flip the folded flatbread over carefully and cook the second side for another full minute until crisp."
+        },
+        {
+          "number": 10,
+          "step": "Transfer the cooked flatbread to a wire rack set inside a warm oven while repeating with remaining dough."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Brush the top of each warm flatbread lightly with melted garlic butter for extra shine and flavor."
+        },
+        {
+          "number": 2,
+          "step": "Garnish the top surfaces with a light dusting of finely chopped fresh parsley and coconut flakes."
+        },
+        {
+          "number": 3,
+          "step": "Arrange sliced hearts of palm decoratively along the side of the warm flatbread serving platter."
+        },
+        {
+          "number": 4,
+          "step": "Warm black bean dip in a small saucepan over medium heat for three minutes while stirring constantly."
+        },
+        {
+          "number": 5,
+          "step": "Ladle the hot black bean dip into individual ramekins placed next to the flatbread serving dish."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle extra virgin olive oil over the warm bean dip just before bringing the platter to the table."
+        },
+        {
+          "number": 7,
+          "step": "Slice each warm flatbread diagonally into two triangular pieces using a sharp chef knife."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle additional sea salt flakes lightly over the warm crusts immediately before serving."
+        },
+        {
+          "number": 9,
+          "step": "Arrange fresh lime wedges around the perimeter of the platter for guests to squeeze over flatbreads."
+        },
+        {
+          "number": 10,
+          "step": "Serve the hot stuffed flatbreads immediately while the inner cheese filling remains melted and stretchy."
+        }
+      ]
+    }
+  ]
+}

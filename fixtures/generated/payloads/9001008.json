@@ -1,0 +1,552 @@
+{
+  "id": 9001008,
+  "title": "Baltic Coastal Fish Zupa",
+  "image": "generated://dishcovery/9001008.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This <b>traditional Polish seafood soup</b> brings a delightful coastal variation to classic Central European soup-making traditions. Made with a <b>delicate fish stock</b> enriched by garden herbs and root vegetables, this comforting bowl delivers deep savory tones with a hint of tart sour cream. Perfect for cold evenings, this hearty recipe combines <b>fresh cod fillets</b>, sweet parsnips, tangy leeks, and fragrant dill into a harmonious broth that warms the soul. The gentle simmer allows all ingredients to release their aromatic oils while maintaining the tender texture of the seafood. Serving it alongside toasted sourdough bread or boiled baby potatoes turns this lighter dish into a <b>filling main meal</b> that celebrates traditional Pomeranian flavors. Every spoonful offers a subtle balance of rich seafood sweetness and lively herbal brightness, showcasing how simple coastal ingredients create <b>unforgettable culinary depth</b> without requiring complex techniques.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 20.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.2
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.6
+      },
+      {
+        "name": "Protein",
+        "amount": 41,
+        "unit": "g",
+        "percentOfDailyNeeds": 82
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 680,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 140,
+        "unit": "IU",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31.7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.9
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.8
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.4
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 116.7
+      },
+      {
+        "name": "Folate",
+        "amount": 75,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.8
+      },
+      {
+        "name": "Calcium",
+        "amount": 130,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.1
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.8
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.1
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.6
+      },
+      {
+        "name": "Selenium",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 87.3
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.9
+      },
+      {
+        "name": "Iodine",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Chromium",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28.6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "cod fillet"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "sea scallops"
+    },
+    {
+      "id": 90002,
+      "amount": 300,
+      "unit": "g",
+      "name": "fish stock"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "carrots"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "parsnips"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "celeriac root"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "leek"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "pcs",
+      "name": "yukon gold potatoes"
+    },
+    {
+      "id": 90009,
+      "amount": 30,
+      "unit": "g",
+      "name": "butter"
+    },
+    {
+      "id": 90010,
+      "amount": 150,
+      "unit": "g",
+      "name": "sour cream"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "flat leaf parsley"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh chives"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90015,
+      "amount": 6,
+      "unit": "pcs",
+      "name": "allspice berries"
+    },
+    {
+      "id": 90016,
+      "amount": 10,
+      "unit": "pcs",
+      "name": "black peppercorns"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "lemon"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "liter",
+      "name": "water"
+    },
+    {
+      "id": 90021,
+      "amount": 4,
+      "unit": "slices",
+      "name": "sourdough bread"
+    },
+    {
+      "id": 90022,
+      "amount": 20,
+      "unit": "g",
+      "name": "cultured butter"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried marjoram"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Broth Base Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the fresh cod bones and fish heads under cold tap water until all traces of blood are removed."
+        },
+        {
+          "number": 2,
+          "step": "Place the cleaned fish trimmings into a large stockpot and cover them with four liters of fresh chilled water."
+        },
+        {
+          "number": 3,
+          "step": "Set the stockpot over medium heat and gradually bring the liquid to a gentle and steady simmer without boiling."
+        },
+        {
+          "number": 4,
+          "step": "Skim away any surface foam or impurities that rise to the top using a fine mesh strainer at regular intervals."
+        },
+        {
+          "number": 5,
+          "step": "Peel the fresh carrots, parsley roots, and celeriac root using a sharp swivel peeler until smooth."
+        },
+        {
+          "number": 6,
+          "step": "Slice the peeled root vegetables into uniform half-inch thick rounds to ensure even cooking throughout the broth."
+        },
+        {
+          "number": 7,
+          "step": "Trim the root ends and outer dark leaves from the leeks, then split them lengthwise and wash thoroughly."
+        },
+        {
+          "number": 8,
+          "step": "Roughly chop the cleaned leeks into broad half-moon slices and add them directly into the simmering broth pot."
+        },
+        {
+          "number": 9,
+          "step": "Add whole black peppercorns, dried allspice berries, and bay leaves into the pot for deep herbal background aroma."
+        },
+        {
+          "number": 10,
+          "step": "Lower the heat setting so the stock maintains a very soft bubbling action for approximately thirty minutes."
+        },
+        {
+          "number": 11,
+          "step": "Strain the warm aromatic stock through a cheesecloth-lined sieve into a secondary clean container."
+        },
+        {
+          "number": 12,
+          "step": "Discard the boiled solids and return the clear strained liquid back into the primary stockpot over medium heat."
+        },
+        {
+          "number": 13,
+          "step": "Dice fresh potatoes into small uniform cubes so they cook quickly and evenly once added to the hot liquid."
+        },
+        {
+          "number": 14,
+          "step": "Transfer the cubed potatoes into the gently simmering clear stock and stir gently to prevent sticking."
+        },
+        {
+          "number": 15,
+          "step": "Cook the potatoes for twelve minutes until they become fork-tender but still maintain their overall structure."
+        },
+        {
+          "number": 16,
+          "step": "Melt fresh sweet butter in a small skillet set over medium heat until it bubbles softly without browning."
+        },
+        {
+          "number": 17,
+          "step": "Add finely chopped yellow onions to the melted butter and cook until translucent and soft for six minutes."
+        },
+        {
+          "number": 18,
+          "step": "Pour the softened onions and butter mixture into the main soup pot and stir thoroughly to combine flavors."
+        },
+        {
+          "number": 19,
+          "step": "Season the broth with kosher salt and ground white pepper according to your personal taste preferences."
+        },
+        {
+          "number": 20,
+          "step": "Maintain a low simmer while you prepare the delicate fresh seafood ingredients for the final cooking stage."
+        },
+        {
+          "number": 21,
+          "step": "Check the temperature of the simmering broth using a digital thermometer to make sure it sits near 185 degrees."
+        },
+        {
+          "number": 22,
+          "step": "Taste the hot stock carefully and adjust seasoning with a squeeze of fresh lemon juice if desired."
+        }
+      ]
+    },
+    {
+      "name": "Seafood Finishing and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Inspect the fresh cod fillets carefully and remove any remaining pin bones using clean kitchen tweezers."
+        },
+        {
+          "number": 2,
+          "step": "Cut the boneless cod fillets into bite-sized two-inch square pieces using a sharp chef knife."
+        },
+        {
+          "number": 3,
+          "step": "Rinse the sea scallops under cool running water and pat them completely dry with absorbent paper towels."
+        },
+        {
+          "number": 4,
+          "step": "Gently lay the cod pieces into the hot simmering broth without stirring vigorously to avoid breaking the fish."
+        },
+        {
+          "number": 5,
+          "step": "Add the prepared scallops into the stockpot, ensuring all seafood pieces are submerged under the hot liquid."
+        },
+        {
+          "number": 6,
+          "step": "Reduce the heat to the lowest setting and cover the stockpot tightly with a heavy heatproof glass lid."
+        },
+        {
+          "number": 7,
+          "step": "Poach the fish gently for six minutes until the cod flakes easily when tested light with a metal fork."
+        },
+        {
+          "number": 8,
+          "step": "Measure fresh sour cream into a heat-safe tempered bowl to prepare for tempering into the hot soup base."
+        },
+        {
+          "number": 9,
+          "step": "Ladle two cups of hot soup broth into the bowl containing sour cream while whisking constantly until smooth."
+        },
+        {
+          "number": 10,
+          "step": "Slowly pour the tempered sour cream mixture back into the main soup pot while stirring gently in broad circles."
+        },
+        {
+          "number": 11,
+          "step": "Finely chop fresh dill leaves, flat-leaf parsley, and chives on a clean wooden cutting board."
+        },
+        {
+          "number": 12,
+          "step": "Scatter half of the freshly chopped herbs directly into the pot and stir once to distribute them evenly."
+        },
+        {
+          "number": 13,
+          "step": "Turn off the heat source entirely and allow the soup to rest covered on the stove for three minutes."
+        },
+        {
+          "number": 14,
+          "step": "Warm wide soup bowls in a low oven or by rinsing them under hot water before ladling the soup."
+        },
+        {
+          "number": 15,
+          "step": "Ladle equal portions of potatoes, fish pieces, and rich broth into each pre-warmed serving bowl."
+        },
+        {
+          "number": 16,
+          "step": "Garnish each bowl generously with the remaining fresh chopped herbs and a pinch of ground white pepper."
+        },
+        {
+          "number": 17,
+          "step": "Arrange thin lemon wedges along the edge of each serving bowl for optional extra acidity at table."
+        },
+        {
+          "number": 18,
+          "step": "Slice fresh dark sourdough rye bread into thick slices to serve alongside the hot comforting soup."
+        },
+        {
+          "number": 19,
+          "step": "Spread a thin layer of cultured butter over each sourdough bread slice right before serving."
+        },
+        {
+          "number": 20,
+          "step": "Carry the steaming bowls carefully to the dining table while the soup remains piping hot and fragrant."
+        },
+        {
+          "number": 21,
+          "step": "Serve immediately alongside extra sour cream and fresh herb sprigs for an authentic coastal soup experience."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": 9001067,
+  "title": "Brazilian Caramelized Pineapple Dessert Skewers",
+  "image": "generated://dishcovery/9001067.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "Bringing a tropical finale to any dining occasion, these vibrant dessert skewers showcase the luscious fruit heritage of South America. Fresh pineapple chunks are wrapped around sweet papaya cubes, brushed with a glaze of <b>cacao blossom honey</b>, and coated in toasted coconut flakes. Grilled rapidly over open flames, the fruit caramelizes on the outside while remaining juicy and tender on the inside. A sprinkle of ground cinnamon, lime zest, and crushed mint leaves elevates the sweet natural juices into a complex dessert experience. Finished with a warm drizzle of dark chocolate and sweetened condensed milk, these skewers deliver an irresistible combination of warm, cool, crispy, and creamy elements. Perfect for summer barbecue gatherings or outdoor dinner parties, this dessert course is as visually striking as it is delicious. Serve these hot skewers alongside a scoop of vanilla bean ice cream or coconut sorbet to create a memorable tropical dessert that highlights the brilliant sunshine flavors of Brazilian street food culture.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Protein",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 10,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Sodium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 950,
+        "unit": "IU",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 147
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 4,
+        "unit": "IU",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Choline",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Calcium",
+        "amount": 120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Iron",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Selenium",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 61
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "whole",
+      "name": "fresh pineapple"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "ripe papaya"
+    },
+    {
+      "id": 90002,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "cacao blossom honey"
+    },
+    {
+      "id": 90003,
+      "amount": 50,
+      "unit": "g",
+      "name": "sweetened coconut flakes"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "melted unsalted butter"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime zest"
+    },
+    {
+      "id": 90009,
+      "amount": 60,
+      "unit": "ml",
+      "name": "sweetened condensed milk"
+    },
+    {
+      "id": 90010,
+      "amount": 50,
+      "unit": "g",
+      "name": "dark chocolate chips"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh mint"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "demerara sugar"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cachaça rum"
+    },
+    {
+      "id": 90017,
+      "amount": 4,
+      "unit": "scoops",
+      "name": "vanilla bean ice cream"
+    },
+    {
+      "id": 90018,
+      "amount": 8,
+      "unit": "wooden",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil for grill"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "passion fruit pulp"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "crushed macadamia nuts"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "guava nectar"
+    },
+    {
+      "id": 90024,
+      "amount": 4,
+      "unit": "sprigs",
+      "name": "fresh mint garnishes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Skewer Assembly and Marinade",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak eight wooden bamboo skewers in cold water for twenty minutes to prevent burning."
+        },
+        {
+          "number": 2,
+          "step": "Cut top and bottom off fresh pineapple using a sharp chef knife on cutting board."
+        },
+        {
+          "number": 3,
+          "step": "Slice off tough outer skin of pineapple removing all remaining brown eyes cleanly."
+        },
+        {
+          "number": 4,
+          "step": "Core fresh pineapple and cut fruit into uniform one inch thick square chunks."
+        },
+        {
+          "number": 5,
+          "step": "Peel ripe papaya remove inner black seeds and cut into matching one inch cubes."
+        },
+        {
+          "number": 6,
+          "step": "Whisk cacao blossom honey melted unsalted butter and cachaça rum in small bowl."
+        },
+        {
+          "number": 7,
+          "step": "Stir lime juice vanilla extract ground cinnamon and ground nutmeg into honey glaze."
+        },
+        {
+          "number": 8,
+          "step": "Place pineapple chunks and papaya cubes into large shallow glass marinating dish."
+        },
+        {
+          "number": 9,
+          "step": "Pour half of honey butter glaze over cut fruit pieces tossing to coat completely."
+        },
+        {
+          "number": 10,
+          "step": "Let fruit marinate at room temperature for fifteen minutes to absorb rich glaze."
+        },
+        {
+          "number": 11,
+          "step": "Spread sweetened coconut flakes evenly across a wide flat dinner plate surface."
+        },
+        {
+          "number": 12,
+          "step": "Thread alternating pieces of marinated pineapple and papaya onto soaked skewers."
+        },
+        {
+          "number": 13,
+          "step": "Place three pineapple chunks and two papaya cubes onto each individual skewer."
+        },
+        {
+          "number": 14,
+          "step": "Press fruit skewers gently into coconut flakes coating fruit surfaces evenly."
+        },
+        {
+          "number": 15,
+          "step": "Sprinkle demerara sugar and a tiny pinch sea salt over coated fruit skewers."
+        },
+        {
+          "number": 16,
+          "step": "Combine dark chocolate chips and heavy cream in heatproof glass bowl for ganache."
+        },
+        {
+          "number": 17,
+          "step": "Microwave chocolate cream mixture on medium power in twenty second bursts to melt."
+        },
+        {
+          "number": 18,
+          "step": "Whisk chocolate sauce until smooth glossy and completely melted without lumps."
+        },
+        {
+          "number": 19,
+          "step": "Keep warm chocolate ganache near grill prep station for final dessert drizzle."
+        },
+        {
+          "number": 20,
+          "step": "Preheat outdoor grill pan or indoor ribbed skillet over medium high heat line."
+        },
+        {
+          "number": 21,
+          "step": "Lightly brush grill grates with vegetable oil using heat resistant pastry brush."
+        },
+        {
+          "number": 22,
+          "step": "Arrange skewers on tray for easy transfer to hot cooking surface when ready."
+        }
+      ]
+    },
+    {
+      "name": "Caramelization and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place prepared fruit skewers carefully onto hot oiled grill pan in single layer."
+        },
+        {
+          "number": 2,
+          "step": "Grill skewers undisturbed for two minutes until dark caramel grill marks form."
+        },
+        {
+          "number": 3,
+          "step": "Brush top side of skewers with remaining honey glaze while bottom caramelizes."
+        },
+        {
+          "number": 4,
+          "step": "Turn skewers ninety degrees using long grilling tongs to cook adjacent side."
+        },
+        {
+          "number": 5,
+          "step": "Continue grilling and turning skewers every two minutes until all sides turn golden."
+        },
+        {
+          "number": 6,
+          "step": "Watch coconut flakes closely so they toast to golden brown without burning dark."
+        },
+        {
+          "number": 7,
+          "step": "Total grilling time should take approximately eight minutes for ideal caramel texture."
+        },
+        {
+          "number": 8,
+          "step": "Transfer hot caramelized skewers from grill pan onto clean wooden serving board."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle sweetened condensed milk crisscross over hot grilled fruit skewers board."
+        },
+        {
+          "number": 10,
+          "step": "Drizzle warm dark chocolate ganache over skewers following condensed milk pattern."
+        },
+        {
+          "number": 11,
+          "step": "Spoon fresh passion fruit pulp over caramelized fruit for tangy tropical accent."
+        },
+        {
+          "number": 12,
+          "step": "Dust top of skewers lightly with fresh lime zest and pinch of chili powder."
+        },
+        {
+          "number": 13,
+          "step": "Scatter crushed macadamia nuts and chopped fresh mint leaves over finished skewers."
+        },
+        {
+          "number": 14,
+          "step": "Place one scoop vanilla bean ice cream alongside skewers on each dessert plate."
+        },
+        {
+          "number": 15,
+          "step": "Arrange two hot dessert skewers resting against cold vanilla ice cream scoop."
+        },
+        {
+          "number": 16,
+          "step": "Drizzle additional guava nectar around plate edge for decorative restaurant presentation."
+        },
+        {
+          "number": 17,
+          "step": "Garnish dessert plates with fresh mint sprigs for vibrant green color contrast."
+        },
+        {
+          "number": 18,
+          "step": "Serve skewers immediately while fruit remains hot and ice cream stays cold."
+        },
+        {
+          "number": 19,
+          "step": "Provide extra napkins as dessert skewers are deliciously sticky and rich to eat."
+        },
+        {
+          "number": 20,
+          "step": "Offer remaining chocolate ganache at table for guests wanting additional sauce."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy this Brazilian dessert course with cold espresso or tropical fruit liqueur."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": 9001060,
+  "title": "Moroccan Seafood Couscous Grain Salad",
+  "image": "generated://dishcovery/9001060.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "This vibrant <b>Moroccan grain salad</b> combines fluffy pearl couscous with pan-seared prawns and tender squid rings tossed in a fragrant Ras el Hanout vinaigrette. Infused with preserved lemon, fresh pomegranate seeds, toasted almonds, and sweet dried apricots, the salad balances savory seafood richness with bright floral and fruity notes. Served slightly chilled or at room temperature, it offers a refreshing presentation suitable for outdoor lunches or elegant buffet dinners. Steaming the couscous with saffron broth creates a golden hue and delicate aroma that ties all ingredients together seamlessly. Fresh mint and coriander leaves bring herbaceous contrast to every forkful. The combination of delicate seafood textures alongside crunchy nuts and chewy grains delivers a complex mouthfeel. Simple to prepare ahead of time, this Moroccan specialty improves as flavors meld together in the refrigerator. Garnish with additional pomegranate arils and extra virgin olive oil just before serving to impress your dining guests.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Protein",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 640,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 890,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 26,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 64,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Copper",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Choline",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Iodine",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Chromium",
+        "amount": 7,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "pearl couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "lb",
+      "name": "raw prawns"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "lb",
+      "name": "squid rings"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fish broth"
+    },
+    {
+      "id": 90004,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ras el hanout"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "preserved lemon"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90009,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh coriander"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "english",
+      "name": "cucumber"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "argan oil"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "green olives"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Couscous and Dressing Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pinch saffron threads into hot fish broth in a saucepan and bring to boil over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Stir pearl couscous into boiling saffron broth, cover with lid, and reduce heat to low setting."
+        },
+        {
+          "number": 3,
+          "step": "Simmer pearl couscous covered for ten minutes until broth absorbs and grains turn tender."
+        },
+        {
+          "number": 4,
+          "step": "Remove saucepan from heat and allow couscous to stand covered for five additional minutes."
+        },
+        {
+          "number": 5,
+          "step": "Fluff cooked pearl couscous gently with a fork and spread onto tray to cool completely."
+        },
+        {
+          "number": 6,
+          "step": "Whisk extra virgin olive oil, lemon juice, honey, Ras el Hanout, cumin, and cinnamon in bowl."
+        },
+        {
+          "number": 7,
+          "step": "Mince garlic cloves finely and add to spice dressing along with sea salt and black pepper."
+        },
+        {
+          "number": 8,
+          "step": "Dice preserved lemon peel finely after discarding seeds and pulp, adding peel to dressing."
+        },
+        {
+          "number": 9,
+          "step": "Toast sliced almonds in dry skillet over medium heat for three minutes until golden brown."
+        },
+        {
+          "number": 10,
+          "step": "Dice dried apricots into small uniform pieces and set aside with toasted almond slices."
+        },
+        {
+          "number": 11,
+          "step": "Finely dice red onion and English cucumber into quarter-inch pieces on a cutting board."
+        },
+        {
+          "number": 12,
+          "step": "Halve cherry tomatoes and slice pitted green olives into neat thin ring rounds."
+        },
+        {
+          "number": 13,
+          "step": "Chop fresh mint leaves and coriander sprigs coarsely to yield half cup total mixed herbs."
+        },
+        {
+          "number": 14,
+          "step": "Peel and devein raw prawns, patting dry thoroughly with clean paper towels before cooking."
+        },
+        {
+          "number": 15,
+          "step": "Rinse squid rings under cold water and pat dry completely on paper towels alongside prawns."
+        },
+        {
+          "number": 16,
+          "step": "Season raw prawns and squid rings evenly with half teaspoon Ras el Hanout and pinch of salt."
+        },
+        {
+          "number": 17,
+          "step": "Heat one tablespoon olive oil in heavy skillet over high heat until smoking light hot."
+        },
+        {
+          "number": 18,
+          "step": "Sear seasoned prawns for two minutes per side until pink, opaque, and cooked through completely."
+        },
+        {
+          "number": 19,
+          "step": "Transfer cooked prawns to plate and add squid rings to hot skillet for ninety seconds max."
+        },
+        {
+          "number": 20,
+          "step": "Transfer cooked tender squid rings onto plate with prawns to cool down to room temperature."
+        },
+        {
+          "number": 21,
+          "step": "Check cooled pearl couscous grains to ensure no clumping occurred during tray cooling phase."
+        },
+        {
+          "number": 22,
+          "step": "Gather all prepared salad ingredients and dressing around a large wide porcelain mixing bowl."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer fluffed cooled pearl couscous into large porcelain mixing bowl using rubber spatula."
+        },
+        {
+          "number": 2,
+          "step": "Pour half prepared Ras el Hanout dressing over couscous, tossing gently with spoon to coat."
+        },
+        {
+          "number": 3,
+          "step": "Add diced red onion, cucumber, cherry tomato halves, and green olive slices to couscous bowl."
+        },
+        {
+          "number": 4,
+          "step": "Fold diced dried apricots, toasted almonds, and fresh pomegranate seeds into grain mixture."
+        },
+        {
+          "number": 5,
+          "step": "Add seared prawns and squid rings into bowl along with accumulated flavorful seafood plate juices."
+        },
+        {
+          "number": 6,
+          "step": "Pour remaining spice dressing over entire grain salad while tossing gently to combine all items."
+        },
+        {
+          "number": 7,
+          "step": "Scatter chopped fresh mint and coriander leaves across salad, folding lightly one final time."
+        },
+        {
+          "number": 8,
+          "step": "Taste grain salad and adjust seasoning with extra salt, pepper, or lemon juice if desired."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle rich argan oil over top of assembled seafood salad to add signature nutty Moroccan finish."
+        },
+        {
+          "number": 10,
+          "step": "Cover bowl with plastic film and chill in refrigerator for thirty minutes to meld flavors."
+        },
+        {
+          "number": 11,
+          "step": "Mound seafood couscous salad decoratively into center of wide serving platter or individual bowls."
+        },
+        {
+          "number": 12,
+          "step": "Garnish platter top with extra pomegranate arils, whole mint leaves, and toasted almond slices."
+        },
+        {
+          "number": 13,
+          "step": "Serve chilled or at room temperature as a main salad course alongside warm flatbread slices."
+        },
+        {
+          "number": 14,
+          "step": "Accompany salad dish with crisp dry white wine or chilled Moroccan mint tea for diners."
+        },
+        {
+          "number": 15,
+          "step": "Store remaining grain salad tightly covered in refrigerator for up to twenty-four hours safely."
+        },
+        {
+          "number": 16,
+          "step": "Toss leftovers with light splash of lemon juice before serving second day to revive brightness."
+        },
+        {
+          "number": 17,
+          "step": "Enjoy vibrant contrast of spiced seafood, chewy grains, sweet fruit, and crunchy toasted nuts."
+        },
+        {
+          "number": 18,
+          "step": "Clean workstation counters and store unused salad dressing in sealed jar inside refrigerator."
+        },
+        {
+          "number": 19,
+          "step": "Verify all guests enjoy seafood elements by arranging prawns visibly atop served bowl portions."
+        },
+        {
+          "number": 20,
+          "step": "Offer additional lemon wedges alongside platter for diners who prefer extra zesty citrus flavor."
+        },
+        {
+          "number": 21,
+          "step": "Celebrate rich culinary heritage of Moroccan coastal grain dishes through this vibrant recipe creation."
+        }
+      ]
+    }
+  ]
+}

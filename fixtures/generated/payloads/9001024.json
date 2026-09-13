@@ -1,0 +1,550 @@
+{
+  "id": 9001024,
+  "title": "Seco de Setas y Zapallo Braise",
+  "image": "generated://dishcovery/9001024.jpg",
+  "readyInMinutes": 85,
+  "servings": 4,
+  "summary": "This vibrant Peruvian recipe offers a fully <b>vegetarian slow braise</b> featuring meaty wild mushrooms and sweet zapallo squash. The foundation of this traditional dish rests on a rich cilantro and green chili paste known as seco sauce, cooked down with red onions, garlic, and Peruvian yellow pepper. Simmered slowly with vegetable stock and corn beer, the squash softens while absorbing the intense herbal and spicy broth, creating a velvety consistency naturally. Tender white beans and green peas are folded into the pot near the end of cooking to add substance and pleasant texture. High in <b>dietary fiber, antioxidants, and essential nutrients</b>, this wholesome braise proves that plant-based dining can deliver tremendous depth and complexity. Served alongside steamed white rice and red onion sarsa criolla, it brings authentic Andean flavors to your table. The balance of earthy mushrooms, fragrant cilantro sauce, and sweet squash delivers a memorable gourmet experience for all.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 64,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Sugar",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Folate",
+        "amount": 145,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Calcium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Copper",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 61
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Chromium",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 100
+      },
+      {
+        "name": "Potassium",
+        "amount": 940,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "lb",
+      "name": "king oyster mushrooms"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cups",
+      "name": "cubed zapallo squash"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fresh cilantro leaves"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "aji amarillo paste"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "cup",
+      "name": "chicha de jora"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "cups",
+      "name": "vegetable stock"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cooked white beans"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "cup",
+      "name": "green peas"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "cup",
+      "name": "long grain white rice"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "lime",
+      "name": "lime juice"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "small",
+      "name": "red onion for sarsa"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "seeded",
+      "name": "aji amarillo pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "bay",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced carrots"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Paste Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash fresh cilantro leaves thoroughly in cold water and shake off excess moisture."
+        },
+        {
+          "number": 2,
+          "step": "Place washed cilantro into blender jar along with a splash of vegetable stock."
+        },
+        {
+          "number": 3,
+          "step": "Blend cilantro on high speed for one minute until a completely smooth green paste forms."
+        },
+        {
+          "number": 4,
+          "step": "Dice red onion finely on cutting board using a sharp knife for sauce foundation."
+        },
+        {
+          "number": 5,
+          "step": "Peel and mince garlic cloves finely using a chef knife on clean cutting surface."
+        },
+        {
+          "number": 6,
+          "step": "Measure aji amarillo paste and ground cumin accurately before beginning pan cooking."
+        },
+        {
+          "number": 7,
+          "step": "Heat olive oil in heavy Dutch oven over medium heat until shimmering gently."
+        },
+        {
+          "number": 8,
+          "step": "Add diced red onions to hot oil and sauté for six minutes until soft and clear."
+        },
+        {
+          "number": 9,
+          "step": "Stir in minced garlic and aji amarillo paste cooking for two additional minutes."
+        },
+        {
+          "number": 10,
+          "step": "Add ground cumin and dried oregano stirring constantly until fragrant."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Clean king oyster mushrooms with damp towel and cut into large bite size chunks."
+        },
+        {
+          "number": 2,
+          "step": "Peel zapallo squash remove seeds and cut flesh into one inch square cubes."
+        },
+        {
+          "number": 3,
+          "step": "Peel carrots and slice into quarter inch thick round coins for cooking."
+        },
+        {
+          "number": 4,
+          "step": "Rinse cooked white beans thoroughly in fine mesh strainer under cold water."
+        },
+        {
+          "number": 5,
+          "step": "Thaw frozen green peas if using or measure fresh green peas into small bowl."
+        },
+        {
+          "number": 6,
+          "step": "Heat vegetable oil in separate skillet over high heat until smoking lightly."
+        },
+        {
+          "number": 7,
+          "step": "Sear mushroom chunks in hot skillet for four minutes until golden brown on edges."
+        },
+        {
+          "number": 8,
+          "step": "Transfer seared mushrooms to plate using slotted spoon and season with salt."
+        },
+        {
+          "number": 9,
+          "step": "Slice second small red onion paper thin for traditional sarsa criolla topping."
+        },
+        {
+          "number": 10,
+          "step": "Slice fresh aji amarillo pepper into paper thin strips after removing seeds."
+        }
+      ]
+    },
+    {
+      "name": "Braising",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour blended green cilantro paste directly into onion paste in Dutch oven."
+        },
+        {
+          "number": 2,
+          "step": "Cook cilantro mixture over medium heat for five minutes to darken color and deepen flavor."
+        },
+        {
+          "number": 3,
+          "step": "Pour chicha de jora corn beer into Dutch oven to deglaze pan bottom while scraping."
+        },
+        {
+          "number": 4,
+          "step": "Add remaining vegetable stock and bay leaf into pot bringing mixture to steady boil."
+        },
+        {
+          "number": 5,
+          "step": "Add cubed zapallo squash sliced carrots and seared mushrooms to bubbling pot liquid."
+        },
+        {
+          "number": 6,
+          "step": "Season braising broth with sea salt and black pepper according to personal taste."
+        },
+        {
+          "number": 7,
+          "step": "Reduce heat to low cover Dutch oven tightly and simmer gently for thirty minutes."
+        },
+        {
+          "number": 8,
+          "step": "Check squash tenderness with fork after twenty five minutes ensuring piece remains intact."
+        },
+        {
+          "number": 9,
+          "step": "Stir cooked white beans and green peas into braise during final five minutes."
+        },
+        {
+          "number": 10,
+          "step": "Remove lid and simmer uncovered for five minutes to thicken cilantro braising sauce."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine white rice water and salt in saucepan bringing to boil over medium high."
+        },
+        {
+          "number": 2,
+          "step": "Cover rice saucepan reduce heat to low and cook undisturbed for fifteen minutes."
+        },
+        {
+          "number": 3,
+          "step": "Fluff cooked white rice gently with fork and cover to keep warm until serving."
+        },
+        {
+          "number": 4,
+          "step": "Combine paper thin sliced red onion and thin pepper strips in glass bowl."
+        },
+        {
+          "number": 5,
+          "step": "Toss onion mixture with fresh lime juice red wine vinegar and chopped cilantro."
+        },
+        {
+          "number": 6,
+          "step": "Season sarsa criolla with pinch of sea salt and let marinate for five minutes."
+        },
+        {
+          "number": 7,
+          "step": "Discard bay leaf from finished vegetable braise using spoon before serving guests."
+        },
+        {
+          "number": 8,
+          "step": "Ladle hot mushroom and squash braise into broad shallow serving bowls carefully."
+        },
+        {
+          "number": 9,
+          "step": "Mound cooked white rice neatly alongside rich cilantro braise in each bowl."
+        },
+        {
+          "number": 10,
+          "step": "Top each serving with generous forkful of bright fresh sarsa criolla before eating."
+        }
+      ]
+    }
+  ]
+}

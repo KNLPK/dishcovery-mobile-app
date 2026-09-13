@@ -1,0 +1,553 @@
+{
+  "id": 9001056,
+  "title": "One-Pot Mexican Spiced Pork Shoulder Roast",
+  "image": "generated://dishcovery/9001056.jpg",
+  "readyInMinutes": 150,
+  "servings": 8,
+  "summary": "This vibrant <b>one-pot Mexican roast</b> brings together tender pork shoulder, roasted poblanos, and rich aromatic spices in a single Dutch oven. Slow cooking allows the garlic, cumin, oregano, and citrus juices to deeply penetrate the meat while building a complex, velvety pan gravy right in the pot. Crisp vegetables and vibrant herbs are added near the end of cooking to maintain fresh contrast against the rich roasted elements. Perfect for family gatherings, this hearty main dish delivers deeply savory flavors with minimal cleanup required. Enjoying this meal with warm tortillas or cilantro rice showcases how traditional Mexican aromatics shine through modern braising methods. The combination of slow-roasted pork fat, tangy lime juice, and smoked paprika yields an unbeatably succulent centerpiece that improves even further when reheated the following day. Serve alongside roasted radish slices, pickled red onions, and fresh avocado wedges to create a balanced plate featuring varied textures and bright, contrasting flavors.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 44,
+        "unit": "g",
+        "percentOfDailyNeeds": 88
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 390,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Chromium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 3.5,
+      "unit": "lbs",
+      "name": "pork shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mexican oregano"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90010,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "medium",
+      "name": "poblano peppers"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "medium",
+      "name": "jalapeno pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "cup",
+      "name": "orange juice"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "lime juice"
+    },
+    {
+      "id": 90015,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "bay",
+      "name": "leaves"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "stick",
+      "name": "cinnamon"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "large",
+      "name": "avocado"
+    },
+    {
+      "id": 90023,
+      "amount": 4,
+      "unit": "radishes",
+      "name": "radishes"
+    },
+    {
+      "id": 90024,
+      "amount": 8,
+      "unit": "small",
+      "name": "corn tortillas"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat the heavy Dutch oven over medium heat while thoroughly patting the seasoned pork shoulder dry with paper towels."
+        },
+        {
+          "number": 2,
+          "step": "Combine sea salt, black pepper, ground cumin, oregano, smoked paprika, garlic powder, and onion powder in a small bowl."
+        },
+        {
+          "number": 3,
+          "step": "Rub the spice mixture completely over all surfaces of the pork shoulder until well coated on every single side."
+        },
+        {
+          "number": 4,
+          "step": "Dice the large yellow onion into uniform quarter-inch pieces and mince the garlic cloves finely on a cutting board."
+        },
+        {
+          "number": 5,
+          "step": "Slice the poblano peppers and jalapeno into thin strips after removing all internal seeds and fibrous white membranes."
+        },
+        {
+          "number": 6,
+          "step": "Pour the vegetable oil into the hot Dutch oven and swirl to coat the bottom surface evenly before adding the meat."
+        },
+        {
+          "number": 7,
+          "step": "Place the spiced pork shoulder into the hot oil and sear for five minutes until a deep golden crust forms properly."
+        },
+        {
+          "number": 8,
+          "step": "Rotate the roast carefully with sturdy tongs to brown each remaining outer surface for approximately four minutes."
+        },
+        {
+          "number": 9,
+          "step": "Transfer the seared pork roast temporarily onto a large clean rimmed platter while preparing the aromatic vegetables."
+        },
+        {
+          "number": 10,
+          "step": "Add the diced yellow onions and sliced poblano peppers directly into the hot residual drippings inside the Dutch oven."
+        },
+        {
+          "number": 11,
+          "step": "Sauté the vegetables for six minutes until softened and light translucent edges begin appearing on the diced onions."
+        },
+        {
+          "number": 12,
+          "step": "Stir in the minced garlic and tomato paste, stirring constantly for sixty seconds until fragrant and deeply red."
+        },
+        {
+          "number": 13,
+          "step": "Pour in the fresh orange juice and lime juice to deglaze the bottom of the pot, scraping up all browned bits thoroughly."
+        },
+        {
+          "number": 14,
+          "step": "Add the chicken broth, bay leaves, and cinnamon stick to the simmering liquid while gently stirring to blend evenly."
+        }
+      ]
+    },
+    {
+      "name": "Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Nestle the seared pork shoulder back into the pot so it sits securely nestled among the simmering flavorful liquid."
+        },
+        {
+          "number": 2,
+          "step": "Cover the Dutch oven tightly with its heavy lid and reduce the heat setting to low for steady simmering action."
+        },
+        {
+          "number": 3,
+          "step": "Simmer the roast covered for sixty minutes without removing the lid to retain internal steam and concentrated heat."
+        },
+        {
+          "number": 4,
+          "step": "Carefully remove the lid and turn the pork shoulder over using large tongs to ensure balanced cooking throughout."
+        },
+        {
+          "number": 5,
+          "step": "Baste the top of the roast with several spoonfuls of the hot pan liquid before securing the lid tightly again."
+        },
+        {
+          "number": 6,
+          "step": "Continue simmering the covered roast for another forty-five minutes until the internal temperature reaches soft tenderness."
+        },
+        {
+          "number": 7,
+          "step": "Check the braising liquid level to ensure it has reduced down into a rich sauce without scorching the bottom base."
+        },
+        {
+          "number": 8,
+          "step": "Add the jalapeno slices around the pork to infuse subtle chili heat into the simmering pan juice for ten minutes."
+        },
+        {
+          "number": 9,
+          "step": "Test the tender roast meat with a metal fork; it should yield easily under gentle pressure without resistance."
+        },
+        {
+          "number": 10,
+          "step": "Skim any excessive clear grease off the surface of the simmering cooking liquid using a shallow metal spoon."
+        },
+        {
+          "number": 11,
+          "step": "Discard the spent cinnamon stick and bay leaves carefully from the pot before starting the final resting phase."
+        },
+        {
+          "number": 12,
+          "step": "Transfer the fully cooked roast back to the clean serving platter and cover loosely with aluminum foil to rest."
+        },
+        {
+          "number": 13,
+          "step": "Simmer the sauce rapidly over medium-high heat for five minutes to concentrate the savory roast juices further."
+        },
+        {
+          "number": 14,
+          "step": "Season the reduced roasting pan sauce with a pinch of extra salt and chili powder to perfect overall flavor balance."
+        }
+      ]
+    },
+    {
+      "name": "Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Shred the warm pork roast into thick bite-sized chunks using two large forks while retaining juices on the platter."
+        },
+        {
+          "number": 2,
+          "step": "Pour the hot concentrated braising sauce directly over the shredded pork pieces to keep them moist and flavorful."
+        },
+        {
+          "number": 3,
+          "step": "Thinly slice the fresh radishes and red onion into uniform slivers for a crisp raw garnish across the warm meat."
+        },
+        {
+          "number": 4,
+          "step": "Dice the ripe avocado into neat cubes and toss gently with a light squeeze of fresh lime juice to prevent browning."
+        },
+        {
+          "number": 5,
+          "step": "Chop the fresh cilantro leaves finely and sprinkle them generously across the top of the dressed roast platter."
+        },
+        {
+          "number": 6,
+          "step": "Warm the corn tortillas individually over a dry skillet for thirty seconds per side until pliable and fragrant."
+        },
+        {
+          "number": 7,
+          "step": "Stack the warmed corn tortillas neatly inside a clean folded cloth napkin to retain softness at the dinner table."
+        },
+        {
+          "number": 8,
+          "step": "Arrange the crisp sliced radishes and diced avocado around the perimeter of the seasoned pork roast platter neatly."
+        },
+        {
+          "number": 9,
+          "step": "Spoon additional warm pot gravy over the meat just before bringing the finished roast dish directly to table guests."
+        },
+        {
+          "number": 10,
+          "step": "Serve the roasted pork alongside warm tortillas so guests can assemble their own customized soft tacos at will."
+        },
+        {
+          "number": 11,
+          "step": "Garnish with extra fresh lime wedges on the side for guests who prefer an additional splash of bright acidity."
+        },
+        {
+          "number": 12,
+          "step": "Store remaining meat and braising juices together in an airtight glass container inside the refrigerator promptly."
+        },
+        {
+          "number": 13,
+          "step": "Reheat leftover roast gently over low heat with a splash of water to restore original moist tenderness next day."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy the rich roasted flavors paired with your favorite Mexican sides such as black beans or sweet plantains."
+        }
+      ]
+    }
+  ]
+}

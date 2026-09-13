@@ -1,0 +1,553 @@
+{
+  "id": 9001004,
+  "title": "Greek Breakfast Avgolemono Soup with Poached Eggs",
+  "image": "generated://dishcovery/9001004.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "Reimagined as a nourishing morning meal, this Greek <b>egg-lemon breakfast soup</b> offers silky comfort and bright citrus wake-up energy. Rich chicken stock is simmered with soft short-grain rice and fragrant oregano before being thickened with tempered egg yolks and lemon juice. Soft-boiled poached eggs rest in each bowl, releasing velvety yolk into the velvety citrus broth when broken. Crushed barley rusks add hearty whole-grain texture that softens pleasantly into the soup. Fresh dill, crumbled feta cheese, and cracked black pepper top each portion for layers of savory herbal contrast. Designed to start the day with warm vitality, this dish combines traditional Mediterranean citrus soup with breakfast elements like eggs and whole grains. Light yet deeply satisfying, it brings sunny Greek flavors to the breakfast table in a quick half-hour preparation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Sugar",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Protein",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 80
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 710,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 42,
+        "unit": "IU",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Folate",
+        "amount": 58,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "piece",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90001,
+      "amount": 4,
+      "unit": "piece",
+      "name": "whole eggs"
+    },
+    {
+      "id": 90002,
+      "amount": 80,
+      "unit": "ml",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90003,
+      "amount": 1000,
+      "unit": "ml",
+      "name": "chicken stock"
+    },
+    {
+      "id": 90004,
+      "amount": 100,
+      "unit": "g",
+      "name": "short-grain rice"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "piece",
+      "name": "barley rusks"
+    },
+    {
+      "id": 90006,
+      "amount": 60,
+      "unit": "g",
+      "name": "feta cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90008,
+      "amount": 5,
+      "unit": "g",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "piece",
+      "name": "small yellow onion"
+    },
+    {
+      "id": 90011,
+      "amount": 30,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90012,
+      "amount": 15,
+      "unit": "ml",
+      "name": "white vinegar"
+    },
+    {
+      "id": 90013,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90014,
+      "amount": 3,
+      "unit": "g",
+      "name": "cracked black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "strip",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90016,
+      "amount": 10,
+      "unit": "g",
+      "name": "flat-leaf parsley"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 15,
+      "unit": "g",
+      "name": "butter"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "piece",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90020,
+      "amount": 500,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90021,
+      "amount": 5,
+      "unit": "ml",
+      "name": "capers liquid"
+    },
+    {
+      "id": 90022,
+      "amount": 10,
+      "unit": "g",
+      "name": "capers"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "piece",
+      "name": "scallions"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sea salt flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Broth Infusion",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely dice yellow onion and garlic cloves on a clean plastic cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Heat olive oil and butter in a heavy soup pot over medium heat until melting."
+        },
+        {
+          "number": 3,
+          "step": "Sauté diced onions and garlic with dried oregano three minutes until soft."
+        },
+        {
+          "number": 4,
+          "step": "Pour chicken stock into pot and add whole lemon zest strip and bay leaf."
+        },
+        {
+          "number": 5,
+          "step": "Bring stock mixture to a boil over high heat then turn flame down to low."
+        },
+        {
+          "number": 6,
+          "step": "Rinse short-grain rice under cold water in a mesh strainer until water runs clear."
+        },
+        {
+          "number": 7,
+          "step": "Add rinsed short-grain rice into simmering chicken stock stirring gently once."
+        },
+        {
+          "number": 8,
+          "step": "Cover soup pot with lid and simmer fifteen minutes until rice is tender."
+        },
+        {
+          "number": 9,
+          "step": "Remove bay leaf and lemon zest strip from pot with slotted spoon and discard."
+        },
+        {
+          "number": 10,
+          "step": "Season simmering rice broth with half teaspoon sea salt and black pepper."
+        },
+        {
+          "number": 11,
+          "step": "Reduce heat under soup pot to absolute minimum to hold gentle low heat."
+        },
+        {
+          "number": 12,
+          "step": "Coarsely crush barley rusks into bite-sized pieces using hands over bowl."
+        },
+        {
+          "number": 13,
+          "step": "Chop fresh dill, parsley, and scallions finely on cutting board for garnish."
+        },
+        {
+          "number": 14,
+          "step": "Crumble feta cheese into small chunks in a glass ramekin bowl for topping."
+        }
+      ]
+    },
+    {
+      "name": "Egg and Lemon Tempering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Separate egg yolks from whites cleanly putting four yolks into a glass bowl."
+        },
+        {
+          "number": 2,
+          "step": "Pour fresh lemon juice into egg yolk bowl whisking vigorously until frothy."
+        },
+        {
+          "number": 3,
+          "step": "Ladle one cup of hot rice broth from pot slowly into whisked egg yolk mixture."
+        },
+        {
+          "number": 4,
+          "step": "Whisk egg yolks continuously while pouring hot broth to temper without curdling."
+        },
+        {
+          "number": 5,
+          "step": "Ladle a second cup of hot broth into egg mixture while whisking constantly."
+        },
+        {
+          "number": 6,
+          "step": "Pour tempered egg lemon liquid slowly back into main soup pot while stirring."
+        },
+        {
+          "number": 7,
+          "step": "Stir soup constantly over low heat for three minutes until silky smooth broth thickens."
+        },
+        {
+          "number": 8,
+          "step": "Do not allow soup to boil after adding eggs to keep silky smooth texture."
+        },
+        {
+          "number": 9,
+          "step": "Fill a separate shallow saucepan with water, white vinegar, and pinch of salt."
+        },
+        {
+          "number": 10,
+          "step": "Bring poaching water to bare simmer creating tiny bubbles along pan bottom."
+        },
+        {
+          "number": 11,
+          "step": "Crack whole eggs one at a time into small ramekin cups for easy sliding."
+        },
+        {
+          "number": 12,
+          "step": "Swirl poaching water to create whirlpool then slide eggs gently into center."
+        },
+        {
+          "number": 13,
+          "step": "Poach whole eggs three minutes until whites set but yolks remain soft inside."
+        },
+        {
+          "number": 14,
+          "step": "Lift poached eggs with slotted spoon onto paper towel lined plate carefully."
+        }
+      ]
+    },
+    {
+      "name": "Morning Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Divide crushed barley rusks evenly into four warm breakfast soup bowls."
+        },
+        {
+          "number": 2,
+          "step": "Ladle velvety lemon egg soup and cooked rice over barley rusks in each bowl."
+        },
+        {
+          "number": 3,
+          "step": "Gently place one poached egg right in center of each filled breakfast bowl."
+        },
+        {
+          "number": 4,
+          "step": "Scatter crumbled feta cheese around poached egg in each serving portion."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle chopped fresh dill, parsley, and sliced scallions across soup surface."
+        },
+        {
+          "number": 6,
+          "step": "Add capers and a dash of capers liquid to each bowl for bright salinity."
+        },
+        {
+          "number": 7,
+          "step": "Dust top with cracked black pepper and tiny pinch of cayenne pepper spice."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle extra virgin olive oil over soup surface for glossy rich finish."
+        },
+        {
+          "number": 9,
+          "step": "Finish each bowl with a light sprinkle of sea salt flakes over poached egg."
+        },
+        {
+          "number": 10,
+          "step": "Verify poached eggs are warm and soup consistency is rich and velvety cream."
+        },
+        {
+          "number": 11,
+          "step": "Serve immediately while steaming hot for an energizing Greek breakfast bowl."
+        },
+        {
+          "number": 12,
+          "step": "Instruct diners to break poached yolk into lemon broth before eating soup."
+        },
+        {
+          "number": 13,
+          "step": "Provide extra lemon wedges on side for guests wanting additional tart zip."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy this nourishing egg and lemon breakfast soup start to your morning."
+        }
+      ]
+    }
+  ]
+}

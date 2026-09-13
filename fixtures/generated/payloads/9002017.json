@@ -1,0 +1,852 @@
+{
+  "id": 9002017,
+  "title": "Weeknight French Chicken Quenelles with Tarragon Cream",
+  "image": "generated://dishcovery/9002017.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This rapid interpretation brings classic <b>French French culinary techniques</b> into the reach of home cooks on busy weekday evenings. Built around delicate <b>poached poultry dumplings</b>, the dish pairs airy texture with a velvet sauce enriched with fresh tarragon and light shallot reductions. Traditional quenelles often require hours of panada preparation and chilling, but this streamlined version uses chilled heavy cream and high-speed food processing to create a stable emulsion in under ten minutes. A simmering pan of salted broth gently cooks the formed shapes without breaking their structure, resulting in light pillows that absorb the fragrant emulsion. The accompanying sauce relies on pan drippings and fresh herbs reduced with white wine, delivering a sophisticated bistro flavor profile with minimal clean-up. Serve these dumplings over a bed of steamed leeks or simple buttered rice for a balanced supper that feels refined yet remarkably approachable for routine meal planning.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Choline",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "boneless chicken breast"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    },
+    {
+      "id": 90003,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "large",
+      "name": "egg whites"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "ml",
+      "name": "heavy whipping cream"
+    },
+    {
+      "id": 90006,
+      "amount": 30,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "minced shallots"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90009,
+      "amount": 500,
+      "unit": "ml",
+      "name": "low sodium chicken stock"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh tarragon leaves"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "sliced button mushrooms"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "crushed ice"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dijon mustard"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90025,
+      "amount": 50,
+      "unit": "ml",
+      "name": "crème fraîche"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery salt"
+    },
+    {
+      "id": 90027,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chilled water"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cold butter"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sugar"
+    },
+    {
+      "id": 90032,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "small",
+      "name": "leek sliced"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dry sherry"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "bread crumbs"
+    },
+    {
+      "id": 90036,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "milk"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "paprika"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "tarragon vinegar"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sliced chervil"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "poultry seasoning"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "canola oil"
+    },
+    {
+      "id": 90042,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "xanthan gum"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "crushed peppercorns"
+    },
+    {
+      "id": 90044,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water for poaching"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place the food processor bowl and metal blades inside the freezer for twenty minutes before starting."
+        },
+        {
+          "number": 2,
+          "step": "Dice the chilled chicken breasts into small uniform half inch cubes to facilitate smooth pureeing."
+        },
+        {
+          "number": 3,
+          "step": "Measure out the sea salt ground white pepper and nutmeg into a small prep bowl and mix thoroughly."
+        },
+        {
+          "number": 4,
+          "step": "Measure the heavy whipping cream and place it back in the refrigerator so it remains thoroughly cold."
+        },
+        {
+          "number": 5,
+          "step": "Separate the egg whites into a clean glass container making sure no yolk fragments remain inside."
+        },
+        {
+          "number": 6,
+          "step": "Slice the shallots finely and reserve them on a clean cutting board alongside the minced garlic cloves."
+        },
+        {
+          "number": 7,
+          "step": "Wash the fresh tarragon sprigs thoroughly under cold running water then pat them completely dry."
+        },
+        {
+          "number": 8,
+          "step": "Strip the tarragon leaves from the woody stems and chop them coarsely with a sharp chef knife."
+        },
+        {
+          "number": 9,
+          "step": "Clean the button mushrooms using a damp paper towel and slice them into thin even pieces."
+        },
+        {
+          "number": 10,
+          "step": "Trim the leek discard the dark green top leaves and slice the white portion into thin round rings."
+        },
+        {
+          "number": 11,
+          "step": "Prepare a wide shallow poacher pan on the stove and add the stock thyme sprigs and bay leaf."
+        },
+        {
+          "number": 12,
+          "step": "Set up a large bowl filled with ice water to rapidly cool any elements if temperature rises."
+        },
+        {
+          "number": 13,
+          "step": "Measure the white wine dijon mustard and lemon juice so they are ready for the pan sauce stage."
+        },
+        {
+          "number": 14,
+          "step": "Line a large rimmed baking sheet with parchment paper to hold the shaped raw chicken quenelles."
+        }
+      ]
+    },
+    {
+      "name": "Base Paste",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer the chilled diced chicken into the cold food processor bowl fitted with the metal blade."
+        },
+        {
+          "number": 2,
+          "step": "Add the sea salt white pepper and ground nutmeg directly over the raw chicken piece surface."
+        },
+        {
+          "number": 3,
+          "step": "Pulse the chicken mixture ten times using short bursts to break down the meat chunks evenly."
+        },
+        {
+          "number": 4,
+          "step": "Process continuously on high speed for thirty seconds until a smooth fine paste is formed."
+        },
+        {
+          "number": 5,
+          "step": "Scrape down the sides of the processor bowl using a flexible cold rubber spatula carefully."
+        },
+        {
+          "number": 6,
+          "step": "Pour in the first egg white while running the processor on medium speed until fully integrated."
+        },
+        {
+          "number": 7,
+          "step": "Add the second egg white and continue blending until the paste becomes glossy and uniform."
+        },
+        {
+          "number": 8,
+          "step": "Add the crushed ice into the mixture to keep the emulsion cold during high speed blending."
+        },
+        {
+          "number": 9,
+          "step": "Blend for another fifteen seconds ensuring the ice melts completely into the smooth poultry paste."
+        },
+        {
+          "number": 10,
+          "step": "Add the garlic powder onion powder and poultry seasoning into the running processor chamber."
+        },
+        {
+          "number": 11,
+          "step": "Check the temperature of the paste with an instant read thermometer to ensure it is below 40 degrees."
+        },
+        {
+          "number": 12,
+          "step": "Transfer the chicken paste into a stainless steel bowl and place it in the refrigerator for ten minutes."
+        },
+        {
+          "number": 13,
+          "step": "Clean the food processor lid and work surface quickly while the base paste chills in the fridge."
+        }
+      ]
+    },
+    {
+      "name": "Emulsification",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove the chilled chicken paste from the refrigerator and place the bowl on a damp kitchen towel."
+        },
+        {
+          "number": 2,
+          "step": "Pour fifty milliliters of cold heavy whipping cream into the chicken paste while stirring vigorously."
+        },
+        {
+          "number": 3,
+          "step": "Incorporate the cream completely using a firm whipping motion until no liquid pockets remain visible."
+        },
+        {
+          "number": 4,
+          "step": "Pour in another fifty milliliters of cold cream continuing to beat the mixture to build structure."
+        },
+        {
+          "number": 5,
+          "step": "Add the crème fraîche along with the cold water to adjust the softness of the dumpling dough."
+        },
+        {
+          "number": 6,
+          "step": "Whisk in the dijon mustard lemon zest and celery salt until evenly distributed throughout the batch."
+        },
+        {
+          "number": 7,
+          "step": "Fold in the fine bread crumbs and milk to absorb excess moisture and enhance overall binding power."
+        },
+        {
+          "number": 8,
+          "step": "Add the cornstarch and xanthan gum whisking firmly to ensure a stable emulsion during cooking."
+        },
+        {
+          "number": 9,
+          "step": "Test the consistency by scooping a small portion; it should hold a smooth oval shape on a spoon."
+        },
+        {
+          "number": 10,
+          "step": "If the mixture feels warm place the entire bowl into the prepared ice bath for five minutes."
+        },
+        {
+          "number": 11,
+          "step": "Fold half of the minced fresh tarragon into the paste using gentle upward strokes with a spatula."
+        },
+        {
+          "number": 12,
+          "step": "Cover the bowl tightly with plastic wrap pressing it directly onto the surface of the chicken paste."
+        },
+        {
+          "number": 13,
+          "step": "Rest the finished quenelle paste in the refrigerator for fifteen minutes to allow starches to hydrate."
+        }
+      ]
+    },
+    {
+      "name": "Shaping & Poaching",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring the poaching liquid containing chicken stock bay leaf and thyme to a very gentle bare simmer."
+        },
+        {
+          "number": 2,
+          "step": "Adjust the heat setting so the liquid remains between 170 and 180 degrees Fahrenheit constantly."
+        },
+        {
+          "number": 3,
+          "step": "Dip two large oval soup spoons into a cup of warm water to prevent the meat paste from sticking."
+        },
+        {
+          "number": 4,
+          "step": "Scoop a generous tablespoon of quenelle paste using the first spoon to create a smooth mounded shape."
+        },
+        {
+          "number": 5,
+          "step": "Use the second spoon to scrape against the first spoon shaping the mixture into a three-sided oval."
+        },
+        {
+          "number": 6,
+          "step": "Smooth the outer surface by rolling the paste gently back and forth between the two wet spoons."
+        },
+        {
+          "number": 7,
+          "step": "Gently slide the formed quenelle off the spoon into the barely simmering poaching broth carefully."
+        },
+        {
+          "number": 8,
+          "step": "Repeat the shaping process rapidly for the remaining paste placing dumplings into the pot in batches."
+        },
+        {
+          "number": 9,
+          "step": "Allow the quenelles to poach undisturbed for eight minutes as they expand and float to the surface."
+        },
+        {
+          "number": 10,
+          "step": "Turn each quenelle over gently using a slotted spoon to ensure uniform cooking on all sides."
+        },
+        {
+          "number": 11,
+          "step": "Poach for an additional two minutes until the internal temperature reaches 165 degrees Fahrenheit."
+        },
+        {
+          "number": 12,
+          "step": "Lift the cooked quenelles out of the liquid using a slotted spoon draining excess moisture well."
+        },
+        {
+          "number": 13,
+          "step": "Transfer the warm dumplings onto the parchment lined baking sheet and tent loosely with foil."
+        },
+        {
+          "number": 14,
+          "step": "Strain the poaching broth through a fine mesh sieve into a clean bowl and reserve for the sauce base."
+        }
+      ]
+    },
+    {
+      "name": "Sauce Reduction",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt thirty grams of unsalted butter in a wide saute pan over medium heat until it foams gently."
+        },
+        {
+          "number": 2,
+          "step": "Add the minced shallots sliced leeks and sliced button mushrooms into the melted butter in the pan."
+        },
+        {
+          "number": 3,
+          "step": "Saute the vegetable mixture for four minutes stirring frequently until soft and translucent."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle the all-purpose flour over the sauted vegetables and stir continuously for two minutes."
+        },
+        {
+          "number": 5,
+          "step": "Pour in the dry white wine and dry sherry stirring rapidly to dissolve flour lumps completely."
+        },
+        {
+          "number": 6,
+          "step": "Simmer the wine reduction for three minutes until the liquid volume is reduced by more than half."
+        },
+        {
+          "number": 7,
+          "step": "Pour two hundred milliliters of the reserved warm poaching broth into the pan while whisking."
+        },
+        {
+          "number": 8,
+          "step": "Bring the pan liquid to a simmer allowing the flour to thicken the sauce to a light coat consistency."
+        },
+        {
+          "number": 9,
+          "step": "Pour in the remaining heavy cream and stir until the sauce turns a uniform silky pale ivory color."
+        },
+        {
+          "number": 10,
+          "step": "Reduce the heat to low simmer gently for five minutes until the sauce coats the back of a spoon."
+        },
+        {
+          "number": 11,
+          "step": "Stir in the remaining chopped tarragon chives parsley and tarragon vinegar for brightness."
+        },
+        {
+          "number": 12,
+          "step": "Season the reduction sauce with black pepper cayenne pepper and a pinch of salt to balance taste."
+        },
+        {
+          "number": 13,
+          "step": "Whisk in the cold butter in small pieces off the heat to give the sauce a glossy finish."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Warm four wide shallow serving bowls in a low oven set to 150 degrees Fahrenheit for five minutes."
+        },
+        {
+          "number": 2,
+          "step": "Remove the warm bowls carefully and place them onto the assembly counter in a single neat row."
+        },
+        {
+          "number": 3,
+          "step": "Ladle a thin layer of the warm tarragon cream sauce over the bottom of each warmed bowl evenly."
+        },
+        {
+          "number": 4,
+          "step": "Arrange three poached chicken quenelles neatly in the center of each prepared serving bowl."
+        },
+        {
+          "number": 5,
+          "step": "Spoon additional rich tarragon cream sauce generously over the top of each poached quenelle."
+        },
+        {
+          "number": 6,
+          "step": "Garnish the top of each dumpling with a delicate dusting of sweet paprika and crushed peppercorns."
+        },
+        {
+          "number": 7,
+          "step": "Scatter chopped fresh chervil and chives around the perimeter of the warm cream sauce layer."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle a few drops of olive oil around the rim of the bowl to enhance the visual presentation."
+        },
+        {
+          "number": 9,
+          "step": "Check that each portion contains equal amounts of quenelles sauce and vegetable garnishes."
+        },
+        {
+          "number": 10,
+          "step": "Wipe the edges of each serving bowl with a clean damp cloth to remove any stray drips."
+        },
+        {
+          "number": 11,
+          "step": "Add a tiny pinch of lemon zest on top of each dumpling for a fresh citrus aroma note."
+        },
+        {
+          "number": 12,
+          "step": "Serve the quenelles immediately while hot alongside crusty bread or steamed spring vegetables."
+        },
+        {
+          "number": 13,
+          "step": "Ensure all remaining pan sauce is transferred to a sauce boat for extra serving at table."
+        }
+      ]
+    }
+  ]
+}

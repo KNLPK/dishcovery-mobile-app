@@ -1,0 +1,852 @@
+{
+  "id": 9002025,
+  "title": "Japanese Smoked Tofu and Mushroom Dashi Stew",
+  "image": "generated://dishcovery/9002025.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Imbued with profound umami and subtle campfire aromas, this <b>Japanese smoked tofu stew</b> marries deep culinary tradition with bold contemporary accents. Firm tofu is slow-smoked over beechwood chips, then simmered alongside fresh shiitake, beech, and maitake mushrooms in a rich sea kelp dashi broth. The addition of <b>smoked bonito flakes</b> and dark red hatcho miso creates a complex, savory broth that grounds the delicate sweetness of mirin and tender winter vegetables. Sliced lotus root and daikon radish absorb the smoky liquid while offering satisfying textural variety. A final finish of toasted sesame oil and finely shaved scallions brightens the stew right before serving. This soup demonstrates how plant-forward Japanese stewing techniques can build immense depth of flavor without heavy fats. Ideal as a warming main dish on cool evenings, it pairs beautifully with steamed short-grain rice, quick-pickled cucumbers, and warm green tea.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15.5
+      },
+      {
+        "name": "Fat",
+        "amount": 12.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 19.7
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.9,
+        "unit": "g",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.8
+      },
+      {
+        "name": "Sugar",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 9.4
+      },
+      {
+        "name": "Protein",
+        "amount": 21.6,
+        "unit": "g",
+        "percentOfDailyNeeds": 43.2
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 920,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Fiber",
+        "amount": 6.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 24.8
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 4.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.1
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 5.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9.4
+      },
+      {
+        "name": "Calcium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.3
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.3
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Iodine",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 93.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.8
+      },
+      {
+        "name": "Selenium",
+        "amount": 16.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55.6
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47.8
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "firm smoked tofu"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "fresh shiitake mushrooms"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "beech mushrooms shimeji"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "maitake mushrooms"
+    },
+    {
+      "id": 90004,
+      "amount": 15,
+      "unit": "g",
+      "name": "dried kombu kelp"
+    },
+    {
+      "id": 90005,
+      "amount": 20,
+      "unit": "g",
+      "name": "smoked bonito flakes"
+    },
+    {
+      "id": 90006,
+      "amount": 150,
+      "unit": "g",
+      "name": "sliced daikon radish"
+    },
+    {
+      "id": 90007,
+      "amount": 100,
+      "unit": "g",
+      "name": "peeled lotus root"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "g",
+      "name": "sliced carrots"
+    },
+    {
+      "id": 90009,
+      "amount": 60,
+      "unit": "g",
+      "name": "dark hatcho miso"
+    },
+    {
+      "id": 90010,
+      "amount": 30,
+      "unit": "ml",
+      "name": "japanese soy sauce tamari"
+    },
+    {
+      "id": 90011,
+      "amount": 30,
+      "unit": "ml",
+      "name": "mirin sweet rice wine"
+    },
+    {
+      "id": 90012,
+      "amount": 15,
+      "unit": "ml",
+      "name": "sake cooking wine"
+    },
+    {
+      "id": 90013,
+      "amount": 15,
+      "unit": "ml",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "stalks",
+      "name": "chopped green scallions"
+    },
+    {
+      "id": 90015,
+      "amount": 10,
+      "unit": "g",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90017,
+      "amount": 100,
+      "unit": "g",
+      "name": "tokyo leeks"
+    },
+    {
+      "id": 90018,
+      "amount": 200,
+      "unit": "g",
+      "name": "napa cabbage"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "pack",
+      "name": "shirataki konjac noodles"
+    },
+    {
+      "id": 90020,
+      "amount": 5,
+      "unit": "g",
+      "name": "shichimi togarashi pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "l",
+      "name": "filtered water"
+    },
+    {
+      "id": 90022,
+      "amount": 10,
+      "unit": "g",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90023,
+      "amount": 5,
+      "unit": "g",
+      "name": "dried wakame seaweed"
+    },
+    {
+      "id": 90024,
+      "amount": 15,
+      "unit": "ml",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90025,
+      "amount": 50,
+      "unit": "g",
+      "name": "snow peas"
+    },
+    {
+      "id": 90026,
+      "amount": 50,
+      "unit": "g",
+      "name": "bamboo shoots"
+    },
+    {
+      "id": 90027,
+      "amount": 2,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90028,
+      "amount": 5,
+      "unit": "g",
+      "name": "sansho pepper powder"
+    },
+    {
+      "id": 90029,
+      "amount": 10,
+      "unit": "g",
+      "name": "miso paste white"
+    },
+    {
+      "id": 90030,
+      "amount": 15,
+      "unit": "ml",
+      "name": "chili sesame oil"
+    },
+    {
+      "id": 90031,
+      "amount": 30,
+      "unit": "g",
+      "name": "enoki mushrooms"
+    },
+    {
+      "id": 90032,
+      "amount": 50,
+      "unit": "g",
+      "name": "sliced king oyster mushroom"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "sheet",
+      "name": "nori seaweed strips"
+    },
+    {
+      "id": 90034,
+      "amount": 10,
+      "unit": "g",
+      "name": "katsuobushi flakes"
+    },
+    {
+      "id": 90035,
+      "amount": 5,
+      "unit": "g",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "g",
+      "name": "mustard microgreens"
+    },
+    {
+      "id": 90037,
+      "amount": 10,
+      "unit": "ml",
+      "name": "yuzu juice"
+    },
+    {
+      "id": 90038,
+      "amount": 2,
+      "unit": "g",
+      "name": "poppy seeds"
+    },
+    {
+      "id": 90039,
+      "amount": 50,
+      "unit": "g",
+      "name": "cubed fried tofu puffs"
+    },
+    {
+      "id": 90040,
+      "amount": 15,
+      "unit": "ml",
+      "name": "canola oil"
+    },
+    {
+      "id": 90041,
+      "amount": 2,
+      "unit": "g",
+      "name": "white pepper powder"
+    },
+    {
+      "id": 90042,
+      "amount": 5,
+      "unit": "g",
+      "name": "dextrose starch syrup"
+    },
+    {
+      "id": 90043,
+      "amount": 10,
+      "unit": "g",
+      "name": "chopped mitsuba parsley"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "g",
+      "name": "hemp seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dashi Broth Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wipe dried kombu kelp gently with a damp cloth to clean surface dust without removing white umami salt."
+        },
+        {
+          "number": 2,
+          "step": "Place kombu kelp into a pot filled with one liter of cold filtered water and soak for twenty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Set pot over medium-low heat and bring water slowly toward a simmer over ten minutes duration."
+        },
+        {
+          "number": 4,
+          "step": "Remove kombu kelp right before water reaches a boil to prevent bitter slimy textures in dashi broth."
+        },
+        {
+          "number": 5,
+          "step": "Add smoked bonito flakes into pot and turn off heat immediately to let steep for five minutes."
+        },
+        {
+          "number": 6,
+          "step": "Strain dashi broth through a fine mesh sieve into a clean pitcher, discarding spent bonito flakes."
+        },
+        {
+          "number": 7,
+          "step": "Pour clear smoky dashi stock back into main cooking pot over low stove heat."
+        },
+        {
+          "number": 8,
+          "step": "Add dried wakame seaweed into warm dashi broth to rehydrate gently for three minutes."
+        },
+        {
+          "number": 9,
+          "step": "Stir sake cooking wine, mirin sweet rice wine, and Japanese tamari soy sauce into dashi."
+        },
+        {
+          "number": 10,
+          "step": "Taste dashi broth base to ensure clear oceanic umami aroma with light smoky essence background."
+        },
+        {
+          "number": 11,
+          "step": "Keep dashi broth at a bare whisper of a simmer while preparing mushrooms and root vegetables."
+        },
+        {
+          "number": 12,
+          "step": "Verify dashi liquid is crystal clear with a golden amber hue before adding fresh vegetables."
+        },
+        {
+          "number": 13,
+          "step": "Add grated fresh ginger and minced garlic to dashi to introduce warm aromatic top notes."
+        },
+        {
+          "number": 14,
+          "step": "Cover pot with lid to retain delicate aromatic steam until vegetable simmering stage begins."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable and Mushroom Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Clean fresh shiitake mushrooms with damp paper towel, remove stems, and score caps with decorative cross."
+        },
+        {
+          "number": 2,
+          "step": "Trim bases of beech mushrooms shimeji and maitake mushrooms, pulling clusters into bite-sized pieces."
+        },
+        {
+          "number": 3,
+          "step": "Slice king oyster mushrooms into half-inch thick rounds and chop enoki mushrooms at root base."
+        },
+        {
+          "number": 4,
+          "step": "Peel daikon radish and slice into quarter-inch thick half-moon shapes for fast uniform cooking."
+        },
+        {
+          "number": 5,
+          "step": "Peel lotus root and slice into thin flower-patterned discs, soaking in water with splash of rice vinegar."
+        },
+        {
+          "number": 6,
+          "step": "Peel carrots and slice diagonally into thin decorative matchsticks or flower coin cut shapes."
+        },
+        {
+          "number": 7,
+          "step": "Cut napa cabbage crosswise into broad two-inch wide ribbons, separating thick white stalks from leaves."
+        },
+        {
+          "number": 8,
+          "step": "Trim Tokyo leeks and slice diagonally into half-inch long pieces for savory stewing base."
+        },
+        {
+          "number": 9,
+          "step": "Drain shirataki konjac noodles, rinse thoroughly under cold tap water, and cut into shorter lengths."
+        },
+        {
+          "number": 10,
+          "step": "Blanch shirataki noodles in boiling water for one minute to remove excess liquid, then drain well."
+        },
+        {
+          "number": 11,
+          "step": "Trim snow peas, cut bamboo shoots into matchsticks, and place all prepared vegetables on wide tray."
+        },
+        {
+          "number": 12,
+          "step": "Slice firm smoked tofu into neat one-inch rectangular cubes, blotting excess moisture with towel."
+        },
+        {
+          "number": 13,
+          "step": "Cut fried tofu puffs in half diagonally to expose porous inner texture for absorbing dashi broth."
+        },
+        {
+          "number": 14,
+          "step": "Organize all cut ingredients by cooking time so items enter simmering dashi broth in proper order."
+        }
+      ]
+    },
+    {
+      "name": "Stew Base Construction",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat canola oil in a shallow skillet and sear smoked tofu cubes for two minutes per side until golden."
+        },
+        {
+          "number": 2,
+          "step": "Transfer seared smoked tofu cubes to a plate lined with paper towels to drain excess skillet oil."
+        },
+        {
+          "number": 3,
+          "step": "Bring the dashi broth pot back up to a gentle simmer over medium burner heat setting."
+        },
+        {
+          "number": 4,
+          "step": "Add sliced daikon radish, lotus root discs, and carrot coins into simmering smoky dashi broth."
+        },
+        {
+          "number": 5,
+          "step": "Simmer root vegetables uncovered for eight minutes until daikon turns translucent and tender."
+        },
+        {
+          "number": 6,
+          "step": "Add thick white napa cabbage stalks, sliced Tokyo leeks, and bamboo shoots into stew pot."
+        },
+        {
+          "number": 7,
+          "step": "Cook cabbage stalks and leeks for four minutes until softened and thoroughly submerged in broth."
+        },
+        {
+          "number": 8,
+          "step": "Add prepared shiitake caps, beech mushrooms, maitake clusters, and king oyster mushroom slices."
+        },
+        {
+          "number": 9,
+          "step": "Simmer mushroom assortment in broth for five minutes until mushrooms shrink slightly and yield juice."
+        },
+        {
+          "number": 10,
+          "step": "Stir in blanched shirataki konjac noodles, distribution noodles evenly among simmering vegetables."
+        },
+        {
+          "number": 11,
+          "step": "Add seared smoked tofu cubes and fried tofu puffs gently into stewing pot surface layer."
+        },
+        {
+          "number": 12,
+          "step": "Ensure tofu cubes submerge halfway so they soak up dashi broth without breaking structural shape."
+        },
+        {
+          "number": 13,
+          "step": "Toss in green napa cabbage leaves and snow peas during final two minutes of vegetable simmer."
+        },
+        {
+          "number": 14,
+          "step": "Verify all root vegetables, mushrooms, and tofu elements are tender and piping hot throughout pot."
+        }
+      ]
+    },
+    {
+      "name": "Miso Seasoning and Emulsification",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle one cup of hot dashi broth from stew pot into a small heatproof mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add dark hatcho miso and white miso paste into bowl with hot dashi broth sample."
+        },
+        {
+          "number": 3,
+          "step": "Whisk miso pastes continuously into broth until completely dissolved into a smooth liquid paste."
+        },
+        {
+          "number": 4,
+          "step": "Turn off burner heat under main stew pot to prevent boiling after miso integration phase."
+        },
+        {
+          "number": 5,
+          "step": "Pour dissolved miso mixture slowly back into stew pot, stirring liquid with gentle motion."
+        },
+        {
+          "number": 6,
+          "step": "Whisking miso into hot liquid off heat preserves delicate fermented enzymes and subtle aromatic notes."
+        },
+        {
+          "number": 7,
+          "step": "Add brown sugar, white pepper powder, and sea salt to fine-tune final flavor harmony."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle toasted sesame oil and chili sesame oil over surface of stew for rich sheen."
+        },
+        {
+          "number": 9,
+          "step": "Stir in fresh yuzu juice to introduce a tiny splash of bright Japanese citrus aroma."
+        },
+        {
+          "number": 10,
+          "step": "Add enoki mushrooms on top of hot stew right after turning off burner heat completely."
+        },
+        {
+          "number": 11,
+          "step": "Cover pot with lid for two minutes so residual steam wilt delicate enoki mushroom tops gently."
+        },
+        {
+          "number": 12,
+          "step": "Taste broth and check for balanced earthiness, sea kelp salinity, and soft wood smoke depth."
+        },
+        {
+          "number": 13,
+          "step": "Adjust seasoning with an extra splash of tamari soy sauce if deeper umami tone is preferred."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Table Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle hot dashi broth generously into four wide Japanese ceramic soup bowls with matching spoons."
+        },
+        {
+          "number": 2,
+          "step": "Arrange smoked tofu cubes, mushroom clusters, daikon, and lotus root decoratively in each bowl."
+        },
+        {
+          "number": 3,
+          "step": "Top each bowl with enoki mushrooms, tender napa cabbage leaves, and glossy shirataki noodles."
+        },
+        {
+          "number": 4,
+          "step": "Scatter finely sliced green scallions and chopped mitsuba parsley across top of filled bowls."
+        },
+        {
+          "number": 5,
+          "step": "Sprinkle toasted white sesame seeds, hemp seeds, and poppy seeds over tofu pieces for crunch."
+        },
+        {
+          "number": 6,
+          "step": "Dust shichimi togarashi seven-spice pepper and sansho pepper powder lightly over vegetable tops."
+        },
+        {
+          "number": 7,
+          "step": "Garnish each bowl with thin nori seaweed strips and delicate green mustard microgreens for color."
+        },
+        {
+          "number": 8,
+          "step": "Add extra pinch of katsuobushi flakes on top right before serving to watch them dance in steam."
+        },
+        {
+          "number": 9,
+          "step": "Serve immediately while steaming hot alongside bowls of short-grain rice and warm green tea."
+        },
+        {
+          "number": 10,
+          "step": "Provide small side dishes of pickled daikon or plum pickles to cleanse palate between bites."
+        },
+        {
+          "number": 11,
+          "step": "Store leftover stew in airtight container in refrigerator for up to two days maximum."
+        },
+        {
+          "number": 12,
+          "step": "Reheat leftover stew over gentle low heat on stovetop without bringing to high rolling boil."
+        },
+        {
+          "number": 13,
+          "step": "Wipe outer bowl edges with damp warm towel before presenting meal to dining table guests."
+        }
+      ]
+    },
+    {
+      "name": "Culinary Cleanup and Storage",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Allow leftover stew to cool completely to room temperature before covering for refrigerator storage."
+        },
+        {
+          "number": 2,
+          "step": "Keep extra tofu and mushroom elements submerged in remaining miso dashi broth during storage."
+        },
+        {
+          "number": 3,
+          "step": "Clean dashi steeping pot and strainer with warm water and soft sponge without harsh soap scrubbers."
+        },
+        {
+          "number": 4,
+          "step": "Store extra dried kombu kelp and katsuobushi flakes in cool dry pantry away from moisture."
+        },
+        {
+          "number": 5,
+          "step": "Reheat remaining stew portions within two days to enjoy peak mushroom texture and smoke notes."
+        },
+        {
+          "number": 6,
+          "step": "Add fresh scallions and sesame oil when serving reheated leftovers to restore bright freshly made taste."
+        },
+        {
+          "number": 7,
+          "step": "Enjoy light, wholesome, and deeply satisfying Japanese smoked tofu stew packed with natural umami."
+        },
+        {
+          "number": 8,
+          "step": "Confirm all leftover containers are tightly sealed to prevent wood smoke aromas from permeating fridge."
+        },
+        {
+          "number": 9,
+          "step": "Discard any leftover soup left at room temperature for over four hours to ensure food safety."
+        },
+        {
+          "number": 10,
+          "step": "Celebrate subtle Japanese stewing techniques that transform humble ingredients into elegant comfort meal."
+        },
+        {
+          "number": 11,
+          "step": "Pair future batches with alternative seasonal mushrooms like chanterelles or oyster varieties."
+        },
+        {
+          "number": 12,
+          "step": "Verify diners appreciate harmony between woody smoke, rich sea kelp, and sweet fermented miso."
+        }
+      ]
+    }
+  ]
+}

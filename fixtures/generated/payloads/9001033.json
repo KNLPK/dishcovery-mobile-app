@@ -1,0 +1,553 @@
+{
+  "id": 9001033,
+  "title": "Quick Parisienne Gnocchi in Chive Butter",
+  "image": "generated://dishcovery/9001033.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Designed for busy weeknights, this French <b>Parisienne gnocchi</b> offers effortless bistro-style elegance in thirty-five minutes. Built around light <b>choux pastry dumplings</b> poached briefly in salted water, this version skips potato mashing entirely. The poached dumplings are pan-seared in rich brown butter with fresh chives, garlic, and Dijon mustard until light and crispy on the outside. Warm, pillowy centers contrast delightfully with golden pan-fried surfaces. This weeknight meal delivers classic French panache using standard pantry ingredients. High in protein from eggs and Gruyère cheese, it satisfies hunger while maintaining a refined profile. Piping choux dough directly into simmering water makes preparation remarkably quick and mess-free. Finish with freshly grated Parmesan and lemon zest for a bright, aromatic dish that feels like dining at a cozy Parisian bistro.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 80
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Sugar",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 890,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 22,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Folate",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Biotin",
+        "amount": 7.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Iodine",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Magnesium",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Copper",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Potassium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90001,
+      "amount": 80,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90003,
+      "amount": 140,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "Dijon mustard"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "pcs",
+      "name": "large eggs"
+    },
+    {
+      "id": 90006,
+      "amount": 80,
+      "unit": "g",
+      "name": "shredded Gruyere cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 40,
+      "unit": "g",
+      "name": "grated Parmesan cheese"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh chives"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "shallot"
+    },
+    {
+      "id": 90020,
+      "amount": 50,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "crème fraiche"
+    },
+    {
+      "id": 90024,
+      "amount": 100,
+      "unit": "g",
+      "name": "peas"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Choux Pastry Dough Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine water, half of unsalted butter, and sea salt in a medium saucepan over medium-high heat."
+        },
+        {
+          "number": 2,
+          "step": "Bring water butter mixture to a rapid boil, ensuring butter melts completely into liquid."
+        },
+        {
+          "number": 3,
+          "step": "Remove pot from heat source and add all-purpose flour all at once into hot liquid."
+        },
+        {
+          "number": 4,
+          "step": "Stir mixture vigorously using a wooden spoon until flour absorbs water and forms ball."
+        },
+        {
+          "number": 5,
+          "step": "Return pot to medium heat and cook dough for two minutes while stirring to dry out paste."
+        },
+        {
+          "number": 6,
+          "step": "Transfer hot dough paste into a cool glass mixing bowl and spread slightly to cool down."
+        },
+        {
+          "number": 7,
+          "step": "Allow dough paste to cool for four minutes so added eggs do not scramble prematurely."
+        },
+        {
+          "number": 8,
+          "step": "Add Dijon mustard, ground nutmeg, and ground white pepper into cooled dough paste."
+        },
+        {
+          "number": 9,
+          "step": "Add first egg to dough and beat vigorously with wooden spoon until fully incorporated."
+        },
+        {
+          "number": 10,
+          "step": "Add second egg, beating thoroughly until dough paste turns smooth and glossy in bowl."
+        },
+        {
+          "number": 11,
+          "step": "Add third egg and continue beating until dough reaches soft shiny dropping consistency."
+        },
+        {
+          "number": 12,
+          "step": "Fold shredded Gruyere cheese and half of grated Parmesan cheese into choux paste."
+        },
+        {
+          "number": 13,
+          "step": "Spoon finished choux dough paste into a heavy pastry piping bag fitted with half-inch round tip."
+        },
+        {
+          "number": 14,
+          "step": "Set filled piping bag aside on counter while bringing poaching water pot to a gentle simmer."
+        }
+      ]
+    },
+    {
+      "name": "Poaching Dumplings",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fill a wide shallow stockpot with four quarts of water and add one tablespoon sea salt."
+        },
+        {
+          "number": 2,
+          "step": "Heat water until it reaches a gentle simmer with small bubbles breaking surface slowly."
+        },
+        {
+          "number": 3,
+          "step": "Hold piping bag over simmering pot and squeeze out three-quarter inch lengths of dough."
+        },
+        {
+          "number": 4,
+          "step": "Cut dough lengths cleanly using small sharp paring knife so dumplings drop into water."
+        },
+        {
+          "number": 5,
+          "step": "Poach gnocchi dumplings in batches of twenty to avoid overcrowding simmering pot."
+        },
+        {
+          "number": 6,
+          "step": "Cook gnocchi for three minutes after they float to surface to ensure dough cooks inside."
+        },
+        {
+          "number": 7,
+          "step": "Remove floating poached dumplings gently using a slotted spider spoon from hot water."
+        },
+        {
+          "number": 8,
+          "step": "Transfer dumplings onto a parchment-lined baking sheet greased lightly with olive oil."
+        },
+        {
+          "number": 9,
+          "step": "Repeat piping and poaching process with remaining choux dough paste in piping bag."
+        },
+        {
+          "number": 10,
+          "step": "Allow poached gnocchi to air-dry on parchment paper for five minutes before pan frying."
+        },
+        {
+          "number": 11,
+          "step": "Finely mince shallot, garlic cloves, fresh chives, and fresh flat-leaf parsley leaves."
+        },
+        {
+          "number": 12,
+          "step": "Zest one fresh lemon fine using a microplane, reserving lemon for fresh juice later."
+        },
+        {
+          "number": 13,
+          "step": "Measure out remaining unsalted butter, white wine, heavy cream, and capers onto counter."
+        },
+        {
+          "number": 14,
+          "step": "Check that poached gnocchi dumplings have cooled slightly and hold shape firmly."
+        }
+      ]
+    },
+    {
+      "name": "Pan Frying and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat olive oil and one tablespoon butter in a wide skillet over medium-high heat."
+        },
+        {
+          "number": 2,
+          "step": "Place half of poached gnocchi into hot skillet in a single layer without crowding."
+        },
+        {
+          "number": 3,
+          "step": "Sear gnocchi undisturbed for three minutes until bottom surfaces turn crisp and golden."
+        },
+        {
+          "number": 4,
+          "step": "Shake pan and turn dumplings, searing second side for another two minutes until crisp."
+        },
+        {
+          "number": 5,
+          "step": "Transfer golden gnocchi onto warm serving plate and sear remaining batch similarly."
+        },
+        {
+          "number": 6,
+          "step": "Melt remaining butter in empty skillet over medium heat until foam subsides completely."
+        },
+        {
+          "number": 7,
+          "step": "Add minced shallot and garlic, cooking for two minutes until soft and fragrant in pan."
+        },
+        {
+          "number": 8,
+          "step": "Pour dry white wine into skillet, scraping bottom, and simmer for two minutes to reduce."
+        },
+        {
+          "number": 9,
+          "step": "Stir in heavy cream, crème fraiche, capers, peas, and baby spinach into pan sauce."
+        },
+        {
+          "number": 10,
+          "step": "Return all golden gnocchi to skillet, tossing gently to coat in warm chive butter sauce."
+        },
+        {
+          "number": 11,
+          "step": "Stir in fresh lemon juice, lemon zest, red pepper flakes, and fresh minced chives."
+        },
+        {
+          "number": 12,
+          "step": "Divide warm gnocchi and pan sauce evenly among four warm shallow pasta dishes."
+        },
+        {
+          "number": 13,
+          "step": "Garnish top of each bowl with remaining Parmesan cheese, black pepper, and parsley."
+        },
+        {
+          "number": 14,
+          "step": "Serve immediately while gnocchi dumplings remain crispy on outside and soft inside."
+        }
+      ]
+    }
+  ]
+}

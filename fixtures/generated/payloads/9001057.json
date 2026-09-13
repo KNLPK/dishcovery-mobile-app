@@ -1,0 +1,552 @@
+{
+  "id": 9001057,
+  "title": "Fermented Rice Noodle Bowl with Indian Spiced Tempering",
+  "image": "generated://dishcovery/9001057.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This inventive <b>Indian noodle bowl</b> features fermented rice noodles tossed in a fragrant, mustard seed tempered oil with fresh curry leaves and earthy turmeric. The soft fermented noodles lend a signature pleasant tang that balances beautifully against spicy roasted chili pastes and crunchy toasted lentils. Paired with colorful blanched vegetables, ground roasted peanuts, and vibrant herbs, this dish offers a wonderful interplay of warm spices and probiotic depth. It transforms familiar South Indian breakfast flavors into a satisfying, contemporary main course bowl. Simple to assemble once the noodles are steamed, this recipe emphasizes quick stir-tempering técnicas while retaining fresh raw contrast from shredded carrots and radish. Enjoying this comforting yet energetic dish delivers high nutritional value along with gut-friendly fermented elements. The complex aroma of sizzling curry leaves and asafoetida provides an instant appetizer sensory experience before the first bite, making it an impressive choice for weekday suppers or weekend lunches alike.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Calcium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Chromium",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 12,
+      "unit": "oz",
+      "name": "fermented rice noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown mustard seeds"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "urad dal"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chana dal"
+    },
+    {
+      "id": 90005,
+      "amount": 15,
+      "unit": "fresh",
+      "name": "curry leaves"
+    },
+    {
+      "id": 90006,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "asafoetida"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "green",
+      "name": "chili peppers"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shredded cabbage"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "green peas"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated coconut"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "red chili powder"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ginger paste"
+    },
+    {
+      "id": 90020,
+      "amount": 4,
+      "unit": "radishes",
+      "name": "red radishes"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced cucumber"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mint leaves"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Steaming Noodles",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring four cups of lightly salted water to a gentle boil inside a large deep pot over medium-high heat."
+        },
+        {
+          "number": 2,
+          "step": "Gently place the fresh fermented rice noodles into the boiling water to cook for about three minutes."
+        },
+        {
+          "number": 3,
+          "step": "Stir the noodles lightly with wooden chopsticks to prevent any strands from sticking together while boiling."
+        },
+        {
+          "number": 4,
+          "step": "Drain the cooked noodles immediately into a fine-mesh colander set over the sink to remove excess water."
+        },
+        {
+          "number": 5,
+          "step": "Rinse the drained noodles under cool running water briefly to stop cooking and wash away extra starch."
+        },
+        {
+          "number": 6,
+          "step": "Toss the rice noodles gently with half a teaspoon of sesame oil to keep individual strands loose and separate."
+        },
+        {
+          "number": 7,
+          "step": "Spread the oiled noodles out on a parchment-lined baking sheet to cool down to room temperature completely."
+        },
+        {
+          "number": 8,
+          "step": "Finely shred the fresh carrot, red radishes, and cabbage into uniform thin matchsticks using a sharp knife."
+        },
+        {
+          "number": 9,
+          "step": "Dice the crisp cucumber into small neat cubes and set aside in a bowl with chopped fresh mint leaves."
+        },
+        {
+          "number": 10,
+          "step": "Slit the green chili peppers lengthwise while leaving seeds intact if mild heat is preferred for dinner."
+        },
+        {
+          "number": 11,
+          "step": "Coarsely crush the roasted peanuts using a mortar and pestle to create crunchy textured garnish pieces."
+        },
+        {
+          "number": 12,
+          "step": "Measure out the mustard seeds, urad dal, chana dal, cumin seeds, and curry leaves into individual small cups."
+        },
+        {
+          "number": 13,
+          "step": "Steam the green peas in a microwave-safe container with two tablespoons of water for ninety seconds until tender."
+        },
+        {
+          "number": 14,
+          "step": "Combine fresh lemon juice, ground turmeric, red chili powder, and salt in a cup to form a smooth paste base."
+        },
+        {
+          "number": 15,
+          "step": "Grate fresh coconut meat finely using a box grater and set aside for the final bowl topping assembly."
+        },
+        {
+          "number": 16,
+          "step": "Chop fresh cilantro sprigs including tender stems to yield one-quarter cup of bright aromatic garnish."
+        },
+        {
+          "number": 17,
+          "step": "Inspect the fermented rice noodles once more to ensure they remain moist, elastic, and free of clumps."
+        },
+        {
+          "number": 18,
+          "step": "Prepare four wide ceramic serving bowls by wiping them clean and arranging them along your workstation."
+        },
+        {
+          "number": 19,
+          "step": "Mix ginger paste with a tablespoon of warm water to create a thin slurry for easy pan distribution."
+        },
+        {
+          "number": 20,
+          "step": "Set a large heavy skillet or Indian wok on the stove burner ready for high-heat oil tempering action."
+        },
+        {
+          "number": 21,
+          "step": "Confirm all measured spices, fresh vegetables, and cooked rice noodles sit within arm's reach of the cook."
+        },
+        {
+          "number": 22,
+          "step": "Organize your cooking space neatly so the fast pan tempering phase proceeds without any unexpected delay."
+        }
+      ]
+    },
+    {
+      "name": "Tempering and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat the remaining sesame oil and ghee in the large wok over medium heat until sparkling hot and shimmery."
+        },
+        {
+          "number": 2,
+          "step": "Add brown mustard seeds to the hot oil and allow them to sizzle and pop loudly for fifteen seconds."
+        },
+        {
+          "number": 3,
+          "step": "Add urad dal and chana dal into the popping oil, stirring until they turn golden brown and nutty aromatic."
+        },
+        {
+          "number": 4,
+          "step": "Toss in the cumin seeds, slit green chilies, and fresh curry leaves, allowing them to crackle for ten seconds."
+        },
+        {
+          "number": 5,
+          "step": "Pinch the asafoetida into the sizzling spice mixture followed immediately by the prepared ginger slurry."
+        },
+        {
+          "number": 6,
+          "step": "Stir in the turmeric spice paste thoroughly to infuse the hot oil with bright yellow color and warmth."
+        },
+        {
+          "number": 7,
+          "step": "Add the shredded cabbage and carrots to the wok, stir-frying rapidly for two minutes until crisp-tender."
+        },
+        {
+          "number": 8,
+          "step": "Fold the steamed green peas and ground coriander powder into the pan, tossing constantly over medium heat."
+        },
+        {
+          "number": 9,
+          "step": "Transfer the cooled fermented rice noodles into the fragrant wok mixture in two gradual separate additions."
+        },
+        {
+          "number": 10,
+          "step": "Toss the noodles gently using two wooden spoons so the yellow spice mixture coats every strand evenly."
+        },
+        {
+          "number": 11,
+          "step": "Season the hot noodle mixture with salt while continuing to toss over low heat for two full minutes."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle fresh lemon juice across the warm noodles and toss once more to activate the fermented flavor notes."
+        },
+        {
+          "number": 13,
+          "step": "Remove the wok from heat source completely to prevent overcooking the delicate fermented rice noodles."
+        },
+        {
+          "number": 14,
+          "step": "Divide the hot seasoned noodles evenly among the four prepared ceramic serving bowls using cooking tongs."
+        },
+        {
+          "number": 15,
+          "step": "Arrange the fresh diced cucumber and mint mixture neatly on top of one side of each noodle bowl."
+        },
+        {
+          "number": 16,
+          "step": "Nestle shredded red radish matchsticks alongside the cucumber to add vibrant red color and crisp texture."
+        },
+        {
+          "number": 17,
+          "step": "Sprinkle grated fresh coconut evenly over the center of each hot noodle bowl for rich creamy sweetness."
+        },
+        {
+          "number": 18,
+          "step": "Top each bowl with crushed roasted peanuts to provide a satisfying crunch that contrasts soft noodles."
+        },
+        {
+          "number": 19,
+          "step": "Garnish generously with chopped cilantro leaves across all four completed dish bowls just before serving."
+        },
+        {
+          "number": 20,
+          "step": "Serve immediately while warm, encouraging diners to toss ingredients together before eating each bite."
+        },
+        {
+          "number": 21,
+          "step": "Store remaining un-garnished tempered noodles in a sealed container in the refrigerator for up to two days."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "id": 9001059,
+  "title": "French Herb and Wild Mushroom Dumplings",
+  "image": "generated://dishcovery/9001059.jpg",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "summary": "These delicate <b>French mushroom dumplings</b> feature a finely chopped wild mushroom and shallot duxelles enclosed in a thin, silky herb-infused dough wrapper. Gentle poaching in a flavorful vegetable court-bouillon cooks the dumplings to tender perfection without compromising their elegant structural integrity. A final gloss of melted herb butter and a sprinkle of fresh chervil elevate this plant-based appetizer into a refined fine-dining experience. The earthiness of cremini, chanterelles, and shiitake mushrooms shines through every velvety bite. Completely vegetarian, this dish modernizes classical French bistro technique through delicate dumpling craft. Enjoying these poached parcels provides comforting richness alongside light herbal notes. The recipe highlights meticulous knife work, careful dough hydration, and gentle simmering to produce elegant results suitable for dinner parties or holiday starter courses. Pair with dry white wine like Sauvignon Blanc to accentuate subtle shallot and thyme aromas.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 560,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 780,
+        "unit": "IU",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 24,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 36,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iodine",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Chromium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90001,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "warm water"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90004,
+      "amount": 8,
+      "unit": "oz",
+      "name": "cremini mushrooms"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "oz",
+      "name": "shiitake mushrooms"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "oz",
+      "name": "chanterelle mushrooms"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "medium",
+      "name": "shallots"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh chervil"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "plant butter"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 4,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "medium",
+      "name": "leek"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "celery"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dijon mustard"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tarragon"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sift all-purpose flour and half teaspoon salt together into a large stainless mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Pour warm water and one tablespoon olive oil into flour while stirring with a fork."
+        },
+        {
+          "number": 3,
+          "step": "Knead dough on a lightly floured surface for eight minutes until elastic, firm, and smooth."
+        },
+        {
+          "number": 4,
+          "step": "Wrap dough ball tightly in plastic wrap and rest at room temperature for thirty minutes."
+        },
+        {
+          "number": 5,
+          "step": "Finely chop parsley, thyme, tarragon, and chervil leaves using a sharp chef's knife."
+        },
+        {
+          "number": 6,
+          "step": "Clean cremini, shiitake, and chanterelle mushrooms thoroughly with a dry paper towel."
+        },
+        {
+          "number": 7,
+          "step": "Finely mince cleaned mushrooms into tiny uniform pieces for smooth dumpling filling texture."
+        },
+        {
+          "number": 8,
+          "step": "Mince shallots, garlic, and leek white parts into delicate fine dice on cutting board."
+        },
+        {
+          "number": 9,
+          "step": "Heat remaining olive oil in skillet over medium heat until warm and shimmering gently."
+        },
+        {
+          "number": 10,
+          "step": "Sauté minced shallots, garlic, and leeks in skillet for four minutes until translucent."
+        }
+      ]
+    },
+    {
+      "name": "Filling Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add minced mushrooms to skillet, cooking for eight minutes until liquid evaporates completely."
+        },
+        {
+          "number": 2,
+          "step": "Deglaze pan with dry white wine, scraping up browned bits until liquid vanishes entirely."
+        },
+        {
+          "number": 3,
+          "step": "Stir in thyme, parsley, black pepper, nutmeg, Dijon mustard, and remaining salt evenly."
+        },
+        {
+          "number": 4,
+          "step": "Transfer mushroom duxelles filling to a shallow bowl and let cool down completely."
+        },
+        {
+          "number": 5,
+          "step": "Unwrap rested dumpling dough and divide into two equal portions using bench scraper."
+        },
+        {
+          "number": 6,
+          "step": "Roll one dough portion out on floured surface until one-sixteenth inch thin sheet forms."
+        },
+        {
+          "number": 7,
+          "step": "Cut round three-inch dough circles using a circular biscuit cutter press cleanly downward."
+        },
+        {
+          "number": 8,
+          "step": "Gather dough scraps, re-roll, and cut additional round wrapper circles until twenty-four form."
+        },
+        {
+          "number": 9,
+          "step": "Place one teaspoon mushroom filling into center of each cut round dough wrapper circle."
+        },
+        {
+          "number": 10,
+          "step": "Moisten outer wrapper rim edges lightly with water using a clean pastry brush tip."
+        }
+      ]
+    },
+    {
+      "name": "Dumpling Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fold dough wrapper over filling to create a half-moon shape while pressing air out."
+        },
+        {
+          "number": 2,
+          "step": "Pinch edges tightly together forming small decorative pleats along sealed semicircle rim."
+        },
+        {
+          "number": 3,
+          "step": "Arrange completed dumplings on a parchment-lined baking sheet dusted lightly with cornstarch."
+        },
+        {
+          "number": 4,
+          "step": "Repeat filling, folding, and crimping steps for all remaining prepared dumpling wrappers."
+        },
+        {
+          "number": 5,
+          "step": "Cover assembled dumplings with a damp towel while preparing simmering poaching broth pot."
+        },
+        {
+          "number": 6,
+          "step": "Combine vegetable broth, sliced carrot, celery, leek greens, and bay leaf in large pot."
+        },
+        {
+          "number": 7,
+          "step": "Bring vegetable court-bouillon to a boil then reduce heat to gentle steady simmer."
+        },
+        {
+          "number": 8,
+          "step": "Strain court-bouillon through fine sieve, discarding spent vegetables, returning broth to pot."
+        },
+        {
+          "number": 9,
+          "step": "Lower twelve dumplings carefully into simmering broth using a large slotted metal spoon."
+        },
+        {
+          "number": 10,
+          "step": "Poach dumplings gently for four minutes until they float smoothly to surface of broth."
+        }
+      ]
+    },
+    {
+      "name": "Poaching and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer poached dumplings to warm shallow serving bowl using slotted spoon gently."
+        },
+        {
+          "number": 2,
+          "step": "Poach remaining twelve dumplings in simmering broth for four minutes until fully cooked."
+        },
+        {
+          "number": 3,
+          "step": "Melt plant butter in small pan with minced tarragon, chervil, and lemon juice."
+        },
+        {
+          "number": 4,
+          "step": "Ladle one-quarter cup hot court-bouillon broth over dumplings in each serving bowl."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle melted herbal butter sauce evenly across dumplings in all four prepared bowls."
+        },
+        {
+          "number": 6,
+          "step": "Garnish with fresh chervil leaves and extra crack of black pepper right before serving."
+        },
+        {
+          "number": 7,
+          "step": "Serve immediately while steaming hot alongside crisp green salad and French bread."
+        },
+        {
+          "number": 8,
+          "step": "Store leftover uncooked dumplings frozen on parchment sheets inside sealed freezer bag."
+        },
+        {
+          "number": 9,
+          "step": "Poach frozen dumplings directly without thawing for six minutes until fully cooked."
+        },
+        {
+          "number": 10,
+          "step": "Enjoy tender earthy flavor profile of classic French mushroom poaching craftsmanship."
+        }
+      ]
+    }
+  ]
+}

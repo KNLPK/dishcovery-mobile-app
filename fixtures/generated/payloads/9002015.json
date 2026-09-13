@@ -1,0 +1,852 @@
+{
+  "id": 9002015,
+  "title": "Japanese Make-Ahead Barley and Edamame Grain Salad",
+  "image": "generated://dishcovery/9002015.jpg",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "summary": "This refreshing <b>Japanese grain salad</b> offers a sophisticated make-ahead meal perfect for busy schedules. Built on a hearty base of pressed barley and edamame, it incorporates crunchy cucumber ribbons, radishes, and toasted nori. A tangy sesame soy vinaigrette, enriched with rice vinegar, ginger, and miso, dresses the grains and marinates them beautifully over time. Packed with plant protein, clean textures, and savory umami, this salad actually improves as it rests in the refrigerator. Topped with toasted sesame seeds and microgreens, it serves as a complete light meal or a versatile side dish for Japanese-inspired spreads. The balance of nutty grains, crisp vegetables, and zesty dressing ensures every bite is crisp, satisfying, and nutritious. Because the grains hold their chew without turning soggy, this meal prep standout is ideal for weekday lunches, picnics, or outdoor gatherings.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 680,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Magnesium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Folate",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Saturated Fatty Acids",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 39,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "pressed pearl barley"
+    },
+    {
+      "id": 90001,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "shelled edamame"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "large",
+      "name": "english cucumber"
+    },
+    {
+      "id": 90003,
+      "amount": 6,
+      "unit": "medium",
+      "name": "red radishes"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "sheets",
+      "name": "toasted nori seaweed"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "low sodium soy sauce"
+    },
+    {
+      "id": 90007,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "unseasoned rice vinegar"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white miso paste"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh grated ginger"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted black sesame seeds"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "medium",
+      "name": "green onions"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shredded carrots"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "shichimi togarashi"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili oil"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pickled ginger"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "microgreens"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "yuzu juice"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced avocado"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced sugar snap peas"
+    },
+    {
+      "id": 90030,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped mint"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ponzu sauce"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "wasabi paste"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced celery"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sunflower seeds"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "hemp seeds"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90037,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "watercress"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh shiso"
+    },
+    {
+      "id": 90043,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "shelled pumpkin seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Cook Barley Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the pearl barley under cold running water in a fine mesh strainer until water runs clear."
+        },
+        {
+          "number": 2,
+          "step": "Transfer rinsed barley to a medium saucepan and add three and a half cups of cold water."
+        },
+        {
+          "number": 3,
+          "step": "Add sea salt to the water and bring the pot to a boiling point over high stove burner heat."
+        },
+        {
+          "number": 4,
+          "step": "Reduce heat to low, cover pot with lid, and simmer barley for twenty-five minutes until tender."
+        },
+        {
+          "number": 5,
+          "step": "Remove barley pot from heat source and let it stand covered for ten minutes to steam fully."
+        },
+        {
+          "number": 6,
+          "step": "Fluff cooked barley grains gently using a fork and spread onto a rimmed tray to cool quickly."
+        },
+        {
+          "number": 7,
+          "step": "Bring a small pot of water to boil and cook shelled edamame for three minutes until tender."
+        },
+        {
+          "number": 8,
+          "step": "Drain edamame in colander and plunge immediately into ice water to preserve bright green color."
+        },
+        {
+          "number": 9,
+          "step": "Drain edamame thoroughly on paper towels to remove all surface moisture prior to mixing."
+        },
+        {
+          "number": 10,
+          "step": "Slice English cucumber into thin half-moon rounds using a sharp knife on cutting board."
+        },
+        {
+          "number": 11,
+          "step": "Slice red radishes thinly into delicate discs to add crisp texture and peppery salad notes."
+        },
+        {
+          "number": 12,
+          "step": "Peel and matchstick cut daikon radish and carrots into fine uniform julienne strips."
+        },
+        {
+          "number": 13,
+          "step": "Thinly slice green onions diagonally and chop fresh cilantro and shiso leaves finely."
+        },
+        {
+          "number": 14,
+          "step": "Cut sugar snap peas on a bias into thin strips to add crunch to the grain salad mixture."
+        },
+        {
+          "number": 15,
+          "step": "Dice celery and fresh avocado into small uniform cubes for extra salad creaminess."
+        },
+        {
+          "number": 16,
+          "step": "Chop pickled ginger coarsely and reserve its soaking brine for dressing enhancement."
+        },
+        {
+          "number": 17,
+          "step": "Gather all prepared fresh vegetables together near your primary salad mixing bowl."
+        },
+        {
+          "number": 18,
+          "step": "Verify barley grains are completely cooled to room temperature before adding vegetables."
+        },
+        {
+          "number": 19,
+          "step": "Combine cooled barley and blanched edamame in a large glass salad prep bowl."
+        },
+        {
+          "number": 20,
+          "step": "Add cucumber, radishes, carrots, daikon, and snap peas into the barley grain bowl."
+        },
+        {
+          "number": 21,
+          "step": "Toss grains and vegetables gently with wooden spoons to mix components evenly throughout."
+        }
+      ]
+    },
+    {
+      "name": "Whisk Sesame Dressing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine white miso paste, low sodium soy sauce, and rice vinegar in a glass cup."
+        },
+        {
+          "number": 2,
+          "step": "Whisk in toasted sesame oil, vegetable oil, mirin, and fresh grated ginger until smooth."
+        },
+        {
+          "number": 3,
+          "step": "Add minced garlic, honey, lemon juice, yuzu juice, and ponzu sauce to dressing bowl."
+        },
+        {
+          "number": 4,
+          "step": "Stir in chili oil, wasabi paste, and pickled ginger brine to build complex umami flavor."
+        },
+        {
+          "number": 5,
+          "step": "Season dressing with garlic powder, onion powder, ground coriander, and black pepper."
+        },
+        {
+          "number": 6,
+          "step": "Whisk dressing emulsion vigorously until miso is completely incorporated and velvety."
+        },
+        {
+          "number": 7,
+          "step": "Taste sesame soy dressing and adjust sweetness with extra maple syrup if desired."
+        },
+        {
+          "number": 8,
+          "step": "Pour half of whisked sesame dressing over barley and vegetable mixture in salad bowl."
+        },
+        {
+          "number": 9,
+          "step": "Toss grain salad thoroughly until every ingredient is lightly coated with dressing."
+        },
+        {
+          "number": 10,
+          "step": "Cover salad bowl with plastic wrap and place in refrigerator to chill for thirty minutes."
+        },
+        {
+          "number": 11,
+          "step": "Allow grains to absorb dressing flavors while resting in refrigerator prior to serving."
+        },
+        {
+          "number": 12,
+          "step": "Toast white sesame seeds, black sesame seeds, sunflower seeds, and pumpkin seeds in pan."
+        },
+        {
+          "number": 13,
+          "step": "Heat seed mixture over low flame for three minutes until fragrant and golden brown."
+        },
+        {
+          "number": 14,
+          "step": "Transfer toasted seeds to a small plate to cool completely before topping grain salad."
+        },
+        {
+          "number": 15,
+          "step": "Snip toasted nori seaweed sheets into thin delicate ribbons using sharp kitchen shears."
+        },
+        {
+          "number": 16,
+          "step": "Wash microgreens and watercress gently in cold water and dry thoroughly in spinner."
+        },
+        {
+          "number": 17,
+          "step": "Keep toasted seed mix, nori ribbons, and microgreens separate for make-ahead assembly."
+        },
+        {
+          "number": 18,
+          "step": "Check barley salad after thirty minutes chilling time to verify flavor absorption."
+        },
+        {
+          "number": 19,
+          "step": "Add remaining dressing to chilled grain salad if extra moisture is needed before serving."
+        },
+        {
+          "number": 20,
+          "step": "Fold diced avocado, fresh cilantro, chopped mint, and green onions gently into chilled salad."
+        },
+        {
+          "number": 21,
+          "step": "Verify salad flavor balance and adjust seasoning with extra sea salt or rice vinegar."
+        }
+      ]
+    },
+    {
+      "name": "Combine Salad",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Scoop make-ahead barley edamame salad into individual lunch containers or serving bowl."
+        },
+        {
+          "number": 2,
+          "step": "Top salad portions generously with toasted seeds, hemp seeds, and crispy nori ribbons."
+        },
+        {
+          "number": 3,
+          "step": "Garnish with fresh microgreens, watercress, shichimi togarashi, and chopped shiso leaves."
+        },
+        {
+          "number": 4,
+          "step": "Seal make-ahead containers tightly and refrigerate for up to four days for meal prep."
+        },
+        {
+          "number": 5,
+          "step": "Serve chilled or at cool room temperature as a clean, energizing Japanese grain salad."
+        },
+        {
+          "number": 6,
+          "step": "Pair with grilled fish, tofu, or miso soup for a complete nutrient-dense meal spread."
+        },
+        {
+          "number": 7,
+          "step": "Enjoy convenience of prepped grain salad that retains firm chew and crisp vegetable bite."
+        },
+        {
+          "number": 8,
+          "step": "Pack dressing separately if storing salad for more than three days to maintain freshness."
+        },
+        {
+          "number": 9,
+          "step": "Stir salad well before eating to redistribute settled sesame dressing and seed garnishes."
+        },
+        {
+          "number": 10,
+          "step": "Vary grains in future prep batches using farro, brown rice, or quinoa for variety."
+        },
+        {
+          "number": 11,
+          "step": "Appreciate healthy combination of plant protein, fiber, and vibrant Japanese flavors."
+        },
+        {
+          "number": 12,
+          "step": "Clean salad preparation tools and kitchen counter space to finish meal prep routine."
+        },
+        {
+          "number": 13,
+          "step": "Keep extra nori strips in zip-top bag to prevent moisture absorption and softness."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy refreshing texture contrast between chewy barley and crunchy fresh radishes."
+        },
+        {
+          "number": 15,
+          "step": "Double recipe quantities effortlessly when prepping weekday lunches for entire family."
+        },
+        {
+          "number": 16,
+          "step": "Incorporate additional seasonal Japanese vegetables like lotus root or edamame pods."
+        },
+        {
+          "number": 17,
+          "step": "Ensure barley is cooked properly to avoid hard unpalatable centers in chilled salad."
+        },
+        {
+          "number": 18,
+          "step": "Store extra sesame dressing in glass jar in refrigerator for up to one week."
+        },
+        {
+          "number": 19,
+          "step": "Serve this versatile dish at summer potlucks, outdoor picnics, or quick desk lunches."
+        },
+        {
+          "number": 20,
+          "step": "Celebrate simplicity of wholesome Japanese culinary principles in your routine prep."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy every crisp, umami-rich spoonful of this make-ahead barley edamame creation."
+        }
+      ]
+    },
+    {
+      "name": "Pack and Store",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Divide Japanese barley grain salad into equal portions inside airtight lunch containers."
+        },
+        {
+          "number": 2,
+          "step": "Ensure avocado pieces are coated with citrus juice to prevent browning during storage."
+        },
+        {
+          "number": 3,
+          "step": "Press down salad gently in containers to optimize storage space in home refrigerator."
+        },
+        {
+          "number": 4,
+          "step": "Label meal prep containers with date to track freshness throughout busy work week."
+        },
+        {
+          "number": 5,
+          "step": "Keep crunchy toppings in small separate snack bags to add just before eating."
+        },
+        {
+          "number": 6,
+          "step": "Store salad in coldest section of refrigerator to maintain maximum crisp freshness."
+        },
+        {
+          "number": 7,
+          "step": "Take container directly from fridge for easy grab-and-go weekday lunch option."
+        },
+        {
+          "number": 8,
+          "step": "Allow salad to sit at room temperature for ten minutes before eating for best flavor."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle extra ponzu or sesame oil over salad right before eating if desired."
+        },
+        {
+          "number": 10,
+          "step": "Enjoy reliable nutrition and delicious taste of homemade Japanese grain prep."
+        },
+        {
+          "number": 11,
+          "step": "Share make-ahead salad recipe with colleagues looking for healthy lunch inspiration."
+        },
+        {
+          "number": 12,
+          "step": "Reuse glass meal prep jars for eco-friendly sustainable weekday food transport."
+        },
+        {
+          "number": 13,
+          "step": "Clean cutting boards and prep utensils thoroughly after completing grain salad assembly."
+        },
+        {
+          "number": 14,
+          "step": "Maintain organized refrigerator shelf space dedicated to prepped healthy grain meals."
+        },
+        {
+          "number": 15,
+          "step": "Appreciate cost savings and health benefits of preparing nutritious lunches at home."
+        },
+        {
+          "number": 16,
+          "step": "Experiment with adding cooked salmon or teriyaki chicken for higher protein needs."
+        },
+        {
+          "number": 17,
+          "step": "Keep shichimi togarashi spice shaker handy to add custom heat to each portion."
+        },
+        {
+          "number": 18,
+          "step": "Enjoy consistent quality and texture of hearty pearl barley throughout the week."
+        },
+        {
+          "number": 19,
+          "step": "Wrap up meal prep session knowing delicious nutritious lunches are ready to eat."
+        },
+        {
+          "number": 20,
+          "step": "Celebrate success of preparing clean Japanese style grain salad for your schedule."
+        },
+        {
+          "number": 21,
+          "step": "Finalize food storage and enjoy peace of mind with fully stocked healthy fridge."
+        }
+      ]
+    }
+  ]
+}

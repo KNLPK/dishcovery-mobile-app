@@ -12,9 +12,17 @@ each file alongside its content so any later edit is detectable.
 | File | Role |
 |---|---|
 | `system-instruction.md`      | System instruction, constant across every request. |
-| `generation.template.md`     | First-attempt user prompt. Placeholders `{{...}}` are substituted per item. |
-| `corrective-retry.template.md` | Follow-up prompt used when a generated payload misses its target byte band. |
-| `response-schema.json`       | `responseSchema` passed to the API, constraining decoding to the canonical shape. |
+| `generation.template.md`     | First-attempt user prompt for one BATCH. `{{ITEMS_TABLE}}` is filled with one row per requested document (cuisine, dish, angle, and exact structural counts); the other placeholders are constants. Carries the explicit intra-batch diversity instruction. |
+| `corrective-retry.template.md` | Follow-up batch prompt used when the previous batch for a tier missed its byte band. Carries the same diversity instruction. |
+| `response-schema.json`       | `responseSchema` passed to the API: an ARRAY of canonical-shape objects, so one request returns one batch. |
+
+## Why batches
+
+The free tier is limited per request (20 per day per model), not per payload, and the
+model's 65,536-token output limit holds several documents plus its own thinking tokens.
+Requesting a batch per call brings a 150-document run from ~165 requests to ~24. Every
+document is still validated individually, and the near-duplicate check compares each
+one against every accepted payload in every tier — including the others in its batch.
 
 ## Fields deliberately absent from the response schema
 

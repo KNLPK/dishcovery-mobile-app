@@ -1,0 +1,858 @@
+{
+  "id": 9002026,
+  "title": "Roasted Mexican Stuffed Poblano Peppers with Ancho Glaze",
+  "image": "generated://dishcovery/9002026.jpg",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "summary": "This fully vegetarian <b>roasted Mexican poblano pepper</b> recipe brings dynamic heat, rich textures, and bold spice into perfect alignment. Large dark-green poblano peppers are roasted over open flame until blistering charred, peeled, and stuffed with a savory filling of black beans, sweet corn, brown rice, and melt-in-your-mouth Mexican cheeses. The stuffed peppers are then finished in a high-temperature oven, basting in a lush <b>ancho chili glaze</b> spiked with toasted cumin, Mexican oregano, and wild lime juice. The natural smokiness of roasted poblanos acts as an aromatic vessel for the cheesy bean filling, creating a deeply satisfying main dish without any meat. Garnished with crumbled cotija cheese, fresh pomegranate seeds, chopped cilantro, and cool avocado slices, every bite delivers contrasting textures of warmth, creaminess, and bright acidity. It is an extraordinary centerpiece for vegetarian dinner parties, festive weekend feasts, or elevated weeknight meals.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 24.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 37.7
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 9.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.2
+      },
+      {
+        "name": "Protein",
+        "amount": 18.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 36.4
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 810,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 10.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 9.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 13.7
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.6,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.8
+      },
+      {
+        "name": "Calcium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.8
+      },
+      {
+        "name": "Potassium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 241.7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2.7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.3
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.3
+      },
+      {
+        "name": "Folate",
+        "amount": 115,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28.8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Magnesium",
+        "amount": 98,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Selenium",
+        "amount": 14.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.8
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.8
+      },
+      {
+        "name": "Chromium",
+        "amount": 5.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "items",
+      "name": "large poblano peppers"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "cooked black beans"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "sweet corn kernels"
+    },
+    {
+      "id": 90003,
+      "amount": 250,
+      "unit": "g",
+      "name": "cooked long grain brown rice"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "shredded oaxaca cheese"
+    },
+    {
+      "id": 90005,
+      "amount": 100,
+      "unit": "g",
+      "name": "shredded monterey jack cheese"
+    },
+    {
+      "id": 90006,
+      "amount": 50,
+      "unit": "g",
+      "name": "crumbled cotija cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "items",
+      "name": "dried ancho chilies"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "item",
+      "name": "dried pasilla chili"
+    },
+    {
+      "id": 90009,
+      "amount": 200,
+      "unit": "g",
+      "name": "diced red onion"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90011,
+      "amount": 30,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90012,
+      "amount": 15,
+      "unit": "ml",
+      "name": "fresh lime juice"
+    },
+    {
+      "id": 90013,
+      "amount": 5,
+      "unit": "g",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90014,
+      "amount": 5,
+      "unit": "g",
+      "name": "mexican oregano"
+    },
+    {
+      "id": 90015,
+      "amount": 3,
+      "unit": "g",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90016,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "g",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 30,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "item",
+      "name": "ripe avocado"
+    },
+    {
+      "id": 90020,
+      "amount": 100,
+      "unit": "g",
+      "name": "sour cream crema"
+    },
+    {
+      "id": 90021,
+      "amount": 50,
+      "unit": "g",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90022,
+      "amount": 250,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90023,
+      "amount": 15,
+      "unit": "g",
+      "name": "agave nectar"
+    },
+    {
+      "id": 90024,
+      "amount": 10,
+      "unit": "ml",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90025,
+      "amount": 100,
+      "unit": "g",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "item",
+      "name": "minced jalapeno pepper"
+    },
+    {
+      "id": 90027,
+      "amount": 2,
+      "unit": "g",
+      "name": "chipotle chili powder"
+    },
+    {
+      "id": 90028,
+      "amount": 2,
+      "unit": "g",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "g",
+      "name": "cinnamon powder"
+    },
+    {
+      "id": 90030,
+      "amount": 15,
+      "unit": "g",
+      "name": "toasted pumpkin seeds pepitas"
+    },
+    {
+      "id": 90031,
+      "amount": 50,
+      "unit": "g",
+      "name": "chopped green onions"
+    },
+    {
+      "id": 90032,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "roasted garlic paste"
+    },
+    {
+      "id": 90033,
+      "amount": 15,
+      "unit": "ml",
+      "name": "avocado oil"
+    },
+    {
+      "id": 90034,
+      "amount": 5,
+      "unit": "g",
+      "name": "onion powder"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "g",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "g",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "g",
+      "name": "bay leaf powder"
+    },
+    {
+      "id": 90038,
+      "amount": 10,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90039,
+      "amount": 15,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90040,
+      "amount": 50,
+      "unit": "g",
+      "name": "diced zucchini"
+    },
+    {
+      "id": 90041,
+      "amount": 30,
+      "unit": "g",
+      "name": "chopped radishes"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "g",
+      "name": "chili powder"
+    },
+    {
+      "id": 90043,
+      "amount": 15,
+      "unit": "ml",
+      "name": "sunflower oil"
+    },
+    {
+      "id": 90044,
+      "amount": 2,
+      "unit": "g",
+      "name": "celery salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Poblano Roasting and Ancho Glaze Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash poblano peppers thoroughly with cold water and dry completely with a clean kitchen towel."
+        },
+        {
+          "number": 2,
+          "step": "Place poblanos directly over open gas flame or under hot oven broiler to roast pepper skins."
+        },
+        {
+          "number": 3,
+          "step": "Turn poblanos every two minutes until skin blistered and charred black completely on all sides."
+        },
+        {
+          "number": 4,
+          "step": "Transfer charred poblano peppers into a bowl, cover tightly with plastic wrap, and steam ten minutes."
+        },
+        {
+          "number": 5,
+          "step": "Stem dried ancho chilies and dried pasilla chili, shaking out seeds onto cutting board for discard."
+        },
+        {
+          "number": 6,
+          "step": "Tear dried chilies into large pieces and place in bowl filled with one cup boiling hot water."
+        },
+        {
+          "number": 7,
+          "step": "Soak dried chilies for fifteen minutes until soft, pliable, and fully rehydrated in hot bath."
+        },
+        {
+          "number": 8,
+          "step": "Transfer softened chilies and soaking water into blender jar with minced garlic and roasted garlic paste."
+        },
+        {
+          "number": 9,
+          "step": "Add vegetable broth, agave nectar, apple cider vinegar, chipotle chili powder, and cinnamon powder."
+        },
+        {
+          "number": 10,
+          "step": "Add ground coriander, bay leaf powder, sea salt, and extra virgin olive oil to blender jar."
+        },
+        {
+          "number": 11,
+          "step": "Blend chili glaze mixture on high speed for two minutes until completely smooth and velvety."
+        },
+        {
+          "number": 12,
+          "step": "Strain ancho chili glaze through mesh sieve into small pot, discarding remaining seed skin bits."
+        },
+        {
+          "number": 13,
+          "step": "Simmer ancho glaze over medium-low heat for five minutes until slightly thickened into glossy coating."
+        },
+        {
+          "number": 14,
+          "step": "Peel charred outer skin off steamed poblano peppers gently using fingers or paper towel."
+        },
+        {
+          "number": 15,
+          "step": "Slice a slit down one side of each peeled poblano pepper from stem to tip with sharp knife."
+        },
+        {
+          "number": 16,
+          "step": "Carefully remove seed core from inside poblano peppers without tearing outer green flesh walls."
+        },
+        {
+          "number": 17,
+          "step": "Season inner cavity of peeled poblano peppers with small pinch of sea salt and garlic powder."
+        },
+        {
+          "number": 18,
+          "step": "Set prepped poblano peppers on paper towel lined plate to drain while completing vegetarian filling."
+        },
+        {
+          "number": 19,
+          "step": "Verify glaze possesses balance of smoky dried ancho heat, subtle sweet agave, and tangy vinegar."
+        },
+        {
+          "number": 20,
+          "step": "Keep ancho chili glaze warm over lowest stove setting while assembling vegetarian rice filling."
+        },
+        {
+          "number": 21,
+          "step": "Ensure peeled poblanos remain whole and structurally intact to hold rich bean and cheese filling."
+        }
+      ]
+    },
+    {
+      "name": "Vegetarian Stuffing Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat sunflower oil and unsalted butter in a wide frying pan over medium heat on stovetop."
+        },
+        {
+          "number": 2,
+          "step": "Add diced red onion, minced jalapeno pepper, and diced zucchini into hot skillet pan surface."
+        },
+        {
+          "number": 3,
+          "step": "Sauté onion and zucchini mixture for five minutes until tender and light translucent brown color."
+        },
+        {
+          "number": 4,
+          "step": "Add minced garlic, ground cumin, mexican oregano, smoked paprika, and dried thyme to skillet."
+        },
+        {
+          "number": 5,
+          "step": "Toast dry spices with sauteed vegetables for one minute until intense aromatic oils release."
+        },
+        {
+          "number": 6,
+          "step": "Add cooked black beans, sweet corn kernels, and diced tomatoes into skillet with sautéed vegetables."
+        },
+        {
+          "number": 7,
+          "step": "Stir in cooked long grain brown rice, tossing all filling elements together until mixed evenly."
+        },
+        {
+          "number": 8,
+          "step": "Season filling mixture with sea salt, black pepper, onion powder, and small splash of water."
+        },
+        {
+          "number": 9,
+          "step": "Cook stuffing for four minutes over low heat so brown rice absorbs savory spice oils and moisture."
+        },
+        {
+          "number": 10,
+          "step": "Remove skillet from heat and let vegetarian filling cool down for five minutes in skillet."
+        },
+        {
+          "number": 11,
+          "step": "Stir half of shredded oaxaca cheese and half of shredded monterey jack cheese into warm filling."
+        },
+        {
+          "number": 12,
+          "step": "Add chopped green onions, fresh lime juice, and half of chopped fresh cilantro into filling."
+        },
+        {
+          "number": 13,
+          "step": "Toss filling thoroughly so melted cheese coats rice grains, corn kernels, and tender black beans."
+        },
+        {
+          "number": 14,
+          "step": "Taste vegetarian stuffing and adjust salt level by adding small pinch of celery salt if desired."
+        },
+        {
+          "number": 15,
+          "step": "Verify stuffing texture is cohesive enough to hold shape when packed tightly into poblano peppers."
+        },
+        {
+          "number": 16,
+          "step": "Divide stuffing evenly into four equal portions in skillet to ensure stuffed poblanos match size."
+        },
+        {
+          "number": 17,
+          "step": "Set aside remaining oaxaca and monterey jack cheese for topping peppers right before final bake."
+        },
+        {
+          "number": 18,
+          "step": "Ensure brown rice grains retain firm bite so stuffing does not turn mushy during oven roast."
+        },
+        {
+          "number": 19,
+          "step": "Keep filling warm while preheating baking oven to four hundred degrees Fahrenheit for roasting."
+        },
+        {
+          "number": 20,
+          "step": "Verify bright contrast between sweet yellow corn, dark black beans, and green herbs in mixture."
+        },
+        {
+          "number": 21,
+          "step": "Confirm melted cheese creates stringy binding texture throughout warm bean and rice stuffing."
+        }
+      ]
+    },
+    {
+      "name": "Stuffing and Oven Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour half of warm ancho chili glaze over bottom of large ceramic baking dish, spreading evenly."
+        },
+        {
+          "number": 2,
+          "step": "Gently open slit of one peeled poblano pepper and spoon in one portion of warm stuffing."
+        },
+        {
+          "number": 3,
+          "step": "Pack stuffing firmly into pepper cavity from top stem down to tip without tearing pepper wall."
+        },
+        {
+          "number": 4,
+          "step": "Fold pepper edges over stuffing to enclose filling securely inside roasted poblano pepper skin."
+        },
+        {
+          "number": 5,
+          "step": "Place stuffed poblano pepper seam-side down into ceramic baking dish on top of ancho glaze coating."
+        },
+        {
+          "number": 6,
+          "step": "Repeat stuffing process with remaining three poblano peppers until all four peppers are filled."
+        },
+        {
+          "number": 7,
+          "step": "Spoon remaining warm ancho chili glaze generously over tops of all four stuffed poblano peppers."
+        },
+        {
+          "number": 8,
+          "step": "Brush peppers lightly with avocado oil to encourage rich caramelization during high heat roast."
+        },
+        {
+          "number": 9,
+          "step": "Top stuffed peppers with remaining shredded oaxaca cheese and shredded monterey jack cheese layer."
+        },
+        {
+          "number": 10,
+          "step": "Cover baking dish with aluminum foil and place into preheated four-hundred-degree oven on center rack."
+        },
+        {
+          "number": 11,
+          "step": "Bake covered for twenty minutes until poblano peppers are tender and stuffing is piping hot inside."
+        },
+        {
+          "number": 12,
+          "step": "Remove aluminum foil carefully and return baking dish to oven for additional ten minutes bake."
+        },
+        {
+          "number": 13,
+          "step": "Roast uncovered until cheese topping melts completely into golden bubbling brown blanket across peppers."
+        },
+        {
+          "number": 14,
+          "step": "Switch oven to broiler setting on high for final two minutes to char cheese top crisp and brown."
+        },
+        {
+          "number": 15,
+          "step": "Remove ceramic baking dish from oven carefully using heavy oven mitts and set on heatproof pad."
+        },
+        {
+          "number": 16,
+          "step": "Let stuffed roasted poblanos rest in baking dish for five minutes before moving to serving plates."
+        },
+        {
+          "number": 17,
+          "step": "Verify peppers retain upright structural shape while cheese glaze bubbles lazily around edges."
+        },
+        {
+          "number": 18,
+          "step": "Check that internal stuffing temperature reaches hot serving point of one hundred sixty degrees."
+        },
+        {
+          "number": 19,
+          "step": "Ensure ancho sauce in bottom of baking dish has reduced into thick savory spoonful pan glaze."
+        },
+        {
+          "number": 20,
+          "step": "Prepare fresh garnishes while stuffed poblanos complete brief resting period in hot ceramic dish."
+        },
+        {
+          "number": 21,
+          "step": "Smell rich fragrance of melted cheese, roasted poblano skins, and warm ancho chili spice glaze."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Table Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer each roasted stuffed poblano pepper carefully onto individual wide warm Mexican dinner plates."
+        },
+        {
+          "number": 2,
+          "step": "Spoon extra warm ancho chili glaze from bottom of baking dish directly over stuffed peppers."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle cool Mexican crema sour cream in zig-zag lines across golden melted cheese pepper tops."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle crumbled cotija cheese evenly over all four stuffed poblano peppers for sharp salty finish."
+        },
+        {
+          "number": 5,
+          "step": "Scatter toasted pumpkin seeds pepitas across top of peppers for satisfying nuttiness and crunch."
+        },
+        {
+          "number": 6,
+          "step": "Garnish plates with fresh pomegranate seeds, chopped radishes, and remaining fresh chopped cilantro."
+        },
+        {
+          "number": 7,
+          "step": "Arrange fan of thin ripe avocado slices alongside each stuffed poblano pepper on dinner plates."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately while peppers are hot, cheese is melty, and garnishes are crisp and cold."
+        },
+        {
+          "number": 9,
+          "step": "Pair dish with cold Mexican lager beer, fresh lime agua fresca, or spicy hibiscus iced tea."
+        },
+        {
+          "number": 10,
+          "step": "Provide extra lime wedges at table for guests to squeeze over avocado and roasted pepper tops."
+        },
+        {
+          "number": 11,
+          "step": "Store leftover stuffed peppers in covered container in refrigerator for up to three days max."
+        },
+        {
+          "number": 12,
+          "step": "Reheat leftovers in three-hundred-fifty-degree oven for fifteen minutes until heated through fully."
+        },
+        {
+          "number": 13,
+          "step": "Wipe dinner plate rims clean with damp napkin before presenting dish to guests at dinner table."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy vibrant vegetarian main course celebrating bold authentic roasted Mexican pepper flavor notes."
+        },
+        {
+          "number": 15,
+          "step": "Ensure balance between smoky roasted poblano, creamy melted cheeses, and tangy ancho sauce glaze."
+        },
+        {
+          "number": 16,
+          "step": "Encourage diners to cut through pepper skin to release hot cheesy corn and black bean filling."
+        },
+        {
+          "number": 17,
+          "step": "Highlight how open flame roasting elevates humble vegetable ingredients into restaurant showpiece."
+        },
+        {
+          "number": 18,
+          "step": "Offer side dish of warm corn tortillas to mop up extra ancho glaze sauce left on dinner plates."
+        },
+        {
+          "number": 19,
+          "step": "Confirm all guests enjoy contrast of hot roasted peppers with cool avocado slices and pomegranate."
+        },
+        {
+          "number": 20,
+          "step": "Keep extra cotija cheese and pepitas in small table bowls for additional customized toppings."
+        },
+        {
+          "number": 21,
+          "step": "Celebrate rich culinary art of Mexican stuffed roasted chillies prepared completely vegetarian style."
+        }
+      ]
+    }
+  ]
+}

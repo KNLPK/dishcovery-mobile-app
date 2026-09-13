@@ -1,0 +1,858 @@
+{
+  "id": 9002019,
+  "title": "One-Pot Greek Lemon Herb White Bean and Sea Bass Soup",
+  "image": "generated://dishcovery/9002019.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "This vibrant <b>one-pot Greek soup</b> pairs tender wild sea bass fillets with creamy white beans in a citrus-infused herbal broth. Relying on classic Mediterranean <b>simmering techniques</b>, the dish builds layered flavors by sweating leeks, fennel, and garlic in extra virgin olive oil before simmering with oregano and fish stock. The introduction of tender cannelli beans adds silky body, while fresh lemon juice and beaten egg yolk slurry (avgolemono technique) yield a velvety broth without heavy cream. Designed for effortless single-vessel cooking, this recipe minimizes cleanup while maximizing fresh coastal flavors. Sea bass fillets are poached gently directly in the simmering broth during the final minutes, keeping the fish delicate and moist. Finish each bowl with fresh dill, capers, and extra olive oil for a wholesome meal.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Sodium",
+        "amount": 720,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fiber",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 10.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 780,
+        "unit": "IU",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 210,
+        "unit": "IU",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 6.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 600,
+      "unit": "g",
+      "name": "sea bass fillets skinless"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "cannellini beans cooked"
+    },
+    {
+      "id": 90002,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "large",
+      "name": "leek sliced"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "medium",
+      "name": "fennel bulb diced"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots diced"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "celery diced"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90008,
+      "amount": 1.2,
+      "unit": "l",
+      "name": "fish stock"
+    },
+    {
+      "id": 90009,
+      "amount": 80,
+      "unit": "ml",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "large",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh dill chopped"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "flat leaf parsley chopped"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh oregano chopped"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cracked black pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "capers drained"
+    },
+    {
+      "id": 90020,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander seeds crushed"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "small",
+      "name": "zucchini diced"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ouzo liqueur"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "kalamata olives pitted"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dill seeds"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery seed"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sugar"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90034,
+      "amount": 100,
+      "unit": "g",
+      "name": "diced plum tomatoes"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "rosemary"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "champagne vinegar"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chives chopped"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90040,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sea salt for boiling"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon pepper seasoning"
+    },
+    {
+      "id": 90043,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "feta cheese crumbled"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "lemon",
+      "name": "sliced for garnish"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Vegetable Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place a large heavy bottom Dutch oven onto front burner of stove over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Pour three tablespoons of extra virgin olive oil into hot pot swirling to coat bottom."
+        },
+        {
+          "number": 3,
+          "step": "Trim white and light green section of leek slicing into thin uniform half moon rings."
+        },
+        {
+          "number": 4,
+          "step": "Trim outer leaves of fennel bulb chop core out and dice bulb into quarter inch pieces."
+        },
+        {
+          "number": 5,
+          "step": "Peel carrots and celery stalks slicing them into small matching quarter inch dice pieces."
+        },
+        {
+          "number": 6,
+          "step": "Add sliced leek diced fennel carrots and celery into Dutch oven with shimmering oil."
+        },
+        {
+          "number": 7,
+          "step": "Saute vegetable aromatics for five minutes stirring frequently with wooden spoon."
+        },
+        {
+          "number": 8,
+          "step": "Mince fresh garlic cloves and add to softening vegetables in Dutch oven pot."
+        },
+        {
+          "number": 9,
+          "step": "Add crushed coriander seeds dried thyme crushed bay leaf and sea salt to vegetables."
+        },
+        {
+          "number": 10,
+          "step": "Cook garlic and dry herbs with vegetables for two minutes until fragrant and translucent."
+        },
+        {
+          "number": 11,
+          "step": "Add diced small zucchini into Dutch oven stirring to mix with sautéed aromatics."
+        },
+        {
+          "number": 12,
+          "step": "Pour dry white wine into pot scraping up any browned bits stuck to bottom surface."
+        },
+        {
+          "number": 13,
+          "step": "Simmer wine for three minutes until liquid reduces by half and alcohol cooks off."
+        },
+        {
+          "number": 14,
+          "step": "Stir in ouzo liqueur and diced plum tomatoes cooking for two additional minutes."
+        },
+        {
+          "number": 15,
+          "step": "Add onion powder garlic powder smoked paprika and cracked black pepper into pot."
+        },
+        {
+          "number": 16,
+          "step": "Rinse cannelli beans under cold water drain thoroughly in fine mesh colander."
+        },
+        {
+          "number": 17,
+          "step": "Add drained white beans into vegetable mixture stirring gently to integrate."
+        },
+        {
+          "number": 18,
+          "step": "Pour fish stock and water into Dutch oven bringing liquid level up to top veggies."
+        },
+        {
+          "number": 19,
+          "step": "Add fresh rosemary sprig and fresh chopped oregano into simmering soup pot base."
+        },
+        {
+          "number": 20,
+          "step": "Bring entire pot contents to active boiling point over high heat setting on stove."
+        },
+        {
+          "number": 21,
+          "step": "Reduce heat setting to low cover pot with lid and simmer gently for fifteen minutes."
+        }
+      ]
+    },
+    {
+      "name": "Avgolemono Tempering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "While soup simmers whisk two large egg yolks in a medium glass bowl until smooth."
+        },
+        {
+          "number": 2,
+          "step": "Pour fresh lemon juice and lemon zest slowly into egg yolks whisking continuously."
+        },
+        {
+          "number": 3,
+          "step": "Add cornstarch and champagne vinegar to lemon egg mixture whisking out any lumps."
+        },
+        {
+          "number": 4,
+          "step": "Ladle one cup of hot soup broth from Dutch oven into a heatproof liquid measure."
+        },
+        {
+          "number": 5,
+          "step": "Slowly drizzle hot broth into egg lemon mixture while whisking constantly with hand."
+        },
+        {
+          "number": 6,
+          "step": "Drizzling hot liquid slowly tempers egg yolks preventing them from scrambling in soup."
+        },
+        {
+          "number": 7,
+          "step": "Ladle a second cup of hot soup broth into egg lemon slurry whisking rapidly."
+        },
+        {
+          "number": 8,
+          "step": "The tempered avgolemono mixture should appear smooth yellow creamy and completely fluid."
+        },
+        {
+          "number": 9,
+          "step": "Remove Dutch oven lid and turn heat off under pot before adding lemon slurry."
+        },
+        {
+          "number": 10,
+          "step": "Pour tempered avgolemono slurry slowly back into Dutch oven while stirring pot liquid."
+        },
+        {
+          "number": 11,
+          "step": "Stir broth continuously for two minutes as egg mixture thickens soup to silky texture."
+        },
+        {
+          "number": 12,
+          "step": "Turn heat back on to lowest setting ensuring soup does not reach boiling point."
+        },
+        {
+          "number": 13,
+          "step": "Taste broth adjusting salt and lemon pepper seasoning according to taste balance."
+        },
+        {
+          "number": 14,
+          "step": "Add pinch of sugar and white pepper into broth stirring to blend subtle flavors."
+        },
+        {
+          "number": 15,
+          "step": "Remove rosemary sprig and bay leaf from pot discarding them carefully with tongs."
+        },
+        {
+          "number": 16,
+          "step": "Stir in baby spinach leaves letting heat wilt greens into soup without boiling."
+        },
+        {
+          "number": 17,
+          "step": "Check soup consistency; broth should lightly coat wooden spoon without feeling heavy."
+        },
+        {
+          "number": 18,
+          "step": "Keep pot covered on ultra low heat while preparing sea bass fish portion cuts."
+        },
+        {
+          "number": 19,
+          "step": "Pat sea bass fillets thoroughly dry on both sides using clean paper towels."
+        },
+        {
+          "number": 20,
+          "step": "Cut sea bass fillets into generous two inch square chunks using sharp fish knife."
+        },
+        {
+          "number": 21,
+          "step": "Season sea bass chunks lightly with sea salt lemon pepper and extra virgin olive oil."
+        }
+      ]
+    },
+    {
+      "name": "Fish Poaching",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Uncover Dutch oven pot maintaining broth temperature just below gentle simmer point."
+        },
+        {
+          "number": 2,
+          "step": "Lower seasoned sea bass chunks carefully into hot soup broth using slotted spoon."
+        },
+        {
+          "number": 3,
+          "step": "Submerge fish pieces completely into warm liquid without crowding pieces together."
+        },
+        {
+          "number": 4,
+          "step": "Cover pot with lid tightly trapping internal steam to poach fish tenderly."
+        },
+        {
+          "number": 5,
+          "step": "Poach sea bass for exactly six minutes without opening lid or stirring pot contents."
+        },
+        {
+          "number": 6,
+          "step": "Uncover pot carefully and test sea bass flake texture using tip of small knife."
+        },
+        {
+          "number": 7,
+          "step": "Fish flesh should flake easily turn opaque white and reach 145 degrees interior."
+        },
+        {
+          "number": 8,
+          "step": "Add drained capers and sliced kalamata olives into soup around poached sea bass."
+        },
+        {
+          "number": 9,
+          "step": "Fold fresh chopped dill and parsley into broth around fish without breaking chunks."
+        },
+        {
+          "number": 10,
+          "step": "Add red pepper flakes for mild background warmth against bright citrus broth notes."
+        },
+        {
+          "number": 11,
+          "step": "Drizzle remaining tablespoon of cold extra virgin olive oil over top of soup surface."
+        },
+        {
+          "number": 12,
+          "step": "Whisk one tablespoon butter into broth edge to add velvety sheen to lemon soup."
+        },
+        {
+          "number": 13,
+          "step": "Turn off heat completely letting Dutch oven sit covered for three minutes on counter."
+        },
+        {
+          "number": 14,
+          "step": "Slice fresh lemons into thin wheel rounds for bowl garnishes during soup plating."
+        },
+        {
+          "number": 15,
+          "step": "Crumble fresh Greek feta cheese into small bowl for optional guest soup toppings."
+        },
+        {
+          "number": 16,
+          "step": "Chop remaining fresh chives finely for final aromatic sprinkling over warm bowls."
+        },
+        {
+          "number": 17,
+          "step": "Warm six soup bowls in low oven or with hot water to keep soup hot at table."
+        },
+        {
+          "number": 18,
+          "step": "Dry heated soup bowls thoroughly before ladling hot soup into each presentation bowl."
+        },
+        {
+          "number": 19,
+          "step": "Verify fish chunks are distributed evenly so every bowl receives equal fish portions."
+        },
+        {
+          "number": 20,
+          "step": "Check that bean and vegetable proportions in each bowl create colorful balanced look."
+        },
+        {
+          "number": 21,
+          "step": "Prepare crusty sourdough or pita bread slices for serving alongside hot sea bass soup."
+        }
+      ]
+    },
+    {
+      "name": "Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle two scoops of creamy white bean soup broth into bottom of warmed soup bowl."
+        },
+        {
+          "number": 2,
+          "step": "Gently place two intact poached sea bass chunks into center of each soup bowl."
+        },
+        {
+          "number": 3,
+          "step": "Spoon additional broth tender vegetables and white beans around poached fish carefully."
+        },
+        {
+          "number": 4,
+          "step": "Scatter chopped fresh dill and parsley over surface of each hot soup portion."
+        },
+        {
+          "number": 5,
+          "step": "Top each bowl with a sprinkling of chopped fresh chives and drained briny capers."
+        },
+        {
+          "number": 6,
+          "step": "Float one thin lemon wheel slice on side of each bowl against fresh green herbs."
+        },
+        {
+          "number": 7,
+          "step": "Optionally sprinkle crumbled Greek feta cheese across top of soup for tangy contrast."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle a few drops of high grade extra virgin olive oil over broth surface."
+        },
+        {
+          "number": 9,
+          "step": "Add a tiny pinch of cracked black pepper over lemon wheel slice for finish detail."
+        },
+        {
+          "number": 10,
+          "step": "Wipe outer rims of serving bowls cleanly using damp cloth before taking to dining table."
+        },
+        {
+          "number": 11,
+          "step": "Serve soup immediately while hot fragrant and freshly poached for best sea bass texture."
+        },
+        {
+          "number": 12,
+          "step": "Pass extra lemon wedges and warm crusty bread at table for dipping into lemon broth."
+        },
+        {
+          "number": 13,
+          "step": "Store remaining soup in airtight glass container in refrigerator for up to two days."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftovers gently on stovetop over low heat to prevent overcooking delicate fish."
+        },
+        {
+          "number": 15,
+          "step": "Add extra splash of fish stock or water when reheating if beans absorb liquid."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy this healthy one-pot Greek classic as a light satisfying lunch or dinner course."
+        },
+        {
+          "number": 17,
+          "step": "Clean single Dutch oven pot easily after soaking in warm water for simple kitchen cleanup."
+        },
+        {
+          "number": 18,
+          "step": "Note recipe adjustments for sea bass thickness to ensure precise future poaching times."
+        },
+        {
+          "number": 19,
+          "step": "Pair with Greek side salad of cucumber tomatoes and oregano for complete feast."
+        },
+        {
+          "number": 20,
+          "step": "Offer crisp chilled white wine such as Assyrtiko to complement lemon herbal soup."
+        },
+        {
+          "number": 21,
+          "step": "Finalize dining presentation with clean table settings and pleasant dining ambiance."
+        }
+      ]
+    }
+  ]
+}

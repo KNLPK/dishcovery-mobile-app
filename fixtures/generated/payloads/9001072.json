@@ -1,0 +1,552 @@
+{
+  "id": 9001072,
+  "title": "Vanilla-Infused Red Wine Braised Pears",
+  "image": "generated://dishcovery/9001072.jpg",
+  "readyInMinutes": 70,
+  "servings": 4,
+  "summary": "Elevate your dessert table with a refined classic from French culinary heritage. Firm <b>Anjou pears</b> are gently braised in a spiced syrup of full-bodied red wine, fresh orange zest, cinnamon, star anise, and whole vanilla bean until tender and translucent. This dessert-focused braise relies on slow, low-temperature simmering to draw out the fruit natural sweetness while softening its texture without losing shape. Once cooked, the fragrant braising liquid is reduced to a glossy, dark ruby glaze that coats each pear with velvety richness. Accompanied by dollops of sweetened creme fraiche or vanilla bean ice cream, this elegant course offers a dramatic presentation for dinner parties. The warming spices create an inviting aroma that fills the kitchen as the liquid reduces. Perfectly balanced between tart wine notes and sweet floral honey, this dish showcases how slow-cooking techniques apply beautifully to sweet courses. Serve warm or chilled for a timeless showcase of <b>classic French dessert craftsmanship</b>.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 290,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 41,
+        "unit": "g",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Protein",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sodium",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 180,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.04,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Niacin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.06,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Folate",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Biotin",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Choline",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Calcium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Potassium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Magnesium",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Copper",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Selenium",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Iodine",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Chromium",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "pc",
+      "name": "anjou pears"
+    },
+    {
+      "id": 90001,
+      "amount": 500,
+      "unit": "ml",
+      "name": "dry red wine"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "wildflower honey"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "pc",
+      "name": "vanilla bean"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "pc",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "pc",
+      "name": "star anise"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "pc",
+      "name": "whole cloves"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "strip",
+      "name": "orange peel"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "strip",
+      "name": "lemon peel"
+    },
+    {
+      "id": 90010,
+      "amount": 100,
+      "unit": "ml",
+      "name": "fresh orange juice"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "salt"
+    },
+    {
+      "id": 90012,
+      "amount": 120,
+      "unit": "g",
+      "name": "creme fraiche"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "almond extract"
+    },
+    {
+      "id": 90015,
+      "amount": 4,
+      "unit": "sprig",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90016,
+      "amount": 30,
+      "unit": "g",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "pc",
+      "name": "cardamom pods"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brandy"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90024,
+      "amount": 100,
+      "unit": "ml",
+      "name": "water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Braising Liquids and Pear Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Select firm, ripe Anjou pears that hold their structure well during heat braising process."
+        },
+        {
+          "number": 2,
+          "step": "Peel pears smoothly using vegetable peeler, leaving intact stems attached at top for elegant look."
+        },
+        {
+          "number": 3,
+          "step": "Slice flat piece off bottom of each pear so they stand upright firmly inside braising pot."
+        },
+        {
+          "number": 4,
+          "step": "Use melon baller from bottom end to carefully remove core and seeds without damaging outer flesh."
+        },
+        {
+          "number": 5,
+          "step": "Rub peeled fruit surface immediately with fresh lemon juice to prevent discoloration or browning."
+        },
+        {
+          "number": 6,
+          "step": "Pour dry red wine, orange juice, and hundred milliliters water into deep Dutch oven pot."
+        },
+        {
+          "number": 7,
+          "step": "Add granulated sugar, wildflower honey, and pinch of salt to red wine mixture inside pot."
+        },
+        {
+          "number": 8,
+          "step": "Slice vanilla bean lengthwise using sharp paring knife and scrape seeds out into wine liquid."
+        },
+        {
+          "number": 9,
+          "step": "Drop scraped vanilla pod, cinnamon sticks, star anise pods, and whole cloves into braising pot."
+        },
+        {
+          "number": 10,
+          "step": "Add strips of fresh orange peel and lemon peel to wine broth for subtle citrus oil aromas."
+        },
+        {
+          "number": 11,
+          "step": "Crush two green cardamom pods lightly and add them alongside ground nutmeg into braising pan."
+        },
+        {
+          "number": 12,
+          "step": "Place pot over medium burner heat and stir gently until all sugar crystals dissolve completely."
+        },
+        {
+          "number": 13,
+          "step": "Bring wine broth to low boil before carefully standing peeled pears upright inside liquid."
+        },
+        {
+          "number": 14,
+          "step": "Baste tops of standing pears with hot spiced wine mixture using large metal spoon repeatedly."
+        },
+        {
+          "number": 15,
+          "step": "Cut circle of parchment paper with small center hole to create parchment lid for fruit pot."
+        },
+        {
+          "number": 16,
+          "step": "Place parchment paper circle directly onto surface of wine liquid to submerge pears evenly."
+        },
+        {
+          "number": 17,
+          "step": "Lower stove heat down to gentle simmer, keeping liquid barely bubbling around fruit edges."
+        },
+        {
+          "number": 18,
+          "step": "Cover pot with lid and braise pears undisturbed for thirty-five minutes until fully tender."
+        },
+        {
+          "number": 19,
+          "step": "Test pear tenderness by piercing thickest part with sharp tip of paring knife gently."
+        },
+        {
+          "number": 20,
+          "step": "Knife should slide in effortlessly without meeting resistance when pears are braised properly."
+        },
+        {
+          "number": 21,
+          "step": "Carefully lift tender braised pears out of wine bath using slotted spoon to avoid tearing flesh."
+        },
+        {
+          "number": 22,
+          "step": "Arrange poached fruit on clean plate and cover loosely with foil to keep warm while cooking glaze."
+        }
+      ]
+    },
+    {
+      "name": "Syrup Reduction and Desserts Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Increase stovetop heat to high under pot containing spiced red wine braising liquid leftovers."
+        },
+        {
+          "number": 2,
+          "step": "Bring wine braising broth to rapid rolling boil to reduce liquid volume down into syrup."
+        },
+        {
+          "number": 3,
+          "step": "Whisk cornstarch with two tablespoons cold water in small glass cup until completely smooth."
+        },
+        {
+          "number": 4,
+          "step": "Whisk cornstarch slurry into boiling wine sauce to achieve silky consistency and rich shine."
+        },
+        {
+          "number": 5,
+          "step": "Boil reduction for fifteen minutes until thick enough to coat back of metal spoon velvety smooth."
+        },
+        {
+          "number": 6,
+          "step": "Stir in one tablespoon butter and brandy during final minute of reduction for luxurious finish."
+        },
+        {
+          "number": 7,
+          "step": "Pour thick hot syrup through fine wire strainer into heatproof pitcher to separate whole spices."
+        },
+        {
+          "number": 8,
+          "step": "Toast sliced almonds in dry skillet over medium heat for three minutes until golden and fragrant."
+        },
+        {
+          "number": 9,
+          "step": "Combine creme fraiche, powdered sugar, and almond extract in chilled glass bowl for whipping."
+        },
+        {
+          "number": 10,
+          "step": "Whisk creme fraiche mixture rapidly for two minutes until soft pillowy peaks form consistently."
+        },
+        {
+          "number": 11,
+          "step": "Place one warm braised pear vertically in center of four individual shallow dessert bowls."
+        },
+        {
+          "number": 12,
+          "step": "Spoon warm ruby wine glaze generously over top of each pear to coat surfaces completely."
+        },
+        {
+          "number": 13,
+          "step": "Place large scoop of almond scented creme fraiche beside base of each red wine braised pear."
+        },
+        {
+          "number": 14,
+          "step": "Garnish dessert bowl plates with toasted almond flakes and fresh mint sprigs for color contrast."
+        },
+        {
+          "number": 15,
+          "step": "Drizzle remaining strained ruby wine sauce around bottom plate perimeter for attractive display."
+        },
+        {
+          "number": 16,
+          "step": "Serve dessert immediately while pears remain warm and creme fraiche offers cool creamy contrast."
+        },
+        {
+          "number": 17,
+          "step": "Provide dessert spoons and small fruit knives for guests to cut soft pears smoothly."
+        },
+        {
+          "number": 18,
+          "step": "Optionally chill finished pears in syrup overnight for even deeper ruby red color development."
+        },
+        {
+          "number": 19,
+          "step": "When serving cold, let pears sit at room temperature for ten minutes to release floral notes."
+        },
+        {
+          "number": 20,
+          "step": "Pair finished dessert course with small glass of sweet port wine or espresso for full experience."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy delicate balance of wine tannins, warm spices, and silky fruit texture in every forkful."
+        }
+      ]
+    }
+  ]
+}

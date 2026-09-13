@@ -1,0 +1,552 @@
+{
+  "id": 9001030,
+  "title": "Roasted Achiote Snapper with Citrus and Herbs",
+  "image": "generated://dishcovery/9001030.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Inspired by coastal Mexican seafood traditions, this <b>roasted red snapper</b> features a vibrant achiote and citrus glaze. Built around fresh <b>whole red snapper</b>, the fish is rubbed inside and out with aromatic spices before roasting over sliced sweet citrus and fiery peppers. The oven-roasting method yields crispy spiced skin alongside moist, tender white fish. Bright orange juice and lime juice cut through the warm earthy tones of cumin, oregano, and garlic. Perfect for a festive outdoor dinner or a lively family gathering, this dish brings vibrant colors and bold Mexican flavors to the table. Rich in lean protein and essential omega fatty acids, it offers balanced nutrition without sacrificing rich authentic taste. Score the fish along the sides so the marinade penetrates deep into the flesh for maximum flavor distribution. Garnish generously with fresh cilantro leaves and serve with warm corn tortillas for building delicious fish tacos.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 44,
+        "unit": "g",
+        "percentOfDailyNeeds": 88
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 90,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Calcium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 410,
+        "unit": "IU",
+        "percentOfDailyNeeds": 103
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 175
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Iodine",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Selenium",
+        "amount": 68,
+        "unit": "µg",
+        "percentOfDailyNeeds": 124
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1200,
+      "unit": "g",
+      "name": "whole red snapper"
+    },
+    {
+      "id": 90001,
+      "amount": 50,
+      "unit": "g",
+      "name": "achiote paste"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "ml",
+      "name": "orange juice"
+    },
+    {
+      "id": 90003,
+      "amount": 50,
+      "unit": "ml",
+      "name": "lime juice"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "orange"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "limes"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "red onion"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "jalapeno peppers"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "cilantro"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander seeds"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "honey"
+    },
+    {
+      "id": 90020,
+      "amount": 8,
+      "unit": "pcs",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "avocado"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced radishes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade and Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the whole red snapper under cold running water inside cavity and pat completely dry."
+        },
+        {
+          "number": 2,
+          "step": "Make three shallow diagonal cuts across each side of snapper flesh using a sharp knife."
+        },
+        {
+          "number": 3,
+          "step": "Place achiote paste into a glass mixing bowl and crumble using a small metal fork."
+        },
+        {
+          "number": 4,
+          "step": "Pour freshly squeezed orange juice, lime juice, and apple cider vinegar over paste."
+        },
+        {
+          "number": 5,
+          "step": "Add olive oil, minced garlic, ground cumin, dried oregano, and honey to bowl."
+        },
+        {
+          "number": 6,
+          "step": "Whisk marinade ingredients together until completely smooth without any lumps of paste."
+        },
+        {
+          "number": 7,
+          "step": "Season marinade with sea salt, ground black pepper, coriander seeds, and smoked paprika."
+        },
+        {
+          "number": 8,
+          "step": "Place snapper into a large non-reactive glass baking dish suitable for marinating fish."
+        },
+        {
+          "number": 9,
+          "step": "Pour three-quarters of achiote marinade over fish, rubbing into cuts and cavity."
+        },
+        {
+          "number": 10,
+          "step": "Reserve remaining quarter of marinade separately in a small cup for basting later."
+        },
+        {
+          "number": 11,
+          "step": "Cover dish with plastic wrap and marinate in refrigerator for twenty-five minutes."
+        },
+        {
+          "number": 12,
+          "step": "Preheat oven to four hundred twenty-five degrees Fahrenheit with rack set in center."
+        },
+        {
+          "number": 13,
+          "step": "Slice fresh orange and one lime into thin round wheels for roasting sheet bed."
+        },
+        {
+          "number": 14,
+          "step": "Peel red onion and slice into thick half-ring rounds to layer with citrus wheels."
+        },
+        {
+          "number": 15,
+          "step": "Slice jalapeno peppers lengthwise into half strips, keeping or removing seeds as preferred."
+        },
+        {
+          "number": 16,
+          "step": "Line a large rimmed baking sheet with heavy parchment paper for non-stick easy cleanup."
+        },
+        {
+          "number": 17,
+          "step": "Arrange citrus wheels, sliced red onion, and jalapenos into a bed on baking sheet."
+        },
+        {
+          "number": 18,
+          "step": "Toss cherry tomatoes and capers with a splash of olive oil and scatter on sheet."
+        },
+        {
+          "number": 19,
+          "step": "Scatter half of fresh cilantro sprigs and bay leaves over vegetable layer on tray."
+        },
+        {
+          "number": 20,
+          "step": "Carefully transfer marinated snapper from dish and place directly onto citrus bed."
+        },
+        {
+          "number": 21,
+          "step": "Stuff fish cavity with remaining fresh cilantro sprigs and extra citrus slices."
+        },
+        {
+          "number": 22,
+          "step": "Spoon remaining marinade over fish surface right before placing tray into hot oven."
+        }
+      ]
+    },
+    {
+      "name": "Roasting and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Roast snapper uncovered in preheated oven at four hundred twenty-five degrees for fifteen minutes."
+        },
+        {
+          "number": 2,
+          "step": "Remove baking sheet carefully and brush fish top with reserved basting marinade mixture."
+        },
+        {
+          "number": 3,
+          "step": "Return fish to oven and continue roasting for another twelve minutes until flesh flakes."
+        },
+        {
+          "number": 4,
+          "step": "Switch oven setting to broiler high for final two minutes to crisp top skin nicely."
+        },
+        {
+          "number": 5,
+          "step": "Remove snapper from oven once internal temperature reaches one hundred forty-five degrees."
+        },
+        {
+          "number": 6,
+          "step": "Let fish rest on baking sheet for five minutes so juices redistribute through flesh."
+        },
+        {
+          "number": 7,
+          "step": "Warm corn tortillas in a dry skillet over medium-high heat for thirty seconds per side."
+        },
+        {
+          "number": 8,
+          "step": "Wrap warm tortillas tightly in a clean cloth towel to keep soft and hot at table."
+        },
+        {
+          "number": 9,
+          "step": "Slice fresh avocado into thin wedges and sprinkle lightly with fresh lime juice."
+        },
+        {
+          "number": 10,
+          "step": "Thinly slice crisp radishes into fine rounds for fresh crunchy taco garnish topping."
+        },
+        {
+          "number": 11,
+          "step": "Transfer roasted fish gently using two large spatulas onto a large wooden platter."
+        },
+        {
+          "number": 12,
+          "step": "Spoon roasted citrus wheels, onions, and tomatoes around fish on serving platter."
+        },
+        {
+          "number": 13,
+          "step": "Pour pan juices through a small spoon over roasted snapper for gloss and moisture."
+        },
+        {
+          "number": 14,
+          "step": "Garnish platter generously with fresh cilantro leaves and fresh lime wedges surrounding fish."
+        },
+        {
+          "number": 15,
+          "step": "Serve fish platter hot alongside warmed corn tortillas, avocado, and radish slices."
+        },
+        {
+          "number": 16,
+          "step": "Flake fish meat away from bones easily using serving forks to fill individual tacos."
+        },
+        {
+          "number": 17,
+          "step": "Top fish tacos with roasted onions, tomatoes, avocado slices, and extra squeezed lime juice."
+        },
+        {
+          "number": 18,
+          "step": "Serve extra pan drippings in a small bowl alongside for dipping warm corn tortillas."
+        },
+        {
+          "number": 19,
+          "step": "Pair roasted fish with cold Mexican lager or refreshing hibiscus iced tea during dinner."
+        },
+        {
+          "number": 20,
+          "step": "Clean remaining fish flesh off frame promptly and store leftovers in airtight container."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy leftover roasted fish cold in salads or gently reheated within two days."
+        }
+      ]
+    }
+  ]
+}

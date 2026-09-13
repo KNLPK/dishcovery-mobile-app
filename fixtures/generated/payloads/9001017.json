@@ -1,0 +1,553 @@
+{
+  "id": 9001017,
+  "title": "One-Pot Japanese Barley and Edamame Grain Salad",
+  "image": "generated://dishcovery/9001017.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This vibrant <b>Japanese barley grain salad</b> is cooked entirely in one pot for maximum efficiency and deep flavor integration. Chewy pressed barley and short-grain rice absorb a savory broth seasoned with dashi powder, soy sauce, and mirin, forming a satisfying grain base. Shelled edamame, tender shiitake mushrooms, shredded carrots, and crisp radishes are stirred into the hot pot during the final steam phase, allowing their textures to blend seamlessly. Finished with a ginger sesame dressing, toasted nori strips, and sliced scallions, this salad delivers a refreshing balance of savory umami and crisp vegetables. Serving it lukewarm or chilled makes it a versatile dish suitable for easy weeknight dinners or healthy meal prep lunches. Cooking the grains together in a single pot ensures minimal cleanup while infusing every kernel with subtle Japanese aromas. Rich in dietary fiber, plant proteins, and essential minerals, this grain salad showcases classic Japanese pantry staples in a simple modern presentation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15.5
+      },
+      {
+        "name": "Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 12.3
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.5
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.3
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.1
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.9
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Choline",
+        "amount": 26,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4.7
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 40,
+        "unit": "g",
+        "percentOfDailyNeeds": 14.5
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 2.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 150,
+      "unit": "g",
+      "name": "pressed pearl barley"
+    },
+    {
+      "id": 90001,
+      "amount": 100,
+      "unit": "g",
+      "name": "japanese short grain rice"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "shelled edamame"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "fresh shiitake mushrooms"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "medium",
+      "name": "carrot"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "whole",
+      "name": "red radishes"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "stalks",
+      "name": "scallions"
+    },
+    {
+      "id": 90007,
+      "amount": 500,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vegetarian dashi powder"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "low sodium soy sauce"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grated fresh ginger"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "toasted white sesame seeds"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "toasted black sesame seeds"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "sheet",
+      "name": "nori seaweed"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "avocado oil"
+    },
+    {
+      "id": 90020,
+      "amount": 50,
+      "unit": "g",
+      "name": "pickled red ginger"
+    },
+    {
+      "id": 90021,
+      "amount": 100,
+      "unit": "g",
+      "name": "cucumber"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "shiso leaves"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "togarashi spice"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ponzu sauce"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "One Pot Grain Simmering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse pressed pearl barley and short grain rice together under cold water until clear."
+        },
+        {
+          "number": 2,
+          "step": "Drain rinsed grains in a fine mesh strainer to eliminate all remaining tap water."
+        },
+        {
+          "number": 3,
+          "step": "Heat avocado oil in a heavy bottomed Dutch oven or pot over medium flame for one minute."
+        },
+        {
+          "number": 4,
+          "step": "Add rinsed grains into pot and stir fry for two minutes until lightly toasted and dry."
+        },
+        {
+          "number": 5,
+          "step": "Pour filtered water into pot along with vegetarian dashi powder, soy sauce, and mirin."
+        },
+        {
+          "number": 6,
+          "step": "Stir liquid thoroughly with a wooden spatula to dissolve dashi powder and combine flavor."
+        },
+        {
+          "number": 7,
+          "step": "Bring pot liquid to a rapid rolling boil over high heat without covering with lid."
+        },
+        {
+          "number": 8,
+          "step": "Reduce heat to low instantly and cover pot tightly with a well fitting heavy lid."
+        },
+        {
+          "number": 9,
+          "step": "Simmer grains undisturbed for twenty minutes until water is absorbed and grains soft."
+        },
+        {
+          "number": 10,
+          "step": "Slice shiitake mushroom caps into thin strips while grains continue simmering in pot."
+        },
+        {
+          "number": 11,
+          "step": "Remove lid quickly after twenty minutes and scatter shiitake slices over steaming grains."
+        },
+        {
+          "number": 12,
+          "step": "Add frozen shelled edamame directly on top of shiitake layer without stirring into grains."
+        },
+        {
+          "number": 13,
+          "step": "Replace tight fitting lid and let steam on low heat for an additional five minutes."
+        },
+        {
+          "number": 14,
+          "step": "Turn off heat source completely and allow pot to sit undisturbed for ten minutes."
+        }
+      ]
+    },
+    {
+      "name": "Dressing and Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk grated fresh ginger, rice vinegar, toasted sesame oil, and maple syrup in small bowl."
+        },
+        {
+          "number": 2,
+          "step": "Stir sea salt and ponzu sauce into dressing mixture until sugar and salt dissolve."
+        },
+        {
+          "number": 3,
+          "step": "Peel carrot and shred finely into matchsticks using a Japanese mandoline or box grater."
+        },
+        {
+          "number": 4,
+          "step": "Trim radishes and slice into paper thin circular rounds using a sharp utility knife."
+        },
+        {
+          "number": 5,
+          "step": "Dice fresh cucumber into small quarter inch cubes after removing watery seed core."
+        },
+        {
+          "number": 6,
+          "step": "Slice scallions thinly on bias and set green and white parts aside in separate dishes."
+        },
+        {
+          "number": 7,
+          "step": "Chop shiso leaves into thin ribbons to add aromatic herbal brightness to salad."
+        },
+        {
+          "number": 8,
+          "step": "Cut nori sheet into thin two inch long strips using clean kitchen shears for garnish."
+        },
+        {
+          "number": 9,
+          "step": "Drain pickled red ginger slices on paper towels and chop coarsely for topping."
+        },
+        {
+          "number": 10,
+          "step": "Toast white and black sesame seeds in a dry skillet over medium heat for two minutes."
+        },
+        {
+          "number": 11,
+          "step": "Remove pot lid and fluff grain and mushroom mixture gently using a wooden rice paddle."
+        },
+        {
+          "number": 12,
+          "step": "Transfer hot fluffed grains and vegetables from pot into a wide ceramic salad bowl."
+        },
+        {
+          "number": 13,
+          "step": "Pour prepared ginger sesame dressing evenly over warm grains while fluffing continuously."
+        },
+        {
+          "number": 14,
+          "step": "Allow dressed grain mixture to cool to room temperature for fifteen minutes before assembly."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fold shredded carrots, sliced radishes, and diced cucumber into cooled grain bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add sliced scallion whites and shiso ribbons to grain mixture and toss evenly."
+        },
+        {
+          "number": 3,
+          "step": "Taste salad and adjust seasoning with an extra drizzle of soy sauce if desired."
+        },
+        {
+          "number": 4,
+          "step": "Divide dressed grain salad evenly among four chilled low wide rimmed serving bowls."
+        },
+        {
+          "number": 5,
+          "step": "Mound salad slightly in center of each bowl for an attractive visual presentation."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle toasted white and black sesame seeds generously over top of each grain portion."
+        },
+        {
+          "number": 7,
+          "step": "Scatter scallion greens and chopped pickled red ginger over center of each grain mound."
+        },
+        {
+          "number": 8,
+          "step": "Arrange nori seaweed strips delicately across top of each prepared salad bowl."
+        },
+        {
+          "number": 9,
+          "step": "Dust a pinch of Japanese togarashi spice around edge of grains for mild chili heat."
+        },
+        {
+          "number": 10,
+          "step": "Wipe bowl edges clean with a damp napkin to remove stray grains or dressing spots."
+        },
+        {
+          "number": 11,
+          "step": "Serve grain salad at room temperature or chill for one hour for a refreshing cool meal."
+        },
+        {
+          "number": 12,
+          "step": "Pair salad with warm green tea or chilled mugicha barley tea for a complete meal."
+        },
+        {
+          "number": 13,
+          "step": "Store any extra leftover grain salad in airtight containers in refrigerator for three days."
+        },
+        {
+          "number": 14,
+          "step": "Toss leftovers lightly before eating chilled or bringing back to room temperature."
+        }
+      ]
+    }
+  ]
+}

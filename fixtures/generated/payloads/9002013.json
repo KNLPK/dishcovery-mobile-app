@@ -1,0 +1,852 @@
+{
+  "id": 9002013,
+  "title": "Brazilian Cassava Cheese Flatbread Weeknight Skillet Special",
+  "image": "generated://dishcovery/9002013.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "This fast <b>Brazilian cassava flatbread</b> offers a weeknight-friendly take on traditional cheese-infused skillet breads. Prepared with tapioca flour and sour cassava starch, the dough comes together in minutes without yeast or rising time. Blended with sharp queen cheese, salty parmesan, and milk, it sears in a hot pan to form a crispy exterior with a signature chewy center. Stuffed or topped with creamy catupiry-style spread, garlic butter, and herbs, it brings dynamic street-food flavor to your busy dinner schedule. Skillet-seared on the stovetop, these flatbreads require minimal equipment and produce maximum texture contrast. Pair them with grilled meats, fresh salads, or enjoy them hot straight from the pan. The simplicity of stirring the batter makes this recipe an ideal solution when time is short but authentic Latin American comfort food is desired. Customize with your favorite fresh toppings or garlic oil to make weeknight meals genuinely exciting.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 44,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sugar",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 50,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sodium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Folate",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Saturated Fatty Acids",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Net Carbohydrates",
+        "amount": 42.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "tapioca flour"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sour cassava starch"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shredded mozzarella cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "grated parmesan cheese"
+    },
+    {
+      "id": 90004,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "whole milk"
+    },
+    {
+      "id": 90005,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "cream cheese"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "shredded provolone cheese"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "ricotta cheese"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped fresh oregano"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced green olives"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90027,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "melted butter"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "dried basil"
+    },
+    {
+      "id": 90030,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90032,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "canned sweet corn"
+    },
+    {
+      "id": 90033,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "grated queso fresco"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "avocado oil"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Mix Cassava Batter",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure out the tapioca flour and sour cassava starch into a large mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Whisk the dry cassava starches together with salt, baking powder, and garlic powder."
+        },
+        {
+          "number": 3,
+          "step": "Heat the whole milk and vegetable oil in a small saucepan over medium heat until warm."
+        },
+        {
+          "number": 4,
+          "step": "Pour the warm milk mixture into the dry cassava starch mixture while stirring rapidly."
+        },
+        {
+          "number": 5,
+          "step": "Allow the scalded cassava flour mixture to cool for three minutes until warm to touch."
+        },
+        {
+          "number": 6,
+          "step": "Crack the eggs into the bowl one at a time, whisking continuously to integrate completely."
+        },
+        {
+          "number": 7,
+          "step": "Add the shredded mozzarella cheese, grated parmesan, and shredded provolone to the mixture."
+        },
+        {
+          "number": 8,
+          "step": "Stir in the cream cheese and ricotta cheese to create a thick pliable cheese batter."
+        },
+        {
+          "number": 9,
+          "step": "Fold in chopped fresh parsley, chopped chives, and dried oregano for green herb flavor."
+        },
+        {
+          "number": 10,
+          "step": "Add black pepper, onion powder, and chili flakes to elevate the cheesy batter notes."
+        },
+        {
+          "number": 11,
+          "step": "Mix in the sweet corn and sliced green olives evenly throughout the flatbread dough."
+        },
+        {
+          "number": 12,
+          "step": "Check the batter consistency, adding one tablespoon of water if the dough is too stiff."
+        },
+        {
+          "number": 13,
+          "step": "Rest the cassava cheese flatbread batter at room temperature for five minutes total."
+        },
+        {
+          "number": 14,
+          "step": "Mince garlic cloves finely on a cutting board to prepare the fragrant garlic butter topping."
+        },
+        {
+          "number": 15,
+          "step": "Melt two tablespoons of unsalted butter in a small saucepan over medium-low stove heat."
+        },
+        {
+          "number": 16,
+          "step": "Sauté minced garlic in the butter for sixty seconds until fragrant but not browned."
+        },
+        {
+          "number": 17,
+          "step": "Stir fresh chopped oregano and sea salt flakes into the warm melted garlic butter mixture."
+        },
+        {
+          "number": 18,
+          "step": "Set the garlic butter saucepan aside in a warm location near the cooking skillet station."
+        },
+        {
+          "number": 19,
+          "step": "Preheat a heavy ten-inch cast iron skillet or nonstick griddle pan over medium-high heat."
+        },
+        {
+          "number": 20,
+          "step": "Brush the skillet surface lightly with avocado oil using a silicone pastry brush tool."
+        },
+        {
+          "number": 21,
+          "step": "Verify the skillet pan is hot enough by dropping a drop of water onto the cooking surface."
+        }
+      ]
+    },
+    {
+      "name": "Pan Fry Flatbreads",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Scoop half a cup of cassava cheese batter directly onto the center of the hot skillet."
+        },
+        {
+          "number": 2,
+          "step": "Spread the batter quickly into a six-inch round flatbread shape using the back of a spoon."
+        },
+        {
+          "number": 3,
+          "step": "Cook the cassava flatbread for three minutes undisturbed until the bottom is golden brown."
+        },
+        {
+          "number": 4,
+          "step": "Observe small bubbles forming on the top surface as the cassava starches set and expand."
+        },
+        {
+          "number": 5,
+          "step": "Flip the flatbread carefully using a wide spatula to sear the second side for two minutes."
+        },
+        {
+          "number": 6,
+          "step": "Press down gently on the flatbread edges to ensure even heat contact with the skillet."
+        },
+        {
+          "number": 7,
+          "step": "Brush top of the hot flatbread with garlic butter while the second side cooks through."
+        },
+        {
+          "number": 8,
+          "step": "Transfer the cooked cheese flatbread to a warm wire rack lined with parchment paper."
+        },
+        {
+          "number": 9,
+          "step": "Repeat the cooking process with remaining batter, greasing skillet lightly between batches."
+        },
+        {
+          "number": 10,
+          "step": "Keep cooked cassava flatbreads warm in a two hundred degree oven while finishing batches."
+        },
+        {
+          "number": 11,
+          "step": "Adjust stove burner heat to medium if flatbreads are browning too rapidly on outside."
+        },
+        {
+          "number": 12,
+          "step": "Dust each hot cooked flatbread lightly with grated queso fresco cheese while warm."
+        },
+        {
+          "number": 13,
+          "step": "Ensure all flatbread rounds have uniform golden spots and crispy chewy cheese edges."
+        },
+        {
+          "number": 14,
+          "step": "Combine diced tomatoes, chopped cilantro, and lime juice in a bowl for fresh salsa."
+        },
+        {
+          "number": 15,
+          "step": "Season the quick weeknight tomato salsa with sea salt flakes and black pepper to taste."
+        },
+        {
+          "number": 16,
+          "step": "Prepare clean serving plates and stack warm cooked flatbreads neatly in center."
+        },
+        {
+          "number": 17,
+          "step": "Drizzle remaining garlic butter over the warm stack of cooked cassava cheese flatbreads."
+        },
+        {
+          "number": 18,
+          "step": "Scatter toasted sesame seeds and chopped chives generously over top of flatbread stack."
+        },
+        {
+          "number": 19,
+          "step": "Serve flatbreads immediately while cheese center remains soft, stretchy, and chewy."
+        },
+        {
+          "number": 20,
+          "step": "Pair warm cassava breads with fresh salad or grilled protein for complete weeknight meal."
+        },
+        {
+          "number": 21,
+          "step": "Store leftover flatbreads in an airtight container in refrigerator for up to three days."
+        }
+      ]
+    },
+    {
+      "name": "Prepare Toppings",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Dice fresh tomatoes into small neat cubes to create a bright weeknight salsa topping."
+        },
+        {
+          "number": 2,
+          "step": "Chop fresh cilantro and green chives finely on a wooden cutting board for fresh herbal garnish."
+        },
+        {
+          "number": 3,
+          "step": "Whisk extra cream cheese and heavy cream together in a cup to make quick catupiry drizzle."
+        },
+        {
+          "number": 4,
+          "step": "Season the cream cheese drizzle with lemon zest, garlic powder, and sea salt flakes."
+        },
+        {
+          "number": 5,
+          "step": "Place quick cream sauce into a squeeze bottle or small bowl for easy table presentation."
+        },
+        {
+          "number": 6,
+          "step": "Toast sesame seeds in a dry pan over low heat for two minutes until light golden brown."
+        },
+        {
+          "number": 7,
+          "step": "Slice remaining lime into wedges to serve alongside the warm cheesy Brazilian flatbreads."
+        },
+        {
+          "number": 8,
+          "step": "Arrange fresh salsa, cream drizzle, and lime wedges in small bowls near flatbread stack."
+        },
+        {
+          "number": 9,
+          "step": "Check that all toppings are well balanced in flavor to complement rich cheese bread."
+        },
+        {
+          "number": 10,
+          "step": "Sprinkle cayenne pepper lightly over fresh tomato salsa for subtle background weeknight heat."
+        },
+        {
+          "number": 11,
+          "step": "Reheat cold flatbreads in a hot dry skillet for two minutes to restore crispy texture."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy the fast assembly process of these delicious traditional Brazilian cassava flatbreads."
+        },
+        {
+          "number": 13,
+          "step": "Clean prep bowls and skillet promptly after dinner for easy weeknight kitchen cleanup."
+        },
+        {
+          "number": 14,
+          "step": "Keep unused tapioca flour in a sealed dry container in pantry for future weeknight meals."
+        },
+        {
+          "number": 15,
+          "step": "Double the cheese batter recipe when feeding a larger family or entertaining guests."
+        },
+        {
+          "number": 16,
+          "step": "Appreciate the crispy chewy gluten-free texture of authentic cassava starch pan baking."
+        },
+        {
+          "number": 17,
+          "step": "Experiment with adding bacon bits or herbs into batter for custom weeknight flavor variations."
+        },
+        {
+          "number": 18,
+          "step": "Serve additional sliced avocado alongside warm flatbreads for extra creamy weeknight richness."
+        },
+        {
+          "number": 19,
+          "step": "Enjoy this rapid Brazilian skillet recipe as a go-to favorite during busy work weeks."
+        },
+        {
+          "number": 20,
+          "step": "Share warm cheesy flatbread slices directly from skillet with family and dining guests."
+        },
+        {
+          "number": 21,
+          "step": "Finalize weeknight meal service with fresh drinks and delicious homemade cassava flatbreads."
+        }
+      ]
+    },
+    {
+      "name": "Final Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut warm cassava flatbreads into triangular wedges using a sharp pizza cutter wheel."
+        },
+        {
+          "number": 2,
+          "step": "Arrange flatbread wedges in a fan pattern on a large wooden serving platter board."
+        },
+        {
+          "number": 3,
+          "step": "Spoon fresh tomato salsa over center of flatbread platter for colorful weeknight display."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle creamy garlic sauce across warm flatbread wedges right before bringing to table."
+        },
+        {
+          "number": 5,
+          "step": "Garnish with fresh parsley sprigs and red chili flakes for inviting visual appeal."
+        },
+        {
+          "number": 6,
+          "step": "Serve immediately to enjoy optimal elastic cheese stretch and crispy cassava edges."
+        },
+        {
+          "number": 7,
+          "step": "Provide extra napkins as these hot cheesy skillet flatbreads are delightfully hands-on."
+        },
+        {
+          "number": 8,
+          "step": "Pair with traditional Brazilian guarana soda or lime juice for authentic meal theme."
+        },
+        {
+          "number": 9,
+          "step": "Reheat any leftovers in toaster oven for three minutes to bring back crispy crunch."
+        },
+        {
+          "number": 10,
+          "step": "Keep cassava dough recipe handy for fast impromptu weeknight entertaining needs."
+        },
+        {
+          "number": 11,
+          "step": "Appreciate how few simple pantry staples create such satisfying authentic street food."
+        },
+        {
+          "number": 12,
+          "step": "Vary cheese combinations using fontina, gouda, or cheddar depending on household supply."
+        },
+        {
+          "number": 13,
+          "step": "Ensure skillet surface remains lightly oiled throughout pan frying for crispest crust."
+        },
+        {
+          "number": 14,
+          "step": "Encourage guests to dip flatbread wedges into hot salsa or garlic butter sauces."
+        },
+        {
+          "number": 15,
+          "step": "Celebrate quick successful weeknight dinner preparation with delicious homemade results."
+        },
+        {
+          "number": 16,
+          "step": "Clean work surfaces and enjoy relaxing after preparing this fast delicious flatbread."
+        },
+        {
+          "number": 17,
+          "step": "Store extra starch securely as tapioca absorbs kitchen humidity over extended storage."
+        },
+        {
+          "number": 18,
+          "step": "Enjoy rich savory satisfaction of fresh homemade Brazilian cassava cheese flatbreads."
+        },
+        {
+          "number": 19,
+          "step": "Make this skillet dish a regular rotation item for quick flavorful weeknight dinners."
+        },
+        {
+          "number": 20,
+          "step": "Finish weeknight dinner service with satisfying memories of rich Latin street flavors."
+        },
+        {
+          "number": 21,
+          "step": "Wrap remaining wedges tightly in foil to preserve softness for next day lunch treats."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,858 @@
+{
+  "id": 9002006,
+  "title": "Smoked Ricotta Gnocchi with Sage Butter",
+  "image": "generated://dishcovery/9002006.jpg",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "summary": "This delicate <b>Italian dumpling</b> course offers an unforgettable taste experience centered around a distinct <b>smoked element</b>. Whole milk ricotta cheese is cold-smoked over sweet applewood chips before being folded with egg yolks, freshly grated Parmigiano-Reggiano, nutmeg, and type 00 flour. The resulting tender gnocchi dumplings melt in your mouth, carrying a subtle whisper of woodsmoke that elevates the classic dish. Gently poached in salted water, the dumplings are tossed in a golden brown butter sauce crispy with fresh garden sage leaves and toasted hazelnuts. A squeeze of fresh lemon juice cuts through the rich butter while cracked black pepper adds warmth. Elegant enough for a formal dinner party yet simple to prepare, this dish beautifully marries rustic mountain woodfire notes with refined Italian pasta craftsmanship. Rich in calcium, high-quality dairy protein, and comforting flavors, this plate brings cozy luxury to any dining table.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 119
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 2.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Calcium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 950,
+        "unit": "IU",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "smoked whole milk ricotta"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "type 00 flour"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "large",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90003,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "grated parmigiano-reggiano"
+    },
+    {
+      "id": 90004,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "freshly grated nutmeg"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cracked black pepper"
+    },
+    {
+      "id": 90007,
+      "amount": 6,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90008,
+      "amount": 16,
+      "unit": "whole",
+      "name": "fresh sage leaves"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "toasted hazelnuts"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pecorino romano"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white truffle oil"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "applewood chips"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pasta cooking water"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "flaky sea salt"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90029,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "small",
+      "name": "shallot"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "balsamic reduction"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked salt"
+    },
+    {
+      "id": 90035,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chives"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cayenne"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "bread crumbs"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "rosemary"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sugar"
+    },
+    {
+      "id": 90044,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "ice water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Smoking Ricotta and Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Line a fine mesh strainer with cheesecloth and place whole milk ricotta inside to drain excess whey."
+        },
+        {
+          "number": 2,
+          "step": "Let ricotta drain over a bowl in refrigerator for two hours until very firm and dry."
+        },
+        {
+          "number": 3,
+          "step": "Set up stovetop smoker with applewood chips according to manufacturer instructions."
+        },
+        {
+          "number": 4,
+          "step": "Spread drained ricotta across shallow foil pan and cold-smoke over low heat for fifteen minutes."
+        },
+        {
+          "number": 5,
+          "step": "Remove smoked ricotta from smoker and let cool completely at room temperature."
+        },
+        {
+          "number": 6,
+          "step": "Grate fresh Parmigiano-Reggiano and Pecorino Romano finely using microplane grater."
+        },
+        {
+          "number": 7,
+          "step": "Separate two egg yolks from whites into a small glass bowl, discarding egg whites."
+        },
+        {
+          "number": 8,
+          "step": "Grate fresh whole nutmeg using microplane into small spice pinch dish."
+        },
+        {
+          "number": 9,
+          "step": "Coarsely chop toasted hazelnuts into crunchy medium pieces on cutting board."
+        },
+        {
+          "number": 10,
+          "step": "Wash fresh sage leaves gently under cold water and pat completely dry with paper towel."
+        },
+        {
+          "number": 11,
+          "step": "Zest fresh lemon finely with microplane and squeeze one tablespoon juice into cup."
+        },
+        {
+          "number": 12,
+          "step": "Mince small shallot finely to add subtle aromatic base to brown butter sauce later."
+        },
+        {
+          "number": 13,
+          "step": "Dust clean rimmed baking sheet generously with semolina flour to receive shaped gnocchi."
+        },
+        {
+          "number": 14,
+          "step": "Measure out type 00 flour carefully, sifting it through fine strainer into bowl."
+        },
+        {
+          "number": 15,
+          "step": "Set out white truffle oil, balsamic reduction, and flaky sea salt near plating station."
+        },
+        {
+          "number": 16,
+          "step": "Prepare large pot filled with four quarts of fresh cold water for boiling gnocchi."
+        },
+        {
+          "number": 17,
+          "step": "Cover workspace with clean parchment paper for shaping and cutting tender gnocchi ropes."
+        },
+        {
+          "number": 18,
+          "step": "Chop fresh parsley and chives finely, storing herbs together in small chilled cup."
+        },
+        {
+          "number": 19,
+          "step": "Verify smoked ricotta has cooled completely before mixing into dumpling dough mix."
+        },
+        {
+          "number": 20,
+          "step": "Organize all prepped ingredients, tools, and utensils cleanly near main cooking stove."
+        },
+        {
+          "number": 21,
+          "step": "Fill large bowl with ice water to set up cold bath if pre-chilling cooked dumplings."
+        }
+      ]
+    },
+    {
+      "name": "Dough and Shaping",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place cooled smoked ricotta into large stainless steel mixing bowl for dough preparation."
+        },
+        {
+          "number": 2,
+          "step": "Add egg yolks, grated Parmigiano-Reggiano, nutmeg, sea salt, and white pepper to ricotta."
+        },
+        {
+          "number": 3,
+          "step": "Stir ricotta mixture gently with rubber spatula until completely smooth and unified."
+        },
+        {
+          "number": 4,
+          "step": "Sift half of type 00 flour over ricotta mix, folding gently with light touch."
+        },
+        {
+          "number": 5,
+          "step": "Sift remaining flour over dough, mixing just until flour disappears into soft dough."
+        },
+        {
+          "number": 6,
+          "step": "Be careful not to overwork gnocchi dough to preserve light tender dumpling texture."
+        },
+        {
+          "number": 7,
+          "step": "Dust work surface lightly with type 00 flour and turn dough out gently onto surface."
+        },
+        {
+          "number": 8,
+          "step": "Divide dough into four equal quarter portions using bench scraper tool cleanly."
+        },
+        {
+          "number": 9,
+          "step": "Roll one dough portion gently under palms into long three-quarter-inch thick rope."
+        },
+        {
+          "number": 10,
+          "step": "Cut rope into three-quarter-inch individual gnocchi pillows using floured bench scraper."
+        },
+        {
+          "number": 11,
+          "step": "Roll each cut dumpling lightly over tines of gnocchi board to form classic ridges."
+        },
+        {
+          "number": 12,
+          "step": "Transfer shaped smoked ricotta gnocchi onto semolina-dusted baking sheet in single layer."
+        },
+        {
+          "number": 13,
+          "step": "Repeat rolling and cutting process for remaining three portions of tender ricotta dough."
+        },
+        {
+          "number": 14,
+          "step": "Ensure shaped gnocchi do not touch each other on baking sheet to prevent sticking."
+        },
+        {
+          "number": 15,
+          "step": "Dust top of shaped gnocchi lightly with extra semolina flour for protective coating."
+        },
+        {
+          "number": 16,
+          "step": "Refrigerate shaped gnocchi for fifteen minutes to help them hold shape during boiling."
+        },
+        {
+          "number": 17,
+          "step": "Check that all dumplings are uniform in size to guarantee even cooking in water."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra type 00 flour nearby in case dough feels too sticky during shaping phase."
+        },
+        {
+          "number": 19,
+          "step": "Wipe work counter clean of flour dust while gnocchi chill briefly in refrigerator."
+        },
+        {
+          "number": 20,
+          "step": "Bring large pot of salted water to rolling boil over high heat on stovetop burner."
+        },
+        {
+          "number": 21,
+          "step": "Prepare wide skillet on adjacent burner for creating crispy sage brown butter sauce."
+        }
+      ]
+    },
+    {
+      "name": "Boiling Gnocchi",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add two tablespoons of kosher salt into boiling water pot, stirring to dissolve fully."
+        },
+        {
+          "number": 2,
+          "step": "Melt six tablespoons of unsalted butter in wide skillet over medium heat until bubbling."
+        },
+        {
+          "number": 3,
+          "step": "Add minced shallot, garlic cloves, and fresh sage leaves into melting pan butter."
+        },
+        {
+          "number": 4,
+          "step": "Cook butter mixture for three minutes until butter solids turn nutty golden brown color."
+        },
+        {
+          "number": 5,
+          "step": "Carefully transfer half of chilled smoked ricotta gnocchi into boiling water pot."
+        },
+        {
+          "number": 6,
+          "step": "Stir boiling water gently once with wooden spoon so gnocchi do not stick to bottom."
+        },
+        {
+          "number": 7,
+          "step": "Cook gnocchi until they float up to surface of boiling water, about two minutes."
+        },
+        {
+          "number": 8,
+          "step": "Allow floating gnocchi to simmer for thirty seconds more to ensure centers are hot."
+        },
+        {
+          "number": 9,
+          "step": "Use slotted spider utensil to transfer floating gnocchi directly into brown butter skillet."
+        },
+        {
+          "number": 10,
+          "step": "Drop remaining batch of chilled gnocchi carefully into boiling water pot to cook."
+        },
+        {
+          "number": 11,
+          "step": "Remove crispy sage leaves from skillet onto paper towel plate, leaving brown butter in pan."
+        },
+        {
+          "number": 12,
+          "step": "Stir second batch of floating gnocchi into brown butter skillet once fully cooked."
+        },
+        {
+          "number": 13,
+          "step": "Pour in quarter cup of starchy pasta cooking water into brown butter skillet to emulsify."
+        },
+        {
+          "number": 14,
+          "step": "Add lemon juice, lemon zest, white wine, and heavy cream to skillet, tossing gently."
+        },
+        {
+          "number": 15,
+          "step": "Swirl skillet over medium heat for one minute until sauce coats gnocchi in glossy sheen."
+        },
+        {
+          "number": 16,
+          "step": "Stir in baby spinach leaves until just wilted around warm brown butter dumpling mix."
+        },
+        {
+          "number": 17,
+          "step": "Taste butter sauce carefully and adjust seasoning with smoked salt and red pepper flakes."
+        },
+        {
+          "number": 18,
+          "step": "Turn off stove heat under gnocchi skillet once sauce is silky and perfectly bound."
+        },
+        {
+          "number": 19,
+          "step": "Ensure smoked ricotta dumplings remain whole and delicate without breaking in sauce."
+        },
+        {
+          "number": 20,
+          "step": "Warm shallow pasta bowls in 150 degree oven for five minutes before final plating."
+        },
+        {
+          "number": 21,
+          "step": "Prepare tongs and warm serving spoon for elegant portioning into individual bowls."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle smoked ricotta gnocchi and brown butter sauce evenly among four warm pasta bowls."
+        },
+        {
+          "number": 2,
+          "step": "Arrange tender dumplings neatly in center of each bowl, spooning pan reduction over."
+        },
+        {
+          "number": 3,
+          "step": "Top each bowl with reserved crispy sage leaves for striking green color contrast."
+        },
+        {
+          "number": 4,
+          "step": "Scatter coarsely chopped toasted hazelnuts over gnocchi for delightful crunchy bite."
+        },
+        {
+          "number": 5,
+          "step": "Grate extra Parmigiano-Reggiano and Pecorino Romano cheese over warm dumplings generously."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle light drops of white truffle oil and balsamic reduction around rim of bowls."
+        },
+        {
+          "number": 7,
+          "step": "Garnish each portion with chopped fresh parsley, chives, and light pinch of nutmeg."
+        },
+        {
+          "number": 8,
+          "step": "Finish each plate with sprinkle of flaky sea salt and freshly cracked black pepper."
+        },
+        {
+          "number": 9,
+          "step": "Wipe bowl rims clean with damp paper towel before carrying dishes to dining table."
+        },
+        {
+          "number": 10,
+          "step": "Serve immediately while gnocchi are piping hot and brown butter sauce is aromatic."
+        },
+        {
+          "number": 11,
+          "step": "Pair with crisp Italian Pinot Grigio or light Nebbiolo wine to balance smoked ricotta."
+        },
+        {
+          "number": 12,
+          "step": "Encourage guests to enjoy delicate texture and subtle woodsmoke flavor in each bite."
+        },
+        {
+          "number": 13,
+          "step": "Offer extra grated cheese and fresh pepper mill at table for individual guest preferences."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy sophisticated harmony of applewood smoke, brown butter, and crisp fried sage leaves."
+        },
+        {
+          "number": 15,
+          "step": "Clear bowls easily as guests finish every pillowy bite of this special dumpling dish."
+        },
+        {
+          "number": 16,
+          "step": "Store any unboiled leftover gnocchi frozen on baking sheet before packing into bags."
+        },
+        {
+          "number": 17,
+          "step": "Boil frozen gnocchi straight from freezer in salted water, adding one minute cook time."
+        },
+        {
+          "number": 18,
+          "step": "Store leftover brown butter sauce in small jar in fridge for up to four days."
+        },
+        {
+          "number": 19,
+          "step": "Reheat leftover sauce gently in small saucepan over low flame before drizzling on pasta."
+        },
+        {
+          "number": 20,
+          "step": "Celebrate artisanal Italian pasta making techniques enhanced by delicate wood smoking."
+        },
+        {
+          "number": 21,
+          "step": "Conclude elegant dinner course with refreshing citrus sorbet or espresso coffee service."
+        }
+      ]
+    }
+  ]
+}

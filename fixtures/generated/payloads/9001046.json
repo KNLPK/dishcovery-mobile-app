@@ -1,0 +1,553 @@
+{
+  "id": 9001046,
+  "title": "One-Pot French Burgundy Beef Chuck Braise",
+  "image": "generated://dishcovery/9001046.jpg",
+  "readyInMinutes": 150,
+  "servings": 6,
+  "summary": "This comforting French <b>one-pot beef braise</b> delivers classic bistro richness through a simplified single-vessel technique. Boneless beef chuck roast is seared to dark golden perfection before slow-simmering in full-bodied red Burgundy wine, rich beef bone broth, fresh thyme, and roasted root vegetables. Cooking everything inside a heavy Dutch oven seals in essential moisture and aromatics, resulting in melt-in-your-mouth tender meat coated in a glossy, savory reduction. Pearl onions, earthy cremini mushrooms, and sweet carrots absorb the complex wine reduction as it cooks over low heat. Ideal for Sunday family dinners, this rustic dish requires minimal active preparation while filling your kitchen with heavenly aromas. High in muscle-building protein, bioavailable iron, zinc, and B vitamins, it provides deep cold-weather nourishment. Serve over buttery egg noodles, creamy mashed potatoes, or alongside crusty French baguette slices to mop up every drop of velvety sauce.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2.5,
+      "unit": "lbs",
+      "name": "beef chuck roast"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cups",
+      "name": "burgundy red wine"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "cups",
+      "name": "beef bone broth"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "cup",
+      "name": "pearl onions"
+    },
+    {
+      "id": 90006,
+      "amount": 8,
+      "unit": "oz",
+      "name": "cremini mushrooms"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "large",
+      "name": "carrots cut thick"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "celery chopped"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion chopped"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90013,
+      "amount": 4,
+      "unit": "sprigs",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh rosemary"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "whole",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 4,
+      "unit": "slices",
+      "name": "thick cut bacon"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dijon mustard"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "worcestershire sauce"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cognac brandy"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Searing Base Ingredients",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat beef chuck roast completely dry with paper towels to ensure deep browning on surface."
+        },
+        {
+          "number": 2,
+          "step": "Cut beef into uniform two-inch cubes and season generously with sea salt and black pepper."
+        },
+        {
+          "number": 3,
+          "step": "Dice thick cut bacon into small pieces and place in heavy Dutch oven over medium heat."
+        },
+        {
+          "number": 4,
+          "step": "Render bacon pieces for six minutes until crispy and golden brown fat coats pan bottom."
+        },
+        {
+          "number": 5,
+          "step": "Remove crispy bacon bits with slotted spoon onto paper towel lined plate leaving fat in pot."
+        },
+        {
+          "number": 6,
+          "step": "Increase heat to medium-high and sear beef cubes in small batches without crowding pan."
+        },
+        {
+          "number": 7,
+          "step": "Turn beef cubes every two minutes to brown all sides evenly into deep brown crust."
+        },
+        {
+          "number": 8,
+          "step": "Transfer seared beef cubes onto plate alongside crispy bacon while maintaining rendered fat."
+        },
+        {
+          "number": 9,
+          "step": "Add chopped yellow onion, celery, and sliced carrots into hot Dutch oven fat."
+        },
+        {
+          "number": 10,
+          "step": "Sauté vegetables for five minutes until lightly browned around edges and softened slightly."
+        },
+        {
+          "number": 11,
+          "step": "Stir minced garlic and tomato paste into vegetables and cook for sixty seconds until fragrant."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle all purpose flour over vegetables and stir constantly to cook out raw flour taste."
+        },
+        {
+          "number": 13,
+          "step": "Pour cognac brandy into pot to deglaze, scraping up browned fond from bottom with wooden spoon."
+        },
+        {
+          "number": 14,
+          "step": "Simmer brandy for two minutes until liquid evaporates completely leaving rich flavor base."
+        }
+      ]
+    },
+    {
+      "name": "Braising Phase",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour Burgundy red wine into Dutch oven while stirring vegetable base continuously."
+        },
+        {
+          "number": 2,
+          "step": "Add beef bone broth, Dijon mustard, and Worcestershire sauce into pot and bring to boil."
+        },
+        {
+          "number": 3,
+          "step": "Return seared beef cubes and cooked bacon bits back into simmering liquid in Dutch oven."
+        },
+        {
+          "number": 4,
+          "step": "Tie fresh thyme, rosemary sprigs, and bay leaves together tightly using kitchen twine."
+        },
+        {
+          "number": 5,
+          "step": "Submerge herb bundle into braising liquid alongside beef and root vegetable mixture."
+        },
+        {
+          "number": 6,
+          "step": "Preheat oven to 325 degrees Fahrenheit while braising liquid comes to steady simmer."
+        },
+        {
+          "number": 7,
+          "step": "Cover Dutch oven tightly with heavy lid to seal in internal moisture and cooking steam."
+        },
+        {
+          "number": 8,
+          "step": "Transfer covered Dutch oven onto center rack of preheated oven to braise slowly."
+        },
+        {
+          "number": 9,
+          "step": "Braise beef undisturbed for two full hours until meat yields easily when pierced with fork."
+        },
+        {
+          "number": 10,
+          "step": "Heat unsalted butter in separate skillet over medium burner to prepare mushrooms and onions."
+        },
+        {
+          "number": 11,
+          "step": "Add peeled pearl onions and quartered cremini mushrooms to skillet with pinch of salt."
+        },
+        {
+          "number": 12,
+          "step": "Sauté mushrooms and onions for eight minutes until golden brown and caramelization appears."
+        },
+        {
+          "number": 13,
+          "step": "Carefully remove hot Dutch oven from main oven using heavy silicone oven mitts."
+        },
+        {
+          "number": 14,
+          "step": "Add sautéed mushrooms and pearl onions into Dutch oven stirring gently to incorporate."
+        }
+      ]
+    },
+    {
+      "name": "Reduction and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Return covered Dutch oven to main oven for thirty final braising minutes until very tender."
+        },
+        {
+          "number": 2,
+          "step": "Remove pot from main oven and skim excess rendered oil off sauce surface with spoon."
+        },
+        {
+          "number": 3,
+          "step": "Discard herb bundle carefully using kitchen tongs and set pot over medium stovetop flame."
+        },
+        {
+          "number": 4,
+          "step": "Mix cornstarch with cold water in small cup to make smooth slurry for thickening sauce."
+        },
+        {
+          "number": 5,
+          "step": "Whisk slurry slowly into braising liquid and simmer for three minutes until glossy sauce thickens."
+        },
+        {
+          "number": 6,
+          "step": "Season braise with ground nutmeg, additional sea salt, and black pepper to match taste."
+        },
+        {
+          "number": 7,
+          "step": "Turn off stovetop heat source and let beef braise rest uncovered for ten full minutes."
+        },
+        {
+          "number": 8,
+          "step": "Ladle tender beef cubes, mushrooms, and pearl onions into deep wide rimmed serving bowls."
+        },
+        {
+          "number": 9,
+          "step": "Spoon thick rich Burgundy wine reduction glaze generously over braised beef and vegetables."
+        },
+        {
+          "number": 10,
+          "step": "Garnish braise with fresh chopped parsley for bright herbal note and color contrast."
+        },
+        {
+          "number": 11,
+          "step": "Serve hot braise alongside creamy buttered mashed potatoes or boiled egg noodles."
+        },
+        {
+          "number": 12,
+          "step": "Pass thick slices of warm crusty French baguette around table to soak up remaining sauce."
+        },
+        {
+          "number": 13,
+          "step": "Store leftover braise in sealed container in refrigerator for enhanced flavor next day."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftovers gently on stovetop over low heat until hot throughout before serving."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "id": 9001021,
+  "title": "Dubu Kimchi Gamja Jjigae Bake",
+  "image": "generated://dishcovery/9001021.jpg",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "summary": "This vibrant dish offers a comforting <b>one-pot layered bake</b> inspired by classic Korean stew flavors. Built with thick slices of tender potatoes, aged kimchi, and firm tofu, this recipe combines savory depth with spicy and tangy undertones. A rich broth made from kelp, gochujang, soybean paste, and aromatics saturates each layer during cooking. As it bakes in a single Dutch oven, the bottom layer of potatoes turns silky while absorbing the flavorful juices, while top layers of tofu soak up the spicy seasoned liquid. Tender zucchini, shiitake mushrooms, and sliced rice cakes are tucked throughout to create a satisfying texturally diverse meal. The inclusion of perilla leaves and sesame oil adds an authentic fragrant finish right before serving. This hearty preparation delivers substantial amounts of <b>plant-based protein</b>, dietary fiber, and essential minerals like iron and potassium. Perfect for cold evenings, this dish simplifies traditional stewing into a streamlined baking method while keeping all the robust taste intact. Serve hot straight from the pot with extra green onions and roasted sesame seeds for maximum presentation and flavor.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 1150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Calcium",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Iodine",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Magnesium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Chromium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Potassium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "aged kimchi"
+    },
+    {
+      "id": 90001,
+      "amount": 14,
+      "unit": "oz",
+      "name": "medium firm tofu"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "large",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "gochujang paste"
+    },
+    {
+      "id": 90004,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "gochugaru flakes"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90006,
+      "amount": 5,
+      "unit": "cloves",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger root"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rice wine"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90011,
+      "amount": 4,
+      "unit": "stalks",
+      "name": "green onions"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90013,
+      "amount": 6,
+      "unit": "dried",
+      "name": "shiitake mushrooms"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "lb",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90017,
+      "amount": 8,
+      "unit": "leaves",
+      "name": "perilla leaves"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "cup",
+      "name": "napa cabbage"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "medium",
+      "name": "zucchini"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "piece",
+      "name": "kelp strip"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soybean paste"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "cup",
+      "name": "rice cake slices"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "perilla seed powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Base Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash all fresh produce thoroughly under cold water before starting any cutting or trimming work."
+        },
+        {
+          "number": 2,
+          "step": "Peel the russet potatoes and slice them evenly into quarter inch round discs using a sharp knife."
+        },
+        {
+          "number": 3,
+          "step": "Press the block of tofu between paper towels to extract excess moisture before cutting into slabs."
+        },
+        {
+          "number": 4,
+          "step": "Slice the drained firm tofu into uniform rectangular pieces suitable for layering inside the pot."
+        },
+        {
+          "number": 5,
+          "step": "Chop the aged kimchi into bite size pieces while retaining all collected juices in a small glass bowl."
+        },
+        {
+          "number": 6,
+          "step": "Mince the garlic cloves and grate the fresh ginger root finely to make the fragrant aromatic paste."
+        },
+        {
+          "number": 7,
+          "step": "Slice the yellow onion into thin half moons and slice the daikon radish into thin semi circles."
+        },
+        {
+          "number": 8,
+          "step": "Rehydrate the dried shiitake mushrooms in warm water for fifteen minutes then slice them thinly."
+        },
+        {
+          "number": 9,
+          "step": "Trim the ends off the green onions and chop them into one inch long segments for cooking."
+        },
+        {
+          "number": 10,
+          "step": "Cut the zucchini into half inch thick round pieces to complement the potato layers in the dish."
+        },
+        {
+          "number": 11,
+          "step": "Rinse the perilla leaves gently in cool water and chop them into thin ribbons for garnish."
+        },
+        {
+          "number": 12,
+          "step": "Combine gochujang paste gochugaru flakes and soybean paste in a small bowl with soy sauce."
+        },
+        {
+          "number": 13,
+          "step": "Whisk brown sugar rice wine toasted sesame oil and minced ginger into the spicy red pepper mixture."
+        },
+        {
+          "number": 14,
+          "step": "Pour vegetable broth over the pepper paste mix and stir until completely smooth without lumps."
+        }
+      ]
+    },
+    {
+      "name": "Pot Layering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Brush the bottom of a heavy Dutch oven lightly with a teaspoon of toasted sesame oil."
+        },
+        {
+          "number": 2,
+          "step": "Arrange the potato slices in a single overlapping layer across the bottom of the greased pot."
+        },
+        {
+          "number": 3,
+          "step": "Scatter half of the sliced yellow onions and daikon radish evenly across the potato base layer."
+        },
+        {
+          "number": 4,
+          "step": "Distribute half of the chopped aged kimchi directly over the onions and radish in the pot."
+        },
+        {
+          "number": 5,
+          "step": "Place half of the sliced tofu slabs neatly across the kimchi layer to cover it evenly."
+        },
+        {
+          "number": 6,
+          "step": "Scatter the rehydrated shiitake mushroom slices evenly over the tofu layer inside the pot."
+        },
+        {
+          "number": 7,
+          "step": "Add the remaining sliced yellow onions and zucchini rounds in a second even vegetable layer."
+        },
+        {
+          "number": 8,
+          "step": "Spread the rest of the chopped kimchi over the vegetable layer including reserved kimchi juice."
+        },
+        {
+          "number": 9,
+          "step": "Lay the sliced rice cakes evenly across the surface of the kimchi and vegetable mixture."
+        },
+        {
+          "number": 10,
+          "step": "Arrange the remaining tofu slabs on top of the dish in an appealing geometric pattern."
+        },
+        {
+          "number": 11,
+          "step": "Pour the prepared seasoned broth gently along the inside edge of the pot to keep layers neat."
+        },
+        {
+          "number": 12,
+          "step": "Ensure liquid reaches at least halfway up the sides of the layered ingredients inside the pot."
+        },
+        {
+          "number": 13,
+          "step": "Sprinkle perilla seed powder and black pepper evenly across the top layer of tofu and rice cakes."
+        },
+        {
+          "number": 14,
+          "step": "Cover the heavy Dutch oven securely with its tight fitting lid to trap steam during cooking."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat your oven to 375 degrees Fahrenheit while letting the assembled pot sit on the counter."
+        },
+        {
+          "number": 2,
+          "step": "Place the covered Dutch oven onto the middle rack of the preheated oven for forty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Check the pot carefully after thirty minutes to ensure broth is bubbling steadily without drying."
+        },
+        {
+          "number": 4,
+          "step": "Remove the lid from the pot during the final ten minutes to allow the top layer to brown slightly."
+        },
+        {
+          "number": 5,
+          "step": "Verify potato tenderness by inserting a sharp paring knife easily into the bottom center layer."
+        },
+        {
+          "number": 6,
+          "step": "Carefully remove the hot pot from the oven using thick insulated oven mitts and place on a trivet."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle the remaining toasted sesame oil over the hot surface of the baked dish immediately."
+        },
+        {
+          "number": 8,
+          "step": "Garnish the top of the hot bake with chopped green onion segments and prepared perilla ribbons."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle toasted sesame seeds evenly over the entire dish to add texture and subtle nuttiness."
+        },
+        {
+          "number": 10,
+          "step": "Let the bake sit uncovered at room temperature for five minutes to allow sauce to thicken slightly."
+        },
+        {
+          "number": 11,
+          "step": "Ladle portions of the hot layered bake into wide shallow bowls making sure to scoop to the bottom."
+        },
+        {
+          "number": 12,
+          "step": "Ensure each serving bowl contains layers of potato tofu aged kimchi and tender vegetables."
+        },
+        {
+          "number": 13,
+          "step": "Spoon extra seasoned cooking liquid from the bottom of the pot over each assembled bowl."
+        },
+        {
+          "number": 14,
+          "step": "Serve immediately alongside steamed short grain rice and additional traditional side dishes."
+        }
+      ]
+    }
+  ]
+}

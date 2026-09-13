@@ -1,0 +1,858 @@
+{
+  "id": 9002001,
+  "title": "Quick Peruvian Beef and Pepper Stew",
+  "image": "generated://dishcovery/9002001.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This vibrant <b>Peruvian slow braise</b> brings deep comforting flavors to your table in a fraction of the traditional cook time. Designed specifically for a <b>busy weeknight</b>, it pairs juicy tender strips of beef tenderloin with sweet red onions, ripe tomatoes, and fragrant yellow chili paste. The meat is quickly seared in a raging hot pan to lock in juices before simmering with dark soy sauce, red wine vinegar, and ground cumin. Fresh cilantro leaves and crisp fried potato wedges are stirred through right before serving, offering an irresistible contrast of textures. A classic staple of South American home cooking, this dish proves that rich braised depth does not require hours of standing over a hot stove. Serve it hot alongside fluffy white rice or garlic-scented quinoa to soak up every drop of the savory sauce. Packed with high protein, essential minerals, and warm aromatic spices, this streamlined creation delivers an authentic dining experience that easily fits into any packed evening schedule.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 117
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 6.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "lbs",
+      "name": "beef sirloin strips"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onion"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "roma tomatoes"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "aji amarillo paste"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "cup",
+      "name": "beef broth"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "large",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "cup",
+      "name": "frying oil"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "small",
+      "name": "yellow bell pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "small",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "scallions",
+      "name": "green onions"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pisco"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cooked white rice"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "small",
+      "name": "açiote seed packet"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced mushrooms"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "small",
+      "name": "carrot"
+    },
+    {
+      "id": 90033,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "green peas"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sherry vinegar"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced celery"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sea salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice the beef sirloin into uniform thin strips across the grain for maximum tenderness during cooking."
+        },
+        {
+          "number": 2,
+          "step": "Place the cut beef into a medium mixing bowl and season evenly with salt, pepper, and ground cumin."
+        },
+        {
+          "number": 3,
+          "step": "Mince the fresh garlic cloves finely and toss them into the seasoned beef to marinate briefly."
+        },
+        {
+          "number": 4,
+          "step": "Cut the red onion into thick wedges, making sure to keep the layers partially attached for stir-frying."
+        },
+        {
+          "number": 5,
+          "step": "Core the roma tomatoes and slice them lengthwise into thick crescent strips, setting them aside."
+        },
+        {
+          "number": 6,
+          "step": "Seed the yellow bell pepper and slice it into clean strips matching the size of the cut red onion."
+        },
+        {
+          "number": 7,
+          "step": "Slice the red bell pepper into thin long strips and place them alongside the cut yellow peppers."
+        },
+        {
+          "number": 8,
+          "step": "Peel the russet potatoes and chop them into uniform thick french-fry batons for frying later."
+        },
+        {
+          "number": 9,
+          "step": "Submerge the cut potato sticks in cold water to remove excess starch, then dry them completely."
+        },
+        {
+          "number": 10,
+          "step": "Chop the fresh cilantro finely, including the tender stems, to extract maximum aromatic green flavor."
+        },
+        {
+          "number": 11,
+          "step": "Trim the green onions and slice them on a sharp bias into delicate thin pieces for garnish."
+        },
+        {
+          "number": 12,
+          "step": "Measure out the soy sauce, red wine vinegar, and pisco into a small liquid measuring glass."
+        },
+        {
+          "number": 13,
+          "step": "Whisk the cornstarch with two tablespoons of cold water in a bowl to make a smooth slurry."
+        },
+        {
+          "number": 14,
+          "step": "Measure the aji amarillo paste and tomato paste, combining them into a concentrated chili mix."
+        },
+        {
+          "number": 15,
+          "step": "Slice the fresh button mushrooms cleanly into thin flat pieces to prepare for quick sautéing."
+        },
+        {
+          "number": 16,
+          "step": "Dice the fresh carrot into small neat cubes to add crunch and color to the simmering liquid."
+        },
+        {
+          "number": 17,
+          "step": "Chop the celery finely so it melts seamlessly into the rich aromatics during the cooking process."
+        },
+        {
+          "number": 18,
+          "step": "Measure out the beef broth and combine it with the single bay leaf and fresh thyme sprig."
+        },
+        {
+          "number": 19,
+          "step": "Heat the vegetable oil in a large deep skillet over very high heat until shimmering lightly."
+        },
+        {
+          "number": 20,
+          "step": "Set out a clean wide rimmed platter near your stovetop to receive the cooked components quickly."
+        },
+        {
+          "number": 21,
+          "step": "Organize all measured sauces, spices, and chopped herbs within easy reach of your active workspace."
+        }
+      ]
+    },
+    {
+      "name": "Searing and Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add half of the beef strips to the smoking hot oil, spreading them out into a single layer."
+        },
+        {
+          "number": 2,
+          "step": "Allow the beef to sear undisturbed for ninety seconds until a deep mahogany crust develops."
+        },
+        {
+          "number": 3,
+          "step": "Toss the beef quickly with metal tongs to brown the remaining sides without overcrowding the pan."
+        },
+        {
+          "number": 4,
+          "step": "Transfer the seared beef strips to the waiting platter, retaining all accumulated juices inside."
+        },
+        {
+          "number": 5,
+          "step": "Add the remaining beef strips to the hot skillet and sear thoroughly using the exact same technique."
+        },
+        {
+          "number": 6,
+          "step": "Remove the second batch of browned meat to the platter while keeping the skillet over high heat."
+        },
+        {
+          "number": 7,
+          "step": "Pour the additional olive oil into the empty skillet and let it heat up for fifteen seconds."
+        },
+        {
+          "number": 8,
+          "step": "Add the thick red onion wedges and sauté vigorously for two minutes until slightly softened."
+        },
+        {
+          "number": 9,
+          "step": "Toss in the sliced bell peppers and diced celery, stir-frying rapidly until bright and crisp-tender."
+        },
+        {
+          "number": 10,
+          "step": "Add the prepared chili paste mixture and minced garlic, stirring constantly to prevent burning."
+        },
+        {
+          "number": 11,
+          "step": "Sprinkle the smoked paprika, ground coriander, cayenne, and dried oregano over the hot aromatic veggies."
+        },
+        {
+          "number": 12,
+          "step": "Deglaze the bottom of the hot pan with the pisco, scraping up any delicious browned bits clinging to it."
+        },
+        {
+          "number": 13,
+          "step": "Pour in the soy sauce and red wine vinegar, allowing the liquid to bubble violently and reduce."
+        },
+        {
+          "number": 14,
+          "step": "Add the sliced mushrooms and diced carrots to the skillet, stirring well to coat them in sauce."
+        },
+        {
+          "number": 15,
+          "step": "Pour in the flavored beef broth along with the bay leaf, thyme sprig, and a pinch of brown sugar."
+        },
+        {
+          "number": 16,
+          "step": "Bring the liquid to a rapid boil, stirring constantly to harmonize all the savory ingredients."
+        },
+        {
+          "number": 17,
+          "step": "Reduce the heat slightly to maintain a steady simmer for five minutes while flavors meld."
+        },
+        {
+          "number": 18,
+          "step": "Return the seared beef and all accumulated meat juices back into the simmering skillet base."
+        },
+        {
+          "number": 19,
+          "step": "Stir the beef gently into the simmering vegetable mixture to reheat the tender strips fully."
+        },
+        {
+          "number": 20,
+          "step": "Pour in the prepared cornstarch slurry while whisking constantly to thicken the sauce slightly."
+        },
+        {
+          "number": 21,
+          "step": "Taste the simmering sauce base carefully and adjust seasoning with extra sea salt if necessary."
+        }
+      ]
+    },
+    {
+      "name": "Frying Potatoes",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour the frying oil into a separate heavy saucepan to a depth of roughly two inches."
+        },
+        {
+          "number": 2,
+          "step": "Heat the oil steadily over medium-high flame until it reaches three hundred fifty degrees Fahrenheit."
+        },
+        {
+          "number": 3,
+          "step": "Carefully lower half of the dried potato sticks into the hot oil using a slotted spider utensil."
+        },
+        {
+          "number": 4,
+          "step": "Fry the potato wedges for about four minutes until they turn light golden and cooked inside."
+        },
+        {
+          "number": 5,
+          "step": "Transfer the first batch of fries to a wire rack set over paper towels to drain excess oil."
+        },
+        {
+          "number": 6,
+          "step": "Carefully place the remaining potato sticks into the hot oil for their initial blanching fry."
+        },
+        {
+          "number": 7,
+          "step": "Remove the second batch of potatoes after four minutes and let them rest alongside the first batch."
+        },
+        {
+          "number": 8,
+          "step": "Increase the frying oil heat slightly until the thermometer registers three hundred seventy-five degrees."
+        },
+        {
+          "number": 9,
+          "step": "Return all the blanched potatoes back into the hotter oil together for a crisping double fry."
+        },
+        {
+          "number": 10,
+          "step": "Fry the potatoes for two to three minutes until they turn deeply golden brown and very crunchy."
+        },
+        {
+          "number": 11,
+          "step": "Lift the crispy potatoes out of the oil and drain them thoroughly over the paper towel rack."
+        },
+        {
+          "number": 12,
+          "step": "Immediately dust the piping hot fries with sea salt, garlic powder, and a touch of onion powder."
+        },
+        {
+          "number": 13,
+          "step": "Toss the seasoned fries gently in a large stainless bowl to distribute the spices evenly."
+        },
+        {
+          "number": 14,
+          "step": "Keep the fried potatoes in a warm oven set to two hundred degrees while finishing the stew."
+        },
+        {
+          "number": 15,
+          "step": "Check the frying oil heat source and turn off the burner safely once all potatoes are finished."
+        },
+        {
+          "number": 16,
+          "step": "Scatter a few cut green onions over the warm crispy fries for extra color and mild sharpness."
+        },
+        {
+          "number": 17,
+          "step": "Inspect the potato wedges for ideal crunch and salt balance, adding a touch more salt if needed."
+        },
+        {
+          "number": 18,
+          "step": "Maintain the warm oven temperature so the potato wedges stay perfectly crisp until final assembly."
+        },
+        {
+          "number": 19,
+          "step": "Prepare warm serving plates by wiping their rims clean with a fresh damp kitchen paper towel."
+        },
+        {
+          "number": 20,
+          "step": "Fluff the pre-cooked white rice with a fork and keep it covered in a separate warm container."
+        },
+        {
+          "number": 21,
+          "step": "Set out warm serving bowls near the cooking line for quick and efficient dish plating."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Stir the fresh thick tomato wedges into the warm simmering beef stew just to heat through."
+        },
+        {
+          "number": 2,
+          "step": "Add the green peas and sweet white pepper to the pan, folding them gently into the thick sauce."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle the fresh lime juice and sherry vinegar over the pan contents to brighten the rich pan sauce."
+        },
+        {
+          "number": 4,
+          "step": "Remove and discard the spent bay leaf and woody thyme sprig from the bubbling skillet."
+        },
+        {
+          "number": 5,
+          "step": "Stir in the fresh butter until it melts completely, giving the rich sauce a glossy shine."
+        },
+        {
+          "number": 6,
+          "step": "Fold half of the fresh chopped cilantro into the warm sauce, reserving the rest for final plating."
+        },
+        {
+          "number": 7,
+          "step": "Remove the skillet from the heat source to prevent the fresh tomato wedges from breaking down."
+        },
+        {
+          "number": 8,
+          "step": "Scoop a large portion of warm fluffy white rice onto one side of each deep serving bowl."
+        },
+        {
+          "number": 9,
+          "step": "Ladle the rich beef stew generously alongside the rice, allowing the sauce to pool pleasantly."
+        },
+        {
+          "number": 10,
+          "step": "Toss half of the crispy fried potatoes directly into the pan sauce for an authentic presentation."
+        },
+        {
+          "number": 11,
+          "step": "Divide the saucy steak, tender peppers, and onions evenly among the prepared warm bowls."
+        },
+        {
+          "number": 12,
+          "step": "Arrange the remaining crispy fries neatly on top of each dish to preserve their crunchy texture."
+        },
+        {
+          "number": 13,
+          "step": "Spoon additional glossy pan reduction over the top of the beef strips and surrounding rice."
+        },
+        {
+          "number": 14,
+          "step": "Garnish each bowl generously with the reserved minced cilantro and sliced green scallions."
+        },
+        {
+          "number": 15,
+          "step": "Add a tiny pinch of extra ground cumin over the top of each portion for aroma."
+        },
+        {
+          "number": 16,
+          "step": "Place fresh lime wedges on the side of each bowl for guests to squeeze over as desired."
+        },
+        {
+          "number": 17,
+          "step": "Double check that every bowl has a balanced mix of meat, vibrant vegetables, and rich sauce."
+        },
+        {
+          "number": 18,
+          "step": "Wipe any stray drops of sauce from the bowl rims with a clean towel before serving immediately."
+        },
+        {
+          "number": 19,
+          "step": "Serve the steaming Peruvian braise immediately while the fried potatoes remain perfectly crisp."
+        },
+        {
+          "number": 20,
+          "step": "Pair with ice-cold beverages or fruit punch to complement the lively spicy and tangy flavors."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy this fast and satisfying weeknight feast with family and friends around the dinner table."
+        }
+      ]
+    }
+  ]
+}

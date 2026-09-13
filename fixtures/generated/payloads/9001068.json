@@ -1,0 +1,553 @@
+{
+  "id": 9001068,
+  "title": "Weeknight Italian Chicken Cacciatore Braise",
+  "image": "generated://dishcovery/9001068.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Reimagined for busy weeknights, this speedy Italian chicken braise captures all the deep richness of classic cacciatore in half the usual cooking time. Juicy boneless chicken thighs are seared until golden, then simmered in a robust sauce of <b>crushed San Marzano tomatoes</b>, sliced bell peppers, kalamata olives, and fresh rosemary sprigs. Garlic, yellow onions, and dry white wine build an aromatic pan reduction that clings beautifully to every piece of meat. Capers and red pepper flakes add tiny pops of salinity and gentle heat, balancing the sweet acidity of the stewed tomatoes. By using smaller cuts and high-heat searing techniques, this streamlined recipe delivers tender, fall-apart chicken without requiring hours at the stove. Serve over creamy polenta, buttered egg noodles, or crusty Italian bread to soak up every drop of the flavorful pan sauce. Perfect for family dinners, this wholesome dish offers a true taste of rustic Tuscan cooking with practical weeknight convenience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 440,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 108
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 14,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Niacin",
+        "amount": 9.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 59
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.7,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Choline",
+        "amount": 98,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Calcium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 700,
+      "unit": "g",
+      "name": "boneless skinless chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "large",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow bell pepper"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "cremini mushrooms"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 120,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90008,
+      "amount": 400,
+      "unit": "g",
+      "name": "crushed san marzano tomatoes"
+    },
+    {
+      "id": 90009,
+      "amount": 120,
+      "unit": "ml",
+      "name": "chicken stock"
+    },
+    {
+      "id": 90010,
+      "amount": 60,
+      "unit": "g",
+      "name": "kalamata olives"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh rosemary"
+    },
+    {
+      "id": 90013,
+      "amount": 4,
+      "unit": "sprigs",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "balsamic vinegar"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "grated parmesan cheese"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "loaf",
+      "name": "crusty Italian bread"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Aromatics Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat boneless skinless chicken thighs thoroughly dry using clean paper towels."
+        },
+        {
+          "number": 2,
+          "step": "Season both sides of chicken thighs with half teaspoon sea salt and black pepper."
+        },
+        {
+          "number": 3,
+          "step": "Heat olive oil in a wide heavy dutch oven over medium high flame for two minutes."
+        },
+        {
+          "number": 4,
+          "step": "Place seasoned chicken thighs into hot dutch oven in a spacious single layer."
+        },
+        {
+          "number": 5,
+          "step": "Sear chicken thighs undisturbed for five minutes until golden brown crust forms."
+        },
+        {
+          "number": 6,
+          "step": "Flip chicken thighs using tongs and sear second side for another four minutes."
+        },
+        {
+          "number": 7,
+          "step": "Transfer seared chicken thighs to plate leaving rendered fat inside dutch oven."
+        },
+        {
+          "number": 8,
+          "step": "Slice yellow onion and both bell peppers into half inch wide strips on board."
+        },
+        {
+          "number": 9,
+          "step": "Slice cremini mushrooms into thin halves and mince garlic cloves finely."
+        },
+        {
+          "number": 10,
+          "step": "Add sliced onions bell peppers and mushrooms directly into hot dutch oven pan."
+        },
+        {
+          "number": 11,
+          "step": "Sauté vegetables over medium heat for six minutes until softened and fragrant."
+        },
+        {
+          "number": 12,
+          "step": "Stir in minced garlic tomato paste dried oregano and red pepper flakes well."
+        },
+        {
+          "number": 13,
+          "step": "Cook garlic and tomato paste mixture for one minute stirring constantly with spoon."
+        },
+        {
+          "number": 14,
+          "step": "Pour dry white wine into pan scraping browned bits off bottom using wooden spoon."
+        }
+      ]
+    },
+    {
+      "name": "Pan Reduction Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Simmer white wine for three minutes until liquid reduces in volume by half."
+        },
+        {
+          "number": 2,
+          "step": "Add crushed San Marzano tomatoes and chicken stock into reduced wine mixture."
+        },
+        {
+          "number": 3,
+          "step": "Add kalamata olives capers fresh rosemary sprigs fresh thyme sprigs and bay leaf."
+        },
+        {
+          "number": 4,
+          "step": "Season braising sauce with remaining half teaspoon sea salt and balsamic vinegar."
+        },
+        {
+          "number": 5,
+          "step": "Stir tomato sauce thoroughly and bring liquid to an active boiling bubble."
+        },
+        {
+          "number": 6,
+          "step": "Nestle seared chicken thighs back into boiling tomato braising sauce pan."
+        },
+        {
+          "number": 7,
+          "step": "Pour any accumulated meat juices from plate back into dutch oven sauce pot."
+        },
+        {
+          "number": 8,
+          "step": "Spoon braising tomato sauce over top of chicken thighs so all pieces submerge."
+        },
+        {
+          "number": 9,
+          "step": "Reduce stove burner heat setting to low to establish gentle simmer level."
+        },
+        {
+          "number": 10,
+          "step": "Cover dutch oven with tight lid and simmer braise for exactly twenty minutes."
+        },
+        {
+          "number": 11,
+          "step": "Prepare crusty Italian bread by slicing loaf into thick diagonal slices."
+        },
+        {
+          "number": 12,
+          "step": "Melt butter in small pan and brush over bread slices before broiling golden."
+        },
+        {
+          "number": 13,
+          "step": "Toast bread under oven broiler for two minutes until light golden and crisp."
+        },
+        {
+          "number": 14,
+          "step": "Set toasted bread slices aside wrapped in cloth basket to keep warm."
+        }
+      ]
+    },
+    {
+      "name": "Braisewise Simmer",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove lid from dutch oven carefully avoiding hot steam rising from pot top."
+        },
+        {
+          "number": 2,
+          "step": "Simmer braise uncovered for five final minutes to thicken tomato sauce layer."
+        },
+        {
+          "number": 3,
+          "step": "Discard woody rosemary sprigs thyme stems and bay leaf from thick sauce."
+        },
+        {
+          "number": 4,
+          "step": "Taste braising sauce and add extra salt or pepper if needed for balance."
+        },
+        {
+          "number": 5,
+          "step": "Check chicken internal temperature reaches 165 degrees Fahrenheit using probe."
+        },
+        {
+          "number": 6,
+          "step": "Turn off stove burner heat and let chicken braise rest for three minutes."
+        },
+        {
+          "number": 7,
+          "step": "Ladle warm cacciatore sauce into four shallow rustic ceramic dinner bowls."
+        },
+        {
+          "number": 8,
+          "step": "Place seared tender chicken thighs gently into center of each sauce bowl."
+        },
+        {
+          "number": 9,
+          "step": "Spoon braised peppers mushrooms and olives evenly over top of chicken meat."
+        },
+        {
+          "number": 10,
+          "step": "Garnish dish with chopped fresh flat leaf parsley and grated parmesan cheese."
+        },
+        {
+          "number": 11,
+          "step": "Serve immediately alongside warm toasted Italian bread for dipping into sauce."
+        },
+        {
+          "number": 12,
+          "step": "Offer red pepper flakes at table for guests desiring additional hot spice."
+        },
+        {
+          "number": 13,
+          "step": "Store leftover chicken braise in airtight container in fridge up to three days."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftovers gently on stovetop adding splash of water or broth if thick."
+        }
+      ]
+    }
+  ]
+}

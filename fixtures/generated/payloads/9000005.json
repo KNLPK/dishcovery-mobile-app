@@ -1,0 +1,303 @@
+{
+  "id": 9000005,
+  "title": "Pan-Fried Thai Flatbread with Fermented Soybean Spread",
+  "image": "generated://dishcovery/9000005.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Experience rich savory depth with this crisp <b>Thai flatbread dish</b> centered around complex fermented ingredients. Soft flatbread dough is hand-stretched and cooked on a hot griddle until puffed and golden brown with charred spots. It is served with a fragrant dip made from savory fermented yellow soybean paste, lemongrass, minced garlic, and creamy coconut cream. This fermented paste lends a unique umami core that balances beautifully with sweet palm sugar and fiery red chilies. Fresh Thai basil leaves and chopped roasted peanuts scattered over top provide herbaceous aroma and crunch. The contrasting textures of hot, flaky flatbread paired with warm, pungent soybean dip create an engaging appetizer or light lunch. Rooted in traditional Thai preservation methods, the fermented bean base provides robust flavor without needing hours of preparation. Share this aromatic flatbread platter with friends for an interactive and flavor-packed culinary journey.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 740,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 350,
+        "unit": "IU",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 82,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Potassium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "wheat flour"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fermented soybean paste"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "ml",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "stalk",
+      "name": "lemongrass"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red chili"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90008,
+      "amount": 15,
+      "unit": "g",
+      "name": "thai basil"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Griddling and Dip Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Mix wheat flour with warm water and oil, knead into a smooth dough, and divide into four equal portions."
+        },
+        {
+          "number": 2,
+          "step": "Roll each dough ball into a thin round flatbread on a lightly oiled wooden surface using a rolling pin."
+        },
+        {
+          "number": 3,
+          "step": "Finely chop lemongrass, garlic, and red chili, then sauté in oil inside a pan until fragrant."
+        },
+        {
+          "number": 4,
+          "step": "Stir in fermented soybean paste, coconut cream, and palm sugar, simmering for five minutes until thick."
+        },
+        {
+          "number": 5,
+          "step": "Cook each flatbread in a hot skillet for two minutes per side until golden brown bubbles form."
+        },
+        {
+          "number": 6,
+          "step": "Finish the warm fermented dip with lime juice, garnish with basil and peanuts, and serve beside flatbreads."
+        }
+      ]
+    }
+  ]
+}

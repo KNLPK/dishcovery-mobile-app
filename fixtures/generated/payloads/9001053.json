@@ -1,0 +1,553 @@
+{
+  "id": 9001053,
+  "title": "Smoked Kielbasa Polish Noodle Bowl with Cabbage",
+  "image": "generated://dishcovery/9001053.jpg",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "summary": "This comforting Central European dish features a <b>richly smoked sausage base</b> paired with tender egg noodles and braised cabbage. Seared slices of smoked kielbasa render their aromatic fat into the pan, providing a savory foundation for caramelizing sweet onions, caraway seeds, and shredded savoy cabbage. A velvety broth enriched with sour cream and dark stone-ground mustard coats every broad egg noodle, delivering a balance of smoky, tangy, and earthy flavors. Sautéed brown mushrooms add deep umami notes that complement the cured sausage notes. Prepared entirely in stages and combined in a large warm bowl, this dish offers hearty satisfaction during cold weather seasons. A sprinkle of fresh dill and quick-pickled radishes cuts through the rich sauce with clean herbal brightness and crisp texture. Easy to assemble and packed with rustic charm, it represents the heart of Polish home cooking in a modern single-bowl presentation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 560,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Fat",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 46.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.8
+      },
+      {
+        "name": "Protein",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 920,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 19.2
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 540,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10.8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50.4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.2,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0.1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 58,
+        "unit": "µg",
+        "percentOfDailyNeeds": 48.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.3
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.4
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iodine",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.2
+      },
+      {
+        "name": "Selenium",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.1
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6.3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 9.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21.1
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "smoked kielbasa sausage"
+    },
+    {
+      "id": 90001,
+      "amount": 250,
+      "unit": "g",
+      "name": "broad egg noodles"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "head",
+      "name": "savoy cabbage"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90004,
+      "amount": 200,
+      "unit": "g",
+      "name": "cremini mushrooms"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "un salted butter"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "stone ground mustard"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "medium",
+      "name": "radishes"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "bay",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "marjoram"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pickled cucumber slices"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Sausage and Mushroom Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice smoked kielbasa sausage into half-inch thick coin rounds using sharp chef knife on board."
+        },
+        {
+          "number": 2,
+          "step": "Wipe cremini mushrooms clean with damp paper towel and slice caps into quarter-inch pieces."
+        },
+        {
+          "number": 3,
+          "step": "Dice large yellow onion finely and slice savoy cabbage into thin quarter-inch ribbons."
+        },
+        {
+          "number": 4,
+          "step": "Thinly slice fresh radishes using mandoline or sharp knife into paper-thin rounds for pickling."
+        },
+        {
+          "number": 5,
+          "step": "Toss sliced radishes with cider vinegar, sugar, water, and pinch of salt in small glass bowl."
+        },
+        {
+          "number": 6,
+          "step": "Heat olive oil in large deep skillet or Dutch oven over medium heat until oil shimmers."
+        },
+        {
+          "number": 7,
+          "step": "Add sliced kielbasa coins to hot skillet in single layer to sear bottom surface evenly."
+        },
+        {
+          "number": 8,
+          "step": "Cook kielbasa for five minutes, flipping coins once until both sides are browned and crisp."
+        },
+        {
+          "number": 9,
+          "step": "Transfer seared sausage coins to plate using slotted metal spatula, leaving rendered fat."
+        },
+        {
+          "number": 10,
+          "step": "Add sliced cremini mushrooms to remaining fat in skillet and cook undisturbed for four minutes."
+        },
+        {
+          "number": 11,
+          "step": "Stir mushrooms and cook three additional minutes until moisture evaporates and mushrooms brown."
+        },
+        {
+          "number": 12,
+          "step": "Transfer cooked mushrooms to plate with seared kielbasa coins, keeping skillet over heat."
+        },
+        {
+          "number": 13,
+          "step": "Melt unsalted butter in same skillet over medium heat, swirling pan to coat bottom surface."
+        },
+        {
+          "number": 14,
+          "step": "Add diced yellow onion and caraway seeds to melted butter, sautéing until soft and golden."
+        }
+      ]
+    },
+    {
+      "name": "Cabbage Braise and Noodles",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Stir minced garlic, paprika, marjoram, and shredded savoy cabbage into cooked onions in skillet."
+        },
+        {
+          "number": 2,
+          "step": "Pour vegetable broth into skillet, scraping pan bottom with wooden spoon to release flavor."
+        },
+        {
+          "number": 3,
+          "step": "Add bay leaf, salt, and black pepper, stirring well to distribute cabbage evenly in liquid."
+        },
+        {
+          "number": 4,
+          "step": "Cover skillet tightly with lid, reduce heat to low, and braise cabbage for fifteen minutes."
+        },
+        {
+          "number": 5,
+          "step": "Bring large pot of salted water to rolling boil over high heat for cooking broad egg noodles."
+        },
+        {
+          "number": 6,
+          "step": "Add broad egg noodles to boiling water and cook eight minutes until noodles turn al dente."
+        },
+        {
+          "number": 7,
+          "step": "Drain cooked noodles in colander, reserving half cup of hot noodle cooking water in measuring cup."
+        },
+        {
+          "number": 8,
+          "step": "Uncover cabbage skillet and check that cabbage ribbons have softened and turned translucent."
+        },
+        {
+          "number": 9,
+          "step": "Whisk sour cream and stone-ground mustard together in glass bowl until blended smoothly."
+        },
+        {
+          "number": 10,
+          "step": "Temper sour cream mix by whisking in two tablespoons of reserved hot noodle water slowly."
+        },
+        {
+          "number": 11,
+          "step": "Stir tempered sour cream mix into braised cabbage skillet until creamy sauce forms evenly."
+        },
+        {
+          "number": 12,
+          "step": "Discard bay leaf from skillet using metal tongs and adjust sauce seasoning with lemon juice."
+        },
+        {
+          "number": 13,
+          "step": "Return seared kielbasa coins and sautéed mushrooms to creamy cabbage sauce in skillet."
+        },
+        {
+          "number": 14,
+          "step": "Simmer sauce mixture gently over low heat for three minutes to warm sausage through completely."
+        }
+      ]
+    },
+    {
+      "name": "Bowl Assembly and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add cooked egg noodles into skillet with creamy kielbasa cabbage mixture, tossing gently."
+        },
+        {
+          "number": 2,
+          "step": "Add extra reserved noodle water if sauce needs thinning to coat noodles evenly across skillet."
+        },
+        {
+          "number": 3,
+          "step": "Divide hot kielbasa noodle mixture equally among four broad pre-warmed ceramic dining bowls."
+        },
+        {
+          "number": 4,
+          "step": "Arrange sausage coins on top surface of each noodle bowl for attractive rustic presentation."
+        },
+        {
+          "number": 5,
+          "step": "Drain pickled radish slices from vinegar bath and place cluster on side of each noodle bowl."
+        },
+        {
+          "number": 6,
+          "step": "Finely chop fresh dill leaves and chives on cutting board using sharp chef knife."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle chopped fresh dill and chives generously over top of each assembled noodle bowl."
+        },
+        {
+          "number": 8,
+          "step": "Top each bowl with two slices of pickled cucumber for extra sour crunch contrast."
+        },
+        {
+          "number": 9,
+          "step": "Serve immediately while noodles are steaming hot and sour cream sauce remains silky rich."
+        },
+        {
+          "number": 10,
+          "step": "Offer extra stone-ground mustard on table for guests who prefer more pungent mustard kick."
+        },
+        {
+          "number": 11,
+          "step": "Pair bowls with crusty rye bread to scoop up extra creamy cabbage sauce from bowl bottom."
+        },
+        {
+          "number": 12,
+          "step": "Store leftover noodle mixture in covered container in refrigerator for up to two days."
+        },
+        {
+          "number": 13,
+          "step": "Reheat leftovers gently in covered skillet over medium-low heat, adding splash of broth."
+        },
+        {
+          "number": 14,
+          "step": "Garnish reheated leftovers with fresh dill sprigs to refresh color before serving."
+        }
+      ]
+    }
+  ]
+}

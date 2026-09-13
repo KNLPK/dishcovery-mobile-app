@@ -1,0 +1,553 @@
+{
+  "id": 9001043,
+  "title": "Fast Weeknight Mexican Tortilla and Black Bean Layered Bake",
+  "image": "generated://dishcovery/9001043.jpg",
+  "readyInMinutes": 35,
+  "servings": 6,
+  "summary": "This satisfying Mexican <b>layered tortilla bake</b> delivers all the warm comforting flavors of traditional enchiladas in a streamlined weeknight format. Tender corn tortillas are stacked with seasoned black beans, fire-roasted sweet corn, melted Monterey Jack cheese, and a punchy red chili tomato sauce. Designed for busy evenings, this crowd-pleasing casserole comes together in under forty minutes using smart pantry staples and minimal preparation steps. Freshly chopped cilantro, sliced jalapenos, and cool Mexican crema finish the golden bubbly top, creating a rich contrast of temperature and spice. The baking process transforms simple tortillas into tender pasta-like layers that absorb every drop of seasoned tomato broth. Ideal for family dinners, it reheats exceptionally well for easy weekday lunches. Loaded with plant-based proteins, heart-healthy dietary fiber, and essential minerals like iron and potassium, this wholesome casserole delivers comforting deliciousness without spending hours in the kitchen. Serve alongside crisp green salads or Spanish rice for a complete rustic dinner.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 12,
+      "unit": "small",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cans",
+      "name": "black beans"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "can",
+      "name": "fire roasted corn kernels"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "cups",
+      "name": "shredded monterey jack cheese"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "cups",
+      "name": "red enchilada sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "can",
+      "name": "diced green chilies"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced black olives"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "mexican crema"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "medium",
+      "name": "fresh jalapeno"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "lime",
+      "name": "fresh lime juice"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "crumbled cotija cheese"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "avocado",
+      "name": "diced fresh avocado"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "can",
+      "name": "tomato sauce"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "vegetable broth"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Filling Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat conventional oven to 375 degrees Fahrenheit and grease a rectangular glass baking dish lightly."
+        },
+        {
+          "number": 2,
+          "step": "Heat two tablespoons of olive oil inside a skillet set over medium flame until shimmering."
+        },
+        {
+          "number": 3,
+          "step": "Add diced yellow onion to hot skillet and cook for four minutes until translucent and soft."
+        },
+        {
+          "number": 4,
+          "step": "Add minced garlic and stir continuously for one minute until fragrant without burning."
+        },
+        {
+          "number": 5,
+          "step": "Rinse canned black beans thoroughly in a colander under cold water before adding to skillet."
+        },
+        {
+          "number": 6,
+          "step": "Add fire roasted corn kernels and diced green chilies into skillet with black bean mixture."
+        },
+        {
+          "number": 7,
+          "step": "Season mixture with ground cumin, chili powder, dried oregano, salt, and black pepper evenly."
+        },
+        {
+          "number": 8,
+          "step": "Pour quarter cup of vegetable broth into skillet to keep beans moist during brief cooking."
+        },
+        {
+          "number": 9,
+          "step": "Stir bean filling thoroughly using a wooden spoon while simmering over low heat for five minutes."
+        },
+        {
+          "number": 10,
+          "step": "Squeeze fresh lime juice into filling mixture to brighten overall flavor balance nicely."
+        },
+        {
+          "number": 11,
+          "step": "Remove skillet from burner heat source and allow filling to cool slightly before casserole assembly."
+        },
+        {
+          "number": 12,
+          "step": "Combine red enchilada sauce and plain tomato sauce together inside a glass measuring cup."
+        },
+        {
+          "number": 13,
+          "step": "Whisk smoked paprika and onion powder into sauce mixture until fully integrated and smooth."
+        },
+        {
+          "number": 14,
+          "step": "Set seasoned sauce and black bean filling aside on kitchen counter near baking dish."
+        }
+      ]
+    },
+    {
+      "name": "Layer Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spread half cup of prepared red sauce evenly across bottom surface of greased baking dish."
+        },
+        {
+          "number": 2,
+          "step": "Arrange four corn tortillas in single layer over bottom sauce, overlapping slightly to cover."
+        },
+        {
+          "number": 3,
+          "step": "Spoon one third of black bean corn filling evenly over tortilla layer using large ladle."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle one cup of shredded Monterey Jack cheese evenly across bean layer surface."
+        },
+        {
+          "number": 5,
+          "step": "Scatter half of sliced black olives over cheese layer for savory flavor pockets."
+        },
+        {
+          "number": 6,
+          "step": "Ladle three quarters cup of sauce over cheese layer ensuring tortillas edges are moistened."
+        },
+        {
+          "number": 7,
+          "step": "Place four more corn tortillas firmly over cheese layer to form second structural tier."
+        },
+        {
+          "number": 8,
+          "step": "Spread another third of bean filling evenly over second tortilla layer using flat spatula."
+        },
+        {
+          "number": 9,
+          "step": "Top bean filling with another cup of shredded Monterey Jack cheese to bind layers."
+        },
+        {
+          "number": 10,
+          "step": "Pour remaining sauce over top layer of tortillas to cover entire top surface fully."
+        },
+        {
+          "number": 11,
+          "step": "Add remaining bean filling over sauce layer spreading gently to reach corners of dish."
+        },
+        {
+          "number": 12,
+          "step": "Top casserole with remaining shredded Monterey Jack cheese covering all exposed tortillas."
+        },
+        {
+          "number": 13,
+          "step": "Scatter remaining sliced black olives over top cheese layer for appealing presentation."
+        },
+        {
+          "number": 14,
+          "step": "Press top layers down gently using broad spatula to compact casserole structure securely."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Garnish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cover baking dish tightly with sheet of aluminum foil to trap moisture during initial bake."
+        },
+        {
+          "number": 2,
+          "step": "Place covered casserole on middle rack of preheated oven and set timer for twenty minutes."
+        },
+        {
+          "number": 3,
+          "step": "Bake until casserole is heated through completely and sauce begins bubbling along dish borders."
+        },
+        {
+          "number": 4,
+          "step": "Remove aluminum foil carefully using oven mitts to prevent hot steam burns to hands."
+        },
+        {
+          "number": 5,
+          "step": "Return uncovered casserole to oven rack for ten final minutes to brown top cheese."
+        },
+        {
+          "number": 6,
+          "step": "Watch cheese closely until melted completely into golden bubbly layer across surface."
+        },
+        {
+          "number": 7,
+          "step": "Remove baking dish from oven and rest on trivet at room temperature for ten minutes."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle Mexican crema decoratively across top surface of warm casserole using small spoon."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle crumbled cotija cheese evenly over crema layer to add salty crumbly texture."
+        },
+        {
+          "number": 10,
+          "step": "Distribute chopped fresh cilantro across top layer to provide vivid green color contrast."
+        },
+        {
+          "number": 11,
+          "step": "Scatter thinly sliced fresh jalapeno peppers over casserole for optional spicy bite."
+        },
+        {
+          "number": 12,
+          "step": "Top with diced fresh avocado pieces right before slicing casserole into equal portions."
+        },
+        {
+          "number": 13,
+          "step": "Cut casserole into six square portions using sharp chef knife wiped clean between cuts."
+        },
+        {
+          "number": 14,
+          "step": "Serve hot casserole slices onto plates using wide spatula alongside extra Mexican crema."
+        }
+      ]
+    }
+  ]
+}

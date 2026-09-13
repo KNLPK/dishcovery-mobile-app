@@ -1,0 +1,552 @@
+{
+  "id": 9001011,
+  "title": "Quick Tokyo Chicken Stew",
+  "image": "generated://dishcovery/9001011.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "This rapid Japanese stew delivers comfort on busy weeknights without sacrificing authentic depth. Boneless <b>tender chicken thighs</b> simmer alongside earthy shiitake mushrooms, sweet carrots, and silken tofu in a fragrant dashi broth. Enhanced with soy sauce, sweet mirin, and fresh ginger, the liquid creates a savory umbrella of flavor in under thirty minutes. The secret to this fast variation lies in cutting ingredients into bite-sized pieces for <b>maximum surface exposure</b> and quicker cooking times. A touch of sesame oil added at the very end brings a nutty finish that ties the whole pot together. Served in wide shallow bowls over warm steamed rice, this hearty soup-stew provides a <b>nourishing balanced dinner</b> that calms after a long day. Simple, restorative, and full of traditional umami richness, this family-friendly meal proves that <b>quick home cooking</b> can feel like a cozy culinary escape.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 19.2
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Sugar",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Protein",
+        "amount": 39,
+        "unit": "g",
+        "percentOfDailyNeeds": 78
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 65,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10.8
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.2
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.1
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.2
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.4
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.8
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.6
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47.3
+      },
+      {
+        "name": "Choline",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iodine",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36.7
+      },
+      {
+        "name": "Chromium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17.1
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 48.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "shiitake mushrooms"
+    },
+    {
+      "id": 90002,
+      "amount": 300,
+      "unit": "g",
+      "name": "silken tofu"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "carrots"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90005,
+      "amount": 800,
+      "unit": "ml",
+      "name": "dashi stock"
+    },
+    {
+      "id": 90006,
+      "amount": 45,
+      "unit": "ml",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90007,
+      "amount": 30,
+      "unit": "ml",
+      "name": "mirin"
+    },
+    {
+      "id": 90008,
+      "amount": 15,
+      "unit": "ml",
+      "name": "sake"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ginger root"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "pcs",
+      "name": "scallions"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90013,
+      "amount": 100,
+      "unit": "g",
+      "name": "snow peas"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "shichimi tugarashi"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "tokyo leek"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "g",
+      "name": "bamboo shoots"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90020,
+      "amount": 400,
+      "unit": "g",
+      "name": "cooked white rice"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "sheet",
+      "name": "nori seaweed"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90023,
+      "amount": 100,
+      "unit": "g",
+      "name": "konjac noodles"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "miso paste"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Ingredient Prep and Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat boneless skinless chicken thighs completely dry using clean absorbent paper towels."
+        },
+        {
+          "number": 2,
+          "step": "Cut chicken thighs into bite-sized one-inch square pieces using a sharp chef knife."
+        },
+        {
+          "number": 3,
+          "step": "Wipe fresh shiitake mushrooms with damp towel and trim off tough woody stem ends."
+        },
+        {
+          "number": 4,
+          "step": "Cut mushroom caps in half diagonally or leave small caps whole for cooking."
+        },
+        {
+          "number": 5,
+          "step": "Peel fresh carrots and daikon radish using a swivel peeler on clean cutting board."
+        },
+        {
+          "number": 6,
+          "step": "Cut carrots into decorative rolled angular bites using traditional Japanese rangiri cut."
+        },
+        {
+          "number": 7,
+          "step": "Slice peeled daikon radish into half-moon rounds about half-inch thick for quick simmering."
+        },
+        {
+          "number": 8,
+          "step": "Grate fresh ginger root finely into a small bowl using a ceramic microplane grater."
+        },
+        {
+          "number": 9,
+          "step": "Slice green scallions diagonally into thin ringlets for final garnish on finished stew."
+        },
+        {
+          "number": 10,
+          "step": "Drain silken tofu on paper towels and cut into uniform one-inch soft square cubes."
+        },
+        {
+          "number": 11,
+          "step": "Heat vegetable oil in heavy Dutch oven over medium-high burner setting until glowing."
+        },
+        {
+          "number": 12,
+          "step": "Add chicken thigh pieces to hot oil in single layer and sear for three minutes."
+        },
+        {
+          "number": 13,
+          "step": "Turn chicken pieces over using tongs to brown second side lightly without fully cooking."
+        },
+        {
+          "number": 14,
+          "step": "Add grated fresh ginger to pot and stir briefly for thirty seconds until fragrant."
+        },
+        {
+          "number": 15,
+          "step": "Pour instant or homemade dashi stock into pot to deglaze caramelized chicken juices."
+        },
+        {
+          "number": 16,
+          "step": "Add Japanese sake, sweet mirin, soy sauce, and white sugar into simmering liquid."
+        },
+        {
+          "number": 17,
+          "step": "Stir soup base thoroughly to ensure sugar dissolves completely into warm seasoned broth."
+        },
+        {
+          "number": 18,
+          "step": "Bring stock mixture to full active rolling boil over high heat setting on stove."
+        },
+        {
+          "number": 19,
+          "step": "Skim away any float scum or surface foam using fine wire mesh skimming spoon."
+        },
+        {
+          "number": 20,
+          "step": "Add sliced carrots, daikon radish, and bamboo shoot slices directly into boiling broth."
+        },
+        {
+          "number": 21,
+          "step": "Reduce heat setting to medium-low, cover pot with lid, and simmer for ten minutes."
+        },
+        {
+          "number": 22,
+          "step": "Verify root vegetables are softening by piercing carrot slice with tip of small knife."
+        }
+      ]
+    },
+    {
+      "name": "Simmering and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Uncover pot gently and stir in prepared shiitake mushrooms and konjac noodles thoroughly."
+        },
+        {
+          "number": 2,
+          "step": "Place delicate silken tofu cubes carefully into stew broth without breaking their shape."
+        },
+        {
+          "number": 3,
+          "step": "Add fresh snow peas and sliced Tokyo leeks into top layer of simmering stew."
+        },
+        {
+          "number": 4,
+          "step": "Lower heat setting to soft gentle bubble so delicate tofu remains intact in pot."
+        },
+        {
+          "number": 5,
+          "step": "Place a drop-lid drop lid directly onto ingredients to keep them submerged while simmering."
+        },
+        {
+          "number": 6,
+          "step": "Simmer stew covered with drop lid for six minutes until all flavors melt together."
+        },
+        {
+          "number": 7,
+          "step": "Whisk miso paste with a ladle of hot broth in bowl until smooth and lump-free."
+        },
+        {
+          "number": 8,
+          "step": "Turn off stove heat entirely before stirring dissolved miso paste back into stew."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle toasted sesame oil over surface of hot stew to impart rich toasted aroma."
+        },
+        {
+          "number": 10,
+          "step": "Taste stew broth carefully and adjust seasoning with extra splash of soy sauce if needed."
+        },
+        {
+          "number": 11,
+          "step": "Ladle warm cooked short-grain white rice into bottom portion of deep broad bowls."
+        },
+        {
+          "number": 12,
+          "step": "Ladle hot chicken, tender vegetables, and tofu neatly on top of warm white rice."
+        },
+        {
+          "number": 13,
+          "step": "Spoon generous ladles of warm umami-rich broth over rice and vegetables in each bowl."
+        },
+        {
+          "number": 14,
+          "step": "Garnish bowls generously with thin sliced green scallions and toasted white sesame seeds."
+        },
+        {
+          "number": 15,
+          "step": "Dust shichimi tugarashi seven-spice powder over top for subtle heat if personal preference."
+        },
+        {
+          "number": 16,
+          "step": "Tuck small toasted nori seaweed strips down into side edge of each warm bowl."
+        },
+        {
+          "number": 17,
+          "step": "Carry steaming bowls to table while stew remains hot, fresh, and deeply aromatic."
+        },
+        {
+          "number": 18,
+          "step": "Serve immediately alongside extra shichimi tugarashi spice for personalized table seasoning."
+        },
+        {
+          "number": 19,
+          "step": "Provide wide ceramic soup spoons and chopsticks for an authentic Japanese dining experience."
+        },
+        {
+          "number": 20,
+          "step": "Enjoy this comforting weeknight meal that brings genuine Japanese stew flavor in minutes."
+        },
+        {
+          "number": 21,
+          "step": "Store remaining stew in airtight container inside refrigerator for quick delicious leftovers."
+        }
+      ]
+    }
+  ]
+}

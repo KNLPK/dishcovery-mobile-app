@@ -1,0 +1,552 @@
+{
+  "id": 9001027,
+  "title": "Kluski z Makiem Dessert Bowl",
+  "image": "generated://dishcovery/9001027.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "A beloved Christmas Eve tradition transformed into an elegant sweet treat, this Polish recipe features a <b>dessert noodle bowl</b> coated in a luscious sweet poppy seed paste. Handmade broad kluski egg noodles are tossed hot with a fragrant blend of ground blue poppy seeds, honey, melted butter, and heavy cream. Golden raisins, chopped dried figs, and toasted walnuts soaked in rum introduce luxurious chewy textures and warmth to every bite. Orange zest and ground cinnamon infuse the warm cream sauce with cozy holiday aromas. High in <b>calcium, manganese, and healthy fats</b> from the generous poppy seed and nut mixture, this dish offers a unique balance of wholesome ingredients and sweet indulgence. Served warm or chilled in individual bowls topped with toasted sliced almonds and fresh mint, it brings historic Slavic dessert traditions into a modern setting. It is an unforgettable dessert option for festive family gatherings.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 460,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Sugar",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sodium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Calcium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Copper",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 78
+      },
+      {
+        "name": "Chromium",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 10,
+      "unit": "oz",
+      "name": "wide egg noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "blue poppy seeds"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "wildflower honey"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90004,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped dried figs"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped walnuts"
+    },
+    {
+      "id": 90008,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dark rum"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange zest"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "almond extract"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "cups",
+      "name": "whole milk"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90018,
+      "amount": 6,
+      "unit": "sprigs",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "candied orange peel"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "poppy seed oil"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Poppy Seed Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse blue poppy seeds in fine mesh strainer under cold water to clean."
+        },
+        {
+          "number": 2,
+          "step": "Transfer rinsed poppy seeds into saucepan and cover with whole milk and water."
+        },
+        {
+          "number": 3,
+          "step": "Bring milk and poppy seed mixture to gentle boil over medium heat on stove."
+        },
+        {
+          "number": 4,
+          "step": "Reduce heat to low and simmer poppy seeds for twenty minutes until softened."
+        },
+        {
+          "number": 5,
+          "step": "Drain cooked poppy seeds through fine cloth lined colander to remove liquid."
+        },
+        {
+          "number": 6,
+          "step": "Grind drained warm poppy seeds twice through meat grinder or food processor."
+        },
+        {
+          "number": 7,
+          "step": "Combine golden raisins chopped dried figs and dark rum in small glass bowl."
+        },
+        {
+          "number": 8,
+          "step": "Let dried fruit soak in dark rum mixture for fifteen minutes at room temp."
+        },
+        {
+          "number": 9,
+          "step": "Toast chopped walnuts and sliced almonds separately in dry skillet until golden."
+        },
+        {
+          "number": 10,
+          "step": "Remove toasted nuts from skillet immediately to prevent over browning."
+        },
+        {
+          "number": 11,
+          "step": "Melt unsalted butter in saucepan over medium low heat until liquid and warm."
+        },
+        {
+          "number": 12,
+          "step": "Whisk wildflower honey brown sugar and heavy cream into melted butter until smooth."
+        },
+        {
+          "number": 13,
+          "step": "Add ground poppy seeds to warm honey cream mixture in saucepan while stirring."
+        },
+        {
+          "number": 14,
+          "step": "Stir orange zest ground cinnamon cardamom nutmeg and sea salt into poppy paste."
+        },
+        {
+          "number": 15,
+          "step": "Add vanilla extract and almond extract to poppy seed sauce off burner heat."
+        },
+        {
+          "number": 16,
+          "step": "Fold soaked fruit with rum liquid and toasted walnuts into warm poppy sauce."
+        },
+        {
+          "number": 17,
+          "step": "Keep sweet poppy seed sauce warm over low heat setting while cooking noodles."
+        },
+        {
+          "number": 18,
+          "step": "Bring large pot of water to rolling boil with pinch of sea salt on high."
+        },
+        {
+          "number": 19,
+          "step": "Zest fresh orange finely using microplane grater to yield one tablespoon."
+        },
+        {
+          "number": 20,
+          "step": "Chop candied orange peel finely for colorful aromatic dessert garnish."
+        },
+        {
+          "number": 21,
+          "step": "Measure powdered sugar and fresh mint sprigs for final bowl decorating."
+        },
+        {
+          "number": 22,
+          "step": "Ensure all sauce components are fully incorporated before combining with pasta."
+        }
+      ]
+    },
+    {
+      "name": "Noodles and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Drop wide egg noodles into boiling water and stir gently to prevent sticking."
+        },
+        {
+          "number": 2,
+          "step": "Cook egg noodles for eight to ten minutes until tender yet slightly firm to bite."
+        },
+        {
+          "number": 3,
+          "step": "Drain cooked egg noodles thoroughly in large colander without rinsing with water."
+        },
+        {
+          "number": 4,
+          "step": "Transfer hot drained egg noodles directly into large warm glass mixing bowl."
+        },
+        {
+          "number": 5,
+          "step": "Pour warm sweet poppy seed and fruit sauce over hot noodles immediately."
+        },
+        {
+          "number": 6,
+          "step": "Toss noodles gently with rubber spatula until evenly coated in dark poppy paste."
+        },
+        {
+          "number": 7,
+          "step": "Add poppy seed oil to noodles and toss once more to add sheen and flavor."
+        },
+        {
+          "number": 8,
+          "step": "Taste sweet noodle mixture and add lemon juice if needed to balance sweetness."
+        },
+        {
+          "number": 9,
+          "step": "Let sweet noodle mixture rest for five minutes allowing noodles to absorb sauce."
+        },
+        {
+          "number": 10,
+          "step": "Spoon sweet kluski noodle mixture into wide individual dessert bowls neatly."
+        },
+        {
+          "number": 11,
+          "step": "Ensure equal distribution of raisins dried figs and walnuts among serving bowls."
+        },
+        {
+          "number": 12,
+          "step": "Scatter toasted sliced almonds generously over surface of each noodle bowl."
+        },
+        {
+          "number": 13,
+          "step": "Garnish bowls with finely chopped candied orange peel for bright color note."
+        },
+        {
+          "number": 14,
+          "step": "Dust powdered sugar lightly over top of hot dessert bowls using fine sieve."
+        },
+        {
+          "number": 15,
+          "step": "Top each serving bowl with fresh mint sprig right before bringing to table."
+        },
+        {
+          "number": 16,
+          "step": "Serve dessert noodles warm immediately or chill completely in refrigerator."
+        },
+        {
+          "number": 17,
+          "step": "Pair dessert bowl with hot spiced tea roasted coffee or dessert wine."
+        },
+        {
+          "number": 18,
+          "step": "Store leftover sweet noodles in covered airtight container for up to three days."
+        },
+        {
+          "number": 19,
+          "step": "Reheat leftovers gently in microwave with splash of heavy cream if desired."
+        },
+        {
+          "number": 20,
+          "step": "Enjoy this unique Polish sweet noodle course with family and friends."
+        },
+        {
+          "number": 21,
+          "step": "Celebrate traditional holiday culinary heritage with every delicious sweet bite."
+        }
+      ]
+    }
+  ]
+}

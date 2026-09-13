@@ -1,0 +1,303 @@
+{
+  "id": 9000008,
+  "title": "Layered Korean Seafood and Rice Cake Bake",
+  "image": "generated://dishcovery/9000008.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Satisfy your cravings with this bubbly <b>Korean seafood bake</b>, layering tender squid, sweet shrimp, and chewy cylinder rice cakes under a melted cheese crust. A savory gochujang and garlic sauce ties the layers together, providing a fiery yet balanced kick sweetened with a touch of rice syrup. Sliced cabbage, green onions, and sweet onion form a juicy vegetable base that caramelizes as the dish bakes in the oven. Mozzarella cheese melted across the top creates an appetizing golden blanket that tempers the spicy chili sauce underneath. Seafood lovers will appreciate how the tender squid rings and juicy shrimp retain their delicate texture inside the savory casserole. This modern twist on classic street food favorites brings comforting heat and irresistible cheese pulls to your dining table. Serve hot straight from the baking dish alongside crisp pickled radishes for a fun family supper. Experience the vibrant harmony of Korean chili flavors combined with rich baked seafood.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 460,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Protein",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 920,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 720,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Iodine",
+        "amount": 52,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 87
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "squid rings"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "peeled shrimp"
+    },
+    {
+      "id": 90002,
+      "amount": 250,
+      "unit": "g",
+      "name": "korean rice cakes"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "gochujang paste"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rice syrup"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 150,
+      "unit": "g",
+      "name": "napa cabbage"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "stalks",
+      "name": "green onion"
+    },
+    {
+      "id": 90009,
+      "amount": 150,
+      "unit": "g",
+      "name": "shredded mozzarella"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Bake Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak rice cakes in warm water for 15 minutes to soften, then drain thoroughly before assembling."
+        },
+        {
+          "number": 2,
+          "step": "Whisk gochujang paste, rice syrup, soy sauce, minced garlic, and sesame oil together in a bowl."
+        },
+        {
+          "number": 3,
+          "step": "Layer sliced napa cabbage and chopped green onions across the bottom of a greased ovenproof baking dish."
+        },
+        {
+          "number": 4,
+          "step": "Arrange softened rice cakes, squid rings, and peeled shrimp in an even layer over the vegetables."
+        },
+        {
+          "number": 5,
+          "step": "Pour the prepared gochujang sauce evenly over the seafood and cover the baking dish with foil."
+        },
+        {
+          "number": 6,
+          "step": "Bake at 200 degrees Celsius for 20 minutes, uncover, sprinkle with mozzarella, and bake five minutes more."
+        }
+      ]
+    }
+  ]
+}

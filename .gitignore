@@ -39,3 +39,7 @@ dishcovery-proxy/.env
 *.tsbuildinfo
 
 app-example
+
+# generation-run control files (never data)
+fixtures/generated/STOP
+fixtures/generated/RUNNING.pid

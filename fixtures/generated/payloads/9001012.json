@@ -1,0 +1,553 @@
+{
+  "id": 9001012,
+  "title": "Fiesta Roast Pork Loin Achiote",
+  "image": "generated://dishcovery/9001012.jpg",
+  "readyInMinutes": 120,
+  "servings": 8,
+  "summary": "Celebrate special occasions with this stunning <b>festive Mexican roast pork</b> bursting with vibrant Yucatecan spices. A center-cut pork loin is marinated in a rich rub of earthy achiote paste, citrus juices, toasted garlic, and Mexican oregano before slow-roasting in the oven. Wrapped in charred banana leaves, the meat retains total juiciness while absorbing subtle tea-like smoke aromas. As it roasts, the exterior turns mahogany red with a glistening <b>caramelized spice crust</b> that looks breathtaking on any holiday platter. Accompanied by pickled red onions, roasted sweet potatoes, and warm corn tortillas, this feast brings vibrant energy to your dinner table. The brilliant blend of tart citrus and deep spice paste showcases the magnificence of <b>traditional celebration cooking</b>. Perfect for holidays or family reunions, every slice offers <b>succulent savory perfection</b> that turns a simple gathering into a memorable culinary fiesta.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.8
+      },
+      {
+        "name": "Protein",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 96
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.2
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 720,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42.2
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 55,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9.2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70.8
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.3
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 9.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 61.3
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.2
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Potassium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.1
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.8
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.2
+      },
+      {
+        "name": "Selenium",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 81.8
+      },
+      {
+        "name": "Choline",
+        "amount": 125,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.7
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Chromium",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31.4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35.6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1800,
+      "unit": "g",
+      "name": "pork loin roast"
+    },
+    {
+      "id": 90001,
+      "amount": 100,
+      "unit": "g",
+      "name": "achiote paste"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "ml",
+      "name": "bitter orange juice"
+    },
+    {
+      "id": 90003,
+      "amount": 50,
+      "unit": "ml",
+      "name": "lime juice"
+    },
+    {
+      "id": 90004,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mexican oregano"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "coriander seeds"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "whole cloves"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "allspice berries"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black peppercorns"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "banana leaves"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "red onions"
+    },
+    {
+      "id": 90014,
+      "amount": 100,
+      "unit": "ml",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "habanero pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 500,
+      "unit": "g",
+      "name": "sweet potatoes"
+    },
+    {
+      "id": 90018,
+      "amount": 30,
+      "unit": "ml",
+      "name": "olive oil"
+    },
+    {
+      "id": 90019,
+      "amount": 16,
+      "unit": "pcs",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "avocado"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "g",
+      "name": "cotija cheese"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cinnamon powder"
+    },
+    {
+      "id": 90024,
+      "amount": 30,
+      "unit": "g",
+      "name": "lard"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Marinade and Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Toast whole cumin seeds, coriander seeds, cloves, and allspice in dry pan over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Grind toasted spices with black peppercorns in spice grinder until fine powder forms."
+        },
+        {
+          "number": 3,
+          "step": "Combine achiote paste, garlic, ground spices, oregano, and salt in blender jar."
+        },
+        {
+          "number": 4,
+          "step": "Pour bitter orange juice and fresh lime juice over ingredients inside blender jar."
+        },
+        {
+          "number": 5,
+          "step": "Blend marinade high speed for two minutes until smooth reddish-orange rub paste forms."
+        },
+        {
+          "number": 6,
+          "step": "Pat pork loin roast dry using paper towels and score fat cap in diamond crosshatch pattern."
+        },
+        {
+          "number": 7,
+          "step": "Rub achiote marinade thoroughly over all surfaces of pork roast, coating score lines deep."
+        },
+        {
+          "number": 8,
+          "step": "Cover marinating pork with plastic wrap and refrigerate for minimum two hours or overnight."
+        },
+        {
+          "number": 9,
+          "step": "Pass banana leaves quickly over open stove flame to soften them for easy folding wrapper."
+        },
+        {
+          "number": 10,
+          "step": "Thinly slice red onions and place them in glass bowl with cider vinegar, sugar, and habanero."
+        },
+        {
+          "number": 11,
+          "step": "Let red onions pickle at room temperature for one hour to create bright pink taco topping."
+        },
+        {
+          "number": 12,
+          "step": "Peel sweet potatoes and cut them into broad two-inch wedges for roasting alongside meat."
+        },
+        {
+          "number": 13,
+          "step": "Toss sweet potato wedges with olive oil, salt, and cinnamon powder in large bowl."
+        },
+        {
+          "number": 14,
+          "step": "Preheat main oven setting to 350 degrees Fahrenheit for high-temperature festive roasting."
+        }
+      ]
+    },
+    {
+      "name": "Roasting the Pork",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Line heavy metal roasting pan with softened banana leaves, letting ends overhang sides."
+        },
+        {
+          "number": 2,
+          "step": "Place marinated pork loin in center of pan over banana leaves, fat side facing upward."
+        },
+        {
+          "number": 3,
+          "step": "Arrange seasoned sweet potato wedges around sides of marinated pork loin in pan."
+        },
+        {
+          "number": 4,
+          "step": "Fold overhanging banana leaf flaps neatly over top of pork roast to seal completely."
+        },
+        {
+          "number": 5,
+          "step": "Cover entire roasting pan tightly with heavy aluminum foil to retain inner pan moisture."
+        },
+        {
+          "number": 6,
+          "step": "Transfer roasting pan to center rack in hot preheated oven and bake for one hour."
+        },
+        {
+          "number": 7,
+          "step": "Remove aluminum foil and unfold banana leaves carefully to expose top fat layer."
+        },
+        {
+          "number": 8,
+          "step": "Baste pork roast with accumulated pan juices using large spoon or bulb baster."
+        },
+        {
+          "number": 9,
+          "step": "Return uncovered pan to oven and roast for thirty minutes to brown top spice crust."
+        },
+        {
+          "number": 10,
+          "step": "Check internal meat core temperature using digital thermometer inserted into thickest part."
+        },
+        {
+          "number": 11,
+          "step": "Remove roast from oven once internal temp reads 145 degrees Fahrenheit for juicy texture."
+        },
+        {
+          "number": 12,
+          "step": "Transfer roasted pork to wooden carving board and cover loosely with foil for fifteen minutes."
+        },
+        {
+          "number": 13,
+          "step": "Strain flavorful roasting pan pan drippings into small saucepan over low heat on stove."
+        },
+        {
+          "number": 14,
+          "step": "Skim excess fat from drippings and simmer for five minutes to create rich dipping jus."
+        }
+      ]
+    },
+    {
+      "name": "Carving and Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Warm corn tortillas in dry skillet over high heat for thirty seconds per side until soft."
+        },
+        {
+          "number": 2,
+          "step": "Stack warm corn tortillas inside clean fabric towel basket to keep pliable at table."
+        },
+        {
+          "number": 3,
+          "step": "Slice rested achiote pork roast into crisp half-inch thick slices across muscle grain."
+        },
+        {
+          "number": 4,
+          "step": "Arrange carved pork loin slices down center of large festive serving platter artfully."
+        },
+        {
+          "number": 5,
+          "step": "Surround carved pork slices with golden roasted sweet potato wedges around platter edges."
+        },
+        {
+          "number": 6,
+          "step": "Spoon tangy pickled pink red onions over pork roast slices for vibrant color pop."
+        },
+        {
+          "number": 7,
+          "step": "Crumble salty cotija cheese over sweet potatoes and pork slices generously for finish."
+        },
+        {
+          "number": 8,
+          "step": "Scatter fresh cilantro leaves and sliced avocados across platter for fresh green contrast."
+        },
+        {
+          "number": 9,
+          "step": "Pour warm achiote pan jus into gravy boat and place alongside festive platter on table."
+        },
+        {
+          "number": 10,
+          "step": "Serve pork roast hot alongside warm corn tortillas, pickled onions, and extra lime wedges."
+        },
+        {
+          "number": 11,
+          "step": "Invite guests to build custom tacos with sliced roast pork, sweet potatoes, and juices."
+        },
+        {
+          "number": 12,
+          "step": "Pair meal with chilled hibiscus agua fresca or Mexican lager for authentic celebration."
+        },
+        {
+          "number": 13,
+          "step": "Store remaining carved pork in sealed container with leftover pan jus for future meals."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy this memorable festive Mexican feast full of rich achiote spice and roasted perfection."
+        }
+      ]
+    }
+  ]
+}

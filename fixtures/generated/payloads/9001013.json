@@ -1,0 +1,552 @@
+{
+  "id": 9001013,
+  "title": "Make Ahead Spiced Indian Noodle Bowl",
+  "image": "generated://dishcovery/9001013.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Designed specifically for meal prep, this <b>make-ahead Indian noodle bowl</b> brings vibrant warmth to weekday lunches without getting soggy. Tender rice noodles are tossed in a fragrant paste made from curry leaves, brown mustard seeds, turmeric, and creamy coconut milk. Crisp pan-seared chickpeas and roasted bell peppers deliver a <b>hearty vegetable crunch</b> that holds up beautifully in storage containers for up to four days. A bright squeeze of fresh lime and a sprinkle of roasted peanuts provide acid and texture right before eating. This clever meal prep design allows all <b>spiced curry flavors</b> to deepen overnight in the fridge, making day two even tastier than day one. Perfect for busy professionals, it offers a refreshing departure from standard office lunches while providing balanced nutrition. Simply reheat gently or enjoy cool for a <b>restorative spiced meal</b> that saves valuable morning preparation time.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24.5
+      },
+      {
+        "name": "Fat",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 68,
+        "unit": "g",
+        "percentOfDailyNeeds": 24.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 7.8
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 640,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27.8
+      },
+      {
+        "name": "Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 580,
+        "unit": "IU",
+        "percentOfDailyNeeds": 11.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 57.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.3
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.2
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27.5
+      },
+      {
+        "name": "Calcium",
+        "amount": 120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.2
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.8
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.6
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.6
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.1
+      },
+      {
+        "name": "Copper",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 32.7
+      },
+      {
+        "name": "Choline",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.4
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Chromium",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.7
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 71.1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "rice vermicelli noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "canned chickpeas"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "ml",
+      "name": "light coconut milk"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown mustard seeds"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90006,
+      "amount": 10,
+      "unit": "pcs",
+      "name": "fresh curry leaves"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger root"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90014,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90015,
+      "amount": 50,
+      "unit": "g",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "limes"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "jaggery powder"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "g",
+      "name": "shredded carrots"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "green chilies"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "liter",
+      "name": "water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Noodle Prep and Tempered Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring one liter of fresh filtered water to rapid rolling boil inside medium saucepan."
+        },
+        {
+          "number": 2,
+          "step": "Place dry rice vermicelli noodles into large heatproof glass bowl on counter."
+        },
+        {
+          "number": 3,
+          "step": "Pour boiling water over rice vermicelli noodles until completely submerged in bowl."
+        },
+        {
+          "number": 4,
+          "step": "Soak noodles undisturbed for four minutes until tender yet pleasantly firm to chew."
+        },
+        {
+          "number": 5,
+          "step": "Drain noodles through colander and rinse thoroughly under cool tap water to stop cooking."
+        },
+        {
+          "number": 6,
+          "step": "Toss noodles with half teaspoon sesame oil in bowl to keep individual strands separate."
+        },
+        {
+          "number": 7,
+          "step": "Drain canned chickpeas into colander and rinse thoroughly under cool running tap water."
+        },
+        {
+          "number": 8,
+          "step": "Pat chickpeas dry with absorbent kitchen towels to remove moisture for pan crisping."
+        },
+        {
+          "number": 9,
+          "step": "Mince fresh ginger root, garlic cloves, and green chilies finely on clean cutting board."
+        },
+        {
+          "number": 10,
+          "step": "Slice yellow onion and red bell pepper into thin long uniform strips for stir frying."
+        },
+        {
+          "number": 11,
+          "step": "Heat virgin coconut oil in large wok or skillet over medium-high heat burner setting."
+        },
+        {
+          "number": 12,
+          "step": "Add brown mustard seeds and cumin seeds to hot oil until they pop sputtering sounds."
+        },
+        {
+          "number": 13,
+          "step": "Toss fresh curry leaves into oil carefully as they crackle and release herbal aroma."
+        },
+        {
+          "number": 14,
+          "step": "Add minced ginger, garlic, and sliced green chilies; sauté for one minute until soft."
+        },
+        {
+          "number": 15,
+          "step": "Add sliced yellow onions to wok and stir fry for four minutes until light golden brown."
+        },
+        {
+          "number": 16,
+          "step": "Stir in turmeric powder, garam masala, chili powder, and jaggery powder until aromatic."
+        },
+        {
+          "number": 17,
+          "step": "Add dried chickpeas to seasoned spice wok base and stir fry for six minutes until crispy."
+        },
+        {
+          "number": 18,
+          "step": "Transfer crisp chickpeas to small bowl and set aside for topping make-ahead noodle bowls."
+        },
+        {
+          "number": 19,
+          "step": "Add sliced red bell peppers and shredded carrots to remaining spicy wok oil mixture."
+        },
+        {
+          "number": 20,
+          "step": "Stir fry vegetables for three minutes until tender-crisp while maintaining vibrant color."
+        },
+        {
+          "number": 21,
+          "step": "Pour light coconut milk and soy sauce into wok and bring sauce to gentle low simmer."
+        },
+        {
+          "number": 22,
+          "step": "Season coconut spice sauce with kosher salt and black pepper according to taste preferences."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Meal Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add fresh baby spinach leaves into simmering coconut curry sauce and fold until wilted."
+        },
+        {
+          "number": 2,
+          "step": "Add soaked rice vermicelli noodles into wok and toss with tongs until thoroughly coated."
+        },
+        {
+          "number": 3,
+          "step": "Stir-fry noodles with sauce and vegetables for two minutes until liquid is fully absorbed."
+        },
+        {
+          "number": 4,
+          "step": "Turn off heat setting entirely and sprinkle fresh lime juice across cooked spiced noodles."
+        },
+        {
+          "number": 5,
+          "step": "Finely chop fresh cilantro leaves and coarsely crush roasted peanuts on cutting board."
+        },
+        {
+          "number": 6,
+          "step": "Lay out four glass meal prep containers side by side on clean kitchen counter surface."
+        },
+        {
+          "number": 7,
+          "step": "Divide cooked curry noodles and vegetables equally among four glass storage containers."
+        },
+        {
+          "number": 8,
+          "step": "Spoon crispy spiced chickpeas over top side of noodles in each glass prep container."
+        },
+        {
+          "number": 9,
+          "step": "Scatter crushed roasted peanuts over chickpeas to maintain crunchy texture when stored."
+        },
+        {
+          "number": 10,
+          "step": "Garnish each bowl generously with freshly chopped cilantro leaves and additional lime wedge."
+        },
+        {
+          "number": 11,
+          "step": "Allow noodle bowls to cool completely to room temperature before applying plastic container lids."
+        },
+        {
+          "number": 12,
+          "step": "Snap lids tightly onto containers and store meal prep bowls inside refrigerator up to four days."
+        },
+        {
+          "number": 13,
+          "step": "To serve warm, remove lid and microwave container on high setting for ninety seconds."
+        },
+        {
+          "number": 14,
+          "step": "Alternatively, enjoy noodle bowl chilled directly from fridge as refreshing lunch salad."
+        },
+        {
+          "number": 15,
+          "step": "Squeeze fresh lime wedge over warm or cold noodles immediately prior to eating."
+        },
+        {
+          "number": 16,
+          "step": "Toss chickpeas and peanuts into noodles with fork right before consuming for best crunch."
+        },
+        {
+          "number": 17,
+          "step": "Drizzle extra soy sauce or hot chili oil over noodles if additional seasoning desired."
+        },
+        {
+          "number": 18,
+          "step": "Enjoy convenient make-ahead lunch packed with authentic Indian spices and rich flavor depth."
+        },
+        {
+          "number": 19,
+          "step": "Note how noodle flavors meld together harmoniously after chilling overnight in refrigerator."
+        },
+        {
+          "number": 20,
+          "step": "Pack fork and napkin alongside glass container for ideal portable office lunch option."
+        },
+        {
+          "number": 21,
+          "step": "Repeat weekly meal prep routine using seasonal vegetables for endless tasty noodle variations."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,552 @@
+{
+  "id": 9001032,
+  "title": "Sweet Coconut Roti with Condensed Milk Glaze",
+  "image": "generated://dishcovery/9001032.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This indulgence showcases Thai street-style dessert craftsmanship with a crispy, layered <b>sweet coconut roti</b>. Built around a foundation of <b>flaky roti flatbread dough</b>, the bread is pan-fried in butter until golden and bubbly, then drizzled generously with sweetened condensed milk and toasted coconut flakes. Sliced ripe bananas nestled inside create a soft, warm center that contrasts beautifully with the crisp outer crust. Perfect as a sweet end to a Thai dinner or a festive late-night treat, this flatbread brings authentic Bangkok night market vibes straight into your kitchen. Though rich and decadent, it balances healthy fats from coconut with natural banana energy. Rest the dough adequately so it stretches paper-thin without tearing during preparation. Cooking over medium heat allows the exterior to crisp thoroughly while the sweet banana filling warms through into a soft, gooey delight. Serve immediately with extra condensed milk drizzled on top.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 66,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Sugar",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Protein",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Sodium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Fiber",
+        "amount": 3.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Calcium",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.21,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.26,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Selenium",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Copper",
+        "amount": 0.16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "pcs",
+      "name": "egg"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sweetened condensed milk"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "ripe bananas"
+    },
+    {
+      "id": 90009,
+      "amount": 50,
+      "unit": "g",
+      "name": "toasted coconut flakes"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "extra condensed milk"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped roasted peanuts"
+    },
+    {
+      "id": 90015,
+      "amount": 100,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90019,
+      "amount": 4,
+      "unit": "pcs",
+      "name": "mint leaves"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "lime zest"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "warm water"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "pandan extract"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation and Resting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sift all-purpose flour into a large clean mixing bowl and make a deep well in center."
+        },
+        {
+          "number": 2,
+          "step": "Whisk egg, water, two tablespoons condensed milk, sugar, salt, and vanilla in a cup."
+        },
+        {
+          "number": 3,
+          "step": "Pour liquid mixture into flour well, gradually stirring with a fork until dough forms."
+        },
+        {
+          "number": 4,
+          "step": "Stir in pandan extract to add faint green hue and subtle tropical aroma to dough."
+        },
+        {
+          "number": 5,
+          "step": "Turn dough onto floured board and knead vigorously for eight minutes until elastic."
+        },
+        {
+          "number": 6,
+          "step": "Divide kneaded dough into four equal smooth round dough balls using a bench scraper."
+        },
+        {
+          "number": 7,
+          "step": "Coat each dough ball generously with soft unsalted butter to prevent drying out."
+        },
+        {
+          "number": 8,
+          "step": "Place buttered dough balls onto a tray, cover with damp towel, rest for thirty minutes."
+        },
+        {
+          "number": 9,
+          "step": "Peel ripe bananas and slice into thin uniform quarter-inch rounds on a cutting board."
+        },
+        {
+          "number": 10,
+          "step": "Combine coconut milk, palm sugar, and warm water in small pot over low heat."
+        },
+        {
+          "number": 11,
+          "step": "Whisk cornstarch into coconut milk mixture until sugar dissolves and sauce thickens."
+        },
+        {
+          "number": 12,
+          "step": "Set warm sweet coconut drizzle sauce aside while stretching rested dough balls."
+        },
+        {
+          "number": 13,
+          "step": "Oil work surface lightly with coconut oil to prevent stretched dough from tearing."
+        },
+        {
+          "number": 14,
+          "step": "Flatten one dough ball with palm, pressing from center outward into a flat disc."
+        },
+        {
+          "number": 15,
+          "step": "Gently stretch edges outward using fingers until dough becomes paper-thin sheet."
+        },
+        {
+          "number": 16,
+          "step": "Lift dough sheet carefully, rotating and stretching until nearly translucent on board."
+        },
+        {
+          "number": 17,
+          "step": "Heat one tablespoon butter and coconut oil in a large flat griddle over medium heat."
+        },
+        {
+          "number": 18,
+          "step": "Lay stretched dough sheet flat onto hot shimmering griddle surface without bunching."
+        },
+        {
+          "number": 19,
+          "step": "Place quarter of sliced bananas directly into center of sizzling roti sheet."
+        },
+        {
+          "number": 20,
+          "step": "Fold four outer edges of dough inward over banana filling to form a square packet."
+        },
+        {
+          "number": 21,
+          "step": "Press top of square packet gently with spatula to flatten slightly and seal edges."
+        },
+        {
+          "number": 22,
+          "step": "Fry bottom of roti packet for two minutes until crisp and rich golden brown underneath."
+        }
+      ]
+    },
+    {
+      "name": "Frying and Finishing Dessert",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Flip roti packet carefully using a wide metal spatula to fry second side evenly."
+        },
+        {
+          "number": 2,
+          "step": "Add a small knob of butter beside roti on griddle, swirling pan as it melts into bread."
+        },
+        {
+          "number": 3,
+          "step": "Fry second side for another two minutes until pastry turns crispy and golden brown."
+        },
+        {
+          "number": 4,
+          "step": "Transfer hot fried roti packet onto a clean wooden cutting board lined with paper towel."
+        },
+        {
+          "number": 5,
+          "step": "Repeat stretching and frying steps with remaining three dough balls and banana slices."
+        },
+        {
+          "number": 6,
+          "step": "Add extra butter and coconut oil to griddle between each roti packet as needed."
+        },
+        {
+          "number": 7,
+          "step": "Cut each hot fried roti packet into nine bite-sized square pieces using a sharp knife."
+        },
+        {
+          "number": 8,
+          "step": "Transfer sliced roti squares onto individual warm dessert plates, keeping packet shape."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle extra sweetened condensed milk generously over top of crispy roti squares."
+        },
+        {
+          "number": 10,
+          "step": "Spoon warm coconut sauce over roti pieces to enhance soft coconut sweetness profile."
+        },
+        {
+          "number": 11,
+          "step": "Scatter toasted coconut flakes evenly over top for rich texture and sweet crunch."
+        },
+        {
+          "number": 12,
+          "step": "Dust roti light-handedly with powdered sugar and ground cinnamon using a fine sifter."
+        },
+        {
+          "number": 13,
+          "step": "Sprinkle chopped roasted peanuts and toasted sesame seeds over sweet coconut glaze."
+        },
+        {
+          "number": 14,
+          "step": "Garnish plate rim with fresh mint leaves and a light sprinkle of fresh lime zest."
+        },
+        {
+          "number": 15,
+          "step": "Drizzle a tiny touch of honey over top surface right before presenting to diners."
+        },
+        {
+          "number": 16,
+          "step": "Add a pinch of ground nutmeg over coconut flakes to complement banana spices nicely."
+        },
+        {
+          "number": 17,
+          "step": "Serve hot immediately while pastry crust remains extra crispy and banana filling warm."
+        },
+        {
+          "number": 18,
+          "step": "Provide wooden skewers or dessert forks so guests can pick up warm roti square bites."
+        },
+        {
+          "number": 19,
+          "step": "Pair dessert with hot Thai iced tea or dark espresso for an authentic flavor match."
+        },
+        {
+          "number": 20,
+          "step": "Enjoy immediately as roti dough loses crispness if left standing for too long."
+        },
+        {
+          "number": 21,
+          "step": "Discard remaining uncooked dough or freeze wrapped dough balls for up to one month."
+        }
+      ]
+    }
+  ]
+}

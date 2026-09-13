@@ -1,0 +1,553 @@
+{
+  "id": 9001041,
+  "title": "One-Pot Brazilian Chicken Skewer Stew with Chimichurri Glaze",
+  "image": "generated://dishcovery/9001041.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "Bringing churrasco-inspired flavors into a streamlined meal, this <b>Brazilian skewer</b> dish is adapted into an clever one-pot stew formula. Tender chicken thigh cubes, bell peppers, sausage rings, and sweet onions are threaded onto wooden skewers and seared right inside a wide Dutch oven. Once browned, the skewers simmer gently over a bed of spiced cassava, black beans, and rich chicken broth inside the same pot. A tangy homemade chimichurri glaze made with fresh parsley, oregano, garlic, and red wine vinegar is brushed over the hot skewers before serving. The result is juicy, flame-seared skewers resting over a comforting, flavorful bean and cassava reduction. Perfect for busy weeknights when you crave barbecue taste without heating an outdoor grill, this <b>one-pot meal</b> offers simplicity without sacrificing authenticity. Rich in <b>lean muscle protein</b>, high fiber, and bold herbal notes, it is sure to become a staple dinner favorite.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 36.9
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.6
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 125,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 810,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Iron",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.8
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.3
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 620,
+        "unit": "IU",
+        "percentOfDailyNeeds": 12.4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54.5
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 1.7
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.7
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.5
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 7.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32.4
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Folate",
+        "amount": 72,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Magnesium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.6
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.1
+      },
+      {
+        "name": "Selenium",
+        "amount": 33,
+        "unit": "µg",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Copper",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.6
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.3
+      },
+      {
+        "name": "Choline",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Biotin",
+        "amount": 5.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Chloride",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "boneless chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "linguica sausage"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90004,
+      "amount": 200,
+      "unit": "g",
+      "name": "cassava root"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "can",
+      "name": "black beans"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh oregano"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "bay",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90019,
+      "amount": 8,
+      "unit": "wooden",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "farofa toasted cassava mix"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "medium",
+      "name": "tomato"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped green scallions"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Skewers and Sauce Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak eight wooden bamboo skewers in water for fifteen minutes to prevent scorching."
+        },
+        {
+          "number": 2,
+          "step": "Cut boneless chicken thighs into uniform one-inch square chunks on clean board."
+        },
+        {
+          "number": 3,
+          "step": "Slice linguica sausage into half-inch thick rounds matching size of chicken pieces."
+        },
+        {
+          "number": 4,
+          "step": "Cut red bell pepper and yellow onion into wide one-inch square pieces for skewering."
+        },
+        {
+          "number": 5,
+          "step": "Thread chicken, pepper, sausage, and onion alternately onto soaked wooden skewers."
+        },
+        {
+          "number": 6,
+          "step": "Season assembled skewers with smoked paprika, cumin, onion powder, salt, and pepper."
+        },
+        {
+          "number": 7,
+          "step": "Chop fresh parsley and fresh oregano finely for homemade chimichurri glaze mixture."
+        },
+        {
+          "number": 8,
+          "step": "Mince garlic cloves finely and combine with chopped herbs in small ceramic bowl."
+        },
+        {
+          "number": 9,
+          "step": "Whisk red wine vinegar, two tablespoons olive oil, red pepper flakes, and salt into herbs."
+        },
+        {
+          "number": 10,
+          "step": "Set chimichurri glaze aside at room temperature so herb flavors infuse vinegar base."
+        },
+        {
+          "number": 11,
+          "step": "Peel cassava root skin, remove woody core, and cut cassava into small half-inch cubes."
+        },
+        {
+          "number": 12,
+          "step": "Rinse canned black beans in strainer under cool water and drain off excess liquid."
+        },
+        {
+          "number": 13,
+          "step": "Dice fresh tomato finely on cutting board and set aside with drained black beans."
+        },
+        {
+          "number": 14,
+          "step": "Ensure all skewer elements and stew ingredients are prepped before heating Dutch oven."
+        }
+      ]
+    },
+    {
+      "name": "One-Pot Searing and Stewing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat one tablespoon olive oil and butter in wide Dutch oven over high flame until smoking."
+        },
+        {
+          "number": 2,
+          "step": "Place four skewers into hot Dutch oven, searing three minutes until bottoms turn dark brown."
+        },
+        {
+          "number": 3,
+          "step": "Flip skewers over using metal tongs and sear second side for three additional minutes."
+        },
+        {
+          "number": 4,
+          "step": "Transfer seared skewers to plate and repeat searing process for remaining four skewers."
+        },
+        {
+          "number": 5,
+          "step": "Add cubed cassava root and diced tomato to hot pan drippings remaining in Dutch oven."
+        },
+        {
+          "number": 6,
+          "step": "Sauté cassava for three minutes until outer edges turn lightly golden and fragrant."
+        },
+        {
+          "number": 7,
+          "step": "Pour chicken broth into Dutch oven, stirring to deglaze browned bits from pot bottom."
+        },
+        {
+          "number": 8,
+          "step": "Add drained black beans and bay leaf to simmering broth cassava mixture in pot."
+        },
+        {
+          "number": 9,
+          "step": "Arrange all eight seared skewers neatly on top of bubbling cassava and black bean bed."
+        },
+        {
+          "number": 10,
+          "step": "Cover Dutch oven tightly with lid, reduce heat to low, and simmer for fifteen minutes."
+        },
+        {
+          "number": 11,
+          "step": "Check chicken internal temperature with thermometer to confirm it reaches hundred sixty-five."
+        },
+        {
+          "number": 12,
+          "step": "Check cassava cubes with fork to ensure they are soft and tender throughout inside."
+        },
+        {
+          "number": 13,
+          "step": "Stir lime juice into bubbling black bean cassava stew base beneath skewers gently."
+        },
+        {
+          "number": 14,
+          "step": "Remove pot from heat flame and let skewers rest inside warm covered Dutch oven three minutes."
+        }
+      ]
+    },
+    {
+      "name": "Glazing and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Uncover Dutch oven carefully, allowing trapped steam to escape away from your face."
+        },
+        {
+          "number": 2,
+          "step": "Brush half of prepared chimichurri glaze generously over hot skewers while still in pot."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle farofa toasted cassava mix across top of skewers to add authentic Brazilian crunch."
+        },
+        {
+          "number": 4,
+          "step": "Garnish pot contents with chopped green scallions for vibrant fresh color contrast."
+        },
+        {
+          "number": 5,
+          "step": "Transfer two skewers onto each of four warm dinner plates using tongs carefully."
+        },
+        {
+          "number": 6,
+          "step": "Spoon warm black bean and cassava stew base generously alongside skewers on each plate."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle remaining fresh chimichurri glaze directly over plated skewers right before service."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately while skewers are hot and chimichurri herb aroma is bright."
+        },
+        {
+          "number": 9,
+          "step": "Provide extra farofa in small bowl on table for guests desiring additional crunch."
+        },
+        {
+          "number": 10,
+          "step": "Ensure skewers remain intact during transfer from pot to plate for good presentation."
+        },
+        {
+          "number": 11,
+          "step": "Check balance of tart chimichurri vinegar sauce and savory chicken skewered meat."
+        },
+        {
+          "number": 12,
+          "step": "Pair dish with cold Brazilian beverages or lime wedges for extra citrus bright finish."
+        },
+        {
+          "number": 13,
+          "step": "Confirm all wooden skewers are handled safely as metal pot handles can retain high heat."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy vibrant one-pot Brazilian skewer feast packed with flame-seared herbs and spice."
+        }
+      ]
+    }
+  ]
+}

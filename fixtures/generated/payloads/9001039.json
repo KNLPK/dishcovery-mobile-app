@@ -1,0 +1,550 @@
+{
+  "id": 9001039,
+  "title": "Festive Ethiopian Layered Injera Bake with Spiced Beef and Lentils",
+  "image": "generated://dishcovery/9001039.jpg",
+  "readyInMinutes": 75,
+  "servings": 8,
+  "summary": "Created for special occasions, this festive <b>Ethiopian layered bake</b> brings together rich spiced stews and traditional sourdough injera in a grand casserole presentation. Tender spiced minced beef cooked in fragrant niter kibbeh is layered between earthy red lentils, yellow split peas, and soft sheets of injera bread. Infused with aromatic berbere spice, ginger, and garlic, every layer infuses the flatbread with warm complex heat as it bakes. Top layers are baked to a light edge crispness, creating a wonderful textural contrast with the soft, savory interior layers. This hearty bake offers a festive focal point for large family gatherings, offering all the joy of a communal feast in an easy-to-serve casserole style. Packed with <b>high quality protein</b> and robust seasonings, it provides a memorable centerpiece that honors iconic East African culinary traditions while feeding a generous holiday crowd.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.6
+      },
+      {
+        "name": "Protein",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Sodium",
+        "amount": 720,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.3
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.9
+      },
+      {
+        "name": "Potassium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.3
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 980,
+        "unit": "IU",
+        "percentOfDailyNeeds": 19.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 5.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36.3
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.4
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 79.2
+      },
+      {
+        "name": "Folate",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.2
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37.3
+      },
+      {
+        "name": "Selenium",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.7
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.8
+      },
+      {
+        "name": "Choline",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.9
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Chloride",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 6,
+      "unit": "large",
+      "name": "injera flatbreads"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "lean ground beef"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "red lentils"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "yellow split peas"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "niter kibbeh spiced butter"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "berbere spice blend"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "medium",
+      "name": "red onions"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced fresh ginger"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "cups",
+      "name": "beef broth"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground fenugreek"
+    },
+    {
+      "id": 90017,
+      "amount": 100,
+      "unit": "g",
+      "name": "ayib cottage cheese"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "medium",
+      "name": "jalapeno pepper"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "korarima cardamom spice"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "cup",
+      "name": "chopped collard greens"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90023,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh coriander"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Spiced Beef Sauce Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely dice red onions using sharp chef knife and set aside in large bowl for sauce base."
+        },
+        {
+          "number": 2,
+          "step": "Mince garlic cloves and fresh ginger finely until reduced to paste consistency on board."
+        },
+        {
+          "number": 3,
+          "step": "Heat two tablespoons niter kibbeh in wide deep skillet over medium heat until melted."
+        },
+        {
+          "number": 4,
+          "step": "Add chopped red onions to skillet and sauté dry without oil for five minutes to soften."
+        },
+        {
+          "number": 5,
+          "step": "Stir in garlic, ginger, and berbere spice blend, cooking two minutes until fragrant."
+        },
+        {
+          "number": 6,
+          "step": "Add ground beef to skillet, breaking meat into small pieces using sturdy wooden spoon."
+        },
+        {
+          "number": 7,
+          "step": "Cook beef mixture eight minutes until meat browns completely and juices begin reducing."
+        },
+        {
+          "number": 8,
+          "step": "Stir in tomato paste, ground cardamom, ground cloves, fenugreek, and salt evenly."
+        },
+        {
+          "number": 9,
+          "step": "Pour in one cup beef broth, bringing beef sauce to simmer over medium flame."
+        },
+        {
+          "number": 10,
+          "step": "Simmer beef sauce ten minutes until thick and rich, then remove pan from heat burner."
+        }
+      ]
+    },
+    {
+      "name": "Lentils and Greens Cooking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse red lentils and yellow split peas in cold water using strainer until clean."
+        },
+        {
+          "number": 2,
+          "step": "Place yellow split peas into small saucepan with two cups water over high heat."
+        },
+        {
+          "number": 3,
+          "step": "Boil split peas twenty minutes until tender, then drain excess water through sieve."
+        },
+        {
+          "number": 4,
+          "step": "In another saucepan, combine red lentils with remaining beef broth and half cup water."
+        },
+        {
+          "number": 5,
+          "step": "Simmer red lentils twelve minutes until soft and thick stew texture forms in pot."
+        },
+        {
+          "number": 6,
+          "step": "Heat one tablespoon vegetable oil in skillet and sauté chopped collard greens four minutes."
+        },
+        {
+          "number": 7,
+          "step": "Add minced jalapeno pepper, lemon juice, and garlic powder to collard greens skillet."
+        },
+        {
+          "number": 8,
+          "step": "Season cooked greens with salt and pepper, removing skillet from flame after stirring."
+        },
+        {
+          "number": 9,
+          "step": "Season cooked yellow split peas with korarima spice and one teaspoon niter kibbeh."
+        },
+        {
+          "number": 10,
+          "step": "Set cooked beef, red lentils, split peas, and greens near assembly station side by side."
+        }
+      ]
+    },
+    {
+      "name": "Casserole Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat oven to three hundred seventy-five degrees Fahrenheit and grease baking dish."
+        },
+        {
+          "number": 2,
+          "step": "Cut injera flatbreads into circular pieces matching size of your deep baking dish base."
+        },
+        {
+          "number": 3,
+          "step": "Lay one injera round flat across bottom of greased baking dish to form initial base layer."
+        },
+        {
+          "number": 4,
+          "step": "Spoon half of spiced beef mixture evenly over injera layer, spreading to edges gently."
+        },
+        {
+          "number": 5,
+          "step": "Place second injera round directly on top of beef layer, pressing down lightly with hand."
+        },
+        {
+          "number": 6,
+          "step": "Spread cooked red lentil stew evenly across second injera round in smooth thick layer."
+        },
+        {
+          "number": 7,
+          "step": "Place third injera round on top of lentils, followed by layer of cooked split peas."
+        },
+        {
+          "number": 8,
+          "step": "Crumble ayib cottage cheese over split peas and top with cooked seasoned collard greens."
+        },
+        {
+          "number": 9,
+          "step": "Cover greens with fourth injera sheet, spreading remaining spiced beef sauce over top."
+        },
+        {
+          "number": 10,
+          "step": "Finish dish with final injera flatbread sheet, brushing top lightly with melted kibbeh."
+        }
+      ]
+    },
+    {
+      "name": "Baking and Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cover baking dish tightly with aluminum foil to trap moisture during initial bake."
+        },
+        {
+          "number": 2,
+          "step": "Bake in hot oven for twenty-five minutes until casserole is heated thoroughly inside."
+        },
+        {
+          "number": 3,
+          "step": "Remove aluminum foil carefully and return dish to oven for ten additional minutes."
+        },
+        {
+          "number": 4,
+          "step": "Bake until top injera layer turns golden brown and crisp around outer dish edges."
+        },
+        {
+          "number": 5,
+          "step": "Remove bake from oven and let rest on heatproof trivet for ten minutes before cutting."
+        },
+        {
+          "number": 6,
+          "step": "Garnish top of warm casserole with fresh chopped coriander leaves for festive color."
+        },
+        {
+          "number": 7,
+          "step": "Cut layered bake into eight square portions using sharp serrated casserole knife."
+        },
+        {
+          "number": 8,
+          "step": "Slice carefully through all layers to ensure clean cross-section showing colorful fillings."
+        },
+        {
+          "number": 9,
+          "step": "Serve warm bake portions on individual plates alongside extra ayib cheese and berbere."
+        },
+        {
+          "number": 10,
+          "step": "Enjoy festive layered dish immediately as magnificent East African celebration feast centerpiece."
+        }
+      ]
+    }
+  ]
+}

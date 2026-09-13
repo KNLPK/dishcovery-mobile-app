@@ -1,0 +1,552 @@
+{
+  "id": 9001037,
+  "title": "Peruvian Sweet Potato and Squash Dumplings with Cinnamon Chicha Syrup",
+  "image": "generated://dishcovery/9001037.jpg",
+  "readyInMinutes": 60,
+  "servings": 6,
+  "summary": "Reimagined as a sophisticated dessert finale, these <b>Peruvian dumplings</b> draw inspiration from traditional picarones and sweet dough fritters. Tender sweet potato and roasted pumpkin mash form a velvety interior wrapper, spiced lightly with ground anise and cloves. Once shaped into delicate pouches filled with spiced chancaca sugar and toasted nuts, the dumplings are gently steamed and poached to soft perfection. They are finished with a rich reduction syrup made from purple corn, cinnamon sticks, and orange zest. Crisp toasted pecans provide a nutty crunch that balances the comforting, pillowy texture of the warm dough. Elegant yet rustic, this sweet specialty showcases how staple Andean tubers can be transformed into a memorable end to any meal. Rich with <b>warming spices</b> and complex fruit aromas, it delivers an unforgettable cultural tasting experience that highlights Peru's rich <b>dessert heritage</b>.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.4
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.1,
+        "unit": "g",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 70,
+        "unit": "g",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 35.6
+      },
+      {
+        "name": "Protein",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.1
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.7
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 8500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 170
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.9
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4.2
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Selenium",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.9
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24.4
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.9
+      },
+      {
+        "name": "Choline",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Chloride",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "orange sweet potato"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "kabocha squash"
+    },
+    {
+      "id": 90002,
+      "amount": 250,
+      "unit": "g",
+      "name": "cassava flour"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "chancaca raw sugar"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "sticks",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "whole",
+      "name": "cloves"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "whole",
+      "name": "star anise"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "cup",
+      "name": "dried purple corn"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "whole",
+      "name": "orange peel"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped pecans"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "egg",
+      "name": "egg yolk"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground anise seed"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90013,
+      "amount": 3,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pisco brandy"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90022,
+      "amount": 6,
+      "unit": "leaves",
+      "name": "fresh mint leaves"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "honey"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough and Syrup Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel sweet potato and kabocha squash, cutting both into uniform one-inch cubes."
+        },
+        {
+          "number": 2,
+          "step": "Place vegetable cubes into steamer basket set over boiling water in a large pot."
+        },
+        {
+          "number": 3,
+          "step": "Steam vegetables for twenty minutes until soft when tested with tip of sharp knife."
+        },
+        {
+          "number": 4,
+          "step": "Transfer hot steamed vegetables into potato ricer and press smoothly into mixing bowl."
+        },
+        {
+          "number": 5,
+          "step": "Allow mashed root vegetables to cool down completely to comfortable room temperature."
+        },
+        {
+          "number": 6,
+          "step": "In separate saucepan, combine dried purple corn, cinnamon sticks, cloves, and star anise."
+        },
+        {
+          "number": 7,
+          "step": "Add three cups water and orange peel strip to purple corn saucepan over high heat."
+        },
+        {
+          "number": 8,
+          "step": "Bring corn mixture to boil, then reduce heat and simmer uncovered for twenty minutes."
+        },
+        {
+          "number": 9,
+          "step": "Strain spiced purple corn liquid through fine sieve into clean pan, discarding solids."
+        },
+        {
+          "number": 10,
+          "step": "Add chancaca raw sugar and brown sugar to purple corn liquid, stirring to dissolve sugar."
+        },
+        {
+          "number": 11,
+          "step": "Simmer syrup over medium heat for fifteen minutes until liquid reduces to glossy glaze."
+        },
+        {
+          "number": 12,
+          "step": "Stir pisco brandy and vanilla extract into hot syrup, removing pan from heat source."
+        },
+        {
+          "number": 13,
+          "step": "Add egg yolk, ground anise seed, and salt into cooled sweet potato mash, mixing well."
+        },
+        {
+          "number": 14,
+          "step": "Fold cassava flour gradually into sweet potato mixture to form workable smooth dough."
+        },
+        {
+          "number": 15,
+          "step": "Knead dough lightly on floured surface for two minutes until cohesive and non-sticky."
+        },
+        {
+          "number": 16,
+          "step": "Cover dough bowl with damp cloth and let rest for fifteen minutes at room temperature."
+        },
+        {
+          "number": 17,
+          "step": "Chop pecans finely and toss with golden raisins and honey in small bowl for filling."
+        },
+        {
+          "number": 18,
+          "step": "Divide rested sweet potato dough into twelve equal small round portions using bench scraper."
+        },
+        {
+          "number": 19,
+          "step": "Flatten each dough ball into thin circular wrapper disk using palms of your clean hands."
+        },
+        {
+          "number": 20,
+          "step": "Spoon one teaspoon pecan filling into center of each sweet potato dough wrapper disk."
+        },
+        {
+          "number": 21,
+          "step": "Pinch edges of dough up around filling to seal completely into smooth round dumpling."
+        },
+        {
+          "number": 22,
+          "step": "Dust finished dumplings lightly with cassava flour and set on parchment-lined sheet."
+        }
+      ]
+    },
+    {
+      "name": "Poaching and Dessert Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fill large wide pot with water, adding one cinnamon stick and lemon zest to poaching water."
+        },
+        {
+          "number": 2,
+          "step": "Bring poaching liquid to gentle simmer over medium flame, maintaining small soft bubbles."
+        },
+        {
+          "number": 3,
+          "step": "Lower six dumplings carefully into simmering liquid using slotted spoon to prevent sticking."
+        },
+        {
+          "number": 4,
+          "step": "Poach dumplings for eight minutes until they float smoothly to surface of hot poaching liquid."
+        },
+        {
+          "number": 5,
+          "step": "Remove poached dumplings gently with slotted spoon and drain briefly on wire cooling rack."
+        },
+        {
+          "number": 6,
+          "step": "Repeat poaching process with remaining six sweet potato dumplings in warm spiced water."
+        },
+        {
+          "number": 7,
+          "step": "Melt butter in wide nonstick skillet over medium flame until bubbling gently across pan."
+        },
+        {
+          "number": 8,
+          "step": "Place poached dumplings into skillet and sear for one minute per side until pale golden."
+        },
+        {
+          "number": 9,
+          "step": "Dust pan-seared dumplings lightly with ground nutmeg while still warm in skillet."
+        },
+        {
+          "number": 10,
+          "step": "Ladle two tablespoons warm purple corn chicha syrup into bottom of six shallow dessert bowls."
+        },
+        {
+          "number": 11,
+          "step": "Place two warm sweet potato dumplings neatly in center of each syrup-lined dessert bowl."
+        },
+        {
+          "number": 12,
+          "step": "Spoon additional warm chicha reduction syrup directly over tops of plated dumplings."
+        },
+        {
+          "number": 13,
+          "step": "Sprinkle remaining chopped pecans over dumplings to add contrasting crunchy texture element."
+        },
+        {
+          "number": 14,
+          "step": "Dust rim of each dessert bowl lightly with powdered sugar using fine mesh sieve filter."
+        },
+        {
+          "number": 15,
+          "step": "Garnish top of dumplings with fresh mint leaf for vibrant color accent on warm dessert plate."
+        },
+        {
+          "number": 16,
+          "step": "Check syrup temperature to ensure dish is served warm immediately following final garnishing."
+        },
+        {
+          "number": 17,
+          "step": "Arrange dessert bowls neatly on tray for immediate table service to waiting guests."
+        },
+        {
+          "number": 18,
+          "step": "Provide small dessert spoons so guests can capture both dumpling and rich chicha syrup."
+        },
+        {
+          "number": 19,
+          "step": "Ensure extra syrup is placed in sauce boat for guests who desire additional sweetness."
+        },
+        {
+          "number": 20,
+          "step": "Verify balance of warm cinnamon aroma and sweet syrup before delivering course to table."
+        },
+        {
+          "number": 21,
+          "step": "Serve immediately as sweet Peruvian dessert celebrating traditional warm Andean roots."
+        }
+      ]
+    }
+  ]
+}

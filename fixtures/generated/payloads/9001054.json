@@ -1,0 +1,550 @@
+{
+  "id": 9001054,
+  "title": "Vegetarian Cassava Flatbread with Melted Cheese",
+  "image": "generated://dishcovery/9001054.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Inspired by South American street food traditions, this <b>meatless cassava flatbread</b> showcases the unique chewy texture of tapioca starch. Grated fresh cassava root is combined with tapioca flour, softened butter, and crumbled white cheese to create a pliable dough. Pan-toasted on a hot cast iron griddle until golden and crisp on the outside, the flatbread retains a soft, gooey interior. Stuffed with melted queen cheese and grilled hearts of palm, this recipe provides a comforting vegetarian meal rich in texture. A bright side salsa made from diced tomatoes, sweet corn, cilantro, and lime juice cuts through the rich, cheesy flatbread with clean acidity. Simple to prepare yet distinctly satisfying, this gluten-free dish brings authentic Brazilian home flavors to your kitchen table. Enjoy these flatbreads fresh off the griddle while the cheese center remains stretchy and warm for the ultimate texture contrast.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24.5
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 33.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 20.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.6
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 480,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 26,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.2
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.3,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0.1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.7
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.4
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.1
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Potassium",
+        "amount": 450,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "fresh cassava root"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "tapioca flour"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "queijo coalho cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "shredded mozzarella"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "can",
+      "name": "hearts of palm"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sweet corn kernels"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "medium",
+      "name": "tomatoes"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "small",
+      "name": "red onion"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "oregano"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "scallions"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "hot sauce"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "cumin"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "small",
+      "name": "avocado"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "lime",
+      "name": "lime wedges"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Cassava Dough Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel thick brown bark from fresh cassava root completely using sturdy vegetable peeler."
+        },
+        {
+          "number": 2,
+          "step": "Cut cassava root into broad chunks and remove tough woody core running through center."
+        },
+        {
+          "number": 3,
+          "step": "Grate peeled cassava root finely using fine holes of box grater into clean bowl."
+        },
+        {
+          "number": 4,
+          "step": "Squeeze grated cassava in clean cheesecloth towel over sink to remove excess moisture."
+        },
+        {
+          "number": 5,
+          "step": "Transfer dried grated cassava into large bowl and toss with tapioca flour and salt."
+        },
+        {
+          "number": 6,
+          "step": "Add softened unsalted butter to cassava mixture, rubbing with fingers until crumbly."
+        },
+        {
+          "number": 7,
+          "step": "Grate queijo coalho cheese finely and fold half into cassava dough for internal flavor."
+        },
+        {
+          "number": 8,
+          "step": "Add two tablespoons cold water slowly while kneading until dough holds ball shape."
+        },
+        {
+          "number": 9,
+          "step": "Divide cassava dough into four equal portion balls on parchment paper baking sheet."
+        },
+        {
+          "number": 10,
+          "step": "Cover dough balls with damp kitchen towel and let rest fifteen minutes at room temp."
+        }
+      ]
+    },
+    {
+      "name": "Filling and Salsa Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Drain canned hearts of palm thoroughly and slice rounds into quarter-inch thick coins."
+        },
+        {
+          "number": 2,
+          "step": "Dice ripe red tomatoes and red onion into small matching quarter-inch dice on board."
+        },
+        {
+          "number": 3,
+          "step": "Combine diced tomatoes, red onion, sweet corn, minced garlic, and chopped cilantro."
+        },
+        {
+          "number": 4,
+          "step": "Toss salsa ingredients with lime juice, olive oil, salt, black pepper, and ground cumin."
+        },
+        {
+          "number": 5,
+          "step": "Dice fresh avocado into small cubes and fold gently into salsa mixture right before meal."
+        },
+        {
+          "number": 6,
+          "step": "Mix shredded mozzarella cheese with remaining grated queijo coalho in medium bowl."
+        },
+        {
+          "number": 7,
+          "step": "Season cheese mixture with dried oregano and chili powder, tossing evenly to combine."
+        },
+        {
+          "number": 8,
+          "step": "Whisk sour cream and Brazilian hot sauce together in small serving cup for dipping condiment."
+        },
+        {
+          "number": 9,
+          "step": "Slice lime into four fresh wedges for serving alongside finished warm flatbreads."
+        },
+        {
+          "number": 10,
+          "step": "Set salsa and dipping sauce aside on serving tray while preparing to cook flatbreads."
+        }
+      ]
+    },
+    {
+      "name": "Griddle Cooking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Flatten each rested cassava dough ball between parchment sheets into six-inch wide discs."
+        },
+        {
+          "number": 2,
+          "step": "Heat heavy cast iron griddle or skillet over medium heat until surface turns hot."
+        },
+        {
+          "number": 3,
+          "step": "Brush hot griddle surface lightly with vegetable oil using heatproof silicone brush."
+        },
+        {
+          "number": 4,
+          "step": "Place two cassava dough discs onto hot griddle surface with room between flatbreads."
+        },
+        {
+          "number": 5,
+          "step": "Cook flatbreads undisturbed for four minutes until bottom crust turns golden brown."
+        },
+        {
+          "number": 6,
+          "step": "Flip flatbreads using broad metal spatula and reduce stove burner heat to medium-low."
+        },
+        {
+          "number": 7,
+          "step": "Mound prepared cheese mixture and sliced hearts of palm over half of each flatbread disc."
+        },
+        {
+          "number": 8,
+          "step": "Fold open half of flatbread over filling to form half-moon turnover shape on griddle."
+        },
+        {
+          "number": 9,
+          "step": "Press top crust down gently with spatula to seal melted cheese inside turnover pockets."
+        },
+        {
+          "number": 10,
+          "step": "Cook turnover flatbreads two minutes per side until cheese inside melts completely."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Service",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer hot cheese-stuffed cassava flatbreads carefully from griddle to wooden board."
+        },
+        {
+          "number": 2,
+          "step": "Repeat griddle cooking process with remaining two cassava flatbread dough discs and cheese."
+        },
+        {
+          "number": 3,
+          "step": "Slice each hot golden flatbread diagonally across center into two triangular pieces."
+        },
+        {
+          "number": 4,
+          "step": "Arrange sliced flatbread pieces onto wide dinner plates alongside fresh corn tomato salsa."
+        },
+        {
+          "number": 5,
+          "step": "Spoon spicy sour cream dip into small ramekins placed on each individual plate."
+        },
+        {
+          "number": 6,
+          "step": "Garnish flatbread plates with fresh cilantro leaves and sliced scallion rings for color."
+        },
+        {
+          "number": 7,
+          "step": "Tuck fresh lime wedges next to flatbreads for diners to squeeze citrus juice over top."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately while cassava crust remains crisp and cheese core is hot and stretchy."
+        },
+        {
+          "number": 9,
+          "step": "Store extra uncooked dough wrapped in plastic wrap in refrigerator for up to one day."
+        },
+        {
+          "number": 10,
+          "step": "Reheat cooked flatbreads in dry cast iron skillet over medium heat to crisp crust again."
+        }
+      ]
+    }
+  ]
+}

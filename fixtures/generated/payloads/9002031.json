@@ -1,0 +1,931 @@
+{
+  "id": 9002031,
+  "title": "Mexican Dessert Enchilada Layered Bake",
+  "image": "generated://dishcovery/9002031.jpg",
+  "readyInMinutes": 55,
+  "servings": 8,
+  "summary": "Indulge in a sweet, decadent transformation of regional classics with this <b>Mexican dessert bake</b>. Layers of cinnamon-dusted corn tortillita sheets, sweet spiced cream cheese, sauteed apples, and cajeta goat milk caramel bake into a bubbly dessert casserole. Finished with toasted pecans, Mexican chocolate shavings, and vanilla bean cream, this dish brings the warmth of traditional panaderia spices straight to your dessert table. The unique <b>layered bake</b> structure mirrors savory enchiladas, but replaces spicy chili sauces with velvety piloncillo syrup and sweet cinnamon custard. Every layer absorbs warm notes of star anise, clove, and Mexican vanilla extract, delivering a comforting texture that falls between bread pudding and fruit crisp. Perfect for festive celebrations, holiday gatherings, or special family dinners, this dessert course proves how versatile authentic Mexican baking traditions can be when crafted with creativity and premium sweet ingredients.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25.5
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 36.9
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.4
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amount": 68,
+        "unit": "g",
+        "percentOfDailyNeeds": 24.7
+      },
+      {
+        "name": "Dietary Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 14.2
+      },
+      {
+        "name": "Sugars",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 46.6
+      },
+      {
+        "name": "Protein",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 680,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13.6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.6
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Potassium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 4.5,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 3.7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.3
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.5
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.8
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.45,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 18.7
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.5,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 170,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 9.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.1
+      },
+      {
+        "name": "Selenium",
+        "amount": 9.5,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 12,
+      "unit": "small",
+      "name": "thin yellow corn tortillas"
+    },
+    {
+      "id": 90001,
+      "amount": 4,
+      "unit": "medium",
+      "name": "granny smith apples"
+    },
+    {
+      "id": 90002,
+      "amount": 8,
+      "unit": "oz",
+      "name": "softened cream cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "cajeta goat milk caramel"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "piloncillo sugar cone chopped"
+    },
+    {
+      "id": 90005,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tsp",
+      "name": "ground Mexican cinnamon"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "Mexican vanilla extract"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped pecans"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "raisins"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "cup",
+      "name": "whole milk"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "heavy whipping cream"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "powdered sugar"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90015,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground star anise"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "oz",
+      "name": "grated Mexican dark chocolate"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "kahlua coffee liqueur"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange zest"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "condensed milk"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "evaporated milk"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "baking powder"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90026,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90028,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "almond extract"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unflavored gelatin powder"
+    },
+    {
+      "id": 90030,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water for gelatin"
+    },
+    {
+      "id": 90031,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "shredded coconut"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90033,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cardamom powder"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tequila gold"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cocoa powder"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pumpkin seeds pepitas"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "turbinado sugar"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "dried cranberries"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "oil for tortilla dip"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90044,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "whipped topping"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Apple Filling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel Granny Smith apples using a sharp vegetable peeler and discard apple skins cleanly."
+        },
+        {
+          "number": 2,
+          "step": "Core apples and slice them into uniform quarter-inch thick slices on a cutting board."
+        },
+        {
+          "number": 3,
+          "step": "Toss apple slices with lemon juice in a glass bowl to retain bright natural color."
+        },
+        {
+          "number": 4,
+          "step": "Melt unsalted butter in a wide skillet over medium heat setting on your stovetop."
+        },
+        {
+          "number": 5,
+          "step": "Add sliced apples to melted butter and sauté for five minutes until slightly tender."
+        },
+        {
+          "number": 6,
+          "step": "Stir in chopped piloncillo sugar cone, allowing it to dissolve into caramelized syrup."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle ground Mexican cinnamon and nutmeg over warm sautéing apple slices evenly."
+        },
+        {
+          "number": 8,
+          "step": "Add ground cloves, ground star anise, and ground ginger, stirring constantly for one minute."
+        },
+        {
+          "number": 9,
+          "step": "Fold raisins and dried cranberries into spicy apple syrup mixture in skillet pan."
+        },
+        {
+          "number": 10,
+          "step": "Pour in Kahlua coffee liqueur and tequila gold to deglaze pan and add deep caramel notes."
+        },
+        {
+          "number": 11,
+          "step": "Simmer apple filling for three extra minutes until fruit turns glossy and tender."
+        },
+        {
+          "number": 12,
+          "step": "Remove skillet from heat and let spiced apple filling cool slightly on trivet."
+        },
+        {
+          "number": 13,
+          "step": "Stir in orange zest to add bright aromatic citrus fragrance throughout cooked apples."
+        },
+        {
+          "number": 14,
+          "step": "Check apple filling sweetness and adjust with one tablespoon of honey if needed."
+        },
+        {
+          "number": 15,
+          "step": "Add pinch of sea salt to balance rich sugar profiles inside warm apple mixture."
+        },
+        {
+          "number": 16,
+          "step": "Transfer cooked apple filling to a heatproof glass bowl to stop cooking process."
+        },
+        {
+          "number": 17,
+          "step": "Inspect apple texture to ensure slices remain intact without becoming mushy puree."
+        },
+        {
+          "number": 18,
+          "step": "Keep apple filling at warm room temperature while preparing cheese filling layers."
+        },
+        {
+          "number": 19,
+          "step": "Clean apple cooking skillet to prepare for roasting chopped pecan nuts later."
+        },
+        {
+          "number": 20,
+          "step": "Verify that piloncillo syrup coats every apple slice evenly before setting aside."
+        },
+        {
+          "number": 21,
+          "step": "Set aside apple filling near baking dish area for easy layering step later."
+        }
+      ]
+    },
+    {
+      "name": "Sweet Cream Cheese Layer",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place softened cream cheese into a large stainless steel mixing bowl using spatula."
+        },
+        {
+          "number": 2,
+          "step": "Add powdered sugar and brown sugar to softened cream cheese in mixing bowl."
+        },
+        {
+          "number": 3,
+          "step": "Beat cream cheese and sugars with electric hand mixer until smooth and creamy texture."
+        },
+        {
+          "number": 4,
+          "step": "Pour condensed milk and evaporated milk into cream cheese mixture while beating constantly."
+        },
+        {
+          "number": 5,
+          "step": "Add Mexican vanilla extract and almond extract to enrich sweet aromatic profile."
+        },
+        {
+          "number": 6,
+          "step": "Whisk in cornstarch and baking powder to provide structure during baking phase later."
+        },
+        {
+          "number": 7,
+          "step": "Stir in cardamom powder and extra cinnamon to tie spice notes into cheese layer."
+        },
+        {
+          "number": 8,
+          "step": "Fold shredded coconut into sweet cream cheese mixture using rubber spatula gently."
+        },
+        {
+          "number": 9,
+          "step": "Taste sweet cream cheese filling and adjust vanilla or spice levels if desired."
+        },
+        {
+          "number": 10,
+          "step": "Scrape down sides of bowl with spatula to ensure all cheese is fully incorporated."
+        },
+        {
+          "number": 11,
+          "step": "Cover cream cheese bowl with plastic wrap and chill in refrigerator for ten minutes."
+        },
+        {
+          "number": 12,
+          "step": "Verify cheese mixture is lump-free and spreadable for layering between tortillas."
+        },
+        {
+          "number": 13,
+          "step": "Keep sweet cheese filling cool until assembling dessert enchilada casserole layers."
+        },
+        {
+          "number": 14,
+          "step": "Prepare small piping bag if you prefer precise cheese distribution during assembly."
+        },
+        {
+          "number": 15,
+          "step": "Ensure all dairy ingredients were at room temperature before beating for smoothness."
+        },
+        {
+          "number": 16,
+          "step": "Check consistency to make sure cream cheese layer is thick yet easily pourable."
+        },
+        {
+          "number": 17,
+          "step": "Set aside sweet cheese filling beside cooked apple filling on counter work surface."
+        },
+        {
+          "number": 18,
+          "step": "Prepare warm custard bath ingredients in separate bowl while cheese rests in fridge."
+        },
+        {
+          "number": 19,
+          "step": "Wipe down mixer beaters thoroughly to maintain clean baking prep area overall."
+        },
+        {
+          "number": 20,
+          "step": "Confirm all spice powders are evenly dissolved without streaks in cheese filling."
+        }
+      ]
+    },
+    {
+      "name": "Custard Dip Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Crack three large eggs into a medium glass mixing bowl and whisk until yolks break."
+        },
+        {
+          "number": 2,
+          "step": "Pour whole milk and heavy whipping cream into beaten eggs while whisking constantly."
+        },
+        {
+          "number": 3,
+          "step": "Add cajeta goat milk caramel to egg mixture, whisking vigorously until fully blended."
+        },
+        {
+          "number": 4,
+          "step": "Whisk in cocoa powder, extra cinnamon, and pinch of chili powder for warmth."
+        },
+        {
+          "number": 5,
+          "step": "Add sea salt and maple syrup to balance cajeta caramel sweetness in custard dip."
+        },
+        {
+          "number": 6,
+          "step": "Pass custard mixture through fine mesh strainer into shallow pie dish to remove air bubbles."
+        },
+        {
+          "number": 7,
+          "step": "Preheat your conventional baking oven to three hundred fifty degrees Fahrenheit now."
+        },
+        {
+          "number": 8,
+          "step": "Grease a nine-by-thirteen-inch ceramic baking casserole dish generously with soft butter."
+        },
+        {
+          "number": 9,
+          "step": "Heat small skillet over medium flame and toast yellow corn tortillas for ten seconds per side."
+        },
+        {
+          "number": 10,
+          "step": "Dip warm corn tortillas briefly into cajeta egg custard bath to soften and coat surfaces."
+        },
+        {
+          "number": 11,
+          "step": "Place three custard-dipped tortillas in single layer along bottom of greased baking dish."
+        },
+        {
+          "number": 12,
+          "step": "Ensure tortillas overlap slightly to create solid bottom crust foundation for bake."
+        },
+        {
+          "number": 13,
+          "step": "Reserve remaining custard bath liquid to pour over assembled casserole right before baking."
+        },
+        {
+          "number": 14,
+          "step": "Inspect dipped tortillas to confirm they are pliable without tearing during placement."
+        },
+        {
+          "number": 15,
+          "step": "Keep remaining tortillas covered in warm towel while building dessert layers in pan."
+        },
+        {
+          "number": 16,
+          "step": "Check oven temperature gauge to verify proper three hundred fifty degree preheat level."
+        },
+        {
+          "number": 17,
+          "step": "Dust bottom tortilla layer with small sprinkle of turbinado sugar for extra crunch."
+        },
+        {
+          "number": 18,
+          "step": "Prepare cajeta drizzle bottle for extra sauce layers inside casserole structure."
+        },
+        {
+          "number": 19,
+          "step": "Keep workstation dry and clean around custard dip dish to avoid messy splashes."
+        },
+        {
+          "number": 20,
+          "step": "Verify custard liquid is smooth and free of unmixed egg white strands completely."
+        }
+      ]
+    },
+    {
+      "name": "Layer Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spread half of sweet cream cheese mixture evenly over bottom layer of dipped tortillas."
+        },
+        {
+          "number": 2,
+          "step": "Spoon half of spiced cooked apple filling over cream cheese layer in baking pan."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle two tablespoons of cajeta goat milk caramel over apple filling layer evenly."
+        },
+        {
+          "number": 4,
+          "step": "Scatter half of chopped pecans and toasted pepitas across apple layer for crunch."
+        },
+        {
+          "number": 5,
+          "step": "Dip three more corn tortillas in cajeta custard and layer them over fruit filling."
+        },
+        {
+          "number": 6,
+          "step": "Spread remaining sweet cream cheese mixture over second layer of dipped tortillas."
+        },
+        {
+          "number": 7,
+          "step": "Spoon remaining cooked apple filling evenly across second cheese layer in pan."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle grated Mexican dark chocolate over fruit layer to add bitter-sweet cocoa notes."
+        },
+        {
+          "number": 9,
+          "step": "Dip final six corn tortillas into custard bath and place on top layer in pan."
+        },
+        {
+          "number": 10,
+          "step": "Pour remaining cajeta custard liquid slowly over entire top of layered tortilla bake."
+        },
+        {
+          "number": 11,
+          "step": "Press top tortilla layer down gently with spatula so custard saturates all layers."
+        },
+        {
+          "number": 12,
+          "step": "Scatter remaining chopped pecans, sliced almonds, and pepitas over top tortilla layer."
+        },
+        {
+          "number": 13,
+          "step": "Dust top generously with turbinado sugar and ground Mexican cinnamon for crispy crust."
+        },
+        {
+          "number": 14,
+          "step": "Cover baking dish tightly with aluminum foil to trap moisture during initial bake."
+        },
+        {
+          "number": 15,
+          "step": "Place filled dessert casserole dish onto middle rack of preheated baking oven."
+        },
+        {
+          "number": 16,
+          "step": "Bake covered for twenty-five minutes until custard sets and edges begin bubbling."
+        },
+        {
+          "number": 17,
+          "step": "Remove aluminum foil carefully and bake uncovered for fifteen additional minutes until golden."
+        },
+        {
+          "number": 18,
+          "step": "Watch top layer to ensure nuts turn toasted brown without scorching under oven heat."
+        },
+        {
+          "number": 19,
+          "step": "Check center with knife tip to confirm custard is fully set and firm throughout."
+        },
+        {
+          "number": 20,
+          "step": "Remove dessert bake from oven and place on wire cooling rack for fifteen minutes."
+        }
+      ]
+    },
+    {
+      "name": "Bake & Garnish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Allow Mexican dessert bake to rest so warm layers firm up for clean slicing."
+        },
+        {
+          "number": 2,
+          "step": "Warm extra cajeta caramel sauce in small saucepan over low heat setting setting."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle warm cajeta sauce in zigzags over golden top crust of dessert casserole."
+        },
+        {
+          "number": 4,
+          "step": "Grate extra Mexican dark chocolate directly over warm bake to create melted shavings."
+        },
+        {
+          "number": 5,
+          "step": "Dust top lightly with powdered sugar using fine mesh sifter for snow-like finish."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle sea salt flakes over caramel drizzles to enhance sweet and salty contrast."
+        },
+        {
+          "number": 7,
+          "step": "Slice layered bake into eight large rectangular dessert portions using sharp spatula."
+        },
+        {
+          "number": 8,
+          "step": "Transfer warm dessert slice carefully onto individual decorative dessert plates using spatula."
+        },
+        {
+          "number": 9,
+          "step": "Top each warm slice with a dollop of whipped topping or vanilla ice cream."
+        },
+        {
+          "number": 10,
+          "step": "Garnish plate with fresh mint leaves and extra sliced almonds for elegant look."
+        },
+        {
+          "number": 11,
+          "step": "Drizzle Kahlua coffee liqueur lightly around plate rim for gourmet dessert presentation."
+        },
+        {
+          "number": 12,
+          "step": "Dust extra cinnamon powder across plate rim right before serving guests at table."
+        },
+        {
+          "number": 13,
+          "step": "Inspect each slice to highlight distinct layers of tortilla, cheese, and spiced apple."
+        },
+        {
+          "number": 14,
+          "step": "Serve immediately while warm and aromatic with melting whipped cream on top."
+        },
+        {
+          "number": 15,
+          "step": "Pair with Mexican hot chocolate, cafe de olla, or sweet cinnamon horchata beverage."
+        },
+        {
+          "number": 16,
+          "step": "Store remaining baked dessert casserole covered in refrigerator for up to three days."
+        },
+        {
+          "number": 17,
+          "step": "Reheat individual slices in oven at three hundred degrees for ten minutes to restore texture."
+        },
+        {
+          "number": 18,
+          "step": "Enjoy this festive Mexican dessert course featuring layers of sweet caramel and apple."
+        },
+        {
+          "number": 19,
+          "step": "Wipe dessert plate rims clean with dry cloth to maintain pristine presentation standards."
+        },
+        {
+          "number": 20,
+          "step": "Clean all baking dishes and utensils after completing dessert course presentation."
+        }
+      ]
+    }
+  ]
+}

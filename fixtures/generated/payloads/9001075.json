@@ -1,0 +1,552 @@
+{
+  "id": 9001075,
+  "title": "Make-Ahead Greek Orzo Salad Bowls",
+  "image": "generated://dishcovery/9001075.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "Bright, fresh, and perfect for meal preparation, this vibrant Mediterranean dish relies on simple assembly of wholesome ingredients. Tender <b>orzo pasta</b> forms the hearty base of these assemble-ahead bowls, tossed with crisp cucumbers, juicy cherry tomatoes, kalamata olives, and crumbled feta cheese. A sharp oregano lemon vinaigrette coats every ingredient, preserving freshness and deepening flavors over time. Designed specifically for advance preparation, this make-ahead bowl retains its delightful bite and crisp texture even after hours in the refrigerator. Chickpeas and roasted red peppers provide plant-based protein and rich sweetness, while fresh dill and parsley bring uplifting herbaceous brightness. Enjoy it as a light lunch, quick weeknight dinner, or packable picnic dish. The harmonious combination of Mediterranean staples guarantees a delicious meal ready whenever you are. Experience the refreshing simplicity of <b>Greek noodle bowls</b> built for modern convenience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 51,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sodium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Folate",
+        "amount": 88,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Choline",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Calcium",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "orzo pasta"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "pc",
+      "name": "english cucumber"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 100,
+      "unit": "g",
+      "name": "kalamata olives"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "feta cheese"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "canned chickpeas"
+    },
+    {
+      "id": 90006,
+      "amount": 100,
+      "unit": "g",
+      "name": "roasted red peppers"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "pc",
+      "name": "red onion"
+    },
+    {
+      "id": 90008,
+      "amount": 60,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dijon mustard"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "honey"
+    },
+    {
+      "id": 90015,
+      "amount": 0.75,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90018,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90019,
+      "amount": 50,
+      "unit": "g",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90021,
+      "amount": 4,
+      "unit": "cup",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced radishes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Noodle Base and Dressing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring large pot of salted water to rolling boil over high heat on stovetop."
+        },
+        {
+          "number": 2,
+          "step": "Add orzo pasta noodles to boiling water and cook for eight minutes until al dente tender."
+        },
+        {
+          "number": 3,
+          "step": "Drain cooked orzo pasta noodles into colander and rinse with cool water to stop cooking."
+        },
+        {
+          "number": 4,
+          "step": "Spread cooled orzo pasta noodles onto baking sheet to dry off excess surface moisture completely."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle one tablespoon extra virgin olive oil over orzo and toss to prevent noodles sticking."
+        },
+        {
+          "number": 6,
+          "step": "Whisk extra virgin olive oil, lemon juice, lemon zest, and red wine vinegar in glass jug."
+        },
+        {
+          "number": 7,
+          "step": "Add minced garlic, dijon mustard, honey, and dried oregano into dressing jug mixture."
+        },
+        {
+          "number": 8,
+          "step": "Season dressing with salt and black pepper, whisking rapidly until emulsion forms nicely."
+        },
+        {
+          "number": 9,
+          "step": "Dice english cucumber into bite-sized half-centimeter cubes, leaving skin intact for crisp texture."
+        },
+        {
+          "number": 10,
+          "step": "Slice cherry tomatoes in half and drain off excess seed juice on paper towels gently."
+        },
+        {
+          "number": 11,
+          "step": "Pate pitted kalamata olives dry and cut them into thin round slice rings for salad."
+        },
+        {
+          "number": 12,
+          "step": "Dice roasted red peppers finely and chop red onion into small translucent dice pieces."
+        },
+        {
+          "number": 13,
+          "step": "Rinse canned chickpeas in colander under cold water and pat dry thoroughly with paper towels."
+        },
+        {
+          "number": 14,
+          "step": "Chop fresh dill and parsley leaves finely on cutting board using sharp chef knife."
+        },
+        {
+          "number": 15,
+          "step": "Toast pine nuts in dry skillet over medium heat for two minutes until light golden and fragrant."
+        },
+        {
+          "number": 16,
+          "step": "Drain capers and chop them roughly to spread tangy pickle flavor evenly in noodle mixture."
+        },
+        {
+          "number": 17,
+          "step": "Wash baby spinach leaves thoroughly and spin dry in salad spinner to remove moisture."
+        },
+        {
+          "number": 18,
+          "step": "Slice fresh radishes thinly into translucent disks for crisp visual bowl topping contrast."
+        },
+        {
+          "number": 19,
+          "step": "Crumble feta cheese into medium chunks and keep refrigerated until final bowl assembly step."
+        },
+        {
+          "number": 20,
+          "step": "Transfer dried orzo pasta into massive mixing bowl alongside prepared chickpeas and capers."
+        },
+        {
+          "number": 21,
+          "step": "Pour half of lemon oregano dressing over orzo pasta and toss thoroughly to absorb flavor base."
+        },
+        {
+          "number": 22,
+          "step": "Cover pasta base dish tightly and chill in refrigerator for twenty minutes before bowl assembly."
+        }
+      ]
+    },
+    {
+      "name": "Make-Ahead Bowl Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Retrieve four meal prep glass container bowls or wide ceramic serving bowls for assembly."
+        },
+        {
+          "number": 2,
+          "step": "Divide fresh baby spinach leaves evenly across bottom of each glass meal prep bowl container."
+        },
+        {
+          "number": 3,
+          "step": "Spoon marinated chilled orzo pasta and chickpea base evenly over spinach layer in containers."
+        },
+        {
+          "number": 4,
+          "step": "Arrange diced cucumber cubes in neat section over orzo base inside meal prep containers."
+        },
+        {
+          "number": 5,
+          "step": "Place halved cherry tomatoes alongside cucumber section to maintain attractive color separation."
+        },
+        {
+          "number": 6,
+          "step": "Add sliced kalamata olives and chopped roasted red peppers into designated bowl quarters."
+        },
+        {
+          "number": 7,
+          "step": "Scatter finely diced red onion and sliced radishes lightly over center of salad bowls."
+        },
+        {
+          "number": 8,
+          "step": "Top each bowl with generous portion of crumbled feta cheese chunks and toasted pine nuts."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle finely chopped fresh dill and parsley herbs over entire salad bowl surface."
+        },
+        {
+          "number": 10,
+          "step": "Drizzle remaining lemon oregano dressing over vegetable toppings right before sealing containers."
+        },
+        {
+          "number": 11,
+          "step": "Seal containers tightly with airtight lids if preparing ahead for lunch meals later in week."
+        },
+        {
+          "number": 12,
+          "step": "Store assembled bowls in refrigerator where flavors will blend together harmoniously up to three days."
+        },
+        {
+          "number": 13,
+          "step": "If serving immediately, toss all container ingredients together gently with large salad servers."
+        },
+        {
+          "number": 14,
+          "step": "Ensure feta cheese chunks and pine nuts are distributed throughout orzo noodle salad layers."
+        },
+        {
+          "number": 15,
+          "step": "Taste tossed bowl and add extra drizzle of olive oil or splash of lemon juice if desired."
+        },
+        {
+          "number": 16,
+          "step": "Serve cold or at room temperature alongside pita bread wedges and creamy hummus spread."
+        },
+        {
+          "number": 17,
+          "step": "Enjoy vibrant Mediterranean colors and crisp herbaceous bite straight from meal prep bowl."
+        },
+        {
+          "number": 18,
+          "step": "Clean prep utensils quickly as no complex cooking cookware was dirtied during assembly."
+        },
+        {
+          "number": 19,
+          "step": "Pack fork with portable container bowl for healthy nutrition during busy work or travel days."
+        },
+        {
+          "number": 20,
+          "step": "Appreciate convenience of chef-quality Greek noodle bowl prepared effortlessly ahead of time."
+        },
+        {
+          "number": 21,
+          "step": "Share recipe with friends seeking nutritious meal prep solutions packed with classic flavor."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "id": 9002028,
+  "title": "Vegetarian Brazilian Tapioca Flatbread Platter",
+  "image": "generated://dishcovery/9002028.jpg",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "summary": "This vibrant <b>Brazilian flatbread</b> showcases traditional cassava starch paired with rich plant-based elements for a wholesome <b>vegetarian meal</b>. Perfect for sharing, it combines crispy cassava pancakes with fresh herbs, creamy hearts of palm puree, roasted peppers, and marinated tropical fruit. Inspired by classic street food from Bahia, this recipe reimagines the iconic cassava flatbread into an elegant multi-tier presentation. The dish brings together subtle earthy notes from manioc flour, tangy accents of lime, and rich vegan cheeses to deliver a balanced texture profile. Whether served at a family brunch or an evening gathering, this nutrient-dense creation highlights authentic regional techniques while remaining fully meat-free. Enjoy every layer of flavor along with nutritious seeds, fresh avocado slices, and aromatic herb oils that complement the warm cassava base perfectly.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 24.6
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Total Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Dietary Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 28.6
+      },
+      {
+        "name": "Sugars",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Protein",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.8
+      },
+      {
+        "name": "Calcium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.7
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.5
+      },
+      {
+        "name": "Potassium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11.5
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.6
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 130,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Selenium",
+        "amount": 8,
+        "unit": "mcg",
+        "percentOfDailyNeeds": 14.5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27.7
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "tapioca starch"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "cup",
+      "name": "hearts of palm"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "avocado",
+      "name": "sliced fresh avocado"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shredded vegan cheese"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90008,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced yellow bell pepper"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "black beans"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pumpkin seeds"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sunflower seeds"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced jalapeno"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "diced red onion"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "maple syrup"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90027,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated vegan parmesan"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "flaxseed meal"
+    },
+    {
+      "id": 90029,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water for flax dough"
+    },
+    {
+      "id": 90030,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced mango"
+    },
+    {
+      "id": 90031,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped mint"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "grated lime zest"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90035,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "cooked corn kernels"
+    },
+    {
+      "id": 90036,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chia seeds"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "agave nectar"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "hemp seeds"
+    },
+    {
+      "id": 90042,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted cashew nuts"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sift the fine tapioca starch into a deep glass mixing bowl using a fine mesh strainer."
+        },
+        {
+          "number": 2,
+          "step": "Add sea salt evenly across the sifted tapioca starch powder for uniform seasoning."
+        },
+        {
+          "number": 3,
+          "step": "Slowly pour half of the room temperature water into the tapioca mixture while stirring gently."
+        },
+        {
+          "number": 4,
+          "step": "Incorporate the remaining water gradually until small crumbly lumps begin to form naturally."
+        },
+        {
+          "number": 5,
+          "step": "Use your hands to rub the flour mixture together until coarse grains form throughout the bowl."
+        },
+        {
+          "number": 6,
+          "step": "Pass the moistened starch mixture through a coarse sieve back into the dry bowl carefully."
+        },
+        {
+          "number": 7,
+          "step": "Whisk in ground cumin and smoked paprika to infuse subtle warm spices into the starch base."
+        },
+        {
+          "number": 8,
+          "step": "Add garlic powder and onion powder to enhance the background savory notes of the dough."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle flaxseed meal into the bowl to introduce extra binding and healthy fiber components."
+        },
+        {
+          "number": 10,
+          "step": "Pour in two tablespoons of cold water to activate the ground flaxseed meal effectively."
+        },
+        {
+          "number": 11,
+          "step": "Fold turmeric powder into the starch to achieve a delicate light yellow tint across grains."
+        },
+        {
+          "number": 12,
+          "step": "Mix in chia seeds evenly to add texture and additional binder to the tapioca granules."
+        },
+        {
+          "number": 13,
+          "step": "Cover the prepared cassava starch bowl tightly with a clean linen towel for resting."
+        },
+        {
+          "number": 14,
+          "step": "Let the starch mixture rest quietly at room temperature for fifteen minutes before heating."
+        },
+        {
+          "number": 15,
+          "step": "Check moisture levels by squeezing a small handful of tapioca flour in your palm firmly."
+        },
+        {
+          "number": 16,
+          "step": "Adjust with a drop of water if the hydrated starch crumbles too rapidly upon release."
+        },
+        {
+          "number": 17,
+          "step": "Stir in hemp seeds to provide subtle nuttiness throughout the cassava flatbread base."
+        },
+        {
+          "number": 18,
+          "step": "Divide the hydrated tapioca starch evenly into six distinct portions on parchment paper."
+        },
+        {
+          "number": 19,
+          "step": "Keep all portions covered loosely to prevent loss of moisture while preheating your skillet."
+        },
+        {
+          "number": 20,
+          "step": "Set aside the portioned tapioca dough near the stovetop for quick assembly during frying."
+        },
+        {
+          "number": 21,
+          "step": "Verify that all dry and wet ingredients in the dough are evenly distributed before cooking."
+        }
+      ]
+    },
+    {
+      "name": "Filling Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice the hearts of palm into uniform thin rounds on a clean wooden cutting board carefully."
+        },
+        {
+          "number": 2,
+          "step": "Place the sliced hearts of palm into a stainless steel mixing bowl for dressing gently."
+        },
+        {
+          "number": 3,
+          "step": "Dice the ripe avocado into neat small cubes after removing the seed and skin cleanly."
+        },
+        {
+          "number": 4,
+          "step": "Toss avocado cubes with lime juice immediately in a separate small dish to prevent browning."
+        },
+        {
+          "number": 5,
+          "step": "Combine red bell pepper and yellow bell pepper in a small bowl for colorful topping distribution."
+        },
+        {
+          "number": 6,
+          "step": "Rinse black beans under cold water and drain thoroughly using a small mesh strainer basket."
+        },
+        {
+          "number": 7,
+          "step": "Fold black beans into the pepper mixture along with cooked sweet corn kernels evenly."
+        },
+        {
+          "number": 8,
+          "step": "Add chopped fresh cilantro and chopped parsley to bring vibrant green color to the filling."
+        },
+        {
+          "number": 9,
+          "step": "Mince jalapeno finely after removing seeds to control heat levels across the flatbreads."
+        },
+        {
+          "number": 10,
+          "step": "Mix minced jalapeno into the vegetable bowl along with diced red onions for added bite."
+        },
+        {
+          "number": 11,
+          "step": "Drizzle olive oil over the fresh vegetable mixture and toss gently with a rubber spatula."
+        },
+        {
+          "number": 12,
+          "step": "Season the vegetable mixture with a pinch of black pepper and sea salt flakes evenly."
+        },
+        {
+          "number": 13,
+          "step": "Add diced fresh mango into the salsa mix for a bright splash of tropical sweetness throughout."
+        },
+        {
+          "number": 14,
+          "step": "Toss chopped fresh mint into the fruit and vegetable salsa to elevate aromatic qualities."
+        },
+        {
+          "number": 15,
+          "step": "Grate lime zest over the fresh salsa bowl and mix gently to spread citrus oils evenly."
+        },
+        {
+          "number": 16,
+          "step": "Incorporate apple cider vinegar and maple syrup to balance acidity and sweetness in filling."
+        },
+        {
+          "number": 17,
+          "step": "Whisk coconut milk and vegan parmesan in a cup to form a smooth savory drizzle sauce."
+        },
+        {
+          "number": 18,
+          "step": "Add chili powder and oregano to the coconut milk sauce for spiced background flavor layers."
+        },
+        {
+          "number": 19,
+          "step": "Chill the fresh vegetable salsa in the refrigerator while cooking flatbread bases on stove."
+        },
+        {
+          "number": 20,
+          "step": "Keep all topping components organized near the cooking area for fast assembly after frying."
+        }
+      ]
+    },
+    {
+      "name": "Flatbread Cooking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat a heavy nonstick skillet over medium heat until the surface is evenly warmed through."
+        },
+        {
+          "number": 2,
+          "step": "Lightly brush the skillet surface with coconut oil using a heatproof silicone pastry brush."
+        },
+        {
+          "number": 3,
+          "step": "Spoon one portion of hydrated tapioca starch onto the center of the dry hot skillet pan."
+        },
+        {
+          "number": 4,
+          "step": "Spread starch into a uniform circular disc using the back of a spoon with light pressure."
+        },
+        {
+          "number": 5,
+          "step": "Watch as heat fuses the cassava granules into a cohesive translucent flatbread structure."
+        },
+        {
+          "number": 6,
+          "step": "Cook the flatbread base without disturbing for two minutes until edges lift away easily."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle shredded vegan cheese evenly across one half of the warm cooking tapioca disc."
+        },
+        {
+          "number": 8,
+          "step": "Carefully fold the uncheesed half over the filling side using a wide spatula to make half-moon."
+        },
+        {
+          "number": 9,
+          "step": "Press the edges gently with spatula to seal the melted cheese inside the folded flatbread."
+        },
+        {
+          "number": 10,
+          "step": "Flip the folded flatbread over and cook for an additional minute until outer crust crisping."
+        },
+        {
+          "number": 11,
+          "step": "Transfer cooked flatbread to a warm wire rack lined with paper towels to maintain crispness."
+        },
+        {
+          "number": 12,
+          "step": "Repeat the process for second portion of starch flour, adding minimal coconut oil if needed."
+        },
+        {
+          "number": 13,
+          "step": "Monitor pan heat carefully to avoid scorching the delicate cassava flour on high settings."
+        },
+        {
+          "number": 14,
+          "step": "Continue shaping and cooking remaining starch portions until all flatbreads are completed."
+        },
+        {
+          "number": 15,
+          "step": "Keep finished flatbreads warm in a low temperature oven while preparing remaining items."
+        },
+        {
+          "number": 16,
+          "step": "Inspect flatbread surface texture to ensure complete starch fusion without raw powdery spots."
+        },
+        {
+          "number": 17,
+          "step": "Brush top of warm flatbreads lightly with sesame oil to add subtle shine and rich aroma."
+        },
+        {
+          "number": 18,
+          "step": "Dust top lightly with cayenne pepper for a subtle touch of color and spicy kick overall."
+        },
+        {
+          "number": 19,
+          "step": "Arrange cooked flatbreads onto a large wooden serving board in a single overlapping row."
+        },
+        {
+          "number": 20,
+          "step": "Ensure flatbreads remain warm and crisp before spooning fresh cold toppings over them."
+        }
+      ]
+    },
+    {
+      "name": "Topping Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Retrieve the chilled fresh vegetable and mango salsa from the refrigerator prior to plating."
+        },
+        {
+          "number": 2,
+          "step": "Spoon generous portions of vegetable salsa over each warm cheese-filled flatbread base."
+        },
+        {
+          "number": 3,
+          "step": "Layer sliced hearts of palm artfully along the top length of each stuffed tapioca disc."
+        },
+        {
+          "number": 4,
+          "step": "Arrange lime-marinated avocado slices side-by-side over the heart of palm layer carefully."
+        },
+        {
+          "number": 5,
+          "step": "Scatter toasted pumpkin seeds over the top to provide satisfying crunchy textural contrast."
+        },
+        {
+          "number": 6,
+          "step": "Add sunflower seeds evenly across all topped flatbreads for additional nutty bite quality."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle prepared coconut milk and vegan parmesan sauce over top in decorative zigzags."
+        },
+        {
+          "number": 8,
+          "step": "Garnish with sliced green onions to add sharp fresh flavor and vibrant color accents."
+        },
+        {
+          "number": 9,
+          "step": "Sprinkle toasted cashew nuts over top layer to enrich texture and savory nut profile."
+        },
+        {
+          "number": 10,
+          "step": "Dust sea salt flakes over fresh avocado slices for optimal flavor enhancement right away."
+        },
+        {
+          "number": 11,
+          "step": "Scatter fresh cilantro leaves across the assembled platter for aromatic herbal finish."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle remaining olive oil in a delicate stream over all completed flatbread creations."
+        },
+        {
+          "number": 13,
+          "step": "Add agave nectar droplets over mango pieces to highlight sweet tropical notes pleasantly."
+        },
+        {
+          "number": 14,
+          "step": "Inspect each flatbread to verify balanced distribution of colorful toppings and sauces."
+        },
+        {
+          "number": 15,
+          "step": "Place fresh lime wedges around platter edges for optional squeezing by guests at table."
+        },
+        {
+          "number": 16,
+          "step": "Gently press toppings down so they remain anchored to flatbread when cut into portions."
+        },
+        {
+          "number": 17,
+          "step": "Dust extra smoked paprika over edges of serving board to create refined presentation."
+        },
+        {
+          "number": 18,
+          "step": "Verify that temperature contrast between warm base and cool salsa is well maintained."
+        },
+        {
+          "number": 19,
+          "step": "Wipe board edges clean with damp towel to ensure spotless artistic culinary display."
+        },
+        {
+          "number": 20,
+          "step": "Prepare serving tongs and spatulas alongside platter for easy guest self-service access."
+        }
+      ]
+    },
+    {
+      "name": "Final Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice each large filled flatbread into three triangular wedges using a sharp chef knife."
+        },
+        {
+          "number": 2,
+          "step": "Arrange triangular flatbread slices fanwise across individual warm stoneware dinner plates."
+        },
+        {
+          "number": 3,
+          "step": "Place a small side bowl of extra mango salsa next to flatbread slices on each plate."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle extra virgin olive oil around plate rim for polished restaurant style presentation."
+        },
+        {
+          "number": 5,
+          "step": "Garnish plate rim with a light sprinkle of ground cumin and sea salt flakes carefully."
+        },
+        {
+          "number": 6,
+          "step": "Add a fresh sprig of cilantro beside each portion for clean organic decorative touch."
+        },
+        {
+          "number": 7,
+          "step": "Check that each portion includes a generous sampling of seeds, salsa, and melted cheese."
+        },
+        {
+          "number": 8,
+          "step": "Serve immediately while cassava crust is hot and crispy and toppings remain fresh."
+        },
+        {
+          "number": 9,
+          "step": "Provide extra lime wedges on side plates so guests can customize acidity levels easily."
+        },
+        {
+          "number": 10,
+          "step": "Pairs fantastically with iced herbal tea or chilled Brazilian coconut water beverages."
+        },
+        {
+          "number": 11,
+          "step": "Inform guests of warm tapioca center and crunchy seed toppings before eating enjoyment."
+        },
+        {
+          "number": 12,
+          "step": "Maintain warm serving plates to keep bottom tapioca layer pliable throughout dining."
+        },
+        {
+          "number": 13,
+          "step": "Offer hot sauce on table for guests who desire additional spicy heat enhancement."
+        },
+        {
+          "number": 14,
+          "step": "Refrigerate any leftover flatbread slices separately from fresh wet salsa toppings."
+        },
+        {
+          "number": 15,
+          "step": "Reheat leftover base in dry skillet for two minutes to restore original crispy texture."
+        },
+        {
+          "number": 16,
+          "step": "Top reheated flatbreads with fresh avocado and herbs just prior to secondary serving."
+        },
+        {
+          "number": 17,
+          "step": "Ensure all vegetarian dietary requirements are clearly communicated when serving dish."
+        },
+        {
+          "number": 18,
+          "step": "Enjoy this traditional Brazilian tapioca creation packed with vibrant plant-based flavor."
+        },
+        {
+          "number": 19,
+          "step": "Clean workstation thoroughly after completing service to maintain kitchen organization."
+        },
+        {
+          "number": 20,
+          "step": "Store remaining dry cassava starch in airtight container away from ambient moisture."
+        }
+      ]
+    }
+  ]
+}

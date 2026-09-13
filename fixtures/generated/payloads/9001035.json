@@ -1,0 +1,552 @@
+{
+  "id": 9001035,
+  "title": "Aegean Seafood Orzo Bowl with Roasted Garlic and Fennel",
+  "image": "generated://dishcovery/9001035.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This vibrant <b>Greek noodle bowl</b> brings together classic Mediterranean flavors and fresh seafood in a hearty format. Crisp octopus pieces and succulent wild shrimp are seared with <b>Greek olive oil</b>, then tossed over warm orzo noodles that have absorbed a delicate tomato, lemon, and fennel reduction. Red onion, brine-cured kalamata olives, and crumbled barrel-aged feta cheese add layers of savory contrast throughout the dish. A scattering of fresh dill and toasted pine nuts provides texture, making each forkful bright and satisfying. Prepared using traditional coastal techniques, this noodle bowl celebrates coastal traditions while providing a well-balanced meal suitable for formal gatherings or elevated family suppers. Rich in <b>lean protein</b>, healthy fats, and aromatic herbs, it delivers an authentic taste of the islands directly to your home kitchen without requiring overly complex kitchen equipment.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 540,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 27.7
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 19.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Protein",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 72
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Calcium",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.1
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.7
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.2
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21.3
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Magnesium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.9
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.9
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.1
+      },
+      {
+        "name": "Choline",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Iodine",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Chloride",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "orzo pasta"
+    },
+    {
+      "id": 90001,
+      "amount": 250,
+      "unit": "g",
+      "name": "wild shrimp"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "octopus tentacle"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "head",
+      "name": "garlic bulb"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "medium",
+      "name": "fennel bulb"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90007,
+      "amount": 150,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90008,
+      "amount": 80,
+      "unit": "g",
+      "name": "kalamata olives"
+    },
+    {
+      "id": 90009,
+      "amount": 100,
+      "unit": "g",
+      "name": "feta cheese"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "lemon",
+      "name": "fresh lemon"
+    },
+    {
+      "id": 90011,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "flat leaf parsley"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "crushed red pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "bay",
+      "name": "bay leaves"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood and Base Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the octopus tentacle thoroughly under cold running water to remove any surface residual grit."
+        },
+        {
+          "number": 2,
+          "step": "Place the octopus into a small saucepan filled with salted water and two dried bay leaves."
+        },
+        {
+          "number": 3,
+          "step": "Simmer the tentacle over medium heat for thirty minutes until tender when pierced with a fork."
+        },
+        {
+          "number": 4,
+          "step": "Remove the octopus from hot liquid and slice it into bite-sized half-inch round pieces."
+        },
+        {
+          "number": 5,
+          "step": "Peel and devein the wild shrimp completely, patting them dry using paper towels carefully."
+        },
+        {
+          "number": 6,
+          "step": "Trim the tough outer stems from the fresh fennel bulb and slice the main core very thinly."
+        },
+        {
+          "number": 7,
+          "step": "Dice the red onion into uniform small squares to ensure even cooking throughout the base sauce."
+        },
+        {
+          "number": 8,
+          "step": "Slice the entire head of garlic horizontally to expose all internal cloves for smooth roasting."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle exposed garlic cloves with one teaspoon olive oil and wrap tight in aluminum foil."
+        },
+        {
+          "number": 10,
+          "step": "Roast the wrapped garlic in a preheated oven at four hundred degrees for exactly twenty minutes."
+        },
+        {
+          "number": 11,
+          "step": "Squeeze the softened garlic cloves out of their skin into a small mixing bowl and mash smoothly."
+        },
+        {
+          "number": 12,
+          "step": "Heat two tablespoons olive oil in a wide heavy skillet over medium-high flame until shimmering."
+        },
+        {
+          "number": 13,
+          "step": "Add chopped red onion and sliced fennel bulb to the skillet with a pinch of fine salt."
+        },
+        {
+          "number": 14,
+          "step": "Sauté the vegetable mixture for six minutes until edges begin to soften and lightly brown."
+        },
+        {
+          "number": 15,
+          "step": "Stir in the tomato paste, crushed red pepper, and dried oregano to coat the cooked vegetables."
+        },
+        {
+          "number": 16,
+          "step": "Pour in dry white wine to deglaze the skillet surface, scraping up all browned savory bits."
+        },
+        {
+          "number": 17,
+          "step": "Add whole cherry tomatoes to the pan and allow them to burst slightly under gentle pressure."
+        },
+        {
+          "number": 18,
+          "step": "Transfer sliced octopus and prepared wild shrimp into the skillet, stirring once to combine."
+        },
+        {
+          "number": 19,
+          "step": "Cook seafood mixture for three minutes until shrimp turn pink and opaque throughout their center."
+        },
+        {
+          "number": 20,
+          "step": "Splash red wine vinegar over cooked seafood and turn off the heat under the wide skillet."
+        },
+        {
+          "number": 21,
+          "step": "Fold in capers and pitted kalamata olives gently to avoid breaking up the soft burst tomatoes."
+        },
+        {
+          "number": 22,
+          "step": "Cover the skillet tightly with a lid to retain moisture while preparing the orzo noodle base."
+        }
+      ]
+    },
+    {
+      "name": "Orzo Assembly and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring two cups of vegetable broth and a cup of water to a rolling boil in a deep saucepan."
+        },
+        {
+          "number": 2,
+          "step": "Add dry orzo pasta into boiling liquid and stir constantly for two minutes to avoid sticking."
+        },
+        {
+          "number": 3,
+          "step": "Reduce heat to low and cook orzo for nine minutes until pasta reaches perfectly al dente texture."
+        },
+        {
+          "number": 4,
+          "step": "Drain excess broth from cooked orzo using a fine mesh strainer, reserving two tablespoons liquid."
+        },
+        {
+          "number": 5,
+          "step": "Return warm orzo to saucepan and stir in mashed roasted garlic along with unsalted butter."
+        },
+        {
+          "number": 6,
+          "step": "Pour reserved cooking liquid into garlic orzo to form a glossy coating over all pasta grains."
+        },
+        {
+          "number": 7,
+          "step": "Zest whole fresh lemon directly into saucepan and squeeze in one tablespoon fresh lemon juice."
+        },
+        {
+          "number": 8,
+          "step": "Toast pine nuts in a clean dry skillet over low heat for three minutes until fragrant and golden."
+        },
+        {
+          "number": 9,
+          "step": "Chop fresh dill and flat leaf parsley finely using a sharp chef knife on a clean board."
+        },
+        {
+          "number": 10,
+          "step": "Divide warm roasted garlic orzo evenly between four wide shallow serving bowls using a spoon."
+        },
+        {
+          "number": 11,
+          "step": "Spoon warm cooked seafood and vegetable mixture evenly over the center of each noodle bowl."
+        },
+        {
+          "number": 12,
+          "step": "Crumble barrel-aged feta cheese evenly over warm seafood toppings in all four prepared bowls."
+        },
+        {
+          "number": 13,
+          "step": "Sprinkle toasted pine nuts across top layer of each bowl to add warm roasted nutty crunch."
+        },
+        {
+          "number": 14,
+          "step": "Garnish every portion generously with minced fresh dill and chopped green flat leaf parsley."
+        },
+        {
+          "number": 15,
+          "step": "Season each bowl with freshly ground black pepper and a final dash of extra virgin olive oil."
+        },
+        {
+          "number": 16,
+          "step": "Slice remaining lemon into thin wedges and place one wedge on the edge of each serving bowl."
+        },
+        {
+          "number": 17,
+          "step": "Check seasoning of sauce and add a light sprinkle of coarse sea salt if extra salt is desired."
+        },
+        {
+          "number": 18,
+          "step": "Toss bowl contents gently right before eating to blend warm garlic pasta with warm seafood sauce."
+        },
+        {
+          "number": 19,
+          "step": "Verify temperature of bowl components to ensure dish is served warm immediately after assembly."
+        },
+        {
+          "number": 20,
+          "step": "Arrange garnishes neatly so colors of green herbs and red tomatoes show clearly on top."
+        },
+        {
+          "number": 21,
+          "step": "Serve immediately with extra lemon wedges on the side for squeezing fresh over seafood."
+        }
+      ]
+    }
+  ]
+}

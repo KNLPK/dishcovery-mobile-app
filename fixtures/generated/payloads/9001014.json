@@ -1,0 +1,553 @@
+{
+  "id": 9001014,
+  "title": "Aromatic Moroccan Sweet Fruit Stew with Honey and Almonds",
+  "image": "generated://dishcovery/9001014.jpg",
+  "readyInMinutes": 65,
+  "servings": 6,
+  "summary": "This fragrant <b>Moroccan sweet fruit stew</b> offers an enchanting conclusion to an elaborate dinner, blending honey-poached stone fruits with aromatic spices. Known traditionally as a dessert tagine, this rich preparation simmers tender <b>dried figs</b>, plump apricots, prunes, and sweet dates in a delicate syrup infused with <b>orange blossom water</b>, cinnamon sticks, cardamom, and saffron. As the fruits absorb the golden nectar, they soften into a luxurious, warm dessert course served alongside crunchy <b>toasted blanched almonds</b> and bright pistachios. Fresh mint sprigs and vibrant pomegranate seeds provide a refreshing contrast to the deeply aromatic, caramelised syrup. Perfect for celebrations, this recipe can be prepared in advance and gently rewarmed just before serving to release its full aromatic perfume. Enjoy this classic North African confection with a pot of traditional mint tea for a truly memorable culinary grand finale that balances fruity sweetness with warm spice.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420.5,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 12.4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 78.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 26.1
+      },
+      {
+        "name": "Sugar",
+        "amount": 58.6,
+        "unit": "g",
+        "percentOfDailyNeeds": 65.1
+      },
+      {
+        "name": "Protein",
+        "amount": 6.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 13.6
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 10.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3.4
+      },
+      {
+        "name": "Sodium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 1.9
+      },
+      {
+        "name": "Fiber",
+        "amount": 9.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.3
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.9
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20.6
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Choline",
+        "amount": 18.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3.4
+      },
+      {
+        "name": "Calcium",
+        "amount": 142,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.2
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.2
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.6
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.1
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46.7
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.2
+      },
+      {
+        "name": "Selenium",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5.1
+      },
+      {
+        "name": "Iodine",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0.8
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "dried figs"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90003,
+      "amount": 120,
+      "unit": "g",
+      "name": "medjool dates"
+    },
+    {
+      "id": 90004,
+      "amount": 120,
+      "unit": "g",
+      "name": "dried prunes"
+    },
+    {
+      "id": 90005,
+      "amount": 60,
+      "unit": "g",
+      "name": "blanched almonds"
+    },
+    {
+      "id": 90006,
+      "amount": 40,
+      "unit": "g",
+      "name": "shelled pistachios"
+    },
+    {
+      "id": 90007,
+      "amount": 40,
+      "unit": "g",
+      "name": "raw walnuts"
+    },
+    {
+      "id": 90008,
+      "amount": 500,
+      "unit": "ml",
+      "name": "sweet orange juice"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rose water"
+    },
+    {
+      "id": 90011,
+      "amount": 120,
+      "unit": "g",
+      "name": "clear honey"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "clementine zest"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "piece",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90016,
+      "amount": 4,
+      "unit": "piece",
+      "name": "whole cloves"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "piece",
+      "name": "star anise"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90021,
+      "amount": 25,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90022,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh mint leaves"
+    },
+    {
+      "id": 90023,
+      "amount": 50,
+      "unit": "g",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Base Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure the whole dried figs and trim off any tough stems using kitchen shears before setting them in a large glass bowl."
+        },
+        {
+          "number": 2,
+          "step": "Halve the dried apricots and place them into the glass bowl together with the prepared figs to keep the dried fruit organized."
+        },
+        {
+          "number": 3,
+          "step": "Rinse the golden raisins under cool tap water in a fine strainer, then shake off the excess moisture before adding to the bowl."
+        },
+        {
+          "number": 4,
+          "step": "Pit the Medjool dates carefully and chop each date into three equal pieces so they dissolve slightly during the long cook."
+        },
+        {
+          "number": 5,
+          "step": "Add the dried prunes to the fruit mixture and toss everything thoroughly until the assorted dried fruits are evenly distributed."
+        },
+        {
+          "number": 6,
+          "step": "In a separate small skillet, toast the blanched almonds over low heat until they turn pale golden and smell visibly fragrant."
+        },
+        {
+          "number": 7,
+          "step": "Transfer the warm almonds onto a parchment sheet to cool completely before chopping them coarsely with a chef knife."
+        },
+        {
+          "number": 8,
+          "step": "Shell the raw pistachios and rub off the excess skins using a clean cotton towel before chopping them into small fragments."
+        },
+        {
+          "number": 9,
+          "step": "Spread the walnut halves across a small rimmed tray and roast them in a warm oven for six minutes until lightly toasted."
+        },
+        {
+          "number": 10,
+          "step": "Zest the clementines using a microplane, taking care to extract only the sweet orange outer peel without bitter white pith."
+        },
+        {
+          "number": 11,
+          "step": "Squeeze fresh sweet orange juice through a fine mesh strainer to collect two cups of clear citrus juice for the poaching broth."
+        },
+        {
+          "number": 12,
+          "step": "Measure the clear honey into a glass measuring pitcher and warm it slightly to allow for smooth pouring into the pot."
+        },
+        {
+          "number": 13,
+          "step": "Combine the orange juice, rose water, and orange blossom water together in a small jug to form the fragrant liquid base."
+        },
+        {
+          "number": 14,
+          "step": "Crush the saffron threads gently between your fingers into a small pinch cup and soak them in warm water for ten minutes."
+        }
+      ]
+    },
+    {
+      "name": "Stewing and Simmering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt the unsalted butter in a heavy tagine base over medium heat until it bubbles gently without taking on any brown color."
+        },
+        {
+          "number": 2,
+          "step": "Add the cinnamon sticks, whole cloves, star anise, and ground cardamom to the warm butter to bloom the spices briefly."
+        },
+        {
+          "number": 3,
+          "step": "Stir in the ground ginger and ground nutmeg, tossing constantly with a wooden spoon for thirty seconds until highly aromatic."
+        },
+        {
+          "number": 4,
+          "step": "Pour the sweetened citrus and floral liquid mixture into the tagine, stirring constantly to melt the spice deposits completely."
+        },
+        {
+          "number": 5,
+          "step": "Whisk the clear honey and dark pomegranate molasses directly into the simmering liquid until fully blended and translucent."
+        },
+        {
+          "number": 6,
+          "step": "Add the soaked saffron threads along with their golden steeping liquid into the tagine, stirring to combine all liquids."
+        },
+        {
+          "number": 7,
+          "step": "Carefully transfer all of the mixed dried fruits into the simmering spice liquid, arranging them in a uniform layer."
+        },
+        {
+          "number": 8,
+          "step": "Cover the tagine with its conical lid and reduce the heat to low, maintaining a very gentle and steady simmer throughout."
+        },
+        {
+          "number": 9,
+          "step": "Cook the fruit stew covered for twenty minutes, allowing the dried fruits to absorb the hot liquid and swell in volume."
+        },
+        {
+          "number": 10,
+          "step": "Remove the lid and use a wide spoon to baste the top layer of fruit with the rich, bubbling spiced syrup in the pan."
+        },
+        {
+          "number": 11,
+          "step": "Replace the lid and continue simmering for another fifteen minutes until the fruits become remarkably soft and glossy."
+        },
+        {
+          "number": 12,
+          "step": "Check the liquid level and add two tablespoons of water if the syrup appears too thick before finalizing the fruit cook."
+        },
+        {
+          "number": 13,
+          "step": "Scatter half of the toasted blanched almonds into the simmering stew to absorb the warm floral flavours of the broth."
+        },
+        {
+          "number": 14,
+          "step": "Simmer uncovered for five final minutes so the poaching liquid reduces into a thick, glossy syrup coating the soft fruits."
+        }
+      ]
+    },
+    {
+      "name": "Dessert Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Extinguish the cooktop heat and allow the tagine to sit undisturbed for ten minutes so the deep flavours meld together."
+        },
+        {
+          "number": 2,
+          "step": "Pick fresh mint leaves from their stems, discarding any wilted leaves, and slice them into thin, delicate ribbons."
+        },
+        {
+          "number": 3,
+          "step": "Extract vibrant red seeds from a ripe pomegranate, discarding any white membrane, and reserve them in a small cup."
+        },
+        {
+          "number": 4,
+          "step": "Lightly toast the sesame seeds in a dry pan over low heat for two minutes until lightly browned and nutty in aroma."
+        },
+        {
+          "number": 5,
+          "step": "Arrange four decorative shallow ceramic dessert bowls across a clean work surface ready for final plated assembly."
+        },
+        {
+          "number": 6,
+          "step": "Carefully remove the whole cinnamon sticks and star anise pods from the tagine using long kitchen tongs and discard."
+        },
+        {
+          "number": 7,
+          "step": "Ladle equal portions of the warm stewed fruits into each prepared ceramic dessert bowl using a heatproof slotted spoon."
+        },
+        {
+          "number": 8,
+          "step": "Spoon generous amounts of the reduced golden syrup over the plated fruits until each serving is thoroughly coated."
+        },
+        {
+          "number": 9,
+          "step": "Garnish each dessert bowl with the remaining toasted blanched almonds, placing them neatly around the fruit mound."
+        },
+        {
+          "number": 10,
+          "step": "Sprinkle the chopped raw pistachios and toasted walnut pieces over the top of each fruit portion for color and crunch."
+        },
+        {
+          "number": 11,
+          "step": "Scatter the toasted sesame seeds lightly across the hot fruits to provide a delicate nutty aroma to every bowl."
+        },
+        {
+          "number": 12,
+          "step": "Distribute the bright pomegranate seeds over the warm dessert bowls to add a refreshing pop of color and acidity."
+        },
+        {
+          "number": 13,
+          "step": "Finish each plate with a scattering of fresh mint ribbons, adding a vibrant green accent to the finished dessert."
+        },
+        {
+          "number": 14,
+          "step": "Serve the warm Moroccan fruit stew immediately alongside a hot pot of fresh mint tea to complete the dessert course."
+        }
+      ]
+    }
+  ]
+}

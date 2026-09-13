@@ -1,0 +1,552 @@
+{
+  "id": 9001025,
+  "title": "Yakhnat Samak Seafood Stew",
+  "image": "generated://dishcovery/9001025.jpg",
+  "readyInMinutes": 55,
+  "servings": 5,
+  "summary": "Hailing from the Mediterranean coast of Lebanon, this coastal dish features a <b>seafood-forward stew</b> packed with firm white fish and tender wild shrimp. Aromatics like sliced onions, garlic, and sweet bell peppers are cooked in olive oil before being seasoned with vibrant Lebanese spices including cumin, coriander, and allspice. A rich tomato broth enriched with toasted pine nuts and lemon juice surrounds the seafood, allowing it to poach gently without drying out. The stew achieves a delicate balance between warm aromatic spice notes and bright citrus acidity, enhanced by a generous scattering of fresh parsley and cilantro. Rich in <b>omega-3 fatty acids, lean protein</b>, and essential minerals like selenium and iodine, this stew offers immense health benefits alongside rich Mediterranean flavor. Serve hot over warm spiced vermicelli rice or with crusty flatbread for dipping into the flavorful red sauce. Enjoy this traditional coastal feast during family dinners.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 940,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 110,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 117
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Iodine",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 87
+      },
+      {
+        "name": "Copper",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Chromium",
+        "amount": 7,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Potassium",
+        "amount": 760,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.25,
+      "unit": "lbs",
+      "name": "cod fillets"
+    },
+    {
+      "id": 90001,
+      "amount": 0.75,
+      "unit": "lb",
+      "name": "large wild shrimp"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "large",
+      "name": "yellow onions"
+    },
+    {
+      "id": 90004,
+      "amount": 6,
+      "unit": "cloves",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "large",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "cups",
+      "name": "crushed tomatoes"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "cups",
+      "name": "fish stock"
+    },
+    {
+      "id": 90008,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "cup",
+      "name": "vermicelli rice"
+    },
+    {
+      "id": 90020,
+      "amount": 4,
+      "unit": "pieces",
+      "name": "pita bread"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "lemon",
+      "name": "lemon slices"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "bay",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sumac"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood and Base Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat cod fillets dry using paper towels and cut into two inch square chunks."
+        },
+        {
+          "number": 2,
+          "step": "Peel and devein wild shrimp under cold running water before draining on towels."
+        },
+        {
+          "number": 3,
+          "step": "Season cut cod chunks and raw shrimp lightly with sea salt cumin and black pepper."
+        },
+        {
+          "number": 4,
+          "step": "Slice yellow onions into thin crescent strips using a sharp slicing knife."
+        },
+        {
+          "number": 5,
+          "step": "Peel and slice garlic cloves thinly into uniform slivers on a clean board."
+        },
+        {
+          "number": 6,
+          "step": "Core red bell pepper remove seeds and slice into long quarter inch strips."
+        },
+        {
+          "number": 7,
+          "step": "Toast pine nuts in dry skillet over medium heat for three minutes until golden."
+        },
+        {
+          "number": 8,
+          "step": "Remove toasted pine nuts from skillet immediately to prevent burning on hot pan."
+        },
+        {
+          "number": 9,
+          "step": "Heat olive oil in heavy Dutch oven over medium heat until shimmering lightly."
+        },
+        {
+          "number": 10,
+          "step": "Add sliced yellow onions and red bell pepper strips to hot olive oil."
+        },
+        {
+          "number": 11,
+          "step": "Sauté onion pepper mixture for eight minutes until soft and golden brown on edges."
+        },
+        {
+          "number": 12,
+          "step": "Stir in sliced garlic and cook for two additional minutes until fragrant."
+        },
+        {
+          "number": 13,
+          "step": "Add tomato paste ground cumin ground coriander allspice and cayenne pepper."
+        },
+        {
+          "number": 14,
+          "step": "Stir aromatic spice paste into vegetables continuously for two minutes to bloom."
+        },
+        {
+          "number": 15,
+          "step": "Pour in crushed tomatoes and fish stock stirring thoroughly to combine broth base."
+        },
+        {
+          "number": 16,
+          "step": "Add bay leaves to simmering tomato broth and bring stew to a gentle boil."
+        },
+        {
+          "number": 17,
+          "step": "Reduce heat to low cover pot tightly and simmer tomato base for fifteen minutes."
+        },
+        {
+          "number": 18,
+          "step": "Finely chop fresh parsley and fresh cilantro leaves then set aside in bowls."
+        },
+        {
+          "number": 19,
+          "step": "Squeeze fresh lemon juice into small glass container removing any stray seeds."
+        },
+        {
+          "number": 20,
+          "step": "Melt butter in small saucepan and toast dry vermicelli noodles until golden."
+        },
+        {
+          "number": 21,
+          "step": "Add rice and water to toasted vermicelli cover and cook for fifteen minutes."
+        },
+        {
+          "number": 22,
+          "step": "Fluff cooked vermicelli rice with fork and keep warm under cover until serving."
+        }
+      ]
+    },
+    {
+      "name": "Stewing and Presentation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove lid from simmering tomato broth and check liquid consistency before adding fish."
+        },
+        {
+          "number": 2,
+          "step": "Gently nestle seasoned cod chunks into simmering tomato sauce using large spoon."
+        },
+        {
+          "number": 3,
+          "step": "Scatter peeled shrimp into spaces between cod pieces in bubbling Dutch oven."
+        },
+        {
+          "number": 4,
+          "step": "Pour fresh lemon juice evenly over surface of fish and simmering tomato broth."
+        },
+        {
+          "number": 5,
+          "step": "Cover Dutch oven tightly and simmer over medium low heat for eight minutes."
+        },
+        {
+          "number": 6,
+          "step": "Ensure cod chunks are cooked opaque and flake easily when pressed with fork."
+        },
+        {
+          "number": 7,
+          "step": "Verify shrimp are pink firm and completely cooked through without overcooking."
+        },
+        {
+          "number": 8,
+          "step": "Turn off burner heat completely and remove pot carefully from hot stove burner."
+        },
+        {
+          "number": 9,
+          "step": "Discard bay leaves from finished seafood stew using tongs or slotted spoon."
+        },
+        {
+          "number": 10,
+          "step": "Stir half of toasted pine nuts and half of chopped herbs into tomato stew."
+        },
+        {
+          "number": 11,
+          "step": "Taste cooking broth carefully and adjust salt or lemon juice levels as needed."
+        },
+        {
+          "number": 12,
+          "step": "Ladle warm vermicelli rice into center of wide prewarmed soup plates."
+        },
+        {
+          "number": 13,
+          "step": "Spoon hot seafood stew and generous tomato broth around rice mound carefully."
+        },
+        {
+          "number": 14,
+          "step": "Ensure each plate receives equal portions of tender cod chunks and whole shrimp."
+        },
+        {
+          "number": 15,
+          "step": "Garnish top of each seafood bowl with remaining toasted pine nuts and herbs."
+        },
+        {
+          "number": 16,
+          "step": "Sprinkle sumac powder lightly over top of dish for extra tart color note."
+        },
+        {
+          "number": 17,
+          "step": "Place fresh lemon slices along edge of bowl for additional citrus juice."
+        },
+        {
+          "number": 18,
+          "step": "Warm pita bread rounds on dry skillet until soft pliable and hot."
+        },
+        {
+          "number": 19,
+          "step": "Serve seafood stew hot alongside warm pita bread for dipping into sauce."
+        },
+        {
+          "number": 20,
+          "step": "Provide small side bowls for guests to discard any remaining tail shells."
+        },
+        {
+          "number": 21,
+          "step": "Enjoy this rich coastal Lebanese specialty immediately with family and guests."
+        }
+      ]
+    }
+  ]
+}

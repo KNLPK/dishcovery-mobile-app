@@ -1,0 +1,550 @@
+{
+  "id": 9001029,
+  "title": "Japanese Shojin Ryori Root Vegetable Stew",
+  "image": "generated://dishcovery/9001029.jpg",
+  "readyInMinutes": 65,
+  "servings": 4,
+  "summary": "Rooted in traditional Japanese temple cooking, this <b>Shojin Ryori stew</b> delivers pure plant-based comfort without relying on animal products. Built around a rich base of <b>kombu and dashi</b>, it showcases sweet daikon radish, taro root, and lotus root simmered gently in savory seasonings. Mirin and light soy sauce create a subtle balance between natural sweetness and umami depth. This nourishing vegetarian stew offers clean, grounding flavors that highlight seasonal earthy vegetables. Each bowl delivers gentle warmth, ideal for a quiet evening meal that satisfies without feeling heavy. High in fiber and loaded with natural minerals, it provides wholesome plant nutrients in a refined format. Taking time to trim and score the root vegetables allows them to absorb maximum broth while retaining their distinct structural textures during cooking. Serve hot with a sprinkle of shichimi togarashi for an authentic temple-style dining experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 240,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 0.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sugar",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Protein",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 740,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Fiber",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Folate",
+        "amount": 62,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Iodine",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 93
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 6.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Copper",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Potassium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "satoimo taro root"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "lotus root"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "carrots"
+    },
+    {
+      "id": 90004,
+      "amount": 6,
+      "unit": "pcs",
+      "name": "dried shiitake mushrooms"
+    },
+    {
+      "id": 90005,
+      "amount": 15,
+      "unit": "g",
+      "name": "dried kombu kelp"
+    },
+    {
+      "id": 90006,
+      "amount": 1000,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sake"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90011,
+      "amount": 150,
+      "unit": "g",
+      "name": "fried tofu puffs"
+    },
+    {
+      "id": 90012,
+      "amount": 100,
+      "unit": "g",
+      "name": "konjac block"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "grated ginger"
+    },
+    {
+      "id": 90015,
+      "amount": 50,
+      "unit": "g",
+      "name": "snow peas"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white miso"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "pcs",
+      "name": "scallions"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "shichimi togarashi"
+    },
+    {
+      "id": 90022,
+      "amount": 100,
+      "unit": "g",
+      "name": "burdock root"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "potato starch"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cold water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dashi Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wipe the dried kombu kelp gently with a damp cloth to clean without removing white powder."
+        },
+        {
+          "number": 2,
+          "step": "Place kombu and dried shiitake mushrooms into a glass jug containing one liter of water."
+        },
+        {
+          "number": 3,
+          "step": "Steep the kelp and mushrooms at room temperature for thirty minutes to extract initial umami."
+        },
+        {
+          "number": 4,
+          "step": "Pour the mixture into a medium saucepan and warm gently over low heat for fifteen minutes."
+        },
+        {
+          "number": 5,
+          "step": "Remove the kombu kelp just before the water reaches a boil to prevent bitter flavors."
+        },
+        {
+          "number": 6,
+          "step": "Strain the warm mushroom dashi through a fine sieve into a bowl, reserving the mushrooms."
+        },
+        {
+          "number": 7,
+          "step": "Stem the softened shiitake caps and slice each cap into neat quarters for the stew base."
+        },
+        {
+          "number": 8,
+          "step": "Measure out eight hundred milliliters of clean strained dashi broth for use in cooking."
+        },
+        {
+          "number": 9,
+          "step": "Whisk white miso paste into fifty milliliters of warm dashi until completely smooth."
+        },
+        {
+          "number": 10,
+          "step": "Set the rich vegetarian dashi broth aside while preparing all root vegetables next."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel the daikon radish and slice into thick rounds, rounding the sharp outer edges neatly."
+        },
+        {
+          "number": 2,
+          "step": "Cut a shallow crisscross pattern on one side of each daikon round to aid cooking process."
+        },
+        {
+          "number": 3,
+          "step": "Peel the satoimo taro roots, rub with sea salt, rinse thoroughly, and cut into bite-sized halves."
+        },
+        {
+          "number": 4,
+          "step": "Peel the lotus root and slice into half-inch rounds, soaking immediately in vinegar water."
+        },
+        {
+          "number": 5,
+          "step": "Scrape burdock root skin lightly with the back of a knife and shave into thin diagonals."
+        },
+        {
+          "number": 6,
+          "step": "Cut carrots into decorative flower shapes or simple quarter-inch thick uniform diagonal coins."
+        },
+        {
+          "number": 7,
+          "step": "Tear the konjac block into small irregular pieces using spoons for better texture retention."
+        },
+        {
+          "number": 8,
+          "step": "Blanch konjac pieces in boiling water for two minutes to remove residual alkaline taste."
+        },
+        {
+          "number": 9,
+          "step": "Pour hot boiling water over fried tofu puffs to drain off surface oil, then cut into halves."
+        },
+        {
+          "number": 10,
+          "step": "String snow peas and blanch in salted water for thirty seconds until vibrant green color."
+        }
+      ]
+    },
+    {
+      "name": "Stewing Process",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat sesame oil in a heavy pot over medium heat and sauté shaved burdock for two minutes."
+        },
+        {
+          "number": 2,
+          "step": "Add daikon radish, lotus root, and carrots into the pot, tossing with burdock root evenly."
+        },
+        {
+          "number": 3,
+          "step": "Pour in the reserved dashi broth, soy sauce, mirin, sake, and sugar, stirring to dissolve."
+        },
+        {
+          "number": 4,
+          "step": "Bring liquid to a gentle simmer over medium heat, skimming any white foam from surface."
+        },
+        {
+          "number": 5,
+          "step": "Add blanched konjac pieces, sliced shiitake caps, and prepared taro root into the simmering pot."
+        },
+        {
+          "number": 6,
+          "step": "Cover pot with a wooden drop-lid to keep vegetables submerged in broth during simmering."
+        },
+        {
+          "number": 7,
+          "step": "Simmer gently over low heat for twenty-five minutes until daikon turns translucent and soft."
+        },
+        {
+          "number": 8,
+          "step": "Add fried tofu puffs and grated ginger into broth, simmering uncovered for five minutes."
+        },
+        {
+          "number": 9,
+          "step": "Slurry potato starch with cold water and stir into stew to create a subtle light body."
+        },
+        {
+          "number": 10,
+          "step": "Stir in the dissolved miso mixture right at the end without letting the broth boil further."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Turn off the burner and allow the stew to rest covered for ten minutes before serving guests."
+        },
+        {
+          "number": 2,
+          "step": "Thinly slice green scallions on a sharp angle to create delicate fresh green garnishes."
+        },
+        {
+          "number": 3,
+          "step": "Divide root vegetables, tofu puffs, and konjac evenly among four deep ceramic soup bowls."
+        },
+        {
+          "number": 4,
+          "step": "Ladle warm savory dashi broth over the arranged vegetables in each bowl until filled."
+        },
+        {
+          "number": 5,
+          "step": "Top each portion with blanched green snow peas for vibrant visual color contrast."
+        },
+        {
+          "number": 6,
+          "step": "Garnish center with sliced scallions and a light sprinkle of toasted white sesame seeds."
+        },
+        {
+          "number": 7,
+          "step": "Offer shichimi togarashi spice blend on the side for diners wanting additional heat."
+        },
+        {
+          "number": 8,
+          "step": "Serve stew immediately alongside hot steamy Japanese short-grain rice and green tea."
+        },
+        {
+          "number": 9,
+          "step": "Ensure every bowl contains balanced proportions of roots, broth, and bright green peas."
+        },
+        {
+          "number": 10,
+          "step": "Refrigerate remaining stew in covered bowl; flavors enhance nicely when reheated tomorrow."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,553 @@
+{
+  "id": 9001063,
+  "title": "Smoked Aji Amarillo Potato Dumplings",
+  "image": "generated://dishcovery/9001063.jpg",
+  "readyInMinutes": 85,
+  "servings": 4,
+  "summary": "This remarkable dish brings a bold contemporary twist to classic Andean cuisine by focusing on deep smoked flavors and delicate potato dough. Featuring <b>smoked aji amarillo</b> blended directly into yellow potato pastry, these handcrafted dumplings deliver an impressive depth of warmth without overpowering the palate. The interior showcases a savory filling of slow-cooked onions, ground beef, black olives, and hard-boiled egg pieces, echoing the traditional empanada tradition in a tender steamed form. Designed for special gatherings, this recipe balances rich earthiness with bright chili notes. A light drizzle of lime-infused oil and fresh cilantro leaves provides a vibrant finishing touch that cuts through the hearty dumpling texture. Serve these dumplings immediately after steaming alongside a cool rocoto dipping sauce to elevate your dinner experience. Every component can be prepped ahead of time, making this item an ideal focal point for structured multi-course meals. Enjoy the synthesis of ancient Peruvian tubers with modern smoking techniques in this truly unique culinary creation that will delight all guests.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Folate",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Choline",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iodine",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "yellow potatoes"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "smoked aji amarillo paste"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "cassava starch"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fine sea salt"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90005,
+      "amount": 250,
+      "unit": "g",
+      "name": "lean ground beef"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90010,
+      "amount": 50,
+      "unit": "g",
+      "name": "black olives"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "large",
+      "name": "hard boiled eggs"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "raisins"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "annatto oil"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 100,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "rocoto pepper paste"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "evaporated milk"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "white vinegar"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "pinch",
+      "name": "sugar"
+    },
+    {
+      "id": 90024,
+      "amount": 4,
+      "unit": "sprigs",
+      "name": "fresh parsley"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Smoked Masa and Potato Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place the washed yellow potatoes into a pot of salted water and bring to a boiling point."
+        },
+        {
+          "number": 2,
+          "step": "Cook the potatoes until completely soft when tested with a thin metal tester probe."
+        },
+        {
+          "number": 3,
+          "step": "Drain the hot water thoroughly and let the steam dissipate from potatoes for five minutes."
+        },
+        {
+          "number": 4,
+          "step": "Peel the warm skins carefully using a small paring knife and discard all peeled skins."
+        },
+        {
+          "number": 5,
+          "step": "Pass the peeled hot potatoes through a fine potato ricer into a spacious glass bowl."
+        },
+        {
+          "number": 6,
+          "step": "Add the smoked aji amarillo paste to the riced potatoes while still moderately warm."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle the fine sea salt and cassava starch evenly over the potato dough mixture."
+        },
+        {
+          "number": 8,
+          "step": "Knead the mixture gently by hand until a smooth uniform yellow dough forms completely."
+        },
+        {
+          "number": 9,
+          "step": "Add one tablespoon of vegetable oil and knead for another full minute to combine."
+        },
+        {
+          "number": 10,
+          "step": "Cover the bowl with a damp cloth and let the potato dough rest at room temperature."
+        },
+        {
+          "number": 11,
+          "step": "Divide the rested potato dough into twelve equal portions on a lightly dusted surface."
+        },
+        {
+          "number": 12,
+          "step": "Roll each portion of dough into a round ball using the palms of your clean hands."
+        },
+        {
+          "number": 13,
+          "step": "Flatten each dough ball into a flat round disc roughly three inches in diameter."
+        },
+        {
+          "number": 14,
+          "step": "Cover the prepared discs with plastic wrap so they remain moist prior to filling."
+        }
+      ]
+    },
+    {
+      "name": "Aji Amarillo Filling Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat the annatto oil in a heavy frying pan set over medium flame for two minutes."
+        },
+        {
+          "number": 2,
+          "step": "Add the finely diced red onion and cook until translucent and soft for five minutes."
+        },
+        {
+          "number": 3,
+          "step": "Stir in the minced garlic and fry for one minute until fragrant and lightly golden."
+        },
+        {
+          "number": 4,
+          "step": "Add ground beef to the skillet and break it apart into small crumbs with a spoon."
+        },
+        {
+          "number": 5,
+          "step": "Season the beef mixture with ground cumin dried oregano black pepper and fine salt."
+        },
+        {
+          "number": 6,
+          "step": "Cook the meat mixture until fully browned and all juices have evaporated completely."
+        },
+        {
+          "number": 7,
+          "step": "Add chopped black olives and sweet raisins to the skillet and stir well to mix."
+        },
+        {
+          "number": 8,
+          "step": "Pour in a small splash of water to lift any caramelized bits from pan bottom."
+        },
+        {
+          "number": 9,
+          "step": "Remove the pan from heat and allow the cooked beef mixture to cool down completely."
+        },
+        {
+          "number": 10,
+          "step": "Chop the hard boiled eggs into small even cubes on a clean cutting board surface."
+        },
+        {
+          "number": 11,
+          "step": "Fold the chopped hard boiled eggs and cilantro gently into the cooled beef mix."
+        },
+        {
+          "number": 12,
+          "step": "Taste the filling and adjust salt or pepper levels if required for balanced flavor."
+        },
+        {
+          "number": 13,
+          "step": "Divide the beef filling into twelve equal portions using a small ice cream scoop."
+        },
+        {
+          "number": 14,
+          "step": "Place the filling bowl near your prep area for rapid assembly of potato dumplings."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Steaming",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place one dough disc onto the palm of your hand and create a gentle cup shape."
+        },
+        {
+          "number": 2,
+          "step": "Spoon one portion of beef filling into the center of the shaped potato dough disc."
+        },
+        {
+          "number": 3,
+          "step": "Fold the edges of dough over filling and pinch tightly together to seal complete."
+        },
+        {
+          "number": 4,
+          "step": "Smooth the exterior seam gently using lightly oiled fingers to prevent cracking."
+        },
+        {
+          "number": 5,
+          "step": "Repeat the filling process for all remaining dough discs until twelve dumplings form."
+        },
+        {
+          "number": 6,
+          "step": "Line a bamboo steamer basket with parchment paper punctured with small steam holes."
+        },
+        {
+          "number": 7,
+          "step": "Arrange the assembled dumplings inside steamer basket leaving space between each."
+        },
+        {
+          "number": 8,
+          "step": "Set the steamer over a pot of boiling water and cover securely with bamboo lid."
+        },
+        {
+          "number": 9,
+          "step": "Steam dumplings over medium high steam for exactly twelve minutes until firm."
+        },
+        {
+          "number": 10,
+          "step": "Whisk rocoto paste evaporated milk lime juice and olive oil for dipping sauce."
+        },
+        {
+          "number": 11,
+          "step": "Season dipping sauce with a pinch of sugar white vinegar and salt to taste well."
+        },
+        {
+          "number": 12,
+          "step": "Carefully remove steamer lid allowing hot steam to vent away from your face."
+        },
+        {
+          "number": 13,
+          "step": "Transfer hot dumplings gently onto serving plates using a wide slotted spatula."
+        },
+        {
+          "number": 14,
+          "step": "Garnish with fresh parsley leaves and serve immediately alongside rocoto sauce."
+        }
+      ]
+    }
+  ]
+}

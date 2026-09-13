@@ -1,0 +1,553 @@
+{
+  "id": 9001076,
+  "title": "One-Pot Crispy Vietnamese Rice Flour Flatbread",
+  "image": "generated://dishcovery/9001076.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Experience a clever skillet adaptation of Vietnam famous Banh Xeo flatbread cooked entirely in a single skillet. Made from a light batter of <b>rice flour</b>, coconut milk, turmeric, and ice water, this savory flatbread develops a golden, lacy crust while searing over high heat. The filling features succulent shrimp, thin pork slices, crisp bean sprouts, and scallions cooked directly in the same pan before the batter is poured around them. Turmeric gives the thin flatbread its signature bright yellow hue and warm aroma. Folded over into a half-moon shape, the finished flatbread offers an addictive contrast between crisp edges and soft savory center. Serve wrapped in fresh lettuce leaves with abundant mint, cilantro, and sweet-salty nuoc cham dipping sauce. By streamlining the entire process into one non-stick skillet, dinner cleanup becomes remarkably simple. Gather around the table for a interactive, vibrant <b>Vietnamese single-pan flatbread</b> experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 21,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Sodium",
+        "amount": 740,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 6,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Choline",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Calcium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.19,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 21,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iodine",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Chromium",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "rice flour"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90003,
+      "amount": 200,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90004,
+      "amount": 250,
+      "unit": "ml",
+      "name": "ice water"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "pc",
+      "name": "scallions"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90007,
+      "amount": 150,
+      "unit": "g",
+      "name": "small prawns"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "g",
+      "name": "pork loin"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "pc",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90010,
+      "amount": 150,
+      "unit": "g",
+      "name": "fresh bean sprouts"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "head",
+      "name": "butter lettuce"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90015,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90017,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90018,
+      "amount": 100,
+      "unit": "ml",
+      "name": "warm water"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "pc",
+      "name": "bird eye chilli"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "shredded carrot"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Crispy Batter Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk rice flour, cornstarch, ground turmeric, and salt together in large glass bowl until blended."
+        },
+        {
+          "number": 2,
+          "step": "Pour rich coconut milk and chilled ice water into dry rice flour mixture in steady stream."
+        },
+        {
+          "number": 3,
+          "step": "Whisk batter vigorously for two minutes until completely smooth with no remaining flour lumps."
+        },
+        {
+          "number": 4,
+          "step": "Chop green scallions finely and stir them directly into yellow turmeric batter for herbal flavor."
+        },
+        {
+          "number": 5,
+          "step": "Let rice flour batter rest at room temperature for twenty minutes to hydrate starch granules properly."
+        },
+        {
+          "number": 6,
+          "step": "Thinly slice pork loin into tiny thin strips and season lightly with black pepper and sesame oil."
+        },
+        {
+          "number": 7,
+          "step": "Peel and devein small prawns, patting dry with paper towels to prevent excess moisture in skillet."
+        },
+        {
+          "number": 8,
+          "step": "Slice yellow onion into thin translucent crescent moons for fast caramelization in skillet pot."
+        },
+        {
+          "number": 9,
+          "step": "Rinse fresh bean sprouts under cold tap water and drain dry in colander for crispy topping."
+        },
+        {
+          "number": 10,
+          "step": "Wash butter lettuce leaves carefully, keeping them whole for wrapping flatbread slices at table."
+        },
+        {
+          "number": 11,
+          "step": "Pluck fresh mint and cilantro leaves from stems and lay them on platter beside lettuce leaves."
+        },
+        {
+          "number": 12,
+          "step": "Whisk fish sauce, lime juice, sugar, warm water, minced garlic, and sliced chilli for dipping sauce."
+        },
+        {
+          "number": 13,
+          "step": "Stir shredded carrot into dipping sauce cup for traditional colorful pickled visual contrast."
+        },
+        {
+          "number": 14,
+          "step": "Verify rest time of rice flour batter is complete before heating non-stick skillet for frying."
+        }
+      ]
+    },
+    {
+      "name": "One-Pot Cooking Method",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Set wide non-stick skillet or heavy pan over high stove burner heat until hot across surface."
+        },
+        {
+          "number": 2,
+          "step": "Add one teaspoon vegetable oil to skillet, swirling to coat entire pan bottom evenly with oil."
+        },
+        {
+          "number": 3,
+          "step": "Drop few slices of pork, two prawns, and sliced onion into skillet, searing for one minute."
+        },
+        {
+          "number": 4,
+          "step": "Stir resting rice flour batter thoroughly right before cooking as flour tends to settle at bottom."
+        },
+        {
+          "number": 5,
+          "step": "Ladle half cup of batter into skillet, tilting pan quickly in circular motion to form thin crepelike disk."
+        },
+        {
+          "number": 6,
+          "step": "Ensure batter spreads thinly up pan sides, creating characteristic lacy crisp rim around flatbread."
+        },
+        {
+          "number": 7,
+          "step": "Scatter hand full of fresh bean sprouts over one half of cooking flatbread batter in skillet."
+        },
+        {
+          "number": 8,
+          "step": "Drizzle half teaspoon vegetable oil around outer edge of flatbread to encourage crispy edge texture."
+        },
+        {
+          "number": 9,
+          "step": "Cover skillet with tight fitting lid and reduce burner heat to medium for three minutes to steam top."
+        },
+        {
+          "number": 10,
+          "step": "Remove pan lid and cook uncovered for two extra minutes until flatbread bottom is deep golden brown."
+        },
+        {
+          "number": 11,
+          "step": "Check under edge with spatula to ensure flatbread is crispy and releases effortlessly from skillet."
+        },
+        {
+          "number": 12,
+          "step": "Fold flatbread in half over bean sprout filling to form crescent shape using wide flexible spatula."
+        },
+        {
+          "number": 13,
+          "step": "Slide golden crispy flatbread carefully out of skillet onto warm serving platter lined with paper towel."
+        },
+        {
+          "number": 14,
+          "step": "Repeat process with remaining oil, meat filling, and rice flour batter to cook subsequent flatbreads."
+        }
+      ]
+    },
+    {
+      "name": "Plating and Fresh Wraps",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Arrange hot folded crispy rice flatbreads side by side on warm centerpiece serving platter."
+        },
+        {
+          "number": 2,
+          "step": "Place platter of fresh butter lettuce leaves, mint sprigs, and cilantro alongside flatbreads."
+        },
+        {
+          "number": 3,
+          "step": "Pour prepared sweet and tangy nuoc cham dipping sauce into individual small clay dipping bowls."
+        },
+        {
+          "number": 4,
+          "step": "Use kitchen shears to cut crispy flatbreads into bite-sized rectangular strips for table wrapping."
+        },
+        {
+          "number": 5,
+          "step": "Instruct guests to place piece of hot flatbread inside crisp whole butter lettuce leaf wrapper."
+        },
+        {
+          "number": 6,
+          "step": "Top flatbread strip with fresh mint and cilantro leaves before rolling lettuce leaf tightly around it."
+        },
+        {
+          "number": 7,
+          "step": "Dip wrapped lettuce packet into sweet chilli fish sauce right before enjoying each crispy bite."
+        },
+        {
+          "number": 8,
+          "step": "Appreciate textural contrast between warm crisp flatbread and cool fresh herb lettuce outer wrap."
+        },
+        {
+          "number": 9,
+          "step": "Serve immediately while rice flour flatbread retains maximum golden crunchiness from skillet cooking."
+        },
+        {
+          "number": 10,
+          "step": "Keep extra dipping sauce at table for guests who desire extra tangy flavor with their wraps."
+        },
+        {
+          "number": 11,
+          "step": "Clean single skillet easily with sponge after cooking process as minimal residue remains in pan."
+        },
+        {
+          "number": 12,
+          "step": "Reheat leftover flatbread strips in dry skillet over high heat to restore crispy texture quickly."
+        },
+        {
+          "number": 13,
+          "step": "Enjoy authentic flavors of Vietnamese street food prepared seamlessly in single non-stick pan."
+        },
+        {
+          "number": 14,
+          "step": "Celebrate effortless cooking method that delivers impressive crispy results every single time."
+        }
+      ]
+    }
+  ]
+}

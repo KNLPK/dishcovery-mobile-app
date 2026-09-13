@@ -1,0 +1,553 @@
+{
+  "id": 9001002,
+  "title": "Moroccan Pearl Couscous Salad with Spiced Apricots",
+  "image": "generated://dishcovery/9001002.jpg",
+  "readyInMinutes": 35,
+  "servings": 6,
+  "summary": "Bright and refreshing, this plant-based Moroccan grain salad combines chewy <b>pearl couscous</b> with sweet dried apricots, toasted almonds, and vibrant herbs. Cooked with aromatic cinnamon sticks and cardamom pods, the grain base absorbs warm spices while retaining a satisfying toothsome texture. Dressed in an citrusy olive oil dressing spiked with ras el hanout and pomegranate molasses, every spoonful balances sweet, tangy, and earthy tones. Fluffy chickpeas add protein while cucumber and radishes provide crispness. Fresh mint and cilantro leaves are tossed throughout to lift the hearty grains with leafy green brightness. Toasted pine nuts and golden raisins offer textural contrast against tender roasted zucchini slices. Served chilled or at room temperature, this versatile dish shines as a light main course or a festive potluck centerpiece. Entirely vegetarian, it offers pure North African flavors using easy wholesome ingredients.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Folate",
+        "amount": 68,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 195,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Copper",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Chromium",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "pearl couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "piece",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "pod",
+      "name": "green cardamom"
+    },
+    {
+      "id": 90004,
+      "amount": 80,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90005,
+      "amount": 50,
+      "unit": "g",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90006,
+      "amount": 200,
+      "unit": "g",
+      "name": "cooked chickpeas"
+    },
+    {
+      "id": 90007,
+      "amount": 50,
+      "unit": "g",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90008,
+      "amount": 30,
+      "unit": "g",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "piece",
+      "name": "english cucumber"
+    },
+    {
+      "id": 90010,
+      "amount": 4,
+      "unit": "piece",
+      "name": "red radishes"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "piece",
+      "name": "zucchini"
+    },
+    {
+      "id": 90012,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90013,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "piece",
+      "name": "scallions"
+    },
+    {
+      "id": 90015,
+      "amount": 60,
+      "unit": "ml",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90016,
+      "amount": 30,
+      "unit": "ml",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90017,
+      "amount": 15,
+      "unit": "ml",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90018,
+      "amount": 5,
+      "unit": "g",
+      "name": "ras el hanout"
+    },
+    {
+      "id": 90019,
+      "amount": 3,
+      "unit": "g",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "g",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90021,
+      "amount": 5,
+      "unit": "g",
+      "name": "sea salt"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "g",
+      "name": "black pepper"
+    },
+    {
+      "id": 90023,
+      "amount": 30,
+      "unit": "g",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90024,
+      "amount": 15,
+      "unit": "ml",
+      "name": "orange blossom water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat a small tablespoon of olive oil in a saucepan over medium heat for one minute."
+        },
+        {
+          "number": 2,
+          "step": "Add pearl couscous to the saucepan and stir continuously until toasted and golden brown."
+        },
+        {
+          "number": 3,
+          "step": "Drop cinnamon stick and lightly cracked cardamom pods into toasted pearl couscous base."
+        },
+        {
+          "number": 4,
+          "step": "Pour vegetable broth into saucepan cautiously to avoid sudden hot steam splashing."
+        },
+        {
+          "number": 5,
+          "step": "Add a half teaspoon of sea salt to the liquid and bring saucepan to rolling boil."
+        },
+        {
+          "number": 6,
+          "step": "Reduce heat to low, cover saucepan tightly with lid, and cook grains ten minutes."
+        },
+        {
+          "number": 7,
+          "step": "Remove saucepan from stove burner and let stand covered for five minutes undisturbed."
+        },
+        {
+          "number": 8,
+          "step": "Discard cinnamon stick and whole cardamom pods carefully using clean kitchen tongs."
+        },
+        {
+          "number": 9,
+          "step": "Fluff cooked pearl couscous gently with a fork to separate individual round grains."
+        },
+        {
+          "number": 10,
+          "step": "Spread warm grains onto a rimmed baking sheet in a thin layer to cool down fast."
+        },
+        {
+          "number": 11,
+          "step": "Dice zucchini into small neat quarter-inch cubes on a dry plastic cutting board."
+        },
+        {
+          "number": 12,
+          "step": "Heat a skillet with olive oil over high flame and sear zucchini cubes until brown."
+        },
+        {
+          "number": 13,
+          "step": "Transfer seared zucchini cubes onto paper towels to drain excess residual cooking oil."
+        },
+        {
+          "number": 14,
+          "step": "Allow zucchini cubes to cool down completely before adding into grain salad bowl."
+        }
+      ]
+    },
+    {
+      "name": "Dressing and Spices",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk extra virgin olive oil and fresh lemon juice together in a medium glass bowl."
+        },
+        {
+          "number": 2,
+          "step": "Add pomegranate molasses and fragrant orange blossom water into citrus oil dressing."
+        },
+        {
+          "number": 3,
+          "step": "Measure ras el hanout, ground cumin, and coriander into dressing bowl accurately."
+        },
+        {
+          "number": 4,
+          "step": "Whisk dressing vigorously until emulsified smoothly into a dark aromatic mixture."
+        },
+        {
+          "number": 5,
+          "step": "Season dressing with remaining sea salt and freshly cracked black pepper evenly."
+        },
+        {
+          "number": 6,
+          "step": "Taste dressing with a spoon and adjust citrus or salt levels according to taste."
+        },
+        {
+          "number": 7,
+          "step": "Slice dried apricots into thin matchstick strips using a sharp kitchen chef knife."
+        },
+        {
+          "number": 8,
+          "step": "Combine sliced apricots and golden raisins in a small bowl with warm water brief."
+        },
+        {
+          "number": 9,
+          "step": "Soak dried fruits five minutes to plump slightly then drain thoroughly in a sieve."
+        },
+        {
+          "number": 10,
+          "step": "Rinse cooked chickpeas under cold running tap water and drain dry with towels."
+        },
+        {
+          "number": 11,
+          "step": "Toast slivered almonds in a dry skillet over medium heat three minutes until tan."
+        },
+        {
+          "number": 12,
+          "step": "Toast pine nuts separately in dry skillet watching closely until light golden color."
+        },
+        {
+          "number": 13,
+          "step": "Transfer toasted nuts to a cold ceramic plate so they stop cooking immediately."
+        },
+        {
+          "number": 14,
+          "step": "Finely chop scallions including green and white parts using a crisp rolling slice."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Dice English cucumber into crisp small pieces matching size of cooked chickpeas."
+        },
+        {
+          "number": 2,
+          "step": "Slice red radishes into paper-thin rounds using a mandoline slicer with care."
+        },
+        {
+          "number": 3,
+          "step": "Pick fresh mint and cilantro leaves off stems and chop coarsely on cutting board."
+        },
+        {
+          "number": 4,
+          "step": "Transfer cooled pearl couscous into a large decorative ceramic salad serving bowl."
+        },
+        {
+          "number": 5,
+          "step": "Add drained chickpeas, chopped cucumber, radishes, and seared zucchini to couscous."
+        },
+        {
+          "number": 6,
+          "step": "Scatter plumped apricots, golden raisins, and chopped green scallions over bowl top."
+        },
+        {
+          "number": 7,
+          "step": "Pour prepared spice dressing evenly over grain and vegetable mix in serving bowl."
+        },
+        {
+          "number": 8,
+          "step": "Toss salad thoroughly using large wooden spoons until every ingredient is coated."
+        },
+        {
+          "number": 9,
+          "step": "Fold in half of toasted almonds, pine nuts, and fresh herbs into grain mixture."
+        },
+        {
+          "number": 10,
+          "step": "Let salad rest at room temperature fifteen minutes so grains absorb dressing well."
+        },
+        {
+          "number": 11,
+          "step": "Garnish top of grain salad with remaining toasted nuts and leafy fresh herbs."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle bright ruby pomegranate seeds across surface for colorful final accent."
+        },
+        {
+          "number": 13,
+          "step": "Check salad seasoning once more and sprinkle extra black pepper if desired now."
+        },
+        {
+          "number": 14,
+          "step": "Serve Moroccan grain salad room temperature or chilled as a fresh main platter."
+        }
+      ]
+    }
+  ]
+}

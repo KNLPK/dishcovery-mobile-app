@@ -1,0 +1,553 @@
+{
+  "id": 9001058,
+  "title": "Thai Flatbread with Smoked Chili Paste and Herbs",
+  "image": "generated://dishcovery/9001058.jpg",
+  "readyInMinutes": 60,
+  "servings": 6,
+  "summary": "Featuring a unique blend of rice flour and tapioca starch, this <b>Thai flatbread recipe</b> incorporates a rich, smoked chili coconut paste directly into the griddled dough. The result is a pliable, aromatic bread boasting golden crisp exterior blister marks and a tender, slightly chewy interior structure. Topped with fresh Thai basil, sliced shallots, lemongrass, and roasted peanuts, every slice delivers a balance of smoky, spicy, and herbaceous notes. Pan-searing on a screaming hot skillet locks in complex layers of flavor while creating appetizing crispness. Served alongside sweet chili dip or fresh cucumber salad, this flatbread serves as a captivating appetizer or side dish for Southeast Asian feasts. Preparing the dough using hot coconut milk yields maximum elasticity without needing gluten development. Smoked chili paste brings deep mahogany color and wood-smoke aroma throughout the flatbread. Enjoy this creative bread warm off the griddle for the ultimate crisp texture experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Calcium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Choline",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Chromium",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "white rice flour"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "tapioca starch"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "smoked chili paste"
+    },
+    {
+      "id": 90005,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "warm water"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "thai basil leaves"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "lemongrass"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "medium",
+      "name": "shallots"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "red",
+      "name": "chili pepper"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "kaffir",
+      "name": "lime leaves"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced scallions"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "cucumber",
+      "name": "cucumber"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk rice flour, tapioca starch, salt, palm sugar, ground coriander, and white pepper inside a large bowl."
+        },
+        {
+          "number": 2,
+          "step": "Warm the coconut milk and water together in a small saucepan over low heat until steam gently rises."
+        },
+        {
+          "number": 3,
+          "step": "Stir smoked chili paste into warm coconut milk mixture until fully dissolved into a uniform red liquid."
+        },
+        {
+          "number": 4,
+          "step": "Pour warm chili liquid slowly into dry flour mixture while stirring continuously with a wooden spoon."
+        },
+        {
+          "number": 5,
+          "step": "Knead dough inside bowl for three minutes until smooth, soft, and pliable without stickiness remaining."
+        },
+        {
+          "number": 6,
+          "step": "Cover dough bowl with a damp cloth towel and let rest at room temperature for twenty full minutes."
+        },
+        {
+          "number": 7,
+          "step": "Finely mince tender inner core of lemongrass stalks and kaffir lime leaves using a very sharp knife."
+        },
+        {
+          "number": 8,
+          "step": "Thinly slice shallots, red chili pepper, garlic cloves, and scallions into delicate uniform rings."
+        },
+        {
+          "number": 9,
+          "step": "Coarsely chop Thai basil leaves and fresh cilantro sprigs to prepare aromatic fresh herb mix."
+        },
+        {
+          "number": 10,
+          "step": "Crush roasted peanuts lightly in a bag using a rolling pin to form crunchy coarse topping pieces."
+        },
+        {
+          "number": 11,
+          "step": "Whisk soy sauce, lime juice, rice vinegar, and sesame oil in a small dish to create dipping sauce."
+        },
+        {
+          "number": 12,
+          "step": "Thinly slice cucumber into half-moon shapes to serve as a cool crisp side accompaniment later."
+        },
+        {
+          "number": 13,
+          "step": "Divide rested flatbread dough evenly into six equal-sized smooth balls using a bench scraper tool."
+        },
+        {
+          "number": 14,
+          "step": "Dust clean kitchen work surface lightly with additional tapioca starch to prevent dough sticking."
+        }
+      ]
+    },
+    {
+      "name": "Rolling and Shaping",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Flatten one dough ball with palm of hand before rolling out into an eight-inch round disc shape."
+        },
+        {
+          "number": 2,
+          "step": "Sprinkle minced lemongrass, kaffir lime leaves, and garlic evenly across top surface of flatbread disc."
+        },
+        {
+          "number": 3,
+          "step": "Press herbs gently into dough surface using rolling pin so they adhere securely without tearing."
+        },
+        {
+          "number": 4,
+          "step": "Roll disc up tightly into a rope shape then coil rope into a spiral round bun shape tightly."
+        },
+        {
+          "number": 5,
+          "step": "Flatten spiral dough bun once more with rolling pin into a final quarter-inch thick flatbread disc."
+        },
+        {
+          "number": 6,
+          "step": "Repeat rolling, herb filling, coiling, and flattening steps for remaining five dough portion balls."
+        },
+        {
+          "number": 7,
+          "step": "Stack shaped flatbread discs between sheets of parchment paper to prevent them sticking together."
+        },
+        {
+          "number": 8,
+          "step": "Heat heavy cast-iron skillet over medium-high heat until hot enough to drop water sizzles instantly."
+        },
+        {
+          "number": 9,
+          "step": "Brush hot skillet surface lightly with half a teaspoon of coconut oil using a heat-proof brush."
+        },
+        {
+          "number": 10,
+          "step": "Place first flatbread carefully onto hot greased skillet surface without overlapping disc edges."
+        },
+        {
+          "number": 11,
+          "step": "Cook flatbread for two minutes until underside develops dark golden blister spots and crisp edges."
+        },
+        {
+          "number": 12,
+          "step": "Flip flatbread using wide spatula and cook second side for two minutes until fully puffed and browned."
+        },
+        {
+          "number": 13,
+          "step": "Transfer cooked flatbread onto a clean wire cooling rack to preserve crisp bottom crust texture."
+        },
+        {
+          "number": 14,
+          "step": "Repeat griddling process for remaining flatbreads, adding small oil drops to skillet between batches."
+        }
+      ]
+    },
+    {
+      "name": "Griddling and Serving",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Brush warm flatbread surfaces lightly with extra sesame oil and a touch of smoked chili paste."
+        },
+        {
+          "number": 2,
+          "step": "Scatter sliced shallots, red chili rings, and scallions generously over tops of warm flatbreads."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle chopped Thai basil leaves and crushed peanuts across tops to build colorful herbal layers."
+        },
+        {
+          "number": 4,
+          "step": "Slice each flatbread into four triangular wedge pieces using a sharp chef's knife or pizza cutter."
+        },
+        {
+          "number": 5,
+          "step": "Arrange flatbread wedges in an overlapping radial fan pattern onto a large wooden serving platter."
+        },
+        {
+          "number": 6,
+          "step": "Nestle small bowl of prepared soy-lime dipping sauce in center of flatbread platter neatly."
+        },
+        {
+          "number": 7,
+          "step": "Arrange crisp sliced cucumber half-moons along platter border for cooling refreshing bite contrast."
+        },
+        {
+          "number": 8,
+          "step": "Garnish platter with remaining whole Thai basil leaves and fresh lime wedges for vibrant presentation."
+        },
+        {
+          "number": 9,
+          "step": "Dust top lightly with extra smoked paprika for appetizing red color accent just before serving."
+        },
+        {
+          "number": 10,
+          "step": "Serve flatbread wedges immediately while warm and crisp for best textural enjoyment by guests."
+        },
+        {
+          "number": 11,
+          "step": "Pair with hot jasmine tea or iced herbal lemongrass drink to complete authentic Thai snack course."
+        },
+        {
+          "number": 12,
+          "step": "Store cooled leftover flatbreads wrapped tightly in foil in refrigerator for up to three days."
+        },
+        {
+          "number": 13,
+          "step": "Reheat flatbread pieces on a hot dry skillet for one minute per side until restored crisp texture."
+        },
+        {
+          "number": 14,
+          "step": "Enjoy unique smoky, spicy, and chewy characteristics of these specialty griddled Thai flatbreads."
+        }
+      ]
+    }
+  ]
+}

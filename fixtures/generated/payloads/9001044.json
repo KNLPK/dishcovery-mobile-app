@@ -1,0 +1,550 @@
+{
+  "id": 9001044,
+  "title": "Festive Royal Indian Saffron Lentil Soup",
+  "image": "generated://dishcovery/9001044.jpg",
+  "readyInMinutes": 50,
+  "servings": 8,
+  "summary": "This majestic Indian <b>festive lentil soup</b> brings royal celebration flair to your dining table. Red lentils are simmered with sweet coconut cream, infused with fragrant saffron strands, and tempered with a sparkling tadka of ghee, blooming mustard seeds, fresh curry leaves, and toasted whole cumin. Designed for special gatherings, this silky soup balances deep spice warmth with soothing creaminess. Fresh coriander, crushed pistachio nuts, and crispy fried shallots finish each bowl, creating a visual and textural feast. The tempering process releases aromatic essential oils from spices into rich ghee, elevating modest lentils into an extraordinary culinary experience. Highly nutritious, this celebratory dish offers abundant plant proteins, gut-healthy fiber, and complex carbohydrates alongside essential micronutrients like iron and folate. The subtle infusion of premium Kashmiri saffron lends a golden amber hue and delicate floral notes that make every spoon feel luxurious. Pair with warm garlic naan or basmati rice for an unforgettable feast.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 450,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 21.6
+      },
+      {
+        "name": "Sugar",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8.3
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Trans Fat",
+        "amount": 0,
+        "unit": "g",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Polyunsaturated Fat",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Potassium",
+        "amount": 350,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12.5
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18.75
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.5
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.25
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 150,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.4
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25.4
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "cups",
+      "name": "split red lentils"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "can",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90002,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "saffron strands"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "whole cumin seeds"
+    },
+    {
+      "id": 90006,
+      "amount": 12,
+      "unit": "leaves",
+      "name": "fresh curry leaves"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh minced ginger"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "garam masala"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "kashmiri chili powder"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90014,
+      "amount": 6,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90016,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "crushed pistachios"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crispy fried shallots"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "cinnamon",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90021,
+      "amount": 4,
+      "unit": "pods",
+      "name": "green cardamom"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "whole",
+      "name": "cloves"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "bay",
+      "name": "bay leaf"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "warm milk"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Lentil Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure split red lentils into fine mesh strainer and rinse under cold tap water thoroughly."
+        },
+        {
+          "number": 2,
+          "step": "Continue rinsing lentils until water running out bottom of strainer turns completely clear."
+        },
+        {
+          "number": 3,
+          "step": "Transfer washed lentils into large bowl, cover with fresh water, and soak for fifteen minutes."
+        },
+        {
+          "number": 4,
+          "step": "Crush saffron strands gently between thumb and forefinger over small glass ramekin."
+        },
+        {
+          "number": 5,
+          "step": "Pour two tablespoons of warm milk over crushed saffron to steep and steep ten minutes."
+        },
+        {
+          "number": 6,
+          "step": "Finely dice yellow onion, grate fresh garlic cloves, and chop ginger into uniform pieces."
+        },
+        {
+          "number": 7,
+          "step": "Lightly crush green cardamom pods and whole cloves using mortar and pestle to release fragrance."
+        },
+        {
+          "number": 8,
+          "step": "Drain soaked red lentils thoroughly in strainer discarding all steeping water completely."
+        },
+        {
+          "number": 9,
+          "step": "Measure out remaining dry ground spices onto small plate for rapid addition during cooking."
+        },
+        {
+          "number": 10,
+          "step": "Set prepared lentils, saffron infusion, and chopped aromatics near heavy soup pot."
+        }
+      ]
+    },
+    {
+      "name": "Aromatic Spice Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt one tablespoon of ghee in heavy Dutch oven set over medium heat until liquefied."
+        },
+        {
+          "number": 2,
+          "step": "Add crushed cardamom pods, whole cloves, cinnamon stick, and bay leaf to warm ghee."
+        },
+        {
+          "number": 3,
+          "step": "Sauté whole spices for two minutes until aromatic oils release and crackle gently."
+        },
+        {
+          "number": 4,
+          "step": "Add finely diced yellow onion to pot and cook for six minutes until dark golden brown."
+        },
+        {
+          "number": 5,
+          "step": "Stir minced garlic and fresh ginger into onions and sauté for two additional minutes."
+        },
+        {
+          "number": 6,
+          "step": "Add ground turmeric, garam masala, kashmiri chili powder, and ground coriander to pot."
+        },
+        {
+          "number": 7,
+          "step": "Toast ground spices with onion mixture for sixty seconds while stirring constantly."
+        },
+        {
+          "number": 8,
+          "step": "Pour half cup of vegetable broth into pot to deglaze bottom and loosen browned bits."
+        },
+        {
+          "number": 9,
+          "step": "Stir spice paste continuously until broth reduces and ghee begins separating slightly."
+        },
+        {
+          "number": 10,
+          "step": "Reduce burner heat to low while completing base prep to avoid burning delicate spices."
+        }
+      ]
+    },
+    {
+      "name": "Simmering Soup",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add drained red lentils to pot and stir to coat completely with fragrant spice base."
+        },
+        {
+          "number": 2,
+          "step": "Pour remaining five and a half cups of vegetable broth into pot and stir thoroughly."
+        },
+        {
+          "number": 3,
+          "step": "Increase heat to high and bring soup to vigorous rolling boil stirring occasionally."
+        },
+        {
+          "number": 4,
+          "step": "Reduce burner heat down to low, cover pot with tight lid, leaving small crack open."
+        },
+        {
+          "number": 5,
+          "step": "Simmer lentils for twenty minutes until grains break down completely into soft porridge."
+        },
+        {
+          "number": 6,
+          "step": "Whisk coconut cream inside can until smooth before pouring slowly into simmering soup."
+        },
+        {
+          "number": 7,
+          "step": "Pour golden saffron milk infusion into soup while stirring gently with wooden spoon."
+        },
+        {
+          "number": 8,
+          "step": "Add sea salt and fresh lemon juice to soup and simmer uncovered for five final minutes."
+        },
+        {
+          "number": 9,
+          "step": "Immerse immersion blender into soup and pulse briefly to achieve velvety smooth texture."
+        },
+        {
+          "number": 10,
+          "step": "Taste soup and adjust seasoning with additional salt or lemon juice if desired."
+        }
+      ]
+    },
+    {
+      "name": "Tadka Tempering and Garnish",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat remaining two tablespoons of ghee in small metal tadka pan over medium burner flame."
+        },
+        {
+          "number": 2,
+          "step": "Add mustard seeds to hot ghee and cover pan loosely until seeds pop vigorously."
+        },
+        {
+          "number": 3,
+          "step": "Add whole cumin seeds and fresh curry leaves to sizzle in oil for thirty seconds."
+        },
+        {
+          "number": 4,
+          "step": "Pour hot crackling tadka mixture immediately over surface of simmering lentil soup pot."
+        },
+        {
+          "number": 5,
+          "step": "Cover pot with lid instantly to trap fragrant tempering smoke inside soup vessel."
+        },
+        {
+          "number": 6,
+          "step": "Ladle hot saffron lentil soup into individual pre-warmed ceramic soup bowls evenly."
+        },
+        {
+          "number": 7,
+          "step": "Garnish each bowl with sprinkle of chopped fresh cilantro for crisp green freshness."
+        },
+        {
+          "number": 8,
+          "step": "Scatter crushed pistachios over soup surface to add vibrant emerald color and crunch."
+        },
+        {
+          "number": 9,
+          "step": "Top each serving with crispy fried shallots for rich savory depth and decorative contrast."
+        },
+        {
+          "number": 10,
+          "step": "Serve immediately with warm garlic naan bread and fresh lemon wedges on side."
+        }
+      ]
+    }
+  ]
+}
