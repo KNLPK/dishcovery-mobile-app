@@ -1,0 +1,928 @@
+{
+  "id": 9002049,
+  "title": "Brazilian Grilled Skewers with Fermented Tucupi Glaze",
+  "image": "generated://dishcovery/9002049.jpg",
+  "readyInMinutes": 60,
+  "servings": 6,
+  "summary": "This bold <b>grilled meat skewer</b> recipe showcases tender skirt steak marinated and glazed with fermented Tucupi sauce. Sourced from wild cassava, yellow Tucupi provides an intensely tangy, umami-rich fermented foundation that cuts through rich grilled meats. Threads of juicy beef, red onions, bell peppers, and fermented hearts of palm are threaded onto wooden skewers for quick charcoal grilling. As the skewers sear over open flames, the Tucupi glaze caramelizes into a glossy, sweet-and-sour mahogany crust. A dusting of toasted cassava farofa sprinkled over hot skewers delivers a satisfying crunch that anchors the dish in authentic Amazonian tradition. Fresh garlic, chimichurri herbs, and spicy malagueta chili paste enhance the complex marinade with fiery tropical notes. Fast grilling over high heat seals in natural meat juices while charring vegetable edges for smoky depth. Perfect for outdoor barbecues, these skewers offer a unique showcase of fermented tropical ingredients.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20.5
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 8.7
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5.6
+      },
+      {
+        "name": "Protein",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Sodium",
+        "amount": 720,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.3
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23.1
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40.6
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.3
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 87.5
+      },
+      {
+        "name": "Biotin",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Choline",
+        "amount": 70,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.7
+      },
+      {
+        "name": "Calcium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4.5
+      },
+      {
+        "name": "Iron",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.4
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.3
+      },
+      {
+        "name": "Iodine",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47.3
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47.3
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Chromium",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 20,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44.4
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.4
+      },
+      {
+        "name": "Chloride",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16.5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 700,
+      "unit": "g",
+      "name": "beef skirt steak"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "ml",
+      "name": "fermented tucupi sauce"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "fermented heart of palm"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "pc",
+      "name": "red onion"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "pc",
+      "name": "green bell pepper"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "pc",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "malagueta chili paste"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "cachaça or lime juice"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "toasted cassava farofa"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh chimichurri"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90021,
+      "amount": 10,
+      "unit": "pc",
+      "name": "wooden skewer sticks"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "annatto oil"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90029,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced cherry tomatoes"
+    },
+    {
+      "id": 90030,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped green onions"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dendê palm oil"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "jambu leaf extract"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mustard powder"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90036,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90037,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "pc",
+      "name": "lime wedges"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "oregano"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "passion fruit pulp"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grated ginger"
+    },
+    {
+      "id": 90044,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Fermented Marinade",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure fermented Tucupi sauce into medium glass bowl for skewer marinade base."
+        },
+        {
+          "number": 2,
+          "step": "Add cachaça or lime juice into fermented Tucupi sauce, whisking vigorously."
+        },
+        {
+          "number": 3,
+          "step": "Mince garlic cloves finely and add to Tucupi marinade bowl on counter."
+        },
+        {
+          "number": 4,
+          "step": "Add malagueta chili paste and grated ginger to marinade, stirring to integrate."
+        },
+        {
+          "number": 5,
+          "step": "Add olive oil and annatto oil into marinade while whisking until emulsified."
+        },
+        {
+          "number": 6,
+          "step": "Stir in soy sauce, honey, and brown sugar to balance fermented Tucupi acidity."
+        },
+        {
+          "number": 7,
+          "step": "Add ground cumin, smoked paprika, ground coriander, and turmeric to marinade."
+        },
+        {
+          "number": 8,
+          "step": "Add onion powder, garlic powder, cayenne pepper, and white pepper into bowl."
+        },
+        {
+          "number": 9,
+          "step": "Add jambu leaf extract and passion fruit pulp for authentic Amazonian aroma."
+        },
+        {
+          "number": 10,
+          "step": "Whisk marinade mixture thoroughly until sugar and spices dissolve completely."
+        },
+        {
+          "number": 11,
+          "step": "Season marinade with salt and black pepper after tasting fermented flavor."
+        },
+        {
+          "number": 12,
+          "step": "Pour half of prepared Tucupi marinade into small saucepan for glaze reduction."
+        },
+        {
+          "number": 13,
+          "step": "Reserve remaining Tucupi marinade in glass bowl for meat soaking step."
+        },
+        {
+          "number": 14,
+          "step": "Simmer glaze saucepan over low heat for eight minutes until thick coating sauce."
+        },
+        {
+          "number": 15,
+          "step": "Stir butter into warm Tucupi glaze reduction and remove saucepan from stove."
+        },
+        {
+          "number": 16,
+          "step": "Cover glaze saucepan tightly with foil and keep warm near grill station."
+        },
+        {
+          "number": 17,
+          "step": "Confirm raw meat marinade bowl has cooled completely before introducing beef."
+        }
+      ]
+    },
+    {
+      "name": "Meat Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Trim excess surface fat and silver skin from beef skirt steak using sharp knife."
+        },
+        {
+          "number": 2,
+          "step": "Cut beef skirt steak against grain into long strips three quarter inch thick."
+        },
+        {
+          "number": 3,
+          "step": "Cut beef strips into uniform one inch square cubes for even skewer grilling."
+        },
+        {
+          "number": 4,
+          "step": "Place beef cubes into glass bowl containing reserved fermented Tucupi marinade."
+        },
+        {
+          "number": 5,
+          "step": "Toss beef cubes thoroughly in marinade to coat every meat surface completely."
+        },
+        {
+          "number": 6,
+          "step": "Cover beef marinade bowl tightly with plastic wrap and chill for twenty minutes."
+        },
+        {
+          "number": 7,
+          "step": "Submerge wooden skewer sticks in cool water bath to soak for twenty minutes."
+        },
+        {
+          "number": 8,
+          "step": "Soaking wooden skewers prevents burning during high heat charcoal grilling step."
+        },
+        {
+          "number": 9,
+          "step": "Drain fermented heart of palm stalks from brine liquid and dry on paper towels."
+        },
+        {
+          "number": 10,
+          "step": "Cut fermented heart of palm stalks into half inch thick round coin pieces."
+        },
+        {
+          "number": 11,
+          "step": "Place heart of palm slices on plate and drizzle with dendê palm oil gently."
+        },
+        {
+          "number": 12,
+          "step": "Dust heart of palm slices with oregano and salt, tossing lightly to coat."
+        },
+        {
+          "number": 13,
+          "step": "Remove marinated beef cubes from refrigerator and drain off excess marinade."
+        },
+        {
+          "number": 14,
+          "step": "Season marinated beef cubes with sea salt flakes right before skewer assembly."
+        },
+        {
+          "number": 15,
+          "step": "Organize beef cubes and heart of palm slices side by side on prep board."
+        },
+        {
+          "number": 16,
+          "step": "Remove wooden skewers from water bath and wipe tips dry with clean paper towel."
+        },
+        {
+          "number": 17,
+          "step": "Verify beef and heart of palm pieces are sized uniformly for compact skewers."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut red onion into one inch thick square pieces for easy skewer threading."
+        },
+        {
+          "number": 2,
+          "step": "Cut green bell pepper and red bell pepper into matching one inch square pieces."
+        },
+        {
+          "number": 3,
+          "step": "Slice shallots into thick rounds and set aside with pepper pieces on tray."
+        },
+        {
+          "number": 4,
+          "step": "Toss chopped red onion, bell peppers, and shallots with olive oil in bowl."
+        },
+        {
+          "number": 5,
+          "step": "Season vegetable pieces with salt, black pepper, and chili flakes for flavor."
+        },
+        {
+          "number": 6,
+          "step": "Chop fresh cilantro, fresh parsley, and green onions finely for final garnish."
+        },
+        {
+          "number": 7,
+          "step": "Combine fresh herbs with chimichurri sauce in small glass condiment bowl."
+        },
+        {
+          "number": 8,
+          "step": "Dice cherry tomatoes finely and mix with apple cider vinegar and pinch of salt."
+        },
+        {
+          "number": 9,
+          "step": "Melt butter in small skillet and toast cassava farofa for four minutes until golden."
+        },
+        {
+          "number": 10,
+          "step": "Transfer toasted cassava farofa into small bowl and keep dry on counter."
+        },
+        {
+          "number": 11,
+          "step": "Cut fresh lime into quarters and set aside on platter for skewer serving."
+        },
+        {
+          "number": 12,
+          "step": "Arrange seasoned red onion and bell pepper squares on tray near skewers."
+        },
+        {
+          "number": 13,
+          "step": "Verify all vegetable pieces match beef cube dimensions for neat skewer alignment."
+        },
+        {
+          "number": 14,
+          "step": "Keep fresh herb chimichurri bowl and farofa bowl near final presentation platter."
+        },
+        {
+          "number": 15,
+          "step": "Check that all skewer threading ingredients are within comfortable arm reach."
+        },
+        {
+          "number": 16,
+          "step": "Prepare clean tray to hold assembled raw skewers before carrying to grill."
+        },
+        {
+          "number": 17,
+          "step": "Clear cutting board area and wipe down surfaces before starting skewer assembly."
+        }
+      ]
+    },
+    {
+      "name": "Skewering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Thread piece of red bell pepper onto soaked wooden skewer down to bottom."
+        },
+        {
+          "number": 2,
+          "step": "Thread marinated beef cube onto skewer, pressing firmly against bell pepper."
+        },
+        {
+          "number": 3,
+          "step": "Thread piece of fermented heart of palm onto skewer next to beef cube."
+        },
+        {
+          "number": 4,
+          "step": "Thread piece of red onion square onto skewer, pushing down against heart of palm."
+        },
+        {
+          "number": 5,
+          "step": "Thread green bell pepper square and second marinated beef cube onto skewer stick."
+        },
+        {
+          "number": 6,
+          "step": "Repeat alternating pattern of beef, fermented heart of palm, and peppers on skewer."
+        },
+        {
+          "number": 7,
+          "step": "Finish skewer with piece of red bell pepper, leaving two inches handle at base."
+        },
+        {
+          "number": 8,
+          "step": "Place completed skewer onto clean baking tray and repeat process for remaining sticks."
+        },
+        {
+          "number": 9,
+          "step": "Assemble second skewer using tight alternating beef and vegetable placement."
+        },
+        {
+          "number": 10,
+          "step": "Assemble third skewer ensuring heart of palm rounds are centered between beef."
+        },
+        {
+          "number": 11,
+          "step": "Assemble fourth skewer with equal spacing so meat and peppers touch closely."
+        },
+        {
+          "number": 12,
+          "step": "Assemble fifth skewer, compacting ingredients so no exposed wood shows in middle."
+        },
+        {
+          "number": 13,
+          "step": "Assemble remaining skewers until all marinated beef and vegetables are threaded."
+        },
+        {
+          "number": 14,
+          "step": "Brush assembled skewers lightly with vegetable oil to prevent sticking on grill."
+        },
+        {
+          "number": 15,
+          "step": "Dust assembled skewers lightly with mustard powder and remaining smoked paprika."
+        },
+        {
+          "number": 16,
+          "step": "Inspect all completed skewers to confirm items are secure and balanced on sticks."
+        }
+      ]
+    },
+    {
+      "name": "Grilling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Prepare charcoal grill or gas grill for high direct heat cooking temperature."
+        },
+        {
+          "number": 2,
+          "step": "Oil grill grates thoroughly using oil soaked paper towel and long tongs."
+        },
+        {
+          "number": 3,
+          "step": "Place skewers onto hot grill grates in single layer with small gaps between."
+        },
+        {
+          "number": 4,
+          "step": "Sear skewers undisturbed for three minutes until deep grill marks form on beef."
+        },
+        {
+          "number": 5,
+          "step": "Turn skewers one half turn using long metal tongs to sear second side."
+        },
+        {
+          "number": 6,
+          "step": "Sear second side for two minutes until meat edges crisp and vegetables char."
+        },
+        {
+          "number": 7,
+          "step": "Brush warm reduced Tucupi glaze generously onto top exposed side of skewers."
+        },
+        {
+          "number": 8,
+          "step": "Turn skewers over carefully so glaze caramelized over direct heat for one minute."
+        },
+        {
+          "number": 9,
+          "step": "Brush remaining Tucupi glaze onto second side of skewers while over flame."
+        },
+        {
+          "number": 10,
+          "step": "Turn skewers once more, letting glaze bubble and form shiny dark mahogany crust."
+        },
+        {
+          "number": 11,
+          "step": "Check internal temperature of beef cubes to ensure target medium rare cook."
+        },
+        {
+          "number": 12,
+          "step": "Ensure fermented heart of palm pieces show light grill marks and warm center."
+        },
+        {
+          "number": 13,
+          "step": "Transfer glazed skewers off grill onto warm ceramic platter carefully."
+        },
+        {
+          "number": 14,
+          "step": "Let grilled skewers rest on platter for four minutes to allow juice settling."
+        },
+        {
+          "number": 15,
+          "step": "Brush any remaining Tucupi glaze over resting skewers for extra gloss coating."
+        },
+        {
+          "number": 16,
+          "step": "Cover skewers loosely with foil tent to keep hot while preparing final garnishes."
+        }
+      ]
+    },
+    {
+      "name": "Finishing Sauce",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Remove foil tent from grilled skewers platter right before serving guests."
+        },
+        {
+          "number": 2,
+          "step": "Spoon fresh herb chimichurri sauce over center of hot skewers on platter."
+        },
+        {
+          "number": 3,
+          "step": "Spoon diced seasoned cherry tomatoes around base of skewers on platter."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle toasted cassava farofa generously over top of skewers for crunch."
+        },
+        {
+          "number": 5,
+          "step": "Scatter chopped cilantro and scallions across platter for bright green garnish."
+        },
+        {
+          "number": 6,
+          "step": "Arrange lime wedges around edge of platter for freshly squeezed acidity."
+        },
+        {
+          "number": 7,
+          "step": "Sprinkle additional sea salt flakes over skewers to highlight savory beef."
+        },
+        {
+          "number": 8,
+          "step": "Carry Brazilian grilled Tucupi skewer platter immediately to outdoor dining table."
+        },
+        {
+          "number": 9,
+          "step": "Serve skewers piping hot alongside additional toasted cassava farofa in bowl."
+        },
+        {
+          "number": 10,
+          "step": "Provide extra chimichurri and malagueta chili paste for guests preferring heat."
+        },
+        {
+          "number": 11,
+          "step": "Pair skewers with chilled Brazilian beer or caipirinha cocktails at barbecue."
+        },
+        {
+          "number": 12,
+          "step": "Refrigerate any leftover skewer meat in sealed container for up to two days."
+        },
+        {
+          "number": 13,
+          "step": "Leftover skewer meat can be reheated quickly in hot skillet with farofa."
+        },
+        {
+          "number": 14,
+          "step": "Confirm guests enjoy rich combination of fermented Tucupi and charred beef."
+        },
+        {
+          "number": 15,
+          "step": "Clean grill grates with wire brush while grill remains warm after cooking."
+        },
+        {
+          "number": 16,
+          "step": "Conclude Amazonian barbecue service with memorable sweet sour glazed skewers."
+        }
+      ]
+    }
+  ]
+}

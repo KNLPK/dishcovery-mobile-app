@@ -1,0 +1,928 @@
+{
+  "id": 9002036,
+  "title": "Lebanese Smoked Freekeh Grain Salad",
+  "image": "generated://dishcovery/9002036.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Centering on robustly <b>smoked freekeh grain</b>, this vibrant Lebanese salad delivers incredible depth through earthy, charred, and herbal layers. Roasted cracked green wheat is boiled until tender yet wonderfully chewy, then tossed with aromatic vegetables, toasted seeds, and fresh garden herbs. A rich dressing of cold-pressed olive oil, pomegranate molasses, garlic, and freshly squeezed lemon juice coats every grain, binding the smoky notes with tangy sweetness. Crispy English cucumbers, juicy pomegranate seeds, diced radishes, and toasted almonds provide a delightful crunch that balances the hearty grain base. Fragrant mint and flat-leaf parsley lend essential Middle Eastern brightness to every forkful. Ideal as a wholesome lunch or an impressive side dish for outdoor gatherings, this salad holds up remarkably well over time without losing its signature toothsome bite. Taste the harmony of traditional Levantine ingredients in every satisfying spoonful.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fiber",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Potassium",
+        "amount": 460,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 62,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iodine",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 78
+      },
+      {
+        "name": "Chromium",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Chloride",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "cracked freekeh"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90003,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pomegranate molasses"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "clove",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground sumac"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced english cucumber"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced cherry tomatoes"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced red onion"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced radishes"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "cup",
+      "name": "chopped flat-leaf parsley"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped fresh mint"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "slivered toasted almonds"
+    },
+    {
+      "id": 90019,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "toasted pine nuts"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped green onions"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90025,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "allspice"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sunflower oil"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili flakes"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped dill"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced yellow bell pepper"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90033,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "dried cranberries"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chia seeds"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "flaxseeds"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "walnut oil"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped walnuts"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange juice"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "orange zest"
+    },
+    {
+      "id": 90041,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "coriander"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pitted green olives"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pitted kalamata olives"
+    },
+    {
+      "id": 90044,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crumbled feta"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Cooking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure one and a half cups of cracked freekeh grain into a fine mesh wire strainer."
+        },
+        {
+          "number": 2,
+          "step": "Rinse the freekeh thoroughly under cold running water to remove excess surface starch."
+        },
+        {
+          "number": 3,
+          "step": "Transfer the rinsed grain into a medium saucepan with a heavy solid bottom base."
+        },
+        {
+          "number": 4,
+          "step": "Pour three cups of fresh cold water into the saucepan directly over the grain."
+        },
+        {
+          "number": 5,
+          "step": "Add half a teaspoon of salt and a teaspoon of sunflower oil to the cooking water."
+        },
+        {
+          "number": 6,
+          "step": "Place saucepan over high heat and bring liquid to a full rapid boiling point."
+        },
+        {
+          "number": 7,
+          "step": "Reduce heat to low instantly cover pot tightly with lid and simmer for twenty minutes."
+        },
+        {
+          "number": 8,
+          "step": "Allow grain to absorb liquid gently without lifting lid during active cooking process."
+        },
+        {
+          "number": 9,
+          "step": "Remove saucepan from heat burner after twenty minutes while leaving lid closed tightly."
+        },
+        {
+          "number": 10,
+          "step": "Let cooked freekeh steam undisturbed inside covered pot for ten additional minutes continuously."
+        },
+        {
+          "number": 11,
+          "step": "Remove pot lid and fluff cooked grain gently using a large metal fork."
+        },
+        {
+          "number": 12,
+          "step": "Spread cooked warm grain onto a large rimmed baking tray in thin even layer."
+        },
+        {
+          "number": 13,
+          "step": "Allow grain to cool down completely to room temperature before assembling full salad."
+        },
+        {
+          "number": 14,
+          "step": "Check cooked grain texture ensuring it is tender yet maintains a toothsome chewy bite."
+        },
+        {
+          "number": 15,
+          "step": "Transfer cooled grain into a large clean ceramic glass salad mixing bowl."
+        },
+        {
+          "number": 16,
+          "step": "Drizzle one teaspoon of walnut oil over grain to keep individual kernels separate."
+        },
+        {
+          "number": 17,
+          "step": "Set grain bowl aside while preparing smoked elements herbs and fresh dressing ingredients."
+        }
+      ]
+    },
+    {
+      "name": "Smoking Process",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat a dry cast iron skillet over medium heat burner until visibly hot."
+        },
+        {
+          "number": 2,
+          "step": "Add slivered almonds pine nuts and sesame seeds to hot dry skillet surface."
+        },
+        {
+          "number": 3,
+          "step": "Toast seeds and nuts for three minutes stirring constantly until fragrant golden brown."
+        },
+        {
+          "number": 4,
+          "step": "Sprinkle smoked paprika allspice and ground cinnamon over toasting nuts during final minute."
+        },
+        {
+          "number": 5,
+          "step": "Remove spiced toasted nuts immediately from hot skillet to prevent scorching burn."
+        },
+        {
+          "number": 6,
+          "step": "Place a small metal wood smoking chip tray directly onto stovetop burner heat."
+        },
+        {
+          "number": 7,
+          "step": "Heat smoking chip tray until faint wisps of sweet smoke begin rising upwards."
+        },
+        {
+          "number": 8,
+          "step": "Spread cooked freekeh in a wide heatproof glass dish placing small tray inside."
+        },
+        {
+          "number": 9,
+          "step": "Cover dish tightly with aluminum foil trapping aromatic smoke inside with grain."
+        },
+        {
+          "number": 10,
+          "step": "Let grain absorb delicate smoke flavor under foil canopy for full ten minutes."
+        },
+        {
+          "number": 11,
+          "step": "Remove foil canopy and discard smoking tray safely into cold water container."
+        },
+        {
+          "number": 12,
+          "step": "Toss smoked grain gently with spoon distributing warm smoky aroma evenly throughout."
+        },
+        {
+          "number": 13,
+          "step": "Add chopped walnuts and chia seeds to toasted spiced nut mixture bowl."
+        },
+        {
+          "number": 14,
+          "step": "Verify that smoky flavor profile remains subtle without overpowering fresh wheat taste."
+        },
+        {
+          "number": 15,
+          "step": "Cover smoked freekeh bowl loosely with paper towel while preparing crisp vegetables."
+        },
+        {
+          "number": 16,
+          "step": "Keep toasted spiced nuts in sealed jar to preserve maximum crisp crunchiness."
+        },
+        {
+          "number": 17,
+          "step": "Organize smoking work area carefully extinguishing all heat sources before proceeding forward."
+        }
+      ]
+    },
+    {
+      "name": "Herb Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Wash flat-leaf parsley fresh mint and fresh dill under cold running tap water."
+        },
+        {
+          "number": 2,
+          "step": "Spin herbs completely dry inside salad spinner or dry with thick towels."
+        },
+        {
+          "number": 3,
+          "step": "Strip leafy mint and parsley leaves off tough woody stems discarding stem parts."
+        },
+        {
+          "number": 4,
+          "step": "Finely chop flat-leaf parsley using sharp chef knife until fluffy green texture."
+        },
+        {
+          "number": 5,
+          "step": "Chop fresh mint leaves coarsely to avoid bruising delicate green leafy tissues."
+        },
+        {
+          "number": 6,
+          "step": "Finely mince fresh dill and chopped green scallions on clean cutting board."
+        },
+        {
+          "number": 7,
+          "step": "Combine prepared herbs together inside a spacious stainless steel mixing prep bowl."
+        },
+        {
+          "number": 8,
+          "step": "Add fresh lemon zest and orange zest directly into green herb mixture bowl."
+        },
+        {
+          "number": 9,
+          "step": "Toss herbs gently with fingertips to combine textures without crushing delicate leaves."
+        },
+        {
+          "number": 10,
+          "step": "Cover herb prep bowl with damp paper towel preserving herbal oils and moisture."
+        },
+        {
+          "number": 11,
+          "step": "Keep herb bowl refrigerated until ready for final salad assembly and toss."
+        },
+        {
+          "number": 12,
+          "step": "Inspect herbs ensuring no wet water droplets remain that could dilute salad dressing."
+        },
+        {
+          "number": 13,
+          "step": "Measure exact required cup portions of parsley and mint for recipe proportions."
+        },
+        {
+          "number": 14,
+          "step": "Reserve two tablespoons of mixed chopped herbs for final top garnish plate."
+        },
+        {
+          "number": 15,
+          "step": "Double check that herb fragrances remain vibrant fresh and intensely green colored."
+        },
+        {
+          "number": 16,
+          "step": "Place herb bowl next to smoked grain bowl on main assembly counter."
+        },
+        {
+          "number": 17,
+          "step": "Keep cutting board dry and clear for next vegetable slicing preparation steps."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse english cucumber cherry tomatoes radishes and bell peppers under cold water."
+        },
+        {
+          "number": 2,
+          "step": "Pat all washed fresh vegetables dry using clean absorbent paper towels thoroughly."
+        },
+        {
+          "number": 3,
+          "step": "Dice english cucumber into neat quarter inch uniform crisp vegetable cubes neatly."
+        },
+        {
+          "number": 4,
+          "step": "Cut cherry tomatoes into small neat quarters discarding excess seed liquid drops."
+        },
+        {
+          "number": 5,
+          "step": "Finely dice red onion and soak in cold water for five minutes."
+        },
+        {
+          "number": 6,
+          "step": "Slice radishes thinly then cut slices into small uniform crisp quarter pieces."
+        },
+        {
+          "number": 7,
+          "step": "Dice red bell pepper and yellow bell pepper into vibrant quarter inch cubes."
+        },
+        {
+          "number": 8,
+          "step": "Chop pitted green olives and pitted kalamata olives into small olive pieces."
+        },
+        {
+          "number": 9,
+          "step": "Remove ruby red seeds from fresh pomegranate fruit collecting seeds in bowl."
+        },
+        {
+          "number": 10,
+          "step": "Combine diced cucumber tomatoes onions radishes and bell peppers in bowl."
+        },
+        {
+          "number": 11,
+          "step": "Add diced olives dried cranberries and pomegranate seeds into vegetable mixture bowl."
+        },
+        {
+          "number": 12,
+          "step": "Toss mixed vegetables gently with spoon ensuring colorful even distribution throughout."
+        },
+        {
+          "number": 13,
+          "step": "Season vegetables lightly with small pinch of sea salt and black pepper."
+        },
+        {
+          "number": 14,
+          "step": "Set vegetable bowl alongside herb bowl and smoked grain bowl on counter."
+        },
+        {
+          "number": 15,
+          "step": "Verify that all vegetable cuts are equal size for pleasant eating texture."
+        },
+        {
+          "number": 16,
+          "step": "Keep diced vegetables chilled if not serving salad immediately after prep."
+        }
+      ]
+    },
+    {
+      "name": "Dressing Blend",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure extra virgin olive oil into glass measuring cup with pouring spout."
+        },
+        {
+          "number": 2,
+          "step": "Add pomegranate molasses fresh lemon juice and orange juice into liquid oil."
+        },
+        {
+          "number": 3,
+          "step": "Pour apple cider vinegar into dressing cup boosting tart acidity profile nicely."
+        },
+        {
+          "number": 4,
+          "step": "Add minced garlic ground sumac ground cumin and ground coriander into liquid."
+        },
+        {
+          "number": 5,
+          "step": "Add onion powder garlic powder black pepper chili flakes and sea salt."
+        },
+        {
+          "number": 6,
+          "step": "Whisk dressing blend vigorously with small metal whisk for two full minutes."
+        },
+        {
+          "number": 7,
+          "step": "Ensure pomegranate molasses dissolves fully into smooth glossy thick emulsified liquid."
+        },
+        {
+          "number": 8,
+          "step": "Taste dressing and adjust seasoning with extra lemon juice or salt if needed."
+        },
+        {
+          "number": 9,
+          "step": "Set finished dressing cup aside at room temperature for ten flavor infusion minutes."
+        },
+        {
+          "number": 10,
+          "step": "Re-whisk dressing blend right before pouring over main smoked grain salad ingredients."
+        },
+        {
+          "number": 11,
+          "step": "Check that dressing consistency coats back of spoon lightly without separating quickly."
+        },
+        {
+          "number": 12,
+          "step": "Reserve one tablespoon of dressing for drizzling over plated salad portions later."
+        },
+        {
+          "number": 13,
+          "step": "Keep dressing covered tightly with wrap until final salad mixing assembly phase."
+        },
+        {
+          "number": 14,
+          "step": "Verify all spice grains are dissolved into acidic lemon pomegranate molasses oil."
+        },
+        {
+          "number": 15,
+          "step": "Prepare main large salad serving bowl for combining all prepared components together."
+        },
+        {
+          "number": 16,
+          "step": "Organize prep station making final mixing process clean fast and efficient."
+        }
+      ]
+    },
+    {
+      "name": "Final Toss",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer smoked freekeh grain into large main serving bowl if not already."
+        },
+        {
+          "number": 2,
+          "step": "Add prepared mixed crisp vegetables and pomegranate seeds to smoked grain bowl."
+        },
+        {
+          "number": 3,
+          "step": "Add chopped flat-leaf parsley mint dill and green scallions to bowl."
+        },
+        {
+          "number": 4,
+          "step": "Pour whisked dressing blend evenly over entire surface of grain salad components."
+        },
+        {
+          "number": 5,
+          "step": "Toss salad gently using two large wooden spoons until thoroughly coated everywhere."
+        },
+        {
+          "number": 6,
+          "step": "Add half of toasted spiced nuts and flaxseeds to salad during toss."
+        },
+        {
+          "number": 7,
+          "step": "Scatter crumbled feta cheese gently over top surface of salad without overmixing."
+        },
+        {
+          "number": 8,
+          "step": "Top salad with remaining toasted nuts reserved herbs and pomegranate seeds neatly."
+        },
+        {
+          "number": 9,
+          "step": "Drizzle reserved single tablespoon of dressing over top garnishes for glossy finish."
+        },
+        {
+          "number": 10,
+          "step": "Let salad rest at room temperature for fifteen minutes before serving guests."
+        },
+        {
+          "number": 11,
+          "step": "Resting allows smoked freekeh to absorb delicious pomegranate molasses lemon dressing."
+        },
+        {
+          "number": 12,
+          "step": "Taste final salad adjusting salt sumac or lemon juice to personal preference."
+        },
+        {
+          "number": 13,
+          "step": "Serve salad at room temperature or chilled directly from main serving bowl."
+        },
+        {
+          "number": 14,
+          "step": "Store leftover salad in airtight container inside refrigerator for up to three days."
+        },
+        {
+          "number": 15,
+          "step": "Fluff leftover chilled salad with fork adding splash of olive oil before serving."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy rich chewy textures vibrant herbs and smoky depth of Lebanese freekeh."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,931 @@
+{
+  "id": 9002041,
+  "title": "Quick Weeknight Thai Curry Roti Flatbread",
+  "image": "generated://dishcovery/9002041.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "This vibrant <b>weeknight Thai flatbread</b> reimagines rich curry flavors into a crisp, flaky pan-fried specialty perfect for busy evenings. Tender whole wheat dough is layered with a flavorful <b>red curry coconut paste</b> infused with lemongrass, fresh galangal, and fragrant kaffir lime leaves. Rolled thin and pan-seared in warm oil, each flatbread develops golden blistering on the outside while maintaining a wonderfully soft, layered interior. A final brush of <b>chili-garlic oil</b> and a scattering of fresh Thai basil and chopped peanuts provide a burst of fresh flavor and satisfying crunch. Designed for quick preparation without sacrificing authentic Southeast Asian taste, this dish offers a fast route to takeaway-style dining at home. Serve these warm, cut into wedge pieces alongside a simple cucumber-chili dipping sauce or creamy peanut dip for a complete dinner. Every bite balances <b>spicy, savory, and sweet</b> elements in absolute harmony.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Choline",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Chloride",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Fluoride",
+        "amount": 0.02,
+        "unit": "mg",
+        "percentOfDailyNeeds": 1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2.5,
+      "unit": "cup",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "whole wheat flour"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "cup",
+      "name": "warm water"
+    },
+    {
+      "id": 90006,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "thai red curry paste"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "minced ginger"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemongrass paste"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "whole",
+      "name": "kaffir lime leaves"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped thai basil"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chili oil"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "coriander powder"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "whole",
+      "name": "red chili pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90027,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced cucumber"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sweet chili sauce"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "condensed milk"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90034,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ghee for pan"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90038,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "shallot oil"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sriracha sauce"
+    },
+    {
+      "id": 90042,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "crushed cashews"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced galangal"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "curry powder"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Mix",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine all-purpose flour, whole wheat flour, salt, and granulated sugar inside a broad mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Whisk dry flour ingredients together thoroughly until completely blended and free of any visible lumps."
+        },
+        {
+          "number": 3,
+          "step": "Add two tablespoons of melted coconut oil into the flour mixture to make dough tender and flaky."
+        },
+        {
+          "number": 4,
+          "step": "Pour in one cup of warm water gradually while mixing with a wooden spoon until dough starts forming."
+        },
+        {
+          "number": 5,
+          "step": "Turn dough onto a lightly floured surface and knead gently for five minutes until smooth and elastic."
+        },
+        {
+          "number": 6,
+          "step": "Form dough into a neat spherical ball and cover with a clean kitchen towel to rest for ten minutes."
+        },
+        {
+          "number": 7,
+          "step": "Measure three tablespoons of Thai red curry paste into a small glass mixing bowl for the inner spread."
+        },
+        {
+          "number": 8,
+          "step": "Add thick coconut cream, minced garlic, minced ginger, and lemongrass paste into red curry bowl."
+        },
+        {
+          "number": 9,
+          "step": "Finely shred three fresh kaffir lime leaves using a sharp chef knife and stir into curry paste sauce."
+        },
+        {
+          "number": 10,
+          "step": "Add soy sauce, brown sugar, fish sauce, and tamarind paste into curry paste bowl and whisk smoothly."
+        },
+        {
+          "number": 11,
+          "step": "Finely chop Thai basil leaves, fresh cilantro, and green onions for filling and garnish toppings."
+        },
+        {
+          "number": 12,
+          "step": "Crush roasted peanuts and cashews into small uniform pieces using a mortar and pestle for crunch."
+        },
+        {
+          "number": 13,
+          "step": "Thinly slice one fresh red chili pepper on a wooden board to prepare colorful spicy ring garnishes."
+        },
+        {
+          "number": 14,
+          "step": "Mix sweet chili sauce, rice vinegar, diced cucumber, and water in a small ramekin for dipping sauce."
+        },
+        {
+          "number": 15,
+          "step": "Uncover rested dough ball and divide into four equal portions using a sharp bench scraper tool."
+        },
+        {
+          "number": 16,
+          "step": "Roll each portion into a smooth ball using your hands and place on a silicone prep baking mat."
+        },
+        {
+          "number": 17,
+          "step": "Cover dough balls loosely with damp cloth towel to keep surface moist while rolling flatbreads."
+        },
+        {
+          "number": 18,
+          "step": "Dust rolling pin and prep surface lightly with flour to prevent dough from sticking during rolling."
+        },
+        {
+          "number": 19,
+          "step": "Flattens one dough ball using your palm and roll out into a thin ten-inch circle with rolling pin."
+        },
+        {
+          "number": 20,
+          "step": "Ensure rolled dough disk is thin enough to yield crisp flaky layers when folded and pan-fried later."
+        },
+        {
+          "number": 21,
+          "step": "Repeat rolling process for remaining three dough balls, keeping finished circles covered towel."
+        }
+      ]
+    },
+    {
+      "name": "Curry Spread",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Spread one tablespoon of prepared red curry coconut paste evenly over surface of first dough circle."
+        },
+        {
+          "number": 2,
+          "step": "Leave a quarter-inch clean border along outer rim of dough circle to allow easy edge sealing."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle a tablespoon of chopped Thai basil, green onions, and crushed peanuts over curry spread."
+        },
+        {
+          "number": 4,
+          "step": "Dust a light pinch of coriander powder, cumin, and turmeric powder over herb layer for extra spice."
+        },
+        {
+          "number": 5,
+          "step": "Fold top edge of dough circle down to center, then bottom edge up over top to form three layers."
+        },
+        {
+          "number": 6,
+          "step": "Fold left side into center and right side over left to create a neat square layered dough packet."
+        },
+        {
+          "number": 7,
+          "step": "Press edges of square dough packet gently with fingers to seal aromatic curry paste inside securely."
+        },
+        {
+          "number": 8,
+          "step": "Repeat spreading, sprinkling, and folding process for remaining three dough circles systematically."
+        },
+        {
+          "number": 9,
+          "step": "Cover folded dough packets with clean towel and allow them to rest for five minutes before rolling."
+        },
+        {
+          "number": 10,
+          "step": "Lightly dust rested square dough packet with flour and roll out gently into an eight-inch square."
+        },
+        {
+          "number": 11,
+          "step": "Take care not to press too hard with rolling pin so curry filling stays inside layered dough packet."
+        },
+        {
+          "number": 12,
+          "step": "Repeat gentle rolling process for all remaining three dough packets until flat and uniform size."
+        },
+        {
+          "number": 13,
+          "step": "Set a large heavy cast-iron skillet or flat griddle pan on stovetop burner over medium heat."
+        },
+        {
+          "number": 14,
+          "step": "Add one tablespoon of vegetable oil and one teaspoon of ghee to heat pan surface evenly."
+        },
+        {
+          "number": 15,
+          "step": "Swirl oil around skillet base to ensure entire cooking area is well coated and non-stick hot."
+        },
+        {
+          "number": 16,
+          "step": "Verify skillet surface is hot by observing light oil shimmering across bottom before frying."
+        },
+        {
+          "number": 17,
+          "step": "Combine chili oil, sesame oil, and sriracha sauce in a small dish for final surface brushing oil."
+        },
+        {
+          "number": 18,
+          "step": "Prepare metal spatula and clean cooling rack near stovetop for easy cooked flatbread handling."
+        },
+        {
+          "number": 19,
+          "step": "Keep extra vegetable oil nearby to add to pan between cooking individual curry roti flatbreads."
+        },
+        {
+          "number": 20,
+          "step": "Organize garnish bowl with chopped peanuts, basil leaves, cilantro, and red chili slices for plating."
+        }
+      ]
+    },
+    {
+      "name": "Folding",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully lay first flatbread packet into hot skillet, listening for an immediate gentle sizzle."
+        },
+        {
+          "number": 2,
+          "step": "Fry flatbread for two minutes on first side without moving until underside turns deep golden brown."
+        },
+        {
+          "number": 3,
+          "step": "Observe surface of dough puffing up with small pockets of hot air as curry layers heat through."
+        },
+        {
+          "number": 4,
+          "step": "Flip flatbread carefully using wide metal spatula to cook second side evenly in hot skillet."
+        },
+        {
+          "number": 5,
+          "step": "Press down gently on flatbread with spatula to ensure full contact with hot pan surface area."
+        },
+        {
+          "number": 6,
+          "step": "Fry second side for another two minutes until golden blistered spots form across dough skin."
+        },
+        {
+          "number": 7,
+          "step": "Brush top surface of flatbread lightly with prepared chili oil blend while still hot in skillet."
+        },
+        {
+          "number": 8,
+          "step": "Flip flatbread one final time for ten seconds to crisp up chili oil layer on pan bottom."
+        },
+        {
+          "number": 9,
+          "step": "Transfer cooked flatbread onto clean metal cooling rack to keep bottom skin crisp and flaky."
+        },
+        {
+          "number": 10,
+          "step": "Add another tablespoon of oil to skillet and allow to heat for fifteen seconds before next loaf."
+        },
+        {
+          "number": 11,
+          "step": "Place second flatbread packet into hot skillet and cook following same two-minute searing timing."
+        },
+        {
+          "number": 12,
+          "step": "Flip second flatbread carefully and cook until golden brown with crisp blistered curry layers."
+        },
+        {
+          "number": 13,
+          "step": "Brush top surface with chili oil mixture before removing cooked flatbread onto cooling rack."
+        },
+        {
+          "number": 14,
+          "step": "Repeat frying and brushing process for third and fourth flatbread packets with equal care."
+        },
+        {
+          "number": 15,
+          "step": "Ensure skillet heat remains steady at medium so flatbreads cook through without burning edges."
+        },
+        {
+          "number": 16,
+          "step": "Adjust stovetop burner down slightly if pan begins smoking or browning flatbreads too quickly."
+        },
+        {
+          "number": 17,
+          "step": "Stack cooked flatbreads on cutting board after cooling for one minute to maintain crispness."
+        },
+        {
+          "number": 18,
+          "step": "Brush top of each hot flatbread with fresh lime juice for bright citrus flavor contrast."
+        },
+        {
+          "number": 19,
+          "step": "Dust sesame seeds lightly over surface of flatbreads while oil layer remains warm and sticky."
+        },
+        {
+          "number": 20,
+          "step": "Prepare clean chef knife to slice flatbreads into neat wedges for easy sharing and dipping."
+        }
+      ]
+    },
+    {
+      "name": "Pan Frying",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice each warm curry roti flatbread into four triangle wedges using sharp heavy chef knife."
+        },
+        {
+          "number": 2,
+          "step": "Arrange flatbread wedges in fan pattern across four warm dinner plates or large platter."
+        },
+        {
+          "number": 3,
+          "step": "Scatter freshly chopped Thai basil leaves and cilantro over crisp flatbread wedge surfaces."
+        },
+        {
+          "number": 4,
+          "step": "Garnish with crushed roasted peanuts and red chili rings for inviting color and texture contrast."
+        },
+        {
+          "number": 5,
+          "step": "Pour cucumber-chili dipping sauce into four small sauce ramekins and place alongside plates."
+        },
+        {
+          "number": 6,
+          "step": "Serve flatbread wedges immediately while hot, crisp, flaky, and packed with curry aromas."
+        },
+        {
+          "number": 7,
+          "step": "Pair this weeknight dish with cold jasmine green tea or Thai iced tea for complete meal."
+        },
+        {
+          "number": 8,
+          "step": "Provide napkins for guests as this crispy layered flatbread is best enjoyed eaten with hands."
+        },
+        {
+          "number": 9,
+          "step": "Store any leftover flatbread wedges in covered glass container in refrigerator up to two days."
+        },
+        {
+          "number": 10,
+          "step": "Reheat leftover flatbreads in dry skillet over medium heat for one minute per side to crisp."
+        },
+        {
+          "number": 11,
+          "step": "Avoid microwaving leftover flatbreads as damp steam will soften flaky crispy crust layer."
+        },
+        {
+          "number": 12,
+          "step": "Enjoy bold Southeast Asian curry flavors created easily in your own home on busy weeknight."
+        },
+        {
+          "number": 13,
+          "step": "Wipe down kitchen prep area and wash skillet while still warm for fast easy evening cleanup."
+        },
+        {
+          "number": 14,
+          "step": "Store extra red curry paste and coconut cream in glass jar in fridge for next weeknight meal."
+        },
+        {
+          "number": 15,
+          "step": "Experiment with adding sautéed spinach or minced mushrooms to filling in future preparations."
+        },
+        {
+          "number": 16,
+          "step": "Ensure all remaining spices are sealed tightly in airtight containers to retain max freshness."
+        },
+        {
+          "number": 17,
+          "step": "Note how layering dough creates flaky texture similar to traditional street food roti style."
+        },
+        {
+          "number": 18,
+          "step": "Serve extra lime wedges at table for guests who love extra sour citrus kick on flatbread."
+        },
+        {
+          "number": 19,
+          "step": "Keep dipping sauce chilled in fridge until serving time to offer refreshing temperature contrast."
+        },
+        {
+          "number": 20,
+          "step": "Celebrate quick weeknight cooking success with this simple, delicious Thai curry creation."
+        }
+      ]
+    },
+    {
+      "name": "Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Check plate presentation to ensure garnishes look fresh, bright green, and neatly scattered."
+        },
+        {
+          "number": 2,
+          "step": "Confirm dipping sauce ramekins are clean along rims without dripping or spills on platter."
+        },
+        {
+          "number": 3,
+          "step": "Deliver hot plates to table promptly so flatbread wedges retain maximum crispness and crunch."
+        },
+        {
+          "number": 4,
+          "step": "Encourage guests to dip warm flaky wedges into chilled cucumber sauce for best flavor contrast."
+        },
+        {
+          "number": 5,
+          "step": "Enjoy comforting warmth of lemongrass and red curry paste balanced by fresh basil herbs."
+        },
+        {
+          "number": 6,
+          "step": "Keep extra crushed peanuts at table for guests wanting additional nut topping on flatbread."
+        },
+        {
+          "number": 7,
+          "step": "Ensure skillet is completely cool before washing with warm water and soft non-abrasive sponge."
+        },
+        {
+          "number": 8,
+          "step": "Store remaining Thai basil wrapped in damp paper towel inside fridge drawer to stay fresh."
+        },
+        {
+          "number": 9,
+          "step": "Double check burner controls are turned off completely after finishing all pan frying steps."
+        },
+        {
+          "number": 10,
+          "step": "Offer fresh cucumber slices on side if extra cooling palate cleanser is desired with meal."
+        },
+        {
+          "number": 11,
+          "step": "Appreciate how fast homemade dough comes together with simple kneading and short rest time."
+        },
+        {
+          "number": 12,
+          "step": "Share recipe with friends looking for quick dynamic weeknight dinner ideas packed with flavor."
+        },
+        {
+          "number": 13,
+          "step": "Observe layered cross-section of cut wedges showing thin spicy red curry paste ribbon inside."
+        },
+        {
+          "number": 14,
+          "step": "Keep chili oil bottle closed tightly to maintain fresh aroma and vibrant red color quality."
+        },
+        {
+          "number": 15,
+          "step": "Tidy spice rack and return sesame seeds, coriander, cumin, and turmeric to pantry shelf."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy relaxing evening meal knowing prep and cooking took under forty minutes from start."
+        },
+        {
+          "number": 17,
+          "step": "Provide small side bowls for discarded lime peels and chili stems to keep table tidy."
+        },
+        {
+          "number": 18,
+          "step": "Reflect on how easily traditional roti techniques adapt to fast modern weeknight meal prep."
+        },
+        {
+          "number": 19,
+          "step": "Savor final crispy bites of Thai curry flatbread while catching up with family at table."
+        },
+        {
+          "number": 20,
+          "step": "Conclude successful weeknight dinner with fast kitchen tidying and feeling of culinary pride."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,934 @@
+{
+  "id": 9002037,
+  "title": "Ethiopian Layered Vegetable Bake",
+  "image": "generated://dishcovery/9002037.jpg",
+  "readyInMinutes": 75,
+  "servings": 6,
+  "summary": "This fully vegetarian <b>Ethiopian layered bake</b> brings comfort and aromatic complexity to the plant-based table. Built upon alternating layers of spiced potatoes, tender carrots, steamed green cabbage, and green lentils, this casserole is bound together with a fragrant berbere-infused tomato sauce. Slow-cooked spiced butter substitute and simmered onions form a rich base, infusing every vegetable layer with warm notes of cardamom, fenugreek, ginger, and garlic. Baked until bubbly and golden, the top layer of crisp potatoes develops a delightful crust while the interior remains melt-in-your-mouth tender. Freshly torn injera pieces or crusty warm bread make perfect accompaniments for scooping up this hearty baked stew. Perfect for family gatherings, meal prep, or cozy weekend dinners, this dish highlights how plant-forward cooking can deliver bold, satisfying, and deeply complex flavor profiles without any animal products.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 430,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 65,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Sugar",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Calcium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Chromium",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Choline",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Chloride",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 3,
+      "unit": "large",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "head",
+      "name": "green cabbage"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "cup",
+      "name": "brown lentils"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced ginger"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "berbere spice blend"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "can",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegan butter"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cardamom"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground fenugreek"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground allspice"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sliced green beans"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced zucchini"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90026,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped fresh cilantro"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped fresh parsley"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90029,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90031,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90035,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "flaxseed meal"
+    },
+    {
+      "id": 90037,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "nutritional yeast"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "cup",
+      "name": "diced butternut squash"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "frozen green peas"
+    },
+    {
+      "id": 90043,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Spiced Sauce Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely dice yellow onion minced garlic and fresh ginger on clean chopping board."
+        },
+        {
+          "number": 2,
+          "step": "Heat vegetable oil and vegan butter in deep saucepan over medium heat burner."
+        },
+        {
+          "number": 3,
+          "step": "Add diced yellow onion to hot pan cooking for six minutes until golden translucent."
+        },
+        {
+          "number": 4,
+          "step": "Add minced garlic and ginger to pan cooking for two minutes until fragrant."
+        },
+        {
+          "number": 5,
+          "step": "Spoon berbere spice blend tomato paste ground cardamom and ground fenugreek into pan."
+        },
+        {
+          "number": 6,
+          "step": "Add ground coriander ground cumin ground cloves cinnamon allspice and turmeric powder."
+        },
+        {
+          "number": 7,
+          "step": "Stir spice mixture constantly for two minutes blooming spices in warm oil butter."
+        },
+        {
+          "number": 8,
+          "step": "Pour diced tomatoes with liquid into saucepan stirring with wooden spoon thoroughly."
+        },
+        {
+          "number": 9,
+          "step": "Add vegetable broth salt black pepper onion powder and garlic powder to pan."
+        },
+        {
+          "number": 10,
+          "step": "Bring sauce mixture to gentle boil stirring continuously to combine ingredients."
+        },
+        {
+          "number": 11,
+          "step": "Reduce heat burner to low cover pot with lid and simmer for fifteen minutes."
+        },
+        {
+          "number": 12,
+          "step": "Stir in lemon juice apple cider vinegar dried thyme and dried oregano into sauce."
+        },
+        {
+          "number": 13,
+          "step": "Taste berbere tomato sauce adding sea salt or black pepper if extra seasoning needed."
+        },
+        {
+          "number": 14,
+          "step": "Remove sauce pot from heat burner letting sauce sit covered on side counter."
+        },
+        {
+          "number": 15,
+          "step": "Check sauce consistency ensuring thick savory pouring texture suitable for layering bake."
+        },
+        {
+          "number": 16,
+          "step": "Measure two cups of brown lentils rinsing them under cold tap water in sieve."
+        },
+        {
+          "number": 17,
+          "step": "Boil brown lentils in small pot with two cups water for fifteen minutes until tender."
+        },
+        {
+          "number": 18,
+          "step": "Drain cooked brown lentils completely and stir them directly into prepared berbere sauce base."
+        },
+        {
+          "number": 19,
+          "step": "Add nutritional yeast and flaxseed meal to lentil berbere sauce stirring evenly."
+        },
+        {
+          "number": 20,
+          "step": "Verify sauce exhibits robust fragrant spicy aroma characteristic of classic Ethiopian cooking."
+        },
+        {
+          "number": 21,
+          "step": "Keep sauce warm covered while slicing fresh vegetables for casserole dish layers."
+        },
+        {
+          "number": 22,
+          "step": "Preheat oven to three hundred seventy-five degrees Fahrenheit positioning rack in center."
+        },
+        {
+          "number": 23,
+          "step": "Grease large rectangular ceramic baking casserole dish with olive oil thoroughly."
+        },
+        {
+          "number": 24,
+          "step": "Organize prep station with sauce pot vegetable cutting board and oiled baking dish."
+        },
+        {
+          "number": 25,
+          "step": "Double check that all dry spices were incorporated smoothly into simmered tomato sauce."
+        },
+        {
+          "number": 26,
+          "step": "Set aside half cup of berbere sauce for final top layer spooning step."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Layering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel russet potatoes and carrots using vegetable peeler over compost container."
+        },
+        {
+          "number": 2,
+          "step": "Slice russet potatoes into thin uniform quarter inch circular discs carefully."
+        },
+        {
+          "number": 3,
+          "step": "Slice carrots into thin diagonal coins for even cooking during oven bake."
+        },
+        {
+          "number": 4,
+          "step": "Shred green cabbage into thin ribbons using sharp chef knife on wooden board."
+        },
+        {
+          "number": 5,
+          "step": "Dice butternut squash zucchini red bell pepper and green beans into small pieces."
+        },
+        {
+          "number": 6,
+          "step": "Place potato slices in bowl of cold water preventing discoloration while prepping."
+        },
+        {
+          "number": 7,
+          "step": "Drain potato slices completely and pat dry using clean kitchen cotton towel."
+        },
+        {
+          "number": 8,
+          "step": "Toss cabbage ribbons with olive oil pinch of sea salt and turmeric powder."
+        },
+        {
+          "number": 9,
+          "step": "Mix sliced carrots green beans diced squash and zucchini together in prep bowl."
+        },
+        {
+          "number": 10,
+          "step": "Add frozen green peas diced red pepper and smoked paprika to mixed vegetables."
+        },
+        {
+          "number": 11,
+          "step": "Season mixed vegetables lightly with garlic powder onion powder and black pepper."
+        },
+        {
+          "number": 12,
+          "step": "Ladle one cup of warm berbere lentil sauce into bottom of oiled baking dish."
+        },
+        {
+          "number": 13,
+          "step": "Spread sauce evenly across bottom of casserole dish forming base seasoning layer."
+        },
+        {
+          "number": 14,
+          "step": "Arrange one layer of sliced potatoes overlapping slightly over bottom sauce layer."
+        },
+        {
+          "number": 15,
+          "step": "Spoon one third of mixed carrots squash zucchini and green beans over potatoes."
+        },
+        {
+          "number": 16,
+          "step": "Spread layer of seasoned shredded green cabbage evenly over mixed vegetable layer."
+        },
+        {
+          "number": 17,
+          "step": "Ladle another generous portion of berbere lentil sauce over green cabbage layer."
+        },
+        {
+          "number": 18,
+          "step": "Repeat potato slice layering across casserole dish covering cabbage sauce layer."
+        },
+        {
+          "number": 19,
+          "step": "Add remaining mixed carrots squash zucchini beans peas and bell peppers evenly."
+        },
+        {
+          "number": 20,
+          "step": "Pour remaining berbere lentil sauce over vegetable layers spreading with spatula."
+        },
+        {
+          "number": 21,
+          "step": "Arrange final top layer of sliced potatoes neatly covering entire surface area."
+        },
+        {
+          "number": 22,
+          "step": "Brush top potato slices lightly with olive oil and sprinkle with sea salt."
+        },
+        {
+          "number": 23,
+          "step": "Scatter slivered almonds and sesame seeds over top potato layer for crisp texture."
+        },
+        {
+          "number": 24,
+          "step": "Press down gently on layered bake with spatula compacting vegetables firmly."
+        },
+        {
+          "number": 25,
+          "step": "Check that sauce is visible between layers along edges of casserole dish."
+        },
+        {
+          "number": 26,
+          "step": "Inspect assemble bake ensuring neat attractive alternating vegetable sauce construction."
+        }
+      ]
+    },
+    {
+      "name": "Baking Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cover baking casserole dish tightly with heavy aluminum foil sealing edges completely."
+        },
+        {
+          "number": 2,
+          "step": "Place foil covered casserole dish carefully onto center rack of preheated oven."
+        },
+        {
+          "number": 3,
+          "step": "Bake covered at three hundred seventy-five degrees Fahrenheit for forty minutes continuously."
+        },
+        {
+          "number": 4,
+          "step": "Trapped steam inside foil softens dense potato and carrot layers during first baking phase."
+        },
+        {
+          "number": 5,
+          "step": "Check bake after forty minutes lifting foil corner carefully to test potato tenderness."
+        },
+        {
+          "number": 6,
+          "step": "Insert fork into center potato layer confirming vegetables are tender and easily pierced."
+        },
+        {
+          "number": 7,
+          "step": "Remove aluminum foil cover completely from baking dish returning dish to oven rack."
+        },
+        {
+          "number": 8,
+          "step": "Bake uncovered for twenty additional minutes at three hundred seventy-five degrees Fahrenheit."
+        },
+        {
+          "number": 9,
+          "step": "Uncovered baking browns top potato layer crisps edges and thickens berbere sauce liquid."
+        },
+        {
+          "number": 10,
+          "step": "Observe top potato layer changing color to deep golden brown with crispy edges."
+        },
+        {
+          "number": 11,
+          "step": "Watch sauce bubbling enthusiastically along sides of baking dish during final bake phase."
+        },
+        {
+          "number": 12,
+          "step": "If top potatoes brown too quickly cover dish loosely with foil sheet again."
+        },
+        {
+          "number": 13,
+          "step": "Prepare fresh herb garnish by chopping fresh cilantro and fresh parsley finely."
+        },
+        {
+          "number": 14,
+          "step": "Warm injera flatbread pieces or crusty sourdough bread in oven during last five minutes."
+        },
+        {
+          "number": 15,
+          "step": "Carefully remove hot casserole dish from oven using thick oven mitts safety handles."
+        },
+        {
+          "number": 16,
+          "step": "Set hot casserole dish onto heatproof trivet mat on counter surface area."
+        },
+        {
+          "number": 17,
+          "step": "Let baked casserole rest uncovered for ten minutes allowing layers to firm up."
+        },
+        {
+          "number": 18,
+          "step": "Resting phase makes slicing and serving neat layered portions much easier to handle."
+        },
+        {
+          "number": 19,
+          "step": "Sprinkle chopped fresh cilantro and parsley generously over golden top potato crust."
+        },
+        {
+          "number": 20,
+          "step": "Scatter extra toasted sesame seeds over herbs for attractive colorful table presentation."
+        },
+        {
+          "number": 21,
+          "step": "Verify that aroma of berbere spice cardboard fenugreek fills kitchen pleasantly."
+        },
+        {
+          "number": 22,
+          "step": "Prepare wide serving spatula and wide shallow bowls or plates for dinner guests."
+        },
+        {
+          "number": 23,
+          "step": "Keep extra warm berbere sauce on side for guests who prefer extra spice heat."
+        },
+        {
+          "number": 24,
+          "step": "Check that all vegetable layers inside bake are steaming piping hot and cooked."
+        },
+        {
+          "number": 25,
+          "step": "Double check that table setting includes flatbread for scooping up rich layered bake."
+        },
+        {
+          "number": 26,
+          "step": "Enjoy wonderful fully vegetarian Ethiopian bake with family and dining companions."
+        }
+      ]
+    },
+    {
+      "name": "Oven Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice baked casserole into six large rectangular serving portions using sharp knife."
+        },
+        {
+          "number": 2,
+          "step": "Lift portions carefully using wide serving spatula placing onto warm dinner plates."
+        },
+        {
+          "number": 3,
+          "step": "Ensure each portion retains crisp top potato crust and distinct vegetable lentils layers."
+        },
+        {
+          "number": 4,
+          "step": "Serve hot alongside warm injera flatbread pieces or fresh crusty grain bread slices."
+        },
+        {
+          "number": 5,
+          "step": "Instruct guests to scoop up hearty vegetable bake using torn flatbread pieces directly."
+        },
+        {
+          "number": 6,
+          "step": "Provide fresh lemon wedges on side for squeezing bright acid juice over portions."
+        },
+        {
+          "number": 7,
+          "step": "Pair this rich vegetable casserole with crisp side salad or mild yogurt sauce."
+        },
+        {
+          "number": 8,
+          "step": "Allow leftover casserole to cool completely at room temperature before wrapping for storage."
+        },
+        {
+          "number": 9,
+          "step": "Cover leftover casserole dish tightly with plastic wrap or transfer to container."
+        },
+        {
+          "number": 10,
+          "step": "Store leftover vegetable bake in refrigerator where flavors meld for four days."
+        },
+        {
+          "number": 11,
+          "step": "Reheat individual portions in oven at three hundred fifty degrees for fifteen minutes."
+        },
+        {
+          "number": 12,
+          "step": "Reheating in oven restores crispness of top potato crust better than microwave heating."
+        },
+        {
+          "number": 13,
+          "step": "Add splash of vegetable broth when reheating if sauce thickened excessively in fridge."
+        },
+        {
+          "number": 14,
+          "step": "Garnish reheated leftover portions with fresh cilantro parsley and toasted sesame seeds."
+        },
+        {
+          "number": 15,
+          "step": "Pack leftover portions into insulated containers for portable delicious school work lunches."
+        },
+        {
+          "number": 16,
+          "step": "Appreciate how berbere spice blend creates deep flavor complexity in simple vegetables."
+        },
+        {
+          "number": 17,
+          "step": "Clean ceramic baking dish easily by soaking in warm soapy water for twenty minutes."
+        },
+        {
+          "number": 18,
+          "step": "Note down any spice adjustments for future bakes based on family heat preferences."
+        },
+        {
+          "number": 19,
+          "step": "Celebrate successful fully vegetarian Ethiopian casserole dish loved by all dinner guests."
+        },
+        {
+          "number": 20,
+          "step": "Keep berbere spice blend stocked in spice cabinet for future delicious grain bakes."
+        },
+        {
+          "number": 21,
+          "step": "Share recipe with friends looking for bold flavorful plant based casserole dinner ideas."
+        },
+        {
+          "number": 22,
+          "step": "Store leftover dry lentils and berbere spices in airtight jars inside cool pantry."
+        },
+        {
+          "number": 23,
+          "step": "Enjoy wholesome nutritious warmth of plant-forward layered Ethiopian culinary tradition always."
+        },
+        {
+          "number": 24,
+          "step": "Reflect on how slow baking transforms humble roots and cabbage into feast dish."
+        },
+        {
+          "number": 25,
+          "step": "Finish meal with warm herbal tea enjoying satisfaction of delicious homemade dinner."
+        }
+      ]
+    }
+  ]
+}

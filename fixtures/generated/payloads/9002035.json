@@ -1,0 +1,934 @@
+{
+  "id": 9002035,
+  "title": "One-Pot Vietnamese Rice Flatbread",
+  "image": "generated://dishcovery/9002035.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "This innovative <b>Vietnamese flatbread</b> brings intense Southeast Asian street food flavors into a streamlined one-pot cooking format. Pan-fried directly in a single heavy skillet, the rice flour dough forms a golden crisp base that supports a savory mixture of minced pork, scallions, shallots, and fresh herbs. A delicate bath of fish sauce, lime juice, chili oil, and aromatic spices cooks down right in the pan, glazing the crispy bottom while softening the flavorful top layer. Fragrant coriander, thai basil, and crunchy bean sprouts are added during the final searing phase, delivering vibrant color contrast and crisp textural brightness. Designed for minimal cleanup without sacrificing authentic depth, this technique creates an irresistible skillet dish with crackling edges and a tender savory center. Serve hot directly from the pan for a communal dining experience that highlights the brilliant harmony of sweet, salty, sour, and spicy Vietnamese culinary traditions.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Chloride",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "rice flour"
+    },
+    {
+      "id": 90001,
+      "amount": 50,
+      "unit": "g",
+      "name": "tapioca starch"
+    },
+    {
+      "id": 90002,
+      "amount": 300,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90006,
+      "amount": 200,
+      "unit": "g",
+      "name": "ground pork"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "minced shallots"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced lemongrass"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90014,
+      "amount": 3,
+      "unit": "stalks",
+      "name": "scallions"
+    },
+    {
+      "id": 90015,
+      "amount": 100,
+      "unit": "g",
+      "name": "bean sprouts"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh coriander"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "thai basil"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "red",
+      "name": "chili pepper"
+    },
+    {
+      "id": 90020,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chili oil"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fried shallots"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "hoisin sauce"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sriracha sauce"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ginger powder"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "five spice powder"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90031,
+      "amount": 50,
+      "unit": "g",
+      "name": "wood ear mushrooms"
+    },
+    {
+      "id": 90032,
+      "amount": 50,
+      "unit": "g",
+      "name": "water chestnuts"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "egg",
+      "name": "beaten egg"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mayonnaise"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sweet chili sauce"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shredded carrots"
+    },
+    {
+      "id": 90043,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pickled daikon"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Pot Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Select a heavy ten-inch cast iron skillet or nonstick pot to ensure even heating across the entire base."
+        },
+        {
+          "number": 2,
+          "step": "Wipe the interior of the skillet thoroughly using a clean dry paper towel to remove any lint or dust."
+        },
+        {
+          "number": 3,
+          "step": "Measure out the coconut oil and set it beside the stove for easy access during the searing process."
+        },
+        {
+          "number": 4,
+          "step": "Place the skillet onto your stovetop burner ensuring it sits level and stable over the heat element."
+        },
+        {
+          "number": 5,
+          "step": "Turn the burner to medium heat and allow the dry skillet to preheat gradually for two minutes."
+        },
+        {
+          "number": 6,
+          "step": "Check the temperature of the pot surface by flicking a drop of water to see if it sizzles promptly."
+        },
+        {
+          "number": 7,
+          "step": "Add one tablespoon of coconut oil to the warm skillet letting it melt and coat the bottom evenly."
+        },
+        {
+          "number": 8,
+          "step": "Swirl the hot oil around the edges of the pan so the skillet sides are well greased for batter."
+        },
+        {
+          "number": 9,
+          "step": "Reduce the flame to low while you finish combining the liquid batter ingredients nearby."
+        },
+        {
+          "number": 10,
+          "step": "Keep a heat resistant spatula and pan lid within arm reach of the stovetop cooking station."
+        },
+        {
+          "number": 11,
+          "step": "Ensure your kitchen area is properly ventilated as searing shallow batter generates rich steam."
+        },
+        {
+          "number": 12,
+          "step": "Measure all liquid sauces like fish sauce lime juice and soy sauce into a single small glass cup."
+        },
+        {
+          "number": 13,
+          "step": "Finely chop the fresh garlic shallots and lemongrass to keep them ready for quick skillet tossing."
+        },
+        {
+          "number": 14,
+          "step": "Slice the fresh red chili peppers thinly and reserve half for cooking and half for fresh garnish."
+        },
+        {
+          "number": 15,
+          "step": "Rinse the fresh bean sprouts in cold water and drain them in a colander until completely dry."
+        },
+        {
+          "number": 16,
+          "step": "Pick the leaves off fresh coriander thai basil and mint discarding any tough wooden stems."
+        },
+        {
+          "number": 17,
+          "step": "Crush the roasted peanuts coarsely using a mortar and pestle or rolling pin for crunchy garnish."
+        },
+        {
+          "number": 18,
+          "step": "Reheat the oil in the skillet slightly on medium-low just before pouring in the primary batter."
+        },
+        {
+          "number": 19,
+          "step": "Wipe any excess oil drips from the outer skillet rim to prevent smoke during high heat cooking."
+        },
+        {
+          "number": 20,
+          "step": "Double check that the bottom of the pot is evenly coated in grease before starting the crust."
+        },
+        {
+          "number": 21,
+          "step": "Set the stove heat precisely between medium and low to avoid scorching the delicate rice flour."
+        },
+        {
+          "number": 22,
+          "step": "Keep a small bowl of cold water nearby to clean tools between handling dough and meat toppings."
+        },
+        {
+          "number": 23,
+          "step": "Verify that all dried spices including five spice and turmeric are measured and ready for use."
+        },
+        {
+          "number": 24,
+          "step": "Inspect the skillet surface to make sure no dry hot spots remain before pouring the liquid dough."
+        },
+        {
+          "number": 25,
+          "step": "Maintain steady low heat in the skillet while preparing the wet rice flour dough mix."
+        },
+        {
+          "number": 26,
+          "step": "Position the skillet securely so it will not shift when you pour and spread the rice flour batter."
+        }
+      ]
+    },
+    {
+      "name": "Dough and Filling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk the rice flour tapioca starch salt and turmeric powder together inside a large mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Pour the measured room temperature water slowly into the dry flour mixture while whisking continuously."
+        },
+        {
+          "number": 3,
+          "step": "Whisk vigorously for two full minutes until all lumps disappear and the batter becomes smooth."
+        },
+        {
+          "number": 4,
+          "step": "Add the ginger powder garlic powder and onion powder to the liquid batter and stir until uniform."
+        },
+        {
+          "number": 5,
+          "step": "Set the prepared smooth batter aside for five minutes so the starches absorb the liquid properly."
+        },
+        {
+          "number": 6,
+          "step": "In a separate bowl combine the ground pork minced garlic shallots and chopped lemongrass together."
+        },
+        {
+          "number": 7,
+          "step": "Season the pork mixture with fish sauce soy sauce sugar black pepper and five spice powder."
+        },
+        {
+          "number": 8,
+          "step": "Finely dice the wood ear mushrooms and water chestnuts before adding them into the pork mix."
+        },
+        {
+          "number": 9,
+          "step": "Mix the pork and aromatics thoroughly using a fork or clean hands until evenly combined."
+        },
+        {
+          "number": 10,
+          "step": "Beat one egg in a small dish and fold it into the pork mixture to help bind the filling together."
+        },
+        {
+          "number": 11,
+          "step": "Add half of the chopped scallions to the pork filling and reserve the rest for topping the flatbread."
+        },
+        {
+          "number": 12,
+          "step": "Check the consistency of the rice flour batter whisking in a splash of water if it thickened."
+        },
+        {
+          "number": 13,
+          "step": "Stir the sweet chili sauce sriracha and hoisin sauce into the spice cup with lime juice and chili oil."
+        },
+        {
+          "number": 14,
+          "step": "Add the tamarind paste and palm sugar to the sauce mixture whisking until completely dissolved."
+        },
+        {
+          "number": 15,
+          "step": "Mix mayonnaise and sriracha together in a small condiment cup for an optional spicy top drizzle."
+        },
+        {
+          "number": 16,
+          "step": "Toss the shredded carrots and pickled daikon together in a small side bowl for crisp topping."
+        },
+        {
+          "number": 17,
+          "step": "Taste the seasoned meat mixture by cooking a tiny speck in the pan to check seasoning levels."
+        },
+        {
+          "number": 18,
+          "step": "Adjust fish sauce or sugar in the meat mixture if necessary based on your personal taste preference."
+        },
+        {
+          "number": 19,
+          "step": "Ensure the rice flour batter has a thin pourable consistency similar to heavy pancake batter."
+        },
+        {
+          "number": 20,
+          "step": "Organize the pork filling batter sauce cup and fresh herbs right next to the hot skillet."
+        },
+        {
+          "number": 21,
+          "step": "Give the rice flour batter one final thorough whisk as tapioca starch tends to settle quickly."
+        },
+        {
+          "number": 22,
+          "step": "Divide the pork mixture into small loose crumbles so it cooks fast when placed onto the dough."
+        },
+        {
+          "number": 23,
+          "step": "Verify that all fresh herbs are dry as moist leaves can make the crispy top flatbread soggy."
+        },
+        {
+          "number": 24,
+          "step": "Set aside the fried shallots sesame seeds and crushed peanuts for the final assembly phase."
+        },
+        {
+          "number": 25,
+          "step": "Keep the skillet warm on low heat so it is instantly ready when batter is poured."
+        },
+        {
+          "number": 26,
+          "step": "Double check that all components of the one pot recipe are fully prepared before pan cooking."
+        }
+      ]
+    },
+    {
+      "name": "One-Pot Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Increase the skillet heat to medium and add the second tablespoon of coconut oil to coat the bottom."
+        },
+        {
+          "number": 2,
+          "step": "Pour half of the rice flour batter directly into the center of the hot skillet with a splash."
+        },
+        {
+          "number": 3,
+          "step": "Quickly tilt and swirl the skillet in a wide circle so the batter covers the entire base thinly."
+        },
+        {
+          "number": 4,
+          "step": "Allow the batter to cook undisturbed for two minutes until the edges begin to set and curl up."
+        },
+        {
+          "number": 5,
+          "step": "Scatter small crumbles of the seasoned raw pork mixture evenly over the top of the wet batter."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle two tablespoons of the prepared savory chili lime sauce directly over the pork crumbles."
+        },
+        {
+          "number": 7,
+          "step": "Cover the skillet tightly with its lid and reduce heat to medium-low for four full minutes."
+        },
+        {
+          "number": 8,
+          "step": "Trap the internal steam so the pork cooks through while the bottom rice crust crisps up nicely."
+        },
+        {
+          "number": 9,
+          "step": "Remove the lid carefully avoiding dripping condensation back onto the cooking flatbread crust."
+        },
+        {
+          "number": 10,
+          "step": "Check that the ground pork is fully cooked opaque and no longer pink in the center crumbles."
+        },
+        {
+          "number": 11,
+          "step": "Scatter a handful of fresh bean sprouts and sliced scallions over the steaming pork layer."
+        },
+        {
+          "number": 12,
+          "step": "Drizzle sesame oil around the outer edges of the skillet to boost bottom crust crispness."
+        },
+        {
+          "number": 13,
+          "step": "Cook uncovered for three additional minutes watching the edges darken to a deep golden brown."
+        },
+        {
+          "number": 14,
+          "step": "Use a thin flexible spatula to gently loosen the edges of the flatbread from skillet sides."
+        },
+        {
+          "number": 15,
+          "step": "Peek under the flatbread to verify the bottom has achieved a uniform golden crackling crust."
+        },
+        {
+          "number": 16,
+          "step": "Spoon a small amount of sweet chili sauce over the warm filling to gladden the top layer."
+        },
+        {
+          "number": 17,
+          "step": "Scatter chopped red chilis and fried shallots over the flatbread while it continues to sear."
+        },
+        {
+          "number": 18,
+          "step": "Drizzle a tiny amount of melted butter around the perimeter to add rich brown flavor."
+        },
+        {
+          "number": 19,
+          "step": "Press down gently on the filling with the back of a spatula to set it into the bottom crust."
+        },
+        {
+          "number": 20,
+          "step": "Turn off the heat element and allow the flatbread to rest in the hot skillet for one minute."
+        },
+        {
+          "number": 21,
+          "step": "Slide the crisp flatbread carefully out of the skillet onto a large wooden cutting board surface."
+        },
+        {
+          "number": 22,
+          "step": "Add remaining coconut oil to the skillet and repeat the searing process for the second flatbread."
+        },
+        {
+          "number": 23,
+          "step": "Pour the remaining rice batter swirl cover and cook with the remaining pork filling smoothly."
+        },
+        {
+          "number": 24,
+          "step": "Ensure the second flatbread crust achieves the same deep golden crispness as the first batch."
+        },
+        {
+          "number": 25,
+          "step": "Transfer the second cooked flatbread alongside the first board ready for final herbal garnishing."
+        },
+        {
+          "number": 26,
+          "step": "Keep the skillet warm on the stove while you finish garnishing the sizzling crispy flatbreads."
+        }
+      ]
+    },
+    {
+      "name": "Finishing Touches",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Top each hot flatbread with generous handfuls of fresh coriander thai basil and leafy mint."
+        },
+        {
+          "number": 2,
+          "step": "Scatter the shredded carrots and pickled daikon neatly over the vibrant green herb layer."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle toasted sesame seeds and crushed roasted peanuts across the top for extra crunch."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle spicy sriracha mayonnaise in a thin decorative zigzag pattern over each flatbread surface."
+        },
+        {
+          "number": 5,
+          "step": "Cut each flatbread into four large wedge portions using a sharp pizza wheel or chef knife."
+        },
+        {
+          "number": 6,
+          "step": "Serve the crisp flatbread wedges immediately while hot directly from the cutting board platter."
+        },
+        {
+          "number": 7,
+          "step": "Provide extra lime wedges on the side for guests who enjoy additional bright citrus acidity."
+        },
+        {
+          "number": 8,
+          "step": "Place small dipping bowls of remaining sweet chili sauce on the table for dipping crusts."
+        },
+        {
+          "number": 9,
+          "step": "Enjoy the wonderful contrast between the crackling bottom rice crust and tender savory toppings."
+        },
+        {
+          "number": 10,
+          "step": "Store any leftover flatbread wedges in an airtight container lined with paper towels in the fridge."
+        },
+        {
+          "number": 11,
+          "step": "Reheat leftover wedges in a dry skillet over medium heat for three minutes to restore crispness."
+        },
+        {
+          "number": 12,
+          "step": "Avoid microwaving leftovers as the microwave will cause the crispy rice bottom to become soft."
+        },
+        {
+          "number": 13,
+          "step": "Garnish reheated portions with fresh herbs to restore their bright aromatic street food appeal."
+        },
+        {
+          "number": 14,
+          "step": "Pair this dish with iced green tea or fresh coconut water for an authentic flavor pairing."
+        },
+        {
+          "number": 15,
+          "step": "Clean the single skillet easily by wiping it with warm water while it remains slightly warm."
+        },
+        {
+          "number": 16,
+          "step": "Check that all leftover fresh herbs are wrapped tightly in damp paper towels for storage."
+        },
+        {
+          "number": 17,
+          "step": "Appreciate how easy one pot cooking makes crafting crispy authentic street food style flatbreads."
+        },
+        {
+          "number": 18,
+          "step": "Serve as an exciting party appetizer or a complete delicious weeknight meal for four people."
+        },
+        {
+          "number": 19,
+          "step": "Adjust chili oil amounts on future batches depending on desired spicy heat level preference."
+        },
+        {
+          "number": 20,
+          "step": "Experiment with adding small dried shrimp or shredded chicken to future flatbread variations."
+        },
+        {
+          "number": 21,
+          "step": "Ensure all remaining crushed peanuts are stored in a dry sealed jar to keep them fresh."
+        },
+        {
+          "number": 22,
+          "step": "Note down any timing adjustments based on your specific skillet thickness for future cooking."
+        },
+        {
+          "number": 23,
+          "step": "Enjoy the lingering aromatic scents of toasted lemongrass garlic and sesame in your kitchen."
+        },
+        {
+          "number": 24,
+          "step": "Offer extra fresh chili slices to guests who prefer an intense fiery bite with their meal."
+        },
+        {
+          "number": 25,
+          "step": "Celebrate a successful single pot Vietnamese culinary creation with family and friends."
+        }
+      ]
+    }
+  ]
+}

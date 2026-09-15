@@ -1,0 +1,931 @@
+{
+  "id": 9002048,
+  "title": "Hearty One Pot Polish Dill Pickle Soup with Sausage",
+  "image": "generated://dishcovery/9002048.jpg",
+  "readyInMinutes": 55,
+  "servings": 6,
+  "summary": "This comforting <b>one-pot pickle soup</b> offers a vibrant balance of sour, savory, and creamy textures in every bowl. Tangy grated dill pickles simmer in a rich poultry stock alongside tender potatoes, carrots, and smoky kielbasa sausage. Sauteed onions, garlic, and leeks establish a fragrant aromatic foundation that elevates the tangy broth. A touch of sour cream and flour creates a smooth, velvety finish without overwhelming the distinctive tart character of fermented pickles. Fresh dill, black pepper, and sour pickle brine added at the finish bring a bright, energizing aroma to the hot pot. Diced root vegetables absorb the savory broth while cooking, yielding a hearty stew-like consistency ideal for cool weather dining. Everything cooks sequentially in a single heavy Dutch oven, making prep and cleanup effortlessly simple. Rich, satisfying, and full of traditional Polish comfort, this soup is best enjoyed hot with crusty rye bread.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19.5
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 33.8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 11.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sodium",
+        "amount": 980,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42.6
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31.1
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 26.7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.4
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26.3
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.4
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Biotin",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Choline",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14.4
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Iodine",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27.3
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21.7
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12.3
+      },
+      {
+        "name": "Chloride",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "dill pickles grated"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "ml",
+      "name": "dill pickle brine"
+    },
+    {
+      "id": 90002,
+      "amount": 400,
+      "unit": "g",
+      "name": "yukon gold potatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 200,
+      "unit": "g",
+      "name": "kielbasa sausage"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "pc",
+      "name": "carrots"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "pc",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "pc",
+      "name": "leek sliced"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "l",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "un salted butter"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "fresh dill chopped"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "pc",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 4,
+      "unit": "pc",
+      "name": "allspice berries"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "pc",
+      "name": "parsnip diced"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "celery root diced"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "marjoram"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white wine vinegar"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90029,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced celery"
+    },
+    {
+      "id": 90033,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dill pickle juice extra"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery salt"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90037,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90039,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "pc",
+      "name": "rye bread for serving"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "prepared horseradish"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Broth Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place large Dutch oven pot onto center stove burner over medium heat setting."
+        },
+        {
+          "number": 2,
+          "step": "Melt butter and vegetable oil in hot pot until liquid bubbles gently on bottom."
+        },
+        {
+          "number": 3,
+          "step": "Add sliced kielbasa sausage rounds to pot and sear for four minutes until brown."
+        },
+        {
+          "number": 4,
+          "step": "Transfer seared sausage pieces to clean side plate using slotted spoon."
+        },
+        {
+          "number": 5,
+          "step": "Add diced yellow onion and sliced shallots to rendered fat remaining in pot."
+        },
+        {
+          "number": 6,
+          "step": "Sauté onions and shallots for four minutes until soft and translucent golden hue."
+        },
+        {
+          "number": 7,
+          "step": "Add sliced leek rings and minced garlic to pot, stirring for two minutes until soft."
+        },
+        {
+          "number": 8,
+          "step": "Pour chicken broth into pot, stirring bottom with spoon to release caramelized bits."
+        },
+        {
+          "number": 9,
+          "step": "Add bay leaves, allspice berries, and caraway seeds into warm broth in pot."
+        },
+        {
+          "number": 10,
+          "step": "Add dried thyme, marjoram, and paprika to broth, stirring well to combine spices."
+        },
+        {
+          "number": 11,
+          "step": "Increase heat under pot to high and bring broth mixture to active rolling boil."
+        },
+        {
+          "number": 12,
+          "step": "Reduce heat to medium low and simmer broth for ten minutes to develop rich base."
+        },
+        {
+          "number": 13,
+          "step": "Skim any floating excess foam off broth surface using broad metal spoon."
+        },
+        {
+          "number": 14,
+          "step": "Taste broth base and add one teaspoon salt and black pepper according to taste."
+        },
+        {
+          "number": 15,
+          "step": "Keep broth at gentle steady simmer while processing root vegetables on board."
+        },
+        {
+          "number": 16,
+          "step": "Verify onion and garlic pieces have softened completely into simmering broth."
+        },
+        {
+          "number": 17,
+          "step": "Check that all spice aromatics are evenly distributed throughout liquid base."
+        },
+        {
+          "number": 18,
+          "step": "Prepare diced potatoes, carrots, and parsnips for pot addition in next step."
+        },
+        {
+          "number": 19,
+          "step": "Keep seared sausage plate covered loosely near stove for reintroduction later."
+        },
+        {
+          "number": 20,
+          "step": "Confirm Dutch oven liquid level is sufficient for cooking dense root vegetables."
+        },
+        {
+          "number": 21,
+          "step": "Maintain steady medium low burner flame under Dutch oven during ingredient prep."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel Yukon Gold potatoes and cut into uniform half inch dice for even pot cooking."
+        },
+        {
+          "number": 2,
+          "step": "Peel carrots and slice into neat quarter inch round coins on cutting board."
+        },
+        {
+          "number": 3,
+          "step": "Peel parsnip and celery root, cutting both into half inch dice matching potatoes."
+        },
+        {
+          "number": 4,
+          "step": "Slice celery stalks into thin crescent pieces and add to diced root vegetable bowl."
+        },
+        {
+          "number": 5,
+          "step": "Grate dill pickles using coarse side of box grater into medium glass bowl."
+        },
+        {
+          "number": 6,
+          "step": "Measure out dill pickle brine liquid from jar, ensuring no pickle seeds remain."
+        },
+        {
+          "number": 7,
+          "step": "Melt clarified butter in small side skillet over medium heat for sautéing pickles."
+        },
+        {
+          "number": 8,
+          "step": "Add grated dill pickles to side skillet and sauté for five minutes to soften texture."
+        },
+        {
+          "number": 9,
+          "step": "Sautéing grated pickles tames raw sharp edge and concentrates warm sour flavors."
+        },
+        {
+          "number": 10,
+          "step": "Add sugar and mustard seeds to sautéed pickles in side skillet, stirring once."
+        },
+        {
+          "number": 11,
+          "step": "Remove side skillet from heat and let grated pickles rest while vegetables boil."
+        },
+        {
+          "number": 12,
+          "step": "Add diced potatoes, carrots, parsnips, and celery root into simmering pot broth."
+        },
+        {
+          "number": 13,
+          "step": "Add diced celery pieces into pot, pushing vegetables below broth liquid level."
+        },
+        {
+          "number": 14,
+          "step": "Cover Dutch oven with lid and cook vegetables for fifteen minutes until tender."
+        },
+        {
+          "number": 15,
+          "step": "Check potato tenderness by piercing center piece gently with tip of paring knife."
+        },
+        {
+          "number": 16,
+          "step": "Ensure carrots and parsnips are soft through center before adding sour pickles."
+        },
+        {
+          "number": 17,
+          "step": "Keep stove flame steady so vegetables cook uniformly without breaking apart."
+        },
+        {
+          "number": 18,
+          "step": "Prepare sour cream temper mixture while root vegetables complete cooking phase."
+        },
+        {
+          "number": 19,
+          "step": "Verify all root vegetable pieces are fully submerged in simmering broth."
+        },
+        {
+          "number": 20,
+          "step": "Maintain organized work space by clearing vegetable peelings into trash bin."
+        }
+      ]
+    },
+    {
+      "name": "Meat Processing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Return seared kielbasa sausage rounds to Dutch oven containing soft vegetables."
+        },
+        {
+          "number": 2,
+          "step": "Stir sautéed grated pickles into soup pot, distributing pickles evenly throughout."
+        },
+        {
+          "number": 3,
+          "step": "Pour in measured dill pickle brine liquid and extra pickle juice into pot."
+        },
+        {
+          "number": 4,
+          "step": "Stir soup pot thoroughly to combine sour pickle brine with savory stock broth."
+        },
+        {
+          "number": 5,
+          "step": "Add garlic powder, onion powder, and celery salt into pot to deepen seasonings."
+        },
+        {
+          "number": 6,
+          "step": "Add ground nutmeg and white pepper to soup pot, stirring broth from bottom up."
+        },
+        {
+          "number": 7,
+          "step": "Simmer soup mixture uncovered for ten minutes to let pickle flavor infuse pot."
+        },
+        {
+          "number": 8,
+          "step": "Check that sausage slices are hot through and render additional smoky flavor."
+        },
+        {
+          "number": 9,
+          "step": "Taste broth to evaluate balance between sour pickle acidity and savory sausage."
+        },
+        {
+          "number": 10,
+          "step": "Add white wine vinegar and lemon juice if stronger sour note is desired in soup."
+        },
+        {
+          "number": 11,
+          "step": "Whisk sour cream, heavy cream, and all purpose flour in small mixing bowl."
+        },
+        {
+          "number": 12,
+          "step": "Ladle one cup of hot soup broth into cream mixture while whisking constantly."
+        },
+        {
+          "number": 13,
+          "step": "Tempering cream mixture prevents curdling when introduced into hot acidic soup."
+        },
+        {
+          "number": 14,
+          "step": "Whisk tempered cream mixture until completely smooth without any flour lumps."
+        },
+        {
+          "number": 15,
+          "step": "Slowly pour tempered cream mixture into simmering soup pot while stirring gently."
+        },
+        {
+          "number": 16,
+          "step": "Stir soup continuously for three minutes as flour thickens broth into silky texture."
+        },
+        {
+          "number": 17,
+          "step": "Reduce burner heat to low to prevent soup from boiling once cream is added."
+        },
+        {
+          "number": 18,
+          "step": "Check consistency of soup broth; it should coat back of wooden spoon lightly."
+        },
+        {
+          "number": 19,
+          "step": "Stir prepared horseradish into creamy broth for subtle sharp background kick."
+        },
+        {
+          "number": 20,
+          "step": "Keep pot at gentle simmer for five minutes to complete flavor integration step."
+        }
+      ]
+    },
+    {
+      "name": "Simmering",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Chop fresh dill finely, discarding coarse bottom stems on cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Chop fresh parsley and fresh chives finely for final herbal soup garnishes."
+        },
+        {
+          "number": 3,
+          "step": "Stir half of chopped fresh dill into simmering pickle soup pot gently."
+        },
+        {
+          "number": 4,
+          "step": "Stir chopped parsley into pot, holding remaining dill and chives for bowls."
+        },
+        {
+          "number": 5,
+          "step": "Fish out bay leaves and allspice berries from soup pot using spoon and discard."
+        },
+        {
+          "number": 6,
+          "step": "Season soup with sea salt flakes and black pepper after tasting thick broth."
+        },
+        {
+          "number": 7,
+          "step": "Add cayenne pepper for slight warm finish that complements sour pickle notes."
+        },
+        {
+          "number": 8,
+          "step": "Simmer soup on low heat for final three minutes to settle all combined flavors."
+        },
+        {
+          "number": 9,
+          "step": "Turn off stove burner flame and let Dutch oven sit on warm burner two minutes."
+        },
+        {
+          "number": 10,
+          "step": "Inspect soup surface to confirm creamy homogeneous texture throughout pot."
+        },
+        {
+          "number": 11,
+          "step": "Slice fresh rye bread into thick slices and place on bread board for table."
+        },
+        {
+          "number": 12,
+          "step": "Warm soup bowls by rinsing with hot water and drying with clean towel."
+        },
+        {
+          "number": 13,
+          "step": "Ladle generous portion of pickle soup into each warmed soup bowl carefully."
+        },
+        {
+          "number": 14,
+          "step": "Ensure each serving bowl receives balanced mix of sausage, potatoes, and pickles."
+        },
+        {
+          "number": 15,
+          "step": "Garnish center of each soup bowl with remaining fresh dill and chives."
+        },
+        {
+          "number": 16,
+          "step": "Dust top of each bowl lightly with additional black pepper and paprika."
+        },
+        {
+          "number": 17,
+          "step": "Drizzle few drops of olive oil on surface of each bowl for glossy finish."
+        },
+        {
+          "number": 18,
+          "step": "Arrange buttered rye bread slices beside each soup bowl on dining table."
+        },
+        {
+          "number": 19,
+          "step": "Provide extra sour cream at table for guests who prefer extra rich soup."
+        },
+        {
+          "number": 20,
+          "step": "Carry hot soup bowls to table immediately for ideal cozy dining enjoyment."
+        }
+      ]
+    },
+    {
+      "name": "Final Seasoning",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Verify overall acidity levels in soup bowls match traditional sour Polish profile."
+        },
+        {
+          "number": 2,
+          "step": "Offer extra pickle brine at table for guests seeking extreme tangy sharpness."
+        },
+        {
+          "number": 3,
+          "step": "Refrigerate any leftover soup in covered glass container after cooling completely."
+        },
+        {
+          "number": 4,
+          "step": "Note that pickle soup tastes even more flavorful when reheated next day."
+        },
+        {
+          "number": 5,
+          "step": "To reheat leftovers, warm gently over low heat on stove without boiling soup."
+        },
+        {
+          "number": 6,
+          "step": "Add splash of stock or water if soup thickens excessively in refrigerator overnight."
+        },
+        {
+          "number": 7,
+          "step": "Check that potatoes remain whole and soft without dissolving into broth base."
+        },
+        {
+          "number": 8,
+          "step": "Wipe Dutch oven rim clean before storing pot in refrigerator or serving table."
+        },
+        {
+          "number": 9,
+          "step": "Enjoy authentic one pot Polish dill pickle soup with warm rye bread slices."
+        },
+        {
+          "number": 10,
+          "step": "Clean cooking utensils and cutting boards while soup pot settles after meal."
+        },
+        {
+          "number": 11,
+          "step": "Serve soup as main course during cold weather family dinners and gatherings."
+        },
+        {
+          "number": 12,
+          "step": "Keep extra fresh dill herbs wrapped in damp towel for future soup batches."
+        },
+        {
+          "number": 13,
+          "step": "Confirm all diners enjoy contrast of smoky sausage with sour pickle broth."
+        },
+        {
+          "number": 14,
+          "step": "Store remaining rye bread wrapped tightly in paper bag to preserve crustiness."
+        },
+        {
+          "number": 15,
+          "step": "Check that pickle brine salinity was well balanced by potatoes during cook."
+        },
+        {
+          "number": 16,
+          "step": "Use remaining sour cream within three days for optimal fresh dairy flavor."
+        },
+        {
+          "number": 17,
+          "step": "Record any preferred spice adjustments in recipe notebook for future cooks."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra black pepper grinder handy at table for personal seasoning."
+        },
+        {
+          "number": 19,
+          "step": "Enjoy easy cleanup provided by cooking entire recipe inside one pot."
+        },
+        {
+          "number": 20,
+          "step": "Conclude Polish dinner service successfully with satisfied dinner guests."
+        }
+      ]
+    }
+  ]
+}

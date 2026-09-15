@@ -1,0 +1,923 @@
+{
+  "id": 9002038,
+  "title": "Seafood-Forward Polish Fishermans Soup",
+  "image": "generated://dishcovery/9002038.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This seafood-forward <b>Polish fisherman soup</b> delivers a coastal twist on traditional Eastern European comfort food. Grounded in a rich homemade fish stock scented with marjoram, allspice, and bay leaves, this soup features succulent cod, tender salmon fillets, and sweet bay scallops poached to perfection. Sautéed leeks, parsnips, carrots, and potatoes simmer right in the fragrant broth, providing a sweet root-vegetable backbone that balances the ocean flavors. A touch of sour cream, fresh dill, and lemon juice added at the end creates a silky texture and lively finish characteristic of authentic Polish soup craft. Vibrant red paprika oil drizzled over each bowl adds color, warmth, and subtle smoky top notes. Served piping hot with crusty rye bread and butter, this hearty soup offers a deeply satisfying, aromatic meal that warms from the inside out while honoring classic maritime cooking heritage.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 460,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 850,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 320,
+        "unit": "IU",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 146
+      },
+      {
+        "name": "Biotin",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Chromium",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Chloride",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "cod fillet"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "salmon fillet"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "bay scallops"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "cups",
+      "name": "seafood stock"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "large",
+      "name": "leek"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "medium",
+      "name": "parsnips"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "medium",
+      "name": "waxy potatoes"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "cloves",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried marjoram"
+    },
+    {
+      "id": 90011,
+      "amount": 3,
+      "unit": "whole",
+      "name": "allspice berries"
+    },
+    {
+      "id": 90012,
+      "amount": 2,
+      "unit": "whole",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90014,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped fresh dill"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sweet paprika"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced celery"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced yellow onion"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "flour"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "white wine"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "caraway seeds"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90027,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped parsley"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery seeds"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "canola oil"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dill seeds"
+    },
+    {
+      "id": 90033,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "crushed red pepper"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced mushrooms"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "horseradish"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90042,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped chives"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood Stock",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour seafood stock and white wine into a large heavy Dutch oven pot."
+        },
+        {
+          "number": 2,
+          "step": "Add whole allspice berries bay leaves celery seeds and dill seeds into the stock."
+        },
+        {
+          "number": 3,
+          "step": "Place the stock pot over high heat burner and bring liquid to a boil."
+        },
+        {
+          "number": 4,
+          "step": "Reduce heat burner to low cover pot with lid and simmer for fifteen minutes."
+        },
+        {
+          "number": 5,
+          "step": "Simmering infuses deep herbal allspice aromatics into rich fish broth base."
+        },
+        {
+          "number": 6,
+          "step": "Strain boiled stock through fine mesh sieve into large clean bowl removing spices."
+        },
+        {
+          "number": 7,
+          "step": "Return strained aromatic stock to pot and set aside on warm counter burner."
+        },
+        {
+          "number": 8,
+          "step": "Rinse cod fillet salmon fillet and bay scallops under cold running water gently."
+        },
+        {
+          "number": 9,
+          "step": "Pat seafood dry thoroughly using paper towels removing excess surface water moisture."
+        },
+        {
+          "number": 10,
+          "step": "Cut cod fillet and salmon fillet into uniform one inch bite sized cubes."
+        },
+        {
+          "number": 11,
+          "step": "Place cut fish cubes and bay scallops into glass dish keeping chilled refrigerated."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle seafood lightly with lemon juice white pepper and pinch of sea salt."
+        },
+        {
+          "number": 13,
+          "step": "Keep chilled seafood in refrigerator until final poaching step near soup completion."
+        },
+        {
+          "number": 14,
+          "step": "Inspect strained stock confirming clear fragrant golden amber broth ready for vegetables."
+        },
+        {
+          "number": 15,
+          "step": "Measure all remaining soup dry herbs like marjoram onion powder and garlic powder."
+        },
+        {
+          "number": 16,
+          "step": "Prepare vegetable cutting station with chef knife wooden board and prep bowls."
+        },
+        {
+          "number": 17,
+          "step": "Check that butter flour and canola oil are measured and accessible near stove."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra seafood stock or water nearby in case soup broth reduces too much."
+        },
+        {
+          "number": 19,
+          "step": "Verify allspice and bay leaf flavors are balanced without bitter overpowering herbal notes."
+        },
+        {
+          "number": 20,
+          "step": "Organize cooking space to make soup assembly seamless and clean throughout process."
+        },
+        {
+          "number": 21,
+          "step": "Cover stock pot loosely with lid maintaining warm liquid temperature on stove."
+        }
+      ]
+    },
+    {
+      "name": "Aromatic Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Melt butter and canola oil in heavy skillet over medium heat burner flame."
+        },
+        {
+          "number": 2,
+          "step": "Slice leek in half lengthwise washing dirt from layers and slicing thinly."
+        },
+        {
+          "number": 3,
+          "step": "Dice yellow onion celery and sliced mushrooms on clean wooden chopping board."
+        },
+        {
+          "number": 4,
+          "step": "Add sliced leek diced yellow onion celery and mushrooms into hot melted butter."
+        },
+        {
+          "number": 5,
+          "step": "Sauté aromatic vegetables for six minutes until soft translucent and delightfully fragrant."
+        },
+        {
+          "number": 6,
+          "step": "Add minced garlic caraway seeds mustard seeds dried marjoram and black pepper."
+        },
+        {
+          "number": 7,
+          "step": "Cook garlic and spices with aromatics for two additional minutes stirring continuously."
+        },
+        {
+          "number": 8,
+          "step": "Sprinkle flour over sautéed aromatic vegetables stirring constantly for one full minute."
+        },
+        {
+          "number": 9,
+          "step": "Flour coats vegetables and acts as light thickener for rich polish soup broth."
+        },
+        {
+          "number": 10,
+          "step": "Transfer sautéed aromatic vegetable mix directly into warm strained seafood stock pot."
+        },
+        {
+          "number": 11,
+          "step": "Stir stock pot thoroughly dissolving cooked flour coating into liquid without lumps."
+        },
+        {
+          "number": 12,
+          "step": "Set stock pot over medium heat burner bringing broth back to gentle simmer."
+        },
+        {
+          "number": 13,
+          "step": "Add onion powder garlic powder and crushed red pepper flakes to simmering pot."
+        },
+        {
+          "number": 14,
+          "step": "Taste broth and adjust salt level with sea salt based on personal taste."
+        },
+        {
+          "number": 15,
+          "step": "Maintain steady gentle simmer on medium-low heat while preparing root vegetables next."
+        },
+        {
+          "number": 16,
+          "step": "Cover pot partially with lid allowing steam to escape while retaining liquid volume."
+        },
+        {
+          "number": 17,
+          "step": "Scrape all browned bits from skillet into soup pot using silicone spatula tool."
+        },
+        {
+          "number": 18,
+          "step": "Check that leek and onion pieces are tender without any scorched dark edges."
+        },
+        {
+          "number": 19,
+          "step": "Ensure broth develops rich creamy sheen from butter flour aromatic vegetable mixture."
+        },
+        {
+          "number": 20,
+          "step": "Keep soup pot hovering at low simmer preparing for root vegetable addition."
+        }
+      ]
+    },
+    {
+      "name": "Root Vegetables",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel carrots parsnips and waxy potatoes using sharp vegetable swivel peeler tool."
+        },
+        {
+          "number": 2,
+          "step": "Cut carrots and parsnips into uniform quarter inch thick circular coin pieces."
+        },
+        {
+          "number": 3,
+          "step": "Dice waxy potatoes into neat half inch cubes for balanced even cooking."
+        },
+        {
+          "number": 4,
+          "step": "Dice red bell pepper into small quarter inch pieces for colorful soup contrast."
+        },
+        {
+          "number": 5,
+          "step": "Add sliced carrots parsnips diced potatoes and red bell pepper into simmering soup pot."
+        },
+        {
+          "number": 6,
+          "step": "Stir pot thoroughly ensuring root vegetables are fully submerged in hot broth."
+        },
+        {
+          "number": 7,
+          "step": "Cover soup pot tightly with lid and simmer over medium-low heat for fifteen minutes."
+        },
+        {
+          "number": 8,
+          "step": "Check root vegetables with fork ensuring potatoes carrots and parsnips are fork tender."
+        },
+        {
+          "number": 9,
+          "step": "Do not overcook root vegetables to mush keeping their neat structural shape intact."
+        },
+        {
+          "number": 10,
+          "step": "Skim any surface foam from simmering soup broth using wide metal spoon."
+        },
+        {
+          "number": 11,
+          "step": "Stir horseradish into simmering soup broth adding subtle traditional Polish heat kick."
+        },
+        {
+          "number": 12,
+          "step": "Verify that potato starches begin slightly thickening soup broth to velvety texture."
+        },
+        {
+          "number": 13,
+          "step": "Keep heat low preventing rapid boiling that could break delicate tender root vegetables."
+        },
+        {
+          "number": 14,
+          "step": "Prepare sour cream tempering mixture in small glass bowl while vegetables finish."
+        },
+        {
+          "number": 15,
+          "step": "Spoon sour cream and heavy cream into glass bowl with pinch of flour."
+        },
+        {
+          "number": 16,
+          "step": "Ladle half cup hot soup broth into sour cream whisking vigorously until smooth."
+        },
+        {
+          "number": 17,
+          "step": "Tempering sour cream prevents curdling when added to hot soup broth later."
+        },
+        {
+          "number": 18,
+          "step": "Set tempered sour cream mixture aside near stove ready for finishing stage."
+        },
+        {
+          "number": 19,
+          "step": "Retrieve chilled seasoned seafood pieces from refrigerator for next poaching step."
+        },
+        {
+          "number": 20,
+          "step": "Double check root vegetable tender texture before introducing delicate fresh seafood cubes."
+        }
+      ]
+    },
+    {
+      "name": "Seafood Poaching",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Gently drop cod cubes salmon cubes and bay scallops into simmering soup pot."
+        },
+        {
+          "number": 2,
+          "step": "Submerge seafood pieces carefully in hot broth using wooden spoon without crushing."
+        },
+        {
+          "number": 3,
+          "step": "Reduce stove heat burner to lowest setting maintaining very gentle poaching simmer."
+        },
+        {
+          "number": 4,
+          "step": "Cover pot tightly with lid poaching seafood gently for exactly five to six minutes."
+        },
+        {
+          "number": 5,
+          "step": "Gentle poaching keeps fish tender flaky and juicy without tough rubbery texture."
+        },
+        {
+          "number": 6,
+          "step": "Observe cod turning opaque white and salmon changing to delicate light pink color."
+        },
+        {
+          "number": 7,
+          "step": "Check that bay scallops are plump opaque and tender throughout after five minutes."
+        },
+        {
+          "number": 8,
+          "step": "Turn off heat burner entirely leaving soup pot resting on warm stove top."
+        },
+        {
+          "number": 9,
+          "step": "Pour tempered sour cream mixture slowly into soup pot stirring gently around fish."
+        },
+        {
+          "number": 10,
+          "step": "Add fresh lemon juice and chopped dill into soup pot stirring with care."
+        },
+        {
+          "number": 11,
+          "step": "Incorporate chopped parsley and lemon zest into rich soup giving bright herbal finish."
+        },
+        {
+          "number": 12,
+          "step": "Taste soup broth adjusting salt white pepper or lemon juice if desired."
+        },
+        {
+          "number": 13,
+          "step": "Allow soup to sit covered off heat for three minutes settling flavors harmoniously."
+        },
+        {
+          "number": 14,
+          "step": "Heat olive oil sweet paprika and smoked paprika in small pan making paprika oil."
+        },
+        {
+          "number": 15,
+          "step": "Warm paprika oil for one minute until fragrant and deep red colored."
+        },
+        {
+          "number": 16,
+          "step": "Pour paprika oil into small glass drizzling pitcher for table garnish serving."
+        },
+        {
+          "number": 17,
+          "step": "Prepare four deep soup bowls warming them in low oven before serving."
+        },
+        {
+          "number": 18,
+          "step": "Slice fresh rye bread and prepare creamery butter for serving alongside hot soup."
+        },
+        {
+          "number": 19,
+          "step": "Verify that seafood pieces remain whole and beautifully poached inside creamy broth."
+        },
+        {
+          "number": 20,
+          "step": "Prepare final garnish bowl with chopped chives and extra chopped fresh dill."
+        }
+      ]
+    },
+    {
+      "name": "Garnish and Serve",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Ladle hot fisherman soup carefully into warm deep ceramic soup serving bowls."
+        },
+        {
+          "number": 2,
+          "step": "Ensure each bowl receives generous equal portions of cod salmon scallops and vegetables."
+        },
+        {
+          "number": 3,
+          "step": "Drizzle prepared red paprika oil decoratively over top surface of each soup bowl."
+        },
+        {
+          "number": 4,
+          "step": "Garnish bowls generously with chopped chives fresh dill sprigs and lemon zest slices."
+        },
+        {
+          "number": 5,
+          "step": "Serve hot fisherman soup immediately accompanied by buttered slices of dark rye bread."
+        },
+        {
+          "number": 6,
+          "step": "Instruct guests to dip crusty rye bread directly into rich velvety seafood broth."
+        },
+        {
+          "number": 7,
+          "step": "Provide fresh lemon wedges on table side for extra bright citrus squeezing preference."
+        },
+        {
+          "number": 8,
+          "step": "Store any leftover soup in sealed container inside refrigerator for up to two days."
+        },
+        {
+          "number": 9,
+          "step": "Reheat leftover soup very gently on low heat burner avoiding boiling poached seafood."
+        },
+        {
+          "number": 10,
+          "step": "Boiling leftover soup causes delicate cod and salmon pieces to break apart easily."
+        },
+        {
+          "number": 11,
+          "step": "Add splash of fresh dill and lemon juice when serving reheated leftover soup portions."
+        },
+        {
+          "number": 12,
+          "step": "Appreciate how marjoram sour cream and seafood blend into authentic Polish flavor craft."
+        },
+        {
+          "number": 13,
+          "step": "Clean soup pot and cooking utensils easily using warm water and mild soap."
+        },
+        {
+          "number": 14,
+          "step": "Note down seafood proportions for future Polish fisherman soup cooking gatherings."
+        },
+        {
+          "number": 15,
+          "step": "Keep leftover paprika oil in sealed bottle for garnishing future seafood or potato soups."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy rich satisfying warmth of coastal Polish culinary heritage with dining guests."
+        },
+        {
+          "number": 17,
+          "step": "Pair soup with chilled white wine or mineral water for balanced dining experience."
+        },
+        {
+          "number": 18,
+          "step": "Reflect on how delicate poaching preserves sweetness of bay scallops and salmon."
+        },
+        {
+          "number": 19,
+          "step": "Serve as impressive main course dish for chilly autumn or winter dinner evenings."
+        },
+        {
+          "number": 20,
+          "step": "Celebrate successful seafood forward Polish soup creation loved by all seafood lovers."
+        },
+        {
+          "number": 21,
+          "step": "Finish meal enjoying delicious comforting aftertaste of rich dill seafood paprika broth."
+        }
+      ]
+    }
+  ]
+}

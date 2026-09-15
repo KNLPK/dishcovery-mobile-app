@@ -1,0 +1,934 @@
+{
+  "id": 9002042,
+  "title": "Celebration French Quenelles with Truffle Cream",
+  "image": "generated://dishcovery/9002042.jpg",
+  "readyInMinutes": 90,
+  "servings": 8,
+  "summary": "This extravagant <b>celebration French dumpling</b> recipe features delicate fish quenelles poached to airy perfection and served in a rich black truffle cream sauce. A traditional panada paste made from butter, milk, and flour provides the structural base for fine pike or pike-perch fillet mousse. Enhanced with <b>luxurious heavy cream</b>, egg whites, and subtle hints of ground nutmeg, the dumpling mixture is chilled before being shaped into elegant oval spoons. Gently poached in savory vegetable stock, these light dumplings expand into tender, feather-weight pillows of classic French gastronomy. A velvety pan sauce crafted from <b>black truffle butter</b>, dry white wine, shallots, and crème fraîche coats each quenelle with regal decadence. Designed for special holidays, milestone dinners, and festive celebrations, this dish showcases timeless culinary technique. Garnish each plate with <b>fresh chervil leaves</b> and paper-thin black truffle slices for an unforgettable dining experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 21,
+        "unit": "g",
+        "percentOfDailyNeeds": 105
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 195,
+        "unit": "mg",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 1,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 35,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Folate",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Calcium",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Choline",
+        "amount": 125,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Iodine",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Chromium",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Chloride",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Fluoride",
+        "amount": 0.04,
+        "unit": "mg",
+        "percentOfDailyNeeds": 1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "pike fillet"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "whole milk"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "cup",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "large",
+      "name": "egg whites"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "large",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90006,
+      "amount": 1.5,
+      "unit": "cup",
+      "name": "heavy whipping cream"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "black truffle butter"
+    },
+    {
+      "id": 90011,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "black truffle paste"
+    },
+    {
+      "id": 90012,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh black truffle"
+    },
+    {
+      "id": 90013,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "minced shallots"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "cup",
+      "name": "fish stock"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "creme fraiche"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh chervil"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "bay",
+      "name": "leaf"
+    },
+    {
+      "id": 90021,
+      "amount": 2,
+      "unit": "sprigs",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black peppercorns"
+    },
+    {
+      "id": 90024,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cognac"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tarragon leaves"
+    },
+    {
+      "id": 90026,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "grated gruyere cheese"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90028,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "water"
+    },
+    {
+      "id": 90029,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chives"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "vegetable stock"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "creamy dijon mustard"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "panko breadcrumbs"
+    },
+    {
+      "id": 90035,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "parsley"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90038,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sherry vinegar"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "leek white parts"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "celery diced"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "carrots diced"
+    },
+    {
+      "id": 90043,
+      "amount": 2,
+      "unit": "whole",
+      "name": "cloves"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sea salt for poaching"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Panada Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine whole milk and unsalted butter in a small heavy saucepan set over medium stovetop heat."
+        },
+        {
+          "number": 2,
+          "step": "Bring milk and butter to a gentle boil while stirring occasionally with a small wire whisk."
+        },
+        {
+          "number": 3,
+          "step": "Add all-purpose flour all at once into boiling milk mixture and stir vigorously with wooden spoon."
+        },
+        {
+          "number": 4,
+          "step": "Cook panada paste for two minutes on low heat until dough pulls away cleanly from pan sides."
+        },
+        {
+          "number": 5,
+          "step": "Transfer hot panada dough into a glass bowl and cool to room temperature for fifteen minutes."
+        },
+        {
+          "number": 6,
+          "step": "Beat two egg yolks into cooled panada dough one at a time using wooden spoon until smooth."
+        },
+        {
+          "number": 7,
+          "step": "Cover bowl tightly with plastic wrap and chill panada in refrigerator for thirty minutes."
+        },
+        {
+          "number": 8,
+          "step": "Inspect fresh pike fillet, ensuring all fine skin and bones are completely removed before chopping."
+        },
+        {
+          "number": 9,
+          "step": "Dice chilled pike fillet into half-inch cubes using clean sharp boning knife on prep board."
+        },
+        {
+          "number": 10,
+          "step": "Place diced pike fillet into bowl of chilled food processor fitted with sharp steel blade."
+        },
+        {
+          "number": 11,
+          "step": "Pulse diced fish fifteen times until finely ground into smooth pale fish paste without lumps."
+        },
+        {
+          "number": 12,
+          "step": "Add chilled panada dough into food processor bowl with ground fish paste and pulse to combine."
+        },
+        {
+          "number": 13,
+          "step": "Season mixture with salt, white pepper, ground nutmeg, and a tiny pinch of cayenne pepper."
+        },
+        {
+          "number": 14,
+          "step": "Add four egg whites one at a time while pulsing food processor until completely incorporated."
+        },
+        {
+          "number": 15,
+          "step": "Pour chilled heavy whipping cream gradually through feed tube while food processor is running."
+        },
+        {
+          "number": 16,
+          "step": "Process dumpling mousse for twenty seconds until creamy, uniform, glossy, and holds shape well."
+        },
+        {
+          "number": 17,
+          "step": "Pass fish mousse through fine drum sieve using silicone spatula to eliminate any residual fibers."
+        },
+        {
+          "number": 18,
+          "step": "Transfer sieved quenelle mousse into clean glass bowl and cover surface directly with plastic wrap."
+        },
+        {
+          "number": 19,
+          "step": "Chill dumpling mousse in refrigerator for at least one hour until firm enough to shape easily."
+        },
+        {
+          "number": 20,
+          "step": "Fill broad shallow poaching pan with fish stock, vegetable stock, bay leaf, thyme, and salt."
+        },
+        {
+          "number": 21,
+          "step": "Add leeks, celery, carrots, peppercorns, and cloves to poaching liquid to build deep flavor base."
+        },
+        {
+          "number": 22,
+          "step": "Bring poaching liquid to gentle simmer over medium burner heat then reduce heat to very low."
+        },
+        {
+          "number": 23,
+          "step": "Ensure poaching liquid maintains steady temperature between one hundred seventy and eighty degrees."
+        },
+        {
+          "number": 24,
+          "step": "Prepare two matching large oval dinner spoons and cup of cold water for shaping quenelles smoothly."
+        },
+        {
+          "number": 25,
+          "step": "Prepare large rimmed baking dish brushed with warm clarified butter to store poached quenelles."
+        },
+        {
+          "number": 26,
+          "step": "Organize fine slotted metal skimmer spoon near poaching pan for gentle dumpling retrieval."
+        }
+      ]
+    },
+    {
+      "name": "Mousse Blend",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Dip two large oval spoons into cold water bath to prevent dumpling mousse from sticking to metal."
+        },
+        {
+          "number": 2,
+          "step": "Scoop a smooth generous oval portion of chilled fish mousse using first wet oval spoon."
+        },
+        {
+          "number": 3,
+          "step": "Use second wet spoon to scrape against first spoon, shaping mousse into smooth three-sided quenelle."
+        },
+        {
+          "number": 4,
+          "step": "Smooth surface of quenelle dumpling by transferring between two wet spoons three or four times."
+        },
+        {
+          "number": 5,
+          "step": "Gently slip shaped quenelle dumpling off spoon directly into barely simmering poaching broth liquid."
+        },
+        {
+          "number": 6,
+          "step": "Repeat shaping and dipping process for remaining chilled mousse to form sixteen uniform quenelles."
+        },
+        {
+          "number": 7,
+          "step": "Poach quenelle dumplings gently in hot broth for ten to twelve minutes without boiling liquid."
+        },
+        {
+          "number": 8,
+          "step": "Turn quenelles carefully using slotted skimmer spoon halfway through poaching time for even cooking."
+        },
+        {
+          "number": 9,
+          "step": "Observe quenelles expanding puffing up lightly into fluffy soft pillows as internal protein sets."
+        },
+        {
+          "number": 10,
+          "step": "Lift poached quenelle carefully using slotted skimmer spoon, draining excess broth back into pan."
+        },
+        {
+          "number": 11,
+          "step": "Transfer cooked quenelles into buttered baking dish in single layer without crowding dumplings."
+        },
+        {
+          "number": 12,
+          "step": "Cover baking dish loosely with parchment paper to keep quenelle dumplings moist and warm."
+        },
+        {
+          "number": 13,
+          "step": "Melt two tablespoons of black truffle butter in separate saucepan over medium-low heat burner."
+        },
+        {
+          "number": 14,
+          "step": "Add minced shallots to melted truffle butter and sauté for three minutes until soft and translucent."
+        },
+        {
+          "number": 15,
+          "step": "Pour dry white wine and cognac into saucepan with sautéed shallots to deglaze pan bottom."
+        },
+        {
+          "number": 16,
+          "step": "Simmer wine mixture for four minutes until liquid reduces by half and releases rich wine aroma."
+        },
+        {
+          "number": 17,
+          "step": "Strain half cup of hot poaching broth through fine mesh strainer directly into wine sauce reduction."
+        },
+        {
+          "number": 18,
+          "step": "Whisk crème fraîche, truffle paste, and creamy Dijon mustard into saucepan until smooth and creamy."
+        },
+        {
+          "number": 19,
+          "step": "Simmer truffle cream sauce over low heat for five minutes until thick enough to coat spoon back."
+        },
+        {
+          "number": 20,
+          "step": "Season truffle sauce with salt, white pepper, and lemon juice to balance rich creamy flavor profile."
+        },
+        {
+          "number": 21,
+          "step": "Preheat oven broiler to high setting to prepare for final quenelle glazing celebration step."
+        },
+        {
+          "number": 22,
+          "step": "Pour half of rich black truffle cream sauce evenly over poached quenelles inside baking dish."
+        },
+        {
+          "number": 23,
+          "step": "Sprinkle grated Gruyere cheese lightly over sauce-covered quenelles for subtle golden gratin finish."
+        },
+        {
+          "number": 24,
+          "step": "Place baking dish under oven broiler for two minutes until sauce bubbles and top turns golden."
+        },
+        {
+          "number": 25,
+          "step": "Watch dish closely under broiler to prevent delicate truffle sauce and cheese from scorching."
+        },
+        {
+          "number": 26,
+          "step": "Remove baking dish carefully from broiler using thick oven mitts and set onto heatproof counter."
+        }
+      ]
+    },
+    {
+      "name": "Poaching",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Warm eight wide shallow porcelain dinner bowls on tray to ensure hot serving presentation."
+        },
+        {
+          "number": 2,
+          "step": "Place two hot glazed quenelle dumplings neatly in center of each warmed shallow porcelain bowl."
+        },
+        {
+          "number": 3,
+          "step": "Spoon remaining hot black truffle cream sauce around base of quenelles inside each bowl."
+        },
+        {
+          "number": 4,
+          "step": "Slice fresh black truffle paper-thin using precision truffle mandoline slicer over prep dish."
+        },
+        {
+          "number": 5,
+          "step": "Gently arrange three thin black truffle slices on top of quenelles in each serving dish."
+        },
+        {
+          "number": 6,
+          "step": "Garnish each bowl with fresh chervil leaves, chopped chives, and delicate sprigs of tarragon."
+        },
+        {
+          "number": 7,
+          "step": "Dust small pinch of sea salt flakes over top for delicate mineral crunch and finish accent."
+        },
+        {
+          "number": 8,
+          "step": "Wipe rims of serving porcelain bowls with fresh warm damp cloth for clean elegant presentation."
+        },
+        {
+          "number": 9,
+          "step": "Serve celebration quenelles immediately to guests while piping hot, fluffy, and fragrant."
+        },
+        {
+          "number": 10,
+          "step": "Pair this royal French dish with chilled white Burgundy or dry Champagne for festive toast."
+        },
+        {
+          "number": 11,
+          "step": "Provide small soup spoons so guests can enjoy every drop of rich black truffle cream sauce."
+        },
+        {
+          "number": 12,
+          "step": "Inform dining guests that dumplings are delicate pike mousse prepared in classic French style."
+        },
+        {
+          "number": 13,
+          "step": "Enjoy luxurious light texture of quenelles melting gracefully into velvety truffle cream sauce."
+        },
+        {
+          "number": 14,
+          "step": "Keep leftover poaching broth in freezer container to serve as rich seafood soup base later."
+        },
+        {
+          "number": 15,
+          "step": "Clean food processor bowl anddrum sieve immediately with warm soapy water to remove fish oils."
+        },
+        {
+          "number": 16,
+          "step": "Store extra fresh black truffle wrapped in paper towel inside glass jar in refrigerator."
+        },
+        {
+          "number": 17,
+          "step": "Reflect on precise culinary techniques of panada making, mousse sifting, and gentle poaching."
+        },
+        {
+          "number": 18,
+          "step": "Offer extra warm French baguette slices at table for wiping up excess truffle cream sauce."
+        },
+        {
+          "number": 19,
+          "step": "Maintain warm ambiance in dining area to complement festive celebration French dinner course."
+        },
+        {
+          "number": 20,
+          "step": "Clear finished appetizer bowls smoothly before presenting next course of celebration dinner."
+        },
+        {
+          "number": 21,
+          "step": "Store any leftover cooked quenelles in sauce in airtight container in fridge up to one day."
+        },
+        {
+          "number": 22,
+          "step": "Reheat leftovers gently in covered dish in three hundred degree oven for ten minutes until warm."
+        },
+        {
+          "number": 23,
+          "step": "Avoid microwaving quenelles as intense sudden heat will ruin delicate light airy dumpling texture."
+        },
+        {
+          "number": 24,
+          "step": "Wipe kitchen counters thoroughly and return truffle butter and paste jars to cool refrigerator."
+        },
+        {
+          "number": 25,
+          "step": "Celebrate successful execution of legendary French classic dish with guests and dinner hosts."
+        },
+        {
+          "number": 26,
+          "step": "Conclude memorable meal with pride in mastering delicate pike quenelles in rich truffle cream."
+        }
+      ]
+    },
+    {
+      "name": "Sauce Coating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Verify all dinner guests have received their quenelle bowls while dish remains piping hot."
+        },
+        {
+          "number": 2,
+          "step": "Ensure wine glasses are filled with chilled Burgundy to match rich earthy truffle cream notes."
+        },
+        {
+          "number": 3,
+          "step": "Enjoy joyful holiday conversations surrounding table while guests savor light fish dumplings."
+        },
+        {
+          "number": 4,
+          "step": "Observe how airy texture of poached quenelles contrasts wonderfully with velvety cream sauce."
+        },
+        {
+          "number": 5,
+          "step": "Keep extra sauce warm in small thermal saucier boat if guests request second spoonings."
+        },
+        {
+          "number": 6,
+          "step": "Check that dining table presentation remains clean, elegant, and worthy of celebration dinner."
+        },
+        {
+          "number": 7,
+          "step": "Gather initial feedback from guests on delicate spice balance of nutmeg and truffle paste."
+        },
+        {
+          "number": 8,
+          "step": "Ensure all serving trays and trivets are wiped dry before storing away in kitchen cabinets."
+        },
+        {
+          "number": 9,
+          "step": "Offer fresh sparkling water at table to cleanse palates between rich celebration courses."
+        },
+        {
+          "number": 10,
+          "step": "Tidy cooking range top and soak heavy poaching pan in warm soapy water for easy washing."
+        },
+        {
+          "number": 11,
+          "step": "Appreciate timeless elegance of French haute cuisine brought to life for special milestone."
+        },
+        {
+          "number": 12,
+          "step": "Keep fresh chervil sprigs moist in glass of cold water if garnishing additional portions later."
+        },
+        {
+          "number": 13,
+          "step": "Check temperature of refrigerator to ensure stored fish mousse leftovers remain below forty."
+        },
+        {
+          "number": 14,
+          "step": "Double check that all gas stovetop controls and oven broiler switches are fully turned off."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy deep satisfaction of crafting authentic handmade quenelles for festive family gathering."
+        },
+        {
+          "number": 16,
+          "step": "Provide soft linen cloth napkins for guests to complement refined upscale dining experience."
+        },
+        {
+          "number": 17,
+          "step": "Note how truffle butter elevates simple cream reduction into deeply luxurious pan sauce."
+        },
+        {
+          "number": 18,
+          "step": "Keep remaining fresh chives sealed tightly in small food bag to preserve bright green color."
+        },
+        {
+          "number": 19,
+          "step": "Prepare dessert plates or cheese course setup while guests enjoy final bites of quenelles."
+        },
+        {
+          "number": 20,
+          "step": "Store wooden spoons and drum sieves carefully after thorough washing and towel drying."
+        },
+        {
+          "number": 21,
+          "step": "Savor quiet post-dinner moments knowing celebration meal was resounding culinary success."
+        },
+        {
+          "number": 22,
+          "step": "Clear table gently and organize glassware for washing with non-abrasive soft dish towels."
+        },
+        {
+          "number": 23,
+          "step": "Review recipe notes to preserve personal adjustments made to panada or truffle sauce ratio."
+        },
+        {
+          "number": 24,
+          "step": "Thank guests for joining celebration and sharing appreciation for fine homemade French cooking."
+        },
+        {
+          "number": 25,
+          "step": "Finalize all kitchen tasks with total confidence, pride, and culinary satisfaction guaranteed."
+        }
+      ]
+    }
+  ]
+}

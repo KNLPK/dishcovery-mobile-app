@@ -105,8 +105,16 @@ const MIN_INTERVAL_MS = 4500;
 const WINDOW_MS = 60_000;
 const WINDOW_MAX_REQUESTS = 15;
 
-/** 429 backoff schedule, in ms. Retry-After overrides these when present. */
-const BACKOFF_MS = [30_000, 60_000, 120_000];
+/**
+ * Backoff schedule, in ms. Retry-After overrides these when present.
+ *
+ * EVERY retry is a billed request: on 2026-09-15 three batches that failed on
+ * 503 ("high demand") each spent 4 of the day's 20 requests and returned
+ * nothing. Retries are therefore few and spaced widely — a demand spike is not
+ * resolved by hammering it — and a batch that still fails is simply retried on
+ * the next loop iteration, where it counts as one more request.
+ */
+const BACKOFF_MS = [120_000, 300_000];
 
 // ─── Generation config ────────────────────────────────────────────────────────
 //
@@ -1460,6 +1468,10 @@ async function main(): Promise<void> {
     ? { ...prior.batching.batchSize }
     : { ...INITIAL_BATCH_SIZE };
   let observedMaxThinking: number | null = prior ? prior.batching.observedMaxThinkingTokens : null;
+  const correction: Record<ComplexityTier, { stepDelta: number; ingredientDelta: number }> =
+    prior?.batching?.correction
+      ? JSON.parse(JSON.stringify(prior.batching.correction))
+      : { low: { stepDelta: 0, ingredientDelta: 0 }, medium: { stepDelta: 0, ingredientDelta: 0 }, high: { stepDelta: 0, ingredientDelta: 0 } };
   let totalRequests = prior ? prior.totalRequests : 0;
   const priorDurationMs = prior ? prior.pacing.observedDurationMs : 0;
   const priorPeakRpm = prior ? prior.pacing.observedPeakRpm : 0;
@@ -1601,6 +1613,7 @@ async function main(): Promise<void> {
         tokensPerItem: { ...TOKENS_PER_ITEM },
         thinkingReserveTokens: THINKING_RESERVE_TOKENS,
         observedMaxThinkingTokens: observedMaxThinking,
+        correction,
       },
       promptArtifacts: artifacts.hashes,
       selection: { method: SELECTION_METHOD, seed: SELECTION_SEED, perTier },
@@ -1693,9 +1706,12 @@ async function main(): Promise<void> {
     // Tier-level correction state. A batch whose items mostly miss the band
     // shifts the counts for the next batch, using the byte model; the next
     // prompt is the corrective template carrying the diagnosis.
-    let stepDelta = 0;
-    let ingredientDelta = 0;
+    let stepDelta = correction[tier].stepDelta;
+    let ingredientDelta = correction[tier].ingredientDelta;
     let pendingDiagnosis: string | null = null;
+    if (stepDelta !== 0 || ingredientDelta !== 0) {
+      console.log(`[gen] ${tier}: carrying correction stepDelta=${stepDelta} ingredientDelta=${ingredientDelta} from the manifest`);
+    }
 
     while (acceptedByTier()[tier] < counts[tier]) {
       // Cooperative stop: a STOP file in fixtures/generated/ ends the session
@@ -1824,6 +1840,7 @@ async function main(): Promise<void> {
         const delta = bandAim(tier) - meanMiss;
         const stepShift = Math.round(delta / BYTES.perStep);
         stepDelta += stepShift;
+        correction[tier] = { stepDelta, ingredientDelta };
         pendingDiagnosis =
           `Of the ${Math.min(parsed.length, size)} documents in the previous batch, ${bandMisses.length} fell outside ` +
           `the band; their mean size was ${Math.round(meanMiss)} bytes, ${Math.abs(Math.round(delta))} bytes too ` +

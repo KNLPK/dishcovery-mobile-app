@@ -1,0 +1,934 @@
+{
+  "id": 9002045,
+  "title": "Quick Peruvian Cassava Dumplings with Spicy Beef",
+  "image": "generated://dishcovery/9002045.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This vibrant weeknight recipe features <b>pan-seared cassava dumplings</b> packed with savory ground beef and warm Andean spices. Cassava dough forms a tender casing that crisps nicely in hot oil while holding a moist and aromatic vegetable beef filling. Fresh herbs like cilantro, parsley, and green onions are folded into the meat to balance the richness of garlic, cumin, and sweet paprika. The dish comes together quickly by using pre-boiled cassava roots that mash smoothly into a workable dough without extra binding agents. A light dusting of cornstarch creates a delicate crispy outer layer during frying. Served alongside a bright red onion salsa seasoned with lime juice, this dish delivers an authentic taste of Peruvian home cooking in less than an hour. The contrast between crisp shell, rich filling, and tangy salsa makes every bite memorable. Perfect for busy weeknights, this recipe offers a delicious meal that feels truly special without requiring hours of complex preparation in the kitchen.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 22.5
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4.4
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sodium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.2
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38.8
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 10,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2.5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20.8
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.3
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29.4
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16.2
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Biotin",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Choline",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 60,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.7
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25.7
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34.5
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 32.7
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Chromium",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11.4
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Chloride",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "cassava root"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "ground beef"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "pc",
+      "name": "red onion"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "aji amarillo paste"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cornstarch"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "pc",
+      "name": "egg yolk"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90014,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "raisins"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced black olives"
+    },
+    {
+      "id": 90018,
+      "amount": 2,
+      "unit": "pc",
+      "name": "hard boiled eggs"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "annatto oil"
+    },
+    {
+      "id": 90020,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cayenne"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "water"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped scallions"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lime zest"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped mint"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pisco acid"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90035,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mustard powder"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lard"
+    },
+    {
+      "id": 90037,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "diced red bell pepper"
+    },
+    {
+      "id": 90038,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "diced yellow bell pepper"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "aji panca paste"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "beef broth"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90044,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dough Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure the specified quantity of cassava root carefully and place it on a clean board."
+        },
+        {
+          "number": 2,
+          "step": "Peel the thick outer bark from the cassava root completely using a sharp paring knife."
+        },
+        {
+          "number": 3,
+          "step": "Cut the peeled cassava roots into uniform two inch chunks for even boiling in water."
+        },
+        {
+          "number": 4,
+          "step": "Transfer cassava chunks to a medium saucepan and cover with cold water by one inch."
+        },
+        {
+          "number": 5,
+          "step": "Add half a teaspoon of salt to the water and bring it to a rolling boil over high heat."
+        },
+        {
+          "number": 6,
+          "step": "Reduce heat to medium and simmer until cassava chunks are tender when pierced with fork."
+        },
+        {
+          "number": 7,
+          "step": "Drain hot water thoroughly using a colander and let steam evaporate for two minutes."
+        },
+        {
+          "number": 8,
+          "step": "Remove any fibrous woody core pieces from the center of cooked cassava chunks immediately."
+        },
+        {
+          "number": 9,
+          "step": "Transfer warm cassava pieces into a spacious bowl while still hot for smooth mashing."
+        },
+        {
+          "number": 10,
+          "step": "Mash cassava thoroughly with a potato masher until no lumps remain in the dough paste."
+        },
+        {
+          "number": 11,
+          "step": "Add the butter and egg yolk into warm cassava dough, stirring continuously to blend."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle cornstarch evenly over mash and fold gently until smooth texture is reached."
+        },
+        {
+          "number": 13,
+          "step": "Add onion powder and garlic powder to dough mix, kneading lightly for one minute."
+        },
+        {
+          "number": 14,
+          "step": "Season cassava mixture with white pepper and half teaspoon salt, blending thoroughly."
+        },
+        {
+          "number": 15,
+          "step": "Shape dough into a smooth ball inside bowl and cover with clean kitchen towel."
+        },
+        {
+          "number": 16,
+          "step": "Let cassava dough rest at room temperature for ten minutes to settle starch structure."
+        },
+        {
+          "number": 17,
+          "step": "Divide rested dough into equal portions using a bench scraper on clean counter space."
+        },
+        {
+          "number": 18,
+          "step": "Roll each portion between palms to create smooth dough spheres without surface cracks."
+        },
+        {
+          "number": 19,
+          "step": "Dust hands lightly with extra cornstarch if dough feels slightly tacky to handle."
+        },
+        {
+          "number": 20,
+          "step": "Flatten each dough ball into a round flat disc roughly three inches in diameter."
+        },
+        {
+          "number": 21,
+          "step": "Indent center of each disc slightly with thumb to create shallow filling well."
+        },
+        {
+          "number": 22,
+          "step": "Arrange dough discs on parchment lined baking sheet in single layer with gaps."
+        },
+        {
+          "number": 23,
+          "step": "Cover prepared dough discs loosely with plastic wrap to prevent surface drying."
+        },
+        {
+          "number": 24,
+          "step": "Check consistency of dough discs to ensure edge borders remain moist and pliable."
+        },
+        {
+          "number": 25,
+          "step": "Set dough discs aside in cool kitchen spot while proceeding to meat filling step."
+        },
+        {
+          "number": 26,
+          "step": "Confirm all dough discs are uniform size to guarantee consistent cooking times later."
+        }
+      ]
+    },
+    {
+      "name": "Filling Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat vegetable oil and annatto oil in skillet over medium temperature until shimmer."
+        },
+        {
+          "number": 2,
+          "step": "Add finely diced red onion to skillet and cook for three minutes until softened."
+        },
+        {
+          "number": 3,
+          "step": "Stir in minced garlic and cook for one minute until fragrant without burning garlic."
+        },
+        {
+          "number": 4,
+          "step": "Add aji amarillo paste and aji panca paste to skillet, blending into onion mix."
+        },
+        {
+          "number": 5,
+          "step": "Sauté spice pastes for two minutes until aromatic oils release rich orange color."
+        },
+        {
+          "number": 6,
+          "step": "Add ground beef to skillet, breaking up clumps with wooden spoon as it cooks."
+        },
+        {
+          "number": 7,
+          "step": "Cook meat for five minutes until evenly browned and no pink color remains in pan."
+        },
+        {
+          "number": 8,
+          "step": "Season meat mixture with ground cumin, paprika, dried oregano, and chili powder."
+        },
+        {
+          "number": 9,
+          "step": "Add ground cayenne pepper and ground turmeric for deep warm spice undertones."
+        },
+        {
+          "number": 10,
+          "step": "Stir in diced red bell pepper and diced yellow bell pepper for color contrast."
+        },
+        {
+          "number": 11,
+          "step": "Pour in beef broth and stir thoroughly to scrape up browned bits from bottom."
+        },
+        {
+          "number": 12,
+          "step": "Simmer beef mixture on low heat for four minutes until liquid evaporates completely."
+        },
+        {
+          "number": 13,
+          "step": "Add raisins to pan and stir gently to plump them up in warm savory juices."
+        },
+        {
+          "number": 14,
+          "step": "Stir in sliced black olives evenly throughout rich meat filling mixture in pan."
+        },
+        {
+          "number": 15,
+          "step": "Remove skillet from heat source and set aside to cool slightly before herbs."
+        },
+        {
+          "number": 16,
+          "step": "Fold in chopped fresh cilantro, fresh parsley, and chopped scallions into warm filling."
+        },
+        {
+          "number": 17,
+          "step": "Add diced hard boiled eggs gently to preserve small chunks throughout meat sauce."
+        },
+        {
+          "number": 18,
+          "step": "Season filling with remaining salt and black pepper according to taste preference."
+        },
+        {
+          "number": 19,
+          "step": "Drizzle sesame oil into filling and stir once to integrate warm earthy aroma."
+        },
+        {
+          "number": 20,
+          "step": "Transfer filling mixture into shallow dish to accelerate cooling down process."
+        },
+        {
+          "number": 21,
+          "step": "Spread filling evenly in dish so steam releases quickly without sogginess."
+        },
+        {
+          "number": 22,
+          "step": "Taste filling to verify balanced heat level from peppers and dry spice blend."
+        },
+        {
+          "number": 23,
+          "step": "Let filling cool to lukewarm temperature so dough handles easily when filling."
+        },
+        {
+          "number": 24,
+          "step": "Divide meat filling mentally into equal portions corresponding to dough discs."
+        },
+        {
+          "number": 25,
+          "step": "Keep filling covered with foil to retain moisture until assembly begins on table."
+        },
+        {
+          "number": 26,
+          "step": "Clear assembly work area to prepare smooth workflow for dumpling sealing process."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place one cassava dough disc flat on palm of non-dominant hand for easy filling."
+        },
+        {
+          "number": 2,
+          "step": "Spoon one heap tablespoon of cooled meat filling into center of dough disc."
+        },
+        {
+          "number": 3,
+          "step": "Fold edges of cassava dough up around filling, pressing top together firmly."
+        },
+        {
+          "number": 4,
+          "step": "Smooth seam lines using wet fingertips to seal meat inside dough completely."
+        },
+        {
+          "number": 5,
+          "step": "Shape filled dumpling into oblong egg shape between palms with light pressure."
+        },
+        {
+          "number": 6,
+          "step": "Inspect dumpling seam carefully to make sure no filling breaks through shell."
+        },
+        {
+          "number": 7,
+          "step": "Place completed dumpling onto parchment lined baking sheet with space around it."
+        },
+        {
+          "number": 8,
+          "step": "Repeat filling process for second dough disc, sealing edge securely with fingers."
+        },
+        {
+          "number": 9,
+          "step": "Repeat filling process for third dough disc, shaping smooth exterior surfaces."
+        },
+        {
+          "number": 10,
+          "step": "Repeat filling process for fourth dough disc, ensuring full compact interior."
+        },
+        {
+          "number": 11,
+          "step": "Repeat filling process for fifth dough disc, keeping uniform oval silhouette."
+        },
+        {
+          "number": 12,
+          "step": "Repeat filling process for sixth dough disc, checking tight closure on seams."
+        },
+        {
+          "number": 13,
+          "step": "Repeat filling process for seventh dough disc, smoothing cassava skin gently."
+        },
+        {
+          "number": 14,
+          "step": "Repeat filling process for eighth dough disc, adjusting filling volume inside."
+        },
+        {
+          "number": 15,
+          "step": "Lightly dust all assembled dumplings with remaining cornstarch for crisp outer shell."
+        },
+        {
+          "number": 16,
+          "step": "Roll dumplings gently in cornstarch to coat surface thinly without heavy buildup."
+        },
+        {
+          "number": 17,
+          "step": "Shake off excess starch gently over tray before placing dumplings back on sheet."
+        },
+        {
+          "number": 18,
+          "step": "Chill assembled dumplings in refrigerator for ten minutes to firm up cassava dough."
+        },
+        {
+          "number": 19,
+          "step": "Prepare skillet by wiping dry and checking clean cooking surface for frying step."
+        },
+        {
+          "number": 20,
+          "step": "Combine extra olive oil and lard in skillet over medium heat for pan searing."
+        },
+        {
+          "number": 21,
+          "step": "Verify oil temperature reaches three hundred fifty degrees before placing dumplings."
+        },
+        {
+          "number": 22,
+          "step": "Remove dumplings from refrigerator and arrange near stove for fast cooking access."
+        },
+        {
+          "number": 23,
+          "step": "Check that all seam seals remain tight and intact after chilling in fridge."
+        },
+        {
+          "number": 24,
+          "step": "Prepare paper towel lined plate next to skillet for draining cooked dumplings."
+        },
+        {
+          "number": 25,
+          "step": "Prepare tongs or slotted spatula for turning dumplings gently inside hot skillet."
+        },
+        {
+          "number": 26,
+          "step": "Confirm all cooked prep items are ready for rapid cooking and plating sequence."
+        }
+      ]
+    },
+    {
+      "name": "Cooking and Finishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully lower four dumplings into hot oil in skillet using long metal tongs."
+        },
+        {
+          "number": 2,
+          "step": "Fry dumplings for three minutes without moving to establish solid golden crust."
+        },
+        {
+          "number": 3,
+          "step": "Turn dumplings one quarter turn gently to cook adjacent side for two minutes."
+        },
+        {
+          "number": 4,
+          "step": "Rotate dumplings again to sear third side evenly until rich golden color shows."
+        },
+        {
+          "number": 5,
+          "step": "Fry final side for two minutes until entire outer cassava shell is crispy."
+        },
+        {
+          "number": 6,
+          "step": "Transfer golden dumplings to paper towel lined plate to drain off oil."
+        },
+        {
+          "number": 7,
+          "step": "Place remaining four dumplings into skillet carefully using long metal tongs."
+        },
+        {
+          "number": 8,
+          "step": "Fry second batch for three minutes until bottom crust becomes crisp and dark."
+        },
+        {
+          "number": 9,
+          "step": "Turn second batch dumplings quarter turn to fry sides evenly for two minutes."
+        },
+        {
+          "number": 10,
+          "step": "Rotate second batch again, cooking until uniform golden color coats entire shell."
+        },
+        {
+          "number": 11,
+          "step": "Fry remaining side for two minutes until hot and fully cooked through center."
+        },
+        {
+          "number": 12,
+          "step": "Transfer second batch to paper towel plate to drain alongside first batch."
+        },
+        {
+          "number": 13,
+          "step": "Mix lime juice, apple cider vinegar, pisco acid, and brown sugar in small bowl."
+        },
+        {
+          "number": 14,
+          "step": "Add chopped mint, chopped chives, and sea salt flakes to liquid salsa mix."
+        },
+        {
+          "number": 15,
+          "step": "Stir quick salsa dressing vigorously until sugar dissolves into citrus juice base."
+        },
+        {
+          "number": 16,
+          "step": "Arrange two warm golden dumplings on each serving plate in attractive angle."
+        },
+        {
+          "number": 17,
+          "step": "Spoon quick citrus herbal salsa lightly over top of each warm cassava dumpling."
+        },
+        {
+          "number": 18,
+          "step": "Garnish plates with lime zest and fresh cilantro leaves for vibrant finish."
+        },
+        {
+          "number": 19,
+          "step": "Sprinkle ground coriander lightly around plate rims for additional aroma."
+        },
+        {
+          "number": 20,
+          "step": "Check plate presentation to ensure dumplings look crisp and inviting to eat."
+        },
+        {
+          "number": 21,
+          "step": "Drizzle remaining salsa juices over dumplings right before carrying to table."
+        },
+        {
+          "number": 22,
+          "step": "Serve dumplings immediately while cassava shell remains crispy and piping hot."
+        },
+        {
+          "number": 23,
+          "step": "Provide extra lime wedges on side for guests wanting extra acidic punch."
+        },
+        {
+          "number": 24,
+          "step": "Discard remaining frying oil safely after skillet cools completely on stove."
+        },
+        {
+          "number": 25,
+          "step": "Enjoy fresh weeknight Peruvian dumplings immediately for best crispy texture."
+        }
+      ]
+    }
+  ]
+}

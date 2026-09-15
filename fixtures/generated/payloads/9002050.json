@@ -1,0 +1,934 @@
+{
+  "id": 9002050,
+  "title": "Slow Braised Italian Pork Shoulder with Smoked Scamorza",
+  "image": "generated://dishcovery/9002050.jpg",
+  "readyInMinutes": 180,
+  "servings": 8,
+  "summary": "This comforting <b>slow-braised pork shoulder</b> cooked with smoked scamorza cheese offers profound depth of savory Italian flavor. Marbled pork shoulder is seared golden brown and simmered slowly in a rich bath of Chianti red wine, crushed tomatoes, and smoked pancetta. Aromatics like soffritto, garlic, and fresh rosemary melt into the braising liquid, creating a velvety sauce. Smoked scamorza cheese melted over shredded pork at the finish introduces a creamy, wood-smoked richness that sets this dish apart. The lengthy, low-temperature cook breaks down connective tissue in the pork until spoon-tender and infused with smoky pan juices. Fresh basil, parsley, and lemon zest sprinkled on top offer a bright counterpoint to the deep, smoky stew base. Perfect for cold weekend dinners, this centerpiece dish fills the home with cozy, inviting aromas as it gently simmers on the stove. Served over soft creamy polenta or wide pappardelle pasta, it delivers an unforgettable Italian feast experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 58.5
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 6.7
+      },
+      {
+        "name": "Protein",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Sodium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35.7
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15.6
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 25,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6.3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18.3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 66.7
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30.8
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53.1
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41.2
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62.5
+      },
+      {
+        "name": "Biotin",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13.3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.3
+      },
+      {
+        "name": "Calcium",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17.8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54.3
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9.5
+      },
+      {
+        "name": "Zinc",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40.9
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69.1
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22.2
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8.6
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33.3
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13.2
+      },
+      {
+        "name": "Chloride",
+        "amount": 450,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19.6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.2,
+      "unit": "kg",
+      "name": "pork shoulder roast"
+    },
+    {
+      "id": 90001,
+      "amount": 150,
+      "unit": "g",
+      "name": "smoked scamorza cheese"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "smoked pancetta diced"
+    },
+    {
+      "id": 90003,
+      "amount": 250,
+      "unit": "ml",
+      "name": "chianti red wine"
+    },
+    {
+      "id": 90004,
+      "amount": 400,
+      "unit": "g",
+      "name": "can crushed tomatoes"
+    },
+    {
+      "id": 90005,
+      "amount": 500,
+      "unit": "ml",
+      "name": "beef stock"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "pc",
+      "name": "yellow onion diced"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "pc",
+      "name": "carrots diced"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "pc",
+      "name": "celery stalks diced"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "sprig",
+      "name": "fresh rosemary"
+    },
+    {
+      "id": 90012,
+      "amount": 4,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "pc",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90014,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh basil chopped"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh parsley chopped"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fennel seeds"
+    },
+    {
+      "id": 90022,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "balsamic vinegar"
+    },
+    {
+      "id": 90024,
+      "amount": 50,
+      "unit": "g",
+      "name": "grated parmesan cheese"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "un salted butter"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced shallots"
+    },
+    {
+      "id": 90030,
+      "amount": 2,
+      "unit": "clove",
+      "name": "whole garlic unpeeled"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chopped marjoram"
+    },
+    {
+      "id": 90033,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced porcini mushrooms"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sugar"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lard or olive oil"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt flakes"
+    },
+    {
+      "id": 90040,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped chives"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "pc",
+      "name": "polenta for serving"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "sprig",
+      "name": "fresh sage"
+    },
+    {
+      "id": 90043,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery salt"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "grape seed oil"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Smoked Aromatic Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place heavy cast iron Dutch oven onto center stove burner over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Add olive oil and diced smoked pancetta to pot, stirring as pancetta renders fat."
+        },
+        {
+          "number": 3,
+          "step": "Cook smoked pancetta for six minutes until crispy and golden brown in bottom of pot."
+        },
+        {
+          "number": 4,
+          "step": "Transfer crisp pancetta to small bowl using slotted spoon, leaving smoky rendered fat."
+        },
+        {
+          "number": 5,
+          "step": "Add fennel seeds and crushed red pepper flakes to rendered fat in pot, stirring."
+        },
+        {
+          "number": 6,
+          "step": "Toast seeds for one minute until fragrant smoked herbal scent fills kitchen area."
+        },
+        {
+          "number": 7,
+          "step": "Add diced yellow onion, diced carrots, and diced celery stalks into pot soffritto."
+        },
+        {
+          "number": 8,
+          "step": "Sauté soffritto vegetables in smoky fat for eight minutes until soft and caramelized."
+        },
+        {
+          "number": 9,
+          "step": "Add minced garlic and sliced shallots to pot, stirring constantly for two minutes."
+        },
+        {
+          "number": 10,
+          "step": "Add diced porcini mushrooms to soffritto, cooking for three minutes until tender."
+        },
+        {
+          "number": 11,
+          "step": "Stir tomato paste into soffritto mixture and cook for two minutes to darken paste."
+        },
+        {
+          "number": 12,
+          "step": "Transfer caramelized soffritto and mushroom mixture out of pot into medium bowl."
+        },
+        {
+          "number": 13,
+          "step": "Set soffritto bowl aside while preparing pork shoulder roast for searing phase."
+        },
+        {
+          "number": 14,
+          "step": "Wipe Dutch oven bottom lightly with paper towel if excess dark bits accumulated."
+        },
+        {
+          "number": 15,
+          "step": "Add grape seed oil to Dutch oven and increase burner heat setting to medium high."
+        },
+        {
+          "number": 16,
+          "step": "Verify oil shimmers across pot bottom before adding pork shoulder roast."
+        },
+        {
+          "number": 17,
+          "step": "Pat pork shoulder roast dry with clean paper towels on large cutting board."
+        },
+        {
+          "number": 18,
+          "step": "Season all sides of pork shoulder generously with salt, black pepper, and garlic powder."
+        },
+        {
+          "number": 19,
+          "step": "Season pork with onion powder, smoked paprika, white pepper, and celery salt."
+        },
+        {
+          "number": 20,
+          "step": "Massage seasonings firmly into pork shoulder meat surfaces for good crust adhesion."
+        },
+        {
+          "number": 21,
+          "step": "Place seasoned pork shoulder into hot pot carefully using heavy metal tongs."
+        },
+        {
+          "number": 22,
+          "step": "Sear pork shoulder for four minutes without moving until deep mahogany crust forms."
+        },
+        {
+          "number": 23,
+          "step": "Turn pork roast onto second side and sear for four minutes until golden brown crust."
+        },
+        {
+          "number": 24,
+          "step": "Rotate pork roast onto ends, searing all sides thoroughly for total twelve minutes."
+        },
+        {
+          "number": 25,
+          "step": "Transfer seared pork roast onto large plate temporarily while deglazing pot."
+        },
+        {
+          "number": 26,
+          "step": "Confirm pot bottom holds rich caramelized fond without any burnt black patches."
+        }
+      ]
+    },
+    {
+      "name": "Braising Liquid",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour Chianti red wine into hot Dutch oven, stirring bottom vigorously with spoon."
+        },
+        {
+          "number": 2,
+          "step": "Scrape up all caramelized browned meat fond from pot bottom into bubbling wine."
+        },
+        {
+          "number": 3,
+          "step": "Simmer Chianti red wine for five minutes until liquid volume reduces by half."
+        },
+        {
+          "number": 4,
+          "step": "Add canned crushed tomatoes and beef stock to reduced wine liquid in pot."
+        },
+        {
+          "number": 5,
+          "step": "Stir in reserved soffritto vegetable mixture and crisp smoked pancetta pieces."
+        },
+        {
+          "number": 6,
+          "step": "Add balsamic vinegar, red wine vinegar, and sugar to balance tomato acidity."
+        },
+        {
+          "number": 7,
+          "step": "Tie fresh rosemary, fresh thyme, and fresh sage together into herb bouquet bundle."
+        },
+        {
+          "number": 8,
+          "step": "Submerge herb bouquet bundle, bay leaves, and unpeeled garlic cloves into liquid."
+        },
+        {
+          "number": 9,
+          "step": "Add dried oregano, ground nutmeg, and chopped marjoram into braising sauce."
+        },
+        {
+          "number": 10,
+          "step": "Bring braising liquid to active boil over high heat setting on stove."
+        },
+        {
+          "number": 11,
+          "step": "Nestle seared pork shoulder roast back into boiling braising liquid in pot."
+        },
+        {
+          "number": 12,
+          "step": "Ensure braising liquid reaches halfway up sides of seared pork shoulder roast."
+        },
+        {
+          "number": 13,
+          "step": "Spoon warm braising sauce over top of pork shoulder to coat surface evenly."
+        },
+        {
+          "number": 14,
+          "step": "Cover Dutch oven tightly with heavy lid to lock in braising moisture during cook."
+        },
+        {
+          "number": 15,
+          "step": "Reduce stove burner heat setting to low to maintain gentle steady simmer."
+        },
+        {
+          "number": 16,
+          "step": "Alternatively, place covered Dutch oven into preheated three hundred degree oven."
+        },
+        {
+          "number": 17,
+          "step": "Braise pork shoulder undisturbed for two hours until meat feels extremely tender."
+        },
+        {
+          "number": 18,
+          "step": "Turn pork shoulder roast over in braising liquid after one hour of cooking."
+        },
+        {
+          "number": 19,
+          "step": "Spoon sauce over pork again before replacing lid tightly for second hour."
+        },
+        {
+          "number": 20,
+          "step": "Grate smoked scamorza cheese coarsely using box grater while pork cooks."
+        },
+        {
+          "number": 21,
+          "step": "Keep grated smoked scamorza cheese covered in refrigerator until finishing step."
+        },
+        {
+          "number": 22,
+          "step": "Grate parmesan cheese and chop fresh basil, parsley, and chives finely for garnish."
+        },
+        {
+          "number": 23,
+          "step": "Combine lemon zest with chopped herbs in small bowl for fresh gremolata topper."
+        },
+        {
+          "number": 24,
+          "step": "Check pork tenderness at two hour mark using fork; meat should shred easily."
+        },
+        {
+          "number": 25,
+          "step": "If pork feels firm, cover pot and braise for additional twenty minutes until tender."
+        },
+        {
+          "number": 26,
+          "step": "Prepare warm serving platter or cooked creamy polenta base for plating sequence."
+        }
+      ]
+    },
+    {
+      "name": "Meat Sear and Simmer",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer fully cooked tender pork shoulder onto large cutting board using tongs."
+        },
+        {
+          "number": 2,
+          "step": "Discard herb bouquet bundle, bay leaves, and garlic skins from braising pot."
+        },
+        {
+          "number": 3,
+          "step": "Shred pork shoulder meat into large chunky pieces using two dinner forks."
+        },
+        {
+          "number": 4,
+          "step": "Discard any excess fat deposits or tough connective tissue during shredding."
+        },
+        {
+          "number": 5,
+          "step": "Return shredded tender pork meat back into rich braising sauce in Dutch oven."
+        },
+        {
+          "number": 6,
+          "step": "Increase stove heat to medium low and simmer shredded pork in sauce ten minutes."
+        },
+        {
+          "number": 7,
+          "step": "Simmering lets shredded meat fibers absorb concentrated smoky wine braising sauce."
+        },
+        {
+          "number": 8,
+          "step": "Stir unsalted butter and heavy cream into simmering pork ragu for velvety shine."
+        },
+        {
+          "number": 9,
+          "step": "Season sauce with sea salt flakes and extra black pepper according to taste preference."
+        },
+        {
+          "number": 10,
+          "step": "Skim any excess clear oil off surface of braising sauce using shallow ladle."
+        },
+        {
+          "number": 11,
+          "step": "Sprinkle grated parmesan cheese into simmering pork ragu and stir to blend."
+        },
+        {
+          "number": 12,
+          "step": "Turn off stove heat burner and let Dutch oven rest on warm stove ring."
+        },
+        {
+          "number": 13,
+          "step": "Scatter grated smoked scamorza cheese evenly across top layer of warm pork ragu."
+        },
+        {
+          "number": 14,
+          "step": "Cover Dutch oven with lid for three minutes to allow scamorza cheese to melt."
+        },
+        {
+          "number": 15,
+          "step": "Uncover pot to reveal gooey melted smoked scamorza blanket over braised pork."
+        },
+        {
+          "number": 16,
+          "step": "Prepare warm wide pasta bowls or rimmed platter for final dishing presentation."
+        },
+        {
+          "number": 17,
+          "step": "Ladle portion of cooked creamy polenta or pappardelle into each warm bowl."
+        },
+        {
+          "number": 18,
+          "step": "Spoon shredded braised pork with melted smoked scamorza over polenta base."
+        },
+        {
+          "number": 19,
+          "step": "Ensure each bowl receives generous ladle of rich smoky wine tomato gravy."
+        },
+        {
+          "number": 20,
+          "step": "Garnish center of each bowl with fresh herb gremolata mixture and lemon zest."
+        },
+        {
+          "number": 21,
+          "step": "Sprinkle extra grated parmesan cheese around bowl borders for elegant finish."
+        },
+        {
+          "number": 22,
+          "step": "Drizzle light stream of extra virgin olive oil over each plated portion."
+        },
+        {
+          "number": 23,
+          "step": "Inspect bowl presentation to ensure melted cheese and rich sauce show clearly."
+        },
+        {
+          "number": 24,
+          "step": "Carry warm braised pork bowls to dining room table immediately for guests."
+        },
+        {
+          "number": 25,
+          "step": "Serve alongside crusty Italian bread and glass of Chianti red wine at table."
+        },
+        {
+          "number": 26,
+          "step": "Enjoy comforting slow braised Italian pork with smoky cheese layer completely."
+        }
+      ]
+    },
+    {
+      "name": "Reduction and Plating",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Offer additional grated parmesan cheese and red pepper flakes at dining table."
+        },
+        {
+          "number": 2,
+          "step": "Refrigerate any leftover braised pork ragu in sealed container up to three days."
+        },
+        {
+          "number": 3,
+          "step": "Leftover braised pork ragu tastes even better next day as flavors deepen further."
+        },
+        {
+          "number": 4,
+          "step": "To reheat leftovers, warm gently in saucepan over low heat with splash of broth."
+        },
+        {
+          "number": 5,
+          "step": "Top reheated portions with fresh slices of smoked scamorza cheese under broiler."
+        },
+        {
+          "number": 6,
+          "step": "Note that pork ragu can also be frozen in airtight containers up to one month."
+        },
+        {
+          "number": 7,
+          "step": "Thaw frozen ragu overnight in refrigerator before reheating gently on stove top."
+        },
+        {
+          "number": 8,
+          "step": "Serve leftover ragu stuffed inside baked potatoes or spooned over crusty bread."
+        },
+        {
+          "number": 9,
+          "step": "Wipe down Dutch oven exterior and let pot cool completely before washing up."
+        },
+        {
+          "number": 10,
+          "step": "Clean cutting boards and utensils used for pork prep with warm soapy water."
+        },
+        {
+          "number": 11,
+          "step": "Confirm all guests enjoy rich combination of tender pork and smoked cheese."
+        },
+        {
+          "number": 12,
+          "step": "Keep extra fresh basil leaves in glass of water on counter for future garnishes."
+        },
+        {
+          "number": 13,
+          "step": "Store remaining Chianti wine tightly corked in cool pantry for cooking use."
+        },
+        {
+          "number": 14,
+          "step": "Check that pork shoulder fat ratio yielded rich sauce without being greasy."
+        },
+        {
+          "number": 15,
+          "step": "Record any cook time adjustments for future batches in family recipe book."
+        },
+        {
+          "number": 16,
+          "step": "Use remaining smoked scamorza cheese within five days for optimal freshness."
+        },
+        {
+          "number": 17,
+          "step": "Serve dish as comforting central feast during winter weekend gatherings."
+        },
+        {
+          "number": 18,
+          "step": "Pair with simple green arugula salad dressed with lemon and olive oil on side."
+        },
+        {
+          "number": 19,
+          "step": "Provide cloth napkins at table to accommodate hearty rustic pasta dinner style."
+        },
+        {
+          "number": 20,
+          "step": "Check that polenta or pasta base absorbed savory pan juices effectively."
+        },
+        {
+          "number": 21,
+          "step": "Store gremolata herb remnants in small container in fridge for next day salad."
+        },
+        {
+          "number": 22,
+          "step": "Keep extra black pepper grinder at table for guests desiring extra spice."
+        },
+        {
+          "number": 23,
+          "step": "Clear dining table efficiently after meal service while pot soaks in sink."
+        },
+        {
+          "number": 24,
+          "step": "Enjoy memorable Italian dinner experience built around slow braised smoked pork."
+        },
+        {
+          "number": 25,
+          "step": "Conclude meal prep successfully with this hearty, slow cooked culinary creation."
+        }
+      ]
+    }
+  ]
+}

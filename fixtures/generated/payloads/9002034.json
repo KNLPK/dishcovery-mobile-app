@@ -1,0 +1,931 @@
+{
+  "id": 9002034,
+  "title": "Make-Ahead Greek Egg Noodle Bowl",
+  "image": "generated://dishcovery/9002034.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This refreshing <b>Greek noodle bowl</b> offers a wonderful make-ahead option for busy weeknights and meal prepping. Combining tender chilled egg noodles with classic Mediterranean ingredients like sun-dried tomatoes, kalamata olives, marinated artichoke hearts, and crumbled feta cheese, this dish brings vibrant colors and bold tastes together seamlessly. The entire recipe is tailored to stay remarkably fresh in refrigeration, allowing the robust oregano and lemon dressing to infuse deeply into every strand of pasta over time. Crisp cucumber slices and fresh oregano leaves maintain their satisfying crunch and herbaceous aroma even after several days of storage. Perfect for portable lunches or light alfresco dinners, this bowl balances creamy elements with zesty brightness for a completely satisfying dining experience. Preparing each component ahead ensures that mealtime requires zero active cooking, making it an effortless addition to your weekly culinary routine.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Potassium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Biotin",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Chromium",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Choline",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Chloride",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "egg noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90005,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90006,
+      "amount": 100,
+      "unit": "g",
+      "name": "feta cheese"
+    },
+    {
+      "id": 90007,
+      "amount": 80,
+      "unit": "g",
+      "name": "kalamata olives"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "cup",
+      "name": "sliced cucumber"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "red onion"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "artichoke hearts"
+    },
+    {
+      "id": 90012,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sun-dried tomatoes"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "clove",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dill weed"
+    },
+    {
+      "id": 90019,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90021,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "crushed red pepper"
+    },
+    {
+      "id": 90022,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "greek yogurt"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tahini"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "honey"
+    },
+    {
+      "id": 90025,
+      "amount": 100,
+      "unit": "g",
+      "name": "chickpeas"
+    },
+    {
+      "id": 90026,
+      "amount": 50,
+      "unit": "g",
+      "name": "roasted red peppers"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90028,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "arugula"
+    },
+    {
+      "id": 90029,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90031,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90032,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground sumac"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "coriander"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "green olives"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90037,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pitted black olives"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "paprika"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "chia seeds"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sunflower seeds"
+    },
+    {
+      "id": 90043,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced celery"
+    },
+    {
+      "id": 90044,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced radishes"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Component Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully clean all fresh vegetables under cool water and pat them thoroughly dry using a clean cloth."
+        },
+        {
+          "number": 2,
+          "step": "Measure out each spice precisely into small prep bowls to ensure a smooth cooking workflow later."
+        },
+        {
+          "number": 3,
+          "step": "Dice the crisp cucumbers into uniform small cubes to ensure equal distribution across all servings."
+        },
+        {
+          "number": 4,
+          "step": "Slice the ripe cherry tomatoes in half and discard any excess seeds to avoid soggy noodles."
+        },
+        {
+          "number": 5,
+          "step": "Finely chop the red onion and place the pieces into cold water to soften their sharp raw bite."
+        },
+        {
+          "number": 6,
+          "step": "Drain the marinated artichoke hearts and cut each heart into four neat quarters for easy eating."
+        },
+        {
+          "number": 7,
+          "step": "Chop the sun-dried tomatoes finely so their rich savory sweetness distributes evenly throughout."
+        },
+        {
+          "number": 8,
+          "step": "Slice the pitted kalamata and green olives into thin uniform rings using a sharp chef knife."
+        },
+        {
+          "number": 9,
+          "step": "Rinse the canned chickpeas in cold running water and drain them completely inside a fine mesh sieve."
+        },
+        {
+          "number": 10,
+          "step": "Chop the fresh parsley mint and dill finely before storing them under a damp paper towel."
+        },
+        {
+          "number": 11,
+          "step": "Mince the fresh garlic cloves until they form a smooth texture suitable for the chilled dressing."
+        },
+        {
+          "number": 12,
+          "step": "Zest the fresh lemon completely before squeezing out its tart juice into a small mixing glass."
+        },
+        {
+          "number": 13,
+          "step": "Toast the pine nuts and sliced almonds in a dry skillet over low heat until gently golden."
+        },
+        {
+          "number": 14,
+          "step": "Slice the fresh radishes into thin delicate discs to add a crisp peppery crunch to every bowl."
+        },
+        {
+          "number": 15,
+          "step": "Chop the roasted red peppers into small bites and set them aside on your cutting station board."
+        },
+        {
+          "number": 16,
+          "step": "Wash the baby spinach and arugula carefully ensuring all grit is rinsed off before spinning dry."
+        },
+        {
+          "number": 17,
+          "step": "Crumble the salty feta cheese into small irregular chunks for sprinkling over the finished bowls."
+        },
+        {
+          "number": 18,
+          "step": "Measure the sesame chia and sunflower seeds into a combined container for quick final garnishing."
+        },
+        {
+          "number": 19,
+          "step": "Dice the fresh celery ribs into small crisp pieces to contribute extra crunch to the noodle base."
+        },
+        {
+          "number": 20,
+          "step": "Rinse the capers under cold water to remove surplus brine and pat dry with paper towels."
+        },
+        {
+          "number": 21,
+          "step": "Organize all prepared fresh toppings on a large tray so assembly proceeds quickly and cleanly."
+        }
+      ]
+    },
+    {
+      "name": "Dressing Creation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour the extra virgin olive oil and red wine vinegar into a glass mixing bowl with a stable base."
+        },
+        {
+          "number": 2,
+          "step": "Add the fresh lemon juice lemon zest and creamy tahini to the liquid base while whisking briskly."
+        },
+        {
+          "number": 3,
+          "step": "Incorporate the rich greek yogurt into the bowl to give the dressing a luxurious creamy texture."
+        },
+        {
+          "number": 4,
+          "step": "Spoon in the sweet honey to balance the bright acidity of the citrus and red wine vinegar."
+        },
+        {
+          "number": 5,
+          "step": "Add the minced fresh garlic and ground sumac stirring continuously until thoroughly blended."
+        },
+        {
+          "number": 6,
+          "step": "Sprinkle in the dried oregano onion powder garlic powder and crushed red pepper flakes gently."
+        },
+        {
+          "number": 7,
+          "step": "Add the ground cumin ground coriander white pepper and paprika while continuing to whisk vigorously."
+        },
+        {
+          "number": 8,
+          "step": "Season the mixture with sea salt and black pepper adjusting the proportions to balance flavor."
+        },
+        {
+          "number": 9,
+          "step": "Whisk the dressing continuously for two full minutes until emulsified into a smooth coating sauce."
+        },
+        {
+          "number": 10,
+          "step": "Taste the emulsion and add additional lemon juice if extra bright acidity is desired for storage."
+        },
+        {
+          "number": 11,
+          "step": "Pour half of the finished dressing into a small jar to save for drizzling prior to serving."
+        },
+        {
+          "number": 12,
+          "step": "Set the remaining dressing aside at room temperature so the herbs infuse the oil completely."
+        },
+        {
+          "number": 13,
+          "step": "Check the dressing texture ensuring it is thin enough to coat cooked egg noodles evenly."
+        },
+        {
+          "number": 14,
+          "step": "Whisk in a teaspoon of warm water if the tahini thickens the emulsion too much during chilling."
+        },
+        {
+          "number": 15,
+          "step": "Cover the dressing container tightly with plastic wrap to preserve its vibrant herbal aroma."
+        },
+        {
+          "number": 16,
+          "step": "Label the dressing jar with the current date if storing for meal prep later in the week."
+        },
+        {
+          "number": 17,
+          "step": "Keep the main dressing bowl near the noodle boiling area for immediate toss after chilling."
+        },
+        {
+          "number": 18,
+          "step": "Double check that all salt and spice grains have dissolved fully into the oil vinegar mixture."
+        },
+        {
+          "number": 19,
+          "step": "Give the dressing one final whisk to ensure no oil separation occurs before applying to noodles."
+        },
+        {
+          "number": 20,
+          "step": "Store the extra dressing in the refrigerator where it will stay fresh for up to five full days."
+        }
+      ]
+    },
+    {
+      "name": "Noodle Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fill a large deep soup stockpot with four quarts of fresh cold tap water for boiling noodles."
+        },
+        {
+          "number": 2,
+          "step": "Place the pot over high heat and bring the water to a rapid rolling boil uncovered."
+        },
+        {
+          "number": 3,
+          "step": "Add a generous tablespoon of kosher salt to the boiling water to season the egg noodles well."
+        },
+        {
+          "number": 4,
+          "step": "Drop the egg noodles gently into the boiling water stirring immediately to prevent sticking."
+        },
+        {
+          "number": 5,
+          "step": "Cook the egg noodles for exactly six minutes until al dente with a slight toothsome bite."
+        },
+        {
+          "number": 6,
+          "step": "Stir the noodles occasionally during boiling to keep them separated in the rolling water batch."
+        },
+        {
+          "number": 7,
+          "step": "Taste a single noodle near the end of cooking to verify the texture is firm and not mushy."
+        },
+        {
+          "number": 8,
+          "step": "Carefully pour the cooked egg noodles into a large colander set inside your kitchen sink."
+        },
+        {
+          "number": 9,
+          "step": "Rinse the hot noodles thoroughly under cold running water to stop the cooking process quickly."
+        },
+        {
+          "number": 10,
+          "step": "Toss the noodles in the colander repeatedly to remove all excess water from their surface areas."
+        },
+        {
+          "number": 11,
+          "step": "Melt the ghee in a small pan and toss it with the drained noodles to prevent clumping while cooling."
+        },
+        {
+          "number": 12,
+          "step": "Spread the rinsed egg noodles onto a large rimmed baking sheet in a thin even single layer."
+        },
+        {
+          "number": 13,
+          "step": "Place the baking sheet into the refrigerator for fifteen minutes to chill the noodles completely."
+        },
+        {
+          "number": 14,
+          "step": "Check the noodles after fifteen minutes ensuring they are cold and completely free of residual heat."
+        },
+        {
+          "number": 15,
+          "step": "Transfer the chilled egg noodles into a large clean mixing bowl ready for initial dress application."
+        },
+        {
+          "number": 16,
+          "step": "Pour the designated half portion of prepared dressing directly over the chilled egg noodles."
+        },
+        {
+          "number": 17,
+          "step": "Toss the noodles thoroughly using gentle tongs to coat every strand with the herbal dressing."
+        },
+        {
+          "number": 18,
+          "step": "Allow the dressed egg noodles to sit for ten minutes so they absorb the savory dressing flavors."
+        },
+        {
+          "number": 19,
+          "step": "Taste the dressed noodles and add a tiny pinch of sea salt if extra seasoning is necessary."
+        },
+        {
+          "number": 20,
+          "step": "Divide the dressed noodles evenly among four meal prep glass bowls or serving containers carefully."
+        }
+      ]
+    },
+    {
+      "name": "Topping Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Retrieve all prepped vegetables herbs and crumbled cheeses from your prep station workspace board."
+        },
+        {
+          "number": 2,
+          "step": "Combine the diced cucumbers cherry tomatoes and soaked drained red onions in a medium bowl."
+        },
+        {
+          "number": 3,
+          "step": "Add the quartered artichoke hearts sun-dried tomatoes and mixed sliced olives to the vegetable bowl."
+        },
+        {
+          "number": 4,
+          "step": "Spoon the rinsed chickpeas into the vegetable mixture to add healthy protein and texture."
+        },
+        {
+          "number": 5,
+          "step": "Add the diced crisp celery and sliced radishes to the mixed vegetable bowl for added crunch."
+        },
+        {
+          "number": 6,
+          "step": "Toss the vegetable mixture gently using silicone spoons to avoid crushing delicate tomatoes."
+        },
+        {
+          "number": 7,
+          "step": "Drizzle a teaspoon of extra virgin olive oil over the mixed vegetables for extra shine."
+        },
+        {
+          "number": 8,
+          "step": "Season the vegetable mix with a small pinch of dried oregano and a drop of lemon juice."
+        },
+        {
+          "number": 9,
+          "step": "Toss the chopped fresh parsley mint and dill together in a separate small garnishing bowl."
+        },
+        {
+          "number": 10,
+          "step": "Mix the toasted pine nuts sliced almonds and mixed seeds together in a small condiment cup."
+        },
+        {
+          "number": 11,
+          "step": "Keep the crumbled feta cheese separate until final bowl assembly to preserve its texture."
+        },
+        {
+          "number": 12,
+          "step": "Verify that all individual topping elements are seasoned lightly and ready for bowl placement."
+        },
+        {
+          "number": 13,
+          "step": "Arrange the fresh baby spinach and arugula leaves into four neat bed portions on top."
+        },
+        {
+          "number": 14,
+          "step": "Ensure all vegetable cut sizes are uniform so every bite contains a harmonious mix of items."
+        },
+        {
+          "number": 15,
+          "step": "Check that the roasted red peppers are drained well of excess packing oil before adding in."
+        },
+        {
+          "number": 16,
+          "step": "Cover the bowl of mixed seasoned vegetables loosely with wax paper to keep them crisp."
+        },
+        {
+          "number": 17,
+          "step": "Set aside the capers and green olives for precise placement during final bowl construction."
+        },
+        {
+          "number": 18,
+          "step": "Double check that all components are fully chilled before arranging them onto the cold noodles."
+        },
+        {
+          "number": 19,
+          "step": "Organize your work surface so each container receives an equal share of every delicious item."
+        },
+        {
+          "number": 20,
+          "step": "Keep extra fresh herbs nearby to add a bright green finish just prior to eating or packing."
+        }
+      ]
+    },
+    {
+      "name": "Assembly and Storage",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Arrange a bed of baby spinach and arugula evenly over the chilled dressed noodles in each bowl."
+        },
+        {
+          "number": 2,
+          "step": "Spoon a portion of the seasoned mixed vegetable and chickpea blend over one section of greens."
+        },
+        {
+          "number": 3,
+          "step": "Place a heap of crumbled salty feta cheese alongside the mixed vegetables in each container."
+        },
+        {
+          "number": 4,
+          "step": "Scatter the capers and mixed seed blend evenly over the top of each prepared meal prep bowl."
+        },
+        {
+          "number": 5,
+          "step": "Garnish each portion generously with the chopped fresh parsley mint dill and lemon zest."
+        },
+        {
+          "number": 6,
+          "step": "Top each container with a cluster of toasted pine nuts and almond slices for extra crunch."
+        },
+        {
+          "number": 7,
+          "step": "Seal each meal prep container with a tight fitting airtight lid to maintain maximum freshness."
+        },
+        {
+          "number": 8,
+          "step": "Place the sealed glass meal prep bowls directly into the coldest section of your refrigerator."
+        },
+        {
+          "number": 9,
+          "step": "Store the reserved jar of extra dressing alongside the containers for fresh drizzling later."
+        },
+        {
+          "number": 10,
+          "step": "Allow the assembled bowls to chill for at least two hours before eating for best flavor."
+        },
+        {
+          "number": 11,
+          "step": "Inspect the stored containers daily ensuring lids remain fully sealed to prevent drying out."
+        },
+        {
+          "number": 12,
+          "step": "When ready to eat remove a container from the refrigerator and open the airtight seal."
+        },
+        {
+          "number": 13,
+          "step": "Pour a tablespoon of the reserved dressing over the top of the bowl just before serving."
+        },
+        {
+          "number": 14,
+          "step": "Toss the ingredients gently with a fork to re-coat the cold noodles and crisp greens."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy the cold noodle bowl directly from the meal prep container or transfer to a plate."
+        },
+        {
+          "number": 16,
+          "step": "Keep any remaining assembled bowls refrigerated where they will stay good for four days."
+        },
+        {
+          "number": 17,
+          "step": "Do not microwave or heat the bowl as it is designed specifically to be eaten ice cold."
+        },
+        {
+          "number": 18,
+          "step": "Pack an extra lemon wedge alongside portable containers if taking the meal on the go."
+        },
+        {
+          "number": 19,
+          "step": "Check that the greens remain crisp and lift them slightly if noodles absorb liquid over time."
+        },
+        {
+          "number": 20,
+          "step": "Serve this refreshing make ahead meal as a complete satisfying lunch or light summer dinner."
+        }
+      ]
+    }
+  ]
+}

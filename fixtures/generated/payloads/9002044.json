@@ -1,0 +1,924 @@
+{
+  "id": 9002044,
+  "title": "One Pot Korean Layered Kimchi Rice and Rice Cake Bake",
+  "image": "generated://dishcovery/9002044.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This hearty <b>one-pot Korean layered bake</b> combines fragrant short-grain rice, chewy cylindrical rice cakes (떡볶이 떡), and spicy aged kimchi into a single comforting vessel. Layered directly inside a heavy Dutch oven, the dish builds deep complex flavor with a bold sauce of <b>gochujang paste</b>, soy sauce, sesame oil, and minced garlic. Thinly sliced pork belly and shredded cabbage form succulent intermediate layers that cook together harmoniously. As it bakes covered on the stovetop and in the oven, the bottom layer of rice crisping up slightly into an addictive golden crust known as <b>nurungji</b>. A crown of melted mozzarella cheese and toasted nori strips adds creamy rich texture and savory sea salt notes to balance the fierce kimchi spice. Designed for simple one-pot cooking with easy cleanup, this dish delivers modern Korean comfort food at its finest. Serve piping hot directly from the pot at the center of your family dinner table. Every spoonful offers <b>spicy, cheesy, and chewy</b> bliss.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 68,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 15,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iron",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Choline",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Chloride",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fluoride",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cup",
+      "name": "short grain white rice"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "cylindrical rice cakes"
+    },
+    {
+      "id": 90002,
+      "amount": 1.5,
+      "unit": "cup",
+      "name": "aged kimchi chopped"
+    },
+    {
+      "id": 90003,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "kimchi juice"
+    },
+    {
+      "id": 90004,
+      "amount": 200,
+      "unit": "g",
+      "name": "thin sliced pork belly"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "gochujang red pepper paste"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "gochugaru pepper flakes"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice wine"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90011,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic minced"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "minced ginger"
+    },
+    {
+      "id": 90013,
+      "amount": 2,
+      "unit": "cup",
+      "name": "anchovy kelp broth"
+    },
+    {
+      "id": 90014,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shredded napa cabbage"
+    },
+    {
+      "id": 90015,
+      "amount": 1,
+      "unit": "cup",
+      "name": "shredded mozzarella cheese"
+    },
+    {
+      "id": 90016,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90017,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90018,
+      "amount": 1,
+      "unit": "sheet",
+      "name": "roasted nori seaweed"
+    },
+    {
+      "id": 90019,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced shiitake mushrooms"
+    },
+    {
+      "id": 90021,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "bean sprouts"
+    },
+    {
+      "id": 90022,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced onion"
+    },
+    {
+      "id": 90023,
+      "amount": 2,
+      "unit": "whole",
+      "name": "eggs"
+    },
+    {
+      "id": 90024,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90025,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90026,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90027,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "honey"
+    },
+    {
+      "id": 90028,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "corn syrup"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "doenjang soybean paste"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced tofu"
+    },
+    {
+      "id": 90031,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced red chili"
+    },
+    {
+      "id": 90032,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced green chili"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90034,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "perilla oil"
+    },
+    {
+      "id": 90035,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped perilla leaves"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shredded cheddar cheese"
+    },
+    {
+      "id": 90037,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mayonnaise"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mustard"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced enoki mushrooms"
+    },
+    {
+      "id": 90040,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced rice cake ovals"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "roasted chili oil"
+    },
+    {
+      "id": 90042,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90043,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "water"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Sauce Whisk",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure short grain white rice into fine mesh strainer and rinse thoroughly under cold water until clear."
+        },
+        {
+          "number": 2,
+          "step": "Drain rinsed short grain rice completely and set aside in glass bowl to absorb residual moisture."
+        },
+        {
+          "number": 3,
+          "step": "Soak cylindrical rice cakes in warm water bowl for fifteen minutes to soften before layering in pot."
+        },
+        {
+          "number": 4,
+          "step": "Chop well-aged kimchi into bite-sized pieces on plastic board, reserving one-quarter cup kimchi juice."
+        },
+        {
+          "number": 5,
+          "step": "Slice thin pork belly strips into two-inch pieces using sharp kitchen shears or chef knife."
+        },
+        {
+          "number": 6,
+          "step": "Whisk gochujang paste, gochugaru flakes, soy sauce, sesame oil, rice wine, and brown sugar in bowl."
+        },
+        {
+          "number": 7,
+          "step": "Add minced garlic, ginger, kimchi juice, honey, and corn syrup into bowl and whisk until smooth paste."
+        },
+        {
+          "number": 8,
+          "step": "Slice shiitake mushrooms, green onions, red chili, green chili, and yellow onion into thin matchsticks."
+        },
+        {
+          "number": 9,
+          "step": "Shred fresh Napa cabbage coarsely and rinse bean sprouts in cold water bath before draining well."
+        },
+        {
+          "number": 10,
+          "step": "Cut roasted nori sheet into thin decorative garnish strips using kitchen shears over prep plate."
+        },
+        {
+          "number": 11,
+          "step": "Preheat heavy cast-iron Dutch oven on stovetop burner over medium heat for two minutes."
+        },
+        {
+          "number": 12,
+          "step": "Add one tablespoon of vegetable oil and one tablespoon of perilla oil to warm Dutch oven bottom."
+        },
+        {
+          "number": 13,
+          "step": "Swirl oil mixture around bottom and lower sides of Dutch oven to form non-stick frying coating."
+        },
+        {
+          "number": 14,
+          "step": "Scatter rinsed short grain white rice evenly across oiled bottom of heavy hot Dutch oven pot."
+        },
+        {
+          "number": 15,
+          "step": "Press rice layer down firmly with back of silicone spoon to form compact uniform bottom base layer."
+        },
+        {
+          "number": 16,
+          "step": "Pour half cup of anchovy kelp broth gently over rice layer without disturbing smooth base surface."
+        },
+        {
+          "number": 17,
+          "step": "Drizzle two tablespoons of prepared spicy gochujang sauce evenly over dampened short grain rice layer."
+        }
+      ]
+    },
+    {
+      "name": "Layering Rice",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Arrange chopped well-aged kimchi in an even layer directly on top of seasoned short grain rice base."
+        },
+        {
+          "number": 2,
+          "step": "Layer sliced pork belly pieces over chopped kimchi, covering entire surface area inside Dutch oven."
+        },
+        {
+          "number": 3,
+          "step": "Scatter soaked softened cylindrical rice cakes evenly over pork belly layer in single layer."
+        },
+        {
+          "number": 4,
+          "step": "Add shredded Napa cabbage, sliced shiitake mushrooms, yellow onions, and bean sprouts over rice cakes."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle remaining spicy gochujang sauce evenly over vegetable layer, ensuring full coverage throughout."
+        },
+        {
+          "number": 6,
+          "step": "Scatter diced tofu cubes, sliced red chili, and green chili rings across top of vegetable layer."
+        },
+        {
+          "number": 7,
+          "step": "Pour remaining one and a half cups of anchovy kelp broth carefully down interior side of Dutch oven."
+        },
+        {
+          "number": 8,
+          "step": "Ensure broth level rises through layers without disturbing organized structure of Korean bake."
+        },
+        {
+          "number": 9,
+          "step": "Cover Dutch oven tightly with its heavy lid to trap steam and heat during stovetop boiling phase."
+        },
+        {
+          "number": 10,
+          "step": "Increase stovetop burner heat to medium-high and bring pot broth to vigorous boil for five minutes."
+        },
+        {
+          "number": 11,
+          "step": "Listen for strong bubbling sound inside pot indicating broth has reached active full boil stage."
+        },
+        {
+          "number": 12,
+          "step": "Reduce stovetop burner heat to low once boiling begins, keeping pot tightly covered with heavy lid."
+        },
+        {
+          "number": 13,
+          "step": "Simmer pot bake covered on low heat for fifteen minutes to steam rice, pork, and rice cakes through."
+        },
+        {
+          "number": 14,
+          "step": "Preheat main baking oven to four hundred degrees Fahrenheit while pot simmers on stovetop burner."
+        },
+        {
+          "number": 15,
+          "step": "Avoid lifting lid during fifteen-minute steam period to prevent heat and essential moisture loss."
+        },
+        {
+          "number": 16,
+          "step": "Prepare shredded mozzarella cheese, cheddar cheese, toasted sesame seeds, and nori strips on tray."
+        },
+        {
+          "number": 17,
+          "step": "Verify main baking oven has reached four hundred degrees before transferring heavy Dutch oven pot."
+        }
+      ]
+    },
+    {
+      "name": "Adding Kimchi",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully remove heavy lid from Dutch oven using thick oven mitts, watching for hot steam release."
+        },
+        {
+          "number": 2,
+          "step": "Verify short grain rice is tender and pork belly slices are fully cooked through in bubbling sauce."
+        },
+        {
+          "number": 3,
+          "step": "Check that cylindrical rice cakes have expanded and softened into tender chewy rice cake dumplings."
+        },
+        {
+          "number": 4,
+          "step": "Scatter shredded mozzarella cheese and shredded cheddar cheese evenly over top layer of Korean bake."
+        },
+        {
+          "number": 5,
+          "step": "Place uncovered Dutch oven onto center rack of preheated four hundred degree baking oven carefully."
+        },
+        {
+          "number": 6,
+          "step": "Bake uncovered for ten minutes until mozzarella cheese melts, bubbles, and turns light golden brown."
+        },
+        {
+          "number": 7,
+          "step": "Observe crispy browned rice layer forming along bottom edge of pot, creating crisp nurungji crust."
+        },
+        {
+          "number": 8,
+          "step": "Carefully remove hot Dutch oven from baking oven using heavy insulated oven mitts onto trivet."
+        },
+        {
+          "number": 9,
+          "step": "Crack two raw eggs directly onto center of bubbling hot cheese layer if extra rich topping desired."
+        },
+        {
+          "number": 10,
+          "step": "Cover pot with lid for two minutes off heat to allow residual steam to gently set egg whites softly."
+        },
+        {
+          "number": 11,
+          "step": "Uncover pot and garnish top cheese layer lavishly with sliced green onions and perilla leaves."
+        },
+        {
+          "number": 12,
+          "step": "Sprinkle toasted sesame seeds and thin roasted nori strips across golden cheese surface area."
+        },
+        {
+          "number": 13,
+          "step": "Drizzle roasted chili oil lightly around edge of cheese for extra vibrant shine and spicy kick."
+        },
+        {
+          "number": 14,
+          "step": "Present hot Dutch oven pot directly at center of dining table on heavy wood heatproof trivet."
+        },
+        {
+          "number": 15,
+          "step": "Inform guests that pot is extremely hot and bottom rice layer features crisp caramelized crust."
+        },
+        {
+          "number": 16,
+          "step": "Scoop deep through all layers using wide wooden serving paddle to gather rice, pork, and cheese."
+        }
+      ]
+    },
+    {
+      "name": "Topping Cheese",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Distribute generous portions of layered kimchi rice bake into four broad individual warm serving bowls."
+        },
+        {
+          "number": 2,
+          "step": "Ensure each portion bowl receives chewy rice cakes, tender pork belly, vegetables, and melted cheese."
+        },
+        {
+          "number": 3,
+          "step": "Scrape crisp nurungji rice crust from pot bottom using wooden paddle and share among all guests."
+        },
+        {
+          "number": 4,
+          "step": "Pair hot one-pot Korean bake with chilled barley tea or cold lager beer for complete dinner meal."
+        },
+        {
+          "number": 5,
+          "step": "Provide metal spoons and chopsticks so guests can easily enjoy chewy rice cakes and tender rice."
+        },
+        {
+          "number": 6,
+          "step": "Enjoy rich harmonious balance of spicy gochujang, sour aged kimchi, chewy rice, and creamy cheese."
+        },
+        {
+          "number": 7,
+          "step": "Store any leftover pot bake in glass container in refrigerator for up to three full days max."
+        },
+        {
+          "number": 8,
+          "step": "Reheat leftover portions in covered skillet with tablespoon of water over medium heat until hot."
+        },
+        {
+          "number": 9,
+          "step": "Clean Dutch oven pot easily by soaking pot bottom in warm soapy water for twenty minutes first."
+        },
+        {
+          "number": 10,
+          "step": "Use non-abrasive sponge to lift off any remaining crispy rice crust without scratching pot enamel."
+        },
+        {
+          "number": 11,
+          "step": "Appreciate simplicity and convenience of preparing complete Korean feast inside single cooking pot."
+        },
+        {
+          "number": 12,
+          "step": "Share unique one-pot layered bake concept with friends looking for novel modern Korean recipes."
+        },
+        {
+          "number": 13,
+          "step": "Keep extra gochujang paste and sesame oil sealed in refrigerator for future Korean cooking days."
+        },
+        {
+          "number": 14,
+          "step": "Note how rice cakes maintain chewy bite even after baking under rich layer of melted cheese."
+        },
+        {
+          "number": 15,
+          "step": "Enjoy relaxing evening surrounded by family while sharing hearty comforting one-pot Korean dinner."
+        },
+        {
+          "number": 16,
+          "step": "Conclude meal service with fast easy cleanup thanks to one-pot cooking method executed today."
+        }
+      ]
+    },
+    {
+      "name": "Baking",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Double check that stovetop and oven controls are completely turned off after finishing baking."
+        },
+        {
+          "number": 2,
+          "step": "Wipe dining table clean and place remaining nori strips in airtight baggie for future snacks."
+        },
+        {
+          "number": 3,
+          "step": "Offer extra kimchi on side at table for guests who love extra sour spicy fermentation punch."
+        },
+        {
+          "number": 4,
+          "step": "Observe how melted mozzarella cheese stretches elegantly when scooping portions from Dutch oven."
+        },
+        {
+          "number": 5,
+          "step": "Keep trivet under pot until Dutch oven cools down completely to protect dining table surface."
+        },
+        {
+          "number": 6,
+          "step": "Store extra perilla leaves wrapped in damp cloth inside crisper drawer to keep fresh green."
+        },
+        {
+          "number": 7,
+          "step": "Enjoy deep satisfaction of making authentic crispy rice crust bottom layer inside home pot."
+        },
+        {
+          "number": 8,
+          "step": "Provide napkins for guests as melted cheesy rice cakes can be delightfully messy to eat."
+        },
+        {
+          "number": 9,
+          "step": "Gather praise from dining companions for creative fusion of traditional tteokbokki and rice bake."
+        },
+        {
+          "number": 10,
+          "step": "Keep spice cabinet stocked with gochugaru and gochujang to make quick weeknight bakes anytime."
+        },
+        {
+          "number": 11,
+          "step": "Tidy up spice prep area and return soy sauce, rice wine, and sesame oil to pantry shelves."
+        },
+        {
+          "number": 12,
+          "step": "Wash prep bowls, whisk, and cutting boards with warm soapy water and dry with clean towel."
+        },
+        {
+          "number": 13,
+          "step": "Reflect on how one-pot layering technique saves prep time while building maximum flavor depth."
+        },
+        {
+          "number": 14,
+          "step": "Offer fresh cucumber slices or pickled radishes as refreshing cooling palate cleanser side dish."
+        },
+        {
+          "number": 15,
+          "step": "Ensure remaining cooked food is cooled to room temperature before sealing in fridge containers."
+        },
+        {
+          "number": 16,
+          "step": "Savor comforting memories of sharing hot delicious Korean layered bake with family and friends."
+        }
+      ]
+    },
+    {
+      "name": "Garnishing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Verify that all food prep containers are washed, dried, and stored away in kitchen cabinets."
+        },
+        {
+          "number": 2,
+          "step": "Inspect Dutch oven after soaking to confirm enamel coating is completely clean and smooth."
+        },
+        {
+          "number": 3,
+          "step": "Dry Dutch oven thoroughly with cloth towel before storing on kitchen shelf for next recipe."
+        },
+        {
+          "number": 4,
+          "step": "Keep extra cylindrical rice cakes frozen in sealed freezer baggie for up to three months."
+        },
+        {
+          "number": 5,
+          "step": "Review recipe ratios to fine-tune personal gochujang spice level preference for next bake."
+        },
+        {
+          "number": 6,
+          "step": "Enjoy quiet post-dinner evening with total peace of mind after smooth one-pot cooking experience."
+        },
+        {
+          "number": 7,
+          "step": "Share photos of beautifully garnishing layered bake with fellow home cooking enthusiasts online."
+        },
+        {
+          "number": 8,
+          "step": "Appreciate how simple ingredients transform into rich celebratory comfort food when layered well."
+        },
+        {
+          "number": 9,
+          "step": "Keep green onions fresh by storing stems in small glass of water on sunny kitchen counter."
+        },
+        {
+          "number": 10,
+          "step": "Confirm kitchen trash and food scrap bags are emptied for clean fresh cooking space tomorrow."
+        },
+        {
+          "number": 11,
+          "step": "Rest comfortably knowing wholesome nutritious dinner was enjoyed by everyone at table tonight."
+        },
+        {
+          "number": 12,
+          "step": "Plan future one-pot bake variations using seafood, beef, or extra vegetables based on taste."
+        },
+        {
+          "number": 13,
+          "step": "Ensure all dishware and cutlery are loaded into dishwasher for easy automated cleaning cycle."
+        },
+        {
+          "number": 14,
+          "step": "Take pride in mastering crispy nurungji crust technique inside heavy cast-iron Dutch oven pot."
+        },
+        {
+          "number": 15,
+          "step": "Conclude Korean one-pot bake journey with complete culinary pride and total dinner success."
+        },
+        {
+          "number": 16,
+          "step": "Finalize all evening kitchen tasks with ease, satisfaction, and happiness from a job well done."
+        }
+      ]
+    }
+  ]
+}

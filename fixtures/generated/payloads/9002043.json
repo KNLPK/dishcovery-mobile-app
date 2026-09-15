@@ -1,0 +1,931 @@
+{
+  "id": 9002043,
+  "title": "Make Ahead Moroccan Spiced Couscous Grain Salad",
+  "image": "generated://dishcovery/9002043.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "This vibrant <b>make-ahead Moroccan grain salad</b> combines fluffy steam-cooked couscous with colorful vegetables, sweet dried fruits, and warm aromatic spices. Flaved with a zestful dressing of <b>extra virgin olive oil</b>, fresh lemon juice, cumin, cinnamon, and ground coriander, this grain salad actually tastes better after chilling as the ingredients meld together. Sweet orange-soaked raisins, chewy dried apricots, and crunchy toasted almonds introduce delightful texture to every forkful. Tender chickpeas provide satisfying plant-based protein while diced English cucumber and bell peppers add crisp, refreshing bite. Perfect for meal preparation, picnic lunches, or busy weekday buffets, this dish holds its texture and flavor for days in the refrigerator. Top with <b>crumbled feta cheese</b>, fresh mint leaves, and pomegranate arils right before serving for a stunning feast for the senses. Every bite delivers a harmonious blend of <b>sweet, savory, and tangy</b> North African inspired notes.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 56,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sodium",
+        "amount": 460,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 980,
+        "unit": "IU",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Choline",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Iodine",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Chromium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Chloride",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Fluoride",
+        "amount": 0.03,
+        "unit": "mg",
+        "percentOfDailyNeeds": 1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cup",
+      "name": "couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90002,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "can",
+      "name": "chickpeas"
+    },
+    {
+      "id": 90011,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced almonds"
+    },
+    {
+      "id": 90012,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "dried apricots diced"
+    },
+    {
+      "id": 90013,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "golden raisins"
+    },
+    {
+      "id": 90014,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "english cucumber diced"
+    },
+    {
+      "id": 90015,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "red bell pepper diced"
+    },
+    {
+      "id": 90016,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "red onion diced"
+    },
+    {
+      "id": 90017,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "crumbled feta cheese"
+    },
+    {
+      "id": 90018,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh mint chopped"
+    },
+    {
+      "id": 90019,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh parsley chopped"
+    },
+    {
+      "id": 90020,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pomegranate arils"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange juice"
+    },
+    {
+      "id": 90022,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "orange zest"
+    },
+    {
+      "id": 90023,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground ginger"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90027,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced kalamata olives"
+    },
+    {
+      "id": 90028,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pitted green olives"
+    },
+    {
+      "id": 90029,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "capers"
+    },
+    {
+      "id": 90030,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90032,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "argan oil"
+    },
+    {
+      "id": 90033,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pistachios chopped"
+    },
+    {
+      "id": 90034,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "harissa paste"
+    },
+    {
+      "id": 90036,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "zaatar spice"
+    },
+    {
+      "id": 90037,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sumac powder"
+    },
+    {
+      "id": 90038,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped dried figs"
+    },
+    {
+      "id": 90039,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rose water"
+    },
+    {
+      "id": 90040,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cardamom powder"
+    },
+    {
+      "id": 90041,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame seeds"
+    },
+    {
+      "id": 90042,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "chopped green onions"
+    },
+    {
+      "id": 90043,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dill chopped"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain Steaming",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Measure one and a half cups of dried couscous into a large heatproof glass or ceramic mixing bowl."
+        },
+        {
+          "number": 2,
+          "step": "Bring two cups of vegetable broth to a rolling boil in a small saucepan over medium-high heat."
+        },
+        {
+          "number": 3,
+          "step": "Add half a teaspoon of salt, turmeric powder, and one tablespoon of olive oil to the boiling broth."
+        },
+        {
+          "number": 4,
+          "step": "Pour hot boiling vegetable broth directly over dry couscous inside heatproof glass mixing bowl."
+        },
+        {
+          "number": 5,
+          "step": "Stir couscous once with a fork to ensure all grains are completely submerged in hot broth."
+        },
+        {
+          "number": 6,
+          "step": "Cover glass bowl tightly with plate or plastic wrap to trap steam and let rest for ten minutes."
+        },
+        {
+          "number": 7,
+          "step": "Measure extra virgin olive oil, fresh lemon juice, orange juice, and orange zest into a glass jar."
+        },
+        {
+          "number": 8,
+          "step": "Add ground cumin, ground cinnamon, ground coriander, smoked paprika, and ground ginger to dressing jar."
+        },
+        {
+          "number": 9,
+          "step": "Add honey, apple cider vinegar, harissa paste, garlic powder, and onion powder into glass dressing jar."
+        },
+        {
+          "number": 10,
+          "step": "Season dressing with remaining salt and black pepper before sealing glass jar with tight lid."
+        },
+        {
+          "number": 11,
+          "step": "Shake dressing jar vigorously for thirty seconds until oil, juice, and spices form emulsified sauce."
+        },
+        {
+          "number": 12,
+          "step": "Rinse canned chickpeas thoroughly in colander under cold water and drain completely for five minutes."
+        },
+        {
+          "number": 13,
+          "step": "Spread drained chickpeas onto paper towel lined baking sheet and pat dry to remove moisture."
+        },
+        {
+          "number": 14,
+          "step": "Dice dried apricots, dried figs, English cucumber, red bell pepper, and red onion into uniform pieces."
+        },
+        {
+          "number": 15,
+          "step": "Toast sliced almonds and pine nuts in dry skillet over medium heat for three minutes until golden."
+        },
+        {
+          "number": 16,
+          "step": "Transfer toasted nuts onto plate immediately to stop cooking and prevent burning delicate slices."
+        },
+        {
+          "number": 17,
+          "step": "Finely chop fresh mint leaves, flat-leaf parsley, dill, and green onions on clean cutting board."
+        },
+        {
+          "number": 18,
+          "step": "Slice kalamata olives and pitted green olives into small thin rings for rich briny flavor notes."
+        },
+        {
+          "number": 19,
+          "step": "Uncover steamed couscous after ten minutes rest time and inspect grains for tender fluffy texture."
+        },
+        {
+          "number": 20,
+          "step": "Fluff steamed couscous thoroughly using large kitchen fork, separating grains completely without mash."
+        },
+        {
+          "number": 21,
+          "step": "Allow fluffed couscous to cool at room temperature for fifteen minutes before adding fresh veggies."
+        }
+      ]
+    },
+    {
+      "name": "Dressing Blend",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour half of prepared spiced Moroccan dressing over warm fluffed couscous inside large glass bowl."
+        },
+        {
+          "number": 2,
+          "step": "Toss warm couscous gently with fork so grains absorb fragrant olive oil dressing as they cool down."
+        },
+        {
+          "number": 3,
+          "step": "Add dried apricots, golden raisins, and chopped dried figs into dressed warm couscous grain base."
+        },
+        {
+          "number": 4,
+          "step": "Stir dried fruit gently into couscous so sweet pieces absorb warm spice flavors and plump up nicely."
+        },
+        {
+          "number": 5,
+          "step": "Add drained chickpeas and sliced olives into couscous bowl, stirring gently to mix evenly throughout."
+        },
+        {
+          "number": 6,
+          "step": "Add diced English cucumber, red bell pepper, and red onion to couscous mixture once cooled."
+        },
+        {
+          "number": 7,
+          "step": "Pour remaining spiced dressing over entire grain salad bowl to coat fresh vegetables thoroughly."
+        },
+        {
+          "number": 8,
+          "step": "Toss grain salad gently with two large serving spoons until all ingredients are evenly distributed."
+        },
+        {
+          "number": 9,
+          "step": "Add toasted sliced almonds, pine nuts, and chopped pistachios into grain salad, reserving small portion."
+        },
+        {
+          "number": 10,
+          "step": "Add fresh chopped mint, parsley, dill, green onions, capers, and zaatar spice into grain salad."
+        },
+        {
+          "number": 11,
+          "step": "Toss salad again carefully to incorporate herbs without crushing delicate fresh cucumber cubes."
+        },
+        {
+          "number": 12,
+          "step": "Taste grain salad and season with small pinch of sumac powder or salt if extra tang is desired."
+        },
+        {
+          "number": 13,
+          "step": "Cover salad bowl tightly with lid or plastic wrap to prepare for make-ahead refrigeration step."
+        },
+        {
+          "number": 14,
+          "step": "Refrigerate Moroccan couscous grain salad for at least two hours or overnight to meld all flavors."
+        },
+        {
+          "number": 15,
+          "step": "Observe how couscous grains absorb savory dressing notes during chilling period in refrigerator."
+        },
+        {
+          "number": 16,
+          "step": "Prepare crumbled feta cheese and pomegranate arils in separate glass containers for final plating."
+        },
+        {
+          "number": 17,
+          "step": "Keep extra toasted nuts and fresh herbs in small sealed baggies to maintain crunch and color."
+        },
+        {
+          "number": 18,
+          "step": "Remove chilled salad bowl from refrigerator fifteen minutes prior to serving to take off chill."
+        },
+        {
+          "number": 19,
+          "step": "Fluff chilled grain salad gently with fork to separate grains that may have compacted while cold."
+        },
+        {
+          "number": 20,
+          "step": "Drizzle one tablespoon of luxury argan oil over salad before plating for rich authentic nutty finish."
+        }
+      ]
+    },
+    {
+      "name": "Vegetable Chop",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Transfer chilled make-ahead Moroccan grain salad into large decorative ceramic serving platter dish."
+        },
+        {
+          "number": 2,
+          "step": "Scatter crumbled feta cheese evenly across top surface of couscous grain salad for rich contrast."
+        },
+        {
+          "number": 3,
+          "step": "Sprinkle pomegranate arils over feta layer to add vibrant ruby red color and sweet juicy bursts."
+        },
+        {
+          "number": 4,
+          "step": "Garnish with reserved toasted almonds, pistachios, pine nuts, and a light sprinkle of sesame seeds."
+        },
+        {
+          "number": 5,
+          "step": "Decorate top of salad platter with fresh mint sprigs, lemon zest, and sumac powder for presentation."
+        },
+        {
+          "number": 6,
+          "step": "Serve make-ahead grain salad cold or at cool room temperature as light main dish or side dish."
+        },
+        {
+          "number": 7,
+          "step": "Pair salad with grilled flatbreads, hummus, falafel, or roasted skewers for complete meal spread."
+        },
+        {
+          "number": 8,
+          "step": "Provide large serving spoon alongside platter so guests can scoop generous portions easily."
+        },
+        {
+          "number": 9,
+          "step": "Inform dining guests that salad contains tree nuts, dairy feta cheese, and fragrant sesame seeds."
+        },
+        {
+          "number": 10,
+          "step": "Enjoy dynamic blend of sweet apricots, savory spices, crunchy nuts, and fluffy couscous grains."
+        },
+        {
+          "number": 11,
+          "step": "Store leftover grain salad in glass container in refrigerator for up to four days with great taste."
+        },
+        {
+          "number": 12,
+          "step": "Notice how salad maintains excellent texture and bold flavor without becoming soggy or bland."
+        },
+        {
+          "number": 13,
+          "step": "Pack leftover couscous salad into lunch containers for quick, healthy, make-ahead workday meals."
+        },
+        {
+          "number": 14,
+          "step": "Wipe salad platter rim cleanly before serving to maintain crisp, colorful, professional look."
+        },
+        {
+          "number": 15,
+          "step": "Keep extra dressing jar in fridge to refresh salad portions if stored for multiple days ahead."
+        },
+        {
+          "number": 16,
+          "step": "Clean prep cutting boards, colander, and glass dressing jar with warm soapy water and sponge."
+        },
+        {
+          "number": 17,
+          "step": "Ensure all extra spice jars are sealed tightly and returned to pantry for long shelf life."
+        },
+        {
+          "number": 18,
+          "step": "Appreciate ease and convenience of preparing complete healthy grain salad dish well in advance."
+        },
+        {
+          "number": 19,
+          "step": "Share recipe details with friends looking for easy make-ahead picnic and potluck salad dishes."
+        },
+        {
+          "number": 20,
+          "step": "Conclude meal prep routine with clean kitchen workspace and delicious chilled salad ready to eat."
+        }
+      ]
+    },
+    {
+      "name": "Tossing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Double check that all serving utensils are clean and placed neatly next to salad platter dish."
+        },
+        {
+          "number": 2,
+          "step": "Ensure dining table setting is complete with forks, napkins, and cold water glasses for guests."
+        },
+        {
+          "number": 3,
+          "step": "Present colorful Moroccan grain salad platter to guests with pride in make-ahead prep work."
+        },
+        {
+          "number": 4,
+          "step": "Highlight sweet pomegranate arils and crunchy toasted almonds when serving salad portions."
+        },
+        {
+          "number": 5,
+          "step": "Offer lemon wedges at table for guests who prefer an extra splash of fresh citrus acidity."
+        },
+        {
+          "number": 6,
+          "step": "Observe how bright colors of red peppers, green herbs, and ruby arils create festive dish."
+        },
+        {
+          "number": 7,
+          "step": "Keep remaining salad portions covered in fridge until needed to maintain peak safety standards."
+        },
+        {
+          "number": 8,
+          "step": "Tidy up serving buffet line so guests can navigate salad bowl and side dishes with total ease."
+        },
+        {
+          "number": 9,
+          "step": "Enjoy relaxing mealtime knowing main dish salad was fully prepared and chilled prior to party."
+        },
+        {
+          "number": 10,
+          "step": "Gather compliment notes from family on perfectly balanced cinnamon, cumin, and lemon flavors."
+        },
+        {
+          "number": 11,
+          "step": "Store unused fresh herbs wrapped in paper towel inside sealed baggie to extend fridge life."
+        },
+        {
+          "number": 12,
+          "step": "Check that all food prep containers are washed dried and stacked neatly in pantry cabinets."
+        },
+        {
+          "number": 13,
+          "step": "Offer extra feta cheese crumbs at table for guests desiring higher savory salty contrast."
+        },
+        {
+          "number": 14,
+          "step": "Keep salad away from direct sunlight on warm outdoor picnic tables to keep cheese fresh."
+        },
+        {
+          "number": 15,
+          "step": "Note how versatile couscous grain base pairs with variety of roasted summer or winter veggies."
+        },
+        {
+          "number": 16,
+          "step": "Reflect on ease of using steam method for light fluffy grain separation without sticky clumping."
+        },
+        {
+          "number": 17,
+          "step": "Provide small side bowls for guests who wish to keep feta cheese separate from main grain mix."
+        },
+        {
+          "number": 18,
+          "step": "Keep extra olive oil bottle handy on dining table for drizzling over individual grain portions."
+        },
+        {
+          "number": 19,
+          "step": "Ensure leftover salad is returned to refrigerator within two hours of serving for food safety."
+        },
+        {
+          "number": 20,
+          "step": "Savor final bite of fresh make-ahead Moroccan grain salad with total culinary satisfaction."
+        }
+      ]
+    },
+    {
+      "name": "Chilling",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Check refrigerator temperature gauge to confirm salad storage zone remains below forty degrees."
+        },
+        {
+          "number": 2,
+          "step": "Inspect stored leftover containers to verify lids are sealed completely airtight for freshness."
+        },
+        {
+          "number": 3,
+          "step": "Plan lunch menus for upcoming days utilizing stored make-ahead grain salad as nutritious base."
+        },
+        {
+          "number": 4,
+          "step": "Ensure all kitchen towels and aprons are laundered and folded for upcoming meal prep sessions."
+        },
+        {
+          "number": 5,
+          "step": "Store remaining almonds, pistachios, and pine nuts in freezer baggies to prevent oil rancidity."
+        },
+        {
+          "number": 6,
+          "step": "Appreciate wholesome nutritional value of plant-based protein, fiber, and healthy oils in salad."
+        },
+        {
+          "number": 7,
+          "step": "Keep spice rack organized with cumin, coriander, cinnamon, and paprika ready for future meals."
+        },
+        {
+          "number": 8,
+          "step": "Wipe down kitchen table and dining chairs to finish post-meal cleanup cleanly and efficiently."
+        },
+        {
+          "number": 9,
+          "step": "Enjoy feeling of accomplishment from mastering delicious traditional Moroccan couscous grain salad."
+        },
+        {
+          "number": 10,
+          "step": "Share make-ahead meal prep tips with family members looking for healthy time-saving recipes."
+        },
+        {
+          "number": 11,
+          "step": "Confirm all kitchen appliances are turned off and counter surfaces are sparkling clean today."
+        },
+        {
+          "number": 12,
+          "step": "Rest easy knowing healthy homemade grain salad is ready in fridge for effortless dining."
+        },
+        {
+          "number": 13,
+          "step": "Keep extra pomegranate arils in glass bowl for decorating breakfast yogurt or fruit bowls."
+        },
+        {
+          "number": 14,
+          "step": "Review recipe steps to note personal favorite spice adjustments for future salad batches."
+        },
+        {
+          "number": 15,
+          "step": "Maintain organized pantry shelves so grains, dried fruits, and spices are easy to find."
+        },
+        {
+          "number": 16,
+          "step": "Observe how couscous salad retains bright vibrant colors even after full day in refrigerator."
+        },
+        {
+          "number": 17,
+          "step": "Offer chilled salad alongside grilled fish or poultry for rich dynamic weekend dinner menu."
+        },
+        {
+          "number": 18,
+          "step": "Clean ceramic platter carefully by hand using warm water to preserve its decorative finish."
+        },
+        {
+          "number": 19,
+          "step": "Enjoy peace of mind that comes from successful advanced meal planning and healthy cooking."
+        },
+        {
+          "number": 20,
+          "step": "Conclude make-ahead Moroccan salad preparation with total satisfaction and culinary pride."
+        }
+      ]
+    }
+  ]
+}

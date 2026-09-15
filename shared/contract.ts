@@ -804,6 +804,12 @@ export interface GenerationManifest {
     thinkingReserveTokens: number;
     /** Highest thoughtsTokenCount observed on any batch, for calibration. */
     observedMaxThinkingTokens: number | null;
+    /**
+     * Tier-level byte-model correction currently in force, carried across
+     * sessions so that later batches use the same parameters as the last
+     * corrective batch rather than silently reverting to first-attempt counts.
+     */
+    correction: Record<ComplexityTier, { stepDelta: number; ingredientDelta: number }>;
   };
 
   /** SHA-256 of each prompt artifact, so later edits to them are detectable. */

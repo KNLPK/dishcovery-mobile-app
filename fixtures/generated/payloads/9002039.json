@@ -1,0 +1,928 @@
+{
+  "id": 9002039,
+  "title": "Mexican Breakfast Roasted Pork and Chile Hash",
+  "image": "generated://dishcovery/9002039.jpg",
+  "readyInMinutes": 120,
+  "servings": 6,
+  "summary": "This vibrant <b>Mexican breakfast roast</b> brings bold morning flavors to your table with roasted pork shoulder seasoned with traditional spices. Accentuated by <b>smoky roasted chilies</b> and fresh herbs, this dish transforms a classic weekend feast into a hearty morning masterpiece. The long roasting process develops deep caramelized notes while keeping the interior remarkably tender and juicy. Paired with <b>warm handmade tortillas</b>, scrambled eggs, and pickled red onions, it provides a satisfying balance of rich savory goodness and bright acidic tang. Crisp radishes, creamy avocado slices, and crumbled cotija cheese add contrasting textures that elevate every bite. Ideal for a slow Sunday family brunch, this recipe scales easily to feed a crowd while filling your home with intoxicating aromas of toasted cumin, oregano, and sweet charred garlic. Enjoy this comforting creation alongside <b>chilled hibiscus tea</b> or rich cinnamon coffee for a memorable breakfast experience. Every single element is designed to harmonize beautifully on the plate.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 620,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 54
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 25,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Potassium",
+        "amount": 850,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Zinc",
+        "amount": 5.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Choline",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Chromium",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Molybdenum",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Chloride",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Fluoride",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "kg",
+      "name": "pork shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tsp",
+      "name": "smoked paprika"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "onion powder"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "fresh garlic"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "whole",
+      "name": "poblano peppers"
+    },
+    {
+      "id": 90011,
+      "amount": 2,
+      "unit": "whole",
+      "name": "jalapeno peppers"
+    },
+    {
+      "id": 90012,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onion"
+    },
+    {
+      "id": 90013,
+      "amount": 1,
+      "unit": "large",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90014,
+      "amount": 3,
+      "unit": "medium",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90015,
+      "amount": 2,
+      "unit": "medium",
+      "name": "sweet potatoes"
+    },
+    {
+      "id": 90016,
+      "amount": 1,
+      "unit": "cup",
+      "name": "chicken broth"
+    },
+    {
+      "id": 90017,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "lime juice"
+    },
+    {
+      "id": 90018,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "chopped cilantro"
+    },
+    {
+      "id": 90019,
+      "amount": 6,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90020,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "cotija cheese"
+    },
+    {
+      "id": 90021,
+      "amount": 1,
+      "unit": "whole",
+      "name": "avocado"
+    },
+    {
+      "id": 90022,
+      "amount": 6,
+      "unit": "small",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90023,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chili powder"
+    },
+    {
+      "id": 90024,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cayenne pepper"
+    },
+    {
+      "id": 90025,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90026,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90027,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "sliced radishes"
+    },
+    {
+      "id": 90028,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pickled jalapenos"
+    },
+    {
+      "id": 90029,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sour cream"
+    },
+    {
+      "id": 90030,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90031,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mexican cinnamon"
+    },
+    {
+      "id": 90032,
+      "amount": 2,
+      "unit": "bay",
+      "name": "leaves"
+    },
+    {
+      "id": 90033,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90034,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "dried thyme"
+    },
+    {
+      "id": 90035,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "agave nectar"
+    },
+    {
+      "id": 90036,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "diced tomatoes"
+    },
+    {
+      "id": 90037,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "sliced green onions"
+    },
+    {
+      "id": 90038,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "chipotle powder"
+    },
+    {
+      "id": 90039,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "tomatillo salsa"
+    },
+    {
+      "id": 90040,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lard"
+    },
+    {
+      "id": 90041,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "celery seed"
+    },
+    {
+      "id": 90042,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "hot sauce"
+    },
+    {
+      "id": 90043,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "queso fresco"
+    },
+    {
+      "id": 90044,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh oregano"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully measure and trim the excess fat from the pork shoulder before placing it on a heavy wooden cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Dice the trimmed pork shoulder into uniform two-inch cubes to ensure even cooking throughout the roasting process."
+        },
+        {
+          "number": 3,
+          "step": "Combine the ground cumin, dried oregano, smoked paprika, garlic powder, and onion powder inside a small mixing bowl."
+        },
+        {
+          "number": 4,
+          "step": "Add two teaspoons of sea salt and one teaspoon of freshly cracked black pepper to the fragrant dry seasoning mix."
+        },
+        {
+          "number": 5,
+          "step": "Stir the dry spice blend thoroughly with a small whisk until all components are evenly distributed throughout."
+        },
+        {
+          "number": 6,
+          "step": "Mince the four cloves of fresh garlic finely using a sharp chef knife on a dedicated garlic cutting board."
+        },
+        {
+          "number": 7,
+          "step": "Dice the large red onion into small clean pieces and set them aside in a stainless steel prep container."
+        },
+        {
+          "number": 8,
+          "step": "Slice the yellow onion into neat matching pieces and store them alongside the cut red onions for later cooking."
+        },
+        {
+          "number": 9,
+          "step": "Scrub the russet potatoes thoroughly under cold running tap water to remove any surface dirt and debris."
+        },
+        {
+          "number": 10,
+          "step": "Peel the russet potatoes completely before dicing them into crisp half-inch cubes for the hearty roast hash."
+        },
+        {
+          "number": 11,
+          "step": "Scrub and peel the sweet potatoes carefully using a sharp vegetable peeler over the kitchen sink basin."
+        },
+        {
+          "number": 12,
+          "step": "Dice the sweet potatoes into uniform cubes matching the size of the russet potato pieces for balanced roasting."
+        },
+        {
+          "number": 13,
+          "step": "Deseed the poblano peppers completely and cut them into thin even strips on a sturdy prep chopping board."
+        },
+        {
+          "number": 14,
+          "step": "Slice the jalapeno peppers into fine dice while wearing gloves to protect your hands from spicy chili oils."
+        },
+        {
+          "number": 15,
+          "step": "Chop the fresh cilantro finely and place it into a small serving bowl ready for the final garnish step."
+        },
+        {
+          "number": 16,
+          "step": "Juice the fresh limes until you collect one quarter cup of tart citrus liquid for brightening the meat."
+        },
+        {
+          "number": 17,
+          "step": "Measure the chicken broth, apple cider vinegar, and agave nectar into a glass measuring cup for liquid roasting."
+        }
+      ]
+    },
+    {
+      "name": "Rubbing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Place the cubed pork shoulder into a very large stainless steel mixing bowl to begin the seasoning stage."
+        },
+        {
+          "number": 2,
+          "step": "Pour the prepared dry spice mixture generously over all sides of the raw cubed pork shoulder inside the bowl."
+        },
+        {
+          "number": 3,
+          "step": "Add the minced garlic and sliced green onions to the spice-covered pork shoulder cubes in the mixing bowl."
+        },
+        {
+          "number": 4,
+          "step": "Drizzle two tablespoons of olive oil over the seasoned pork shoulder pieces to help the spices stick well."
+        },
+        {
+          "number": 5,
+          "step": "Use clean hands to massage the rub thoroughly into every cut surface of the pork shoulder until fully coated."
+        },
+        {
+          "number": 6,
+          "step": "Cover the mixing bowl tightly with plastic wrap to trap the rich herbal aromas during the short marinating time."
+        },
+        {
+          "number": 7,
+          "step": "Let the seasoned pork rest at cool room temperature for twenty minutes while preheating the heavy oven pan."
+        },
+        {
+          "number": 8,
+          "step": "Preheat your main roasting oven to three hundred seventy five degrees Fahrenheit for optimal meat roasting."
+        },
+        {
+          "number": 9,
+          "step": "Prepare a large heavy Dutch oven by wiping the interior dry with a clean paper towel before heating."
+        },
+        {
+          "number": 10,
+          "step": "Add one tablespoon of lard to the dry Dutch oven and place it over medium-high stove heat until fully melted."
+        },
+        {
+          "number": 11,
+          "step": "Verify that the lard is shimmering and hot across the entire bottom surface of the heavy metal vessel."
+        },
+        {
+          "number": 12,
+          "step": "Uncover the marinated pork shoulder cubes and give them one final stir to reapply any fallen spices."
+        },
+        {
+          "number": 13,
+          "step": "Scatter the ground coriander and chipotle powder over the pork pieces for an extra layer of bold flavor."
+        },
+        {
+          "number": 14,
+          "step": "Mix the additional spices thoroughly into the pork shoulder cubes using a sturdy silicone spatula."
+        },
+        {
+          "number": 15,
+          "step": "Set aside two tablespoons of the spice blend for dusting over the roasted vegetables in a later phase."
+        },
+        {
+          "number": 16,
+          "step": "Verify the oven has reached three hundred seventy five degrees before proceeding to the searing sequence."
+        },
+        {
+          "number": 17,
+          "step": "Organize your cooking tongs and splat guards near the stovetop for safe and efficient pan sear handling."
+        }
+      ]
+    },
+    {
+      "name": "Searing",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Carefully lay half of the seasoned pork shoulder cubes into the hot shimmering lard inside the Dutch oven."
+        },
+        {
+          "number": 2,
+          "step": "Sear the pork cubes without moving them for three minutes until a deep golden brown crust forms underneath."
+        },
+        {
+          "number": 3,
+          "step": "Turn each pork cube carefully using metal tongs to brown all remaining sides evenly in the hot vessel."
+        },
+        {
+          "number": 4,
+          "step": "Transfer the first batch of seared pork cubes onto a clean rimmed baking sheet using a slotted spoon."
+        },
+        {
+          "number": 5,
+          "step": "Add the remaining vegetable oil to the Dutch oven and allow it to warm up for thirty seconds over heat."
+        },
+        {
+          "number": 6,
+          "step": "Place the second batch of seasoned pork shoulder cubes into the hot pot in a single uncrowded layer."
+        },
+        {
+          "number": 7,
+          "step": "Sear this second batch for three minutes per side until properly caramelized and beautifully browned all over."
+        },
+        {
+          "number": 8,
+          "step": "Remove the second batch of pork shoulder from the Dutch oven and set it aside with the first seared batch."
+        },
+        {
+          "number": 9,
+          "step": "Reduce the stovetop burner heat to medium to prevent burning the rendered pan drippings and fond."
+        },
+        {
+          "number": 10,
+          "step": "Add the diced red onions and yellow onions directly into the hot fat remaining inside the Dutch oven."
+        },
+        {
+          "number": 11,
+          "step": "Sauté the onion mixture for four minutes while scraping the brown browned bits from the pot bottom."
+        },
+        {
+          "number": 12,
+          "step": "Add the sliced poblano peppers and diced jalapenos to the sautéed onions inside the heavy Dutch oven."
+        },
+        {
+          "number": 13,
+          "step": "Cook the pepper and onion mix for three minutes until slightly softened and wonderfully fragrant throughout."
+        },
+        {
+          "number": 14,
+          "step": "Stir in the diced russet and sweet potato cubes to combine them with the sautéed aromatic vegetables."
+        },
+        {
+          "number": 15,
+          "step": "Dust the potato and pepper mixture with the reserved spice blend and stir well for two full minutes."
+        },
+        {
+          "number": 16,
+          "step": "Return all of the seared pork shoulder cubes and accumulated juices back into the heavy Dutch oven."
+        },
+        {
+          "number": 17,
+          "step": "Pour the chicken broth and lime juice over the ingredients and stir gently with a wooden spoon."
+        }
+      ]
+    },
+    {
+      "name": "Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Tuck the two dried bay leaves deep into the center of the liquid and pork mixture inside the Dutch oven."
+        },
+        {
+          "number": 2,
+          "step": "Cover the Dutch oven tightly with its heavy lid to seal in all essential moisture and roasting steam."
+        },
+        {
+          "number": 3,
+          "step": "Carefully transfer the covered Dutch oven onto the middle rack of your preheated three hundred seventy five oven."
+        },
+        {
+          "number": 4,
+          "step": "Roast the pork and vegetable hash covered for forty five minutes to tenderize the meat and root vegetables."
+        },
+        {
+          "number": 5,
+          "step": "Carefully remove the lid using heavy oven mitts to allow the surface liquid to evaporate and brown."
+        },
+        {
+          "number": 6,
+          "step": "Continue roasting uncovered for an additional twenty minutes until the pork edges turn crispy and caramelized."
+        },
+        {
+          "number": 7,
+          "step": "Check the tenderness of the pork cubes by piercing a larger piece with a sharp metal kitchen fork."
+        },
+        {
+          "number": 8,
+          "step": "Verify that the potato cubes are tender all the way through without becoming mushy or falling apart entirely."
+        },
+        {
+          "number": 9,
+          "step": "Remove the heavy Dutch oven carefully from the hot oven and place it onto a heatproof trivet on the counter."
+        },
+        {
+          "number": 10,
+          "step": "Discard the two dried bay leaves carefully using metal kitchen tongs and discard them into compost."
+        },
+        {
+          "number": 11,
+          "step": "Drizzle the apple cider vinegar and agave nectar over the hot roasted hash to balance the deep savory notes."
+        },
+        {
+          "number": 12,
+          "step": "Gently stir the roasted hash from the bottom up to distribute the rich pan reduced juices evenly."
+        },
+        {
+          "number": 13,
+          "step": "Taste a small piece of potato and adjust seasoning with a pinch of sea salt if needed for best flavor."
+        },
+        {
+          "number": 14,
+          "step": "Cover the pot loosely with aluminum foil to keep the roasted hash piping hot while cooking the breakfast eggs."
+        },
+        {
+          "number": 15,
+          "step": "Set a large nonstick skillet onto the stovetop burner over medium-low heat to prepare for egg frying."
+        },
+        {
+          "number": 16,
+          "step": "Melt one tablespoon of unsalted butter across the entire bottom surface of the warm nonstick skillet."
+        }
+      ]
+    },
+    {
+      "name": "Egg Prep",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Crack six large fresh eggs into individual small glass ramekins to ensure easy pouring without shell fragments."
+        },
+        {
+          "number": 2,
+          "step": "Gently slide the cracked eggs into the warm buttered nonstick skillet one at a time with low heat."
+        },
+        {
+          "number": 3,
+          "step": "Season the cooking eggs lightly with a small pinch of sea salt and cracked black pepper for taste."
+        },
+        {
+          "number": 4,
+          "step": "Fry the eggs gently on medium-low heat for three minutes until the whites are fully set but yolks remain runny."
+        },
+        {
+          "number": 5,
+          "step": "Optionally flip the eggs carefully if over-medium texture is preferred by your breakfast guests."
+        },
+        {
+          "number": 6,
+          "step": "Remove the nonstick skillet from heat source as soon as whites solidify to prevent overcooking the yolks."
+        },
+        {
+          "number": 7,
+          "step": "Warm six small corn tortillas over an open gas flame for ten seconds per side until soft and pliable."
+        },
+        {
+          "number": 8,
+          "step": "Wrap the warmed corn tortillas in a clean cloth kitchen towel to keep them moist, warm, and flexible."
+        },
+        {
+          "number": 9,
+          "step": "Slice one fresh avocado in half, remove the pit safely, and cut into neat decorative fan slices."
+        },
+        {
+          "number": 10,
+          "step": "Crumble the cotija cheese into fine uniform crumbs using your fingers into a small condiment bowl."
+        },
+        {
+          "number": 11,
+          "step": "Slice fresh red radishes paper-thin using a sharp mandoline slicer for a crisp colorful topping layer."
+        },
+        {
+          "number": 12,
+          "step": "Organize the pickled jalapeno slices, sour cream, and tomatillo salsa on the serving table station."
+        },
+        {
+          "number": 13,
+          "step": "Spoon a generous portion of hot roasted pork and vegetable hash onto six broad warm dinner plates."
+        },
+        {
+          "number": 14,
+          "step": "Top each serving of roasted hash carefully with one perfectly fried egg using a wide silicone spatula."
+        },
+        {
+          "number": 15,
+          "step": "Arrange avocado slices and thin radish rounds neatly alongside the fried egg on each serving plate."
+        },
+        {
+          "number": 16,
+          "step": "Sprinkle crumbled cotija cheese and fresh chopped cilantro over the top of each completed breakfast dish."
+        }
+      ]
+    },
+    {
+      "name": "Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Add a spoonful of tomatillo salsa beside the egg on each plate for a bright green color accent."
+        },
+        {
+          "number": 2,
+          "step": "Dollop a small tablespoon of fresh sour cream onto the edge of each warm hash plate for rich contrast."
+        },
+        {
+          "number": 3,
+          "step": "Scatter pickled jalapeno slices across the top to provide an inviting spicy crunch to every serving."
+        },
+        {
+          "number": 4,
+          "step": "Serve two warm corn tortillas alongside each plate tucked neatly under the edge of the dish."
+        },
+        {
+          "number": 5,
+          "step": "Dust a tiny pinch of chipotle powder over the egg yolks for an attractive finished presentation style."
+        },
+        {
+          "number": 6,
+          "step": "Place fresh lime wedges on the side of each plate for guests to squeeze over their food as desired."
+        },
+        {
+          "number": 7,
+          "step": "Inspect each completed plate to ensure all colorful garnishes are neatly positioned and visually appealing."
+        },
+        {
+          "number": 8,
+          "step": "Serve the hot Mexican breakfast roast immediately while the eggs remain warm and yolks perfectly runny."
+        },
+        {
+          "number": 9,
+          "step": "Provide extra salsa, sour cream, and warm tortillas at the table for guests who desire larger portions."
+        },
+        {
+          "number": 10,
+          "step": "Pair this rich dish with hot cinnamon coffee or cold hibiscus tea for a complete traditional meal."
+        },
+        {
+          "number": 11,
+          "step": "Offer fresh hot sauce at the table so individuals can adjust heat levels according to personal tastes."
+        },
+        {
+          "number": 12,
+          "step": "Clear prep utensils away from the dining area to maintain a clean and enjoyable breakfast environment."
+        },
+        {
+          "number": 13,
+          "step": "Store any leftover roast hash in an airtight container in the refrigerator for up to three full days."
+        },
+        {
+          "number": 14,
+          "step": "Reheat leftovers in a hot skillet with a splash of water to restore moisture before serving again."
+        },
+        {
+          "number": 15,
+          "step": "Fry fresh eggs when serving leftover hash to ensure the best texture and taste experience possible."
+        },
+        {
+          "number": 16,
+          "step": "Enjoy this comforting homemade Mexican breakfast feast surrounded by family and good morning cheer."
+        }
+      ]
+    }
+  ]
+}
