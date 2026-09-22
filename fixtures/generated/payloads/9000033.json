@@ -1,0 +1,303 @@
+{
+  "id": 9000033,
+  "title": "Grilled Queijo Coalho and Hearts of Palm Skewers",
+  "image": "generated://dishcovery/9000033.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "This vibrant <b>Brazilian grilled skewer recipe</b> offers a delightful vegetarian centerpiece that highlights the distinctive texture of firm cheese combined with tender vegetables. The dish centers on traditional <b>queijo coalho</b>, a firm cheese that holds its shape beautifully over high heat without melting away. Paired with succulent chunks of <b>hearts of palm</b>, crisp bell peppers, and juicy cherry tomatoes, each skewer delivers a wonderful interplay of smoky, tangy, and savory flavors. A simple marinade of extra virgin olive oil, garlic, oregano, and fresh lime juice infuses the ingredients before they hit the flames, creating a charred crust and tender interior. Once grilled to golden perfection, the skewers are drizzled with zesty <b>chimichurri sauce</b> for an herbaceous finish that elevates every single bite. Perfect for outdoor gatherings or quick weeknight dinners, this colourful dish brings authentic tropical flair to your table without needing any meat. Serve alongside seasoned rice or a fresh green salad for a complete and satisfying meal.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1250,
+        "unit": "IU",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 142
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Calcium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Copper",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Choline",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "queijo coalho cheese"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "heart of palm chunks"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "item",
+      "name": "yellow bell pepper"
+    },
+    {
+      "id": 90003,
+      "amount": 200,
+      "unit": "g",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "garlic powder"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90008,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "chimichurri sauce"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak wooden skewers in cool water for twenty minutes to prevent them from burning during high heat grilling."
+        },
+        {
+          "number": 2,
+          "step": "Cut the cheese, hearts of palm, and yellow bell pepper into uniform two inch cubes for even cooking."
+        },
+        {
+          "number": 3,
+          "step": "Whisk olive oil, lime juice, garlic powder, dried oregano, salt, and black pepper together in a large bowl."
+        },
+        {
+          "number": 4,
+          "step": "Thread alternating pieces of cheese, hearts of palm, bell pepper, and cherry tomatoes onto each prepared skewer."
+        },
+        {
+          "number": 5,
+          "step": "Brush the marinade generously over all sides of the skewers to ensure complete coverage before cooking."
+        },
+        {
+          "number": 6,
+          "step": "Grill over medium heat for eight minutes, turning regularly until the cheese turns golden brown and blistered."
+        }
+      ]
+    }
+  ]
+}

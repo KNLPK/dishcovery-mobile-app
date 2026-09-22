@@ -1,0 +1,303 @@
+{
+  "id": 9000030,
+  "title": "Lebanese Sweet Spiced Pumpkin Dessert Stew",
+  "image": "generated://dishcovery/9000030.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "Discover a unique sweet tradition with this fragrant <b>Lebanese dessert stew</b>, which highlights tender simmered pumpkin in a fragrant syrup. Soft <b>sugar pumpkin</b> cubes absorb warm notes of cinnamon, cloves, and floral orange blossom water as they cook down into a glossy, amber-hued syrup. Unlike savory stews, this dish is crafted specifically to end a festive meal on a delicate, aromatic note. Once chilled or brought to room temperature, the candied pumpkin offers a silky melt-in-your-mouth texture that pairs beautifully with rich Lebanese clotted cream, known as ashta. A generous sprinkling of lightly toasted pine nuts and slivered almonds adds an inviting crunch and nutty depth. Easy to prepare ahead of time, this elegant sweet course showcases how classic Levantine spices elevate humble garden vegetables into a sophisticated dessert fit for holiday celebrations and family gatherings alike.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 280,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Protein",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sodium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 8500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 170
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Folate",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Potassium",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Choline",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iodine",
+        "amount": 1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 3,
+      "unit": "cups",
+      "name": "sugar pumpkin"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cups",
+      "name": "water"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "sticks",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "whole",
+      "name": "whole cloves"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange blossom water"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "clotted cream"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "pine nuts"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "slivered almonds"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "pistachios"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel and cut fresh sugar pumpkin into uniform bite-sized cubes using a sharp chef knife."
+        },
+        {
+          "number": 2,
+          "step": "Combine water, granulated sugar, cinnamon sticks, and whole cloves in a wide saucepan over heat."
+        },
+        {
+          "number": 3,
+          "step": "Add the pumpkin cubes to the bubbling spiced syrup, covering the pan to cook gently for twenty minutes."
+        },
+        {
+          "number": 4,
+          "step": "Stir orange blossom water and lemon juice into the stew once the pumpkin becomes soft and translucent."
+        },
+        {
+          "number": 5,
+          "step": "Remove saucepan from heat and allow the dessert stew to cool to room temperature in its syrup."
+        },
+        {
+          "number": 6,
+          "step": "Spoon cooked pumpkin into small dessert bowls, topping with clotted cream and toasted pine nuts."
+        }
+      ]
+    }
+  ]
+}

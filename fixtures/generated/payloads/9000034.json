@@ -1,0 +1,303 @@
+{
+  "id": 9000034,
+  "title": "Braised Squid and White Beans in Tomato Broth",
+  "image": "generated://dishcovery/9000034.jpg",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "summary": "Experience a comforting coastal classic with this <b>Italian slow braised squid</b> recipe featuring creamy white beans cooked in a rich garlic tomato broth. Slow braising transforms tender <b>squid rings</b> into melt-in-your-mouth morsels while allowing the savory seafood flavors to infuse the aromatic simmer sauce deeply. Nutritious <b>cannellini beans</b> absorb the aromatic blend of dry white wine, garlic, red pepper flakes, and tomatoes, adding a velvety texture and hearty substance to the dish. Finished with a touch of fresh flat leaf parsley and fine olive oil, this rustic seafood braise delivers authentic Mediterranean warmth in every spoonful. Serve this traditional meal hot with thick slices of crusty Italian bread to mop up every drop of the savory tomato broth. It is an ideal dish for relaxed weekend dinners when you want deep flavor with minimal active effort, showcasing how simple coastal ingredients come together into a satisfying and elegant homemade meal.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 31,
+        "unit": "g",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 87
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 680,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Potassium",
+        "amount": 850,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Selenium",
+        "amount": 52,
+        "unit": "µg",
+        "percentOfDailyNeeds": 95
+      },
+      {
+        "name": "Copper",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 233
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Choline",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "fresh squid rings"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "cannellini beans"
+    },
+    {
+      "id": 90002,
+      "amount": 400,
+      "unit": "g",
+      "name": "crushed canned tomatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 150,
+      "unit": "ml",
+      "name": "dry white wine"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "clove",
+      "name": "minced garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "item",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "red pepper flakes"
+    },
+    {
+      "id": 90008,
+      "amount": 250,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Slow Braising Phase",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat olive oil in a heavy dutch oven over medium heat and sauté the onion and garlic until soft and fragrant."
+        },
+        {
+          "number": 2,
+          "step": "Add the squid rings to the pot and cook briefly for two minutes until opaque before pouring in dry white wine."
+        },
+        {
+          "number": 3,
+          "step": "Stir in crushed tomatoes, vegetable broth, and red pepper flakes, then bring the mixture to a gentle boil."
+        },
+        {
+          "number": 4,
+          "step": "Lower heat to a gentle simmer, cover tightly, and braise the squid for forty minutes until completely tender."
+        },
+        {
+          "number": 5,
+          "step": "Fold in the rinsed cannellini beans and cook uncovered for an additional ten minutes to thicken the broth."
+        },
+        {
+          "number": 6,
+          "step": "Season with salt, sprinkle chopped fresh parsley on top, and serve warm in deep rimmed pasta bowls immediately."
+        }
+      ]
+    }
+  ]
+}

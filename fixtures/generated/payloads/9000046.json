@@ -1,0 +1,303 @@
+{
+  "id": 9000046,
+  "title": "Slow-Braised Smoked Bacon Beef Stew",
+  "image": "generated://dishcovery/9000046.jpg",
+  "readyInMinutes": 200,
+  "servings": 6,
+  "summary": "Rooted in classical French technique, this decadent <b>smoked bacon beef braise</b> marries tender chuck roast with smoky lardons for an intensely deep flavor profile. The key to this comforting stew lies in rendering high-quality <b>smoked bacon</b> first, creating a flavorful cooking fat used to brown seasoned beef cubes to caramelized perfection. Braised slowly over three hours in a rich bath of dry Burgundy red wine, rich beef broth, fresh thyme, and sweet carrots, the meat turns melt-in-your-mouth tender as collagen breaks down into rich gelatin. The smoky undertones of the bacon permeate every drop of the thick, glossy sauce, adding complexity and depth that elevates this humble farmhouse dish into a gourmet feast. Perfect for cold winter evenings, this luxurious <b>slow-cooked stew</b> tastes even better the following day after the ingredients meld together. Garnish with chopped fresh parsley and serve alongside warm crusty baguette or buttery mashed potatoes for the ultimate French dining experience.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Sodium",
+        "amount": 710,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fiber",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 5200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 104
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 133
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Calcium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 7.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 36,
+        "unit": "µg",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Choline",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 150,
+      "unit": "g",
+      "name": "smoked bacon"
+    },
+    {
+      "id": 90001,
+      "amount": 900,
+      "unit": "g",
+      "name": "beef chuck roast"
+    },
+    {
+      "id": 90002,
+      "amount": 250,
+      "unit": "g",
+      "name": "carrots"
+    },
+    {
+      "id": 90003,
+      "amount": 150,
+      "unit": "g",
+      "name": "pearl onions"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 30,
+      "unit": "g",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90006,
+      "amount": 25,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90007,
+      "amount": 350,
+      "unit": "ml",
+      "name": "burgundy red wine"
+    },
+    {
+      "id": 90008,
+      "amount": 450,
+      "unit": "ml",
+      "name": "beef stock"
+    },
+    {
+      "id": 90009,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90010,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh parsley"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fry thick smoked bacon lardons in a Dutch oven over medium heat until crispy and fat is fully rendered out."
+        },
+        {
+          "number": 2,
+          "step": "Pat beef chuck cubes completely dry, season with salt, and sear in rendered bacon fat until deeply browned on all sides."
+        },
+        {
+          "number": 3,
+          "step": "Sauté sliced carrots, pearl onions, and garlic cloves in remaining pot drippings until soft and lightly browned."
+        },
+        {
+          "number": 4,
+          "step": "Stir in tomato paste and flour, cooking for two minutes before deglazing the Dutch oven with rich red burgundy wine."
+        },
+        {
+          "number": 5,
+          "step": "Return beef and bacon to pot with fresh thyme and beef stock, cover tightly, and braise in oven at low heat for three hours."
+        },
+        {
+          "number": 6,
+          "step": "Skim off excess surface fat, season gravy with black pepper, and serve hot over buttery parsley potatoes."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": 9000021,
+  "title": "Vegetarian Mexican Tortilla Layered Bake",
+  "image": "generated://dishcovery/9000021.jpg",
+  "readyInMinutes": 55,
+  "servings": 6,
+  "summary": "Celebrate authentic southwestern flavors with this comforting Mexican casserole that is <b>entirely vegetarian from top to bottom</b>. Layers of lightly charred corn tortillas, spiced black beans, roasted poblano peppers, and tangy salsa verde create a rich stack of savory textures. Fresh cotija cheese and shredded oaxacan cheese melt between every level, forming a creamy interior capped by a golden browned top crust. Seasoned with cumin, coriander, and fresh oregano, the bean filling offers satisfying substance that easily pleases vegetarians and meat-eaters alike. Baking the casserole slowly allows the tart green salsa to soak into the hearty tortilla layers while mellowing the heat of the roasted peppers. Serve warm with sliced avocado and freshly chopped cilantro for a crowd-pleasing dinner that highlights wholesome plant-based ingredients. Perfect for meal prep, leftovers reheat beautifully without losing their structural integrity.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 390,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fat",
+        "amount": 17,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 30,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Calcium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Potassium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 510,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 34,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 21,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.21,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Folate",
+        "amount": 115,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 270,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Zinc",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Choline",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 12,
+      "unit": "piece",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "black beans"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "piece",
+      "name": "poblano peppers"
+    },
+    {
+      "id": 90003,
+      "amount": 250,
+      "unit": "ml",
+      "name": "salsa verde"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "oaxacan cheese"
+    },
+    {
+      "id": 90005,
+      "amount": 60,
+      "unit": "g",
+      "name": "cotija cheese"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground coriander"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "clove",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90009,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "piece",
+      "name": "hass avocado"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Roast whole poblano peppers over an open flame until charred, then steam in a bag, peel skin, and slice into strips."
+        },
+        {
+          "number": 2,
+          "step": "Simmer drained black beans with cumin, coriander, salt, and minced garlic in a small saucepan for ten minutes."
+        },
+        {
+          "number": 3,
+          "step": "Spread a thin layer of salsa verde across the bottom of a rectangular glass baking dish to prevent sticking."
+        },
+        {
+          "number": 4,
+          "step": "Arrange warm corn tortillas across the dish, then top with black beans, poblano strips, and oaxacan cheese."
+        },
+        {
+          "number": 5,
+          "step": "Repeat the layering process twice, finishing with a generous coating of salsa verde and crumbled cotija cheese."
+        },
+        {
+          "number": 6,
+          "step": "Bake at three hundred seventy-five degrees Fahrenheit for twenty-five minutes until cheese bubbles and browns."
+        }
+      ]
+    }
+  ]
+}

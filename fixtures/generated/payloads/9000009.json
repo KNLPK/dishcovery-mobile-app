@@ -1,0 +1,303 @@
+{
+  "id": 9000009,
+  "title": "Quick Braised Beef Short Ribs with Shallots",
+  "image": "generated://dishcovery/9000009.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "This <b>classic French beef braise</b> delivers deep, luxurious flavor in a fraction of the traditional cooking time by using pressure techniques tailored for busy weekday evenings. Bone-in short ribs are seasoned and quickly seared to develop a rich, dark crust, locking in savory juices before entering the pot. Whole golden shallots, sliced fresh carrots, and smashed garlic cloves form a fragrant aromatics base that caramelizes lightly in the rendered pan drippings. A full-bodied red wine reduction dissolves all the caramelized bits from the bottom of the pot, creating an intensely savory liquid base enriched with rich beef broth and sprigs of earthy garden thyme. As the stew cooks under pressure, the connective tissues melt into tender perfection while the red wine sauce reduces to a silky finish. A final touch of cold butter stirred in right before serving gives the glossy sauce a velvety texture that coats every bite of tender beef. Pair this comforting dish with creamy mashed potatoes, crusty sourdough bread, or buttered egg noodles to catch every drop of the savory gravy.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 75
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 125,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 4500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 90
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 12,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 146
+      },
+      {
+        "name": "Calcium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Potassium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Zinc",
+        "amount": 9.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 86
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Choline",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "lb",
+      "name": "beef short ribs"
+    },
+    {
+      "id": 90001,
+      "amount": 8,
+      "unit": "unit",
+      "name": "french shallots"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "red wine"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "cup",
+      "name": "beef broth"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "sprig",
+      "name": "fresh thyme"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pat the beef short ribs dry with paper towels and season generously on all sides with sea salt and freshly cracked pepper."
+        },
+        {
+          "number": 2,
+          "step": "Heat olive oil in a heavy pressure cooker over medium-high heat until shimmer occurs, then sear the ribs until browned."
+        },
+        {
+          "number": 3,
+          "step": "Remove the ribs and sauté peeled shallots, sliced carrots, and minced garlic in the pot for four minutes until fragrant."
+        },
+        {
+          "number": 4,
+          "step": "Stir in the tomato paste and deglaze the hot pot with red wine, scraping up any browned bits stuck to the bottom surface."
+        },
+        {
+          "number": 5,
+          "step": "Return the short ribs, pour in beef broth along with thyme sprigs, seal the lid, and braise on high pressure for thirty minutes."
+        },
+        {
+          "number": 6,
+          "step": "Release pressure naturally, transfer meat to a platter, stir butter into the rich reduced pan sauce, and spoon over the beef."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": 9000022,
+  "title": "Kerala Coastal Prawn and Coconut Soup",
+  "image": "generated://dishcovery/9000022.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Transport your senses to the coastal shores of Kerala with this fragrant Indian soup that features <b>a rich seafood profile</b>. Succulent wild prawns simmer gently in an aromatic broth made from freshly extracted coconut milk, tangy tamarind paste, and tempered mustard seeds. A signature base of fried curry leaves, crushed shallots, and ginger-garlic paste imparts an earthy warmth that balances the natural sweetness of the fresh shellfish. Turmeric and green chilies provide a vibrant golden color alongside a gentle spicy kick that lingers delightfully on the palate. Designed to highlight delicate ocean flavors, the prawns are added at the very end of cooking to preserve their succulent, tender texture. Pair this luscious coastal soup with steamed basmati rice or crusty bread to soak up every drop of spiced coconut broth. It offers an extraordinary balance of tropical creaminess and coastal spice.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 360,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 90
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 175,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Sodium",
+        "amount": 720,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fiber",
+        "amount": 2.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Potassium",
+        "amount": 450,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 320,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Folate",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Copper",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "wild prawns"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90002,
+      "amount": 15,
+      "unit": "piece",
+      "name": "curry leaves"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "piece",
+      "name": "shallots"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "tamarind paste"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "black mustard seeds"
+    },
+    {
+      "id": 90006,
+      "amount": 15,
+      "unit": "ml",
+      "name": "coconut oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90008,
+      "amount": 300,
+      "unit": "ml",
+      "name": "fish stock"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "piece",
+      "name": "green chilies"
+    },
+    {
+      "id": 90010,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh coriander"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat coconut oil in a clay soup pot and pop black mustard seeds until they crackle and release their fragrance."
+        },
+        {
+          "number": 2,
+          "step": "Sauté sliced shallots, minced ginger, garlic, and torn curry leaves until light golden brown and aromatic."
+        },
+        {
+          "number": 3,
+          "step": "Stir in turmeric powder, coriander, Kashmiri chili powder, and tamarind paste, cooking spices for one minute."
+        },
+        {
+          "number": 4,
+          "step": "Pour in unsweetened coconut milk along with fish stock, bringing the fragrant golden liquid to a soft simmer."
+        },
+        {
+          "number": 5,
+          "step": "Add peeled wild prawns into the simmering coconut broth and cook gently for four minutes until pink and cooked."
+        },
+        {
+          "number": 6,
+          "step": "Ladle the hot prawn soup into shallow bowls and garnish with fresh lime juice and torn coriander leaves."
+        }
+      ]
+    }
+  ]
+}

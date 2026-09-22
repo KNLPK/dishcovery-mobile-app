@@ -1,0 +1,300 @@
+{
+  "id": 9000048,
+  "title": "Korean Roasted Whole Squid with Gochujang Glaze",
+  "image": "generated://dishcovery/9000048.jpg",
+  "readyInMinutes": 25,
+  "servings": 2,
+  "summary": "Showcasing bold coastal flavors, this seafood-forward <b>roasted Korean squid</b> delivers a perfect balance of smoky heat, mild sweetness, and tender texture. Tender whole <b>squid bodies</b> are scored with precise crosshatch cuts, allowing a fiery gochujang and sesame glaze to penetrate deep into the seafood while creating dramatic, caramelized edges as it roasts in a sizzling high-heat oven. The rapid roasting technique ensures the squid remains succulent and tender without becoming tough or chewy. Blended with garlic, soy sauce, and a touch of honey, the red pepper glaze coats every crevice of the seafood with vibrant umami complexity. Garnish the piping hot platter with fresh <b>green onions</b> and nutty toasted sesame seeds for eye-catching color and fresh crunch. Served alongside warm rice, kimchi, and pickled radish, this striking seafood roast brings authentic Korean seaside tavern flavors directly to your home kitchen in less than twenty minutes total preparation time.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 360,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 35,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Sugar",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Protein",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 140
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 220,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 10,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 117
+      },
+      {
+        "name": "Folate",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Potassium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Copper",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 422
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 82,
+        "unit": "µg",
+        "percentOfDailyNeeds": 149
+      },
+      {
+        "name": "Choline",
+        "amount": 120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Biotin",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 500,
+      "unit": "g",
+      "name": "whole squid"
+    },
+    {
+      "id": 90001,
+      "amount": 30,
+      "unit": "g",
+      "name": "gochujang paste"
+    },
+    {
+      "id": 90002,
+      "amount": 15,
+      "unit": "ml",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90003,
+      "amount": 15,
+      "unit": "ml",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90004,
+      "amount": 15,
+      "unit": "g",
+      "name": "honey"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 30,
+      "unit": "g",
+      "name": "green onions"
+    },
+    {
+      "id": 90007,
+      "amount": 10,
+      "unit": "g",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90008,
+      "amount": 150,
+      "unit": "g",
+      "name": "white rice"
+    },
+    {
+      "id": 90009,
+      "amount": 100,
+      "unit": "g",
+      "name": "kimchi"
+    },
+    {
+      "id": 90010,
+      "amount": 50,
+      "unit": "g",
+      "name": "pickled radish"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Seafood Preparation & Marinade",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Clean whole squid tubes and tentacles thoroughly under cold water, then score diamond patterns onto squid bodies."
+        },
+        {
+          "number": 2,
+          "step": "Whisk gochujang paste, soy sauce, sesame oil, honey, and minced garlic in a bowl to create a spicy marinade."
+        }
+      ]
+    },
+    {
+      "name": "High-Heat Oven Roasting",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Coat scored squid with spicy glaze, arrange on a parchment-lined pan, and roast at high heat for eight minutes."
+        },
+        {
+          "number": 2,
+          "step": "Garnish roasted squid with sliced green onions and toasted sesame seeds, slicing bodies into rings before serving."
+        }
+      ]
+    }
+  ]
+}

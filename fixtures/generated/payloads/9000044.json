@@ -1,0 +1,303 @@
+{
+  "id": 9000044,
+  "title": "One-Pot Spiced Red Lentil Soup",
+  "image": "generated://dishcovery/9000044.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Crafted for effortless cooking, this <b>one-pot red lentil soup</b> brings classic Indian warmth to your dinner table with minimal cleanup. The dish begins with a fragrant foundation of browned onions, garlic, ginger, and blooming spices like cumin and ground turmeric cooked in rich <b>golden ghee</b>. Quick-cooking red split lentils simmer directly in the same vessel along with crushed tomatoes and broth, absorbing every layer of aromatic flavor as they break down into a naturally silky texture. This simple method eliminates unnecessary pots while maximizing taste depth. A splash of freshly squeezed <b>lemon juice</b> at the very end brightens the earthy notes of the legumes, creating a comforting bowl that feels both nourishing and revitalizing. Ladle this aromatic soup into bowls and serve alongside warm naan or steamed basmati rice for a wholesome, protein-rich meal that satisfies the entire family on cold evenings.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 20,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sodium",
+        "amount": 640,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Fiber",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 240,
+        "unit": "µg",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Copper",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 220,
+      "unit": "g",
+      "name": "red lentils"
+    },
+    {
+      "id": 90001,
+      "amount": 30,
+      "unit": "g",
+      "name": "ghee"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "piece",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cumin seeds"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground turmeric"
+    },
+    {
+      "id": 90007,
+      "amount": 200,
+      "unit": "g",
+      "name": "crushed tomatoes"
+    },
+    {
+      "id": 90008,
+      "amount": 900,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90009,
+      "amount": 30,
+      "unit": "ml",
+      "name": "fresh lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh cilantro"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat ghee in a heavy dutch oven and cook diced onions until deeply caramelised and golden brown around the edges."
+        },
+        {
+          "number": 2,
+          "step": "Add minced garlic, freshly grated ginger, cumin seeds, and turmeric, stirring rapidly until fragrant spices bloom in oil."
+        },
+        {
+          "number": 3,
+          "step": "Rinse red lentils under cool water until the rinse water runs clear, then add them directly into the Dutch oven pot."
+        },
+        {
+          "number": 4,
+          "step": "Pour in crushed tomatoes and vegetable broth, stirring well to scrape up any flavorful browned bits stuck to the bottom."
+        },
+        {
+          "number": 5,
+          "step": "Bring the soup to a gentle boil, lower heat, cover, and simmer for twenty minutes until red lentils become soft and creamy."
+        },
+        {
+          "number": 6,
+          "step": "Finish the soup by stirring in fresh lemon juice and chopped cilantro, then ladle generously into deep warm bowls."
+        }
+      ]
+    }
+  ]
+}

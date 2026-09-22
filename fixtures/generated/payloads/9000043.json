@@ -1,0 +1,303 @@
+{
+  "id": 9000043,
+  "title": "Make-Ahead Poblano and Tortilla Casserole",
+  "image": "generated://dishcovery/9000043.jpg",
+  "readyInMinutes": 60,
+  "servings": 6,
+  "summary": "This convenience-focused Mexican recipe features a rich <b>poblano tortilla bake</b> that can be fully assembled a day before serving. Layers of flash-fried corn tortillas, tender black beans, and smoky charred poblano strips are bathed in a tangy <b>salsa verde</b> and smothered with meltable Oaxaca cheese. By allowing the assembled casserole to rest overnight in the refrigerator, the tortillas absorb the aromatic spices and savory juices from the salsa and beans, producing an extraordinarily cohesive and flavorful texture once baked. Ideal for stress-free entertaining or busy weeknights, this hearty dish transitions seamlessly from fridge to oven. When baked to bubbling perfection, the top layer of <b>shredded cheese</b> forms a golden crust that contrasts deliciously with the soft, comforting layers underneath. Serve hot garnished with chopped cilantro, diced avocado, and a dollop of Mexican crema for an authentic fiesta-ready meal that requires zero last-minute prep work.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 480,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 17,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 40,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 1100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 81
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Calcium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Magnesium",
+        "amount": 90,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Potassium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Choline",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Biotin",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 12,
+      "unit": "piece",
+      "name": "corn tortillas"
+    },
+    {
+      "id": 90001,
+      "amount": 4,
+      "unit": "piece",
+      "name": "poblano peppers"
+    },
+    {
+      "id": 90002,
+      "amount": 400,
+      "unit": "g",
+      "name": "black beans"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "piece",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 30,
+      "unit": "ml",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "mexican oregano"
+    },
+    {
+      "id": 90007,
+      "amount": 250,
+      "unit": "ml",
+      "name": "salsa verde"
+    },
+    {
+      "id": 90008,
+      "amount": 200,
+      "unit": "g",
+      "name": "oaxaca cheese"
+    },
+    {
+      "id": 90009,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "piece",
+      "name": "avocado"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Char the poblano peppers directly over open gas flames until skin turns blackened and blistered on all sides before steaming."
+        },
+        {
+          "number": 2,
+          "step": "Peel away the charred skins, remove seeds, and slice the roasted peppers into thin strips along with yellow onion slices."
+        },
+        {
+          "number": 3,
+          "step": "Sauté the sliced onions and garlic in vegetable oil until soft, then stir in black beans, Mexican oregano, and sea salt."
+        },
+        {
+          "number": 4,
+          "step": "Lightly fry corn tortilla quarters in warm oil for ten seconds each to prevent them from becoming soggy inside the casserole."
+        },
+        {
+          "number": 5,
+          "step": "Layer the tortillas, spiced bean mixture, roasted poblano strips, salsa verde, and shredded Oaxaca cheese inside a ceramic dish."
+        },
+        {
+          "number": 6,
+          "step": "Cover the dish tightly with foil and chill overnight, then bake at high heat until the cheese bubbles and turns golden brown."
+        }
+      ]
+    }
+  ]
+}

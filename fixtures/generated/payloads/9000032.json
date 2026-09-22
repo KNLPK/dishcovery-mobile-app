@@ -1,0 +1,303 @@
+{
+  "id": 9000032,
+  "title": "Celebration Polish Kluski Noodles with Duck",
+  "image": "generated://dishcovery/9000032.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Mark special occasions with this opulent <b>Polish noodle bowl</b> that elevates traditional home cooking into a memorable feast. Handcrafted <b>kluski egg noodles</b> are tossed with succulent shredded roasted duck meat and earthy wild porcini mushrooms simmered in a silky cream sauce. Butter-caramelized shallots add subtle sweetness, while a splash of rich stock creates a velvety coating over every noodle strand. Fresh dill sprinkled on top brings a burst of bright herbal freshness that cuts through the decadence of the rich sauce. Perfect for holiday dinners or family milestones, this celebratory recipe combines hearty Slavic ingredients with luxurious textures for an unforgettable dining experience. Serve piping hot with a side of braised red cabbage or crisp pickled cucumbers for a complete festive Polish banquet. Each bowl offers a harmonious blend of savory duck, forest mushrooms, and tender pasta.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 610,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 80
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Sodium",
+        "amount": 640,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 750,
+        "unit": "IU",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 68,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Calcium",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 460,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 31,
+        "unit": "µg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Choline",
+        "amount": 92,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Iodine",
+        "amount": 9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 10,
+      "unit": "oz",
+      "name": "kluski egg noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "cups",
+      "name": "roasted duck meat"
+    },
+    {
+      "id": 90002,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "porcini mushrooms"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "shallots"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "butter"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "heavy cream"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "beef broth"
+    },
+    {
+      "id": 90007,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh dill"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "parsley"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Boil fresh Polish kluski egg noodles in a large pot of salted water until tender, then drain thoroughly."
+        },
+        {
+          "number": 2,
+          "step": "Sauté sliced wild porcini mushrooms and diced shallots in butter until caramelized and fragrant."
+        },
+        {
+          "number": 3,
+          "step": "Add shredded roasted duck meat to the skillet, stirring to warm through and absorb mushroom juices."
+        },
+        {
+          "number": 4,
+          "step": "Pour heavy cream and beef broth into the skillet, bringing the pan contents to a gentle simmer."
+        },
+        {
+          "number": 5,
+          "step": "Toss cooked kluski noodles into the cream sauce, folding everything together until evenly coated."
+        },
+        {
+          "number": 6,
+          "step": "Divide noodle mixture into wide bowls and garnish generously with chopped fresh dill and black pepper."
+        }
+      ]
+    }
+  ]
+}

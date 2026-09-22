@@ -1,0 +1,303 @@
+{
+  "id": 9000039,
+  "title": "Herbed Ricotta Gnocchi Dumplings",
+  "image": "generated://dishcovery/9000039.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Simplify entertaining with these delicate <b>French herbed ricotta dumplings</b>, a refined make-ahead first course that highlights light cheese textures. Soft <b>whole milk ricotta</b> is blended with aged parmesan, farm egg yolks, and fragrant herbs like fresh chives and aromatic tarragon. Lightly bound with minimal flour, these tender dumplings yield a silky bite that melts effortlessly on the tongue. Shaping and chilling the dumplings in advance allows the structural protein framework to set firmly, making them ideal for prepping hours before a dinner party. Once gently poached in salted water, the dumplings rise gracefully to the surface, ready to be tossed in golden browned butter and lemon zest. This elegant dish provides a serene cooking experience for hosts who want high-end bistro quality without last-minute kitchen chaos. Serve sprinkled with extra parmesan and fresh herb leaves for an exquisite starter that tastes truly divine.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Sugar",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Protein",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 145,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Sodium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 1,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 720,
+        "unit": "IU",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.7,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Biotin",
+        "amount": 4.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 360,
+        "unit": "mg",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Iron",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Potassium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Magnesium",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Copper",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Choline",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "whole milk ricotta"
+    },
+    {
+      "id": 90001,
+      "amount": 120,
+      "unit": "g",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90002,
+      "amount": 60,
+      "unit": "g",
+      "name": "grated parmesan"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "item",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh chives"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh tarragon"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    },
+    {
+      "id": 90007,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "nutmeg"
+    },
+    {
+      "id": 90008,
+      "amount": 50,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Dumpling Preparation",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Drain ricotta in cheesecloth for twenty minutes to remove excess whey, creating a dense base for dough."
+        },
+        {
+          "number": 2,
+          "step": "Mix drained ricotta, parmesan, egg yolks, herbs, lemon zest, nutmeg, salt, and pepper in a medium bowl."
+        },
+        {
+          "number": 3,
+          "step": "Gently fold in flour until a soft pliable dough forms, taking care not to overmix the delicate dough."
+        },
+        {
+          "number": 4,
+          "step": "Shape dough into small oval dumplings, place on a lined baking tray, and chill in the fridge for two hours."
+        },
+        {
+          "number": 5,
+          "step": "Poach dumplings in gently simmering salted water for three minutes until they float smoothly to the surface."
+        },
+        {
+          "number": 6,
+          "step": "Transfer dumplings with a slotted spoon directly into warm melted butter and toss gently before serving."
+        }
+      ]
+    }
+  ]
+}

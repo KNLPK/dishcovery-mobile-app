@@ -1,0 +1,303 @@
+{
+  "id": 9000049,
+  "title": "Traditional Greek Fasolada Navy Bean Soup",
+  "image": "generated://dishcovery/9000049.jpg",
+  "readyInMinutes": 55,
+  "servings": 6,
+  "summary": "This <b>classic Greek fasolada</b> is a rich, comforting white bean soup deeply rooted in traditional Mediterranean home cooking. Built around tender navy beans, chopped sweet carrots, crisp celery, and sweet yellow onions, this vibrant dish receives a luscious boost from generous amounts of extra virgin olive oil added toward the end of cooking. Designed specifically as a <b>convenient make-ahead meal</b>, the aromatic vegetable broth and creamy white beans continue to absorb flavor while chilling in the refrigerator overnight. Reheating gentle simmered broth actually deepens the savory garlic and tomato background notes, producing a thicker and more harmonious texture on the second day. Fresh oregano and a bright finish of squeezed lemon juice balance the hearty beans, making this colorful soup satisfying yet surprisingly light. Pair this wholesome soup with crusty sourdough bread, salty feta cheese, and kalamata olives for a complete rustic tavern experience right at your home dining table.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 44,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 180,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iodine",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Magnesium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Selenium",
+        "amount": 8.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cup",
+      "name": "navy beans"
+    },
+    {
+      "id": 90001,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "cup",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "cup",
+      "name": "carrots"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "cup",
+      "name": "celery stalks"
+    },
+    {
+      "id": 90005,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90007,
+      "amount": 6,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh parsley"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the soaked navy beans under cold running water and drain them thoroughly in a colander before starting the soup base."
+        },
+        {
+          "number": 2,
+          "step": "Heat two tablespoons of olive oil in a deep pot and cook diced onions, carrots, and celery over medium heat until softened."
+        },
+        {
+          "number": 3,
+          "step": "Stir minced garlic and tomato paste into the softened vegetables, cooking for two minutes until aromatic and slightly darkened."
+        },
+        {
+          "number": 4,
+          "step": "Add the navy beans, vegetable broth, and dried oregano to the pot, bringing the mixture to a full boil over medium-high heat."
+        },
+        {
+          "number": 5,
+          "step": "Reduce heat to low, cover the pot tightly, and simmer gently for forty minutes until the navy beans become completely tender."
+        },
+        {
+          "number": 6,
+          "step": "Remove from heat, stir in remaining olive oil, lemon juice, and chopped parsley, then cool before storing to develop flavor."
+        }
+      ]
+    }
+  ]
+}

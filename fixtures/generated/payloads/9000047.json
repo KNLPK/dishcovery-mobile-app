@@ -1,0 +1,303 @@
+{
+  "id": 9000047,
+  "title": "Moroccan Vegetable Tagine with Chickpeas",
+  "image": "generated://dishcovery/9000047.jpg",
+  "readyInMinutes": 55,
+  "servings": 4,
+  "summary": "Bursting with aromatic warmth, this <b>vegetarian Moroccan stew</b> highlights vibrant plant-based ingredients slow-simmered in a conical clay tagine. Nutritious <b>cooked chickpeas</b> and sweet butternut squash anchor the dish, absorbing the complex flavors of ras el hanout, ground cinnamon, and warm ginger. Dried apricots dissolve subtly into the rich tomato broth, creating a delicate sweet-and-savory contrast that defines traditional North African cookery. Soft zucchini slices and caramelised red onions complete the vibrant vegetable medley, making this dish both hearty and visually stunning. Simmered gently over low heat, the ingredients meld together into a deeply satisfying stew that requires no meat to deliver robust depth. Sprinkled with crunchy <b>toasted flaked almonds</b> and fresh herbs just before serving, this colorful tagine offers balanced textures and incredible spice aromas. Pair it with a mound of fluffy steamed couscous or warm flatbread to soak up every last drop of the fragrant, spiced sauce.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 7800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 156
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 140,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Magnesium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 220,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Selenium",
+        "amount": 10,
+        "unit": "µg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Biotin",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "chickpeas"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "butternut squash"
+    },
+    {
+      "id": 90002,
+      "amount": 30,
+      "unit": "ml",
+      "name": "olive oil"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "piece",
+      "name": "red onion"
+    },
+    {
+      "id": 90004,
+      "amount": 1.5,
+      "unit": "tsp",
+      "name": "ras el hanout"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90006,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90007,
+      "amount": 200,
+      "unit": "g",
+      "name": "zucchini"
+    },
+    {
+      "id": 90008,
+      "amount": 60,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90009,
+      "amount": 30,
+      "unit": "g",
+      "name": "flaked almonds"
+    },
+    {
+      "id": 90010,
+      "amount": 180,
+      "unit": "g",
+      "name": "couscous"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Warm olive oil in a heavy clay tagine base and cook chopped red onions until soft, translucent, and fragrant."
+        },
+        {
+          "number": 2,
+          "step": "Add ras el hanout, ground cinnamon, ginger, and minced garlic, stirring for one minute to bloom aromatic spices."
+        },
+        {
+          "number": 3,
+          "step": "Toss in diced butternut squash, chopped zucchini, dried apricots, cooked chickpeas, and canned crushed tomatoes."
+        },
+        {
+          "number": 4,
+          "step": "Pour in vegetable stock to submerge vegetables, stir gently, bring to a simmer, and cover with conical tagine lid."
+        },
+        {
+          "number": 5,
+          "step": "Simmer gently over low heat for forty minutes until butternut squash becomes fork tender and liquid reduces."
+        },
+        {
+          "number": 6,
+          "step": "Garnish stew with toasted flaked almonds and fresh cilantro, serving hot over warm fluffy couscous grains."
+        }
+      ]
+    }
+  ]
+}

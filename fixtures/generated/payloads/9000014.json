@@ -1,0 +1,303 @@
+{
+  "id": 9000014,
+  "title": "Peruvian Smoked Trout Dumplings with Ají Amarilllos",
+  "image": "generated://dishcovery/9000014.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "These exquisite <b>Peruvian smoked trout dumplings</b> bring together the rich culinary heritage of coastal Peru with delicately steamed pastry pockets. Flaky trout, infused with deep hickory smoke flavor, serves as the heart of the filling, paired with smooth cream cheese that creates a silky inner texture. Smoked aji amarillo chili paste introduces a characteristic Andean warm pepper fruitiness and vibrant orange hue without overwhelming the delicate seafood. Bright accents of fresh lime zest, diced sweet red pepper, and crisp green onions cut through the rich filling, adding texture and aroma to every bite. Wrapped in thin wheat pastry skins, the dumplings are gently steamed inside bamboo baskets to lock in moisture and heat without frying. As steam penetrates the thin dough wrapper, the savory filling warms into a luscious center. Served hot alongside a simple dipping sauce of dark soy sauce and toasted sesame oil, these handcrafted dumplings provide a delicate balance of smokiness, citrus brightness, and savory satisfaction.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Protein",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sodium",
+        "amount": 610,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 1.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 140,
+        "unit": "IU",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 5.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 108
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Iron",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 30,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Choline",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 230,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 5.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 8,
+      "unit": "oz",
+      "name": "smoked trout"
+    },
+    {
+      "id": 90001,
+      "amount": 24,
+      "unit": "unit",
+      "name": "dumpling wrappers"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "smoked aji amarillo"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "oz",
+      "name": "cream cheese"
+    },
+    {
+      "id": 90004,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh coriander"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "medium",
+      "name": "red pepper"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "stem",
+      "name": "green onions"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lime zest"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "cornstarch"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Flake the smoked trout fine and mix in a bowl with cream cheese, smoked aji amarillo, and lime zest."
+        },
+        {
+          "number": 2,
+          "step": "Add diced red pepper, sliced green onions, and chopped fresh coriander to trout mixture and stir well."
+        },
+        {
+          "number": 3,
+          "step": "Place a spoonful of trout filling in center of each dumpling wrapper and moisten edges with water."
+        },
+        {
+          "number": 4,
+          "step": "Fold wrappers over filling, crimping edges tightly to form sealed crescent dumplings without air pockets."
+        },
+        {
+          "number": 5,
+          "step": "Arrange dumplings in a bamboo steamer lined with parchment paper over boiling water for eight minutes."
+        },
+        {
+          "number": 6,
+          "step": "Combine soy sauce and sesame oil in small dip bowl, then transfer steamed dumplings to serving plate."
+        }
+      ]
+    }
+  ]
+}

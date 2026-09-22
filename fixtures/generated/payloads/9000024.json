@@ -1,0 +1,300 @@
+{
+  "id": 9000024,
+  "title": "Red Wine Slow-Braised Dessert Pears",
+  "image": "generated://dishcovery/9000024.jpg",
+  "readyInMinutes": 80,
+  "servings": 4,
+  "summary": "Experience the luxurious side of classic French cooking with this fruit slow braise that is <b>finished as an elegant dessert</b>. Firm Bosc pears are submerged in a fragrant braising liquid composed of full-bodied red wine, whole cinnamon sticks, star anise, orange peel, and dark cocoa powder. As the pot simmers slowly in a low oven, the pears absorb deep crimson hues and floral spice essences while softening into buttery tenderness. The braising liquor is reduced into a glossy, bittersweet chocolate sauce that coats each glistening pear with silky indulgence. Served warm alongside a dollop of cold crème fraîche, this dessert combines deep red wine tannins with dark chocolate richness for an unforgettable conclusion to a dinner party. Braising whole peeled pears low and slow preserves their elegant stem structure while infusing flavors directly into the core of the fruit.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 290,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Protein",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sodium",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Fiber",
+        "amount": 6.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Calcium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Potassium",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 160,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.04,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.08,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Folate",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Copper",
+        "amount": 0.21,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Magnesium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Choline",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 4,
+      "unit": "piece",
+      "name": "bosc pears"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "ml",
+      "name": "red wine"
+    },
+    {
+      "id": 90002,
+      "amount": 80,
+      "unit": "g",
+      "name": "granulated sugar"
+    },
+    {
+      "id": 90003,
+      "amount": 20,
+      "unit": "g",
+      "name": "dark cocoa powder"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "piece",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "piece",
+      "name": "star anise"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "piece",
+      "name": "orange peel"
+    },
+    {
+      "id": 90007,
+      "amount": 60,
+      "unit": "g",
+      "name": "crème fraîche"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "piece",
+      "name": "vanilla bean"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90010,
+      "amount": 15,
+      "unit": "g",
+      "name": "butter"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Pear Braise",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel whole Bosc pears carefully while keeping stems intact, slicing a flat base on the bottom of each fruit."
+        },
+        {
+          "number": 2,
+          "step": "Combine red wine, sugar, cinnamon sticks, star anise, orange peel, and cocoa powder in a heavy dutch oven."
+        }
+      ]
+    },
+    {
+      "name": "Sauce Reduction",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Submerge pears in the spiced red wine mixture, cover tightly, and braise at three hundred degrees for one hour."
+        },
+        {
+          "number": 2,
+          "step": "Transfer cooked pears to plates, then boil the braising liquid until reduced to a thick chocolate red wine glaze."
+        }
+      ]
+    }
+  ]
+}

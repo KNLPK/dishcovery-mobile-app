@@ -1,0 +1,303 @@
+{
+  "id": 9000031,
+  "title": "Quick Ethiopian Roasted Chicken Thighs",
+  "image": "generated://dishcovery/9000031.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Streamline traditional East African flavors with this fast <b>Ethiopian roasted chicken</b> recipe tailored specifically for busy weeknights. Bone-in chicken thighs are coated in a vibrant glaze of aromatic <b>berbere spice blend</b>, garlic, ginger, and rich clarified butter before roasting. Placed over a layer of sliced red onions, the meat juices and spices drip down during baking to create tender caramelized onions infused with flavor. Roasting at high heat yields delightfully crispy skin while keeping the chicken juicy and succulent inside. This simplified one-pan method captures the essence of classic slow-cooked stews like Doro Wat in under forty minutes of total kitchen time. Serve this comforting dish with tangy injera flatbread or warm flatbreads to soak up the fragrant pan drippings. It provides a thrilling, spice-packed dinner option that brings authentic flavor to your table without needing hours of stove monitoring.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 29,
+        "unit": "g",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 135,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Sodium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 880,
+        "unit": "IU",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Calcium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 26,
+        "unit": "µg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Choline",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Iodine",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "lbs",
+      "name": "chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "berbere spice blend"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "clarified butter"
+    },
+    {
+      "id": 90003,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90006,
+      "amount": 0.75,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "pieces",
+      "name": "injera flatbread"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "whole",
+      "name": "lemon wedges"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "cilantro"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk berbere spice blend, melted clarified butter, minced garlic, and grated ginger in a small bowl."
+        },
+        {
+          "number": 2,
+          "step": "Rub the spiced butter sauce evenly over bone-in chicken thighs, making sure to coat under the skin."
+        },
+        {
+          "number": 3,
+          "step": "Arrange thin red onion slices across the bottom of a rimmed metal baking sheet to form a flavor bed."
+        },
+        {
+          "number": 4,
+          "step": "Place seasoned chicken thighs on top of onion slices, skin side facing upward for maximum crisping."
+        },
+        {
+          "number": 5,
+          "step": "Roast at four hundred degrees Fahrenheit for thirty minutes until chicken skin is crispy and browned."
+        },
+        {
+          "number": 6,
+          "step": "Serve hot roasted chicken and caramelized onions alongside torn injera flatbread and lemon wedges."
+        }
+      ]
+    }
+  ]
+}

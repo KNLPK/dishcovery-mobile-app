@@ -1,0 +1,303 @@
+{
+  "id": 9000041,
+  "title": "Weeknight Spinach Ricotta Gnudi",
+  "image": "generated://dishcovery/9000041.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "This rapid weeknight recipe delivers tender <b>Spinach Ricotta Gnudi</b> with minimal effort and maximum flavor. Unlike traditional potato gnocchi that require boiling and mashing tubers, these light Italian dumplings rely on a creamy base of <b>whole milk ricotta</b> combined with finely chopped spinach and seasoned with fragrant nutmeg. The soft mixture comes together in minutes, requiring only a gentle folding of flour and parmesan cheese before being shaped into delicate spheres. Boiling them takes less than three minutes, making this an ideal meal for busy evenings when you want restaurant-quality comfort food without spending hours in the kitchen. A simple finishing drizzle of <b>brown butter sauce</b> and fresh sage leaves brings out the subtle richness of the dumplings, creating a beautifully balanced main dish that pairs wonderfully with a crisp green salad and chilled white wine. Enjoy this authentic Italian classic whenever you need a fast yet sophisticated dinner option.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 4500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 90
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 180,
+        "unit": "µg",
+        "percentOfDailyNeeds": 150
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Folate",
+        "amount": 95,
+        "unit": "µg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Calcium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Choline",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Biotin",
+        "amount": 6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "ricotta cheese"
+    },
+    {
+      "id": 90001,
+      "amount": 200,
+      "unit": "g",
+      "name": "frozen spinach"
+    },
+    {
+      "id": 90002,
+      "amount": 60,
+      "unit": "g",
+      "name": "parmesan cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "piece",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90004,
+      "amount": 75,
+      "unit": "g",
+      "name": "all-purpose flour"
+    },
+    {
+      "id": 90005,
+      "amount": 50,
+      "unit": "g",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90007,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90008,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90009,
+      "amount": 60,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90010,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh sage"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Squeeze all excess moisture from the wilted spinach using a clean kitchen towel until it feels thoroughly dry to the touch."
+        },
+        {
+          "number": 2,
+          "step": "In a medium mixing bowl, whisk together the drained spinach, whole milk ricotta, freshly grated parmesan cheese, and egg yolks."
+        },
+        {
+          "number": 3,
+          "step": "Gently fold in the all-purpose flour, sea salt, black pepper, and ground nutmeg just until a workable, pillowy dough emerges."
+        },
+        {
+          "number": 4,
+          "step": "Dust a rimmed baking sheet generously with semolina flour to prevent the delicate dumplings from sticking during shaping."
+        },
+        {
+          "number": 5,
+          "step": "Roll the dough into bite-sized balls using lightly floured hands and drop them gently into a pot of rapidly boiling salted water."
+        },
+        {
+          "number": 6,
+          "step": "Simmer the dumplings until they float gracefully to the surface, then spoon them into warm brown butter sauce for serving."
+        }
+      ]
+    }
+  ]
+}

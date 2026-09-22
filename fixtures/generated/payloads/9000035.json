@@ -1,0 +1,303 @@
+{
+  "id": 9000035,
+  "title": "Breakfast Miso Curry Stew with Tofu and Roots",
+  "image": "generated://dishcovery/9000035.jpg",
+  "readyInMinutes": 30,
+  "servings": 2,
+  "summary": "Start your morning with a nutritious bowl of <b>Japanese breakfast stew</b> crafted with delicate silken tofu and hearty root vegetables simmered in dashi broth. This gentle morning meal adapts traditional savory stewing techniques to create a soothing, digestive-friendly breakfast filled with Umami depth. Soft <b>silken tofu</b> absorbs the complex notes of fermented <b>red miso paste</b>, fresh ginger, and sweet mirin, while chunks of kabocha squash and crisp daikon radish provide satisfying substance. Fresh shiitake mushrooms add earthiness, complemented by tender spinach stirred in right before serving. Gentle simmering ensures the vegetables reach perfect tenderness without losing their natural vibrant colors or essential nutrients. Garnished with freshly chopped green scallions, this nourishing bowl offers a warm and invigorating alternative to sweet breakfast options. Enjoy a peaceful and balanced start to your day with this wholesome dish that exemplifies classic Japanese comfort food at the breakfast table.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 210,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Fat",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 0.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 26,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Sugar",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3400,
+        "unit": "IU",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 180,
+        "unit": "µg",
+        "percentOfDailyNeeds": 150
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iron",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "silken tofu"
+    },
+    {
+      "id": 90001,
+      "amount": 600,
+      "unit": "ml",
+      "name": "dashi stock"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "red miso paste"
+    },
+    {
+      "id": 90003,
+      "amount": 150,
+      "unit": "g",
+      "name": "daikon radish"
+    },
+    {
+      "id": 90004,
+      "amount": 150,
+      "unit": "g",
+      "name": "kabocha squash"
+    },
+    {
+      "id": 90005,
+      "amount": 8,
+      "unit": "item",
+      "name": "shiitake mushrooms"
+    },
+    {
+      "id": 90006,
+      "amount": 100,
+      "unit": "g",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "mirin"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "grated ginger"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "sliced scallions"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Simmering Stew",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Peel and slice the daikon radish and kabocha squash into small thin bite sized pieces for quick morning cooking."
+        },
+        {
+          "number": 2,
+          "step": "Bring the dashi stock to a gentle simmer in a medium saucepan over medium heat with grated ginger and mirin."
+        },
+        {
+          "number": 3,
+          "step": "Add the sliced mushrooms, squash, and daikon radish into the simmering broth and cook for twelve minutes."
+        },
+        {
+          "number": 4,
+          "step": "Whisk the red miso paste and soy sauce into a ladle of hot broth until dissolved, then stir back into the pot."
+        },
+        {
+          "number": 5,
+          "step": "Carefully slide the cubed silken tofu and baby spinach into the stew, simmering gently for three minutes."
+        },
+        {
+          "number": 6,
+          "step": "Ladle the warm soup into shallow ceramic bowls and garnish generously with green scallions before eating."
+        }
+      ]
+    }
+  ]
+}

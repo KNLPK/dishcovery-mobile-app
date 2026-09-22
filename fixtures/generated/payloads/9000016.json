@@ -1,0 +1,303 @@
+{
+  "id": 9000016,
+  "title": "Ethiopian Spiced Fish and Potato Layered Bake",
+  "image": "generated://dishcovery/9000016.jpg",
+  "readyInMinutes": 60,
+  "servings": 4,
+  "summary": "Combining warm Horn of Africa spices with delicate white fish, this savory <b>Ethiopian layered bake</b> creates a unique casserole that highlights seafood in a cozy baked dish. Flaky tilapia fillets are seasoned with fragrant berbere, a traditional spice mixture containing chili pepper, garlic, ginger, and aromatic spices that lend deep heat and complex flavor. Thinly sliced potatoes are pre-cooked until tender before being arranged in alternating layers with the spiced fish fillets and a rich tomato-based sauce. Clarified butter infused with spices, known as niter kibbeh, coats the onions and garlic, releasing an irresistible savory aroma throughout the entire casserole as it bakes. In the heat of the oven, the potatoes absorb the spiced pan juices while shielding the fish, keeping the tilapia remarkably tender and succulent. The top layer of potatoes turns crisp and golden along the edges, offering a delightful textual contrast. Finished with fresh cilantro, this comforting seafood bake pairs wonderfully with injera bread or warm flatbread.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 29,
+        "unit": "g",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 80,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Sodium",
+        "amount": 560,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 850,
+        "unit": "IU",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 110,
+        "unit": "IU",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Folate",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 92
+      },
+      {
+        "name": "Calcium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 2.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 820,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Choline",
+        "amount": 88,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 5.8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.25,
+      "unit": "lb",
+      "name": "tilapia fillets"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "medium",
+      "name": "russet potatoes"
+    },
+    {
+      "id": 90002,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "berbere spice"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "niter kibbeh"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "large",
+      "name": "red onions"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90008,
+      "amount": 0.75,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice potatoes thinly and boil in salted water for eight minutes until slightly tender, then drain well."
+        },
+        {
+          "number": 2,
+          "step": "Melt niter kibbeh in a skillet and sauté sliced red onions and garlic with berbere spice for five minutes."
+        },
+        {
+          "number": 3,
+          "step": "Stir tomato paste and vegetable broth into onion spice mixture to form a fragrant thick sauce."
+        },
+        {
+          "number": 4,
+          "step": "Coat tilapia fillets with fresh lemon juice and season lightly on both sides with salt and berbere spice."
+        },
+        {
+          "number": 5,
+          "step": "Layer half the potatoes in a greased baking dish, top with fish fillets, sauce, and remaining potatoes."
+        },
+        {
+          "number": 6,
+          "step": "Bake in oven at three hundred seventy-five degrees Fahrenheit for twenty-five minutes, garnish with cilantro."
+        }
+      ]
+    }
+  ]
+}

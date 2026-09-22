@@ -1,0 +1,303 @@
+{
+  "id": 9000013,
+  "title": "Crispy Vietnamese Rice Flatbread with Fermented Tofu",
+  "image": "generated://dishcovery/9000013.jpg",
+  "readyInMinutes": 35,
+  "servings": 4,
+  "summary": "Inspired by classic street food traditions, this savory <b>Vietnamese crispy flatbread</b> highlights the complex umami depth of fermented rice batter and creamy fermented tofu. The batter undergoes a gentle fermentation process that imparts a pleasant subtle tang, which combines with smooth coconut milk and earthy turmeric for a vibrant yellow hue and crisp texture upon cooking. Ladled thinly onto a piping hot skillet, the batter sizzles immediately, forming lacey golden edges that stay light and crispy. Inside the folded flatbread, a spread of mashed fermented tofu provides a rich, pungent savoriness balanced by sweet crunch from raw bean sprouts and tender cooked mung beans. Freshly sliced scallions and spicy chili peppers add aromatic heat, while cilantro leaves offer a cooling herb contrast. Finished with a splash of fresh lime juice right before eating, each crispy fold offers a harmonious contrast of hot, tangy, crunchy, and savory sensations that elevate simple ingredients into an extraordinary plant-focused dish.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 360,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 85,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 3.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Selenium",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Choline",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 3.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cup",
+      "name": "fermented rice batter"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "oz",
+      "name": "fermented tofu"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "cup",
+      "name": "bean sprouts"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "stem",
+      "name": "scallions"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "unit",
+      "name": "chili peppers"
+    },
+    {
+      "id": 90007,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "mung beans"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk fermented rice batter with coconut milk, turmeric powder, and water until smooth thin consistency forms."
+        },
+        {
+          "number": 2,
+          "step": "Mash fermented tofu in a small bowl with sesame oil and minced chili peppers until creamy paste forms."
+        },
+        {
+          "number": 3,
+          "step": "Heat a seasoned skillet over medium-high heat and lightly coat the surface with sesame oil."
+        },
+        {
+          "number": 4,
+          "step": "Pour half a cup of batter into the hot pan, swirling quickly to form a thin round flatbread crepe."
+        },
+        {
+          "number": 5,
+          "step": "Top one side of the flatbread with bean sprouts, cooked mung beans, chopped scallions, and fermented tofu."
+        },
+        {
+          "number": 6,
+          "step": "Fold flatbread over the filling, cook two minutes until bottom turns golden crispy, then serve with lime juice."
+        }
+      ]
+    }
+  ]
+}

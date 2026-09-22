@@ -1,0 +1,303 @@
+{
+  "id": 9000029,
+  "title": "Peruvian Braised Beef and Sweet Potato Breakfast",
+  "image": "generated://dishcovery/9000029.jpg",
+  "readyInMinutes": 90,
+  "servings": 4,
+  "summary": "Reinvent your morning routine with this hearty <b>Peruvian breakfast dish</b> featuring tender slow-braised beef inspired by classic Seco de Res. Marinated beef chuck is gently simmered in a vibrant green sauce made from blended fresh cilantro, yellow aji pepper paste, garlic, and fragrant spices. Once the meat is pull-apart tender, it is served over a bed of crispy skillet-cooked <b>sweet potato cubes</b>, creating a wonderful contrast between rich, savory stew and natural root vegetable sweetness. A fried egg cooked sunny-side-up tops the dish, adding a luscious runny yolk that enriches every bite. Pickled red onion salsa criolla adds a bright, acid-driven crunch that cuts through the hearty braised flavors. This fusion breakfast brings comforting Latin American dinner flavors to the morning table, making it an ideal choice for weekend brunches or special morning feasts that keep you satisfied for hours.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 36,
+        "unit": "g",
+        "percentOfDailyNeeds": 72
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 245,
+        "unit": "mg",
+        "percentOfDailyNeeds": 82
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 14200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 284
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Folate",
+        "amount": 55,
+        "unit": "µg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 3.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 133
+      },
+      {
+        "name": "Calcium",
+        "amount": 78,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Potassium",
+        "amount": 750,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Zinc",
+        "amount": 7.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Choline",
+        "amount": 165,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "lbs",
+      "name": "beef chuck"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "large",
+      "name": "sweet potatoes"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "yellow aji pepper paste"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "cup",
+      "name": "beef broth"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90007,
+      "amount": 4,
+      "unit": "large",
+      "name": "eggs"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Season beef chuck cubes with salt, cumin, and black pepper before searing in oil inside a Dutch oven."
+        },
+        {
+          "number": 2,
+          "step": "Blend fresh cilantro leaves, yellow paste, garlic, and beef broth into a smooth green herb puree."
+        },
+        {
+          "number": 3,
+          "step": "Pour cilantro puree over seared beef, cover tightly, and braise on low heat for seventy-five minutes."
+        },
+        {
+          "number": 4,
+          "step": "Pan-fry diced sweet potatoes in a separate skillet until golden and crisp around the outer edges."
+        },
+        {
+          "number": 5,
+          "step": "Shred the tender braised beef into small pieces and spoon over a bed of warm crispy sweet potatoes."
+        },
+        {
+          "number": 6,
+          "step": "Top each serving bowl with a freshly fried sunny-side-up egg and sliced red onion salsa criolla."
+        }
+      ]
+    }
+  ]
+}

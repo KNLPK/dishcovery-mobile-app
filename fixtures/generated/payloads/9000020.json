@@ -1,0 +1,303 @@
+{
+  "id": 9000020,
+  "title": "Chilled Japanese Barley Salad with Smoked Salmon",
+  "image": "generated://dishcovery/9000020.jpg",
+  "readyInMinutes": 35,
+  "servings": 2,
+  "summary": "This refreshing Japanese grain salad delivers a vibrant harmony of chewy pressed barley, crisp cucumbers, shelled edamame, and <b>rich hot-smoked salmon flakes</b>. Infused with a delicate dressing of toasted sesame oil, rice vinegar, and white miso, the salad achieves a balanced contrast between earthy grains and deep smoky notes. The cold grain base absorbs the nutty rice vinegar emulsion thoroughly without losing its satisfying structure, creating a dish that feels hearty yet light on the palate. Brightened with toasted sesame seeds and thinly sliced radishes, every bite provides a delightful crunch paired with savory ocean depth. Perfect as a quick lunch or an elegant side dish for summer entertaining, this grain bowl showcases the refined elegance of Japanese flavor balance. Prepare the barley in advance to allow the grains to fully cool before tossing them with the delicate smoked fish and crisp fresh vegetables.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Sodium",
+        "amount": 620,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 8.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 180,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 100
+      },
+      {
+        "name": "Folate",
+        "amount": 88,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 310,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Copper",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Selenium",
+        "amount": 31,
+        "unit": "µg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Magnesium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Choline",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Iodine",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 150,
+      "unit": "g",
+      "name": "pressed barley"
+    },
+    {
+      "id": 90001,
+      "amount": 120,
+      "unit": "g",
+      "name": "hot smoked salmon"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "g",
+      "name": "shelled edamame"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "piece",
+      "name": "english cucumber"
+    },
+    {
+      "id": 90004,
+      "amount": 4,
+      "unit": "piece",
+      "name": "red radish"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "white miso paste"
+    },
+    {
+      "id": 90006,
+      "amount": 15,
+      "unit": "ml",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90007,
+      "amount": 20,
+      "unit": "ml",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90009,
+      "amount": 10,
+      "unit": "g",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "stem",
+      "name": "green onion"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse pressed barley under cold water until clear, then simmer in covered water for twenty minutes until tender."
+        },
+        {
+          "number": 2,
+          "step": "Spread the cooked barley on a wide parchment tray and chill in the refrigerator until completely cold throughout."
+        },
+        {
+          "number": 3,
+          "step": "Whisk the white miso, toasted sesame oil, rice vinegar, and grated ginger together in a small bowl until smooth."
+        },
+        {
+          "number": 4,
+          "step": "Flake the hot-smoked salmon fillet into bite-sized pieces using two forks, discarding any remaining skin and bones."
+        },
+        {
+          "number": 5,
+          "step": "Combine chilled barley, edamame beans, diced cucumbers, and sliced radishes inside a deep salad mixing bowl."
+        },
+        {
+          "number": 6,
+          "step": "Pour the ginger miso dressing over the grain mixture and gently fold in the flaked smoked salmon before serving."
+        }
+      ]
+    }
+  ]
+}

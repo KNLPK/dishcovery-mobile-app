@@ -1,0 +1,303 @@
+{
+  "id": 9000010,
+  "title": "Royal Moroccan Lamb Stew with Dried Figs and Honey",
+  "image": "generated://dishcovery/9000010.jpg",
+  "readyInMinutes": 90,
+  "servings": 6,
+  "summary": "This festive <b>Moroccan lamb stew</b> is crafted for special gatherings, blending tender cuts of shoulder with warm aromatic spices and sweet dried fruits. Softened red onions form a gentle aromatic base, while a handcrafted blend of ras el hanout infuses the pot with warm notes of cardamom, cumin, nutmeg, and ginger. Premium saffron threads steeped directly in broth release a brilliant golden hue and floral perfume throughout the bubbling liquid. Sweet dried figs slowly rehydrate in the cooking vessel, absorbing the savory lamb juices while imparting a natural fruit honey sweetness that balances the earthy spices. Slowly simmering inside a traditional tagine yields remarkably succulent meat that yields effortlessly to a fork. A final drizzle of golden honey pulled into the reducing sauce creates a glistening glaze over each piece of lamb. Topped with crunchy toasted almonds and bright cilantro leaves, this regal dish provides a breathtaking centerpiece for celebratory feasts, best served over fluffly steamed couscous or with fresh flatbread.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 620,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 49
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 30,
+        "unit": "g",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Protein",
+        "amount": 40,
+        "unit": "g",
+        "percentOfDailyNeeds": 80
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Sodium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 320,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Niacin",
+        "amount": 9.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 2.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 117
+      },
+      {
+        "name": "Calcium",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Potassium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Magnesium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Zinc",
+        "amount": 6.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Copper",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Choline",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 340,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 2,
+      "unit": "lb",
+      "name": "lamb shoulder"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "cup",
+      "name": "dried figs"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90003,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "ras el hanout"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "saffron threads"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "blanched almonds"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "medium",
+      "name": "red onions"
+    },
+    {
+      "id": 90007,
+      "amount": 2.5,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "unit",
+      "name": "cinnamon stick"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut the lamb shoulder into bite-sized cubes and toss evenly with ras el hanout spice blend and sea salt in a bowl."
+        },
+        {
+          "number": 2,
+          "step": "Heat olive oil in a heavy tagine pot over medium heat and brown the seasoned lamb pieces thoroughly on all sides."
+        },
+        {
+          "number": 3,
+          "step": "Add diced red onions to the pot and cook for six minutes until softened and translucent before pouring in broth."
+        },
+        {
+          "number": 4,
+          "step": "Add saffron threads and cinnamon stick, cover tightly, and simmer gently over low heat for sixty minutes until tender."
+        },
+        {
+          "number": 5,
+          "step": "Stir in halves of dried figs along with honey and continue simmering uncovered for fifteen minutes to thicken sauce."
+        },
+        {
+          "number": 6,
+          "step": "Garnish the rich stew with toasted blanched almonds and freshly chopped cilantro right before serving warm to guests."
+        }
+      ]
+    }
+  ]
+}

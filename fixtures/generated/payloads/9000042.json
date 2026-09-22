@@ -1,0 +1,303 @@
+{
+  "id": 9000042,
+  "title": "Festive Barley and Roasted Pumpkin Japanese Salad",
+  "image": "generated://dishcovery/9000042.jpg",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "summary": "Designed for special gatherings and holiday tables, this <b>festive grain salad</b> showcases rich textures and vibrant Japanese flavors. The heart of the dish is chewy <b>pearl barley</b>, which absorbs the savory zest of a bright yuzu and soy dressing without losing its satisfying structure. Sweet caramelised kabocha squash cubes add warm autumnal colors and a velvety mouthfeel, while crunchy toasted lotus root chips and bright green edamame provide contrasting crunch. Perfect as a grand centerpiece for formal celebrations or buffet spreads, this recipe balances sweet, salty, and acidic elements effortlessly. A final sprinkling of toasted <b>black sesame seeds</b> and microgreens adds elegance and visual appeal to every portion. Preparing the components ahead of time allows the flavors to meld together seamlessly, ensuring your guests experience a harmoniously balanced grain dish that honors traditional Japanese seasonality while offering a modern, celebratory presentation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sugar",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Protein",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 64
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Folate",
+        "amount": 62,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Magnesium",
+        "amount": 72,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Choline",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Biotin",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "pearl barley"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "kabocha squash"
+    },
+    {
+      "id": 90002,
+      "amount": 30,
+      "unit": "ml",
+      "name": "toasted sesame oil"
+    },
+    {
+      "id": 90003,
+      "amount": 30,
+      "unit": "ml",
+      "name": "yuzu juice"
+    },
+    {
+      "id": 90004,
+      "amount": 30,
+      "unit": "ml",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 15,
+      "unit": "ml",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90006,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90007,
+      "amount": 15,
+      "unit": "ml",
+      "name": "mirin"
+    },
+    {
+      "id": 90008,
+      "amount": 100,
+      "unit": "g",
+      "name": "edamame"
+    },
+    {
+      "id": 90009,
+      "amount": 40,
+      "unit": "g",
+      "name": "lotus root chips"
+    },
+    {
+      "id": 90010,
+      "amount": 15,
+      "unit": "g",
+      "name": "black sesame seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse the pearl barley under cold running water until the liquid runs completely clear, then drain well in a fine mesh sieve."
+        },
+        {
+          "number": 2,
+          "step": "Cook the washed grain in salted boiling water until tender yet chewy, then spread it across a large sheet pan to cool completely."
+        },
+        {
+          "number": 3,
+          "step": "Toss diced kabocha squash with toasted sesame oil and roast at high heat until caramelization develops around the crisp edges."
+        },
+        {
+          "number": 4,
+          "step": "Whisk yuzu juice, soy sauce, rice vinegar, grated ginger, and mirin in a small ceramic glass jar to form a bright dressing."
+        },
+        {
+          "number": 5,
+          "step": "Combine the cooled barley, roasted squash cubes, sliced edamame, and toasted lotus root chips in a large decorative wooden bowl."
+        },
+        {
+          "number": 6,
+          "step": "Pour the citrusy dressing over the salad components, toss thoroughly to coat, and garnish generously with toasted sesame seeds."
+        }
+      ]
+    }
+  ]
+}

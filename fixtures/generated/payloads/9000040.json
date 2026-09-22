@@ -1,0 +1,300 @@
+{
+  "id": 9000040,
+  "title": "Warm Moroccan Couscous and Chickpea Salad",
+  "image": "generated://dishcovery/9000040.jpg",
+  "readyInMinutes": 25,
+  "servings": 4,
+  "summary": "Streamline your cooking with this vibrant <b>Moroccan warm grain salad</b> prepared easily using just a single pot for effortless preparation and cleanup. Fluffy <b>dried couscous</b> and protein-rich <b>canned chickpeas</b> absorb a hot spiced broth infused with aromatic cumin, sweet cinnamon, and sea salt. Diced dried apricots rehydrate in the steam, adding subtle pockets of natural sweetness that pair beautifully with crunchy toasted sliced almonds. Everything steeps together directly in one pan, allowing the grains to expand and absorb all savory flavors without extra cookware. Once plumped, a bright dressing of lemon juice and extra virgin olive oil is folded in alongside fragrant torn fresh mint leaves. This colorful grain salad works wonderfully as a hearty main dish or a vibrant side for feasts, serving high flavor with minimal dishwashing. Enjoy it warm or chilled for a delightful light meal full of North African charm.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Sugar",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Protein",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fiber",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 82,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 2.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Calcium",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Potassium",
+        "amount": 520,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Magnesium",
+        "amount": 68,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 34,
+        "unit": "µg",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Copper",
+        "amount": 0.38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Choline",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "dried couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 400,
+      "unit": "g",
+      "name": "canned chickpeas"
+    },
+    {
+      "id": 90002,
+      "amount": 350,
+      "unit": "ml",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90003,
+      "amount": 80,
+      "unit": "g",
+      "name": "dried apricots"
+    },
+    {
+      "id": 90004,
+      "amount": 50,
+      "unit": "g",
+      "name": "toasted almonds"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground cinnamon"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90010,
+      "amount": 0.75,
+      "unit": "tsp",
+      "name": "salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Grain and Legume Base",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Bring vegetable broth, olive oil, cumin, cinnamon, and salt to a rolling boil in a deep saucepan over medium heat."
+        },
+        {
+          "number": 2,
+          "step": "Stir in dried couscous, chickpeas, and diced apricots, then remove from heat and cover tightly with a lid for ten minutes."
+        }
+      ]
+    },
+    {
+      "name": "Dressing and Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Fluff the steeped couscous gently with a fork to separate grains without mashing the tender chickpeas."
+        },
+        {
+          "number": 2,
+          "step": "Fold in fresh lemon juice, chopped mint, and toasted almonds directly in the pot, then serve immediately while warm."
+        }
+      ]
+    }
+  ]
+}

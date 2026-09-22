@@ -1,0 +1,303 @@
+{
+  "id": 9000028,
+  "title": "Vietnamese Lemongrass Shrimp Skewers",
+  "image": "generated://dishcovery/9000028.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "These aromatic <b>Vietnamese shrimp skewers</b> capture the vibrant balance of sweet, salty, sour, and savory flavors characteristic of Southeast Asian cuisine. Fresh <b>juicy shrimp</b> are marinated in a fragrant mixture of crushed lemongrass, minced shallots, garlic, high-quality fish sauce, and fresh lime juice. Rapid grilling over direct flame creates a light char that enhances the natural sweetness of the seafood while caramelizing the marinade. Topped with crunchy roasted peanuts and freshly plucked cilantro sprigs, these skewers serve as a fantastic starter or light summer dinner main course. Pair them with steamed jasmine rice, thin rice vermicelli noodles, or fresh lettuce cups for wrapping. Quick to prepare and full of zesty herbs, this recipe brings authentic street food flare straight to your outdoor grill or indoor cast-iron ridged skillet. Enjoy the intoxicating aroma of charred lemongrass and herbs.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 220,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sugar",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Protein",
+        "amount": 25,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 60
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 1,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 180,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 11,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Potassium",
+        "amount": 290,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 38,
+        "unit": "µg",
+        "percentOfDailyNeeds": 69
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iodine",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.25,
+      "unit": "lbs",
+      "name": "shrimp"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "lemongrass"
+    },
+    {
+      "id": 90002,
+      "amount": 4,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "medium",
+      "name": "shallots"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90007,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90008,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "peanuts"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "small",
+      "name": "red chili"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Finely mince fresh lemongrass stalks, garlic cloves, and shallots using a sharp knife on a cutting board."
+        },
+        {
+          "number": 2,
+          "step": "Combine fish sauce, lime juice, brown sugar, and vegetable oil with the minced aromatics in a wide bowl."
+        },
+        {
+          "number": 3,
+          "step": "Thread peeled jumbo shrimp onto soaked wooden skewers, leaving small gaps between each piece for heat flow."
+        },
+        {
+          "number": 4,
+          "step": "Brush the flavorful lemongrass marinade generously over all sides of the prepped seafood skewers."
+        },
+        {
+          "number": 5,
+          "step": "Grill the skewers over medium-high heat for three minutes per side until the shrimp turn opaque and pink."
+        },
+        {
+          "number": 6,
+          "step": "Garnish the cooked skewers with chopped roasted peanuts and fresh cilantro leaves before serving warm."
+        }
+      ]
+    }
+  ]
+}

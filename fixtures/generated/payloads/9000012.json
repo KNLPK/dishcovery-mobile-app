@@ -1,0 +1,303 @@
+{
+  "id": 9000012,
+  "title": "One-Pot Greek Orzo Pasta Bowl with Feta and Olives",
+  "image": "generated://dishcovery/9000012.jpg",
+  "readyInMinutes": 30,
+  "servings": 4,
+  "summary": "This vibrant <b>Greek orzo bowl</b> brings Mediterranean Mediterranean flavors to your dinner table using a single convenient cooking pot for quick preparation and easy cleanup. Uncooked orzo pasta is briefly toasted in olive oil alongside diced red onions and garlic, unlocking a subtle nutty aroma before simmered directly in seasoned broth and tomatoes. As the pasta absorbs the savory liquid, it releases starches that naturally thicken the dish into a luscious, risotto-like consistency without requiring cream. Sliced kalamata olives bring a pleasantly salty kick that complements the sweet notes of canned ripe tomatoes and dried oregano. Tender baby spinach is folded into the hot pot at the very end, wilting instantly while maintaining its bright green color and fresh taste. A generous squeeze of fresh lemon juice brightens the overall profile, while creamy crumbled feta cheese melts slightly over the warm pasta, binding all the ingredients together. Enjoy this satisfying meal served hot straight from the pot into wide rimmed bowls for a complete Mediterranean dinner.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 410,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sodium",
+        "amount": 740,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Fiber",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 56
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 120,
+        "unit": "µg",
+        "percentOfDailyNeeds": 100
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Folate",
+        "amount": 110,
+        "unit": "µg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Calcium",
+        "amount": 180,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iron",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Potassium",
+        "amount": 450,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Choline",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 9.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.25,
+      "unit": "cup",
+      "name": "orzo pasta"
+    },
+    {
+      "id": 90001,
+      "amount": 2.5,
+      "unit": "cup",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "can",
+      "name": "chopped tomatoes"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "kalamata olives"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "feta cheese"
+    },
+    {
+      "id": 90005,
+      "amount": 2,
+      "unit": "cup",
+      "name": "baby spinach"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "medium",
+      "name": "red onion"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic cloves"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Sauté diced red onion and minced garlic in olive oil inside a large pot over medium heat for three minutes."
+        },
+        {
+          "number": 2,
+          "step": "Add dry orzo pasta and oregano to the pot, stirring constantly for two minutes to lightly toast the grains."
+        },
+        {
+          "number": 3,
+          "step": "Pour in vegetable broth and chopped tomatoes, stirring well to combine all ingredients across the pot base."
+        },
+        {
+          "number": 4,
+          "step": "Bring to a boil, then cover and simmer over medium-low heat for ten minutes until orzo becomes perfectly tender."
+        },
+        {
+          "number": 5,
+          "step": "Fold in fresh baby spinach leaves and pitted kalamata olives until spinach wilts completely into warm pasta."
+        },
+        {
+          "number": 6,
+          "step": "Remove from heat, stir in fresh lemon juice, sprinkle with crumbled feta cheese, and serve immediately in bowls."
+        }
+      ]
+    }
+  ]
+}

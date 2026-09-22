@@ -1,0 +1,303 @@
+{
+  "id": 9000027,
+  "title": "Classic Greek Lentil Soup with Herbs",
+  "image": "generated://dishcovery/9000027.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Experience the simple elegance of traditional Mediterranean home cooking with this comforting <b>Greek lentil soup</b>. Known locally as Fakes, this hearty <b>vegetarian soup</b> relies on wholesome brown lentils cooked alongside sweet carrots, celery, and onions in a rich herbal broth. Tomato paste adds color and depth, while bay leaves and dried oregano infuse the pot with classical Aegean flavors. A key finishing step involves stirring in a splash of red wine vinegar and raw extra virgin olive oil just before serving, which brightens the savory earthiness of the pulses. High in fiber and plant-based protein, this nutritious dish is both budget-friendly and remarkably easy to prepare on busy weeknights. Serve it steaming hot alongside crusty sourdough bread, salty feta cheese, and kalamata olives for a authentic Greek dining experience at home. This comforting bowl proves that simple plant-based ingredients can create deeply satisfying meals.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 310,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 1.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 540,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Fiber",
+        "amount": 12,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 3800,
+        "unit": "IU",
+        "percentOfDailyNeeds": 76
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 180,
+        "unit": "µg",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Calcium",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Iron",
+        "amount": 4.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Potassium",
+        "amount": 680,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Selenium",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Choline",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Iodine",
+        "amount": 2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "cup",
+      "name": "brown lentils"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "medium",
+      "name": "yellow onion"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "medium",
+      "name": "carrots"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "stalks",
+      "name": "celery"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "tomato paste"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "dried oregano"
+    },
+    {
+      "id": 90008,
+      "amount": 2,
+      "unit": "leaf",
+      "name": "bay leaves"
+    },
+    {
+      "id": 90009,
+      "amount": 5,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "red wine vinegar"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse brown lentils under cold running water in a mesh strainer, removing any debris before cooking."
+        },
+        {
+          "number": 2,
+          "step": "Sauté chopped yellow onion, diced carrots, and minced celery in olive oil inside a heavy pot for seven minutes."
+        },
+        {
+          "number": 3,
+          "step": "Add minced garlic, tomato paste, dried oregano, and bay leaves, stirring constantly until highly aromatic."
+        },
+        {
+          "number": 4,
+          "step": "Pour in vegetable broth and rinsed lentils, bringing the pot to a rapid boil over medium-high heat."
+        },
+        {
+          "number": 5,
+          "step": "Reduce heat to low, cover pot, and simmer gently for thirty-five minutes until lentils become completely tender."
+        },
+        {
+          "number": 6,
+          "step": "Stir in red wine vinegar and extra virgin olive oil just before ladling the hot soup into deep bowls."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": 9000036,
+  "title": "Roasted Honey Cinnamon Pumpkin with Cajeta",
+  "image": "generated://dishcovery/9000036.jpg",
+  "readyInMinutes": 50,
+  "servings": 6,
+  "summary": "Celebrate the conclusion of your meal with this luscious <b>Mexican roasted pumpkin dessert</b> infused with warm aromatic spices and sweet caramel notes. Thick wedges of heirloom <b>calabaza pumpkin</b> are coated in a glaze of melted butter, unrefined <b>piloncillo sugar</b>, wild honey, and aromatic orange zest before baking. As the pumpkin roasts in a hot oven, its natural sugars caramelize alongside cinnamon sticks, star anise, and fragrant ground cloves to create a deeply fragrant crust. The flesh becomes silky smooth while holding its graceful shape, offering a delightful contrast between charred spiced edges and sweet tender interior. Drizzled generously with creamy goat milk <b>cajeta caramel</b> and sprinkled with crunchy toasted pepitas, this dessert showcases traditional Mexican baking artistry. Serve warm with vanilla ice cream or fresh whipped cream for an unforgettable sweet course that honors rustic seasonal flavors in every bite.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 290,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 4.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 38,
+        "unit": "g",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Protein",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Sodium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Fiber",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 9500,
+        "unit": "IU",
+        "percentOfDailyNeeds": 190
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 8,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Folate",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Calcium",
+        "amount": 120,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Magnesium",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Selenium",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Copper",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Choline",
+        "amount": 16,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1000,
+      "unit": "g",
+      "name": "calabaza pumpkin"
+    },
+    {
+      "id": 90001,
+      "amount": 100,
+      "unit": "g",
+      "name": "piloncillo sugar"
+    },
+    {
+      "id": 90002,
+      "amount": 2,
+      "unit": "item",
+      "name": "cinnamon sticks"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "melted butter"
+    },
+    {
+      "id": 90005,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground cloves"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "item",
+      "name": "star anise"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "orange zest"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "vanilla extract"
+    },
+    {
+      "id": 90009,
+      "amount": 4,
+      "unit": "tbsp",
+      "name": "cajeta goat milk caramel"
+    },
+    {
+      "id": 90010,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "toasted pumpkin seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Roasting Process",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Preheat your oven to four hundred degrees Fahrenheit and line a large heavy baking sheet with parchment paper."
+        },
+        {
+          "number": 2,
+          "step": "Cut the calabaza pumpkin into six equal wedges, removing the seeds and inner stringy pulp completely."
+        },
+        {
+          "number": 3,
+          "step": "Melt piloncillo with butter, honey, vanilla extract, and orange zest in a small saucepan over low heat."
+        },
+        {
+          "number": 4,
+          "step": "Arrange pumpkin wedges on the baking sheet and brush all exposed surfaces thoroughly with spiced honey glaze."
+        },
+        {
+          "number": 5,
+          "step": "Scatter whole cinnamon sticks and star anise over the pan, then roast for thirty-five minutes until tender."
+        },
+        {
+          "number": 6,
+          "step": "Transfer roasted pumpkin to dessert plates, drizzling warm cajeta caramel and pepitas over top to finish."
+        }
+      ]
+    }
+  ]
+}

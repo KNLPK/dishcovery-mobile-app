@@ -33,6 +33,7 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 
 import {
+  COMPLEXITY_THRESHOLDS,
   SERIALIZATION_FORMATS,
   ROUTES,
   classifyComplexity,
@@ -346,7 +347,7 @@ function report(results: CheckOutcome[], mode: string): boolean {
   for (const r of results) tally[r.tier] = (tally[r.tier] ?? 0) + 1;
   const pct = (n: number) => `${((n / results.length) * 100).toFixed(1)}%`;
   console.log(
-    `\nTier distribution (UTF-8 bytes: <8192 low, <=20480 medium | depth: <=6 low, <=8 medium)` +
+    `\nTier distribution (UTF-8 bytes: <${COMPLEXITY_THRESHOLDS.lowMaxBytes} low, <=${COMPLEXITY_THRESHOLDS.mediumMaxBytes} medium | depth: <=${COMPLEXITY_THRESHOLDS.lowMaxDepth} low, <=${COMPLEXITY_THRESHOLDS.mediumMaxDepth} medium)` +
       `\n   low=${tally.low} (${pct(tally.low)})   medium=${tally.medium} (${pct(tally.medium)})   high=${tally.high} (${pct(tally.high)})`
   );
 
@@ -359,8 +360,8 @@ function report(results: CheckOutcome[], mode: string): boolean {
       `\nmaxDepth  : min=${depths[0]}  median=${median(depths)}  max=${depths[depths.length - 1]}`
   );
   console.log(
-    `boundary  : byteLength ${chars[0] < 8192 && chars[chars.length - 1] >= 8192 ? 'DOES' : 'does NOT'} ` +
-      `cross 8192; maxDepth ${depths[0] !== depths[depths.length - 1] ? 'varies' : 'is CONSTANT'} across the set`
+    `boundary  : byteLength ${chars[0] < COMPLEXITY_THRESHOLDS.lowMaxBytes && chars[chars.length - 1] >= COMPLEXITY_THRESHOLDS.lowMaxBytes ? 'DOES' : 'does NOT'} ` +
+      `cross ${COMPLEXITY_THRESHOLDS.lowMaxBytes}; maxDepth ${depths[0] !== depths[depths.length - 1] ? 'varies' : 'is CONSTANT'} across the set`
   );
 
   // ── Impact of the old truncation ───────────────────────────────────────────

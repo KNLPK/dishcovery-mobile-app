@@ -1,0 +1,303 @@
+{
+  "id": 9000023,
+  "title": "Thai Morning Chicken Skewers with Sticky Rice",
+  "image": "generated://dishcovery/9000023.jpg",
+  "readyInMinutes": 25,
+  "servings": 2,
+  "summary": "Reimagine your morning routine with these savory Thai street-style chicken skewers, specially adapted into <b>a energized breakfast plate</b>. Tender strips of chicken thigh are steeped in lemongrass, coconut cream, and garlic before being grilled until lightly charred and juicy. Served alongside warm sticky rice and a quick sunnyside-up fried egg, this morning meal offers a power-packed balance of protein and satisfying complex carbohydrates. A light dipping sauce crafted from roasted peanuts, red curry paste, and lime juice provides a savory nuttiness that ties the smoky chicken to the chewy sticky rice. The contrast between soft egg yolk and caramelized grilled meat creates a morning culinary experience that feels both luxurious and authentic. Prepare the bamboo skewers and marinade the night before to ensure effortless morning grilling that takes under ten minutes to complete.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 68
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 70
+      },
+      {
+        "name": "Sodium",
+        "amount": 690,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 3.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Potassium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 380,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 8.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 53
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.7,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Magnesium",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Choline",
+        "amount": 185,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Iodine",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "chicken thighs"
+    },
+    {
+      "id": 90001,
+      "amount": 6,
+      "unit": "piece",
+      "name": "bamboo skewers"
+    },
+    {
+      "id": 90002,
+      "amount": 100,
+      "unit": "ml",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "minced lemongrass"
+    },
+    {
+      "id": 90004,
+      "amount": 30,
+      "unit": "g",
+      "name": "peanut butter"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "red curry paste"
+    },
+    {
+      "id": 90006,
+      "amount": 150,
+      "unit": "g",
+      "name": "sticky rice"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "piece",
+      "name": "fresh eggs"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    },
+    {
+      "id": 90009,
+      "amount": 15,
+      "unit": "ml",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90010,
+      "amount": 15,
+      "unit": "ml",
+      "name": "vegetable oil"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Thread sliced chicken thigh strips onto soaked bamboo skewers after marinating in coconut milk and lemongrass."
+        },
+        {
+          "number": 2,
+          "step": "Whisk peanut butter, red curry paste, coconut cream, and lime juice together over low heat to make dipping sauce."
+        },
+        {
+          "number": 3,
+          "step": "Preheat an indoor cast-iron grill pan over high heat and brush lightly with vegetable oil to prevent sticking."
+        },
+        {
+          "number": 4,
+          "step": "Grill the chicken skewers for four minutes per side until nicely charred on the outside and cooked through."
+        },
+        {
+          "number": 5,
+          "step": "Fry fresh eggs in a separate oiled skillet until whites are crisp around the edges while yolks stay soft."
+        },
+        {
+          "number": 6,
+          "step": "Plate the hot grilled skewers with warm sticky rice, fried egg, and a ramekin of warm peanut dipping sauce."
+        }
+      ]
+    }
+  ]
+}

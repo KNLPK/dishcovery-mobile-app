@@ -1,0 +1,303 @@
+{
+  "id": 9000018,
+  "title": "One-Skillet Brazilian Cassava Flatbread",
+  "image": "generated://dishcovery/9000018.jpg",
+  "readyInMinutes": 30,
+  "servings": 3,
+  "summary": "Discover the vibrant taste of South American street food with this innovative Brazilian flatbread that brings rich cassava flavors straight to your table. Prepared entirely within <b>a single cast-iron skillet</b>, this one-pot method eliminates extra cleanup while building rich toasted aromas directly into the tender tapioca dough. The skillet first browns seasoned ground pork and diced bell peppers, capturing every bit of savory flavor before the hydrated cassava starch is dusted into the warm pan to form a crisp, molten cheese-stuffed crust. Fresh cilantro and shredded canastra cheese add bright herbal notes and a creamy melt that binds the hearty filling together seamlessly. Cooking everything sequentially in one skillet ensures that no seasoned pan drippings are wasted during the baking phase. Ideal for quick weeknight dinners or cozy weekend gatherings, this flatbread offers a delightfully chewy texture alongside a golden crispy exterior that will impress family and friends alike.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 440,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sugar",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Protein",
+        "amount": 17,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sodium",
+        "amount": 510,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Fiber",
+        "amount": 2.5,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Calcium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Iron",
+        "amount": 1.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Potassium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 1
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 14,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Folate",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 190,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Copper",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "cassava starch"
+    },
+    {
+      "id": 90001,
+      "amount": 180,
+      "unit": "g",
+      "name": "ground pork"
+    },
+    {
+      "id": 90002,
+      "amount": 120,
+      "unit": "g",
+      "name": "canastra cheese"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "piece",
+      "name": "red bell pepper"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "clove",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90005,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sea salt"
+    },
+    {
+      "id": 90007,
+      "amount": 15,
+      "unit": "ml",
+      "name": "olive oil"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "white pepper"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "stem",
+      "name": "spring onion"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "lime juice"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Heat a heavy skillet over medium flame and cook the seasoned ground pork until golden and completely browned throughout."
+        },
+        {
+          "number": 2,
+          "step": "Add the chopped bell peppers and crushed garlic into the hot pan drippings, cooking until tender for four minutes."
+        },
+        {
+          "number": 3,
+          "step": "Remove the meat mixture from the skillet and wipe away excess grease using a dry paper towel while keeping heat low."
+        },
+        {
+          "number": 4,
+          "step": "Sift the hydrated cassava starch across the bottom of the warm skillet in a uniform layer without adding extra fat."
+        },
+        {
+          "number": 5,
+          "step": "Spread the reserved meat, shredded canastra cheese, and chopped cilantro over one half of the fusing cassava dough layer."
+        },
+        {
+          "number": 6,
+          "step": "Fold the flatbread in half, searing each side for two minutes until the cheese melts into a warm golden crisp crust."
+        }
+      ]
+    }
+  ]
+}

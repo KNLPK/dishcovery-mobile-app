@@ -1,0 +1,303 @@
+{
+  "id": 9000015,
+  "title": "Lebanese Freekeh and Herb Grain Salad with Pomegranate",
+  "image": "generated://dishcovery/9000015.jpg",
+  "readyInMinutes": 40,
+  "servings": 6,
+  "summary": "Rooted in Eastern Mediterranean traditions, this refreshing <b>Lebanese grain salad</b> offers a vibrant array of textures and bold herbal flavors in a completely plant-based format. Whole roasted green wheat, known as freekeh, serves as the hearty base, offering a smoky nuttiness and chewiness that stands up beautifully to fresh vegetables. Abundant amounts of finely chopped flat-leaf parsley and fresh mint bring an aromatic brightness that defines authentic Levantine salads. Crisp diced cucumber and sweet halved cherry tomatoes add refreshing crunch and juicy moisture, while ruby pomegranate seeds provide bursts of sweet-tart flavor throughout. A light dressing made from extra virgin olive oil and freshly squeezed lemon juice is heightened by sumac, a tangy berry spice with a lemony zip. Topped with buttery toasted walnuts for extra crunch, this wholesome salad can be prepared ahead or enjoyed fresh at room temperature, making it a perfect dish for summer lunches, outdoor gatherings, or healthy meal preparation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 290,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Fat",
+        "amount": 15,
+        "unit": "g",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 34,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Fiber",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 2100,
+        "unit": "IU",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 160,
+        "unit": "µg",
+        "percentOfDailyNeeds": 133
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Folate",
+        "amount": 65,
+        "unit": "µg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Magnesium",
+        "amount": 58,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Copper",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Selenium",
+        "amount": 11,
+        "unit": "µg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Choline",
+        "amount": 22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 160,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "cup",
+      "name": "coarse freekeh"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "bunch",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "bunch",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "pomegranate seeds"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "medium",
+      "name": "cucumber"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90006,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "extra virgin olive oil"
+    },
+    {
+      "id": 90007,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sumac spice"
+    },
+    {
+      "id": 90009,
+      "amount": 0.33,
+      "unit": "cup",
+      "name": "walnuts"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "sea salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Rinse coarse freekeh under cold water, simmer in pot with water for twenty minutes until tender, then cool."
+        },
+        {
+          "number": 2,
+          "step": "Finely chop fresh parsley leaves and mint leaves, placing them into a large salad mixing bowl."
+        },
+        {
+          "number": 3,
+          "step": "Dice cucumber and quarter cherry tomatoes, then add them into the bowl with herbs and pomegranate seeds."
+        },
+        {
+          "number": 4,
+          "step": "Toast chopped walnuts in a dry skillet over medium heat for four minutes until fragrant and golden brown."
+        },
+        {
+          "number": 5,
+          "step": "Whisk extra virgin olive oil, lemon juice, sumac spice, and sea salt together in a small pitcher."
+        },
+        {
+          "number": 6,
+          "step": "Combine cooled freekeh with vegetables, pour dressing over salad, toss thoroughly, and top with walnuts."
+        }
+      ]
+    }
+  ]
+}

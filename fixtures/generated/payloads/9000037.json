@@ -1,0 +1,303 @@
+{
+  "id": 9000037,
+  "title": "Quick Spiced Curry Noodle Bowl",
+  "image": "generated://dishcovery/9000037.jpg",
+  "readyInMinutes": 20,
+  "servings": 2,
+  "summary": "Bring vibrant flavors to your dinner table in under twenty minutes with this swift <b>Indian curry noodle bowl</b> designed specifically for busy weeknights. Delicate <b>rice vermicelli noodles</b> cook rapidly in hot water before getting tossed into a rich, fragrant sauce scented with warm spices. Whole <b>mustard seeds</b> tempered in hot vegetable oil release a nutty aroma, joining ginger, ground turmeric, and aromatic curry powder. Sweet julienned carrots and tender green peas add bright color and crisp textures, balanced by smooth light coconut milk that binds the dish together effortlessly. This streamlined recipe requires simple pantry staples and minimal preparation, delivering comforting warmth without lengthy simmering times. Sprinkled with chopped fresh cilantro leaves, this vibrant noodle creation proves that weeknight dinners can be both fast and packed with extraordinary regional character. Serve immediately in cozy bowl portions for a complete, nutritious meal.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 420,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fat",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 62,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Protein",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 840,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 4200,
+        "unit": "IU",
+        "percentOfDailyNeeds": 84
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "IU",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Folate",
+        "amount": 48,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Calcium",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Iron",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 16,
+        "unit": "µg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Copper",
+        "amount": 0.22,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Choline",
+        "amount": 24,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 200,
+      "unit": "g",
+      "name": "rice vermicelli noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 1.5,
+      "unit": "tbsp",
+      "name": "curry powder"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "ml",
+      "name": "coconut milk"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90004,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "mustard seeds"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "minced ginger"
+    },
+    {
+      "id": 90006,
+      "amount": 100,
+      "unit": "g",
+      "name": "julienned carrots"
+    },
+    {
+      "id": 90007,
+      "amount": 100,
+      "unit": "g",
+      "name": "green peas"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "turmeric powder"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fresh cilantro"
+    },
+    {
+      "id": 90010,
+      "amount": 0.75,
+      "unit": "tsp",
+      "name": "salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Stir Fry Assembly",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Soak the thin rice vermicelli noodles in boiling water for four minutes until soft, then drain thoroughly."
+        },
+        {
+          "number": 2,
+          "step": "Heat vegetable oil in a wok over high heat and pop the mustard seeds until they sizzle and crackle softly."
+        },
+        {
+          "number": 3,
+          "step": "Add minced ginger, curry powder, and turmeric, stirring rapidly for thirty seconds to bloom aromatic spices."
+        },
+        {
+          "number": 4,
+          "step": "Toss julienned carrots and green peas into the skillet, cooking for two minutes until veggies are bright."
+        },
+        {
+          "number": 5,
+          "step": "Pour coconut milk into the pan, bringing to a quick simmer before stirring in drained noodles and salt."
+        },
+        {
+          "number": 6,
+          "step": "Divide hot spiced noodles between serving bowls and top with abundant freshly chopped cilantro before serving."
+        }
+      ]
+    }
+  ]
+}

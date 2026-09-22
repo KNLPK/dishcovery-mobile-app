@@ -1,0 +1,303 @@
+{
+  "id": 9000011,
+  "title": "Make-Ahead Korean Baked Pork Belly with Sweet Soy Glaze",
+  "image": "generated://dishcovery/9000011.jpg",
+  "readyInMinutes": 75,
+  "servings": 4,
+  "summary": "Designed for effortless entertaining and busy weeknight prep, this <b>Korean roasted pork belly</b> relies on a deep overnight marinade to deliver maximum flavor with minimal same-day effort. Strips of savory pork belly soak up a balanced mixture of savory soy sauce, spicy gochujang chili paste, sweet brown sugar, and tangy pear juice that tenderizes the meat while infusing intense savoriness. Sliced ginger and crushed garlic add vibrant sharp notes that cut cleanly through the rich profile of the pork belly. When ready to cook, high-heat roasting in the oven renders the marbled fat into crispy edges while keeping the interior juicy and tender. As the natural sugars caramelize on the hot pan, they create a sticky glaze that clings beautifully to every piece. Preparing this dish ahead allows the flavors to mature fully inside the refrigerator before baking. Serve these glazed pork belly strips sliced alongside steamed rice, pickled radish, and fresh lettuce wraps for an customizable meal that tastes like it took hours of active preparation.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 690,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Fat",
+        "amount": 52,
+        "unit": "g",
+        "percentOfDailyNeeds": 80
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 19,
+        "unit": "g",
+        "percentOfDailyNeeds": 95
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Sugar",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Protein",
+        "amount": 31,
+        "unit": "g",
+        "percentOfDailyNeeds": 62
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Sodium",
+        "amount": 890,
+        "unit": "mg",
+        "percentOfDailyNeeds": 39
+      },
+      {
+        "name": "Fiber",
+        "amount": 1.2,
+        "unit": "g",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 180,
+        "unit": "IU",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 22,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 67
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 7.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Folate",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Calcium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 490,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Zinc",
+        "amount": 3.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 24,
+        "unit": "µg",
+        "percentOfDailyNeeds": 44
+      },
+      {
+        "name": "Choline",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Monounsaturated Fat",
+        "amount": 23,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.8,
+      "unit": "lb",
+      "name": "pork belly"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "gochujang paste"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90003,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "fresh ginger"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "clove",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "rice vinegar"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "stem",
+      "name": "green onions"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "toasted sesame seeds"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pear juice"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Whisk together gochujang paste, soy sauce, brown sugar, sesame oil, grated ginger, minced garlic, and pear juice."
+        },
+        {
+          "number": 2,
+          "step": "Coat pork belly slices evenly in the sauce, then chill covered in the refrigerator for up to twenty-four hours."
+        },
+        {
+          "number": 3,
+          "step": "Preheat oven to four hundred degrees Fahrenheit and line a large rimmed baking sheet with heavy aluminum foil."
+        },
+        {
+          "number": 4,
+          "step": "Arrange marinated pork belly in a single layer on the baking sheet, leaving small gaps between each tender slice."
+        },
+        {
+          "number": 5,
+          "step": "Roast in the oven for thirty-five minutes, turning once mid-way through until caramelized and crispy on edges."
+        },
+        {
+          "number": 6,
+          "step": "Drizzle remaining glaze over hot pork, top with sliced green onions and toasted sesame seeds, then serve hot."
+        }
+      ]
+    }
+  ]
+}

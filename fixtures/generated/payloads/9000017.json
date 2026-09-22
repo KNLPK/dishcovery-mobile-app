@@ -1,0 +1,303 @@
+{
+  "id": 9000017,
+  "title": "Make-Ahead Polish Kluski Noodle Bowl",
+  "image": "generated://dishcovery/9000017.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "This hearty Polish noodle bowl combines tender egg kluski with slow-caramelized green cabbage, earthy marjoram, and golden pan-fried kielbasa slices to create a deeply satisfying rustic meal. Designed specifically as <b>a make-ahead comfort dish</b>, the flavors meld together beautifully when chilled overnight, making it ideal for busy weekday lunches or effortless evening reheating. A splash of apple cider vinegar cuts through the rich egg noodles while bringing out the subtle sweetness of the braised onion base. Topped with freshly chopped parsley and a spoonful of chilled sour cream just before serving, each bowl offers a classic balance of savory herbs, tender textures, and heartwarming taste. Preparing this dish in advance actually enhances its fragrant profile as the egg noodles absorb the seasoned pan juices over time. Whether served lukewarm during a brisk afternoon or warmed up for supper, this comforting noodle creation delivers authentic regional character with total convenience for modern home cooks.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 520,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Fat",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 31
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 45
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 58,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 18,
+        "unit": "g",
+        "percentOfDailyNeeds": 36
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 85,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Sodium",
+        "amount": 780,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Fiber",
+        "amount": 6,
+        "unit": "g",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Calcium",
+        "amount": 95,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 650,
+        "unit": "IU",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 62,
+        "unit": "µg",
+        "percentOfDailyNeeds": 52
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.25,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Folate",
+        "amount": 75,
+        "unit": "µg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Magnesium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Choline",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iodine",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 8
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "egg kluski noodles"
+    },
+    {
+      "id": 90001,
+      "amount": 300,
+      "unit": "g",
+      "name": "green cabbage"
+    },
+    {
+      "id": 90002,
+      "amount": 200,
+      "unit": "g",
+      "name": "kielbasa sausage"
+    },
+    {
+      "id": 90003,
+      "amount": 1,
+      "unit": "piece",
+      "name": "sweet onion"
+    },
+    {
+      "id": 90004,
+      "amount": 30,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "dried marjoram"
+    },
+    {
+      "id": 90006,
+      "amount": 15,
+      "unit": "ml",
+      "name": "apple cider vinegar"
+    },
+    {
+      "id": 90007,
+      "amount": 15,
+      "unit": "ml",
+      "name": "rapeseed oil"
+    },
+    {
+      "id": 90008,
+      "amount": 15,
+      "unit": "g",
+      "name": "fresh parsley"
+    },
+    {
+      "id": 90009,
+      "amount": 60,
+      "unit": "g",
+      "name": "sour cream"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Boil the egg kluski noodles in well-salted water until tender, then drain thoroughly and toss with a drop of rapeseed oil."
+        },
+        {
+          "number": 2,
+          "step": "Melt the unsalted butter in a thick-bottomed skillet over medium flame until it bubbles gently without browning."
+        },
+        {
+          "number": 3,
+          "step": "Sauté the sliced sweet onions and shredded green cabbage together for twelve minutes until softly translucent and brown."
+        },
+        {
+          "number": 4,
+          "step": "Add the sliced sausage along with dried marjoram, salt, and cracked black pepper, stirring continuously for five minutes."
+        },
+        {
+          "number": 5,
+          "step": "Fold the cooked noodles into the cabbage mix, drizzling apple cider vinegar to combine all ingredients evenly."
+        },
+        {
+          "number": 6,
+          "step": "Transfer the assembled noodle mixture into airtight glass containers and chill overnight before reheating to serve."
+        }
+      ]
+    }
+  ]
+}

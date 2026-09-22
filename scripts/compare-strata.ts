@@ -352,20 +352,28 @@ function main(): void {
     .map((x) => ({ tier: x.tier, chars: mean(values(x.items, 'meanCharsPerStep')) }));
 
   if (perTierChars.length >= 2) {
-    const lowest = Math.min(...perTierChars.map((x) => x.chars));
-    const highest = Math.max(...perTierChars.map((x) => x.chars));
-    const spread = pctChange(highest, lowest);
+    // What the design forbids is reaching a larger byte band through LONGER
+    // prose. So the verdict is directional: density rising with tier would
+    // mean verbosity contributed; density flat or falling means the whole size
+    // increase came from element count. A falling density is the strongest
+    // form of the claim — the upper tiers carry more than 100% of their growth
+    // in structure.
+    const first = perTierChars[0].chars;
+    const last = perTierChars[perTierChars.length - 1].chars;
+    const trend = pctChange(last, first);
+    const ordered = perTierChars.map((x) => `${x.tier} ${f(x.chars, 1)}`).join(' → ');
+    console.log(`\n  Verbosity control: mean chars/step by tier: ${ordered} (${trend >= 0 ? '+' : ''}${f(trend, 1)}% low→high).`);
     console.log(
-      `\n  Verbosity control: mean chars/step ranges ${f(lowest, 1)}–${f(highest, 1)} ` +
-        `across tiers (spread ${f(spread, 1)}%).`
-    );
-    console.log(
-      spread <= 15
-        ? '  VERDICT: text density is effectively flat across tiers. The size increase came\n' +
-            '  from element COUNT — the upper tiers are structurally complex, not verbose.'
-        : '  VERDICT: text density is NOT flat across tiers. Part of the size increase came\n' +
-            '  from longer text rather than more elements. This must be stated in the paper:\n' +
-            '  the tiers differ in verbosity as well as structure.'
+      trend > 15
+        ? '  VERDICT: text density RISES with tier. Part of the size increase came from longer\n' +
+            '  prose rather than more elements. This must be stated in the paper: the tiers\n' +
+            '  differ in verbosity as well as structure.'
+        : trend >= -15
+          ? '  VERDICT: text density is effectively flat across tiers. The size increase came\n' +
+              '  from element COUNT — the upper tiers are structurally complex, not verbose.'
+          : '  VERDICT: text density FALLS with tier. The upper tiers are LESS verbose per step,\n' +
+              '  so the entire size increase — and more — came from element COUNT. Bounded above\n' +
+              '  by the 150 chars/step ceiling (enforced) and below by the reference p10 (67.4).'
     );
   }
 

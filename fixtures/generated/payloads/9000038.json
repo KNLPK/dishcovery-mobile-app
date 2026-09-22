@@ -1,0 +1,303 @@
+{
+  "id": 9000038,
+  "title": "Royal Thai Stuffed Roti Flatbread",
+  "image": "generated://dishcovery/9000038.jpg",
+  "readyInMinutes": 45,
+  "servings": 4,
+  "summary": "Celebrate festive occasions with this decadent <b>Thai stuffed roti flatbread</b>, a luxurious dish featured during special holiday feasts and gatherings. Hand-kneaded dough made with wheat flour, sweetened <b>condensed milk</b>, and rich ghee creates flaky, multi-layered flatbreads with a golden, crispy exterior. The savory filling stars aromatic <b>minced chicken</b> sautéed with fragrant yellow curry paste, sweet diced onions, and rich coconut cream, offering an intoxicating blend of spices and rich textures. Each dough portion is stretched paper-thin, filled with egg and spiced meat, folded into a neat square envelope, and pan-fried to perfection in hot melted ghee. The result is a stunning contrast between crispy buttered crust and tender savory filling that elevates street food to majestic heights. Serve warm, cut into bite-sized squares accompanied by sweet cucumber relish for a festive feast that will impress family and friends alike.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 490,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fat",
+        "amount": 22,
+        "unit": "g",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 54,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Sugar",
+        "amount": 8,
+        "unit": "g",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Protein",
+        "amount": 21,
+        "unit": "g",
+        "percentOfDailyNeeds": 42
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 140,
+        "unit": "mg",
+        "percentOfDailyNeeds": 47
+      },
+      {
+        "name": "Sodium",
+        "amount": 610,
+        "unit": "mg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 420,
+        "unit": "IU",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 22,
+        "unit": "IU",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Niacin",
+        "amount": 6.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Folate",
+        "amount": 88,
+        "unit": "µg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.6,
+        "unit": "µg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Biotin",
+        "amount": 6.2,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Calcium",
+        "amount": 105,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Iron",
+        "amount": 3.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Magnesium",
+        "amount": 38,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Selenium",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 51
+      },
+      {
+        "name": "Copper",
+        "amount": 0.19,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Choline",
+        "amount": 115,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 300,
+      "unit": "g",
+      "name": "all purpose flour"
+    },
+    {
+      "id": 90001,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "condensed milk"
+    },
+    {
+      "id": 90002,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "ghee"
+    },
+    {
+      "id": 90003,
+      "amount": 120,
+      "unit": "ml",
+      "name": "water"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "item",
+      "name": "beaten eggs"
+    },
+    {
+      "id": 90005,
+      "amount": 200,
+      "unit": "g",
+      "name": "minced chicken"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "yellow curry paste"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "item",
+      "name": "diced onion"
+    },
+    {
+      "id": 90008,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "coconut cream"
+    },
+    {
+      "id": 90009,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "chopped scallions"
+    },
+    {
+      "id": 90010,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "Flatbread Pan Frying",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Mix flour, water, condensed milk, salt, and melted ghee to form a smooth dough, then rest for thirty minutes."
+        },
+        {
+          "number": 2,
+          "step": "Sauté minced chicken with yellow curry paste, onions, and coconut cream until cooked through and moisture evaporates."
+        },
+        {
+          "number": 3,
+          "step": "Divide the rested dough into four portions and roll each thin onto an oiled surface until nearly translucent."
+        },
+        {
+          "number": 4,
+          "step": "Pour a portion of beaten egg and cooked chicken mixture into the center of each stretched dough sheet."
+        },
+        {
+          "number": 5,
+          "step": "Fold the edges over the filling to create a sealed square packet, pressing edges gently to prevent leaks."
+        },
+        {
+          "number": 6,
+          "step": "Pan fry the stuffed roti in melted ghee over medium heat for three minutes per side until golden brown."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "id": 9000026,
+  "title": "Korean Smoked Pork Belly and Rice Cake Bake",
+  "image": "generated://dishcovery/9000026.jpg",
+  "readyInMinutes": 45,
+  "servings": 6,
+  "summary": "This rich and comforting <b>Korean layered bake</b> offers a modern fusion twist on classic street food favorites by combining chewy rice cakes with savory protein. The star of the dish is thick-cut <b>smoked pork belly</b>, which provides a deep smoky flavor that permeates every layer during baking. Fermented kimchi adds a pleasant sharpness and crunch, balancing the richness of the meat and melt-in-your-mouth shredded mozzarella cheese topping. A signature sauce crafted from red pepper paste gochujang, garlic, toasted sesame oil, and clover honey coats the ingredients in a sweet and spicy glaze. Perfect for family dinners or game night gatherings, this casserole comes together with minimal effort and yields a piping hot, satisfying main course. The combination of chewy, crispy, and creamy textures makes it an instant crowd-pleaser that highlights the harmonious contrast between traditional Korean spices and hearty oven cooking.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 580,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Fat",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 41
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 13,
+        "unit": "g",
+        "percentOfDailyNeeds": 65
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 48,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Sugar",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Protein",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Sodium",
+        "amount": 920,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 520,
+        "unit": "IU",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 12,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Folate",
+        "amount": 25,
+        "unit": "µg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 1.1,
+        "unit": "µg",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Potassium",
+        "amount": 380,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Magnesium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Copper",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Selenium",
+        "amount": 18,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Choline",
+        "amount": 42,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Iodine",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1,
+      "unit": "lb",
+      "name": "smoked pork belly"
+    },
+    {
+      "id": 90001,
+      "amount": 1,
+      "unit": "lb",
+      "name": "rice cakes"
+    },
+    {
+      "id": 90002,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "kimchi"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "gochujang paste"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "soy sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 3,
+      "unit": "cloves",
+      "name": "garlic"
+    },
+    {
+      "id": 90006,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "sesame oil"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "honey"
+    },
+    {
+      "id": 90008,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "mozzarella cheese"
+    },
+    {
+      "id": 90009,
+      "amount": 3,
+      "unit": "stalks",
+      "name": "green onion"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "sesame seeds"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Slice the smoked pork belly into bite-sized pieces and cook in a skillet over medium heat until golden brown."
+        },
+        {
+          "number": 2,
+          "step": "Soak cylindrical rice cakes in warm water for fifteen minutes to soften them prior to assembling the casserole."
+        },
+        {
+          "number": 3,
+          "step": "Whisk gochujang paste, soy sauce, minced garlic, sesame oil, and honey together in a bowl until smooth."
+        },
+        {
+          "number": 4,
+          "step": "Layer softened rice cakes, smoked pork belly, and chopped kimchi evenly into a greased ceramic baking dish."
+        },
+        {
+          "number": 5,
+          "step": "Pour the spiced gochujang mixture over the layered ingredients, topping with a generous layer of mozzarella."
+        },
+        {
+          "number": 6,
+          "step": "Bake at three hundred seventy-five degrees Fahrenheit for twenty minutes until cheese bubbles and browns."
+        }
+      ]
+    }
+  ]
+}

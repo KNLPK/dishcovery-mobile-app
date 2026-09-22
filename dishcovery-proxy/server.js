@@ -560,6 +560,7 @@ app.get(ROUTES.dataset(), (req, res) => {
     thresholds: COMPLEXITY_THRESHOLDS,
     entries: benchmarkDataset.entries,
     tiers: benchmarkDataset.tiers,
+    bySource: benchmarkDataset.bySource,
   });
 });
 

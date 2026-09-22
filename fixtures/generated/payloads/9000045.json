@@ -1,0 +1,303 @@
+{
+  "id": 9000045,
+  "title": "Grilled Fermented Pork Skewers",
+  "image": "generated://dishcovery/9000045.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "Highlighting traditional Thai preservation methods, these <b>fermented pork skewers</b> deliver an extraordinary combination of tangy sourness and smoky sweetness. Built around authentic <b>Naem sausage</b>, a cured pork product fermented with sticky rice and garlic, each bite offers a punchy umami profile that transforms when exposed to high heat. Threaded onto bamboo sticks alongside whole shallots and Thai chilies, the meat is brushed with a sticky palm sugar and fish sauce glaze that caramelizes over open coals. The high heat of the grill crisp-chars the exterior while keeping the center succulent and complexly seasoned. This dish represents street food culture at its finest, offering bold dynamic contrasts between sour cured pork and sweet aromatic glaze. Serve these sizzling hot skewers with <b>sticky rice</b>, crisp raw cabbage wedges, and roasted peanuts for an authentic taste of Southeast Asian culinary tradition.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 510,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fat",
+        "amount": 28,
+        "unit": "g",
+        "percentOfDailyNeeds": 43
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 42,
+        "unit": "g",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Sugar",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Protein",
+        "amount": 23,
+        "unit": "g",
+        "percentOfDailyNeeds": 46
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 65,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Sodium",
+        "amount": 920,
+        "unit": "mg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Fiber",
+        "amount": 3,
+        "unit": "g",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 120,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.4,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 32,
+        "unit": "µg",
+        "percentOfDailyNeeds": 27
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 50
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 5.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 34
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 33
+      },
+      {
+        "name": "Folate",
+        "amount": 35,
+        "unit": "µg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Calcium",
+        "amount": 55,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Magnesium",
+        "amount": 52,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 240,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Potassium",
+        "amount": 420,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Choline",
+        "amount": 62,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 1.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Biotin",
+        "amount": 3.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 12
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 400,
+      "unit": "g",
+      "name": "fermented pork sausage"
+    },
+    {
+      "id": 90001,
+      "amount": 30,
+      "unit": "g",
+      "name": "palm sugar"
+    },
+    {
+      "id": 90002,
+      "amount": 30,
+      "unit": "ml",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90003,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "ground white pepper"
+    },
+    {
+      "id": 90004,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic"
+    },
+    {
+      "id": 90005,
+      "amount": 6,
+      "unit": "piece",
+      "name": "shallots"
+    },
+    {
+      "id": 90006,
+      "amount": 4,
+      "unit": "piece",
+      "name": "bird eye chilies"
+    },
+    {
+      "id": 90007,
+      "amount": 200,
+      "unit": "g",
+      "name": "sticky rice"
+    },
+    {
+      "id": 90008,
+      "amount": 150,
+      "unit": "g",
+      "name": "green cabbage"
+    },
+    {
+      "id": 90009,
+      "amount": 40,
+      "unit": "g",
+      "name": "roasted peanuts"
+    },
+    {
+      "id": 90010,
+      "amount": 2,
+      "unit": "piece",
+      "name": "lime wedges"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Cut the sour fermented pork sausage into uniform rectangular cubes suitable for threading neatly onto wooden skewers."
+        },
+        {
+          "number": 2,
+          "step": "Soak bamboo skewers in cold water for thirty minutes to prevent them from burning on the hot open charcoal grill."
+        },
+        {
+          "number": 3,
+          "step": "Whisk palm sugar, fish sauce, ground white pepper, and minced garlic together in a bowl to create a shiny glaze."
+        },
+        {
+          "number": 4,
+          "step": "Thread alternating pieces of fermented pork, shallow-cut shallots, and bird eye chilies onto each prepared skewer."
+        },
+        {
+          "number": 5,
+          "step": "Grill skewers over glowing red coals for eight minutes, turning frequently and brushing liberally with sweet glaze."
+        },
+        {
+          "number": 6,
+          "step": "Remove skewers from heat once nicely charred, serving immediately alongside sticky rice and fresh cabbage leaves."
+        }
+      ]
+    }
+  ]
+}

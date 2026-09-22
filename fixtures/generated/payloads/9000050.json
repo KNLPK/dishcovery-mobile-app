@@ -1,0 +1,303 @@
+{
+  "id": 9000050,
+  "title": "Vietnamese Lemongrass Pork Skewers in Pot",
+  "image": "generated://dishcovery/9000050.jpg",
+  "readyInMinutes": 40,
+  "servings": 4,
+  "summary": "These <b>fragrant Vietnamese skewers</b> offer a clever one-pot adaptation of street food style minced pork skewers packed with vibrant aromatics. Juicy ground pork is seasoned with finely minced lemongrass, crushed garlic, shallots, fish sauce, and a touch of brown sugar before being molded tightly around bamboo sticks. Instead of setting up an outdoor grill, these skewers are expertly seared directly inside a <b>single heavy Dutch oven</b> on the stovetop. Searing the meat in a hot pot yields a beautifully caramelized exterior while trapping all natural juices within the pot for a quick pan glaze. A splash of coconut water drizzled along the bottom of the pot creates a light steaming effect, ensuring the interior remains extraordinarily tender while building a rich savory coating. Served alongside fresh cucumber slices, pickled carrots, and warm rice noodles, this streamlined recipe delivers authentic Southeast Asian barbecue flavor with minimal cleanup effort.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 320,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 7,
+        "unit": "g",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 10,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 24,
+        "unit": "g",
+        "percentOfDailyNeeds": 48
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 75,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Sodium",
+        "amount": 580,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Fiber",
+        "amount": 1,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 120,
+        "unit": "IU",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 18,
+        "unit": "IU",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 58
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.3,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Niacin",
+        "amount": 4.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 30
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 29
+      },
+      {
+        "name": "Folate",
+        "amount": 12,
+        "unit": "µg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.9,
+        "unit": "µg",
+        "percentOfDailyNeeds": 38
+      },
+      {
+        "name": "Biotin",
+        "amount": 1.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Calcium",
+        "amount": 35,
+        "unit": "mg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Iron",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 230,
+        "unit": "mg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Magnesium",
+        "amount": 32,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Zinc",
+        "amount": 2.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 25
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Copper",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Potassium",
+        "amount": 410,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "lb",
+      "name": "ground pork"
+    },
+    {
+      "id": 90001,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "lemongrass stalks"
+    },
+    {
+      "id": 90002,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "shallots"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "clove",
+      "name": "garlic cloves"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "fish sauce"
+    },
+    {
+      "id": 90005,
+      "amount": 1,
+      "unit": "tbsp",
+      "name": "brown sugar"
+    },
+    {
+      "id": 90006,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "black pepper"
+    },
+    {
+      "id": 90007,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "vegetable oil"
+    },
+    {
+      "id": 90008,
+      "amount": 0.5,
+      "unit": "cup",
+      "name": "coconut water"
+    },
+    {
+      "id": 90009,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cucumber"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh cilantro"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Combine ground pork, minced lemongrass, shallots, garlic, fish sauce, sugar, and pepper in a bowl, mixing until sticky."
+        },
+        {
+          "number": 2,
+          "step": "Divide the pork mixture into eight equal portions and mold each tightly around a soaked bamboo skewer into a firm log shape."
+        },
+        {
+          "number": 3,
+          "step": "Heat vegetable oil over medium-high heat in a large heavy pot or Dutch oven until shimmering across the entire surface."
+        },
+        {
+          "number": 4,
+          "step": "Arrange the prepared skewers in a single layer inside the hot pot, working in batches if necessary to avoid overcrowding."
+        },
+        {
+          "number": 5,
+          "step": "Sear the skewers for six minutes, turning occasionally until a rich golden-brown crust develops evenly on all sides."
+        },
+        {
+          "number": 6,
+          "step": "Pour coconut water into the pot bottom, cover tightly, and simmer three minutes until pork is cooked through and glazed."
+        }
+      ]
+    }
+  ]
+}

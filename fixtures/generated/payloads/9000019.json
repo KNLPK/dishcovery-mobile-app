@@ -1,0 +1,303 @@
+{
+  "id": 9000019,
+  "title": "Ricotta Gnudi with Fermented Black Garlic",
+  "image": "generated://dishcovery/9000019.jpg",
+  "readyInMinutes": 50,
+  "servings": 4,
+  "summary": "Elevate your pasta night with these pillowy Italian gnudi dumplings that highlight <b>a savory fermented black garlic compound</b>. Soft ricotta cheese is whipped with aged parmesan, egg yolks, and fine semolina flour before being gently folded around sweet, earthy paste made from long-fermented garlic cloves. Poached delicate dough balls float effortlessly to the surface of simmering water, yielding an remarkably light bite that bursts with rich umami depth. A minimal emulsion of sage-infused brown butter complements the fermented garlic without overpowering its subtle caramel undertones. This sophisticated dish bridges traditional Tuscan dumpling craft with contemporary flavor complexity, making it an extraordinary choice for dinner parties. Resting the uncooked dumplings overnight in semolina allows a delicate skin to form, ensuring they hold their round structure flawlessly when submerged in the hot poaching bath.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 380,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 19
+      },
+      {
+        "name": "Fat",
+        "amount": 20,
+        "unit": "g",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 11,
+        "unit": "g",
+        "percentOfDailyNeeds": 55
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 32,
+        "unit": "g",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Sugar",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Protein",
+        "amount": 16,
+        "unit": "g",
+        "percentOfDailyNeeds": 32
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 37
+      },
+      {
+        "name": "Sodium",
+        "amount": 460,
+        "unit": "mg",
+        "percentOfDailyNeeds": 20
+      },
+      {
+        "name": "Fiber",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Calcium",
+        "amount": 280,
+        "unit": "mg",
+        "percentOfDailyNeeds": 28
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 210,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 540,
+        "unit": "IU",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 2
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 0.9,
+        "unit": "mg",
+        "percentOfDailyNeeds": 6
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 8,
+        "unit": "µg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Vitamin B1",
+        "amount": 0.18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Vitamin B2",
+        "amount": 0.31,
+        "unit": "mg",
+        "percentOfDailyNeeds": 24
+      },
+      {
+        "name": "Vitamin B3",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B5",
+        "amount": 0.7,
+        "unit": "mg",
+        "percentOfDailyNeeds": 14
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.15,
+        "unit": "mg",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0.5,
+        "unit": "µg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Folate",
+        "amount": 45,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 260,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.8,
+        "unit": "mg",
+        "percentOfDailyNeeds": 16
+      },
+      {
+        "name": "Copper",
+        "amount": 0.11,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.4,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Selenium",
+        "amount": 19,
+        "unit": "µg",
+        "percentOfDailyNeeds": 35
+      },
+      {
+        "name": "Magnesium",
+        "amount": 28,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Choline",
+        "amount": 82,
+        "unit": "mg",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Iodine",
+        "amount": 15,
+        "unit": "µg",
+        "percentOfDailyNeeds": 10
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 250,
+      "unit": "g",
+      "name": "whole milk ricotta"
+    },
+    {
+      "id": 90001,
+      "amount": 30,
+      "unit": "g",
+      "name": "fermented black garlic"
+    },
+    {
+      "id": 90002,
+      "amount": 150,
+      "unit": "g",
+      "name": "semolina flour"
+    },
+    {
+      "id": 90003,
+      "amount": 50,
+      "unit": "g",
+      "name": "parmesan cheese"
+    },
+    {
+      "id": 90004,
+      "amount": 2,
+      "unit": "piece",
+      "name": "egg yolks"
+    },
+    {
+      "id": 90005,
+      "amount": 40,
+      "unit": "g",
+      "name": "unsalted butter"
+    },
+    {
+      "id": 90006,
+      "amount": 10,
+      "unit": "g",
+      "name": "fresh sage"
+    },
+    {
+      "id": 90007,
+      "amount": 0.25,
+      "unit": "tsp",
+      "name": "ground nutmeg"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "kosher salt"
+    },
+    {
+      "id": 90009,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "cracked pepper"
+    },
+    {
+      "id": 90010,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "lemon zest"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Mash the fermented black garlic cloves into a smooth paste using a heavy mortar and pestle until fully emulsified."
+        },
+        {
+          "number": 2,
+          "step": "Whisk together the whole milk ricotta, grated parmesan, egg yolks, and ground nutmeg in a large chilled glass bowl."
+        },
+        {
+          "number": 3,
+          "step": "Fold fine semolina into the cheese base gently, shaping small rounded dumplings filled with a pinch of garlic paste."
+        },
+        {
+          "number": 4,
+          "step": "Roll the formed dumplings in extra semolina flour and let them chill in the refrigerator for two hours to firm up."
+        },
+        {
+          "number": 5,
+          "step": "Gently drop the chilled dumplings into a wide pot of salted water kept at a bare simmer for four minutes until floating."
+        },
+        {
+          "number": 6,
+          "step": "Melt butter with fresh sage leaves in a pan, then spoon the fragrant warm butter over drained dumplings immediately."
+        }
+      ]
+    }
+  ]
+}

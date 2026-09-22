@@ -1,0 +1,303 @@
+{
+  "id": 9000025,
+  "title": "Moroccan Couscous Salad with Preserved Lemon",
+  "image": "generated://dishcovery/9000025.jpg",
+  "readyInMinutes": 25,
+  "servings": 4,
+  "summary": "This vibrant <b>Moroccan couscous salad</b> brings together tender steamed durum wheat grains with aromatic spices and chopped fresh herbs. The defining highlight of this dish is finely diced <b>preserved lemon</b>, a traditional North African fermented ingredient that imparts a deep citrus tang to every bite. Crisp diced cucumbers, sweet cherry tomatoes, and toasted pine nuts provide a satisfying contrast in textures throughout the mixture. A simple dressing made from extra virgin olive oil, ground cumin, and freshly squeezed lemon juice binds all the components together seamlessly. Perfect for light lunches or outdoor summer gatherings, this recipe can be prepared in under half an hour and tastes even better as the flavors meld together over time. Serve it alongside grilled vegetables or crisp flatbreads for a complete Mediterranean meal that showcases complex savory notes without requiring extensive cooking time. Each serving offers a refreshing combination of herbal notes and tangy accents.",
+  "nutrition": {
+    "nutrients": [
+      {
+        "name": "Calories",
+        "amount": 340,
+        "unit": "kcal",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Fat",
+        "amount": 14,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Saturated Fat",
+        "amount": 2,
+        "unit": "g",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Carbohydrates",
+        "amount": 46,
+        "unit": "g",
+        "percentOfDailyNeeds": 15
+      },
+      {
+        "name": "Sugar",
+        "amount": 4,
+        "unit": "g",
+        "percentOfDailyNeeds": 4
+      },
+      {
+        "name": "Protein",
+        "amount": 9,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Cholesterol",
+        "amount": 0,
+        "unit": "mg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Sodium",
+        "amount": 480,
+        "unit": "mg",
+        "percentOfDailyNeeds": 21
+      },
+      {
+        "name": "Fiber",
+        "amount": 5,
+        "unit": "g",
+        "percentOfDailyNeeds": 18
+      },
+      {
+        "name": "Vitamin A",
+        "amount": 450,
+        "unit": "IU",
+        "percentOfDailyNeeds": 9
+      },
+      {
+        "name": "Vitamin C",
+        "amount": 18,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Vitamin D",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Vitamin E",
+        "amount": 2.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Vitamin K",
+        "amount": 28,
+        "unit": "µg",
+        "percentOfDailyNeeds": 23
+      },
+      {
+        "name": "Thiamin",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 17
+      },
+      {
+        "name": "Riboflavin",
+        "amount": 0.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 8
+      },
+      {
+        "name": "Niacin",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 13
+      },
+      {
+        "name": "Vitamin B6",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Folate",
+        "amount": 42,
+        "unit": "µg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Vitamin B12",
+        "amount": 0,
+        "unit": "µg",
+        "percentOfDailyNeeds": 0
+      },
+      {
+        "name": "Calcium",
+        "amount": 45,
+        "unit": "mg",
+        "percentOfDailyNeeds": 5
+      },
+      {
+        "name": "Iron",
+        "amount": 2.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 12
+      },
+      {
+        "name": "Potassium",
+        "amount": 320,
+        "unit": "mg",
+        "percentOfDailyNeeds": 7
+      },
+      {
+        "name": "Magnesium",
+        "amount": 48,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Phosphorus",
+        "amount": 110,
+        "unit": "mg",
+        "percentOfDailyNeeds": 11
+      },
+      {
+        "name": "Zinc",
+        "amount": 1.1,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Copper",
+        "amount": 0.2,
+        "unit": "mg",
+        "percentOfDailyNeeds": 22
+      },
+      {
+        "name": "Manganese",
+        "amount": 0.6,
+        "unit": "mg",
+        "percentOfDailyNeeds": 26
+      },
+      {
+        "name": "Selenium",
+        "amount": 22,
+        "unit": "µg",
+        "percentOfDailyNeeds": 40
+      },
+      {
+        "name": "Choline",
+        "amount": 14,
+        "unit": "mg",
+        "percentOfDailyNeeds": 3
+      },
+      {
+        "name": "Pantothenic Acid",
+        "amount": 0.5,
+        "unit": "mg",
+        "percentOfDailyNeeds": 10
+      },
+      {
+        "name": "Iodine",
+        "amount": 3,
+        "unit": "µg",
+        "percentOfDailyNeeds": 2
+      }
+    ]
+  },
+  "extendedIngredients": [
+    {
+      "id": 90000,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "couscous"
+    },
+    {
+      "id": 90001,
+      "amount": 1.5,
+      "unit": "cups",
+      "name": "vegetable broth"
+    },
+    {
+      "id": 90002,
+      "amount": 1,
+      "unit": "whole",
+      "name": "preserved lemon"
+    },
+    {
+      "id": 90003,
+      "amount": 3,
+      "unit": "tbsp",
+      "name": "olive oil"
+    },
+    {
+      "id": 90004,
+      "amount": 1,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    {
+      "id": 90005,
+      "amount": 0.5,
+      "unit": "tsp",
+      "name": "salt"
+    },
+    {
+      "id": 90006,
+      "amount": 2,
+      "unit": "tbsp",
+      "name": "lemon juice"
+    },
+    {
+      "id": 90007,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cucumber"
+    },
+    {
+      "id": 90008,
+      "amount": 1,
+      "unit": "cup",
+      "name": "cherry tomatoes"
+    },
+    {
+      "id": 90009,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "fresh mint"
+    },
+    {
+      "id": 90010,
+      "amount": 0.25,
+      "unit": "cup",
+      "name": "pine nuts"
+    }
+  ],
+  "analyzedInstructions": [
+    {
+      "name": "",
+      "steps": [
+        {
+          "number": 1,
+          "step": "Pour hot vegetable broth over dry couscous in a heatproof bowl, then cover tightly with plate for ten minutes."
+        },
+        {
+          "number": 2,
+          "step": "Finely dice the preserved lemon peel, removing all seeds and pulp before adding it to a small mixing vessel."
+        },
+        {
+          "number": 3,
+          "step": "Whisk olive oil, ground cumin, sea salt, and fresh lemon juice together until emulsified into a fragrant dressing."
+        },
+        {
+          "number": 4,
+          "step": "Fluff the warm cooked couscous using a fork, then toss in diced cucumbers, quartered cherry tomatoes, and mint."
+        },
+        {
+          "number": 5,
+          "step": "Drizzle the prepared dressing evenly across the grain salad, stirring gently to ensure everything is coated."
+        },
+        {
+          "number": 6,
+          "step": "Scatter toasted pine nuts and chopped parsley over the top right before serving at cool room temperature."
+        }
+      ]
+    }
+  ]
+}
