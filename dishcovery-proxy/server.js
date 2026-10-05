@@ -494,8 +494,32 @@ app.get(ROUTES.search(), async (req, res, next) => {
       });
     }
 
+    // Format support on search is JSON and MessagePack only.
+    //
+    // MessagePack is self-describing, so it encodes this response as-is. Protobuf
+    // cannot: it would need a message type for the search result list, and
+    // shared/proto/recipe.proto is frozen for the duration of data collection —
+    // regenerating it would alter the very code whose decode time is being
+    // measured. A protobuf search is therefore refused explicitly rather than
+    // served as JSON under a protobuf label, which would corrupt any reading of
+    // the metrics panel.
+    const format = req.query.format;
+    if (format !== undefined && format !== 'json' && format !== 'msgpack') {
+      return res.status(400).json({
+        error: 'Unsupported format for search',
+        allowed: ['json', 'msgpack'],
+        detail:
+          'Protobuf requires a compiled message type and shared/proto/recipe.proto ' +
+          'covers recipe documents only. Search supports JSON and MessagePack.',
+      });
+    }
+
+    // `format` is ours, not Spoonacular's — forwarding it upstream would make
+    // the request differ between formats, which is exactly what must not vary.
+    const { format: _ignored, ...forwarded } = req.query;
+
     const params = {
-      ...req.query,
+      ...forwarded,
       apiKey: SPOONACULAR_API_KEY,
       addRecipeInformation: false,
       number: Math.min(Number(req.query.number) || 10, 50),
@@ -505,6 +529,14 @@ app.get(ROUTES.search(), async (req, res, next) => {
       params,
     });
 
+    if (format === 'msgpack') {
+      return sendBytes(res, {
+        body: Buffer.from(encodeMsgPack(data)),
+        contentType: CONTENT_TYPES.msgpack,
+      });
+    }
+
+    res.setHeader('Content-Type', CONTENT_TYPES.json);
     res.json(data);
   } catch (err) {
     next(err);

@@ -1,196 +1,289 @@
 import { Feather } from '@expo/vector-icons';
-import axios from 'axios';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
-import { ActivityIndicator, FlatList, Image, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
+import { FlatList, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
+
 import BottomTabBar from '../components/BottomTabBar';
-import { API_BASE_URL } from '../constants/api';
+import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { EmptyState, ErrorState, LoadingState } from '../components/StateViews';
+import { CATEGORIES, categoryType } from '../constants/categories';
+import { palette, radius, shadow, spacing, type as typeScale } from '../constants/theme';
+import { searchRecipes, type SearchResultItem } from '../src/api/client';
+import { describeRequestError, type RequestFailure } from '../src/api/errors';
 
-type RecipeResult = { id: string | number; title: string; image?: string };
+/**
+ * Sample content, shown before a search has run. These are placeholders with
+ * stock imagery, not data from the API — they are not tappable because there is
+ * no recipe behind them.
+ */
+type SampleCard = { id: string; title: string; image: string };
 
-const categories = ['Breakfast', 'Lunch', 'Dinner', 'Snack'];
-const popularRecipes = [
-  { id: '1', title: 'Egg & Avocado', image: { uri: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' } },
-  { id: '2', title: 'Bowl of ramen', image: { uri: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' } },
-  { id: '3', title: 'Chicken Stew', image: { uri: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80' } },
+const popularRecipes: SampleCard[] = [
+  { id: '1', title: 'Egg & Avocado', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' },
+  { id: '2', title: 'Bowl of ramen', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' },
+  { id: '3', title: 'Chicken Stew', image: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80' },
 ];
+
+const trendingIngredients: SampleCard[] = [
+  { id: '1', title: 'Avocado', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=80&q=80' },
+  { id: '2', title: 'Egg', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=80&q=80' },
+  { id: '3', title: 'Chicken', image: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=80&q=80' },
+  { id: '4', title: 'Salmon', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=80&q=80' },
+];
+
 const yourChoice = [
-  { id: '1', title: 'Easy homemade beef burger', author: 'James Spader', authorImg: 'https://randomuser.me/api/portraits/men/1.jpg', image: { uri: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' } },
-  { id: '2', title: 'Blueberry with egg for breakfast', author: 'Alice Fala', authorImg: 'https://randomuser.me/api/portraits/women/2.jpg', image: { uri: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' } },
-  { id: '3', title: 'Toast with egg for breakfast', author: 'Agnes', authorImg: 'https://randomuser.me/api/portraits/women/3.jpg', image: { uri: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80' } },
+  { id: '1', title: 'Easy homemade beef burger', author: 'James Spader', authorImg: 'https://randomuser.me/api/portraits/men/1.jpg', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' },
+  { id: '2', title: 'Blueberry with egg for breakfast', author: 'Alice Fala', authorImg: 'https://randomuser.me/api/portraits/women/2.jpg', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' },
+  { id: '3', title: 'Toast with egg for breakfast', author: 'Agnes', authorImg: 'https://randomuser.me/api/portraits/women/3.jpg', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80' },
+];
+
+const recentlyViewed: SampleCard[] = [
+  { id: '1', title: 'Spaghetti Carbonara', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=120&q=80' },
+  { id: '2', title: 'Avocado Toast', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=120&q=80' },
 ];
 
 export default function Search() {
-  const [selectedCategory, setSelectedCategory] = useState('Breakfast');
+  // null means "no meal-type filter". The chips toggle: tapping the selected
+  // one clears it, so a plain keyword search is still reachable.
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [search, setSearch] = useState('');
-  const [results, setResults] = useState<RecipeResult[]>([]);
+  const [results, setResults] = useState<SearchResultItem[] | null>(null);
+  const [lastQuery, setLastQuery] = useState('');
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
+  const [failure, setFailure] = useState<RequestFailure | null>(null);
+  const [last, setLast] = useState<LastMeasurement | null>(null);
   const router = useRouter();
 
-  const fetchRecipes = async (query: string) => {
-    if (!query) return;
+  const runSearch = async (query: string, category: string | null = selectedCategory) => {
+    const trimmed = query.trim();
+    if (trimmed.length === 0) return;
+
     setLoading(true);
-    setError('');
+    setFailure(null);
+    setLastQuery(trimmed);
     try {
-      const response = await axios.get(`${API_BASE_URL}/api/search`, {
-        params: {
-          query,
-          number: 10,
-        },
+      // The measured path — same instruments as recipe detail, in whichever
+      // format is selected app-wide. The chip, when one is active, becomes
+      // Spoonacular's `type` filter, exactly as ChefHat uses it.
+      const type = categoryType(category);
+      const { data, meta } = await searchRecipes({
+        query: trimmed,
+        ...(type === null ? {} : { type }),
+        number: 10,
       });
-      setResults(response.data.results);
+      setResults(data.results ?? []);
+      setLast({
+        payloadBytes: meta.payloadBytes,
+        deserializationMs: meta.deserializationMs,
+        heapDeltaBytes: meta.heapDeltaBytes,
+        format: meta.format,
+        formatFallbackFrom: meta.formatFallbackFrom,
+      });
     } catch (err) {
-      setError('Failed to fetch recipes.');
+      setFailure(describeRequestError(err, 'search recipes'));
+      setResults(null);
     } finally {
       setLoading(false);
     }
   };
 
-  const handleSearchSubmit = () => {
-    fetchRecipes(search);
+  const openRecipe = (id: number | string) => {
+    router.push({ pathname: '/recipe', params: { id: String(id) } });
   };
 
   return (
-    <View style={{ flex: 1, backgroundColor: '#fff' }}>
-      <ScrollView style={styles.container} contentContainerStyle={{ paddingBottom: 140 }} showsVerticalScrollIndicator={true}>
+    <View style={styles.page}>
+      <ScrollView
+        style={styles.container}
+        contentContainerStyle={{ paddingBottom: 140 }}
+        keyboardShouldPersistTaps="handled"
+      >
         {/* Header */}
-        <View style={[styles.headerRow, { marginBottom: 18 }]}>
-          <IconButton icon="arrow-left" size={24} onPress={() => router.replace('/HomePage')} />
+        <View style={styles.headerRow}>
+          <IconButton icon="arrow-left" size={22} iconColor={palette.primary} onPress={() => router.navigate('/HomePage')} />
           <Text style={styles.headerTitle}>Search</Text>
           <View style={{ width: 40 }} />
         </View>
-        {/* Search Bar */}
-        <View style={[styles.searchBarContainer, { marginBottom: 18 }]}>
-          <View style={styles.searchBarWrapper}>
-            <Feather name="search" size={20} color="#b0b0b0" style={styles.searchIcon} />
-            <TextInput
-              style={styles.searchBar}
-              placeholder="Search"
-              value={search}
-              onChangeText={setSearch}
-              onSubmitEditing={handleSearchSubmit}
-              returnKeyType="search"
-              placeholderTextColor="#b0b0b0"
-            />
-          </View>
-        </View>
-        {/* Categories */}
-        <View style={[styles.categoryRow, { marginBottom: 16 }]}>
-          {categories.map((cat) => (
-            <TouchableOpacity
-              key={cat}
-              style={[styles.categoryButton, selectedCategory === cat && styles.categoryButtonActive, { marginRight: 16 }]}
-              onPress={() => setSelectedCategory(cat)}
-            >
-              <Text style={[styles.categoryText, selectedCategory === cat && styles.categoryTextActive]}>{cat}</Text>
-            </TouchableOpacity>
-          ))}
-        </View>
-        {/* Trending Ingredients */}
-        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Trending Ingredients</Text>
-        <FlatList
-          data={[
-            { id: '1', name: 'Avocado', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=80&q=80' },
-            { id: '2', name: 'Egg', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=80&q=80' },
-            { id: '3', name: 'Chicken', image: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=80&q=80' },
-            { id: '4', name: 'Salmon', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=80&q=80' },
-          ]}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          keyExtractor={item => item.id}
-          renderItem={({ item, index }) => (
-            <View style={[styles.ingredientCard, index === 3 && { marginBottom: 24 }]}>
-              <Image source={{ uri: item.image }} style={styles.ingredientImage} />
-              <Text style={styles.ingredientName}>{item.name}</Text>
-            </View>
+
+        {/* Search bar */}
+        <View style={styles.searchBarWrapper}>
+          <Feather name="search" size={18} color={palette.faint} style={styles.searchIcon} />
+          <TextInput
+            style={styles.searchBar}
+            placeholder="Search recipes"
+            value={search}
+            onChangeText={setSearch}
+            onSubmitEditing={() => runSearch(search)}
+            returnKeyType="search"
+            placeholderTextColor={palette.faint}
+          />
+          {search.length > 0 && (
+            <Pressable onPress={() => setSearch('')} hitSlop={10} accessibilityLabel="Clear search">
+              <Feather name="x" size={18} color={palette.faint} />
+            </Pressable>
           )}
-          contentContainerStyle={{ paddingLeft: 16, paddingRight: 40, paddingBottom: 24 }}
-          ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
-          style={{ marginBottom: 24 }}
-        />
-        {/* Popular Recipes or Search Results */}
-        <View style={[styles.sectionRow, { marginBottom: 8 }]}>
-          <Text style={styles.sectionTitle}>Popular Recipes</Text>
-          <TouchableOpacity><Text style={styles.viewAll}>View All</Text></TouchableOpacity>
         </View>
+
+        {/* Format + last measurement */}
+        <View style={{ marginTop: spacing.md }}>
+          <MetricsBar last={last} busy={loading} />
+        </View>
+
+        {/* Categories */}
+        <View style={styles.categoryRow}>
+          {CATEGORIES.map((cat) => {
+            const active = selectedCategory === cat.label;
+            return (
+              <Pressable
+                key={cat.label}
+                style={[styles.categoryButton, active && styles.categoryButtonActive]}
+                accessibilityRole="button"
+                accessibilityState={{ selected: active }}
+                onPress={() => {
+                  // Toggle, then re-run the current query so the filter is
+                  // visibly applied rather than waiting for the next search.
+                  const next = active ? null : cat.label;
+                  setSelectedCategory(next);
+                  if (lastQuery.length > 0) runSearch(lastQuery, next);
+                }}
+              >
+                <Text style={[styles.categoryText, active && styles.categoryTextActive]}>
+                  {cat.label}
+                </Text>
+              </Pressable>
+            );
+          })}
+        </View>
+
+        {/* Results, or the sample content before a search has run */}
+        <View style={styles.sectionRow}>
+          <Text style={styles.sectionTitle}>
+            {results === null && failure === null && !loading ? 'Popular Recipes' : 'Results'}
+          </Text>
+          {results !== null && results.length > 0 && (
+            <Text style={styles.sectionMeta}>
+              {results.length} for “{lastQuery}”
+              {selectedCategory === null ? '' : ` · ${selectedCategory}`}
+            </Text>
+          )}
+        </View>
+
         {loading ? (
-          <ActivityIndicator size="large" color="#20515a" style={{ marginVertical: 20 }} />
-        ) : error ? (
-          <Text style={{ color: 'red', marginVertical: 20 }}>{error}</Text>
-        ) : results.length > 0 ? (
+          <LoadingState label={`Searching for “${lastQuery}”…`} />
+        ) : failure !== null ? (
+          <ErrorState failure={failure} onRetry={() => runSearch(lastQuery)} />
+        ) : results === null ? (
           <FlatList
-            data={results}
+            data={popularRecipes}
             horizontal
             showsHorizontalScrollIndicator={false}
-            keyExtractor={item => item.id.toString()}
-            renderItem={({ item, index }) => (
-              <View style={[styles.popularCard, index === results.length - 1 && { marginBottom: 24 }]}>
+            keyExtractor={(item) => item.id}
+            renderItem={({ item }) => (
+              <View style={styles.popularCard}>
                 <Image source={{ uri: item.image }} style={styles.popularImage} />
-                <Text style={styles.popularCardTitle}>{item.title}</Text>
+                <Text style={styles.popularCardTitle} numberOfLines={2}>
+                  {item.title}
+                </Text>
               </View>
             )}
-            contentContainerStyle={{ paddingLeft: 16, paddingRight: 40, paddingBottom: 24 }}
-            ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
-            style={{ marginBottom: 24 }}
+            contentContainerStyle={styles.hList}
+            ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
+          />
+        ) : results.length === 0 ? (
+          <EmptyState
+            title="No recipes matched"
+            detail={`Nothing came back for “${lastQuery}”. Try a single ingredient, like “chicken”.`}
           />
         ) : (
-          <FlatList
-            data={popularRecipes as RecipeResult[]}
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            keyExtractor={item => item.id.toString()}
-            renderItem={({ item, index }) => (
-              <View style={[styles.popularCard, index === popularRecipes.length - 1 && { marginBottom: 24 }]}>
-                <Image source={item.image} style={styles.popularImage} />
-                <Text style={styles.popularCardTitle}>{item.title}</Text>
-              </View>
-            )}
-            contentContainerStyle={{ paddingLeft: 16, paddingRight: 40, paddingBottom: 24 }}
-            ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
-            style={{ marginBottom: 24 }}
-          />
+          <View style={styles.resultList}>
+            {results.map((item) => (
+              <Pressable
+                key={String(item.id)}
+                style={styles.resultCard}
+                onPress={() => openRecipe(item.id)}
+                accessibilityRole="button"
+                accessibilityLabel={`Open ${item.title}`}
+              >
+                {item.image !== undefined ? (
+                  <Image source={{ uri: item.image }} style={styles.resultImage} />
+                ) : (
+                  <View style={[styles.resultImage, styles.resultImageEmpty]} />
+                )}
+                <Text style={styles.resultTitle} numberOfLines={2}>
+                  {item.title}
+                </Text>
+                <Feather name="chevron-right" size={18} color={palette.faint} />
+              </Pressable>
+            ))}
+          </View>
         )}
-        {/* Your Choice */}
-        <View style={[styles.sectionRow, { marginBottom: 8 }]}>
-          <Text style={styles.sectionTitle}>Your Choice</Text>
-          <TouchableOpacity><Text style={styles.viewAll}>View All</Text></TouchableOpacity>
-        </View>
-        {yourChoice.map((item, idx) => (
-          <View key={item.id} style={[styles.choiceCard, idx !== 0 && { marginTop: 16 }]}>
-            <Image source={item.image} style={styles.choiceImage} />
-            <View style={{ flex: 1, marginLeft: 12 }}>
-              <Text style={styles.choiceTitle}>{item.title}</Text>
-              <View style={{ flexDirection: 'row', alignItems: 'center', marginTop: 4 }}>
+
+        {/* Trending ingredients — sample content */}
+        <Text style={[styles.sectionTitle, { marginTop: spacing.xl, marginBottom: spacing.sm }]}>
+          Trending Ingredients
+        </Text>
+        <FlatList
+          data={trendingIngredients}
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          keyExtractor={(item) => item.id}
+          renderItem={({ item }) => (
+            <Pressable
+              style={styles.ingredientCard}
+              onPress={() => {
+                setSearch(item.title);
+                runSearch(item.title);
+              }}
+              accessibilityRole="button"
+              accessibilityLabel={`Search for ${item.title}`}
+            >
+              <Image source={{ uri: item.image }} style={styles.ingredientImage} />
+              <Text style={styles.ingredientName}>{item.title}</Text>
+            </Pressable>
+          )}
+          contentContainerStyle={styles.hList}
+          ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
+        />
+
+        {/* Your Choice — sample content, unchanged in substance */}
+        <Text style={[styles.sectionTitle, { marginTop: spacing.xl, marginBottom: spacing.sm }]}>
+          Your Choice
+        </Text>
+        {yourChoice.map((item) => (
+          <View key={item.id} style={styles.choiceCard}>
+            <Image source={{ uri: item.image }} style={styles.choiceImage} />
+            <View style={{ flex: 1 }}>
+              <Text style={styles.choiceTitle} numberOfLines={2}>
+                {item.title}
+              </Text>
+              <View style={styles.authorRow}>
                 <Image source={{ uri: item.authorImg }} style={styles.authorImg} />
                 <Text style={styles.authorName}>{item.author}</Text>
               </View>
             </View>
-            <TouchableOpacity style={styles.arrowBtn}>
-              <IconButton icon="arrow-right" size={20} style={{ margin: 0 }} />
-            </TouchableOpacity>
           </View>
         ))}
-        {/* Recently Viewed */}
-        <Text style={[styles.sectionTitle, { marginBottom: 8, marginTop: 24 }]}>Recently Viewed</Text>
+
+        {/* Recently Viewed — sample content, unchanged in substance */}
+        <Text style={[styles.sectionTitle, { marginTop: spacing.xl, marginBottom: spacing.sm }]}>
+          Recently Viewed
+        </Text>
         <FlatList
-          data={[
-            { id: '1', title: 'Spaghetti Carbonara', image: { uri: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=120&q=80' } },
-            { id: '2', title: 'Avocado Toast', image: { uri: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=120&q=80' } },
-          ]}
+          data={recentlyViewed}
           horizontal
           showsHorizontalScrollIndicator={false}
-          keyExtractor={item => item.id}
-          renderItem={({ item, index }) => (
-            <View style={[styles.recentCard, index === 1 && { marginBottom: 24 }]}>
-              <Image source={item.image} style={styles.recentImage} />
-              <Text style={styles.recentTitle}>{item.title}</Text>
+          keyExtractor={(item) => item.id}
+          renderItem={({ item }) => (
+            <View style={styles.popularCard}>
+              <Image source={{ uri: item.image }} style={styles.popularImage} />
+              <Text style={styles.popularCardTitle} numberOfLines={2}>
+                {item.title}
+              </Text>
             </View>
           )}
-          contentContainerStyle={{ paddingLeft: 16, paddingRight: 40, paddingBottom: 24 }}
-          ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
-          style={{ marginBottom: 24 }}
+          contentContainerStyle={styles.hList}
+          ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
         />
       </ScrollView>
       <BottomTabBar />
@@ -199,212 +292,114 @@ export default function Search() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    paddingHorizontal: 16,
-  },
+  page: { flex: 1, backgroundColor: palette.surface },
+  container: { flex: 1, paddingHorizontal: spacing.lg },
   headerRow: {
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginTop: 24,
-    marginBottom: 8,
+    marginTop: spacing.lg,
   },
-  headerTitle: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#20515a',
-  },
-  searchBarContainer: {
-    marginBottom: 16,
-  },
+  headerTitle: { ...typeScale.title, color: palette.primary },
   searchBarWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f3f7f8',
-    borderRadius: 16,
-    paddingHorizontal: 12,
-    paddingVertical: 6,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.06,
-    shadowRadius: 2,
+    backgroundColor: palette.surfaceTint,
+    borderRadius: radius.md,
+    paddingHorizontal: spacing.md,
+    borderWidth: 1,
+    borderColor: palette.border,
   },
-  searchIcon: {
-    marginRight: 8,
-  },
+  searchIcon: { marginRight: spacing.sm },
   searchBar: {
     flex: 1,
     backgroundColor: 'transparent',
-    fontSize: 16,
-    paddingVertical: 6,
-    color: '#222',
+    paddingVertical: 10,
+    color: palette.ink,
+    ...typeScale.body,
+    fontSize: 15,
   },
   categoryRow: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 16,
+    flexWrap: 'wrap',
+    gap: spacing.sm,
+    marginTop: spacing.lg,
   },
   categoryButton: {
-    backgroundColor: '#f3f7f8',
-    borderRadius: 20,
-    paddingHorizontal: 20,
-    paddingVertical: 8,
-    marginRight: 8,
+    backgroundColor: palette.surfaceTint,
+    borderRadius: radius.pill,
+    paddingHorizontal: spacing.lg,
+    paddingVertical: 7,
+    borderWidth: 1,
+    borderColor: palette.border,
   },
-  categoryButtonActive: {
-    backgroundColor: '#abe1e5',
-  },
-  categoryText: {
-    color: '#20515a',
-    fontWeight: '500',
-    fontSize: 15,
-  },
-  categoryTextActive: {
-    color: '#20515a',
-    fontWeight: 'bold',
-  },
+  categoryButtonActive: { backgroundColor: palette.accent, borderColor: palette.accent },
+  categoryText: { ...typeScale.label, color: palette.muted },
+  categoryTextActive: { color: palette.primary },
   sectionRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
+    alignItems: 'baseline',
+    marginTop: spacing.xl,
+    marginBottom: spacing.sm,
+  },
+  sectionTitle: { ...typeScale.section, color: palette.ink },
+  sectionMeta: { ...typeScale.caption, color: palette.muted },
+  hList: { paddingRight: spacing.lg, paddingVertical: spacing.xs },
+  resultList: { gap: spacing.sm },
+  resultCard: {
+    flexDirection: 'row',
     alignItems: 'center',
-    marginTop: 16,
-    marginBottom: 8,
+    gap: spacing.md,
+    backgroundColor: palette.surface,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: palette.border,
+    padding: spacing.sm,
+    ...shadow.card,
   },
-  sectionTitle: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#1a2b3b',
-  },
-  viewAll: {
-    color: '#7ec8c9',
-    fontWeight: 'bold',
-    alignSelf: 'center',
-    marginLeft: 8,
-  },
+  resultImage: { width: 56, height: 56, borderRadius: radius.sm },
+  resultImageEmpty: { backgroundColor: palette.surfaceTint },
+  resultTitle: { ...typeScale.cardTitle, color: palette.ink, flex: 1 },
   popularCard: {
-    width: 110,
-    height: 140,
-    borderRadius: 16,
-    backgroundColor: '#fff',
-    marginRight: 0,
+    width: 112,
+    borderRadius: radius.md,
+    backgroundColor: palette.surface,
     alignItems: 'center',
-    justifyContent: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.08,
-    shadowRadius: 4,
-    elevation: 2,
-    padding: 8,
+    padding: spacing.sm,
+    borderWidth: 1,
+    borderColor: palette.border,
+    ...shadow.card,
   },
-  popularImage: {
-    width: 80,
-    height: 80,
-    borderRadius: 12,
-    marginBottom: 8,
+  popularImage: { width: 88, height: 88, borderRadius: radius.sm, marginBottom: spacing.sm },
+  popularCardTitle: { ...typeScale.label, color: palette.ink, textAlign: 'center' },
+  ingredientCard: {
+    alignItems: 'center',
+    backgroundColor: palette.surface,
+    borderRadius: radius.md,
+    paddingVertical: spacing.md,
+    paddingHorizontal: spacing.sm,
+    width: 84,
+    borderWidth: 1,
+    borderColor: palette.border,
+    ...shadow.card,
   },
-  popularCardTitle: {
-    fontSize: 14,
-    fontWeight: 'bold',
-    color: '#1a2b3b',
-    textAlign: 'center',
-  },
+  ingredientImage: { width: 40, height: 40, borderRadius: 20, marginBottom: spacing.xs },
+  ingredientName: { ...typeScale.caption, color: palette.primary, textAlign: 'center' },
   choiceCard: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f9faf7',
-    borderRadius: 16,
-    padding: 10,
-    marginBottom: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.04,
-    shadowRadius: 2,
-    elevation: 1,
-    marginTop: 0,
-    minHeight: 80,
+    gap: spacing.md,
+    backgroundColor: palette.surfaceAlt,
+    borderRadius: radius.md,
+    padding: spacing.sm,
+    marginBottom: spacing.sm,
+    borderWidth: 1,
+    borderColor: palette.border,
   },
-  choiceImage: {
-    width: 60,
-    height: 60,
-    borderRadius: 12,
-  },
-  choiceTitle: {
-    fontSize: 15,
-    fontWeight: 'bold',
-    color: '#1a2b3b',
-  },
-  authorImg: {
-    width: 20,
-    height: 20,
-    borderRadius: 10,
-    marginRight: 6,
-  },
-  authorName: {
-    color: '#20515a',
-    fontSize: 13,
-    fontWeight: '500',
-  },
-  arrowBtn: {
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    marginLeft: 8,
-    elevation: 2,
-  },
-  ingredientCard: {
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    padding: 10,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.06,
-    shadowRadius: 2,
-    width: 80,
-    height: 100,
-    marginBottom: 0,
-    justifyContent: 'center',
-  },
-  ingredientImage: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
-    marginBottom: 6,
-  },
-  ingredientName: {
-    fontSize: 13,
-    color: '#20515a',
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-  recentCard: {
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    padding: 10,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.06,
-    shadowRadius: 2,
-    width: 110,
-    height: 140,
-    marginBottom: 0,
-    justifyContent: 'center',
-  },
-  recentImage: {
-    width: 80,
-    height: 80,
-    borderRadius: 12,
-    marginBottom: 8,
-  },
-  recentTitle: {
-    fontSize: 14,
-    color: '#20515a',
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-}); 
+  choiceImage: { width: 56, height: 56, borderRadius: radius.sm },
+  choiceTitle: { ...typeScale.cardTitle, color: palette.ink },
+  authorRow: { flexDirection: 'row', alignItems: 'center', marginTop: spacing.xs, gap: 6 },
+  authorImg: { width: 18, height: 18, borderRadius: 9 },
+  authorName: { ...typeScale.caption, color: palette.muted },
+});

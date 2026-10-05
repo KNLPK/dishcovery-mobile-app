@@ -288,15 +288,40 @@ export const FORMAT_QUERY_PARAM = 'format';
  * format and every tier; changing one invalidates comparison against previously
  * collected samples.
  *
- * warmupIterations   — discarded cycles run before measurement begins, so that
- *                      JIT/interpreter warm-up and first-touch allocation are
- *                      not attributed to the format under test.
+ * prewarmDecodes     — discarded decodes run ONCE per format at the start of a
+ *                      run, before anything is measured, to bring the engine to
+ *                      steady state.
+ *
+ *                      ADDED after the first run. Per-cell warm-up cannot fix a
+ *                      cold engine: the very first cells of a run were measured
+ *                      while protobufjs was still warming, which showed up as a
+ *                      start-sentinel sd of 2.389 ms falling to 0.747 ms by the
+ *                      midpoint, and as an inflated high-tier sd. That looked
+ *                      like thermal drift and was not. A global pre-warm removes
+ *                      the cold-start bias from every later phase, including the
+ *                      determinism check and the start sentinel.
+ *
+ * warmupIterations   — discarded cycles run before measurement begins IN EACH
+ *                      CELL, so that per-payload first-touch allocation is not
+ *                      attributed to the format under test.
+ *
+ *                      RAISED from 3 to 10 for the same reason. 3 was set before
+ *                      there was any measurement of how long warm-up actually
+ *                      takes; the warm-up profiler in src/bench/runner.ts
+ *                      measures it directly, from cold, per format.
+ *
  * measuredIterations — recorded samples per (format x tier) cell. 30 is the
  *                      conventional minimum for reporting an arithmetic mean
  *                      with a sample standard deviation (n-1 denominator).
+ *
+ * All three apply identically to all three formats. Unequal warm-up would be
+ * unequal treatment and would invalidate the comparison.
  */
 export const BENCHMARK_CONFIG = {
-  warmupIterations: 3,
+  /** Was absent before 2026-09-26; introduced to remove cold-start bias. */
+  prewarmDecodes: 200,
+  /** Was 3 before 2026-09-26. */
+  warmupIterations: 10,
   measuredIterations: 30,
 } as const;
 

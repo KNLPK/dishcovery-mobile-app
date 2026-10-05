@@ -8,7 +8,6 @@
  * measured run are the same code, so the numbers describe the real data path.
  */
 
-import { API_BASE_URL } from '../../constants/api';
 import {
   ROUTES,
   classifyComplexity,
@@ -16,8 +15,11 @@ import {
   type Recipe,
   type SerializationFormat,
 } from '../../shared/contract';
+import { getSettings } from '../settings/settings';
+import { resolveBaseUrl } from './baseUrl';
 import { getCodec } from './codecs/types';
 import { measureDecode, timeAsync, timeSync } from './measure';
+import { recordMetric } from './metrics';
 
 export interface RequestMeta {
   recipeId: string;
@@ -72,7 +74,16 @@ export interface FetchRecipeResult {
  * alike, which is what makes the three formats comparable.
  */
 function buildRecipeUrl(id: string, format: SerializationFormat): string {
-  return `${API_BASE_URL}${ROUTES.recipe(id, format)}`;
+  return `${resolveBaseUrl()}${ROUTES.recipe(id, format)}`;
+}
+
+/**
+ * The format a request uses when the caller does not name one: the app-wide
+ * user setting. Screens therefore consume whichever format is selected, which
+ * is the point of making it a setting at all.
+ */
+export function currentFormat(): SerializationFormat {
+  return getSettings().format;
 }
 
 /**
@@ -89,7 +100,7 @@ function buildRecipeUrl(id: string, format: SerializationFormat): string {
  */
 export async function fetchRecipe(
   id: string,
-  format: SerializationFormat
+  format: SerializationFormat = currentFormat()
 ): Promise<FetchRecipeResult> {
   const url = buildRecipeUrl(id, format);
   const codec = getCodec(format);
@@ -125,19 +136,146 @@ export async function fetchRecipe(
     ).elapsedMs;
   }
 
-  return {
-    data,
-    meta: {
-      recipeId: id,
-      format,
-      complexityTier: classifyComplexity(data),
-      payloadBytes: bytes.byteLength,
-      networkMs,
-      deserializationMs: measurement.deserializationMs,
-      deserializationWithMaterializationMs,
-      heapDeltaBytes: measurement.heapDeltaBytes,
-      heapStatKey: measurement.heapStatKey,
-      timestamp: Date.now(),
-    },
+  const meta: RequestMeta = {
+    recipeId: id,
+    format,
+    complexityTier: classifyComplexity(data),
+    payloadBytes: bytes.byteLength,
+    networkMs,
+    deserializationMs: measurement.deserializationMs,
+    deserializationWithMaterializationMs,
+    heapDeltaBytes: measurement.heapDeltaBytes,
+    heapStatKey: measurement.heapStatKey,
+    timestamp: Date.now(),
   };
+
+  // Reporting only, after every measurement is complete. Recording here rather
+  // than in each screen means no caller can forget; it reads the finished
+  // numbers and cannot influence them.
+  recordMetric({
+    kind: 'recipe',
+    label: `#${id}`,
+    format,
+    payloadBytes: meta.payloadBytes,
+    networkMs: meta.networkMs,
+    deserializationMs: meta.deserializationMs,
+    heapDeltaBytes: meta.heapDeltaBytes,
+    tier: meta.complexityTier,
+    timestamp: meta.timestamp,
+  });
+
+  return { data, meta };
+}
+
+// ─── Search ───────────────────────────────────────────────────────────────────
+
+/** One row of Spoonacular's complexSearch response, as the proxy forwards it. */
+export interface SearchResultItem {
+  id: number;
+  title: string;
+  image?: string;
+  imageType?: string;
+}
+
+export interface SearchResponse {
+  results: SearchResultItem[];
+  offset?: number;
+  number?: number;
+  totalResults?: number;
+}
+
+export interface SearchRecipesResult {
+  data: SearchResponse;
+  meta: SearchMeta;
+}
+
+export interface SearchMeta {
+  query: string;
+  /** The format actually used on the wire. */
+  format: SerializationFormat;
+  /**
+   * Set when the app-wide format could not be honoured and another was used.
+   *
+   * Only ever 'protobuf': the search response has no compiled message type,
+   * because shared/proto/recipe.proto describes recipe documents and is frozen
+   * during data collection. Surfaced so the metrics panel can label the reading
+   * honestly instead of attributing JSON numbers to protobuf.
+   */
+  formatFallbackFrom: SerializationFormat | null;
+  payloadBytes: number;
+  networkMs: number;
+  deserializationMs: number;
+  heapDeltaBytes: number | null;
+  heapStatKey: string | null;
+  timestamp: number;
+}
+
+/** Formats the search endpoint can actually serve. */
+const SEARCH_FORMATS: readonly SerializationFormat[] = ['json', 'msgpack'];
+
+function resolveSearchFormat(requested: SerializationFormat): {
+  format: SerializationFormat;
+  fallbackFrom: SerializationFormat | null;
+} {
+  return SEARCH_FORMATS.includes(requested)
+    ? { format: requested, fallbackFrom: null }
+    : { format: 'json', fallbackFrom: requested };
+}
+
+/**
+ * Search, measured with the same instruments as a recipe fetch.
+ *
+ * Structurally identical to fetchRecipe: body read as an ArrayBuffer so no
+ * format is handed a pre-parsed object, network and decode timed separately,
+ * decode bracketed by the shared measureDecode(). Screens no longer call axios,
+ * so every request the app makes now goes through one measured path.
+ */
+export async function searchRecipes(
+  params: Record<string, string | number>,
+  requestedFormat: SerializationFormat = currentFormat()
+): Promise<SearchRecipesResult> {
+  const { format, fallbackFrom } = resolveSearchFormat(requestedFormat);
+
+  const query = new URLSearchParams(
+    Object.entries(params).map(([key, value]) => [key, String(value)])
+  );
+  query.set('format', format);
+  const url = `${resolveBaseUrl()}${ROUTES.search()}?${query.toString()}`;
+
+  const { result: bytes, elapsedMs: networkMs } = await timeAsync(async () => {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Request failed with status ${response.status} — ${url}`);
+    }
+    return response.arrayBuffer();
+  });
+
+  const measurement = measureDecode(() => getCodec(format).decode(bytes));
+  const data = measurement.result as SearchResponse;
+
+  const meta: SearchMeta = {
+    query: String(params.query ?? params.includeIngredients ?? ''),
+    format,
+    formatFallbackFrom: fallbackFrom,
+    payloadBytes: bytes.byteLength,
+    networkMs,
+    deserializationMs: measurement.deserializationMs,
+    heapDeltaBytes: measurement.heapDeltaBytes,
+    heapStatKey: measurement.heapStatKey,
+    timestamp: Date.now(),
+  };
+
+  recordMetric({
+    kind: 'search',
+    label: meta.query,
+    format,
+    payloadBytes: meta.payloadBytes,
+    networkMs: meta.networkMs,
+    deserializationMs: meta.deserializationMs,
+    heapDeltaBytes: meta.heapDeltaBytes,
+    tier: null,
+    timestamp: meta.timestamp,
+  });
+
+  return { data, meta };
 }

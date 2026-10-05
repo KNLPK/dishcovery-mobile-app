@@ -1,9 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity, ActivityIndicator } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
+import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { ErrorState, LoadingState } from '../components/StateViews';
 import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-router
 import { fetchRecipe } from '../src/api/client';
+import { describeRequestError, type RequestFailure } from '../src/api/errors';
+import { toggleFavourite, useSettings } from '../src/settings/settings';
 // import { useRoute, useNavigation } from '@react-navigation/native'; // If using React Navigation
 
 
@@ -21,54 +25,69 @@ export default function RecipeDetailScreen() {
 
   const [recipe, setRecipe] = useState<any>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
+  const [failure, setFailure] = useState<RequestFailure | null>(null);
+  const [last, setLast] = useState<LastMeasurement | null>(null);
   const [activeTab, setActiveTab] = useState('ingredients'); // 'ingredients' or 'instructions'
 
+  // The app-wide serialization setting. Listed in the effect's dependencies, so
+  // switching format on this screen re-fetches this recipe in the new format —
+  // the decode the panel reports is the one that produced what is on screen.
+  const settings = useSettings();
+  const { format } = settings;
+  const saved = settings.favourites.some((f) => f.id === Number(recipeId));
 
-  useEffect(() => {
+  const load = React.useCallback(async () => {
     if (!recipeId) {
-      setError('Recipe ID not provided.');
+      setFailure({
+        title: 'No recipe selected',
+        detail: 'This screen was opened without a recipe id.',
+        hint: 'Go back and pick a recipe from search.',
+      });
       setLoading(false);
       return;
     }
 
-    const fetchRecipeDetails = async () => {
-      setLoading(true);
-      setError('');
-      try {
-        // Routed through the measuring client. Format 'json' requests the same
-        // application document axios fetched before, so rendering is unchanged.
-        const { data } = await fetchRecipe(String(recipeId), 'json');
-        setRecipe(data);
-      } catch (err) {
-        console.error("API Error:", err);
-        setError('Failed to fetch recipe details.');
-      } finally {
-        setLoading(false);
-      }
-    };
+    setLoading(true);
+    setFailure(null);
+    try {
+      // Routed through the measuring client, in whichever format the user has
+      // selected. Every format returns the identical canonical document, so
+      // rendering below is unaffected by the choice.
+      const { data, meta } = await fetchRecipe(String(recipeId), format);
+      setRecipe(data);
+      setLast({
+        payloadBytes: meta.payloadBytes,
+        deserializationMs: meta.deserializationMs,
+        heapDeltaBytes: meta.heapDeltaBytes,
+        format: meta.format,
+      });
+    } catch (err) {
+      setFailure(describeRequestError(err, 'load this recipe'));
+    } finally {
+      setLoading(false);
+    }
+  }, [recipeId, format]);
 
-    fetchRecipeDetails();
-  }, [recipeId]); // Refetch if recipeId changes
+  useEffect(() => {
+    load();
+  }, [load]);
 
 
-  if (loading) {
+  if (loading && recipe === null) {
     return (
       <View style={styles.centered}>
-        <ActivityIndicator size="large" color="#20515a" />
-        <Text style={{marginTop: 10}}>Loading recipe...</Text>
+        <LoadingState label="Loading recipe…" />
       </View>
     );
   }
 
-  if (error) {
+  if (failure !== null) {
     return (
-      <View style={styles.centered}>
-        <Text style={styles.errorText}>{error}</Text>
-        {/* Optional: Add a back button */}
-         {/* <TouchableOpacity onPress={() => router.back()} style={{marginTop: 20}}>
-             <Text style={{color: '#20515a', fontWeight: 'bold'}}>Go Back</Text>
-         </TouchableOpacity> */}
+      <View style={styles.centeredPadded}>
+        <ErrorState failure={failure} onRetry={load} />
+        <TouchableOpacity onPress={() => router.back()} style={{ marginTop: 20 }}>
+          <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
+        </TouchableOpacity>
       </View>
     );
   }
@@ -77,10 +96,6 @@ export default function RecipeDetailScreen() {
        return (
          <View style={styles.centered}>
            <Text>Recipe not found.</Text>
-            {/* Optional: Add a back button */}
-             {/* <TouchableOpacity onPress={() => router.back()} style={{marginTop: 20}}>
-                 <Text style={{color: '#20515a', fontWeight: 'bold'}}>Go Back</Text>
-             </TouchableOpacity> */}
          </View>
        );
   }
@@ -94,7 +109,7 @@ export default function RecipeDetailScreen() {
 
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={{ paddingBottom: 90 }}>
+      <ScrollView contentContainerStyle={{ paddingBottom: 120 }}>
         {/* Recipe Image */}
         {recipe.image ? (
           <Image source={{ uri: recipe.image }} style={styles.recipeImage} resizeMode="cover" />
@@ -111,13 +126,33 @@ export default function RecipeDetailScreen() {
           <TouchableOpacity style={styles.closeButton} onPress={() => router.back()}>
             <MaterialCommunityIcons name="close" size={24} color="#22313F" />
           </TouchableOpacity>
-          <TouchableOpacity style={styles.favoriteButton}>
-            <MaterialCommunityIcons name="heart-outline" size={24} color="#22313F" />
+          <TouchableOpacity
+            style={styles.favoriteButton}
+            onPress={() =>
+              toggleFavourite({
+                id: Number(recipeId),
+                title: recipe?.title ?? 'Recipe',
+                image: recipe?.image ?? null,
+              })
+            }
+            accessibilityRole="button"
+            accessibilityLabel={saved ? 'Remove from saved recipes' : 'Save this recipe'}
+          >
+            <MaterialCommunityIcons
+              name={saved ? 'heart' : 'heart-outline'}
+              size={24}
+              color={saved ? '#e74c3c' : '#22313F'}
+            />
           </TouchableOpacity>
         </View>
 
         {/* Content Below Image */}
         <View style={styles.content}>
+          {/* Format selector and what this fetch cost */}
+          <View style={{ marginBottom: 16 }}>
+            <MetricsBar last={last} busy={loading} />
+          </View>
+
           {/* Title and Cook Time */}
           <View style={styles.titleRow}>
             <Text style={styles.recipeTitle}>{recipe.title}</Text>
@@ -194,11 +229,29 @@ export default function RecipeDetailScreen() {
             ) : (
               <View>
                  {/* Check if instructions exist */}
+                {/*
+                  Every instruction set, not just the first.
+
+                  This used to render analyzedInstructions[0] only, silently
+                  discarding every later set — 108 of the 250 dataset payloads
+                  carry more than one. The set's name is shown as a subheading
+                  when it has one, and step numbers restart per set, which is
+                  how the upstream data is numbered.
+                */}
                 {recipe.analyzedInstructions && recipe.analyzedInstructions.length > 0 ? (
-                    recipe.analyzedInstructions[0].steps.map((step: any, index: number) => (
-                      <View key={step.number} style={styles.instructionItem}>
-                        <Text style={styles.stepNumber}>{step.number}.</Text>
-                        <Text style={styles.instructionText}>{step.step}</Text>
+                    recipe.analyzedInstructions.map((set: any, setIndex: number) => (
+                      <View key={setIndex}>
+                        {recipe.analyzedInstructions.length > 1 && (
+                          <Text style={styles.instructionSetName}>
+                            {set.name && set.name.length > 0 ? set.name : `Part ${setIndex + 1}`}
+                          </Text>
+                        )}
+                        {(set.steps ?? []).map((step: any, index: number) => (
+                          <View key={`${setIndex}-${step.number ?? index}`} style={styles.instructionItem}>
+                            <Text style={styles.stepNumber}>{step.number ?? index + 1}.</Text>
+                            <Text style={styles.instructionText}>{step.step}</Text>
+                          </View>
+                        ))}
                       </View>
                     ))
                 ) : (
@@ -209,9 +262,7 @@ export default function RecipeDetailScreen() {
           </View>
         </View>
       </ScrollView>
-      {/* Add Bottom Tab Bar */}
-      {/* Ensure your BottomTabBar component is correctly implemented */}
-      {/* <BottomTabBar /> */}
+      <BottomTabBar />
     </View>
   );
 }
@@ -226,6 +277,20 @@ const styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
       backgroundColor: '#eaf4f4',
+  },
+  centeredPadded: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'stretch',
+      backgroundColor: '#eaf4f4',
+      padding: 20,
+  },
+  instructionSetName: {
+      fontSize: 15,
+      fontWeight: '700',
+      color: '#20515a',
+      marginTop: 16,
+      marginBottom: 8,
   },
   errorText: {
       color: 'red',

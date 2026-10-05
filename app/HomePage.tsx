@@ -1,53 +1,42 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Dimensions, FlatList, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import BottomTabBar from '../components/BottomTabBar';
+import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { EmptyState, ErrorState, LoadingState } from '../components/StateViews';
+import { CATEGORIES, categoryType } from '../constants/categories';
+import { searchRecipes, type SearchResultItem } from '../src/api/client';
+import { describeRequestError, type RequestFailure } from '../src/api/errors';
+import { toggleFavourite, useSettings } from '../src/settings/settings';
 
 const { width } = Dimensions.get('window');
 
-const featuredData = [
-  {
-    id: '1',
-    title: 'Asian white noodle with extra seafood',
-    author: 'James Spader',
-    time: '20 Min',
-    image: { uri: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' },
-  },
-  {
-    id: '2',
-    title: 'Healthy Taco Salad with fresh veg',
-    author: 'Olivia Rizka',
-    time: '20 Min',
-    image: { uri: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' },
-  },
-];
+/** How many recipes the landing screen loads per category. */
+const HOME_RESULT_COUNT = 8;
+/** The first few become the Featured carousel; the rest fill Popular Recipes. */
+const FEATURED_COUNT = 2;
 
-const categories = ['Breakfast', 'Lunch', 'Dinner', 'Snack'];
-
-const popularRecipes = [
-  {
-    id: '1',
-    title: 'Healthy Taco Salad with fresh vegetable',
-    kcal: 120,
-    time: '20 Min',
-    image: { uri: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80' },
-  },
-  {
-    id: '2',
-    title: 'Japanese-style Pancakes Recipe',
-    kcal: 64,
-    time: '12 Min',
-    image: { uri: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80' },
-  },
+const featuredChefs = [
+  { id: '1', name: 'Chef Anna', avatar: 'https://randomuser.me/api/portraits/women/44.jpg' },
+  { id: '2', name: 'Chef Ben', avatar: 'https://randomuser.me/api/portraits/men/32.jpg' },
+  { id: '3', name: 'Chef Clara', avatar: 'https://randomuser.me/api/portraits/women/65.jpg' },
+  { id: '4', name: 'Chef David', avatar: 'https://randomuser.me/api/portraits/men/76.jpg' },
 ];
 
 export default function HomePage() {
   const params = useLocalSearchParams();
   const router = useRouter();
   const username = typeof params.username === 'string' ? params.username : 'Guest';
-  const [selectedCategory, setSelectedCategory] = useState('Breakfast');
-  const [favorites, setFavorites] = useState<{ [key: string]: boolean }>({});
+  const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].label);
+  const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [failure, setFailure] = useState<RequestFailure | null>(null);
+  const [last, setLast] = useState<LastMeasurement | null>(null);
+
+  // Subscribed so a heart tapped here repaints immediately, and so a recipe
+  // saved on the detail screen shows as saved when the user comes back.
+  const savedIds = new Set(useSettings().favourites.map((f) => f.id));
 
   const getGreeting = () => {
     const hour = new Date().getHours();
@@ -56,9 +45,48 @@ export default function HomePage() {
     return 'Good Evening';
   };
 
-  const toggleFavorite = (id: string) => {
-    setFavorites((prev) => ({ ...prev, [id]: !prev[id] }));
+  /**
+   * The landing screen used to show two hardcoded cards with stock photography
+   * and invented calorie counts, none of which opened anything. It now loads
+   * real recipes for the selected category through the measured client, so the
+   * cards lead somewhere and the category chips actually do something.
+   */
+  const load = useCallback(async () => {
+    setLoading(true);
+    setFailure(null);
+    try {
+      const type = categoryType(selectedCategory);
+      const { data, meta } = await searchRecipes({
+        query: selectedCategory,
+        ...(type === null ? {} : { type }),
+        number: HOME_RESULT_COUNT,
+      });
+      setRecipes(data.results ?? []);
+      setLast({
+        payloadBytes: meta.payloadBytes,
+        deserializationMs: meta.deserializationMs,
+        heapDeltaBytes: meta.heapDeltaBytes,
+        format: meta.format,
+        formatFallbackFrom: meta.formatFallbackFrom,
+      });
+    } catch (err) {
+      setFailure(describeRequestError(err, 'load recipes'));
+      setRecipes([]);
+    } finally {
+      setLoading(false);
+    }
+  }, [selectedCategory]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  const openRecipe = (id: number | string) => {
+    router.push({ pathname: '/recipe', params: { id: String(id) } });
   };
+
+  const featured = recipes.slice(0, FEATURED_COUNT);
+  const popular = recipes.slice(FEATURED_COUNT);
 
   return (
     <View style={{ flex: 1, backgroundColor: '#f9faf7' }}>
@@ -74,17 +102,19 @@ export default function HomePage() {
             <Text style={styles.greeting}>{getGreeting()}</Text>
             <Text style={styles.username}>{username}</Text>
           </View>
-          <IconButton icon="heart-outline" size={28} style={styles.heartIcon} />
+          <IconButton
+            icon="heart-outline"
+            size={28}
+            style={styles.heartIcon}
+            iconColor="#20515a"
+            accessibilityLabel="Saved recipes"
+            onPress={() => router.navigate('/Profile')}
+          />
         </View>
         {/* Featured Chefs */}
         <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Featured Chefs</Text>
         <FlatList
-          data={[
-            { id: '1', name: 'Chef Anna', avatar: 'https://randomuser.me/api/portraits/women/44.jpg' },
-            { id: '2', name: 'Chef Ben', avatar: 'https://randomuser.me/api/portraits/men/32.jpg' },
-            { id: '3', name: 'Chef Clara', avatar: 'https://randomuser.me/api/portraits/women/65.jpg' },
-            { id: '4', name: 'Chef David', avatar: 'https://randomuser.me/api/portraits/men/76.jpg' },
-          ]}
+          data={featuredChefs}
           horizontal
           showsHorizontalScrollIndicator={false}
           keyExtractor={item => item.id}
@@ -98,47 +128,74 @@ export default function HomePage() {
           ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
           style={{ marginBottom: 24 }}
         />
+        {/* Format selector + what the last load cost */}
+        <View style={{ marginBottom: 20 }}>
+          <MetricsBar last={last} busy={loading} />
+        </View>
+
         {/* Featured */}
         <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Featured</Text>
-        <FlatList
-          data={featuredData}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          keyExtractor={(item) => item.id}
-          renderItem={({ item, index }) => (
-            <View style={[styles.featuredCard, index === featuredData.length - 1 && { marginBottom: 24 }]}>
-              <Image source={item.image} style={styles.featuredImage} resizeMode="cover" />
-              <View style={styles.featuredOverlay}>
-                <Text style={styles.featuredTitle}>{item.title}</Text>
-                <View style={styles.featuredInfoRow}>
-                  <Text style={styles.featuredAuthor}>{item.author}</Text>
-                  <Text style={styles.featuredTime}>{item.time}</Text>
+        {loading ? (
+          <LoadingState label={`Loading ${selectedCategory.toLowerCase()} recipes…`} />
+        ) : failure !== null ? (
+          <ErrorState failure={failure} onRetry={load} />
+        ) : featured.length === 0 ? (
+          <EmptyState title="Nothing to show" detail="No recipes came back for this category." />
+        ) : (
+          <FlatList
+            data={featured}
+            horizontal
+            showsHorizontalScrollIndicator={false}
+            keyExtractor={(item) => String(item.id)}
+            renderItem={({ item, index }) => (
+              <TouchableOpacity
+                style={[styles.featuredCard, index === featured.length - 1 && { marginBottom: 24 }]}
+                onPress={() => openRecipe(item.id)}
+                accessibilityRole="button"
+                accessibilityLabel={`Open ${item.title}`}
+              >
+                {item.image !== undefined ? (
+                  <Image source={{ uri: item.image }} style={styles.featuredImage} resizeMode="cover" />
+                ) : (
+                  <View style={[styles.featuredImage, { backgroundColor: '#dfeaec' }]} />
+                )}
+                <View style={styles.featuredOverlay}>
+                  <Text style={styles.featuredTitle} numberOfLines={2}>{item.title}</Text>
+                  <View style={styles.featuredInfoRow}>
+                    <Text style={styles.featuredAuthor}>{selectedCategory}</Text>
+                    <Text style={styles.featuredTime}>View recipe →</Text>
+                  </View>
                 </View>
-              </View>
-            </View>
-          )}
-          contentContainerStyle={{ paddingRight: 16, paddingBottom: 24 }}
-        />
+              </TouchableOpacity>
+            )}
+            contentContainerStyle={{ paddingRight: 16, paddingBottom: 24 }}
+            ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
+          />
+        )}
 
         {/* Category */}
         <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
           <Text style={styles.sectionTitle}>Category</Text>
-          <TouchableOpacity>
-            <Text style={styles.seeAll}>See All</Text>
+          <TouchableOpacity onPress={() => router.navigate('/Search')} accessibilityRole="button">
+            <Text style={styles.seeAll}>Search all</Text>
           </TouchableOpacity>
         </View>
         <FlatList
-          data={categories}
+          data={CATEGORIES}
           horizontal
           showsHorizontalScrollIndicator={false}
-          keyExtractor={(item) => item}
+          keyExtractor={(item) => item.label}
           contentContainerStyle={[styles.categoryList, { paddingVertical: 8, paddingLeft: 16, paddingRight: 40 }]}
           renderItem={({ item }) => (
             <TouchableOpacity
-              style={[styles.categoryButton, selectedCategory === item && styles.categoryButtonActive, { marginRight: 16 }]}
-              onPress={() => setSelectedCategory(item)}
+              style={[styles.categoryButton, selectedCategory === item.label && styles.categoryButtonActive, { marginRight: 16 }]}
+              onPress={() => setSelectedCategory(item.label)}
+              accessibilityRole="button"
+              accessibilityState={{ selected: selectedCategory === item.label }}
             >
-              <Text style={[styles.categoryText, selectedCategory === item && styles.categoryTextActive]}>{item}</Text>
+              <Text style={[styles.categoryText, selectedCategory === item.label && styles.categoryTextActive]}>
+                {item.label}
+              </Text>
             </TouchableOpacity>
           )}
           style={{ marginBottom: 24 }}
@@ -147,33 +204,47 @@ export default function HomePage() {
         {/* Popular Recipes */}
         <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
           <Text style={styles.sectionTitle}>Popular Recipes</Text>
-          <TouchableOpacity>
-            <Text style={styles.seeAll}>See All</Text>
+          <TouchableOpacity onPress={() => router.navigate('/Search')} accessibilityRole="button">
+            <Text style={styles.seeAll}>Search all</Text>
           </TouchableOpacity>
         </View>
-        <View style={[styles.popularList, { marginBottom: 24 }]}>
-          {popularRecipes.map((item, idx) => (
-            <View key={item.id} style={[styles.recipeCard, idx !== 0 && { marginLeft: 16 }, idx === popularRecipes.length - 1 && { marginBottom: 32 }]}>
-              <Image source={item.image} style={styles.recipeImage} resizeMode="cover" />
-              <TouchableOpacity
-                style={styles.favoriteButton}
-                onPress={() => toggleFavorite(item.id)}
-              >
-                <IconButton
-                  icon={favorites[item.id] ? 'heart' : 'heart-outline'}
-                  iconColor={favorites[item.id] ? '#e74c3c' : '#20515a'}
-                  size={20}
-                  style={{ margin: 0 }}
-                />
-              </TouchableOpacity>
-              <Text style={styles.recipeTitle}>{item.title}</Text>
-              <View style={styles.recipeInfoRow}>
-                <Text style={styles.recipeInfo}>🍽 {item.kcal} Kcal</Text>
-                <Text style={styles.recipeInfo}>⏱ {item.time}</Text>
-              </View>
-            </View>
-          ))}
-        </View>
+        {!loading && failure === null && popular.length > 0 && (
+          <View style={[styles.popularList, { marginBottom: 24 }]}>
+            {popular.map((item, idx) => {
+              const saved = savedIds.has(Number(item.id));
+              return (
+                <TouchableOpacity
+                  key={String(item.id)}
+                  style={[styles.recipeCard, idx % 2 === 1 && { marginLeft: 16 }]}
+                  onPress={() => openRecipe(item.id)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Open ${item.title}`}
+                >
+                  {item.image !== undefined ? (
+                    <Image source={{ uri: item.image }} style={styles.recipeImage} resizeMode="cover" />
+                  ) : (
+                    <View style={[styles.recipeImage, { backgroundColor: '#dfeaec' }]} />
+                  )}
+                  <TouchableOpacity
+                    style={styles.favoriteButton}
+                    onPress={() => toggleFavourite({ id: item.id, title: item.title, image: item.image ?? null })}
+                    accessibilityRole="button"
+                    accessibilityLabel={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
+                    hitSlop={8}
+                  >
+                    <IconButton
+                      icon={saved ? 'heart' : 'heart-outline'}
+                      iconColor={saved ? '#e74c3c' : '#20515a'}
+                      size={20}
+                      style={{ margin: 0 }}
+                    />
+                  </TouchableOpacity>
+                  <Text style={styles.recipeTitle} numberOfLines={2}>{item.title}</Text>
+                </TouchableOpacity>
+              );
+            })}
+          </View>
+        )}
         {/* Tips & Tricks */}
         <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Tips & Tricks</Text>
         <View style={[styles.tipsContainer, { marginBottom: 24 }]}>
@@ -427,4 +498,5 @@ const styles = StyleSheet.create({
     color: '#1a2b3b',
     fontSize: 13,
   },
+
 }); 

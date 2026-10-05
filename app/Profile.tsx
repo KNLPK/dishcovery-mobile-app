@@ -1,53 +1,38 @@
-import React from 'react';
-import { StyleSheet, Text, View, Image, TouchableOpacity, FlatList } from 'react-native';
+import React, { useState } from 'react';
+import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, FlatList } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
-
-const user = {
-  name: '[Your Name]',
-  avatar: 'https://randomuser.me/api/portraits/men/32.jpg', // Placeholder avatar
-  bio: "[Your description]",
-  stats: {
-    recipe: 3,
-    videos: 13,
-    followers: '14K',
-    following: 120,
-  },
-};
-
-const favorites = [
-  {
-    id: '1',
-    title: 'Sunny Egg & Toast Avocado',
-    author: 'Alice Fala',
-    image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80',
-  },
-  {
-    id: '2',
-    title: 'Bowl of noodle with beef',
-    author: 'James Spader',
-    image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80',
-  },
-  {
-    id: '3',
-    title: 'Easy homemade beef burger',
-    author: 'Alice Fala',
-    image: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80',
-  },
-  {
-    id: '4',
-    title: 'Half boiled egg sandwich',
-    author: 'James Spader',
-    image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80',
-  },
-];
+import { EmptyState } from '../components/StateViews';
+import { getMetrics } from '../src/api/metrics';
+import { setDisplayName, toggleFavourite, useSettings } from '../src/settings/settings';
 
 export default function Profile() {
+  const router = useRouter();
+
+  // Real saved recipes, from the same persisted store the hearts write to.
+  // This list used to be four hardcoded stock photos with invented authors.
+  const settings = useSettings();
+  const favourites = settings.favourites;
+
+  // The profile used to read "[Your Name]", "[Your description]", a
+  // randomuser.me photograph and invented counts (13 videos, 14K followers).
+  // Everything shown now is either entered by the user or counted from this
+  // session — nothing is fabricated.
+  const [editingName, setEditingName] = useState(false);
+  const [draftName, setDraftName] = useState(settings.displayName);
+
+  const name = settings.displayName.trim().length > 0 ? settings.displayName : 'Dishcovery user';
+  const initial = name.charAt(0).toUpperCase();
+
+  const samples = getMetrics();
+  const formatsUsed = new Set(samples.map((sample) => sample.format)).size;
+
   return (
     <View style={styles.container}>
       <FlatList
-        data={favorites}
-        keyExtractor={item => item.id}
+        data={favourites}
+        keyExtractor={item => String(item.id)}
         numColumns={2}
         columnWrapperStyle={{ justifyContent: 'space-between' }}
         ListHeaderComponent={
@@ -55,63 +40,118 @@ export default function Profile() {
             {/* Header Row */}
             <View style={styles.headerRow}>
               <Text style={styles.header}>My Profile</Text>
-              <MaterialCommunityIcons name="cog-outline" size={26} color="#22313F" />
             </View>
-            {/* Avatar and Edit */}
+            {/* Avatar and name */}
             <View style={styles.avatarRow}>
-              <Image source={{ uri: user.avatar }} style={styles.avatar} />
-              <TouchableOpacity style={styles.editButton}>
-                <Text style={styles.editButtonText}>Edit profile</Text>
-              </TouchableOpacity>
+              <View style={styles.avatar}>
+                <Text style={styles.avatarInitial}>{initial}</Text>
+              </View>
             </View>
-            {/* Name and Bio */}
-            <Text style={styles.name}>{user.name}</Text>
-            <Text style={styles.bio}>{user.bio}</Text>
+            {editingName ? (
+              <View style={styles.nameEditRow}>
+                <TextInput
+                  style={styles.nameInput}
+                  value={draftName}
+                  onChangeText={setDraftName}
+                  placeholder="Your name"
+                  placeholderTextColor="#b0b0b0"
+                  autoFocus
+                  maxLength={40}
+                  onSubmitEditing={() => {
+                    setDisplayName(draftName);
+                    setEditingName(false);
+                  }}
+                />
+                <TouchableOpacity
+                  onPress={() => {
+                    setDisplayName(draftName);
+                    setEditingName(false);
+                  }}
+                  accessibilityRole="button"
+                >
+                  <Text style={styles.nameSave}>Save</Text>
+                </TouchableOpacity>
+              </View>
+            ) : (
+              <TouchableOpacity
+                onPress={() => {
+                  setDraftName(settings.displayName);
+                  setEditingName(true);
+                }}
+                accessibilityRole="button"
+                accessibilityLabel="Edit your display name"
+              >
+                <Text style={styles.name}>
+                  {name} <MaterialCommunityIcons name="pencil-outline" size={16} color="#8EC6D7" />
+                </Text>
+              </TouchableOpacity>
+            )}
             {/* Divider */}
             <View style={styles.divider} />
-            {/* Stats */}
+            {/* Stats — all counted, none invented */}
             <View style={styles.statsRow}>
               <View style={styles.statItem}>
-                <Text style={styles.statNumber}>{user.stats.recipe}</Text>
-                <Text style={styles.statLabel}>Recipe</Text>
+                <Text style={styles.statNumber}>{favourites.length}</Text>
+                <Text style={styles.statLabel}>Saved</Text>
               </View>
               <View style={styles.statItem}>
-                <Text style={styles.statNumber}>{user.stats.videos}</Text>
-                <Text style={styles.statLabel}>Videos</Text>
+                <Text style={styles.statNumber}>{samples.length}</Text>
+                <Text style={styles.statLabel}>Requests</Text>
               </View>
               <View style={styles.statItem}>
-                <Text style={styles.statNumber}>{user.stats.followers}</Text>
-                <Text style={styles.statLabel}>Followers</Text>
+                <Text style={styles.statNumber}>{formatsUsed}</Text>
+                <Text style={styles.statLabel}>Formats</Text>
               </View>
-              <View style={styles.statItem}>
-                <Text style={styles.statNumber}>{user.stats.following}</Text>
-                <Text style={styles.statLabel}>Following</Text>
-              </View>
+              <TouchableOpacity
+                style={styles.statItem}
+                onPress={() => router.push('/metrics')}
+                accessibilityRole="button"
+              >
+                <MaterialCommunityIcons name="chart-line" size={22} color="#20515a" />
+                <Text style={styles.statLabel}>Metrics</Text>
+              </TouchableOpacity>
             </View>
             {/* Divider */}
             <View style={styles.divider} />
             {/* My Favorites */}
             <View style={styles.favHeaderRow}>
               <Text style={styles.favHeader}>My Favorites</Text>
-              <TouchableOpacity>
-                <Text style={styles.seeAll}>See All</Text>
-              </TouchableOpacity>
+              <Text style={styles.favCount}>
+                {favourites.length === 0 ? '' : `${favourites.length} saved`}
+              </Text>
             </View>
           </>
         }
         renderItem={({ item }) => (
-          <View style={styles.favCard}>
-            <Image source={{ uri: item.image }} style={styles.favImage} />
-            <TouchableOpacity style={styles.favLike}>
-              <MaterialCommunityIcons name="heart-outline" size={18} color="#fff" />
+          <TouchableOpacity
+            style={styles.favCard}
+            onPress={() => router.push({ pathname: '/recipe', params: { id: String(item.id) } })}
+            accessibilityRole="button"
+            accessibilityLabel={`Open ${item.title}`}
+          >
+            {item.image === null ? (
+              <View style={[styles.favImage, { backgroundColor: '#dfeaec' }]} />
+            ) : (
+              <Image source={{ uri: item.image }} style={styles.favImage} />
+            )}
+            <TouchableOpacity
+              style={styles.favLike}
+              onPress={() => toggleFavourite(item)}
+              accessibilityRole="button"
+              accessibilityLabel={`Remove ${item.title} from saved`}
+              hitSlop={8}
+            >
+              <MaterialCommunityIcons name="heart" size={18} color="#fff" />
             </TouchableOpacity>
-            <Text style={styles.favTitle}>{item.title}</Text>
-            <View style={styles.favAuthorRow}>
-              <MaterialCommunityIcons name="account-circle" size={16} color="#8EC6D7" />
-              <Text style={styles.favAuthor}>{item.author}</Text>
-            </View>
-          </View>
+            <Text style={styles.favTitle} numberOfLines={2}>{item.title}</Text>
+          </TouchableOpacity>
         )}
+        ListEmptyComponent={
+          <EmptyState
+            title="No saved recipes yet"
+            detail="Tap the heart on any recipe to save it here."
+          />
+        }
         contentContainerStyle={{ paddingBottom: 90 }}
         showsVerticalScrollIndicator={false}
       />
@@ -145,23 +185,17 @@ const styles = StyleSheet.create({
     marginTop: 8,
   },
   avatar: {
-    width: 64,
-    height: 64,
-    borderRadius: 32,
-    marginRight: 16,
+    width: 84,
+    height: 84,
+    borderRadius: 42,
+    backgroundColor: '#abe1e5',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  editButton: {
-    borderWidth: 1,
-    borderColor: '#8EC6D7',
-    borderRadius: 8,
-    paddingVertical: 6,
-    paddingHorizontal: 16,
-    marginLeft: 'auto',
-  },
-  editButtonText: {
+  avatarInitial: {
     color: '#20515a',
-    fontWeight: 'bold',
-    fontSize: 14,
+    fontSize: 34,
+    fontWeight: '700',
   },
   name: {
     fontWeight: 'bold',
@@ -169,10 +203,25 @@ const styles = StyleSheet.create({
     color: '#22313F',
     marginBottom: 2,
   },
-  bio: {
-    color: '#888',
-    fontSize: 13,
-    marginBottom: 12,
+  nameEditRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    marginBottom: 8,
+  },
+  nameInput: {
+    flex: 1,
+    backgroundColor: '#f3f7f8',
+    borderRadius: 8,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    color: '#1a2b3b',
+    fontSize: 16,
+  },
+  nameSave: {
+    color: '#20515a',
+    fontWeight: '700',
+    fontSize: 14,
   },
   divider: {
     height: 1,
@@ -210,10 +259,10 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#22313F',
   },
-  seeAll: {
+  favCount: {
     color: '#8EC6D7',
-    fontWeight: 'bold',
     fontSize: 13,
+    fontWeight: '600',
   },
   favCard: {
     backgroundColor: '#f9faf7',

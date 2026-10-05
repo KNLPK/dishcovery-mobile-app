@@ -1,24 +1,27 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, FlatList, ActivityIndicator, KeyboardAvoidingView, Platform, Image } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import axios from 'axios';
 import BottomTabBar from '../components/BottomTabBar'; // Assuming you want the BottomTabBar here
+import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { ErrorState } from '../components/StateViews';
 import { useRouter } from 'expo-router'; // Import useRouter if using expo-router
-import { API_BASE_URL } from '../constants/api';
-
-const categories = ['Breakfast', 'Lunch', 'Dinner', 'Snack'];
+import { CATEGORIES, categoryType } from '../constants/categories';
+import { searchRecipes, type SearchResultItem } from '../src/api/client';
+import { describeRequestError, type RequestFailure } from '../src/api/errors';
 
 type Ingredient = { name: string; quantity: string };
 
 export default function ChefHat() {
-  const [selectedCategory, setSelectedCategory] = useState('Breakfast');
+  const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].label);
   const [ingredients, setIngredients] = useState<Ingredient[]>([
     { name: '', quantity: '' },
   ]);
   const [cookTime, setCookTime] = useState(''); // Cook time in minutes
   const [loading, setLoading] = useState(false);
-  const [recipes, setRecipes] = useState<any[]>([]);
+  const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
   const [error, setError] = useState('');
+  const [failure, setFailure] = useState<RequestFailure | null>(null);
+  const [last, setLast] = useState<LastMeasurement | null>(null);
   const router = useRouter(); // Initialize router if using expo-router
 
   const handleIngredientChange = (index: number, field: 'name' | 'quantity', value: string) => {
@@ -39,6 +42,7 @@ export default function ChefHat() {
   const handleFindRecipe = async () => {
     setLoading(true);
     setError('');
+    setFailure(null);
     setRecipes([]); // Clear previous results
     try {
       const ingredientList = ingredients
@@ -54,7 +58,7 @@ export default function ChefHat() {
 
       const params: Record<string, string | number> = {
         includeIngredients: ingredientList,
-        type: selectedCategory.toLowerCase(), // Use selected category
+        type: categoryType(selectedCategory) ?? '', // a value Spoonacular recognises
         number: 5, // Get up to 5 recipes
       };
 
@@ -62,19 +66,29 @@ export default function ChefHat() {
           params.maxReadyTime = parseInt(cookTime); // Add cook time if valid
       }
 
-      const response = await axios.get(`${API_BASE_URL}/api/search`, {
-        params,
+      // Same measured path as search and recipe detail, in the app-wide format.
+      const { data, meta } = await searchRecipes(params);
+      setLast({
+        payloadBytes: meta.payloadBytes,
+        deserializationMs: meta.deserializationMs,
+        heapDeltaBytes: meta.heapDeltaBytes,
+        format: meta.format,
+        formatFallbackFrom: meta.formatFallbackFrom,
       });
 
-      if (response.data.results.length === 0) {
-          setError('No recipes found with the given ingredients and criteria.');
+      const results = data.results ?? [];
+      if (results.length === 0) {
+          setError(
+            `No recipes matched ${ingredientList.split(',').join(', ')}` +
+              `${cookTime ? ` under ${cookTime} minutes` : ''} for ${selectedCategory.toLowerCase()}. ` +
+              'Try fewer ingredients, or clear the cook time.'
+          );
       } else {
-          setRecipes(response.data.results);
+          setRecipes(results);
       }
 
     } catch (err) {
-      console.error("API Error:", err); // Log the full error for debugging
-      setError('Failed to fetch recipes. Please check the proxy server and internet connection.');
+      setFailure(describeRequestError(err, 'find recipes'));
     } finally {
       setLoading(false);
     }
@@ -101,18 +115,17 @@ export default function ChefHat() {
         {/* Category */}
         <View style={styles.categoryRow}>
           <Text style={styles.sectionTitle}>Category</Text>
-          <TouchableOpacity>
-            <Text style={styles.seeAll}>See All</Text>
-          </TouchableOpacity>
         </View>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.categoryButtonContainer}>
-          {categories.map(cat => (
+          {CATEGORIES.map(cat => (
             <TouchableOpacity
-              key={cat}
-              style={[styles.categoryButton, selectedCategory === cat && styles.categoryButtonActive]}
-              onPress={() => setSelectedCategory(cat)}
+              key={cat.label}
+              style={[styles.categoryButton, selectedCategory === cat.label && styles.categoryButtonActive]}
+              onPress={() => setSelectedCategory(cat.label)}
+              accessibilityRole="button"
+              accessibilityState={{ selected: selectedCategory === cat.label }}
             >
-              <Text style={[styles.categoryText, selectedCategory === cat && styles.categoryTextActive]}>{cat}</Text>
+              <Text style={[styles.categoryText, selectedCategory === cat.label && styles.categoryTextActive]}>{cat.label}</Text>
             </TouchableOpacity>
           ))}
         </ScrollView>
@@ -183,7 +196,17 @@ export default function ChefHat() {
           )}
         </TouchableOpacity>
 
+        {/* Format selector + the last request's measurements */}
+        <View style={{ marginTop: 20 }}>
+          <MetricsBar last={last} busy={loading} />
+        </View>
+
         {/* Results */}
+        {failure !== null && (
+          <View style={{ marginTop: 16 }}>
+            <ErrorState failure={failure} onRetry={handleFindRecipe} />
+          </View>
+        )}
         {error ? <Text style={styles.error}>{error}</Text> : null}
         {recipes.length > 0 && (
           <View style={{ marginTop: 24 }}>
