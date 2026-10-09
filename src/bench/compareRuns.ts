@@ -21,15 +21,21 @@ import type { ComplexityTier, SerializationFormat } from '../../shared/contract'
 import { BENCHMARK_CONFIG, COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../../shared/contract';
 import { describeSeries } from './calibration';
 import {
+  DRIFT_LIMIT_PERCENT,
+  assessDrift,
   partitionRuns,
+  runGaps,
   type ComparisonReference,
+  type DriftReading,
   type ExcludedRun,
+  type RunGap,
 } from './comparability';
+import { MIN_COOLDOWN_SECONDS } from './cooldown';
 import { captureEnvironment } from './environment';
-import { listRuns, readAggregate } from './storage';
-import type { RunAggregate } from './types';
+import { listRuns, readAggregate, readExclusion } from './storage';
+import type { RunAggregate, RunExclusion } from './types';
 
-export type { ComparisonReference, ExcludedRun } from './comparability';
+export type { ComparisonReference, DriftReading, ExcludedRun, RunGap } from './comparability';
 
 export interface CrossRunCell {
   format: SerializationFormat;
@@ -58,6 +64,8 @@ export interface CrossRunReport {
   runIds: string[];
   /** Runs left out of the pool, each with every specific mismatch named. */
   excluded: ExcludedRun[];
+  /** Thermal state of EVERY completed run, pooled or not, so it can be read side by side. */
+  thermal: { runId: string; gap: RunGap; drift: DriftReading[] | null }[];
   cells: CrossRunCell[];
   notes: string[];
 }
@@ -110,12 +118,21 @@ export async function compareRuns(
       reference,
       runIds: [],
       excluded: [],
+      thermal: [],
       cells: [],
       notes: ['No completed runs on this device yet.'],
     };
   }
 
-  const { comparable, excluded } = partitionRuns(loaded, reference);
+  const manual: RunExclusion[] = [];
+  for (const a of loaded) {
+    const m = await readExclusion(a.runId);
+    if (m !== null) manual.push(m);
+  }
+
+  const { comparable, excluded } = partitionRuns(loaded, reference, manual);
+  const gaps = runGaps(loaded);
+  const thermal = loaded.map((a, i) => ({ runId: a.runId, gap: gaps[i], drift: assessDrift(a) }));
 
   const cells: CrossRunCell[] = [];
   for (const tier of COMPLEXITY_TIERS) {
@@ -159,6 +176,18 @@ export async function compareRuns(
   for (const ex of excluded) {
     notes.push(`Excluded ${ex.runId} (started ${ex.startedAt}): ${ex.reasons.join('; ')}.`);
   }
+  notes.push(
+    `Runs are refused when any format's sentinel drift exceeds ${DRIFT_LIMIT_PERCENT}%. The idle gap ` +
+      `before each run is reported against a ${MIN_COOLDOWN_SECONDS / 60}-minute guideline but does ` +
+      'not refuse on its own: the gap is the cause, drift is the measured effect.'
+  );
 
-  return { reference, runIds: comparable.map((a) => a.runId), excluded, cells, notes };
+  return {
+    reference,
+    runIds: comparable.map((a) => a.runId),
+    excluded,
+    thermal,
+    cells,
+    notes,
+  };
 }

@@ -41,10 +41,14 @@ import {
   inferQuantum,
   resolveOffset,
 } from './calibration';
+import { DRIFT_LIMIT_PERCENT, SENTINEL_DECODES, driftFromSentinels } from './comparability';
+import { assessCooldown, runActivity, type DeviceActivity } from './cooldown';
 import { captureEnvironment, type RunEnvironment } from './environment';
 import {
   CHUNK_PAYLOADS,
+  checkpointModifiedAt,
   ensureRunDir,
+  listRuns,
   listWarmupProfiles,
   readCheckpoint,
   readChunk,
@@ -55,15 +59,21 @@ import {
   writeChunk,
   writeCheckpoint,
 } from './storage';
+import {
+  WARMUP_MEAN_BAND,
+  WARMUP_SD_BAND,
+  analyseSettling,
+  combineProfileReports,
+} from './warmupRules';
 import type {
   AcquisitionFailure,
+  CooldownRecord,
   PerCellBias,
   ProfileEnvironment,
   WarmupSufficiency,
   PerCellIteration,
   PerCellProfile,
   PerCellProfileReport,
-  WarmupFormatSummary,
   WarmupProfile,
   WarmupProfileReport,
   WarmupProfileSeries,
@@ -111,6 +121,11 @@ export interface RunOptions {
    * is a decision rather than a wall, and it is recorded in the manifest.
    */
   overrideInsufficientWarmup?: boolean;
+  /**
+   * The operator saw the cooldown warning and started anyway. Recorded in the
+   * run; it does not change what is measured.
+   */
+  cooldownAcknowledged?: boolean;
 }
 
 export interface RunOutcome {
@@ -308,22 +323,8 @@ export function describeProfileEnvironment(env: ProfileEnvironment): string {
 
 // ─── Warm-up profile ──────────────────────────────────────────────────────────
 
-/** Mean within this fraction of the final window counts as settled. */
-const WARMUP_MEAN_BAND = 0.05;
-/** sd within this multiple of the final window's sd counts as settled. */
-const WARMUP_SD_BAND = 1.5;
-
-/**
- * Multiple applied to the measured cold requirement to get prewarmDecodes.
- *
- * Pre-warm is paid ONCE per run, so 2x costs a few seconds on a run of several
- * minutes while buying protection against a launch that warms more slowly than
- * the profiled one. Cheap insurance against the exact failure that produced the
- * spurious "-10.3% thermal drift" in the first run.
- */
-const PREWARM_HEADROOM = 2;
-/** Pre-warm is reported in round numbers; nothing turns on the last few decodes. */
-const PREWARM_ROUNDING = 50;
+// The settle bands and pre-warm headroom live in warmupRules.ts, where they are
+// tested without a device.
 
 /**
  * Residual-bias limit for choosing warmupIterations.
@@ -386,23 +387,15 @@ function profileFormat(
     w.percentVsFinal = final.meanMs === 0 ? 0 : ((w.meanMs - final.meanMs) / final.meanMs) * 100;
   }
 
-  // The first window from which EVERY later window is inside both bands.
-  let recommended: number | null = null;
-  for (let i = 0; i < windows.length; i++) {
-    const settled = windows
-      .slice(i)
-      .every(
-        (w) =>
-          Math.abs(w.percentVsFinal) <= WARMUP_MEAN_BAND * 100 &&
-          w.sdMs <= Math.max(final.sdMs * WARMUP_SD_BAND, final.sdMs + 0.05)
-      );
-    if (settled) {
-      recommended = windows[i].fromIteration - 1;
-      break;
-    }
-  }
-
-  return { format, windows, recommendedWarmup: recommended, positionInOrder };
+  // Both rules, from one implementation: strict for comparison, robust for use.
+  const settle = analyseSettling(windows);
+  return {
+    format,
+    windows,
+    recommendedWarmup: settle.strict,
+    robustWarmup: settle.robust,
+    positionInOrder,
+  };
 }
 
 /**
@@ -498,7 +491,8 @@ export async function runWarmupProfile(
       'other two inherit warm-up it paid for, so their figures in THIS report are lower bounds. ' +
       'Run the profile once per leading format, each from a freshly launched app, and take the ' +
       'maximum across every format in every ordering. Bands: window mean within ' +
-      `${WARMUP_MEAN_BAND * 100}% of the final window, sd within ${WARMUP_SD_BAND}x the final sd.`,
+      `${WARMUP_MEAN_BAND * 100}% of steady state, sd within ${WARMUP_SD_BAND}x the steady-state sd. ` +
+      'Settling is judged robustly when the profiles are combined; see combineProfileReports.',
   };
 
   await saveWarmupProfile(report);
@@ -520,95 +514,10 @@ export function combineWarmupProfiles(
   currentWarmup: number = BENCHMARK_CONFIG.warmupIterations,
   currentPrewarm: number = BENCHMARK_CONFIG.prewarmDecodes
 ): WarmupProfileSeries {
-  const perFormat: WarmupFormatSummary[] = SERIALIZATION_FORMATS.map((format) => {
-    const observations = reports.flatMap((report) => {
-      const profile = report.profiles.find((p) => p.format === format);
-      if (profile === undefined) return [];
-      const first = profile.windows[0];
-      return [
-        {
-          leadFormat: report.leadFormat,
-          positionInOrder: profile.positionInOrder,
-          recommendedWarmup: profile.recommendedWarmup,
-          firstWindowMeanMs: first?.meanMs ?? null,
-          firstWindowSdMs: first?.sdMs ?? null,
-        },
-      ];
-    });
-
-    const values = observations
-      .map((o) => o.recommendedWarmup)
-      .filter((v): v is number => v !== null);
-    const cold = observations.find((o) => o.positionInOrder === 1);
-
-    return {
-      format,
-      observations,
-      maxRecommended: values.length > 0 ? Math.max(...values) : null,
-      coldRecommended: cold?.recommendedWarmup ?? null,
-    };
+  return combineProfileReports(reports, SERIALIZATION_FORMATS, {
+    warmupIterations: currentWarmup,
+    prewarmDecodes: currentPrewarm,
   });
-
-  const seenLeads = new Set(reports.map((r) => r.leadFormat));
-  const missingLeads = SERIALIZATION_FORMATS.filter((f) => !seenLeads.has(f));
-
-  const all = perFormat.map((f) => f.maxRecommended).filter((v): v is number => v !== null);
-  const coldRequirement = all.length > 0 ? Math.max(...all) : null;
-
-  // The cold requirement sets the PRE-WARM, not the per-cell warm-up. Pre-warm is
-  // paid once per run, so headroom is nearly free; per-cell warm-up is paid on
-  // every one of the 750 cells, and the engine is already warm by then.
-  const recommendedPrewarm =
-    coldRequirement === null
-      ? null
-      : Math.max(
-          currentPrewarm,
-          Math.ceil((coldRequirement * PREWARM_HEADROOM) / PREWARM_ROUNDING) * PREWARM_ROUNDING
-        );
-
-  // A format that never settled inside the pass is a louder signal than any
-  // number, so it is called out rather than passed off as null.
-  const neverSettled = perFormat.filter(
-    (f) => f.observations.length > 0 && f.observations.every((o) => o.recommendedWarmup === null)
-  );
-
-  const parts: string[] = [];
-  parts.push(
-    missingLeads.length === 0
-      ? `All ${SERIALIZATION_FORMATS.length} orderings are present, so every format has one cold ` +
-          'measurement and the ordering confound is removed.'
-      : `INCOMPLETE — no session has led with ${missingLeads.join(' or ')}, so ` +
-          `${missingLeads.join(' and ')} ${missingLeads.length === 1 ? 'has' : 'have'} not been ` +
-          'measured from cold and the figure below is a lower bound.'
-  );
-  parts.push(
-    'The value taken is the MAXIMUM across every format in every ordering, applied identically to ' +
-      'all three formats, because unequal warm-up would be unequal treatment.'
-  );
-  parts.push(
-    'This is an ENGINE warm-up figure and it sets prewarmDecodes, which is paid once per run. It is ' +
-      'NOT warmupIterations: that is paid on every one of the 750 cells, after the engine is already ' +
-      'warm, and only has to absorb the per-payload transient. Using this number there would ' +
-      'double-count the cold start and triple the run. The per-cell figure is a separate measurement.'
-  );
-  if (neverSettled.length > 0) {
-    parts.push(
-      `${neverSettled.map((f) => f.format).join(', ')} never settled within the pass in any ` +
-        'ordering — raise the iteration count before trusting any recommendation.'
-    );
-  }
-
-  return {
-    reports,
-    perFormat,
-    missingLeads,
-    coldRequirement,
-    recommendedPrewarm,
-    prewarmHeadroom: PREWARM_HEADROOM,
-    currentPrewarm,
-    currentWarmup,
-    note: parts.join(' '),
-  };
 }
 
 /** Every persisted ordering, combined. Survives the force-stops between launches. */
@@ -1162,8 +1071,10 @@ function readSentinel(
     for (let i = 0; i < BENCHMARK_CONFIG.warmupIterations; i++) {
       sink = measureDecode(() => codec.decode(bytes)).result;
     }
+    // SENTINEL_DECODES, not measuredIterations: the sentinel exists to resolve
+    // drift against a 5% limit, which 30 decodes could not do reliably.
     const ms: number[] = [];
-    for (let i = 0; i < BENCHMARK_CONFIG.measuredIterations; i++) {
+    for (let i = 0; i < SENTINEL_DECODES; i++) {
       const m = measureDecode(() => codec.decode(bytes));
       sink = m.result;
       ms.push(m.deserializationMs);
@@ -1172,29 +1083,35 @@ function readSentinel(
     return { format, meanMs: stats.mean, sd: stats.sd };
   });
 
-  return { at, progressPercent, timestamp: Date.now(), payloadId: entry.recipeId, perFormat };
+  return {
+    at,
+    progressPercent,
+    timestamp: Date.now(),
+    payloadId: entry.recipeId,
+    decodes: SENTINEL_DECODES,
+    perFormat,
+  };
 }
 
 function computeDrift(sentinels: SentinelReading[]): SentinelDrift[] {
-  const find = (at: SentinelReading['at']) => sentinels.find((s) => s.at === at);
-  const start = find('start');
-  const middle = find('middle');
-  const end = find('end');
-  if (start === undefined || end === undefined) return [];
+  const middle = sentinels.find((s) => s.at === 'middle');
+  // The same function the comparison uses to refuse a run, so the figure in the
+  // file is the figure acted on.
+  const readings = driftFromSentinels(sentinels, BENCHMARK_CONFIG.measuredIterations);
+  if (readings === null) return [];
 
-  return SERIALIZATION_FORMATS.map((format) => {
-    const pick = (s: SentinelReading | undefined) =>
-      s?.perFormat.find((f) => f.format === format)?.meanMs ?? NaN;
-    const startMs = pick(start);
-    const endMs = pick(end);
-    return {
-      format,
-      startMeanMs: startMs,
-      middleMeanMs: pick(middle),
-      endMeanMs: endMs,
-      driftPercent: startMs === 0 ? NaN : ((endMs - startMs) / startMs) * 100,
-    };
-  });
+  return readings.map((r) => ({
+    format: r.format as SerializationFormat,
+    startMeanMs: r.startMeanMs,
+    middleMeanMs: middle?.perFormat.find((f) => f.format === r.format)?.meanMs ?? NaN,
+    endMeanMs: r.endMeanMs,
+    driftPercent: r.driftPercent,
+    standardErrorPercent: r.standardErrorPercent,
+    z: r.z,
+    limitInStandardErrors:
+      r.standardErrorPercent > 0 ? DRIFT_LIMIT_PERCENT / r.standardErrorPercent : Number.NaN,
+    sentinelDecodes: r.sentinelDecodes,
+  }));
 }
 
 // ─── Aggregation ──────────────────────────────────────────────────────────────
@@ -1283,6 +1200,55 @@ export function aggregate(rows: DecodeRow[]): CellAggregate[] {
 
 // ─── The run ──────────────────────────────────────────────────────────────────
 
+// ─── Cooldown ─────────────────────────────────────────────────────────────────
+
+/**
+ * Everything on this device that loaded the CPU, with when it ended.
+ *
+ * Profile reports stamp `startedAt` when the report is assembled, which is after
+ * the profiling loop has finished, so it is the profile's END time despite the
+ * name.
+ *
+ * A run that never finished is taken to have ended at its LAST CHECKPOINT. A
+ * killed run has no knowable elapsed duration — nothing executes after the kill
+ * to record one — whereas a checkpoint time is a recorded fact. A run stopped
+ * with the Stop button writes a checkpoint as it stops, so for those the time is
+ * exact. A run that was killed outright can have worked up to one chunk
+ * (CHUNK_PAYLOADS payloads, roughly half a minute) past its last checkpoint, so
+ * the gap can be overstated by that much — about 5% of the ten-minute minimum.
+ * Older checkpoints without the stamp fall back to the checkpoint file's
+ * modification time, the same fact read from the file system, and only then to
+ * the run's start.
+ */
+export async function gatherDeviceActivity(): Promise<DeviceActivity[]> {
+  const activity: DeviceActivity[] = [];
+  for (const run of await listRuns()) {
+    // The file-system time is only needed when the checkpoint lacks its stamp.
+    const modifiedAt =
+      run.finishedAt === null && run.lastCheckpointAt === undefined
+        ? await checkpointModifiedAt(run.runId)
+        : null;
+    activity.push(runActivity(run, modifiedAt));
+  }
+  for (const report of await listWarmupProfiles()) {
+    activity.push({
+      kind: 'cold-profile',
+      id: `${report.leadFormat} first`,
+      endedAt: report.startedAt,
+    });
+  }
+  const perCell = await readPerCellProfile();
+  if (perCell !== null) {
+    activity.push({ kind: 'per-cell-profile', id: 'per-cell', endedAt: perCell.startedAt });
+  }
+  return activity;
+}
+
+/** The cooldown state if a run were started now. */
+export async function loadCooldown(): Promise<CooldownRecord> {
+  return assessCooldown(await gatherDeviceActivity(), Date.now());
+}
+
 export async function runBenchmark(options: RunOptions = {}): Promise<RunOutcome> {
   const { onProgress, shouldStop } = options;
 
@@ -1336,6 +1302,15 @@ export async function runBenchmark(options: RunOptions = {}): Promise<RunOutcome
     rowCount: 0,
     finishedAt: null,
   };
+  // Measured at the start of the run, before acquisition adds load of its own.
+  // A resumed run keeps the record from when it first started.
+  if (prior === null || prior.cooldown === undefined) {
+    state.cooldown = assessCooldown(
+      await gatherDeviceActivity(),
+      Date.now(),
+      options.cooldownAcknowledged === true
+    );
+  }
 
   // ── Acquisition: all buffers, before any measurement ──
   const { buffers, failures } = await acquire(entries, onProgress);
@@ -1466,6 +1441,7 @@ export async function runBenchmark(options: RunOptions = {}): Promise<RunOutcome
       calibration,
       determinism,
       warmupSufficiency: sufficiency,
+      cooldown: state.cooldown ?? null,
       cells,
       sentinels: state.sentinels,
       drift: computeDrift(state.sentinels),
@@ -1477,7 +1453,9 @@ export async function runBenchmark(options: RunOptions = {}): Promise<RunOutcome
         environment,
         failures.length,
         sufficiency,
-        options.overrideInsufficientWarmup === true
+        options.overrideInsufficientWarmup === true,
+        state.cooldown ?? null,
+        state.sentinels
       ),
     };
     await writeAggregate(summary);
@@ -1493,7 +1471,9 @@ function buildNotes(
   environment: RunEnvironment,
   failureCount: number,
   sufficiency: WarmupSufficiency,
-  overrode: boolean
+  overrode: boolean,
+  cooldown: CooldownRecord | null,
+  sentinels: SentinelReading[]
 ): string[] {
   const notes = [
     determinism.note,
@@ -1527,6 +1507,30 @@ function buildNotes(
       'an assumption that it would.',
   ];
 
+  const drift = computeDrift(sentinels);
+  if (drift.length > 0) {
+    const ses = drift.map((d) => d.standardErrorPercent).filter((v) => Number.isFinite(v));
+    const worst = ses.length > 0 ? Math.max(...ses) : Number.NaN;
+    notes.push(
+      `SENTINEL: ${drift[0].sentinelDecodes} decodes per format at the start, middle and end. ` +
+        `Drift ${drift.map((d) => `${d.format} ${d.driftPercent >= 0 ? '+' : ''}${d.driftPercent.toFixed(1)}% \u00b1 ${d.standardErrorPercent.toFixed(2)}%`).join(', ')}. ` +
+        `The ${DRIFT_LIMIT_PERCENT}% refusal limit is ${(DRIFT_LIMIT_PERCENT / worst).toFixed(1)} SE out at the ` +
+        'widest of these.'
+    );
+  }
+  if (cooldown !== null) {
+    notes.push(
+      cooldown.gapSeconds === null
+        ? 'COOLDOWN: no earlier activity on record on this device before this run.'
+        : `COOLDOWN: started ${cooldown.gapSeconds} s after the previous ${cooldown.previousActivity} ` +
+            `(${cooldown.previousId}) ended, against a minimum of ${cooldown.minimumSeconds} s` +
+            (cooldown.satisfied
+              ? '.'
+              : ' — INSIDE the cooldown' +
+                (cooldown.overridden ? ', started anyway after the warning' : '') +
+                '. Read this run\'s sentinel drift before pooling it.')
+    );
+  }
   if (overrode) {
     notes.push(
       'WARM-UP OVERRIDE: the configured warm-up was measured INSUFFICIENT on this build and the run ' +

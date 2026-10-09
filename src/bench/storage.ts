@@ -18,6 +18,7 @@ import * as Sharing from 'expo-sharing';
 
 import type { SerializationFormat } from '../../shared/contract';
 import type {
+  RunExclusion,
   DecodeRow,
   PerCellProfileReport,
   RunAggregate,
@@ -93,7 +94,26 @@ function checkpointUri(runId: string): string {
 }
 
 export async function writeCheckpoint(state: RunCheckpoint): Promise<void> {
+  // Stamped here, at the one place every checkpoint passes through, so a run
+  // that is later stopped or killed still has an end time on record.
+  state.lastCheckpointAt = new Date().toISOString();
   await FileSystem.writeAsStringAsync(checkpointUri(state.runId), JSON.stringify(state));
+}
+
+/**
+ * When a run's checkpoint file was last written, from the file system.
+ *
+ * The fallback for checkpoints written before lastCheckpointAt existed. The file
+ * is rewritten at every checkpoint, so its modification time is the same fact.
+ */
+export async function checkpointModifiedAt(runId: string): Promise<string | null> {
+  try {
+    const info = await FileSystem.getInfoAsync(checkpointUri(runId));
+    if (!info.exists || typeof info.modificationTime !== 'number') return null;
+    return new Date(info.modificationTime * 1000).toISOString();
+  } catch {
+    return null;
+  }
 }
 
 export async function readCheckpoint(runId: string): Promise<RunCheckpoint | null> {
@@ -265,6 +285,37 @@ export async function exportAggregate(runId: string): Promise<string> {
     await Sharing.shareAsync(target, { mimeType: 'application/json', dialogTitle: 'Benchmark summary' });
   }
   return target;
+}
+
+// ─── Manual exclusions ──────────────────────────────────────────────────────────
+
+/**
+ * An exclusion is its own file beside the run. The run's measured outputs —
+ * rows, checkpoint, aggregate — are never rewritten to record it, so excluding a
+ * run can always be undone and never alters what was measured.
+ */
+function exclusionUri(runId: string): string {
+  return `${runDir(runId)}/excluded.json`;
+}
+
+export async function writeExclusion(runId: string, reason: string): Promise<RunExclusion> {
+  const record: RunExclusion = { runId, reason, excludedAt: new Date().toISOString() };
+  await FileSystem.writeAsStringAsync(exclusionUri(runId), JSON.stringify(record, null, 2));
+  return record;
+}
+
+export async function readExclusion(runId: string): Promise<RunExclusion | null> {
+  try {
+    const info = await FileSystem.getInfoAsync(exclusionUri(runId));
+    if (!info.exists) return null;
+    return JSON.parse(await FileSystem.readAsStringAsync(exclusionUri(runId))) as RunExclusion;
+  } catch {
+    return null;
+  }
+}
+
+export async function clearExclusion(runId: string): Promise<void> {
+  await FileSystem.deleteAsync(exclusionUri(runId), { idempotent: true });
 }
 
 export async function deleteRun(runId: string): Promise<void> {

@@ -11,14 +11,24 @@
 
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import {
+  ActivityIndicator,
+  Pressable,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
+} from 'react-native';
 
 import { palette, radius, spacing, type } from '../constants/theme';
 import { describeBaseUrl } from '../src/api/baseUrl';
 import { describeRequestError } from '../src/api/errors';
 import { compareRuns, type CrossRunReport } from '../src/bench/compareRuns';
 import { captureEnvironment, describeEnvironment } from '../src/bench/environment';
+import { assessCooldown, secondsRemaining, type DeviceActivity } from '../src/bench/cooldown';
 import {
+  gatherDeviceActivity,
   loadSufficiency,
   loadWarmupSeries,
   runBenchmark,
@@ -27,6 +37,7 @@ import {
   type Progress,
 } from '../src/bench/runner';
 import {
+  clearExclusion,
   clearWarmupProfiles,
   deleteRun,
   exportAggregate,
@@ -34,15 +45,19 @@ import {
   exportWarmupProfiles,
   listRuns,
   readAggregate,
+  readExclusion,
   readPerCellProfile,
+  writeExclusion,
 } from '../src/bench/storage';
 import type {
   PerCellProfileReport,
   RunAggregate,
+  RunExclusion,
   RunCheckpoint,
   WarmupProfileSeries,
   WarmupSufficiency,
 } from '../src/bench/types';
+import { analyseSettling } from '../src/bench/warmupRules';
 import { BENCHMARK_CONFIG, SERIALIZATION_FORMATS } from '../shared/contract';
 import type { SerializationFormat } from '../shared/contract';
 
@@ -64,6 +79,26 @@ function projectPlan() {
   };
 }
 
+function pct(v: number): string {
+  return `${v >= 0 ? '+' : ''}${v.toFixed(1)}%`;
+}
+
+/** A reason to prefill when excluding a run, built from what was measured. */
+function suggestExclusionReason(thermal: CrossRunReport['thermal'][number] | undefined): string {
+  if (thermal === undefined) return '';
+  const parts: string[] = [];
+  if (thermal.gap.gapSeconds !== null) {
+    parts.push(
+      `started ${thermal.gap.gapSeconds} s after ${thermal.gap.previousActivity} ` +
+        `${thermal.gap.previousId} ended`
+    );
+  }
+  if (thermal.drift !== null && thermal.drift.length > 0) {
+    parts.push(`sentinel drift ${thermal.drift.map((d) => `${d.format} ${pct(d.driftPercent)}`).join(', ')}`);
+  }
+  return parts.length === 0 ? '' : `Thermal contamination: ${parts.join('; ')}.`;
+}
+
 function mmss(ms: number | null): string {
   if (ms === null) return '—';
   const total = Math.round(ms / 1000);
@@ -82,6 +117,12 @@ export default function BenchmarkScreen() {
   const [lastLead, setLastLead] = useState<SerializationFormat | null>(null);
   const [perCell, setPerCell] = useState<PerCellProfileReport | null>(null);
   const [sufficiency, setSufficiency] = useState<WarmupSufficiency | null>(null);
+  const [activity, setActivity] = useState<DeviceActivity[]>([]);
+  const [now, setNow] = useState(Date.now());
+  const [exclusions, setExclusions] = useState<Record<string, RunExclusion>>({});
+  const [editingExclusion, setEditingExclusion] = useState<{ runId: string; text: string } | null>(
+    null
+  );
 
   // A ref would be lost across re-renders of a long-running loop; a module-free
   // closure over state is enough because the runner only reads it between
@@ -91,6 +132,8 @@ export default function BenchmarkScreen() {
   const environment = React.useMemo(() => captureEnvironment(null), []);
   const connection = describeBaseUrl();
   const plan = projectPlan();
+  // Recomputed on every tick, so the countdown moves without a refresh.
+  const cooldown = assessCooldown(activity, now);
 
   const refresh = useCallback(async () => {
     setRuns(await listRuns());
@@ -100,6 +143,22 @@ export default function BenchmarkScreen() {
     setWarmup(await loadWarmupSeries());
     setPerCell(await readPerCellProfile());
     setSufficiency(await loadSufficiency());
+    setActivity(await gatherDeviceActivity());
+    setNow(Date.now());
+    const stored = await listRuns();
+    const found: Record<string, RunExclusion> = {};
+    for (const run of stored) {
+      const m = await readExclusion(run.runId);
+      if (m !== null) found[run.runId] = m;
+    }
+    setExclusions(found);
+  }, []);
+
+  // A clock for the cooldown countdown. Five seconds is fine-grained enough for
+  // a ten-minute wait and costs nothing between ticks.
+  useEffect(() => {
+    const id = setInterval(() => setNow(Date.now()), 5000);
+    return () => clearInterval(id);
   }, []);
 
   useEffect(() => {
@@ -146,7 +205,11 @@ export default function BenchmarkScreen() {
     setSufficiency(await loadSufficiency());
   }
 
-  async function start(resumeRunId?: string, overrideInsufficientWarmup = false) {
+  async function start(
+    resumeRunId?: string,
+    overrideInsufficientWarmup = false,
+    cooldownAcknowledged = false
+  ) {
     setBusy(true);
     setError(null);
     setSummary(null);
@@ -163,6 +226,7 @@ export default function BenchmarkScreen() {
         onProgress: setProgress,
         shouldStop: requestStop,
         overrideInsufficientWarmup,
+        cooldownAcknowledged,
       });
       setSummary(outcome.aggregate);
       if (outcome.stoppedEarly) {
@@ -268,7 +332,8 @@ export default function BenchmarkScreen() {
           ]}
         >
           <Text style={styles.cardTitle}>
-            Cold requirement: {warmup.coldRequirement ?? '—'} decodes → prewarmDecodes{' '}
+            Cold requirement: {warmup.coldRequirement ?? '—'} decodes (strict rule{' '}
+            {warmup.coldRequirementStrict ?? '—'}) → prewarmDecodes{' '}
             {warmup.recommendedPrewarm ?? '—'} (currently {warmup.currentPrewarm})
           </Text>
           <Text style={styles.note}>
@@ -277,20 +342,35 @@ export default function BenchmarkScreen() {
             per-cell profile below for that.
           </Text>
           <Text style={styles.mono} selectable>
-            {'format     cold  max  by ordering'}
+            {'robust/strict  cold      max      by ordering'}
           </Text>
           {warmup.perFormat.map((f) => (
             <Text key={f.format} style={styles.mono} selectable>
-              {`${f.format.padEnd(9)}${String(f.coldRecommended ?? '—').padStart(6)}` +
-                `${String(f.maxRecommended ?? '—').padStart(5)}  ` +
+              {`${f.format.padEnd(9)}` +
+                `${`${f.coldRecommended ?? '—'}/${f.coldStrict ?? '—'}`.padStart(9)}` +
+                `${`${f.maxRecommended ?? '—'}/${f.maxStrict ?? '—'}`.padStart(9)}  ` +
                 f.observations
                   .map(
                     (o) =>
-                      `${o.leadFormat.slice(0, 4)}#${o.positionInOrder}:${o.recommendedWarmup ?? '—'}`
+                      `${o.leadFormat.slice(0, 4)}#${o.positionInOrder}:` +
+                      `${o.robustWarmup ?? '—'}/${o.strictWarmup ?? '—'}`
                   )
                   .join(' ')}
             </Text>
           ))}
+          {warmup.perFormat.flatMap((f) =>
+            f.observations
+              .filter((o) => o.outliers.length > 0)
+              .map((o) => (
+                <Text key={`${f.format}-${o.leadFormat}`} style={styles.note} selectable>
+                  Outliers — {f.format} in the {o.leadFormat}-led session: windows{' '}
+                  {o.outliers
+                    .map((w) => `${w.fromIteration} (${w.meanMs.toFixed(2)} ms, ${pct(w.percentVsReference)})`)
+                    .join(', ')}
+                  . Tolerated by the robust rule; they set the strict figure.
+                </Text>
+              ))
+          )}
           <Text style={styles.note}>{warmup.note}</Text>
 
           {warmup.reports.map((report) => (
@@ -303,7 +383,8 @@ export default function BenchmarkScreen() {
                 <View key={pf.format}>
                   <Text style={styles.body}>
                     {pf.format} (position {pf.positionInOrder}) — settles after{' '}
-                    {pf.recommendedWarmup ?? 'never within this pass'}
+                    {analyseSettling(pf.windows).robust ?? 'never'} robust,{' '}
+                    {analyseSettling(pf.windows).strict ?? 'never'} strict
                     {pf.positionInOrder === 1 ? ' · COLD' : ''}
                   </Text>
                   <Text style={styles.mono} selectable>
@@ -455,26 +536,57 @@ export default function BenchmarkScreen() {
         </View>
       )}
 
+      {/* ── Cooldown ──────────────────────────────────────────── */}
+      <View style={[styles.card, cooldown.satisfied ? styles.cardOk : styles.cardWarn]}>
+        <Text style={styles.cardTitle}>
+          {cooldown.gapSeconds === null
+            ? 'Cooldown: no earlier activity on record'
+            : cooldown.satisfied
+              ? `Cooled down — idle ${mmss(cooldown.gapSeconds * 1000)}`
+              : `Still warm — wait ${mmss(secondsRemaining(cooldown) * 1000)}`}
+        </Text>
+        <Text style={styles.note}>
+          {cooldown.gapSeconds === null
+            ? 'Nothing on this device has loaded the CPU yet.'
+            : `Last load: ${cooldown.previousActivity} ${cooldown.previousId}, ended ` +
+              `${mmss(cooldown.gapSeconds * 1000)} ago. Minimum idle before a run: ` +
+              `${cooldown.minimumSeconds / 60} min. The gap is recorded in the run either way; a run ` +
+              'whose sentinel drift then exceeds the limit is refused by the comparison.'}
+        </Text>
+      </View>
+
       {/* ── Controls ───────────────────────────────────────────────────────── */}
       <View style={styles.buttonRow}>
         <Pressable
           style={[
             styles.primaryButton,
-            (busy || sufficiency?.verdict === 'insufficient') && styles.buttonDisabled,
+            (busy || sufficiency?.verdict === 'insufficient' || !cooldown.satisfied) &&
+              styles.buttonDisabled,
           ]}
-          disabled={busy || sufficiency?.verdict === 'insufficient'}
+          disabled={busy || sufficiency?.verdict === 'insufficient' || !cooldown.satisfied}
           onPress={() => start()}
           accessibilityRole="button"
         >
           <Text style={styles.primaryButtonText}>{busy ? 'Running…' : 'Start new run'}</Text>
         </Pressable>
-        {!busy && sufficiency?.verdict === 'insufficient' && (
+        {!busy && (sufficiency?.verdict === 'insufficient' || !cooldown.satisfied) && (
           <Pressable
             style={styles.secondaryButton}
-            onPress={() => start(undefined, true)}
+            onPress={() =>
+              start(undefined, sufficiency?.verdict === 'insufficient', !cooldown.satisfied)
+            }
             accessibilityRole="button"
           >
-            <Text style={styles.secondaryButtonText}>Start anyway (recorded)</Text>
+            <Text style={styles.secondaryButtonText}>
+              Start anyway —{' '}
+              {[
+                sufficiency?.verdict === 'insufficient' ? 'warm-up insufficient' : null,
+                !cooldown.satisfied ? 'inside cooldown' : null,
+              ]
+                .filter((x) => x !== null)
+                .join(', ')}{' '}
+              (recorded)
+            </Text>
           </Pressable>
         )}
         {busy && (
@@ -539,6 +651,67 @@ export default function BenchmarkScreen() {
               {' · '}
               {run.environment.buildType}
             </Text>
+            {(() => {
+              const t = cross?.thermal.find((x) => x.runId === run.runId);
+              if (t === undefined) return null;
+              return (
+                <Text style={styles.mono} selectable>
+                  {`gap ${t.gap.gapSeconds === null ? '—' : `${t.gap.gapSeconds} s`}` +
+                    (t.gap.source === 'derived' ? ' (from run times)' : '') +
+                    ` · drift ${
+                      t.drift === null
+                        ? 'unknown'
+                        : t.drift
+                            .map(
+                              (d) =>
+                                `${d.format.slice(0, 4)} ${pct(d.driftPercent)}` +
+                                `±${d.standardErrorPercent.toFixed(1)}`
+                            )
+                            .join(' ')
+                    }`}
+                </Text>
+              );
+            })()}
+            {exclusions[run.runId] !== undefined && (
+              <Text style={[styles.note, { color: palette.danger }]} selectable>
+                Excluded {exclusions[run.runId].excludedAt}: {exclusions[run.runId].reason}
+              </Text>
+            )}
+            {editingExclusion?.runId === run.runId && (
+              <View>
+                <TextInput
+                  style={styles.input}
+                  value={editingExclusion.text}
+                  onChangeText={(text) => setEditingExclusion({ runId: run.runId, text })}
+                  placeholder="Why is this run excluded?"
+                  multiline
+                />
+                <View style={styles.buttonRow}>
+                  <Pressable
+                    style={[
+                      styles.secondaryButton,
+                      editingExclusion.text.trim().length === 0 && styles.buttonDisabled,
+                    ]}
+                    disabled={editingExclusion.text.trim().length === 0}
+                    onPress={async () => {
+                      await writeExclusion(run.runId, editingExclusion.text.trim());
+                      setEditingExclusion(null);
+                      await refresh();
+                    }}
+                    accessibilityRole="button"
+                  >
+                    <Text style={styles.secondaryButtonText}>Save exclusion</Text>
+                  </Pressable>
+                  <Pressable
+                    style={styles.secondaryButton}
+                    onPress={() => setEditingExclusion(null)}
+                    accessibilityRole="button"
+                  >
+                    <Text style={styles.secondaryButtonText}>Cancel</Text>
+                  </Pressable>
+                </View>
+              </View>
+            )}
             <View style={styles.buttonRow}>
               {run.finishedAt === null && (
                 <Pressable
@@ -573,6 +746,35 @@ export default function BenchmarkScreen() {
                   >
                     <Text style={styles.secondaryButtonText}>View</Text>
                   </Pressable>
+                  {exclusions[run.runId] === undefined ? (
+                    <Pressable
+                      style={styles.secondaryButton}
+                      disabled={busy}
+                      onPress={() =>
+                        setEditingExclusion({
+                          runId: run.runId,
+                          text: suggestExclusionReason(
+                            cross?.thermal.find((x) => x.runId === run.runId)
+                          ),
+                        })
+                      }
+                      accessibilityRole="button"
+                    >
+                      <Text style={styles.secondaryButtonText}>Exclude…</Text>
+                    </Pressable>
+                  ) : (
+                    <Pressable
+                      style={styles.secondaryButton}
+                      disabled={busy}
+                      onPress={async () => {
+                        await clearExclusion(run.runId);
+                        await refresh();
+                      }}
+                      accessibilityRole="button"
+                    >
+                      <Text style={styles.secondaryButtonText}>Restore to comparison</Text>
+                    </Pressable>
+                  )}
                 </>
               )}
               <Pressable
@@ -690,7 +892,10 @@ function SummaryView({ summary }: { summary: RunAggregate }) {
       {summary.drift.map((d) => (
         <Text key={d.format} style={styles.mono} selectable>
           {`${d.format.padEnd(9)} ${d.startMeanMs.toFixed(3)} → ${d.middleMeanMs.toFixed(3)} → ` +
-            `${d.endMeanMs.toFixed(3)} ms  (${d.driftPercent >= 0 ? '+' : ''}${d.driftPercent.toFixed(1)}%)`}
+            `${d.endMeanMs.toFixed(3)} ms  (${d.driftPercent >= 0 ? '+' : ''}${d.driftPercent.toFixed(1)}%` +
+              (typeof d.standardErrorPercent === 'number'
+                ? ` \u00b1${d.standardErrorPercent.toFixed(2)}, limit ${d.limitInStandardErrors.toFixed(1)} SE)`
+                : ')')}
         </Text>
       ))}
 
@@ -749,6 +954,17 @@ const styles = StyleSheet.create({
   },
   secondaryButtonText: { ...type.label, color: palette.primary },
   buttonDisabled: { opacity: 0.5 },
+  input: {
+    backgroundColor: palette.surfaceTint,
+    borderRadius: radius.sm,
+    borderWidth: 1,
+    borderColor: palette.border,
+    paddingHorizontal: spacing.md,
+    paddingVertical: spacing.sm,
+    marginTop: spacing.sm,
+    color: palette.ink,
+    ...type.body,
+  },
   buttonDone: { borderColor: '#a9ddc4', backgroundColor: '#f2fbf6' },
   progressRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
   barTrack: {

@@ -115,10 +115,17 @@ export interface WarmupProfile {
   format: SerializationFormat;
   windows: WarmupWindow[];
   /**
-   * Iterations to discard so that every later window sits within the stability
-   * bands. null when the profile never settles inside the pass.
+   * STRICT settle point: iterations to discard so that every later window sits
+   * within the bands of the final window. null when it never settles. Kept for
+   * comparison; one stray window anywhere inflates it. See robustWarmup.
    */
   recommendedWarmup: number | null;
+  /**
+   * ROBUST settle point (see warmupRules.analyseSettling). Absent on profiles
+   * saved before the rule existed; combineProfileReports recomputes it from
+   * the stored windows either way, so those profiles need no re-run.
+   */
+  robustWarmup?: number | null;
   /**
    * 1-based position in this session's profiling order. Position 1 is the only
    * genuinely cold measurement in the session; later positions inherit
@@ -156,22 +163,39 @@ export interface WarmupProfileReport {
  * every format in every ordering. Reports are persisted, because the app is
  * force-stopped between sessions and in-memory state does not survive.
  */
+/** A window out of band AFTER the robust settle point — an interruption, not warm-up. */
+export interface OutlierWindow {
+  fromIteration: number;
+  meanMs: number;
+  sdMs: number;
+  /** Against the robust steady state, as a percentage. */
+  percentVsReference: number;
+}
+
 export interface WarmupFormatSummary {
   format: SerializationFormat;
-  /** This format's recommendation in each session, tagged with its position. */
+  /** This format's settle points in each session, tagged with its position. */
   observations: {
     leadFormat: SerializationFormat;
     positionInOrder: number;
-    recommendedWarmup: number | null;
+    /** Every later window in band against the final window. */
+    strictWarmup: number | null;
+    /** Robust: median reference, isolated excursions tolerated. */
+    robustWarmup: number | null;
+    /** The windows the robust rule tolerated and the strict rule did not. */
+    outliers: OutlierWindow[];
     /** Mean of this format's first window — the cold cost, for the record. */
     firstWindowMeanMs: number | null;
     /** sd of its first window. The figure that inflated the start sentinel. */
     firstWindowSdMs: number | null;
   }[];
-  /** Largest recommendation seen for this format across every session. */
+  /** Largest ROBUST settle point for this format across every session. */
   maxRecommended: number | null;
-  /** The recommendation from the session where this format led — the cold one. */
+  /** Largest STRICT settle point, for comparison. */
+  maxStrict: number | null;
+  /** Robust settle point from the session where this format led — the cold one. */
   coldRecommended: number | null;
+  coldStrict: number | null;
 }
 
 export interface WarmupProfileSeries {
@@ -189,6 +213,11 @@ export interface WarmupProfileSeries {
    * PerCellProfileReport.
    */
   coldRequirement: number | null;
+  /**
+   * The same maximum under the STRICT rule. Reported so the cost of the outlier
+   * windows is visible: the difference is interruptions, not engine warm-up.
+   */
+  coldRequirementStrict: number | null;
   /** coldRequirement with headroom, rounded, floored at the current value. */
   recommendedPrewarm: number | null;
   /** The multiple applied to the cold requirement before rounding. */
@@ -330,6 +359,11 @@ export interface SentinelReading {
   progressPercent: number;
   timestamp: number;
   payloadId: number;
+  /**
+   * Measured decodes per format in this reading. Absent on readings taken before
+   * the sentinel was lengthened, which used measuredIterations (30).
+   */
+  decodes?: number;
   perFormat: { format: SerializationFormat; meanMs: number; sd: number }[];
 }
 
@@ -340,6 +374,18 @@ export interface SentinelDrift {
   endMeanMs: number;
   /** (end − start) / start, as a percentage. Positive means it got slower. */
   driftPercent: number;
+  /**
+   * Standard error of driftPercent, from the two sentinels' sds and their decode
+   * count. Reported beside the drift so the margin to the refusal limit is a
+   * number in the file, not an assumption.
+   */
+  standardErrorPercent: number;
+  /** driftPercent / standardErrorPercent. */
+  z: number;
+  /** The refusal limit expressed in standard errors: limit / SE. */
+  limitInStandardErrors: number;
+  /** Decodes per format behind each sentinel reading. */
+  sentinelDecodes: number;
 }
 
 export interface AcquisitionFailure {
@@ -402,6 +448,11 @@ export interface RunAggregate {
    * when no profile was available, which the notes state rather than hide.
    */
   warmupSufficiency: WarmupSufficiency | null;
+  /**
+   * Idle time before this run. Absent on aggregates written before the guard
+   * existed; compareRuns then derives the gap from the stored timestamps.
+   */
+  cooldown?: CooldownRecord | null;
   cells: CellAggregate[];
   sentinels: SentinelReading[];
   drift: SentinelDrift[];
@@ -409,6 +460,37 @@ export interface RunAggregate {
   rowCount: number;
   /** Stated plainly in the output so nobody has to reconstruct it. */
   notes: string[];
+}
+
+/**
+ * How long the device had been idle when a run started.
+ *
+ * Recorded so thermal contamination is visible in the file itself, not only
+ * inferable afterwards from the drift figures. The protobuf-led run that
+ * started at 03:41:50, 57 s after the previous run finished at 03:40:53 with a
+ * profile in between,
+ * drifted +25.6% to +37.2%.
+ */
+export interface CooldownRecord {
+  /** What last loaded the device before this run. null when nothing on record. */
+  previousActivity: 'run' | 'cold-profile' | 'per-cell-profile' | null;
+  previousId: string | null;
+  previousEndedAt: string | null;
+  /** null when there was no previous activity on record. */
+  gapSeconds: number | null;
+  /** The minimum the guard asked for. */
+  minimumSeconds: number;
+  /** gapSeconds >= minimumSeconds, or no previous activity. */
+  satisfied: boolean;
+  /** True when the run was started inside the cooldown anyway. */
+  overridden: boolean;
+}
+
+/** A run deliberately left out of the comparison, with the reason on record. */
+export interface RunExclusion {
+  runId: string;
+  reason: string;
+  excludedAt: string;
 }
 
 /** Checkpoint written after every payload, so a killed run resumes. */
@@ -427,4 +509,12 @@ export interface RunCheckpoint {
   acquisitionFailures: AcquisitionFailure[];
   rowCount: number;
   finishedAt: string | null;
+  /**
+   * When this checkpoint was last written. For a run that was stopped or killed,
+   * this is where its activity is taken to have ended — see gatherDeviceActivity.
+   * Absent on checkpoints written before it existed.
+   */
+  lastCheckpointAt?: string;
+  /** Absent on checkpoints written before the cooldown guard existed. */
+  cooldown?: CooldownRecord | null;
 }
