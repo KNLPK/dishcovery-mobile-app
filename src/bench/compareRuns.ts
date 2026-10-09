@@ -18,10 +18,18 @@
  */
 
 import type { ComplexityTier, SerializationFormat } from '../../shared/contract';
-import { COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../../shared/contract';
+import { BENCHMARK_CONFIG, COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../../shared/contract';
 import { describeSeries } from './calibration';
+import {
+  partitionRuns,
+  type ComparisonReference,
+  type ExcludedRun,
+} from './comparability';
+import { captureEnvironment } from './environment';
 import { listRuns, readAggregate } from './storage';
 import type { RunAggregate } from './types';
+
+export type { ComparisonReference, ExcludedRun } from './comparability';
 
 export interface CrossRunCell {
   format: SerializationFormat;
@@ -45,29 +53,47 @@ export interface CrossRunCell {
 }
 
 export interface CrossRunReport {
+  /** The build every pooled run was checked against. */
+  reference: ComparisonReference;
   runIds: string[];
-  /** Runs excluded because their environment differs from the first run's. */
-  excluded: { runId: string; reason: string }[];
+  /** Runs left out of the pool, each with every specific mismatch named. */
+  excluded: ExcludedRun[];
   cells: CrossRunCell[];
   notes: string[];
 }
 
-/** Two runs are comparable only if they measured the same thing on the same thing. */
-function environmentKey(a: RunAggregate): string {
-  const e = a.environment;
-  return [
-    e.buildType,
-    e.executionEnvironment,
-    e.device.model ?? '?',
-    e.runtime.reactNativeVersion ?? '?',
-    e.runtime.hermesVersion ?? '?',
-    e.libraries.protobufjs ?? '?',
-    e.libraries.msgpack ?? '?',
-    a.config.measuredIterations,
-  ].join('|');
+/**
+ * The reference is THIS BUILD, not the oldest run on the device.
+ *
+ * Using the first run as the reference was a defect: the oldest run on the
+ * study phone is the 2026-09-26 debug pass, so once the real runs existed the
+ * debug run would have become the reference, the three release runs would have
+ * been excluded against it, and the invalid run would have been the one kept.
+ * Anchoring on the running build makes the outcome independent of run order.
+ */
+export function currentReference(): ComparisonReference {
+  const env = captureEnvironment(null);
+  return {
+    config: {
+      prewarmDecodes: BENCHMARK_CONFIG.prewarmDecodes,
+      warmupIterations: BENCHMARK_CONFIG.warmupIterations,
+      measuredIterations: BENCHMARK_CONFIG.measuredIterations,
+    },
+    environment: {
+      buildType: env.buildType,
+      executionEnvironment: env.executionEnvironment,
+      deviceModel: env.device.model,
+      reactNativeVersion: env.runtime.reactNativeVersion,
+      hermesVersion: env.runtime.hermesVersion,
+      protobufjs: env.libraries.protobufjs,
+      msgpack: env.libraries.msgpack,
+    },
+  };
 }
 
-export async function compareRuns(): Promise<CrossRunReport> {
+export async function compareRuns(
+  reference: ComparisonReference = currentReference()
+): Promise<CrossRunReport> {
   const states = await listRuns();
   const loaded: RunAggregate[] = [];
   for (const state of states) {
@@ -79,20 +105,17 @@ export async function compareRuns(): Promise<CrossRunReport> {
   // Oldest first, so "run order" reads chronologically.
   loaded.sort((a, b) => a.startedAt.localeCompare(b.startedAt));
 
-  const excluded: CrossRunReport['excluded'] = [];
   if (loaded.length === 0) {
-    return { runIds: [], excluded, cells: [], notes: ['No completed runs on this device yet.'] };
+    return {
+      reference,
+      runIds: [],
+      excluded: [],
+      cells: [],
+      notes: ['No completed runs on this device yet.'],
+    };
   }
 
-  const reference = environmentKey(loaded[0]);
-  const comparable = loaded.filter((a) => {
-    if (environmentKey(a) === reference) return true;
-    excluded.push({
-      runId: a.runId,
-      reason: 'environment differs from the first run (build type, device, engine or library version)',
-    });
-    return false;
-  });
+  const { comparable, excluded } = partitionRuns(loaded, reference);
 
   const cells: CrossRunCell[] = [];
   for (const tier of COMPLEXITY_TIERS) {
@@ -133,9 +156,9 @@ export async function compareRuns(): Promise<CrossRunReport> {
         'sd is undefined and is reported as 0.'
     );
   }
-  if (excluded.length > 0) {
-    notes.push(`${excluded.length} run(s) excluded for a differing environment — see 'excluded'.`);
+  for (const ex of excluded) {
+    notes.push(`Excluded ${ex.runId} (started ${ex.startedAt}): ${ex.reasons.join('; ')}.`);
   }
 
-  return { runIds: comparable.map((a) => a.runId), excluded, cells, notes };
+  return { reference, runIds: comparable.map((a) => a.runId), excluded, cells, notes };
 }

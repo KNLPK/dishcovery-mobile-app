@@ -592,7 +592,7 @@ export default function BenchmarkScreen() {
       )}
 
       {/* ── Between-run variation ──────────────────────────────────────────── */}
-      {cross !== null && cross.cells.length > 0 && (
+      {cross !== null && (cross.cells.length > 0 || cross.excluded.length > 0) && (
         <>
           <Text style={styles.sectionTitle}>Between-run variation</Text>
           <Text style={styles.note}>
