@@ -171,6 +171,31 @@ export function analyseSettling(windows: WarmupWindow[]): SettleAnalysis {
   };
 }
 
+/**
+ * Why a cold series cannot yet CONFIRM a pre-warm, or [] when it can.
+ *
+ * coldRequirement is a maximum over what was observed, so two things make it a
+ * lower bound rather than a measurement: an ordering never led (that format was
+ * never met cold), and an observation that never settled (maxOrNull drops its
+ * null, which would otherwise read as "no requirement"). Either one may hide a
+ * larger figure, so the gate treats it as unverified, never as passing.
+ */
+export function coldEvidenceGaps(
+  series: Pick<WarmupProfileSeries, 'missingLeads' | 'perFormat'>
+): string[] {
+  const gaps: string[] = [];
+  if (series.missingLeads.length > 0) {
+    gaps.push(`no cold profile led by ${series.missingLeads.join(', ')}`);
+  }
+  const unsettled = series.perFormat.flatMap((f) =>
+    f.observations
+      .filter((o) => o.robustWarmup === null)
+      .map((o) => `${f.format} (${o.leadFormat}-led)`)
+  );
+  if (unsettled.length > 0) gaps.push(`never settled: ${unsettled.join(', ')}`);
+  return gaps;
+}
+
 const maxOrNull = (values: (number | null)[]): number | null => {
   const present = values.filter((v): v is number => v !== null);
   return present.length > 0 ? Math.max(...present) : null;

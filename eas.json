@@ -1,0 +1,17 @@
+{
+  "cli": {
+    "version": ">= 24.8.0",
+    "requireCommit": true,
+    "appVersionSource": "local"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "developmentClient": false,
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease"
+      }
+    }
+  }
+}

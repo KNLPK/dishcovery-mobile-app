@@ -14,6 +14,7 @@
 import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
+import { metroHost } from '../../constants/api';
 import { describeHeapInstrumentation } from '../api/measure';
 
 export interface RunEnvironment {
@@ -22,9 +23,11 @@ export interface RunEnvironment {
   /** How the bundle is being hosted: Expo Go, a dev client, or a standalone app. */
   executionEnvironment: string;
   /**
-   * True for a standalone binary, where Hermes bytecode is precompiled. Under
-   * Expo Go it is false: the bundle is compiled lazily at runtime, which
-   * affects decode timings and must be stated in the methodology.
+   * True when the bundle is embedded in the binary, where Hermes bytecode is
+   * precompiled. Under Expo Go it is false: the bundle is compiled lazily at
+   * runtime, which affects decode timings and must be stated in the methodology.
+   * An EAS APK reports executionEnvironment 'bare', not 'standalone'; see
+   * captureEnvironment.
    */
   standalone: boolean;
 
@@ -106,6 +109,15 @@ export function captureEnvironment(dataset: RunEnvironment['dataset']): RunEnvir
   }
 
   const executionEnvironment = String(Constants.executionEnvironment ?? 'unknown');
+  // Precompiled bytecode means the bundle is EMBEDDED in the binary rather than
+  // served by a dev server. The executionEnvironment name cannot say that on its
+  // own: on SDK 53 expo-constants reports 'bare' for every non-Expo-Go binary
+  // (ConstantsService.kt hardcodes BARE), so an EAS release APK never reports
+  // 'standalone'. A dev client is also 'bare' but loads from Metro, and only a
+  // dev-server manifest carries a host, so "no bundler host" separates the two.
+  const bundleEmbedded =
+    executionEnvironment === 'standalone' ||
+    (executionEnvironment === 'bare' && metroHost() === null);
 
   let declared: Record<string, string> | null = null;
   try {
@@ -117,7 +129,7 @@ export function captureEnvironment(dataset: RunEnvironment['dataset']): RunEnvir
   return {
     buildType: __DEV__ ? 'debug' : 'release',
     executionEnvironment,
-    standalone: executionEnvironment === 'standalone',
+    standalone: bundleEmbedded,
 
     device: {
       brand: stringOrNull(constants.Brand),

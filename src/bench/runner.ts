@@ -63,6 +63,7 @@ import {
   WARMUP_MEAN_BAND,
   WARMUP_SD_BAND,
   analyseSettling,
+  coldEvidenceGaps,
   combineProfileReports,
 } from './warmupRules';
 import type {
@@ -877,8 +878,17 @@ export function assessSufficiency(
   const measuredColdRequirement = series?.coldRequirement ?? null;
   const measuredPerCellRequirement = perCell?.recommendedWarmup ?? null;
 
+  // A pre-warm below even a lower bound fails outright; one above it is only
+  // CONFIRMED once every ordering was led and every observation settled.
+  const coldGaps = series === null ? [] : coldEvidenceGaps(series);
   const prewarmSufficient =
-    measuredColdRequirement === null ? null : configuredPrewarm >= measuredColdRequirement;
+    measuredColdRequirement === null
+      ? null
+      : configuredPrewarm < measuredColdRequirement
+        ? false
+        : coldGaps.length > 0
+          ? null
+          : true;
   const warmupSufficient =
     measuredPerCellRequirement === null ? null : configuredWarmup >= measuredPerCellRequirement;
 
@@ -913,7 +923,13 @@ export function assessSufficiency(
     );
   } else if (verdict === 'unverified') {
     const missing: string[] = [];
-    if (prewarmSufficient === null) missing.push('no cold profile');
+    if (prewarmSufficient === null) {
+      missing.push(
+        measuredColdRequirement === null
+          ? 'no cold profile'
+          : `cold profile incomplete (${coldGaps.join('; ')})`
+      );
+    }
     if (warmupSufficient === null) missing.push('no per-cell profile');
     parts.push(
       `UNVERIFIED in ${currentEnvironment}: ${missing.join(' and ')} on this device. The configured ` +

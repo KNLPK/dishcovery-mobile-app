@@ -19,6 +19,7 @@ import {
   PREWARM_HEADROOM,
   ROBUST_RUN_LENGTH,
   analyseSettling,
+  coldEvidenceGaps,
   combineProfileReports,
 } from '../src/bench/warmupRules.ts';
 import type { WarmupProfileReport, WarmupWindow } from '../src/bench/types.ts';
@@ -162,6 +163,25 @@ check('combine: recomputes from stored windows, ignores the stored figure',
 const slow = combineProfileReports([report('protobuf', { protobuf: pass150(15, { 11: 30, 21: 28, 31: 26, 41: 24, 51: 22, 61: 20, 71: 18, 81: 17 }) })], FORMATS, CURRENT);
 check('combine: a genuinely slow warm-up still shows', (slow.coldRequirement ?? 0) >= 80, String(slow.coldRequirement));
 check('combine: and lifts prewarm above 200 when needed', (slow.recommendedPrewarm ?? 0) >= 200, String(slow.recommendedPrewarm));
+
+// ── 9. When may the gate CONFIRM a pre-warm? ──────────────────────────────────
+check('gaps: all three leads, all settled -> confirmable', coldEvidenceGaps(series).length === 0,
+  JSON.stringify(coldEvidenceGaps(series)));
+
+// One cold launch: the figure is a lower bound, so the gate must not pass on it.
+const oneLead = combineProfileReports([report('json', {})], FORMATS, CURRENT);
+const oneLeadGaps = coldEvidenceGaps(oneLead);
+check('gaps: one lead only -> not confirmable', oneLeadGaps.length === 1 && oneLeadGaps[0].includes('msgpack, protobuf'),
+  JSON.stringify(oneLeadGaps));
+
+// An observation that never settled is dropped by the maximum; it must still block.
+const unsettledSeries = combineProfileReports(
+  [report('json', {}), report('msgpack', { protobuf: declining }), report('protobuf', {})], FORMATS, CURRENT);
+const unsettledGaps = coldEvidenceGaps(unsettledSeries);
+check('gaps: the never-settled observation would otherwise vanish from the maximum',
+  unsettledSeries.coldRequirement === 10, String(unsettledSeries.coldRequirement));
+check('gaps: and it blocks confirmation, named', unsettledGaps.length === 1 && unsettledGaps[0].includes('protobuf (msgpack-led)'),
+  JSON.stringify(unsettledGaps));
 
 console.log(`${pass} passed, ${fails.length} failed`);
 for (const f of fails) console.log(`  FAIL ${f}`);
