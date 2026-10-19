@@ -42,6 +42,18 @@ export const palette = {
   success: '#1f7a56',
 } as const;
 
+/**
+ * One colour per serialization format, used by every chart so a format looks
+ * the same everywhere. JSON keeps the brand teal; the other two are chosen to
+ * stay apart from it and from each other, including for red-green colour
+ * blindness. Bars are always labelled as well, never colour alone.
+ */
+export const formatColors = {
+  json: '#20515a',
+  msgpack: '#3d9fa3',
+  protobuf: '#d08a2e',
+} as const;
+
 /** 4-point spacing scale. */
 export const spacing = {
   xs: 4,

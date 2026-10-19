@@ -158,12 +158,21 @@ export default function MetricsScreen() {
         </View>
       </View>
 
+      <View style={[styles.buttonRow, { marginBottom: spacing.md }]}>
+        <Pressable onPress={() => router.push('/quick')} style={styles.primaryButton} accessibilityRole="button">
+          <Text style={styles.primaryButtonText}>Quick test</Text>
+        </Pressable>
+        <Pressable onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
+          <Text style={styles.secondaryButtonText}>Results</Text>
+        </Pressable>
+      </View>
+
       <Pressable
         onPress={() => router.push('/benchmark')}
-        style={styles.primaryButton}
+        style={styles.secondaryButton}
         accessibilityRole="button"
       >
-        <Text style={styles.primaryButtonText}>Open benchmark runner</Text>
+        <Text style={styles.secondaryButtonText}>Paper protocol runner (researcher)</Text>
       </Pressable>
 
       <Text style={styles.footnote}>

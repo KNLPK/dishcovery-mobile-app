@@ -22,7 +22,7 @@ import {
 } from 'react-native';
 
 import { palette, radius, spacing, type } from '../constants/theme';
-import { describeBaseUrl } from '../src/api/baseUrl';
+import { describeBaseUrl, resolveBaseUrl } from '../src/api/baseUrl';
 import { describeRequestError } from '../src/api/errors';
 import { compareRuns, type CrossRunReport } from '../src/bench/compareRuns';
 import { captureEnvironment, describeEnvironment } from '../src/bench/environment';
@@ -58,8 +58,48 @@ import type {
   WarmupSufficiency,
 } from '../src/bench/types';
 import { analyseSettling } from '../src/bench/warmupRules';
-import { BENCHMARK_CONFIG, SERIALIZATION_FORMATS } from '../shared/contract';
-import type { SerializationFormat } from '../shared/contract';
+import { BENCHMARK_CONFIG, ROUTES, SERIALIZATION_FORMATS } from '../shared/contract';
+import type { DatasetResponse, SerializationFormat } from '../shared/contract';
+
+/** The dataset the published protocol was run on: 100 Spoonacular + 150 generated. */
+const PAPER_DATASET_SIZE = 250;
+
+type DatasetCheck =
+  | { state: 'checking' }
+  | { state: 'ok'; total: number }
+  | { state: 'wrong'; total: number; spoonacular: number | null; generated: number | null }
+  | { state: 'unreachable'; url: string; detail: string };
+
+/**
+ * Asks the server how many payloads its dataset has, for the banner only. The
+ * runner fetches the dataset itself when a run starts; nothing here changes
+ * what it does.
+ */
+async function checkDataset(): Promise<DatasetCheck> {
+  const url = resolveBaseUrl();
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 10_000);
+  try {
+    const response = await fetch(`${url}${ROUTES.dataset()}`, { signal: controller.signal });
+    if (!response.ok) return { state: 'unreachable', url, detail: `HTTP ${response.status}` };
+    const dataset = (await response.json()) as DatasetResponse;
+    const count = (source: 'spoonacular' | 'generated') => {
+      const row = dataset.bySource?.[source];
+      return row === undefined ? null : row.low + row.medium + row.high;
+    };
+    return dataset.total === PAPER_DATASET_SIZE
+      ? { state: 'ok', total: dataset.total }
+      : { state: 'wrong', total: dataset.total, spoonacular: count('spoonacular'), generated: count('generated') };
+  } catch (err) {
+    return {
+      state: 'unreachable',
+      url,
+      detail: controller.signal.aborted ? 'no answer within 10 s' : err instanceof Error ? err.message : String(err),
+    };
+  } finally {
+    clearTimeout(timer);
+  }
+}
 
 /**
  * Payload count the plan quotes before a run has loaded the dataset.
@@ -128,6 +168,7 @@ export default function BenchmarkScreen() {
   // closure over state is enough because the runner only reads it between
   // payloads.
   const [stopRequested, setStopRequested] = useState(false);
+  const [datasetCheck, setDatasetCheck] = useState<DatasetCheck>({ state: 'checking' });
 
   const environment = React.useMemo(() => captureEnvironment(null), []);
   const connection = describeBaseUrl();
@@ -164,6 +205,10 @@ export default function BenchmarkScreen() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  useEffect(() => {
+    checkDataset().then(setDatasetCheck);
+  }, []);
 
   async function profileWarmup(leadFormat: SerializationFormat) {
     setBusy(true);
@@ -252,6 +297,53 @@ export default function BenchmarkScreen() {
         </Pressable>
         <Text style={styles.title}>Benchmark runner</Text>
         <View style={{ width: 48 }} />
+      </View>
+
+      {/* ── Paper-protocol dataset banner ───────────────────────────────── */}
+      <View style={[styles.card, datasetCheck.state === 'ok' ? styles.cardOk : styles.cardWarn]}>
+        <Text style={styles.cardTitle}>
+          {datasetCheck.state === 'ok'
+            ? `Paper protocol: server has the full ${datasetCheck.total}-payload dataset`
+            : datasetCheck.state === 'checking'
+              ? 'Paper protocol: checking the server’s dataset…'
+              : datasetCheck.state === 'wrong'
+                ? `Not the paper dataset: this server has ${datasetCheck.total} payloads, not ${PAPER_DATASET_SIZE}`
+                : 'Paper protocol: could not check the server’s dataset'}
+        </Text>
+        <Text style={styles.note}>
+          This screen runs the full protocol from the paper. It needs the laptop proxy in local mode
+          with all {PAPER_DATASET_SIZE} payloads (100 Spoonacular + 150 generated).
+          {datasetCheck.state === 'wrong'
+            ? ` This server reports ${datasetCheck.spoonacular ?? '?'} Spoonacular and ${datasetCheck.generated ?? '?'} ` +
+              'generated payloads (the public demo server serves generated payloads only), so a run here would not be ' +
+              'the paper protocol and is not comparable with the published runs.'
+            : ''}
+          {datasetCheck.state === 'unreachable'
+            ? ` No dataset from ${datasetCheck.url} (${datasetCheck.detail}).`
+            : ''}
+          {datasetCheck.state !== 'ok' ? ' For a short test on this phone, use the Quick test instead.' : ''}
+        </Text>
+        {datasetCheck.state !== 'ok' && datasetCheck.state !== 'checking' && (
+          <View style={styles.buttonRow}>
+            <Pressable
+              style={styles.secondaryButton}
+              onPress={() => router.push('/quick')}
+              accessibilityRole="button"
+            >
+              <Text style={styles.secondaryButtonText}>Open Quick test</Text>
+            </Pressable>
+            <Pressable
+              style={styles.secondaryButton}
+              onPress={async () => {
+                setDatasetCheck({ state: 'checking' });
+                setDatasetCheck(await checkDataset());
+              }}
+              accessibilityRole="button"
+            >
+              <Text style={styles.secondaryButtonText}>Check again</Text>
+            </Pressable>
+          </View>
+        )}
       </View>
 
       {/* ── Build gate ─────────────────────────────────────────────────────── */}
