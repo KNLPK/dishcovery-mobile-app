@@ -46,3 +46,7 @@ fixtures/generated/RUNNING.pid
 
 # IDE (Android Studio / IntelliJ)
 .idea/
+
+# Raw Spoonacular response bodies. Not redistributed (Spoonacular terms);
+# kept locally for local mode and the full protocol. See dishcovery-proxy/README.md.
+fixtures/recipes-raw/

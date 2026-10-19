@@ -83,14 +83,26 @@ const LIVE_REFETCH = process.env.DISHCOVERY_LIVE_REFETCH === '1';
 //      dataset is the 150 generated payloads, which are ours.
 //   2. Recipes fetched live are cached for at most RECIPE_CACHE_TTL_SECONDS
 //      (default and maximum 3600) and then deleted.
-//   3. Per-IP rate limits, plus a server-wide daily cap on upstream calls, so a
-//      handful of testers cannot exhaust the free plan's daily quota for
-//      everyone. In-memory, no dependency; a restart resets them.
+//   3. Per-IP rate limits, plus a server-wide daily budget in Spoonacular
+//      points, so a handful of testers cannot exhaust the free plan's daily
+//      quota for everyone. In-memory, no dependency; a restart resets the
+//      counters (the quota header, when sent, restores the day's usage).
 //   4. Upstream error text is redacted before it reaches a response.
 //
 // Without the variable the proxy behaves exactly as it did for the published
 // measurements: full 250-payload dataset, snapshots, no limits.
-const HOSTED = process.env.DISHCOVERY_MODE === 'hosted';
+//
+// Fail-safe: Render sets RENDER in every service's environment, so on Render
+// the proxy is hosted even if DISHCOVERY_MODE is missing or mistyped. A public
+// instance can never fall back to serving the snapshots.
+const ON_RENDER = Boolean(process.env.RENDER);
+const HOSTED = ON_RENDER || process.env.DISHCOVERY_MODE === 'hosted';
+const MODE_REASON = ON_RENDER
+  ? `RENDER is set${process.env.DISHCOVERY_MODE === 'hosted' ? ' and DISHCOVERY_MODE=hosted' : ', forced regardless of DISHCOVERY_MODE'}`
+  : HOSTED
+    ? 'DISHCOVERY_MODE=hosted'
+    : 'DISHCOVERY_MODE not set to hosted, not on Render';
+console.log(`[mode] ${HOSTED ? 'HOSTED' : 'LOCAL'} (${MODE_REASON})`);
 
 const MAX_CACHE_TTL_SECONDS = 3600;
 const RECIPE_CACHE_TTL_MS =
@@ -105,9 +117,9 @@ const RATE_WINDOW_MS = 10 * 60 * 1000;
 const RATE_LIMIT_ALL = Number(process.env.RATE_LIMIT_PER_10_MIN) || 1200;
 // Requests that spend Spoonacular quota, per IP per 10 minutes.
 const RATE_LIMIT_UPSTREAM = Number(process.env.UPSTREAM_LIMIT_PER_10_MIN) || 20;
-// Upstream calls per UTC day, all clients together. The free plan allows 50
-// points a day; the margin covers search calls that cost slightly over 1.
-const UPSTREAM_DAILY_LIMIT = Number(process.env.UPSTREAM_DAILY_LIMIT) || 40;
+// Spoonacular points per UTC day, all clients together. The free plan allows
+// 50; stopping at 40 leaves room for estimation error and manual checks.
+const UPSTREAM_DAILY_POINTS = Number(process.env.UPSTREAM_DAILY_POINTS) || 40;
 
 // ── Generative stratum ────────────────────────────────────────────────────────
 //
@@ -261,17 +273,68 @@ function makeLimiter(limit, windowMs) {
 const hitAll = makeLimiter(RATE_LIMIT_ALL, RATE_WINDOW_MS);
 const hitUpstream = makeLimiter(RATE_LIMIT_UPSTREAM, RATE_WINDOW_MS);
 
-const upstreamDay = { date: '', used: 0 };
+// ── Spoonacular point budget (hosted mode only) ─────────────────────────────────
+//
+// The daily cap is counted in Spoonacular points, the unit the quota is sold
+// in, not in calls. Documented costs (spoonacular.com/food-api/docs, read
+// 2026-10-19):
+//
+//   GET /recipes/{id}/information   1 point, +0.1 with includeNutrition=true
+//   GET /recipes/complexSearch      1 point + 0.01 per result returned;
+//                                   +0.025 per result for each of
+//                                   addRecipeInformation, fillIngredients,
+//                                   addRecipeInstructions, addRecipeNutrition
+//                                   (which also implies addRecipeInformation);
+//                                   +1 when a nutrient filter is set
+//
+// When Spoonacular sends quota headers they win over these estimates:
+// x-api-quota-request is what this call cost, x-api-quota-used the key's total
+// for the day (which also covers points spent before a restart).
+
+const RECIPE_INFORMATION_POINTS = 1 + 0.1; // fetchFromSpoonacular sends includeNutrition=true
+
+// complexSearch min/max parameters that are not nutrient filters.
+const NON_NUTRIENT_MIN_MAX = new Set(['maxReadyTime', 'minServings', 'maxServings']);
+
+function searchPoints(params, resultCount) {
+  const on = (v) => v === true || v === 'true';
+  let perResult = 0.01;
+  if (on(params.addRecipeInformation) || on(params.addRecipeNutrition)) perResult += 0.025;
+  if (on(params.fillIngredients)) perResult += 0.025;
+  if (on(params.addRecipeInstructions)) perResult += 0.025;
+  if (on(params.addRecipeNutrition)) perResult += 0.025;
+  const nutrientFilter = Object.keys(params).some(
+    (k) => /^(min|max)[A-Z]/.test(k) && !NON_NUTRIENT_MIN_MAX.has(k)
+  );
+  return 1 + perResult * resultCount + (nutrientFilter ? 1 : 0);
+}
+
+const pointsDay = { date: '', used: 0 };
 
 function utcDate() {
   return new Date().toISOString().slice(0, 10);
 }
 
-function upstreamRemainingToday() {
+function rollDay() {
+  const today = utcDate();
+  if (pointsDay.date !== today) {
+    pointsDay.date = today;
+    pointsDay.used = 0;
+  }
+}
+
+const round2 = (x) => Math.round(x * 100) / 100;
+
+function pointsRemainingToday() {
   if (!HOSTED) return null;
-  return upstreamDay.date === utcDate()
-    ? Math.max(UPSTREAM_DAILY_LIMIT - upstreamDay.used, 0)
-    : UPSTREAM_DAILY_LIMIT;
+  rollDay();
+  return Math.max(round2(UPSTREAM_DAILY_POINTS - pointsDay.used), 0);
+}
+
+function pointsUsedToday() {
+  if (!HOSTED) return null;
+  rollDay();
+  return round2(pointsDay.used);
 }
 
 function tooMany(message, retryAfterSeconds) {
@@ -283,28 +346,64 @@ function tooMany(message, retryAfterSeconds) {
 
 /**
  * Called immediately before every request that spends Spoonacular quota.
- * Throws a 429 instead of letting the call through when a limit is reached.
+ * Throws a 429 instead of letting the call through when this device is over
+ * its per-IP limit, or when the call's estimated cost would take the day past
+ * the point budget.
  */
-function spendUpstream(req) {
+function reserveUpstream(req, estimatedPoints) {
   if (!HOSTED) return;
   const perIp = hitUpstream(req.ip);
   if (!perIp.allowed) {
     throw tooMany('Too many live recipe requests from this device. Try again shortly.', perIp.retryAfterSeconds);
   }
-  const today = utcDate();
-  if (upstreamDay.date !== today) {
-    upstreamDay.date = today;
-    upstreamDay.used = 0;
-  }
-  if (upstreamDay.used >= UPSTREAM_DAILY_LIMIT) {
-    const midnight = Date.parse(`${today}T00:00:00Z`) + 24 * 3600 * 1000;
+  rollDay();
+  if (pointsDay.used + estimatedPoints > UPSTREAM_DAILY_POINTS) {
+    const midnight = Date.parse(`${pointsDay.date}T00:00:00Z`) + 24 * 3600 * 1000;
     throw tooMany(
-      'The daily allowance of live recipe requests is used up. It resets at 00:00 UTC; ' +
-        'the offline Quick test still works.',
+      "Today's allowance for live recipes is used up. It resets at 00:00 UTC (07:00 in Jakarta). " +
+        'The offline Quick test and the generated recipes still work.',
       Math.ceil((midnight - Date.now()) / 1000)
     );
   }
-  upstreamDay.used++;
+}
+
+/** A numeric response header, or null when absent or not a number. */
+function headerNumber(headers, name) {
+  const raw = headers?.[name];
+  if (raw === undefined || raw === null || String(raw).trim() === '') return null;
+  const n = Number(raw);
+  return Number.isFinite(n) && n >= 0 ? n : null;
+}
+
+/**
+ * Called after every upstream response, success or failure. Charges the cost
+ * Spoonacular reports, or the documented estimate when it reports none. A
+ * failed call without quota headers (a refused key, a network error) is not
+ * charged; a 402 means the key's real quota is exhausted, so the day is closed.
+ */
+function chargeUpstream({ headers, status }, estimatedPoints) {
+  if (!HOSTED) return;
+  rollDay();
+  const cost = headerNumber(headers, 'x-api-quota-request');
+  const total = headerNumber(headers, 'x-api-quota-used');
+  const ok = status !== undefined && status >= 200 && status < 300;
+  if (cost !== null) pointsDay.used += cost;
+  else if (ok) pointsDay.used += estimatedPoints;
+  if (total !== null && total > pointsDay.used) pointsDay.used = total;
+  if (status === 402) pointsDay.used = Math.max(pointsDay.used, UPSTREAM_DAILY_POINTS);
+}
+
+/** Run one upstream request under the budget: reserve, call, charge. */
+async function spendUpstream(req, estimatedPoints, call, actualPoints = () => estimatedPoints) {
+  if (req !== null) reserveUpstream(req, estimatedPoints);
+  try {
+    const response = await call();
+    chargeUpstream(response, actualPoints(response));
+    return response;
+  } catch (err) {
+    if (err.response) chargeUpstream(err.response, estimatedPoints);
+    throw err;
+  }
 }
 
 /** Never let the key reach a response body, whatever an upstream error says. */
@@ -361,10 +460,11 @@ function toCanonicalShape(data) {
   };
 }
 
-async function fetchFromSpoonacular(id) {
-  const { data } = await axios.get(
-    `https://api.spoonacular.com/recipes/${id}/information`,
-    { params: { apiKey: SPOONACULAR_API_KEY, includeNutrition: true } }
+async function fetchFromSpoonacular(id, req = null) {
+  const { data } = await spendUpstream(req, RECIPE_INFORMATION_POINTS, () =>
+    axios.get(`https://api.spoonacular.com/recipes/${id}/information`, {
+      params: { apiKey: SPOONACULAR_API_KEY, includeNutrition: true },
+    })
   );
   return data;
 }
@@ -425,8 +525,7 @@ async function getRecipe(id, { allowLive = true, req = null } = {}) {
     if (!allowLive) {
       return null;
     }
-    if (req !== null) spendUpstream(req);
-    raw = await fetchFromSpoonacular(id);
+    raw = await fetchFromSpoonacular(id, req);
   }
 
   const entry = {
@@ -623,7 +722,10 @@ app.get(ROUTES.health(), (req, res) => {
     server: 'dishcovery-proxy',
     mode: HOSTED ? 'hosted' : 'local',
     datasetTotal: benchmarkDataset.entries.length,
-    upstreamRemainingToday: upstreamRemainingToday(),
+    // Spoonacular points, hosted mode only (null locally).
+    pointsBudgetToday: HOSTED ? UPSTREAM_DAILY_POINTS : null,
+    pointsUsedToday: pointsUsedToday(),
+    pointsRemainingToday: pointsRemainingToday(),
     cacheSize: recipeCache.size,
     benchmarkDataset: {
       low: benchmarkDataset.tiers.low.length,
@@ -680,10 +782,15 @@ app.get(ROUTES.search(), async (req, res, next) => {
       number: Math.min(Number(req.query.number) || 10, 50),
     };
 
-    spendUpstream(req);
-    const { data } = await axios.get('https://api.spoonacular.com/recipes/complexSearch', {
-      params,
-    });
+    // Reserved at the requested result count (an upper bound), charged at the
+    // count actually returned unless Spoonacular reports the cost itself.
+    const { data } = await spendUpstream(
+      req,
+      searchPoints(params, params.number),
+      () => axios.get('https://api.spoonacular.com/recipes/complexSearch', { params }),
+      (response) =>
+        searchPoints(params, Array.isArray(response.data?.results) ? response.data.results.length : params.number)
+    );
 
     if (format === 'msgpack') {
       return sendBytes(res, {
@@ -799,7 +906,7 @@ async function main() {
       HOSTED
         ? `  Mode      : hosted (generated-only, cache TTL ${RECIPE_CACHE_TTL_MS / 1000} s, ` +
             `${RATE_LIMIT_ALL}/${RATE_LIMIT_UPSTREAM} req per IP per 10 min, ` +
-            `${UPSTREAM_DAILY_LIMIT} upstream calls/day)`
+            `${UPSTREAM_DAILY_POINTS} Spoonacular points/day)`
         : '  Mode      : local (full dataset, snapshots, no limits)'
     );
   });
