@@ -72,6 +72,43 @@ const MANIFEST_PATH = path.join(__dirname, '..', 'fixtures', 'benchmark-recipe-i
 const RAW_DIR = path.join(__dirname, '..', 'fixtures', 'recipes-raw');
 const LIVE_REFETCH = process.env.DISHCOVERY_LIVE_REFETCH === '1';
 
+// ── Hosted mode ───────────────────────────────────────────────────────────────
+//
+// DISHCOVERY_MODE=hosted is the public deployment (render.yaml). It differs
+// from the laptop setup in four ways and in nothing else:
+//
+//   1. Generated-only dataset. The 100 Spoonacular snapshots are never read:
+//      Spoonacular's terms allow caching user-requested data for at most one
+//      hour, so a public server must not serve stored copies. The benchmark
+//      dataset is the 150 generated payloads, which are ours.
+//   2. Recipes fetched live are cached for at most RECIPE_CACHE_TTL_SECONDS
+//      (default and maximum 3600) and then deleted.
+//   3. Per-IP rate limits, plus a server-wide daily cap on upstream calls, so a
+//      handful of testers cannot exhaust the free plan's daily quota for
+//      everyone. In-memory, no dependency; a restart resets them.
+//   4. Upstream error text is redacted before it reaches a response.
+//
+// Without the variable the proxy behaves exactly as it did for the published
+// measurements: full 250-payload dataset, snapshots, no limits.
+const HOSTED = process.env.DISHCOVERY_MODE === 'hosted';
+
+const MAX_CACHE_TTL_SECONDS = 3600;
+const RECIPE_CACHE_TTL_MS =
+  Math.min(
+    Number(process.env.RECIPE_CACHE_TTL_SECONDS) || MAX_CACHE_TTL_SECONDS,
+    MAX_CACHE_TTL_SECONDS
+  ) * 1000;
+
+const RATE_WINDOW_MS = 10 * 60 * 1000;
+// Every route, per IP per 10 minutes. A Quick test fetches 90 payloads and a
+// full pass over the hosted dataset 450, so this leaves room for both.
+const RATE_LIMIT_ALL = Number(process.env.RATE_LIMIT_PER_10_MIN) || 1200;
+// Requests that spend Spoonacular quota, per IP per 10 minutes.
+const RATE_LIMIT_UPSTREAM = Number(process.env.UPSTREAM_LIMIT_PER_10_MIN) || 20;
+// Upstream calls per UTC day, all clients together. The free plan allows 50
+// points a day; the margin covers search calls that cost slightly over 1.
+const UPSTREAM_DAILY_LIMIT = Number(process.env.UPSTREAM_DAILY_LIMIT) || 40;
+
 // ── Generative stratum ────────────────────────────────────────────────────────
 //
 // Model-generated payloads, kept in a SEPARATE directory tree from the
@@ -144,7 +181,10 @@ function loadBenchmarkRecipeIds() {
   }
 }
 
-const BENCHMARK_RECIPE_IDS = loadBenchmarkRecipeIds();
+const BENCHMARK_RECIPE_IDS = HOSTED ? [] : loadBenchmarkRecipeIds();
+if (HOSTED) {
+  console.log('[dataset] hosted mode: Spoonacular snapshots are not served; generated payloads only.');
+}
 const GENERATED_RECIPE_IDS = loadGeneratedRecipeIds();
 
 // Complexity tiering now comes from shared/contract.ts (COMPLEXITY_THRESHOLDS,
@@ -152,7 +192,20 @@ const GENERATED_RECIPE_IDS = loadGeneratedRecipeIds();
 // disagree on a tier assignment.
 
 // In-memory cache: recipeId (string) → { recipe }  (the one canonical shape)
+// Spoonacular entries carry an expiresAt; generated entries never expire.
 const recipeCache = new Map();
+
+function isFresh(entry) {
+  return entry.expiresAt === undefined || entry.expiresAt > Date.now();
+}
+
+// Expired entries are deleted, not merely ignored, so no Spoonacular content
+// outlives the TTL in memory either.
+setInterval(() => {
+  for (const [key, entry] of recipeCache) {
+    if (!isFresh(entry)) recipeCache.delete(key);
+  }
+}, 60 * 1000).unref();
 
 // Benchmark dataset built once at startup.
 // entries: full per-recipe measures; tiers: recipe ids grouped by tier.
@@ -179,6 +232,85 @@ function assertApiKey() {
 
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+// ── Rate limits (hosted mode only) ──────────────────────────────────────────────
+
+/**
+ * Fixed-window counter keyed by client IP. The whole map is dropped when the
+ * window rolls over, so memory is bounded by the clients seen in one window.
+ */
+function makeLimiter(limit, windowMs) {
+  let windowStart = Date.now();
+  let counts = new Map();
+  return function hit(key) {
+    const now = Date.now();
+    if (now - windowStart >= windowMs) {
+      windowStart = now;
+      counts = new Map();
+    }
+    const n = (counts.get(key) || 0) + 1;
+    counts.set(key, n);
+    return {
+      allowed: n <= limit,
+      retryAfterSeconds: Math.ceil((windowStart + windowMs - now) / 1000),
+    };
+  };
+}
+
+const hitAll = makeLimiter(RATE_LIMIT_ALL, RATE_WINDOW_MS);
+const hitUpstream = makeLimiter(RATE_LIMIT_UPSTREAM, RATE_WINDOW_MS);
+
+const upstreamDay = { date: '', used: 0 };
+
+function utcDate() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function upstreamRemainingToday() {
+  if (!HOSTED) return null;
+  return upstreamDay.date === utcDate()
+    ? Math.max(UPSTREAM_DAILY_LIMIT - upstreamDay.used, 0)
+    : UPSTREAM_DAILY_LIMIT;
+}
+
+function tooMany(message, retryAfterSeconds) {
+  const err = new Error(message);
+  err.status = 429;
+  err.retryAfterSeconds = retryAfterSeconds;
+  return err;
+}
+
+/**
+ * Called immediately before every request that spends Spoonacular quota.
+ * Throws a 429 instead of letting the call through when a limit is reached.
+ */
+function spendUpstream(req) {
+  if (!HOSTED) return;
+  const perIp = hitUpstream(req.ip);
+  if (!perIp.allowed) {
+    throw tooMany('Too many live recipe requests from this device. Try again shortly.', perIp.retryAfterSeconds);
+  }
+  const today = utcDate();
+  if (upstreamDay.date !== today) {
+    upstreamDay.date = today;
+    upstreamDay.used = 0;
+  }
+  if (upstreamDay.used >= UPSTREAM_DAILY_LIMIT) {
+    const midnight = Date.parse(`${today}T00:00:00Z`) + 24 * 3600 * 1000;
+    throw tooMany(
+      'The daily allowance of live recipe requests is used up. It resets at 00:00 UTC; ' +
+        'the offline Quick test still works.',
+      Math.ceil((midnight - Date.now()) / 1000)
+    );
+  }
+  upstreamDay.used++;
+}
+
+/** Never let the key reach a response body, whatever an upstream error says. */
+function redact(text) {
+  const s = String(text);
+  return SPOONACULAR_API_KEY ? s.split(SPOONACULAR_API_KEY).join('[redacted]') : s;
 }
 
 // ── Spoonacular fetch + mapping ─────────────────────────────────────────────────
@@ -261,11 +393,13 @@ function readSnapshot(id) {
  * `allowLive: false` makes this snapshot-only — used by the startup dataset
  * build to guarantee boot spends nothing.
  */
-async function getRecipe(id, { allowLive = true } = {}) {
+async function getRecipe(id, { allowLive = true, req = null } = {}) {
   const key = String(id);
 
-  if (recipeCache.has(key)) {
-    return recipeCache.get(key);
+  const cached = recipeCache.get(key);
+  if (cached !== undefined) {
+    if (isFresh(cached)) return cached;
+    recipeCache.delete(key);
   }
 
   // Generated payloads resolve from their own directory and never touch
@@ -282,7 +416,7 @@ async function getRecipe(id, { allowLive = true } = {}) {
   let raw = null;
   let source = 'live';
 
-  if (!LIVE_REFETCH) {
+  if (!LIVE_REFETCH && !HOSTED) {
     raw = readSnapshot(id);
     if (raw) source = 'snapshot';
   }
@@ -291,10 +425,15 @@ async function getRecipe(id, { allowLive = true } = {}) {
     if (!allowLive) {
       return null;
     }
+    if (req !== null) spendUpstream(req);
     raw = await fetchFromSpoonacular(id);
   }
 
-  const entry = { recipe: toCanonicalShape(raw), source: 'spoonacular' };
+  const entry = {
+    recipe: toCanonicalShape(raw),
+    source: 'spoonacular',
+    expiresAt: Date.now() + RECIPE_CACHE_TTL_MS,
+  };
   recipeCache.set(key, entry);
   console.log(`[cache] stored recipe ${id} from ${source} (size: ${recipeCache.size})`);
   return entry;
@@ -458,9 +597,22 @@ async function buildBenchmarkDataset() {
 
 app.use(express.json());
 
+if (HOSTED) {
+  // Render terminates TLS at one proxy hop; without this every client would
+  // share the load balancer's address and therefore one rate-limit bucket.
+  app.set('trust proxy', 1);
+}
+
 app.use((req, res, next) => {
   console.log(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`);
   next();
+});
+
+app.use((req, res, next) => {
+  if (!HOSTED) return next();
+  const { allowed, retryAfterSeconds } = hitAll(req.ip);
+  if (allowed) return next();
+  next(tooMany('Too many requests from this device. Try again shortly.', retryAfterSeconds));
 });
 
 // ── Routes ──────────────────────────────────────────────────────────────────────
@@ -469,6 +621,9 @@ app.get(ROUTES.health(), (req, res) => {
   res.json({
     status: 'ok',
     server: 'dishcovery-proxy',
+    mode: HOSTED ? 'hosted' : 'local',
+    datasetTotal: benchmarkDataset.entries.length,
+    upstreamRemainingToday: upstreamRemainingToday(),
     cacheSize: recipeCache.size,
     benchmarkDataset: {
       low: benchmarkDataset.tiers.low.length,
@@ -525,6 +680,7 @@ app.get(ROUTES.search(), async (req, res, next) => {
       number: Math.min(Number(req.query.number) || 10, 50),
     };
 
+    spendUpstream(req);
     const { data } = await axios.get('https://api.spoonacular.com/recipes/complexSearch', {
       params,
     });
@@ -564,7 +720,11 @@ app.get(ROUTES.recipe(':id'), async (req, res, next) => {
       });
     }
 
-    const { recipe } = await getRecipe(id);
+    const resolved = await getRecipe(id, { req });
+    if (resolved === null) {
+      return res.status(404).json({ error: 'Recipe not found', id });
+    }
+    const { recipe } = resolved;
 
     // No format param → normal app JSON (camelCase)
     if (!format) {
@@ -604,10 +764,19 @@ app.use((req, res) => {
 
 // eslint-disable-next-line no-unused-vars
 app.use((err, req, res, next) => {
-  console.error('[ERROR]', err.stack || err.message);
+  if (err.status === 429) {
+    console.warn('[limit]', req.ip, req.originalUrl, err.message);
+    res.setHeader('Retry-After', String(err.retryAfterSeconds));
+    return res.status(429).json({
+      error: 'Too many requests',
+      detail: err.message,
+      retryAfterSeconds: err.retryAfterSeconds,
+    });
+  }
+  console.error('[ERROR]', redact(err.stack || err.message));
   res.status(err.response?.status || 500).json({
     error: 'Internal server error',
-    detail: err.message,
+    detail: redact(err.message),
   });
 });
 
@@ -626,6 +795,13 @@ async function main() {
     console.log(`  Benchmark : http://localhost:${PORT}${ROUTES.recipe(716429, 'msgpack')}`);
     console.log(`  Dataset   : http://localhost:${PORT}${ROUTES.dataset()}`);
     console.log(`  Formats   : ${SERIALIZATION_FORMATS.join(', ')}`);
+    console.log(
+      HOSTED
+        ? `  Mode      : hosted (generated-only, cache TTL ${RECIPE_CACHE_TTL_MS / 1000} s, ` +
+            `${RATE_LIMIT_ALL}/${RATE_LIMIT_UPSTREAM} req per IP per 10 min, ` +
+            `${UPSTREAM_DAILY_LIMIT} upstream calls/day)`
+        : '  Mode      : local (full dataset, snapshots, no limits)'
+    );
   });
 }
 

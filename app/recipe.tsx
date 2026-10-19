@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
@@ -8,7 +8,10 @@ import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-
 import { fetchRecipe } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { toggleFavourite, useSettings } from '../src/settings/settings';
+import { isGeneratedRecipeId } from '../shared/contract';
 // import { useRoute, useNavigation } from '@react-navigation/native'; // If using React Navigation
+
+const SPOONACULAR_URL = 'https://spoonacular.com/food-api';
 
 
 export default function RecipeDetailScreen() {
@@ -170,6 +173,25 @@ export default function RecipeDetailScreen() {
               </Text>
           ) : null}
 
+          {/* Attribution. Spoonacular's terms require a backlink wherever its
+              data is shown; generated benchmark payloads are labelled as such
+              so they are never mistaken for real recipes. */}
+          {isGeneratedRecipeId(Number(recipeId)) ? (
+            <Text style={styles.attribution}>
+              Generated test recipe from the benchmark dataset, not a real recipe.
+            </Text>
+          ) : (
+            <Text style={styles.attribution}>
+              Recipe data:{' '}
+              <Text
+                style={styles.attributionLink}
+                onPress={() => Linking.openURL(SPOONACULAR_URL)}
+                accessibilityRole="link"
+              >
+                spoonacular.com
+              </Text>
+            </Text>
+          )}
 
           {/* Nutrition Info */}
           {/* Check if nutrition data exists before rendering */}
@@ -373,6 +395,16 @@ const styles = StyleSheet.create({
       fontSize: 14,
       color: '#555',
       marginBottom: 15,
+  },
+  attribution: {
+    fontSize: 12,
+    color: '#888',
+    marginBottom: 15,
+  },
+  attributionLink: {
+    color: '#20515a',
+    fontWeight: 'bold',
+    textDecorationLine: 'underline',
   },
   nutritionRow: {
     flexDirection: 'row',
