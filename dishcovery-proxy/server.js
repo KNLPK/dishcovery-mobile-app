@@ -92,16 +92,19 @@ const LIVE_REFETCH = process.env.DISHCOVERY_LIVE_REFETCH === '1';
 // Without the variable the proxy behaves exactly as it did for the published
 // measurements: full 250-payload dataset, snapshots, no limits.
 //
-// Fail-safe: Render sets RENDER in every service's environment, so on Render
-// the proxy is hosted even if DISHCOVERY_MODE is missing or mistyped. A public
-// instance can never fall back to serving the snapshots.
+// Fail-safe: Render sets RENDER and Vercel sets VERCEL in every deployment's
+// environment, so on either host the proxy is hosted even if DISHCOVERY_MODE
+// is missing or mistyped. A public instance can never fall back to serving the
+// snapshots.
 const ON_RENDER = Boolean(process.env.RENDER);
-const HOSTED = ON_RENDER || process.env.DISHCOVERY_MODE === 'hosted';
-const MODE_REASON = ON_RENDER
-  ? `RENDER is set${process.env.DISHCOVERY_MODE === 'hosted' ? ' and DISHCOVERY_MODE=hosted' : ', forced regardless of DISHCOVERY_MODE'}`
+const ON_VERCEL = Boolean(process.env.VERCEL);
+const HOST_FLAG = ON_RENDER ? 'RENDER' : ON_VERCEL ? 'VERCEL' : null;
+const HOSTED = HOST_FLAG !== null || process.env.DISHCOVERY_MODE === 'hosted';
+const MODE_REASON = HOST_FLAG !== null
+  ? `${HOST_FLAG} is set${process.env.DISHCOVERY_MODE === 'hosted' ? ' and DISHCOVERY_MODE=hosted' : ', forced regardless of DISHCOVERY_MODE'}`
   : HOSTED
     ? 'DISHCOVERY_MODE=hosted'
-    : 'DISHCOVERY_MODE not set to hosted, not on Render';
+    : 'DISHCOVERY_MODE not set to hosted, not on Render or Vercel';
 console.log(`[mode] ${HOSTED ? 'HOSTED' : 'LOCAL'} (${MODE_REASON})`);
 
 const MAX_CACHE_TTL_SECONDS = 3600;
@@ -697,7 +700,7 @@ async function buildBenchmarkDataset() {
 app.use(express.json());
 
 if (HOSTED) {
-  // Render terminates TLS at one proxy hop; without this every client would
+  // Render and Vercel terminate TLS at one proxy hop; without this every client would
   // share the load balancer's address and therefore one rate-limit bucket.
   app.set('trust proxy', 1);
 }
@@ -889,10 +892,15 @@ app.use((err, req, res, next) => {
 
 // ── Startup ─────────────────────────────────────────────────────────────────────
 
-async function main() {
+/** Everything the routes need before the first request. */
+async function init() {
   assertApiKey();
   await loadProto();
   await buildBenchmarkDataset();
+}
+
+async function main() {
+  await init();
 
   app.listen(PORT, () => {
     console.log(`dishcovery-proxy listening on http://localhost:${PORT}`);
@@ -912,7 +920,15 @@ async function main() {
   });
 }
 
-main().catch((err) => {
-  console.error('[FATAL]', err.message);
-  process.exit(1);
-});
+if (require.main === module) {
+  main().catch((err) => {
+    console.error('[FATAL]', err.message);
+    process.exit(1);
+  });
+} else {
+  // Imported by the serverless entry (api/index.js on Vercel): no listen. The
+  // entry awaits `ready` before handing each request to the app.
+  const ready = init();
+  ready.catch((err) => console.error('[FATAL]', err.message));
+  module.exports = { app, ready };
+}

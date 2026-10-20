@@ -50,3 +50,6 @@ fixtures/generated/RUNNING.pid
 # Raw Spoonacular response bodies. Not redistributed (Spoonacular terms);
 # kept locally for local mode and the full protocol. See dishcovery-proxy/README.md.
 fixtures/recipes-raw/
+
+# Vercel CLI project link (vercel link)
+.vercel

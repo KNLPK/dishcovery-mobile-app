@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "builds": [
+    {
+      "src": "dishcovery-proxy/api/index.js",
+      "use": "@vercel/node",
+      "config": {
+        "includeFiles": ["fixtures/generated/**", "shared/proto/**"]
+      }
+    }
+  ],
+  "routes": [{ "src": "/(.*)", "dest": "/dishcovery-proxy/api/index.js" }],
+  "regions": ["sin1"]
+}

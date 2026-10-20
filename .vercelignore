@@ -1,0 +1,25 @@
+# Upload only what the Vercel proxy needs (vercel.json): the proxy itself, the
+# wire contract, the proto schema and the generated payloads. Everything else
+# is ignored first, then those paths are let back in.
+/*
+!/vercel.json
+!/dishcovery-proxy
+!/shared
+!/fixtures
+
+# Never upload secrets or installed packages (Vercel installs from the lockfile).
+.env*
+node_modules
+.expo
+
+# Spoonacular payloads stay local (Spoonacular terms); hosted mode never reads them.
+/fixtures/*
+!/fixtures/generated
+/fixtures/recipes-raw/
+/fixtures/recipes/
+/fixtures/benchmark-recipe-ids.json
+/fixtures/generated/STOP
+/fixtures/generated/RUNNING.pid
+
+# Proxy docs are not needed at runtime.
+/dishcovery-proxy/README.md
