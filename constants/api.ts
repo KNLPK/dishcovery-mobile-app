@@ -27,14 +27,12 @@
 import Constants from 'expo-constants';
 
 /**
- * The hosted proxy for the "Online" server setting.
- *
- * PLACEHOLDER: null until the Render service exists. While it is null the
- * Online setting says the online server is not set up in this build, and the
- * Quick test still works offline. Set it to the service's https URL (no
- * trailing slash) before the demo build.
+ * The hosted proxy for the "Online" server setting: dishcovery-proxy on Vercel
+ * (vercel.json), in hosted mode. This is the project's stable production
+ * domain, which always points at the latest production deployment; never a
+ * per-deployment URL. Null would mean "no online server in this build".
  */
-export const ONLINE_BASE_URL: string | null = null;
+export const ONLINE_BASE_URL: string | null = 'https://dishcovery-proxy.vercel.app';
 
 /** The port dishcovery-proxy/server.js listens on (PORT || 3001). */
 export const PROXY_PORT = 3001;
