@@ -15,9 +15,9 @@ import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
 
 /**
- * Sample content, shown before a search has run. These are placeholders with
- * stock imagery, not data from the API — they are not tappable because there is
- * no recipe behind them.
+ * Example cards, shown before a search has run. These are placeholders with
+ * stock imagery, not data from the API — they are labelled "Examples" and are
+ * not tappable because there is no recipe behind them.
  */
 type SampleCard = { id: string; title: string; image: string };
 
@@ -34,16 +34,7 @@ const trendingIngredients: SampleCard[] = [
   { id: '4', title: 'Salmon', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=80&q=80' },
 ];
 
-const yourChoice = [
-  { id: '1', title: 'Easy homemade beef burger', author: 'James Spader', authorImg: 'https://randomuser.me/api/portraits/men/1.jpg', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' },
-  { id: '2', title: 'Blueberry with egg for breakfast', author: 'Alice Fala', authorImg: 'https://randomuser.me/api/portraits/women/2.jpg', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' },
-  { id: '3', title: 'Toast with egg for breakfast', author: 'Agnes', authorImg: 'https://randomuser.me/api/portraits/women/3.jpg', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=400&q=80' },
-];
 
-const recentlyViewed: SampleCard[] = [
-  { id: '1', title: 'Spaghetti Carbonara', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=120&q=80' },
-  { id: '2', title: 'Avocado Toast', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=120&q=80' },
-];
 
 export default function Search() {
   // null means "no meal-type filter". The chips toggle: tapping the selected
@@ -97,6 +88,8 @@ export default function Search() {
       setWaking(false);
     }
   };
+
+  const showExamples = server.url !== null && results === null && failure === null && !loading;
 
   const openRecipe = (id: number | string) => {
     router.push({ pathname: '/recipe', params: { id: String(id) } });
@@ -177,8 +170,9 @@ export default function Search() {
         {/* Results, or the sample content before a search has run */}
         <View style={styles.sectionRow}>
           <Text style={styles.sectionTitle}>
-            {results === null && failure === null && !loading ? 'Popular Recipes' : 'Results'}
+            {showExamples ? 'Examples' : server.url === null ? 'Recipes' : 'Results'}
           </Text>
+          {showExamples && <Text style={styles.sectionMeta}>Not real recipes · search to load some</Text>}
           {results !== null && results.length > 0 && (
             <Text style={styles.sectionMeta}>
               {results.length} for “{lastQuery}”
@@ -266,45 +260,6 @@ export default function Search() {
           ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
         />
 
-        {/* Your Choice — sample content, unchanged in substance */}
-        <Text style={[styles.sectionTitle, { marginTop: spacing.xl, marginBottom: spacing.sm }]}>
-          Your Choice
-        </Text>
-        {yourChoice.map((item) => (
-          <View key={item.id} style={styles.choiceCard}>
-            <Image source={{ uri: item.image }} style={styles.choiceImage} />
-            <View style={{ flex: 1 }}>
-              <Text style={styles.choiceTitle} numberOfLines={2}>
-                {item.title}
-              </Text>
-              <View style={styles.authorRow}>
-                <Image source={{ uri: item.authorImg }} style={styles.authorImg} />
-                <Text style={styles.authorName}>{item.author}</Text>
-              </View>
-            </View>
-          </View>
-        ))}
-
-        {/* Recently Viewed — sample content, unchanged in substance */}
-        <Text style={[styles.sectionTitle, { marginTop: spacing.xl, marginBottom: spacing.sm }]}>
-          Recently Viewed
-        </Text>
-        <FlatList
-          data={recentlyViewed}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          keyExtractor={(item) => item.id}
-          renderItem={({ item }) => (
-            <View style={styles.popularCard}>
-              <Image source={{ uri: item.image }} style={styles.popularImage} />
-              <Text style={styles.popularCardTitle} numberOfLines={2}>
-                {item.title}
-              </Text>
-            </View>
-          )}
-          contentContainerStyle={styles.hList}
-          ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
-        />
       </ScrollView>
       <BottomTabBar />
     </View>
@@ -406,20 +361,4 @@ const styles = StyleSheet.create({
   },
   ingredientImage: { width: 40, height: 40, borderRadius: 20, marginBottom: spacing.xs },
   ingredientName: { ...typeScale.caption, color: palette.primary, textAlign: 'center' },
-  choiceCard: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: spacing.md,
-    backgroundColor: palette.surfaceAlt,
-    borderRadius: radius.md,
-    padding: spacing.sm,
-    marginBottom: spacing.sm,
-    borderWidth: 1,
-    borderColor: palette.border,
-  },
-  choiceImage: { width: 56, height: 56, borderRadius: radius.sm },
-  choiceTitle: { ...typeScale.cardTitle, color: palette.ink },
-  authorRow: { flexDirection: 'row', alignItems: 'center', marginTop: spacing.xs, gap: 6 },
-  authorImg: { width: 18, height: 18, borderRadius: 9 },
-  authorName: { ...typeScale.caption, color: palette.muted },
 });

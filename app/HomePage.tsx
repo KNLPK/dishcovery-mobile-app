@@ -19,12 +19,6 @@ const HOME_RESULT_COUNT = 8;
 /** The first few become the Featured carousel; the rest fill Popular Recipes. */
 const FEATURED_COUNT = 2;
 
-const featuredChefs = [
-  { id: '1', name: 'Chef Anna', avatar: 'https://randomuser.me/api/portraits/women/44.jpg' },
-  { id: '2', name: 'Chef Ben', avatar: 'https://randomuser.me/api/portraits/men/32.jpg' },
-  { id: '3', name: 'Chef Clara', avatar: 'https://randomuser.me/api/portraits/women/65.jpg' },
-  { id: '4', name: 'Chef David', avatar: 'https://randomuser.me/api/portraits/men/76.jpg' },
-];
 
 export default function HomePage() {
   const params = useLocalSearchParams();
@@ -155,23 +149,6 @@ export default function HomePage() {
             onPress={() => router.navigate('/Profile')}
           />
         </View>
-        {/* Featured Chefs */}
-        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Featured Chefs</Text>
-        <FlatList
-          data={featuredChefs}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          keyExtractor={item => item.id}
-          renderItem={({ item }) => (
-            <View style={styles.chefCard}>
-              <Image source={{ uri: item.avatar }} style={styles.chefAvatar} />
-              <Text style={styles.chefName}>{item.name}</Text>
-            </View>
-          )}
-          contentContainerStyle={{ paddingLeft: 16, paddingRight: 40 }}
-          ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
-          style={{ marginBottom: 24 }}
-        />
         {/* Format selector + what the last load cost */}
         <View style={{ marginBottom: 20 }}>
           <MetricsBar last={last} busy={loading} />
@@ -537,33 +514,6 @@ const styles = StyleSheet.create({
   seeAllTarget: {
     minHeight: 48,
     justifyContent: 'center',
-  },
-  chefCard: {
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    borderRadius: 16,
-    padding: 10,
-    elevation: 2,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.06,
-    shadowRadius: 2,
-    width: 90,
-    height: 110,
-    marginBottom: 0,
-    justifyContent: 'center',
-  },
-  chefAvatar: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    marginBottom: 6,
-  },
-  chefName: {
-    fontSize: 13,
-    color: '#20515a',
-    fontWeight: 'bold',
-    textAlign: 'center',
   },
   tipsContainer: {
     flexDirection: 'row',

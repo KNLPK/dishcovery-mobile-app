@@ -50,11 +50,15 @@ export const palette = {
  * the same everywhere. JSON keeps the brand teal; the other two are chosen to
  * stay apart from it and from each other, including for red-green colour
  * blindness. Bars are always labelled as well, never colour alone.
+ *
+ * MessagePack and Protocol Buffers were darkened (same hue and saturation,
+ * lower lightness) from #3d9fa3 and #d08a2e so each bar reaches 3:1 against
+ * the light bar track (#f3f7f8), and 3.3:1 against white.
  */
 export const formatColors = {
   json: '#20515a',
-  msgpack: '#3d9fa3',
-  protobuf: '#d08a2e',
+  msgpack: '#3c9b9f',
+  protobuf: '#c1802b',
 } as const;
 
 /** Minimum touch target, in dp (Android accessibility guideline). */
