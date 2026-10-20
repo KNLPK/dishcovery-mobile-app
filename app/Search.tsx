@@ -6,6 +6,7 @@ import { IconButton } from 'react-native-paper';
 
 import BottomTabBar from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import RecipeImage from '../components/RecipeImage';
 import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { palette, radius, shadow, spacing, type as typeScale } from '../constants/theme';
@@ -219,11 +220,7 @@ export default function Search() {
                 accessibilityRole="button"
                 accessibilityLabel={`Open ${item.title}`}
               >
-                {item.image !== undefined ? (
-                  <Image source={{ uri: item.image }} style={styles.resultImage} />
-                ) : (
-                  <View style={[styles.resultImage, styles.resultImageEmpty]} />
-                )}
+                <RecipeImage uri={item.image} style={styles.resultImage} iconSize={22} />
                 <Text style={styles.resultTitle} numberOfLines={2}>
                   {item.title}
                 </Text>
@@ -334,7 +331,6 @@ const styles = StyleSheet.create({
     ...shadow.card,
   },
   resultImage: { width: 56, height: 56, borderRadius: radius.sm },
-  resultImageEmpty: { backgroundColor: palette.surfaceTint },
   resultTitle: { ...typeScale.cardTitle, color: palette.ink, flex: 1 },
   popularCard: {
     width: 112,

@@ -74,23 +74,25 @@ const LIVE_REFETCH = process.env.DISHCOVERY_LIVE_REFETCH === '1';
 
 // ── Hosted mode ───────────────────────────────────────────────────────────────
 //
-// DISHCOVERY_MODE=hosted is the public deployment (render.yaml). It differs
-// from the laptop setup in four ways and in nothing else:
+// DISHCOVERY_MODE=hosted is the public deployment (vercel.json). It is
+// catalog mode, and differs from the laptop setup in three ways and in nothing
+// else:
 //
 //   1. Generated-only dataset. The 100 Spoonacular snapshots are never read:
 //      Spoonacular's terms allow caching user-requested data for at most one
 //      hour, so a public server must not serve stored copies. The benchmark
 //      dataset is the 150 generated payloads, which are ours.
-//   2. Recipes fetched live are cached for at most RECIPE_CACHE_TTL_SECONDS
-//      (default and maximum 3600) and then deleted.
-//   3. Per-IP rate limits, plus a server-wide daily budget in Spoonacular
-//      points, so a handful of testers cannot exhaust the free plan's daily
-//      quota for everyone. In-memory, no dependency; a restart resets the
-//      counters (the quota header, when sent, restores the day's usage).
-//   4. Upstream error text is redacted before it reaches a response.
+//   2. No upstream calls at all, and no API key. Browsing (search, find by
+//      ingredients, the home categories) is answered from those same 150
+//      Gemini-generated recipes (see "Catalog" below), and recipe detail serves
+//      them with the same encoders, so the bytes equal the benchmark payloads.
+//      Any other recipe id is a 404.
+//   3. A per-IP rate limit, in memory, so one client cannot monopolise the
+//      server. A restart (or a new serverless instance) resets the counters.
 //
 // Without the variable the proxy behaves exactly as it did for the published
-// measurements: full 250-payload dataset, snapshots, no limits.
+// measurements: full 250-payload dataset, snapshots, live Spoonacular search,
+// no limits.
 //
 // Fail-safe: Render sets RENDER and Vercel sets VERCEL in every deployment's
 // environment, so on either host the proxy is hosted even if DISHCOVERY_MODE
@@ -118,11 +120,6 @@ const RATE_WINDOW_MS = 10 * 60 * 1000;
 // Every route, per IP per 10 minutes. A Quick test fetches 90 payloads and a
 // full pass over the hosted dataset 450, so this leaves room for both.
 const RATE_LIMIT_ALL = Number(process.env.RATE_LIMIT_PER_10_MIN) || 1200;
-// Requests that spend Spoonacular quota, per IP per 10 minutes.
-const RATE_LIMIT_UPSTREAM = Number(process.env.UPSTREAM_LIMIT_PER_10_MIN) || 20;
-// Spoonacular points per UTC day, all clients together. The free plan allows
-// 50; stopping at 40 leaves room for estimation error and manual checks.
-const UPSTREAM_DAILY_POINTS = Number(process.env.UPSTREAM_DAILY_POINTS) || 40;
 
 // ── Generative stratum ────────────────────────────────────────────────────────
 //
@@ -239,6 +236,10 @@ async function loadProto() {
 }
 
 function assertApiKey() {
+  if (HOSTED) {
+    console.log('[catalog] hosted mode makes no Spoonacular calls; no API key is used.');
+    return;
+  }
   if (!SPOONACULAR_API_KEY || SPOONACULAR_API_KEY === 'placeholder') {
     console.warn('[warn] SPOONACULAR_API_KEY is missing or still set to "placeholder".');
     console.warn('[warn] Set a real key in dishcovery-proxy/.env before fetching recipes.');
@@ -274,139 +275,12 @@ function makeLimiter(limit, windowMs) {
 }
 
 const hitAll = makeLimiter(RATE_LIMIT_ALL, RATE_WINDOW_MS);
-const hitUpstream = makeLimiter(RATE_LIMIT_UPSTREAM, RATE_WINDOW_MS);
-
-// ── Spoonacular point budget (hosted mode only) ─────────────────────────────────
-//
-// The daily cap is counted in Spoonacular points, the unit the quota is sold
-// in, not in calls. Documented costs (spoonacular.com/food-api/docs, read
-// 2026-10-19):
-//
-//   GET /recipes/{id}/information   1 point, +0.1 with includeNutrition=true
-//   GET /recipes/complexSearch      1 point + 0.01 per result returned;
-//                                   +0.025 per result for each of
-//                                   addRecipeInformation, fillIngredients,
-//                                   addRecipeInstructions, addRecipeNutrition
-//                                   (which also implies addRecipeInformation);
-//                                   +1 when a nutrient filter is set
-//
-// When Spoonacular sends quota headers they win over these estimates:
-// x-api-quota-request is what this call cost, x-api-quota-used the key's total
-// for the day (which also covers points spent before a restart).
-
-const RECIPE_INFORMATION_POINTS = 1 + 0.1; // fetchFromSpoonacular sends includeNutrition=true
-
-// complexSearch min/max parameters that are not nutrient filters.
-const NON_NUTRIENT_MIN_MAX = new Set(['maxReadyTime', 'minServings', 'maxServings']);
-
-function searchPoints(params, resultCount) {
-  const on = (v) => v === true || v === 'true';
-  let perResult = 0.01;
-  if (on(params.addRecipeInformation) || on(params.addRecipeNutrition)) perResult += 0.025;
-  if (on(params.fillIngredients)) perResult += 0.025;
-  if (on(params.addRecipeInstructions)) perResult += 0.025;
-  if (on(params.addRecipeNutrition)) perResult += 0.025;
-  const nutrientFilter = Object.keys(params).some(
-    (k) => /^(min|max)[A-Z]/.test(k) && !NON_NUTRIENT_MIN_MAX.has(k)
-  );
-  return 1 + perResult * resultCount + (nutrientFilter ? 1 : 0);
-}
-
-const pointsDay = { date: '', used: 0 };
-
-function utcDate() {
-  return new Date().toISOString().slice(0, 10);
-}
-
-function rollDay() {
-  const today = utcDate();
-  if (pointsDay.date !== today) {
-    pointsDay.date = today;
-    pointsDay.used = 0;
-  }
-}
-
-const round2 = (x) => Math.round(x * 100) / 100;
-
-function pointsRemainingToday() {
-  if (!HOSTED) return null;
-  rollDay();
-  return Math.max(round2(UPSTREAM_DAILY_POINTS - pointsDay.used), 0);
-}
-
-function pointsUsedToday() {
-  if (!HOSTED) return null;
-  rollDay();
-  return round2(pointsDay.used);
-}
 
 function tooMany(message, retryAfterSeconds) {
   const err = new Error(message);
   err.status = 429;
   err.retryAfterSeconds = retryAfterSeconds;
   return err;
-}
-
-/**
- * Called immediately before every request that spends Spoonacular quota.
- * Throws a 429 instead of letting the call through when this device is over
- * its per-IP limit, or when the call's estimated cost would take the day past
- * the point budget.
- */
-function reserveUpstream(req, estimatedPoints) {
-  if (!HOSTED) return;
-  const perIp = hitUpstream(req.ip);
-  if (!perIp.allowed) {
-    throw tooMany('Too many live recipe requests from this device. Try again shortly.', perIp.retryAfterSeconds);
-  }
-  rollDay();
-  if (pointsDay.used + estimatedPoints > UPSTREAM_DAILY_POINTS) {
-    const midnight = Date.parse(`${pointsDay.date}T00:00:00Z`) + 24 * 3600 * 1000;
-    throw tooMany(
-      "Today's allowance for live recipes is used up. It resets at 00:00 UTC (07:00 in Jakarta). " +
-        'The offline Quick test and the generated recipes still work.',
-      Math.ceil((midnight - Date.now()) / 1000)
-    );
-  }
-}
-
-/** A numeric response header, or null when absent or not a number. */
-function headerNumber(headers, name) {
-  const raw = headers?.[name];
-  if (raw === undefined || raw === null || String(raw).trim() === '') return null;
-  const n = Number(raw);
-  return Number.isFinite(n) && n >= 0 ? n : null;
-}
-
-/**
- * Called after every upstream response, success or failure. Charges the cost
- * Spoonacular reports, or the documented estimate when it reports none. A
- * failed call without quota headers (a refused key, a network error) is not
- * charged; a 402 means the key's real quota is exhausted, so the day is closed.
- */
-function chargeUpstream({ headers, status }, estimatedPoints) {
-  if (!HOSTED) return;
-  rollDay();
-  const cost = headerNumber(headers, 'x-api-quota-request');
-  const total = headerNumber(headers, 'x-api-quota-used');
-  const ok = status !== undefined && status >= 200 && status < 300;
-  if (cost !== null) pointsDay.used += cost;
-  else if (ok) pointsDay.used += estimatedPoints;
-  if (total !== null && total > pointsDay.used) pointsDay.used = total;
-  if (status === 402) pointsDay.used = Math.max(pointsDay.used, UPSTREAM_DAILY_POINTS);
-}
-
-/** Run one upstream request under the budget: reserve, call, charge. */
-async function spendUpstream(req, estimatedPoints, call, actualPoints = () => estimatedPoints) {
-  if (req !== null) reserveUpstream(req, estimatedPoints);
-  try {
-    const response = await call();
-    chargeUpstream(response, actualPoints(response));
-    return response;
-  } catch (err) {
-    if (err.response) chargeUpstream(err.response, estimatedPoints);
-    throw err;
-  }
 }
 
 /** Never let the key reach a response body, whatever an upstream error says. */
@@ -463,12 +337,11 @@ function toCanonicalShape(data) {
   };
 }
 
-async function fetchFromSpoonacular(id, req = null) {
-  const { data } = await spendUpstream(req, RECIPE_INFORMATION_POINTS, () =>
-    axios.get(`https://api.spoonacular.com/recipes/${id}/information`, {
-      params: { apiKey: SPOONACULAR_API_KEY, includeNutrition: true },
-    })
-  );
+/** Laptop mode only: hosted mode never reaches this (see getRecipe). */
+async function fetchFromSpoonacular(id) {
+  const { data } = await axios.get(`https://api.spoonacular.com/recipes/${id}/information`, {
+    params: { apiKey: SPOONACULAR_API_KEY, includeNutrition: true },
+  });
   return data;
 }
 
@@ -496,7 +369,7 @@ function readSnapshot(id) {
  * `allowLive: false` makes this snapshot-only — used by the startup dataset
  * build to guarantee boot spends nothing.
  */
-async function getRecipe(id, { allowLive = true, req = null } = {}) {
+async function getRecipe(id, { allowLive = true } = {}) {
   const key = String(id);
 
   const cached = recipeCache.get(key);
@@ -516,10 +389,13 @@ async function getRecipe(id, { allowLive = true, req = null } = {}) {
     return generatedEntry;
   }
 
+  // Catalog mode: the generated recipes are the whole catalog.
+  if (HOSTED) return null;
+
   let raw = null;
   let source = 'live';
 
-  if (!LIVE_REFETCH && !HOSTED) {
+  if (!LIVE_REFETCH) {
     raw = readSnapshot(id);
     if (raw) source = 'snapshot';
   }
@@ -528,7 +404,7 @@ async function getRecipe(id, { allowLive = true, req = null } = {}) {
     if (!allowLive) {
       return null;
     }
-    raw = await fetchFromSpoonacular(id, req);
+    raw = await fetchFromSpoonacular(id);
   }
 
   const entry = {
@@ -695,6 +571,102 @@ async function buildBenchmarkDataset() {
   );
 }
 
+// ── Catalog (hosted mode) ──────────────────────────────────────────────────────
+//
+// In hosted mode the app browses the generated recipes instead of Spoonacular.
+// The recipes carry no cuisine or dish-type field, so text matching runs over
+// what each recipe says about itself: title, ingredient names and summary.
+
+/** Home category (the app's `type` values) -> words that mark it in a recipe. */
+const CATALOG_TYPES = {
+  breakfast: ['breakfast', 'brunch'],
+  'main course': ['main course', 'main dish', 'dinner', 'lunch', 'entree', 'entrée'],
+  snack: ['snack', 'appetizer', 'finger food'],
+  dessert: ['dessert'],
+};
+
+let catalog = [];
+
+const plainText = (html) => html.replace(/<[^>]+>/g, ' ');
+const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const hasWord = (text, word) => new RegExp(`\\b${escapeRegExp(word)}\\b`).test(text);
+
+/** Index the generated dataset for browsing. Reads the cache, never the network. */
+function buildCatalog() {
+  if (!HOSTED) return;
+  catalog = benchmarkDataset.entries
+    .filter((e) => e.source === 'generated')
+    .map((e) => recipeCache.get(String(e.recipeId))?.recipe)
+    .filter((r) => r !== undefined)
+    .map((r) => {
+      const ingredients = r.extendedIngredients.map((i) => i.name.toLowerCase());
+      const described = `${r.title} ${plainText(r.summary)}`.toLowerCase();
+      return {
+        item: { id: r.id, title: r.title, image: r.image, imageType: path.extname(r.image).slice(1) },
+        title: r.title.toLowerCase(),
+        ingredients,
+        described,
+        text: `${described} ${ingredients.join(' ')}`,
+        readyInMinutes: r.readyInMinutes,
+        types: Object.keys(CATALOG_TYPES).filter((t) => CATALOG_TYPES[t].some((w) => hasWord(described, w))),
+      };
+    });
+  const counts = Object.keys(CATALOG_TYPES).map((t) => `${t} ${catalog.filter((c) => c.types.includes(t)).length}`);
+  console.log(`[catalog] ${catalog.length} generated recipes indexed for browsing (${counts.join(', ')})`);
+}
+
+const catalogSource = () => `catalog (${catalog.length} Gemini-generated recipes)`;
+
+/**
+ * complexSearch-shaped results from the catalog.
+ *
+ *   query              every word must appear in the title, an ingredient or
+ *                      the summary (case-insensitive); title matches rank first.
+ *                      Home sends a category chip's label as the query along
+ *                      with its type, so words of the type itself ("main",
+ *                      "course") are left to the type match
+ *   includeIngredients comma list; recipes are ranked by how many of them they
+ *                      use, and those using none are left out
+ *   type               a home category, matched by CATALOG_TYPES
+ *   maxReadyTime       minutes
+ *   number, offset     paging, as Spoonacular (number capped at 50)
+ */
+function searchCatalog(q) {
+  const type = String(q.type ?? '').toLowerCase().trim();
+  const typeWords = type.split(/\s+/);
+  const words = String(q.query ?? '')
+    .toLowerCase()
+    .split(/\s+/)
+    .filter((w) => w !== '' && !typeWords.includes(w));
+  const wanted = String(q.includeIngredients ?? '')
+    .toLowerCase()
+    .split(',')
+    .map((w) => w.trim())
+    .filter(Boolean);
+  const maxReadyTime = Number(q.maxReadyTime);
+  const number = Math.min(Math.max(Number(q.number) || 10, 1), 50);
+  const offset = Math.max(Number(q.offset) || 0, 0);
+
+  const scored = [];
+  for (const c of catalog) {
+    if (type !== '' && !c.types.includes(type)) continue;
+    if (Number.isFinite(maxReadyTime) && maxReadyTime > 0 && c.readyInMinutes > maxReadyTime) continue;
+    if (!words.every((w) => c.text.includes(w))) continue;
+    const used = wanted.filter((w) => c.ingredients.some((name) => name.includes(w))).length;
+    if (wanted.length > 0 && used === 0) continue;
+    const inTitle = words.filter((w) => c.title.includes(w)).length;
+    scored.push({ c, used, inTitle });
+  }
+  scored.sort((a, b) => b.used - a.used || b.inTitle - a.inTitle || a.c.item.id - b.c.item.id);
+
+  return {
+    results: scored.slice(offset, offset + number).map(({ c }) => c.item),
+    offset,
+    number,
+    totalResults: scored.length,
+  };
+}
+
 // ── Middleware ──────────────────────────────────────────────────────────────────
 
 app.use(express.json());
@@ -724,11 +696,9 @@ app.get(ROUTES.health(), (req, res) => {
     status: 'ok',
     server: 'dishcovery-proxy',
     mode: HOSTED ? 'hosted' : 'local',
+    // Where browsing comes from: the generated catalog, or Spoonacular.
+    source: HOSTED ? catalogSource() : 'spoonacular',
     datasetTotal: benchmarkDataset.entries.length,
-    // Spoonacular points, hosted mode only (null locally).
-    pointsBudgetToday: HOSTED ? UPSTREAM_DAILY_POINTS : null,
-    pointsUsedToday: pointsUsedToday(),
-    pointsRemainingToday: pointsRemainingToday(),
     cacheSize: recipeCache.size,
     benchmarkDataset: {
       low: benchmarkDataset.tiers.low.length,
@@ -739,7 +709,8 @@ app.get(ROUTES.health(), (req, res) => {
 });
 
 /**
- * Normal app usage — search recipes via Spoonacular complexSearch.
+ * Normal app usage — search recipes: the catalog in hosted mode (searchCatalog),
+ * Spoonacular complexSearch in laptop mode, with the same response shape.
  * Forwards client query params (query, includeIngredients, type, maxReadyTime, etc.).
  * Example: GET /api/search?query=pasta
  * Example: GET /api/search?includeIngredients=egg,tomato&type=breakfast&number=5
@@ -778,22 +749,18 @@ app.get(ROUTES.search(), async (req, res, next) => {
     // the request differ between formats, which is exactly what must not vary.
     const { format: _ignored, ...forwarded } = req.query;
 
-    const params = {
-      ...forwarded,
-      apiKey: SPOONACULAR_API_KEY,
-      addRecipeInformation: false,
-      number: Math.min(Number(req.query.number) || 10, 50),
-    };
-
-    // Reserved at the requested result count (an upper bound), charged at the
-    // count actually returned unless Spoonacular reports the cost itself.
-    const { data } = await spendUpstream(
-      req,
-      searchPoints(params, params.number),
-      () => axios.get('https://api.spoonacular.com/recipes/complexSearch', { params }),
-      (response) =>
-        searchPoints(params, Array.isArray(response.data?.results) ? response.data.results.length : params.number)
-    );
+    let data;
+    if (HOSTED) {
+      data = searchCatalog(forwarded);
+    } else {
+      const params = {
+        ...forwarded,
+        apiKey: SPOONACULAR_API_KEY,
+        addRecipeInformation: false,
+        number: Math.min(Number(req.query.number) || 10, 50),
+      };
+      ({ data } = await axios.get('https://api.spoonacular.com/recipes/complexSearch', { params }));
+    }
 
     if (format === 'msgpack') {
       return sendBytes(res, {
@@ -830,7 +797,7 @@ app.get(ROUTES.recipe(':id'), async (req, res, next) => {
       });
     }
 
-    const resolved = await getRecipe(id, { req });
+    const resolved = await getRecipe(id);
     if (resolved === null) {
       return res.status(404).json({ error: 'Recipe not found', id });
     }
@@ -897,6 +864,7 @@ async function init() {
   assertApiKey();
   await loadProto();
   await buildBenchmarkDataset();
+  buildCatalog();
 }
 
 async function main() {
@@ -912,9 +880,8 @@ async function main() {
     console.log(`  Formats   : ${SERIALIZATION_FORMATS.join(', ')}`);
     console.log(
       HOSTED
-        ? `  Mode      : hosted (generated-only, cache TTL ${RECIPE_CACHE_TTL_MS / 1000} s, ` +
-            `${RATE_LIMIT_ALL}/${RATE_LIMIT_UPSTREAM} req per IP per 10 min, ` +
-            `${UPSTREAM_DAILY_POINTS} Spoonacular points/day)`
+        ? `  Mode      : hosted (${catalogSource()}, no upstream calls, ` +
+            `${RATE_LIMIT_ALL} req per IP per 10 min)`
         : '  Mode      : local (full dataset, snapshots, no limits)'
     );
   });

@@ -1,14 +1,12 @@
 # Render Blueprint for the public demo proxy (dishcovery-proxy/server.js).
+# Kept for reference: the demo now runs on Vercel (vercel.json).
 #
-# Hosted mode serves the 150 generated payloads for benchmarking and live
-# Spoonacular data for browsing, with a 1-hour cache, per-IP rate limits and a
-# daily upstream cap. See the "Hosted mode" block at the top of server.js.
+# Hosted mode is catalog mode: the 150 generated payloads for benchmarking and
+# browsing, no Spoonacular calls, no API key, per-IP rate limits. See the
+# "Hosted mode" block at the top of server.js.
 #
 # No rootDir: the server reads ../shared/contract.ts, ../shared/proto and
 # ../fixtures/generated, which sit outside dishcovery-proxy/.
-#
-# The only secret is SPOONACULAR_API_KEY. It is declared with sync: false, so
-# its value is entered in the Render dashboard and never lives in this repo.
 services:
   - type: web
     name: dishcovery-proxy
@@ -31,7 +29,3 @@ services:
         value: 22.17.1
       - key: DISHCOVERY_MODE
         value: hosted
-      - key: RECIPE_CACHE_TTL_SECONDS
-        value: "3600"
-      - key: SPOONACULAR_API_KEY
-        sync: false

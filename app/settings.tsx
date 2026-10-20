@@ -36,7 +36,7 @@ const MODES: { mode: ServerMode; label: string; detail: string }[] = [
     detail:
       ONLINE_BASE_URL === null
         ? 'The hosted demo server. Not set up in this build yet.'
-        : 'The hosted demo server. Needs internet; the first request may take up to a minute while it wakes up.',
+        : 'The hosted demo server: browse 150 AI-generated recipes. Needs internet.',
   },
   {
     mode: 'laptop',
@@ -202,9 +202,7 @@ export default function ServerSettingsScreen() {
             <Text style={styles.note}>
               {test.health.mode === 'hosted' ? 'Hosted demo server' : 'Local proxy'}
               {test.health.datasetTotal !== null ? ` · ${test.health.datasetTotal} benchmark payloads` : ''}
-              {test.health.pointsRemainingToday !== null
-                ? ` · ${test.health.pointsRemainingToday.toFixed(1)} recipe-service points left today`
-                : ''}
+              {test.health.source !== null ? ` · recipes from ${test.health.source}` : ''}
             </Text>
           </View>
         )}

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, TextInput, View, Image, TouchableOpacity, FlatList } from 'react-native';
+import { StyleSheet, Text, TextInput, View, TouchableOpacity, FlatList } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
+import RecipeImage from '../components/RecipeImage';
 import { EmptyState } from '../components/StateViews';
 import { getMetrics } from '../src/api/metrics';
 import { setDisplayName, toggleFavourite, useSettings } from '../src/settings/settings';
@@ -153,11 +154,7 @@ export default function Profile() {
             accessibilityRole="button"
             accessibilityLabel={`Open ${item.title}`}
           >
-            {item.image === null ? (
-              <View style={[styles.favImage, { backgroundColor: '#dfeaec' }]} />
-            ) : (
-              <Image source={{ uri: item.image }} style={styles.favImage} />
-            )}
+            <RecipeImage uri={item.image} style={styles.favImage} />
             <TouchableOpacity
               style={styles.favLike}
               onPress={() => toggleFavourite(item)}

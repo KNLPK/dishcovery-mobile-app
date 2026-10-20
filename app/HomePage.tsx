@@ -1,9 +1,10 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Dimensions, FlatList, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Dimensions, FlatList, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import BottomTabBar from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import RecipeImage from '../components/RecipeImage';
 import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
@@ -182,11 +183,7 @@ export default function HomePage() {
                 accessibilityRole="button"
                 accessibilityLabel={`Open ${item.title}`}
               >
-                {item.image !== undefined ? (
-                  <Image source={{ uri: item.image }} style={styles.featuredImage} resizeMode="cover" />
-                ) : (
-                  <View style={[styles.featuredImage, { backgroundColor: '#dfeaec' }]} />
-                )}
+                <RecipeImage uri={item.image} style={styles.featuredImage} iconSize={48} />
                 <View style={styles.featuredOverlay}>
                   <Text style={styles.featuredTitle} numberOfLines={2}>{item.title}</Text>
                   <View style={styles.featuredInfoRow}>
@@ -249,11 +246,7 @@ export default function HomePage() {
                   accessibilityRole="button"
                   accessibilityLabel={`Open ${item.title}`}
                 >
-                  {item.image !== undefined ? (
-                    <Image source={{ uri: item.image }} style={styles.recipeImage} resizeMode="cover" />
-                  ) : (
-                    <View style={[styles.recipeImage, { backgroundColor: '#dfeaec' }]} />
-                  )}
+                  <RecipeImage uri={item.image} style={styles.recipeImage} />
                   <TouchableOpacity
                     style={styles.favoriteButton}
                     onPress={() => toggleFavourite({ id: item.id, title: item.title, image: item.image ?? null })}

@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, FlatList, ActivityIndicator, KeyboardAvoidingView, Platform, Image } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, FlatList, ActivityIndicator, KeyboardAvoidingView, Platform } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import BottomTabBar from '../components/BottomTabBar'; // Assuming you want the BottomTabBar here
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import RecipeImage from '../components/RecipeImage';
 import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useRouter } from 'expo-router'; // Import useRouter if using expo-router
 import { CATEGORIES, categoryType } from '../constants/categories';
@@ -244,9 +245,7 @@ export default function ChefHat() {
                   style={styles.recipeCard}
                   onPress={() => navigateToRecipeDetail(item.id)} // Add onPress handler
                 >
-                  {item.image && (
-                    <Image source={{ uri: item.image }} style={styles.recipeImage} resizeMode="cover" />
-                  )}
+                  <RecipeImage uri={item.image} style={styles.recipeImage} />
                   <View style={styles.recipeInfo}>
                      <Text style={styles.recipeTitle}>{item.title}</Text>
                      {/* You can add more recipe details here if available in API response */}

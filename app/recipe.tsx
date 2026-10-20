@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity, Linking } from 'react-native';
+import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import RecipeImage from '../components/RecipeImage';
 import { ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-router
 import { fetchRecipe } from '../src/api/client';
@@ -142,14 +143,7 @@ export default function RecipeDetailScreen() {
     <View style={styles.container}>
       <ScrollView contentContainerStyle={{ paddingBottom: 120 }}>
         {/* Recipe Image */}
-        {recipe.image ? (
-          <Image source={{ uri: recipe.image }} style={styles.recipeImage} resizeMode="cover" />
-        ) : (
-            <View style={styles.noImageIcon}>
-                 <MaterialCommunityIcons name="food-off" size={80} color="#5f6e7a" />
-                 <Text style={{marginTop: 10, color: '#5f6e7a'}}>No Image Available</Text>
-            </View>
-        )}
+        <RecipeImage uri={recipe.image} style={styles.recipeImage} iconSize={64} />
 
 
         {/* Header Overlay */}
@@ -207,12 +201,11 @@ export default function RecipeDetailScreen() {
           ) : null}
 
           {/* Attribution. Spoonacular's terms require a backlink wherever its
-              data is shown; generated benchmark payloads are labelled as such
-              so they are never mistaken for real recipes. */}
+              data is shown (laptop mode). The generated recipes, which are all
+              the online server has, are labelled as AI-generated instead, so
+              they are never mistaken for real recipes. */}
           {isGeneratedRecipeId(Number(recipeId)) ? (
-            <Text style={styles.attribution}>
-              Generated test recipe from the benchmark dataset, not a real recipe.
-            </Text>
+            <Text style={styles.attribution}>AI-generated recipe (Gemini)</Text>
           ) : (
             <Text style={styles.attribution}>
               Recipe data:{' '}
@@ -359,13 +352,6 @@ const styles = StyleSheet.create({
   recipeImage: {
     width: '100%',
     height: 250, // Adjust height as needed
-  },
-  noImageIcon: {
-      width: '100%',
-      height: 250,
-      backgroundColor: '#f0f0f0',
-      justifyContent: 'center',
-      alignItems: 'center',
   },
   headerOverlay: {
     position: 'absolute',

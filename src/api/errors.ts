@@ -45,27 +45,25 @@ export function describeRequestError(error: unknown, action = 'load'): RequestFa
     };
   }
 
+  // The online server browses its own catalog and calls no recipe service, so
+  // its only limit is the per-phone request rate; 402 cannot come from it.
   if (status === 429) {
     return {
-      title: 'The server has reached its limit',
+      title: online ? 'Too many requests from this phone' : 'The server has reached its limit',
       detail: online
-        ? 'The demo server allows a limited number of requests, and that limit has been reached for now.'
-        : `${message}. The proxy's rate limit or daily Spoonacular budget is used up.`,
+        ? 'The demo server limits how many requests one phone can make in 10 minutes.'
+        : `${message}. The proxy's rate limit is used up.`,
       hint: online
-        ? `Try again in a few minutes; the daily recipe allowance resets at 00:00 UTC. ${OFFLINE_ALTERNATIVE}`
-        : 'Wait for the window to pass, or restart the proxy to reset its counters (local mode has no daily budget).',
+        ? `Try again in a few minutes. ${OFFLINE_ALTERNATIVE}`
+        : 'Wait for the window to pass, or restart the proxy to reset its counters.',
     };
   }
 
-  if (status === 402) {
+  if (status === 402 && !online) {
     return {
       title: 'Recipe quota used up for today',
-      detail: online
-        ? "The recipe service's free daily quota has run out."
-        : `${message}. Spoonacular reports the API key's daily points are used up.`,
-      hint: online
-        ? `Browsing comes back after 00:00 UTC. ${OFFLINE_ALTERNATIVE}`
-        : 'Wait for the daily reset, or use another key in dishcovery-proxy/.env.',
+      detail: `${message}. Spoonacular reports the API key's daily points are used up.`,
+      hint: 'Wait for the daily reset, or use another key in dishcovery-proxy/.env.',
     };
   }
 
@@ -98,8 +96,10 @@ export function describeRequestError(error: unknown, action = 'load'): RequestFa
   if (status === 404) {
     return {
       title: 'Not found',
-      detail: `The proxy at ${url} has no record for this request.`,
-      hint: 'The recipe id may not exist upstream. Try another recipe.',
+      detail: online
+        ? 'This recipe is not in the online catalog.'
+        : `The proxy at ${url} has no record for this request.`,
+      hint: online ? 'Go back and pick another recipe.' : 'The recipe id may not exist upstream. Try another recipe.',
     };
   }
 
@@ -115,9 +115,9 @@ export function describeRequestError(error: unknown, action = 'load'): RequestFa
 
   if (status === 401 || status === 403) {
     return {
-      title: 'Upstream refused the request',
+      title: online ? 'The server refused the request' : 'Upstream refused the request',
       detail: online
-        ? 'The recipe service refused the request.'
+        ? 'The online server refused the request.'
         : `${message}. This is usually the Spoonacular API key — expired, missing, or out of quota.`,
       hint: online ? OFFLINE_ALTERNATIVE : 'Check SPOONACULAR_API_KEY in dishcovery-proxy/.env and the daily quota.',
     };

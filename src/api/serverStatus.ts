@@ -29,7 +29,8 @@ const AWAKE_FOR_MS = 10 * 60_000;
 export interface HealthInfo {
   mode: 'hosted' | 'local' | null;
   datasetTotal: number | null;
-  pointsRemainingToday: number | null;
+  /** Where browsing comes from, e.g. "catalog (150 Gemini-generated recipes)". */
+  source: string | null;
 }
 
 /** Thrown when the current server setting has no server to call. */
@@ -66,7 +67,7 @@ export async function checkHealth(baseUrl: string, timeoutMs: number): Promise<H
     return {
       mode: body.mode === 'hosted' || body.mode === 'local' ? body.mode : null,
       datasetTotal: typeof body.datasetTotal === 'number' ? body.datasetTotal : null,
-      pointsRemainingToday: typeof body.pointsRemainingToday === 'number' ? body.pointsRemainingToday : null,
+      source: typeof body.source === 'string' ? body.source : null,
     };
   } catch (err) {
     if (controller.signal.aborted) {
