@@ -20,21 +20,26 @@
  *                  the app can compare against, because it ships only these
  *                  payloads.
  *
- * per_payload.csv holds one mean decode time per payload, not every decode, so
- * the decode-level sd of time (ms_sd) cannot be computed for the subset and is
- * left null. Every other column can, and the method is checked first: applied
- * to all 250 payloads it must reproduce table_main.csv within a relative 1e-9,
- * or the script fails and writes nothing.
+ * The sd of decode time (ms_sd) is over individual decodes in analyze.py
+ * (raw.deserializationMs.std()), not over payload means, so per_payload.csv
+ * cannot give it: it has no within-payload spread (no per-payload sd or sum of
+ * squares of deserializationMs). It is computed from the raw run CSVs in
+ * runs/final/ instead, which hold every decode.
+ *
+ * The method is checked first: applied to all 250 payloads it must reproduce
+ * every comparable value of table_main.csv within a relative 1e-9, ms_sd
+ * included, or the script fails and writes nothing.
  */
 
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 
 const ARTIFACT = path.resolve(process.argv[2] ?? path.join(import.meta.dirname, '..', '..', 'dishcovery-benchmark-artifact'));
 const TABLE_MAIN = 'analysis/reference_output/table_main.csv';
 const PER_PAYLOAD = 'analysis/reference_output/per_payload.csv';
+const RUNS = 'runs/final';
 const OUT = path.join(import.meta.dirname, '..', 'constants', 'paperResults.generated.ts');
 
 const DOI = '10.5281/zenodo.23410763';
@@ -70,9 +75,9 @@ interface Cell {
   /** Wire size, kB (1 kB = 1000 bytes), mean and sd over payloads. */
   kbMean: number;
   kbSd: number;
-  /** Decode time, ms. msSd is over individual decodes; null where not computable. */
+  /** Decode time, ms, mean and sd over individual decodes. */
   msMean: number;
-  msSd: number | null;
+  msSd: number;
   /** Heap allocated per decode, MB (10^6 bytes), mean and sd over payloads. */
   mbMean: number;
   mbSd: number;
@@ -83,8 +88,28 @@ interface Cell {
   materialisationPct: number | null;
 }
 
-/** analyze.py's table_main definitions, applied to per-payload rows. */
-function tableFrom(pp: Row[]): Cell[] {
+interface Decode {
+  tier: string;
+  format: string;
+  source: string;
+  ms: number;
+}
+
+/** Every decode of the accepted runs in runs/final/. */
+function readRuns(): { decodes: Decode[]; files: Record<string, string> } {
+  const decodes: Decode[] = [];
+  const files: Record<string, string> = {};
+  for (const run of readdirSync(path.join(ARTIFACT, RUNS)).sort()) {
+    const rel = `${RUNS}/${run}/run_${run}.csv`;
+    const { rows, sha256 } = readCsv(rel);
+    files[rel] = sha256;
+    for (const r of rows) decodes.push({ tier: r.tier, format: r.format, source: r.source, ms: Number(r.deserializationMs) });
+  }
+  return { decodes, files };
+}
+
+/** analyze.py's table_main definitions: size and heap over payloads, time over every decode. */
+function tableFrom(pp: Row[], decodes: Decode[]): Cell[] {
   const cells: Cell[] = [];
   for (const tier of TIERS) {
     let base: Cell | null = null;
@@ -93,9 +118,9 @@ function tableFrom(pp: Row[]): Cell[] {
       if (p.length === 0) throw new Error(`no payloads for ${tier}/${format}`);
       const wire = p.map((r) => Number(r.wire));
       const heap = p.map((r) => Number(r.heap));
-      // Every payload has the same number of decodes (30 per run x 3 runs), so
-      // the mean over decodes equals the mean of the per-payload means.
-      const ms = p.map((r) => Number(r.ms));
+      const ms = decodes.filter((d) => d.tier === tier && d.format === format).map((d) => d.ms);
+      // 30 measured decodes per run x 3 runs for every payload.
+      if (ms.length !== p.length * 90) throw new Error(`${tier}/${format}: ${ms.length} decodes for ${p.length} payloads`);
       const cell: Cell = {
         tier,
         format,
@@ -103,7 +128,7 @@ function tableFrom(pp: Row[]): Cell[] {
         kbMean: mean(wire) / 1000,
         kbSd: sd(wire) / 1000,
         msMean: mean(ms),
-        msSd: null,
+        msSd: sd(ms),
         mbMean: mean(heap) / 1e6,
         mbSd: sd(heap) / 1e6,
         kbPctVsJson: null,
@@ -146,12 +171,13 @@ function pooledFrom(rows: Row[]): Cell[] {
 
 const tableMain = readCsv(TABLE_MAIN);
 const perPayload = readCsv(PER_PAYLOAD);
+const runs = readRuns();
 const pooled = pooledFrom(tableMain.rows);
 
 // ── Method check: all 250 payloads must reproduce table_main ──
-const recomputed = tableFrom(perPayload.rows);
+const recomputed = tableFrom(perPayload.rows, runs.decodes);
 const problems: string[] = [];
-const keys = ['payloads', 'kbMean', 'kbSd', 'msMean', 'mbMean', 'mbSd', 'kbPctVsJson', 'msPctVsJson', 'mbPctVsJson', 'materialisationPct'] as const;
+const keys = ['payloads', 'kbMean', 'kbSd', 'msMean', 'msSd', 'mbMean', 'mbSd', 'kbPctVsJson', 'msPctVsJson', 'mbPctVsJson', 'materialisationPct'] as const;
 let compared = 0;
 for (const a of pooled) {
   const b = recomputed.find((c) => c.tier === a.tier && c.format === a.format)!;
@@ -169,11 +195,13 @@ if (problems.length > 0) {
   console.error('Method check FAILED; nothing written.\n' + problems.join('\n'));
   process.exit(1);
 }
-console.log(`method check: ${compared} values of table_main.csv reproduced from per_payload.csv (rtol ${RTOL})`);
+console.log(
+  `method check: ${compared} values of table_main.csv reproduced from per_payload.csv and ${Object.keys(runs.files).length} run CSVs (${runs.decodes.length} decodes, rtol ${RTOL})`
+);
 
 // ── The subset ──
 const generatedRows = perPayload.rows.filter((r) => r.source === 'generated');
-const generatedOnly = tableFrom(generatedRows);
+const generatedOnly = tableFrom(generatedRows, runs.decodes.filter((d) => d.source === 'generated'));
 const generatedPayloads = new Set(generatedRows.map((r) => r.payloadId)).size;
 if (generatedPayloads !== 150) throw new Error(`expected 150 generated payloads, found ${generatedPayloads}`);
 
@@ -195,7 +223,7 @@ const data = {
   source: {
     repository: 'https://github.com/KNLPK/dishcovery-benchmark-artifact',
     artifactCommit,
-    files: { [TABLE_MAIN]: tableMain.sha256, [PER_PAYLOAD]: perPayload.sha256 },
+    files: { [TABLE_MAIN]: tableMain.sha256, [PER_PAYLOAD]: perPayload.sha256, ...runs.files },
   },
   payloadsBySourceAndTier: bySourceTier,
   pooled,
@@ -205,10 +233,10 @@ const data = {
 const out =
   `/**\n * constants/paperResults.generated.ts\n *\n * GENERATED by scripts/build-paper-results.ts. Do not edit by hand.\n *\n` +
   ` * pooled: the paper's table (all 250 payloads), from ${TABLE_MAIN}.\n` +
-  ` * generatedOnly: the 150 generated payloads, computed from ${PER_PAYLOAD};\n` +
-  ` * msSd is null there because per-payload means cannot give a decode-level sd.\n */\n\n` +
+  ` * generatedOnly: the 150 generated payloads, computed from ${PER_PAYLOAD}\n` +
+  ` * and, for decode time, from every decode in ${RUNS}/.\n */\n\n` +
   `export interface PaperCell {\n  tier: 'low' | 'medium' | 'high';\n  format: 'json' | 'msgpack' | 'protobuf';\n` +
-  `  payloads: number;\n  kbMean: number;\n  kbSd: number;\n  msMean: number;\n  msSd: number | null;\n` +
+  `  payloads: number;\n  kbMean: number;\n  kbSd: number;\n  msMean: number;\n  msSd: number;\n` +
   `  mbMean: number;\n  mbSd: number;\n  kbPctVsJson: number | null;\n  msPctVsJson: number | null;\n` +
   `  mbPctVsJson: number | null;\n  materialisationPct: number | null;\n}\n\n` +
   `export const PAPER_RESULTS: {\n  doi: string;\n  doiUrl: string;\n` +

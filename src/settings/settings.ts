@@ -43,9 +43,22 @@ export interface FavouriteRecipe {
   savedAt: number;
 }
 
+/**
+ * Where the app gets recipes from.
+ *   online   the hosted proxy (ONLINE_BASE_URL in constants/api.ts)
+ *   laptop   a proxy on the developer's machine (Metro host, or the manual URL)
+ *   offline  no server: browsing is off, the Quick test uses bundled payloads
+ */
+export type ServerMode = 'online' | 'laptop' | 'offline';
+export const SERVER_MODES: readonly ServerMode[] = ['online', 'laptop', 'offline'];
+
 export interface Settings {
   /** The format every request uses. */
   format: SerializationFormat;
+  /** null until the user picks one; baseUrl.ts then chooses a default. */
+  serverMode: ServerMode | null;
+  /** True once the first-launch welcome has been seen or skipped. */
+  welcomeSeen: boolean;
   /**
    * Manual proxy base URL, e.g. "http://192.168.1.20:3001".
    * null means "derive it from the Metro host" — the normal case.
@@ -62,6 +75,8 @@ export interface Settings {
 
 export const DEFAULT_SETTINGS: Settings = {
   format: 'json',
+  serverMode: null,
+  welcomeSeen: false,
   baseUrlOverride: null,
   favourites: [],
   displayName: '',
@@ -148,6 +163,10 @@ function sanitise(parsed: unknown): Settings {
 
   return {
     format: isFormat(record.format) ? record.format : DEFAULT_SETTINGS.format,
+    serverMode: SERVER_MODES.includes(record.serverMode as ServerMode)
+      ? (record.serverMode as ServerMode)
+      : null,
+    welcomeSeen: record.welcomeSeen === true,
     baseUrlOverride: override,
     favourites: sanitiseFavourites(record.favourites),
     displayName:
@@ -208,6 +227,14 @@ export function setFormat(format: SerializationFormat): void {
 
 export function setBaseUrlOverride(override: string | null): void {
   updateSettings({ baseUrlOverride: override });
+}
+
+export function setServerMode(serverMode: ServerMode): void {
+  updateSettings({ serverMode });
+}
+
+export function markWelcomeSeen(): void {
+  updateSettings({ welcomeSeen: true });
 }
 
 export function setDisplayName(name: string): void {

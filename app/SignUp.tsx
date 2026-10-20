@@ -2,8 +2,13 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { Platform, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { Button, Checkbox, IconButton, TextInput } from 'react-native-paper';
+import { Button, IconButton, TextInput } from 'react-native-paper';
 
+/**
+ * Sign-up is a demo like login: no account is created and nothing is stored.
+ * "Continue as guest" is the main action. The Terms of Use / Privacy Policy
+ * checkbox pointed at documents that do not exist, so it is gone.
+ */
 export default function SignUp() {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
@@ -13,7 +18,6 @@ export default function SignUp() {
   const [confirmPassword, setConfirmPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
-  const [agree, setAgree] = useState(false);
   const [errors, setErrors] = useState({
     fullName: '',
     email: '',
@@ -21,7 +25,6 @@ export default function SignUp() {
     dob: '',
     password: '',
     confirmPassword: '',
-    agree: '',
   });
   const [showDatePicker, setShowDatePicker] = useState(false);
   const router = useRouter();
@@ -40,7 +43,6 @@ export default function SignUp() {
       dob: '',
       password: '',
       confirmPassword: '',
-      agree: '',
     };
     if (!fullName) {
       newErrors.fullName = 'Full name is required';
@@ -72,14 +74,10 @@ export default function SignUp() {
       newErrors.confirmPassword = 'Passwords do not match';
       valid = false;
     }
-    if (!agree) {
-      newErrors.agree = 'You must agree to the Terms of Use and Privacy Policy';
-      valid = false;
-    }
     setErrors(newErrors);
     if (!valid) return;
-    // TODO: Implement sign up logic
-    router.push({ pathname: '/HomePage', params: { username: fullName } });
+    // Demo only: no account is created.
+    router.replace({ pathname: '/HomePage', params: { username: fullName } });
   };
 
   const handleDateChange = (event: any, selectedDate?: Date) => {
@@ -99,6 +97,19 @@ export default function SignUp() {
     <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
       <View style={styles.container}>
         <Text style={styles.title}>Sign Up</Text>
+        <Button
+          mode="contained"
+          style={styles.button}
+          contentStyle={styles.buttonContent}
+          onPress={() => router.replace('/HomePage')}
+          buttonColor="#20515a"
+          textColor="#ffffff"
+        >
+          Continue as guest
+        </Button>
+        <Text style={styles.demoNote}>
+          Demo sign-up — nothing is stored or sent anywhere, and no account is created.
+        </Text>
         <Text style={styles.label}>Full Name</Text>
         <TextInput
           mode="flat"
@@ -163,9 +174,10 @@ export default function SignUp() {
           />
           <IconButton
             icon={showPassword ? 'eye-off' : 'eye'}
-            size={20}
+            size={22}
             onPress={() => setShowPassword(!showPassword)}
             style={styles.eyeIcon}
+            accessibilityLabel={showPassword ? 'Hide password' : 'Show password'}
           />
         </View>
         {!!errors.password && <Text style={styles.error}>{errors.password}</Text>}
@@ -181,29 +193,17 @@ export default function SignUp() {
           />
           <IconButton
             icon={showConfirmPassword ? 'eye-off' : 'eye'}
-            size={20}
+            size={22}
             onPress={() => setShowConfirmPassword(!showConfirmPassword)}
             style={styles.eyeIcon}
+            accessibilityLabel={showConfirmPassword ? 'Hide password' : 'Show password'}
           />
         </View>
         {!!errors.confirmPassword && <Text style={styles.error}>{errors.confirmPassword}</Text>}
-        <View style={styles.checkboxRow}>
-          <View style={{ transform: [{ scale: 0.5 }], borderWidth: 0.5, borderColor: '#000', borderRadius: 4, marginRight: 8 }}>
-            <Checkbox
-              status={agree ? 'checked' : 'unchecked'}
-              onPress={() => setAgree(!agree)}
-              color="#20515a"
-              uncheckedColor="#000"
-            />
-          </View>
-          <Text style={styles.termsText}>
-            I agree to the <Text style={styles.link}>Terms of Use</Text> and <Text style={styles.link}>Privacy Policy</Text>
-          </Text>
-        </View>
-        {!!errors.agree && <Text style={styles.error}>{errors.agree}</Text>}
         <Button
           mode="contained"
           style={styles.button}
+          contentStyle={styles.buttonContent}
           onPress={handleSignUp}
           buttonColor="#abe1e5"
           textColor="#20515a"
@@ -212,7 +212,7 @@ export default function SignUp() {
         </Button>
         <View style={styles.bottomRow}>
           <Text>Already have an account? </Text>
-          <TouchableOpacity onPress={() => router.push('/')}>
+          <TouchableOpacity onPress={() => router.push('/')} style={styles.linkTarget} accessibilityRole="link">
             <Text style={styles.loginLink}>Log In</Text>
           </TouchableOpacity>
         </View>
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   error: {
-    color: 'red',
+    color: '#b3261e',
     marginLeft: 8,
     marginBottom: 8,
     fontSize: 13,
@@ -270,28 +270,29 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   eyeIcon: {
-    marginRight: 4,
+    marginRight: 0,
+    width: 48,
+    height: 48,
     backgroundColor: 'transparent',
   },
   button: {
     borderRadius: 20,
     marginVertical: 8,
-    paddingVertical: 4,
   },
-  checkboxRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginVertical: 8,
+  buttonContent: {
+    minHeight: 48,
   },
-  termsText: {
-    flex: 1,
-    color: '#222',
+  demoNote: {
+    color: '#5f6e7a',
     fontSize: 13,
+    lineHeight: 18,
+    textAlign: 'center',
+    marginHorizontal: 8,
+    marginBottom: 16,
   },
-  link: {
-    color: '#20515a',
-    textDecorationLine: 'underline',
-    fontWeight: 'bold',
+  linkTarget: {
+    minHeight: 48,
+    justifyContent: 'center',
   },
   bottomRow: {
     flexDirection: 'row',

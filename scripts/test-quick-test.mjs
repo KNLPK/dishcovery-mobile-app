@@ -20,6 +20,8 @@ const { runQuickTest, QUICK_TEST_CONFIG } = await import(at("src/quick/quickTest
 const { selectPayloads } = await import(at("src/quick/selection.ts"));
 const { base64ToArrayBuffer, loadOfflineDataset } = await import(at("src/offline/payloads.ts"));
 const { startProxy } = await import(at("scripts/proxyProcess.ts"));
+const { tierSummary } = await import(at("src/quick/summary.ts"));
+const { PAPER_RESULTS } = await import(at("constants/paperResults.generated.ts"));
 const { readFileSync } = await import('node:fs');
 const ok = (c, m) => { console.log(`${c ? 'PASS' : 'FAIL'}  ${m}`); if (!c) process.exitCode = 1; };
 
@@ -44,11 +46,35 @@ for (const t of ['low', 'medium', 'high']) {
 ok(JSON.stringify(selectPayloads([...ds.entries].reverse(), 10).map((e) => e.recipeId)) === JSON.stringify(sel.map((e) => e.recipeId)), 'selection is deterministic (independent of input order)');
 
 const phases = new Set();
+const events = [];
 const t0 = Date.now();
-const r = await runQuickTest({ source: { kind: 'offline' }, onProgress: (p) => phases.add(p.phase) });
+const r = await runQuickTest({ source: { kind: 'offline' }, onProgress: (p) => { phases.add(p.phase); events.push(p); } });
 ok(r.protocol === 'quick-test' && r.label === 'Quick test — not the paper protocol', `result labelled: "${r.label}" (${Date.now() - t0} ms in Node)`);
 ok(r.cells.length === 9 && r.cells.every((c) => c.payloads === 10 && c.decodes === 10 * QUICK_TEST_CONFIG.measuredIterations), `9 cells, each 10 payloads x ${QUICK_TEST_CONFIG.measuredIterations} measured decodes`);
 ok(['loading', 'prewarming', 'calibrating', 'measuring'].every((p) => phases.has(p)), `progress phases: ${[...phases].join(', ')}`);
+const fr = events.map((e) => e.fraction);
+ok(fr.every((f, i) => f >= 0 && f <= 1 && (i === 0 || f >= fr[i - 1])) && fr[fr.length - 1] === 1, `progress fraction rises 0 -> 1 over ${fr.length} events`);
+const blocks = events.filter((e) => e.phase === 'measuring' && e.tier !== undefined && e.format !== undefined);
+ok(blocks.length === 90 && new Set(blocks.map((e) => `${e.tier}/${e.format}`)).size === 9, `measuring reports tier and format for all ${blocks.length} payload x format blocks`);
+
+// Summary lines: generated from the numbers, checked against hand-computed ratios
+const cells = [
+  { tier: 'medium', format: 'json', msMean: 2.3 },
+  { tier: 'medium', format: 'msgpack', msMean: 1.0 },
+  { tier: 'medium', format: 'protobuf', msMean: 1.25 },
+  { tier: 'low', format: 'json', msMean: 1.0 },
+  { tier: 'low', format: 'msgpack', msMean: 1.02 },
+  { tier: 'low', format: 'protobuf', msMean: 1.5 },
+  { tier: 'high', format: 'json', msMean: 1.0 },
+  { tier: 'high', format: 'msgpack', msMean: 2.0 },
+  { tier: 'high', format: 'protobuf', msMean: 3.0 },
+];
+const lines = ['low', 'medium', 'high'].map((t) => tierSummary(cells, t, 'on this phone'));
+ok(lines[1] === 'Medium payloads: MessagePack decoded 2.3× faster than JSON on this phone; Protocol Buffers 1.8× faster.', `summary: ${lines[1]}`);
+ok(lines[0] === 'Low payloads: MessagePack decoded about as fast as JSON on this phone; Protocol Buffers 1.5× slower.', `summary: ${lines[0]}`);
+ok(lines[2] === 'High payloads: JSON decoded fastest on this phone; MessagePack took 2.0× as long, Protocol Buffers 3.0×.', `summary: ${lines[2]}`);
+ok(tierSummary(cells.filter((c) => c.format !== 'protobuf'), 'low', 'x') === null, 'summary: null when a format is missing');
+for (const t of ['low', 'medium', 'high']) console.log(`      paper: ${tierSummary(PAPER_RESULTS.pooled, t, 'in the paper')}`);
 let kbOk = 0;
 for (const c of r.cells) {
   const expect = sel.filter((e) => e.tier === c.tier).reduce((a, e) => a + e.wireBytes[c.format], 0) / 10 / 1000;

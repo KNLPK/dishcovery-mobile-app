@@ -19,10 +19,14 @@
 import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
 import { usePathname, useRouter } from 'expo-router';
 import React from 'react';
-import { StyleSheet, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const ACTIVE = '#20515a';
-const INACTIVE = '#b0b0b0';
+/**
+ * 5.3:1 on white. The old #b0b0b0 was 2.2:1, and the active tab was told apart
+ * by colour alone; each tab now also has a label, bold when active.
+ */
+const INACTIVE = '#5f6e7a';
 
 /**
  * Notifications is deliberately absent.
@@ -54,7 +58,8 @@ export default function BottomTabBar() {
           accessibilityLabel={tab.label}
           accessibilityState={{ selected: pathname === tab.path }}
         >
-          <Feather name={tab.icon} size={26} color={pathname === tab.path ? ACTIVE : INACTIVE} />
+          <Feather name={tab.icon} size={24} color={pathname === tab.path ? ACTIVE : INACTIVE} />
+          <Text style={[styles.tabLabel, pathname === tab.path && styles.tabLabelActive]}>{tab.label}</Text>
         </TouchableOpacity>
       ))}
 
@@ -71,6 +76,7 @@ export default function BottomTabBar() {
           color="#fff"
           style={styles.chefHatIcon}
         />
+        <Text style={[styles.tabLabel, pathname === '/ChefHat' && styles.tabLabelActive]}>Cook</Text>
       </TouchableOpacity>
 
       {TABS.slice(2).map((tab) => (
@@ -82,7 +88,8 @@ export default function BottomTabBar() {
           accessibilityLabel={tab.label}
           accessibilityState={{ selected: pathname === tab.path }}
         >
-          <Feather name={tab.icon} size={26} color={pathname === tab.path ? ACTIVE : INACTIVE} />
+          <Feather name={tab.icon} size={24} color={pathname === tab.path ? ACTIVE : INACTIVE} />
+          <Text style={[styles.tabLabel, pathname === tab.path && styles.tabLabelActive]}>{tab.label}</Text>
         </TouchableOpacity>
       ))}
     </View>
@@ -97,7 +104,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     borderRadius: 30,
     paddingHorizontal: 18,
-    paddingVertical: 10,
+    paddingVertical: 6,
     marginHorizontal: 10,
     marginBottom: 16,
     elevation: 8,
@@ -114,6 +121,18 @@ const styles = StyleSheet.create({
   tabButton: {
     flex: 1,
     alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 48,
+  },
+  tabLabel: {
+    fontSize: 11,
+    lineHeight: 14,
+    color: INACTIVE,
+    marginTop: 2,
+  },
+  tabLabelActive: {
+    color: ACTIVE,
+    fontWeight: '700',
   },
   chefHatButton: {
     alignItems: 'center',

@@ -3,11 +3,13 @@ import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, FlatLi
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import BottomTabBar from '../components/BottomTabBar'; // Assuming you want the BottomTabBar here
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { ErrorState } from '../components/StateViews';
+import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useRouter } from 'expo-router'; // Import useRouter if using expo-router
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
+import { serverRequest } from '../src/api/serverStatus';
+import { useServer } from '../src/api/useServer';
 
 type Ingredient = { name: string; quantity: string };
 
@@ -20,8 +22,11 @@ export default function ChefHat() {
   const [loading, setLoading] = useState(false);
   const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
   const [error, setError] = useState('');
+  const [noMatch, setNoMatch] = useState<string | null>(null);
   const [failure, setFailure] = useState<RequestFailure | null>(null);
   const [last, setLast] = useState<LastMeasurement | null>(null);
+  const [waking, setWaking] = useState(false);
+  const server = useServer();
   const router = useRouter(); // Initialize router if using expo-router
 
   const handleIngredientChange = (index: number, field: 'name' | 'quantity', value: string) => {
@@ -41,7 +46,9 @@ export default function ChefHat() {
 
   const handleFindRecipe = async () => {
     setLoading(true);
+    setWaking(false);
     setError('');
+    setNoMatch(null);
     setFailure(null);
     setRecipes([]); // Clear previous results
     try {
@@ -67,7 +74,10 @@ export default function ChefHat() {
       }
 
       // Same measured path as search and recipe detail, in the app-wide format.
-      const { data, meta } = await searchRecipes(params);
+      const { data, meta } = await serverRequest(() => searchRecipes(params), {
+        what: 'Finding recipes',
+        onWaking: () => setWaking(true),
+      });
       setLast({
         payloadBytes: meta.payloadBytes,
         deserializationMs: meta.deserializationMs,
@@ -78,8 +88,8 @@ export default function ChefHat() {
 
       const results = data.results ?? [];
       if (results.length === 0) {
-          setError(
-            `No recipes matched ${ingredientList.split(',').join(', ')}` +
+          setNoMatch(
+            `Nothing came back for ${ingredientList.split(',').join(', ')}` +
               `${cookTime ? ` under ${cookTime} minutes` : ''} for ${selectedCategory.toLowerCase()}. ` +
               'Try fewer ingredients, or clear the cook time.'
           );
@@ -91,6 +101,7 @@ export default function ChefHat() {
       setFailure(describeRequestError(err, 'find recipes'));
     } finally {
       setLoading(false);
+      setWaking(false);
     }
   };
 
@@ -122,6 +133,7 @@ export default function ChefHat() {
               key={cat.label}
               style={[styles.categoryButton, selectedCategory === cat.label && styles.categoryButtonActive]}
               onPress={() => setSelectedCategory(cat.label)}
+              hitSlop={{ top: 6, bottom: 6 }}
               accessibilityRole="button"
               accessibilityState={{ selected: selectedCategory === cat.label }}
             >
@@ -137,26 +149,26 @@ export default function ChefHat() {
             <TextInput
               style={[styles.input, styles.ingredientNameInput]}
               placeholder="Item name"
-              placeholderTextColor="#b0b0b0"
+              placeholderTextColor="#5f6e7a"
               value={ing.name}
               onChangeText={text => handleIngredientChange(idx, 'name', text)}
             />
             <TextInput
               style={[styles.input, styles.ingredientQuantityInput]}
               placeholder="Quantity"
-              placeholderTextColor="#b0b0b0"
+              placeholderTextColor="#5f6e7a"
               value={ing.quantity}
               onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
               keyboardType="default" // Use numeric if only numbers are allowed
             />
             {ingredients.length > 1 ? (
-              <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton}>
-                 <MaterialCommunityIcons name="minus-circle-outline" size={26} color="#b0b0b0" />
+              <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton} accessibilityRole="button" accessibilityLabel="Remove ingredient">
+                 <MaterialCommunityIcons name="minus-circle-outline" size={26} color="#5f6e7a" />
               </TouchableOpacity>
             ) : (
                // Optional: Add a plus icon on the last row if only one exists
-               <TouchableOpacity onPress={addIngredient} style={styles.iconButton}>
-                  <MaterialCommunityIcons name="plus-circle-outline" size={26} color="#b0b0b0" />
+               <TouchableOpacity onPress={addIngredient} style={styles.iconButton} accessibilityRole="button" accessibilityLabel="Add ingredient">
+                  <MaterialCommunityIcons name="plus-circle-outline" size={26} color="#5f6e7a" />
                </TouchableOpacity>
             )}
           </View>
@@ -178,23 +190,34 @@ export default function ChefHat() {
            <TextInput
               style={styles.detailInput}
               placeholder="45 min"
-              placeholderTextColor="#b0b0b0"
+              placeholderTextColor="#5f6e7a"
               value={cookTime}
               onChangeText={setCookTime}
               keyboardType="numeric" // Use numeric keyboard for time
             />
-           <MaterialCommunityIcons name="arrow-right" size={24} color="#b0b0b0" />
+           <MaterialCommunityIcons name="arrow-right" size={24} color="#5f6e7a" />
         </View>
 
 
         {/* Find Recipe Button */}
-        <TouchableOpacity style={styles.findBtn} onPress={handleFindRecipe} disabled={loading}>
-          {loading ? (
-            <ActivityIndicator color="#fff" />
-          ) : (
-            <Text style={styles.findBtnText}>Find Food Recipe</Text>
-          )}
-        </TouchableOpacity>
+        {server.url === null ? (
+          <NoServerState mode={server.mode} />
+        ) : (
+          <TouchableOpacity
+            style={styles.findBtn}
+            onPress={handleFindRecipe}
+            disabled={loading}
+            accessibilityRole="button"
+            accessibilityState={{ busy: loading, disabled: loading }}
+          >
+            {loading ? (
+              <ActivityIndicator color="#fff" />
+            ) : (
+              <Text style={styles.findBtnText}>Find Food Recipe</Text>
+            )}
+          </TouchableOpacity>
+        )}
+        {loading && <LoadingState label={waking ? WAKING_LABEL : 'Finding recipes…'} />}
 
         {/* Format selector + the last request's measurements */}
         <View style={{ marginTop: 20 }}>
@@ -208,6 +231,7 @@ export default function ChefHat() {
           </View>
         )}
         {error ? <Text style={styles.error}>{error}</Text> : null}
+        {noMatch !== null && <EmptyState title="No recipes matched" detail={noMatch} />}
         {recipes.length > 0 && (
           <View style={{ marginTop: 24 }}>
             <Text style={[styles.sectionTitle, { marginBottom: 10 }]}>Recipes Found:</Text>
@@ -275,7 +299,7 @@ const styles = StyleSheet.create({
          marginTop: 8,
     },
     seeAll: {
-      color: '#7ec8c9',
+      color: '#20515a',
       fontWeight: 'bold',
       fontSize: 14,
     },
@@ -333,11 +357,15 @@ const styles = StyleSheet.create({
       marginRight: 8,
     },
      iconButton: {
-         padding: 2, // Make touchable area larger
+         minWidth: 48,
+         minHeight: 48,
+         alignItems: 'center',
+         justifyContent: 'center',
      },
     addIngredientRow: {
         flexDirection: 'row',
         alignItems: 'center',
+        minHeight: 48,
         marginTop: 4,
         marginBottom: 16,
     },
@@ -389,7 +417,7 @@ const styles = StyleSheet.create({
       fontSize: 16,
     },
     error: {
-      color: 'red',
+      color: '#b3261e',
       marginTop: 10,
       marginBottom: 10,
       textAlign: 'center',

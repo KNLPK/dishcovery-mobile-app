@@ -9,11 +9,16 @@
  * legitimately matched nothing looked identical to a search that had not run.
  */
 
+import { useRouter } from 'expo-router';
 import React from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 
-import { palette, radius, spacing, type } from '../constants/theme';
+import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import type { RequestFailure } from '../src/api/errors';
+import type { ServerMode } from '../src/settings/settings';
+
+/** Shown while the first health check is still waiting on a sleeping server. */
+export const WAKING_LABEL = 'Waking the server… the first request can take up to a minute.';
 
 export function LoadingState({ label }: { label: string }) {
   return (
@@ -49,12 +54,61 @@ export function ErrorState({
   );
 }
 
-export function EmptyState({ title, detail }: { title: string; detail?: string }) {
+export interface StateAction {
+  label: string;
+  onPress: () => void;
+}
+
+export function EmptyState({
+  title,
+  detail,
+  actions = [],
+}: {
+  title: string;
+  detail?: string;
+  actions?: StateAction[];
+}) {
   return (
     <View style={styles.block}>
       <Text style={styles.emptyTitle}>{title}</Text>
       {detail !== undefined && <Text style={styles.emptyDetail}>{detail}</Text>}
+      {actions.length > 0 && (
+        <View style={styles.actions}>
+          {actions.map((a, i) => (
+            <Pressable
+              key={a.label}
+              onPress={a.onPress}
+              style={i === 0 ? styles.retry : styles.secondaryAction}
+              accessibilityRole="button"
+            >
+              <Text style={i === 0 ? styles.retryText : styles.secondaryActionText}>{a.label}</Text>
+            </Pressable>
+          ))}
+        </View>
+      )}
     </View>
+  );
+}
+
+/**
+ * Browsing needs a server; this says so when there is none (offline mode, or
+ * online mode in a build without an online URL) and points to what still works.
+ */
+export function NoServerState({ mode }: { mode: ServerMode }) {
+  const router = useRouter();
+  return (
+    <EmptyState
+      title={mode === 'offline' ? 'Browsing needs a server' : 'No online server in this build'}
+      detail={
+        mode === 'offline'
+          ? 'The app is set to Offline. Recipes come from a server; the Quick test and the paper results work without one.'
+          : 'This build has no online server address yet. Choose Laptop in Server settings, or use the Quick test, which works offline.'
+      }
+      actions={[
+        { label: 'Server settings', onPress: () => router.push('/settings') },
+        { label: 'Quick test', onPress: () => router.push('/quick') },
+      ]}
+    />
   );
 }
 
@@ -103,10 +157,26 @@ const styles = StyleSheet.create({
   retry: {
     alignSelf: 'flex-start',
     marginTop: spacing.sm,
+    minHeight: touchTarget,
+    justifyContent: 'center',
     paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.sm,
     borderRadius: radius.pill,
     backgroundColor: palette.primary,
+  },
+  actions: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'center', gap: spacing.sm },
+  secondaryAction: {
+    marginTop: spacing.sm,
+    minHeight: touchTarget,
+    justifyContent: 'center',
+    paddingHorizontal: spacing.lg,
+    borderRadius: radius.pill,
+    borderWidth: 1,
+    borderColor: palette.border,
+    backgroundColor: palette.surface,
+  },
+  secondaryActionText: {
+    ...type.label,
+    color: palette.primary,
   },
   retryText: {
     ...type.label,

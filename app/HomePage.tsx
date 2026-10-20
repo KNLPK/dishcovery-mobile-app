@@ -1,13 +1,15 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
-import React, { useCallback, useEffect, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Dimensions, FlatList, Image, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
 import BottomTabBar from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { EmptyState, ErrorState, LoadingState } from '../components/StateViews';
+import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
+import { serverRequest } from '../src/api/serverStatus';
+import { useServer } from '../src/api/useServer';
 import { toggleFavourite, useSettings } from '../src/settings/settings';
 
 const { width } = Dimensions.get('window');
@@ -33,6 +35,10 @@ export default function HomePage() {
   const [loading, setLoading] = useState(true);
   const [failure, setFailure] = useState<RequestFailure | null>(null);
   const [last, setLast] = useState<LastMeasurement | null>(null);
+  const [waking, setWaking] = useState(false);
+  const server = useServer();
+  const scrollRef = useRef<ScrollView>(null);
+  const [recipesY, setRecipesY] = useState(0);
 
   // Subscribed so a heart tapped here repaints immediately, and so a recipe
   // saved on the detail screen shows as saved when the user comes back.
@@ -52,15 +58,25 @@ export default function HomePage() {
    * cards lead somewhere and the category chips actually do something.
    */
   const load = useCallback(async () => {
-    setLoading(true);
     setFailure(null);
+    setWaking(false);
+    if (server.url === null) {
+      setRecipes([]);
+      setLoading(false);
+      return;
+    }
+    setLoading(true);
     try {
       const type = categoryType(selectedCategory);
-      const { data, meta } = await searchRecipes({
-        query: selectedCategory,
-        ...(type === null ? {} : { type }),
-        number: HOME_RESULT_COUNT,
-      });
+      const { data, meta } = await serverRequest(
+        () =>
+          searchRecipes({
+            query: selectedCategory,
+            ...(type === null ? {} : { type }),
+            number: HOME_RESULT_COUNT,
+          }),
+        { what: 'Loading recipes', onWaking: () => setWaking(true) }
+      );
       setRecipes(data.results ?? []);
       setLast({
         payloadBytes: meta.payloadBytes,
@@ -74,8 +90,9 @@ export default function HomePage() {
       setRecipes([]);
     } finally {
       setLoading(false);
+      setWaking(false);
     }
-  }, [selectedCategory]);
+  }, [selectedCategory, server.url]);
 
   useEffect(() => {
     load();
@@ -90,11 +107,38 @@ export default function HomePage() {
 
   return (
     <View style={{ flex: 1, backgroundColor: '#f9faf7' }}>
-      <ScrollView style={styles.container} contentContainerStyle={{ paddingBottom: 140 }} showsVerticalScrollIndicator={true}>
-        {/* Welcome Banner */}
+      <ScrollView
+        ref={scrollRef}
+        style={styles.container}
+        contentContainerStyle={{ paddingBottom: 140 }}
+        showsVerticalScrollIndicator={true}
+      >
+        {/* Test it yourself: the study's demo, first thing on the screen */}
         <View style={styles.banner}>
-          <Text style={styles.bannerText}>Welcome to Dishcovery!</Text>
-          <Text style={styles.bannerSubText}>Discover, cook, and enjoy delicious recipes every day.</Text>
+          <Text style={styles.bannerText}>Test it yourself</Text>
+          <Text style={styles.bannerSubText}>
+            See how fast this phone decodes recipes as JSON, MessagePack and Protocol Buffers. About a
+            minute, works offline.
+          </Text>
+          <TouchableOpacity style={styles.bannerButton} onPress={() => router.push('/quick')} accessibilityRole="button">
+            <Text style={styles.bannerButtonText}>Start Quick test</Text>
+          </TouchableOpacity>
+          <View style={styles.bannerLinks}>
+            <TouchableOpacity
+              style={styles.bannerLink}
+              onPress={() => router.push({ pathname: '/results', params: { tab: 'paper' } })}
+              accessibilityRole="button"
+            >
+              <Text style={styles.bannerLinkText}>Paper results</Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={styles.bannerLink}
+              onPress={() => scrollRef.current?.scrollTo({ y: recipesY, animated: true })}
+              accessibilityRole="button"
+            >
+              <Text style={styles.bannerLinkText}>Browse recipes ↓</Text>
+            </TouchableOpacity>
+          </View>
         </View>
         {/* Header */}
         <View style={[styles.headerRow, { marginBottom: 18 }]}>
@@ -104,7 +148,7 @@ export default function HomePage() {
           </View>
           <IconButton
             icon="heart-outline"
-            size={28}
+            size={32}
             style={styles.heartIcon}
             iconColor="#20515a"
             accessibilityLabel="Saved recipes"
@@ -134,13 +178,20 @@ export default function HomePage() {
         </View>
 
         {/* Featured */}
-        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Featured</Text>
-        {loading ? (
-          <LoadingState label={`Loading ${selectedCategory.toLowerCase()} recipes…`} />
+        <Text
+          style={[styles.sectionTitle, { marginBottom: 8 }]}
+          onLayout={(e) => setRecipesY(e.nativeEvent.layout.y)}
+        >
+          Featured
+        </Text>
+        {server.url === null ? (
+          <NoServerState mode={server.mode} />
+        ) : loading ? (
+          <LoadingState label={waking ? WAKING_LABEL : `Loading ${selectedCategory.toLowerCase()} recipes…`} />
         ) : failure !== null ? (
           <ErrorState failure={failure} onRetry={load} />
         ) : featured.length === 0 ? (
-          <EmptyState title="Nothing to show" detail="No recipes came back for this category." />
+          <EmptyState title="Nothing to show" detail="No recipes came back for this category. Try another one." />
         ) : (
           <FlatList
             data={featured}
@@ -176,7 +227,7 @@ export default function HomePage() {
         {/* Category */}
         <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
           <Text style={styles.sectionTitle}>Category</Text>
-          <TouchableOpacity onPress={() => router.navigate('/Search')} accessibilityRole="button">
+          <TouchableOpacity onPress={() => router.navigate('/Search')} style={styles.seeAllTarget} accessibilityRole="button">
             <Text style={styles.seeAll}>Search all</Text>
           </TouchableOpacity>
         </View>
@@ -190,6 +241,7 @@ export default function HomePage() {
             <TouchableOpacity
               style={[styles.categoryButton, selectedCategory === item.label && styles.categoryButtonActive, { marginRight: 16 }]}
               onPress={() => setSelectedCategory(item.label)}
+              hitSlop={{ top: 6, bottom: 6 }}
               accessibilityRole="button"
               accessibilityState={{ selected: selectedCategory === item.label }}
             >
@@ -204,7 +256,7 @@ export default function HomePage() {
         {/* Popular Recipes */}
         <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
           <Text style={styles.sectionTitle}>Popular Recipes</Text>
-          <TouchableOpacity onPress={() => router.navigate('/Search')} accessibilityRole="button">
+          <TouchableOpacity onPress={() => router.navigate('/Search')} style={styles.seeAllTarget} accessibilityRole="button">
             <Text style={styles.seeAll}>Search all</Text>
           </TouchableOpacity>
         </View>
@@ -299,7 +351,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   seeAll: {
-    color: '#7ec8c9',
+    color: '#20515a',
     fontWeight: 'bold',
     alignSelf: 'center',
     marginLeft: 8,
@@ -446,8 +498,45 @@ const styles = StyleSheet.create({
   },
   bannerSubText: {
     fontSize: 15,
+    lineHeight: 21,
     color: '#20515a',
     marginTop: 4,
+    textAlign: 'center',
+  },
+  bannerButton: {
+    alignSelf: 'stretch',
+    minHeight: 48,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#20515a',
+    borderRadius: 24,
+    marginTop: 14,
+  },
+  bannerButtonText: {
+    color: '#ffffff',
+    fontWeight: 'bold',
+    fontSize: 16,
+  },
+  bannerLinks: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    gap: 8,
+    marginTop: 6,
+  },
+  bannerLink: {
+    minHeight: 48,
+    justifyContent: 'center',
+    paddingHorizontal: 12,
+  },
+  bannerLinkText: {
+    color: '#20515a',
+    fontWeight: 'bold',
+    fontSize: 14,
+    textDecorationLine: 'underline',
+  },
+  seeAllTarget: {
+    minHeight: 48,
+    justifyContent: 'center',
   },
   chefCard: {
     alignItems: 'center',

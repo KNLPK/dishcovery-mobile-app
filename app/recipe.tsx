@@ -3,10 +3,12 @@ import { StyleSheet, Text, View, Image, ScrollView, TouchableOpacity, Linking } 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { ErrorState, LoadingState } from '../components/StateViews';
+import { ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-router
 import { fetchRecipe } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
+import { serverRequest } from '../src/api/serverStatus';
+import { useServer } from '../src/api/useServer';
 import { toggleFavourite, useSettings } from '../src/settings/settings';
 import { isGeneratedRecipeId } from '../shared/contract';
 // import { useRoute, useNavigation } from '@react-navigation/native'; // If using React Navigation
@@ -31,6 +33,8 @@ export default function RecipeDetailScreen() {
   const [failure, setFailure] = useState<RequestFailure | null>(null);
   const [last, setLast] = useState<LastMeasurement | null>(null);
   const [activeTab, setActiveTab] = useState('ingredients'); // 'ingredients' or 'instructions'
+  const [waking, setWaking] = useState(false);
+  const server = useServer();
 
   // The app-wide serialization setting. Listed in the effect's dependencies, so
   // switching format on this screen re-fetches this recipe in the new format —
@@ -50,13 +54,22 @@ export default function RecipeDetailScreen() {
       return;
     }
 
+    if (server.url === null) {
+      setLoading(false);
+      return;
+    }
+
     setLoading(true);
+    setWaking(false);
     setFailure(null);
     try {
       // Routed through the measuring client, in whichever format the user has
       // selected. Every format returns the identical canonical document, so
       // rendering below is unaffected by the choice.
-      const { data, meta } = await fetchRecipe(String(recipeId), format);
+      const { data, meta } = await serverRequest(() => fetchRecipe(String(recipeId), format), {
+        what: 'Loading the recipe',
+        onWaking: () => setWaking(true),
+      });
       setRecipe(data);
       setLast({
         payloadBytes: meta.payloadBytes,
@@ -68,18 +81,30 @@ export default function RecipeDetailScreen() {
       setFailure(describeRequestError(err, 'load this recipe'));
     } finally {
       setLoading(false);
+      setWaking(false);
     }
-  }, [recipeId, format]);
+  }, [recipeId, format, server.url]);
 
   useEffect(() => {
     load();
   }, [load]);
 
 
+  if (server.url === null && recipe === null) {
+    return (
+      <View style={styles.centeredPadded}>
+        <NoServerState mode={server.mode} />
+        <TouchableOpacity onPress={() => router.back()} style={styles.backLink} accessibilityRole="button">
+          <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
+        </TouchableOpacity>
+      </View>
+    );
+  }
+
   if (loading && recipe === null) {
     return (
       <View style={styles.centered}>
-        <LoadingState label="Loading recipe…" />
+        <LoadingState label={waking ? WAKING_LABEL : 'Loading recipe…'} />
       </View>
     );
   }
@@ -88,7 +113,7 @@ export default function RecipeDetailScreen() {
     return (
       <View style={styles.centeredPadded}>
         <ErrorState failure={failure} onRetry={load} />
-        <TouchableOpacity onPress={() => router.back()} style={{ marginTop: 20 }}>
+        <TouchableOpacity onPress={() => router.back()} style={styles.backLink} accessibilityRole="button">
           <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
         </TouchableOpacity>
       </View>
@@ -97,8 +122,11 @@ export default function RecipeDetailScreen() {
 
   if (!recipe) {
        return (
-         <View style={styles.centered}>
-           <Text>Recipe not found.</Text>
+         <View style={styles.centeredPadded}>
+           <Text style={{ color: '#1a2b3b', fontSize: 15, fontWeight: '600' }}>Recipe not found.</Text>
+           <TouchableOpacity onPress={() => router.back()} style={styles.backLink} accessibilityRole="button">
+             <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
+           </TouchableOpacity>
          </View>
        );
   }
@@ -118,15 +146,20 @@ export default function RecipeDetailScreen() {
           <Image source={{ uri: recipe.image }} style={styles.recipeImage} resizeMode="cover" />
         ) : (
             <View style={styles.noImageIcon}>
-                 <MaterialCommunityIcons name="food-off" size={80} color="#b0b0b0" />
-                 <Text style={{marginTop: 10, color: '#b0b0b0'}}>No Image Available</Text>
+                 <MaterialCommunityIcons name="food-off" size={80} color="#5f6e7a" />
+                 <Text style={{marginTop: 10, color: '#5f6e7a'}}>No Image Available</Text>
             </View>
         )}
 
 
         {/* Header Overlay */}
         <View style={styles.headerOverlay}>
-          <TouchableOpacity style={styles.closeButton} onPress={() => router.back()}>
+          <TouchableOpacity
+            style={styles.closeButton}
+            onPress={() => router.back()}
+            accessibilityRole="button"
+            accessibilityLabel="Close recipe"
+          >
             <MaterialCommunityIcons name="close" size={24} color="#22313F" />
           </TouchableOpacity>
           <TouchableOpacity
@@ -160,7 +193,7 @@ export default function RecipeDetailScreen() {
           <View style={styles.titleRow}>
             <Text style={styles.recipeTitle}>{recipe.title}</Text>
             <View style={styles.cookTime}>
-              <MaterialCommunityIcons name="clock-outline" size={16} color="#888" />
+              <MaterialCommunityIcons name="clock-outline" size={16} color="#5f6e7a" />
               <Text style={styles.cookTimeText}>{recipe.readyInMinutes} Min</Text>
             </View>
           </View>
@@ -222,12 +255,16 @@ export default function RecipeDetailScreen() {
             <TouchableOpacity
               style={[styles.tabButton, activeTab === 'ingredients' && styles.activeTab]}
               onPress={() => setActiveTab('ingredients')}
+              accessibilityRole="tab"
+              accessibilityState={{ selected: activeTab === 'ingredients' }}
             >
               <Text style={[styles.tabText, activeTab === 'ingredients' && styles.activeTabText]}>Ingredients</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={[styles.tabButton, activeTab === 'instructions' && styles.activeTab]}
               onPress={() => setActiveTab('instructions')}
+              accessibilityRole="tab"
+              accessibilityState={{ selected: activeTab === 'instructions' }}
             >
               <Text style={[styles.tabText, activeTab === 'instructions' && styles.activeTabText]}>Instructions</Text>
             </TouchableOpacity>
@@ -315,7 +352,7 @@ const styles = StyleSheet.create({
       marginBottom: 8,
   },
   errorText: {
-      color: 'red',
+      color: '#b3261e',
       textAlign: 'center',
       padding: 20,
   },
@@ -342,8 +379,8 @@ const styles = StyleSheet.create({
   },
   closeButton: {
       backgroundColor: '#fff',
-      borderRadius: 20,
-      padding: 8,
+      borderRadius: 24,
+      padding: 12,
       elevation: 4, // Shadow for Android
       shadowColor: '#000', // Shadow for iOS
       shadowOffset: { width: 0, height: 2 },
@@ -352,8 +389,8 @@ const styles = StyleSheet.create({
   },
   favoriteButton: {
       backgroundColor: '#fff',
-      borderRadius: 20,
-      padding: 8,
+      borderRadius: 24,
+      padding: 12,
        elevation: 4, // Shadow for Android
       shadowColor: '#000', // Shadow for iOS
       shadowOffset: { width: 0, height: 2 },
@@ -388,7 +425,7 @@ const styles = StyleSheet.create({
   },
   cookTimeText: {
     fontSize: 14,
-    color: '#888',
+    color: '#5f6e7a',
     marginLeft: 4,
   },
   summaryText: {
@@ -398,7 +435,7 @@ const styles = StyleSheet.create({
   },
   attribution: {
     fontSize: 12,
-    color: '#888',
+    color: '#5f6e7a',
     marginBottom: 15,
   },
   attributionLink: {
@@ -432,7 +469,15 @@ const styles = StyleSheet.create({
   tabButton: {
     flex: 1, // Make tabs take equal width
     alignItems: 'center',
+    justifyContent: 'flex-end',
+    minHeight: 48,
     paddingBottom: 10,
+  },
+  backLink: {
+    marginTop: 20,
+    minHeight: 48,
+    justifyContent: 'center',
+    paddingHorizontal: 12,
   },
   activeTab: {
     borderBottomWidth: 2,
@@ -440,7 +485,7 @@ const styles = StyleSheet.create({
   },
   tabText: {
     fontSize: 16,
-    color: '#888',
+    color: '#5f6e7a',
   },
   activeTabText: {
     color: '#20515a',
@@ -486,7 +531,7 @@ const styles = StyleSheet.create({
   },
    noInstructionsText: {
        fontSize: 14,
-       color: '#888',
+       color: '#5f6e7a',
        textAlign: 'center',
        paddingVertical: 20,
    }

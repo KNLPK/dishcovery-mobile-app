@@ -6,11 +6,13 @@ import { IconButton } from 'react-native-paper';
 
 import BottomTabBar from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { EmptyState, ErrorState, LoadingState } from '../components/StateViews';
+import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { palette, radius, shadow, spacing, type as typeScale } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
+import { serverRequest } from '../src/api/serverStatus';
+import { useServer } from '../src/api/useServer';
 
 /**
  * Sample content, shown before a search has run. These are placeholders with
@@ -53,13 +55,16 @@ export default function Search() {
   const [loading, setLoading] = useState(false);
   const [failure, setFailure] = useState<RequestFailure | null>(null);
   const [last, setLast] = useState<LastMeasurement | null>(null);
+  const [waking, setWaking] = useState(false);
+  const server = useServer();
   const router = useRouter();
 
   const runSearch = async (query: string, category: string | null = selectedCategory) => {
     const trimmed = query.trim();
-    if (trimmed.length === 0) return;
+    if (trimmed.length === 0 || server.url === null) return;
 
     setLoading(true);
+    setWaking(false);
     setFailure(null);
     setLastQuery(trimmed);
     try {
@@ -67,11 +72,15 @@ export default function Search() {
       // format is selected app-wide. The chip, when one is active, becomes
       // Spoonacular's `type` filter, exactly as ChefHat uses it.
       const type = categoryType(category);
-      const { data, meta } = await searchRecipes({
-        query: trimmed,
-        ...(type === null ? {} : { type }),
-        number: 10,
-      });
+      const { data, meta } = await serverRequest(
+        () =>
+          searchRecipes({
+            query: trimmed,
+            ...(type === null ? {} : { type }),
+            number: 10,
+          }),
+        { what: 'Search', onWaking: () => setWaking(true) }
+      );
       setResults(data.results ?? []);
       setLast({
         payloadBytes: meta.payloadBytes,
@@ -85,6 +94,7 @@ export default function Search() {
       setResults(null);
     } finally {
       setLoading(false);
+      setWaking(false);
     }
   };
 
@@ -101,14 +111,21 @@ export default function Search() {
       >
         {/* Header */}
         <View style={styles.headerRow}>
-          <IconButton icon="arrow-left" size={22} iconColor={palette.primary} onPress={() => router.navigate('/HomePage')} />
+          <IconButton
+            icon="arrow-left"
+            size={22}
+            iconColor={palette.primary}
+            onPress={() => router.navigate('/HomePage')}
+            style={{ width: 48, height: 48 }}
+            accessibilityLabel="Back to Home"
+          />
           <Text style={styles.headerTitle}>Search</Text>
-          <View style={{ width: 40 }} />
+          <View style={{ width: 48 }} />
         </View>
 
         {/* Search bar */}
         <View style={styles.searchBarWrapper}>
-          <Feather name="search" size={18} color={palette.faint} style={styles.searchIcon} />
+          <Feather name="search" size={18} color={palette.muted} style={styles.searchIcon} />
           <TextInput
             style={styles.searchBar}
             placeholder="Search recipes"
@@ -116,11 +133,11 @@ export default function Search() {
             onChangeText={setSearch}
             onSubmitEditing={() => runSearch(search)}
             returnKeyType="search"
-            placeholderTextColor={palette.faint}
+            placeholderTextColor={palette.muted}
           />
           {search.length > 0 && (
-            <Pressable onPress={() => setSearch('')} hitSlop={10} accessibilityLabel="Clear search">
-              <Feather name="x" size={18} color={palette.faint} />
+            <Pressable onPress={() => setSearch('')} hitSlop={15} accessibilityRole="button" accessibilityLabel="Clear search">
+              <Feather name="x" size={18} color={palette.muted} />
             </Pressable>
           )}
         </View>
@@ -140,6 +157,7 @@ export default function Search() {
                 style={[styles.categoryButton, active && styles.categoryButtonActive]}
                 accessibilityRole="button"
                 accessibilityState={{ selected: active }}
+                hitSlop={{ top: 7, bottom: 7 }}
                 onPress={() => {
                   // Toggle, then re-run the current query so the filter is
                   // visibly applied rather than waiting for the next search.
@@ -169,8 +187,10 @@ export default function Search() {
           )}
         </View>
 
-        {loading ? (
-          <LoadingState label={`Searching for “${lastQuery}”…`} />
+        {server.url === null ? (
+          <NoServerState mode={server.mode} />
+        ) : loading ? (
+          <LoadingState label={waking ? WAKING_LABEL : `Searching for “${lastQuery}”…`} />
         ) : failure !== null ? (
           <ErrorState failure={failure} onRetry={() => runSearch(lastQuery)} />
         ) : results === null ? (
@@ -213,7 +233,7 @@ export default function Search() {
                 <Text style={styles.resultTitle} numberOfLines={2}>
                   {item.title}
                 </Text>
-                <Feather name="chevron-right" size={18} color={palette.faint} />
+                <Feather name="chevron-right" size={18} color={palette.muted} />
               </Pressable>
             ))}
           </View>

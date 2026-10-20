@@ -16,9 +16,9 @@
 
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { palette, radius, shadow, spacing, type } from '../constants/theme';
+import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
 import { describeBaseUrl } from '../src/api/baseUrl';
 import {
   aggregateByFormat,
@@ -30,7 +30,7 @@ import {
   type MetricSample,
   type Summary,
 } from '../src/api/metrics';
-import { normaliseBaseUrl, setBaseUrlOverride, useSettings } from '../src/settings/settings';
+import { useSettings } from '../src/settings/settings';
 
 function fmt(summary: Summary | null, digits: number): string {
   return summary === null ? '—' : summary.mean.toFixed(digits);
@@ -48,10 +48,8 @@ function pct(value: number | null): string {
 
 export default function MetricsScreen() {
   const router = useRouter();
-  const settings = useSettings();
+  useSettings(); // re-render when the server setting changes
   const [samples, setSamples] = useState<MetricSample[]>(getMetrics());
-  const [draftUrl, setDraftUrl] = useState(settings.baseUrlOverride ?? '');
-  const [urlError, setUrlError] = useState<string | null>(null);
 
   useEffect(() => subscribeToMetrics(setSamples), []);
 
@@ -59,31 +57,23 @@ export default function MetricsScreen() {
   const baseline = rows.find((r) => r.format === 'json') ?? null;
   const connection = describeBaseUrl();
 
-  function saveOverride() {
-    const trimmed = draftUrl.trim();
-    if (trimmed.length === 0) {
-      setBaseUrlOverride(null);
-      setUrlError(null);
-      return;
-    }
-    const normalised = normaliseBaseUrl(trimmed);
-    if (normalised === null) {
-      setUrlError('Needs to look like http://192.168.1.20:3001 — scheme, host, port, no path.');
-      return;
-    }
-    setBaseUrlOverride(normalised);
-    setDraftUrl(normalised);
-    setUrlError(null);
-  }
-
   return (
     <ScrollView style={styles.page} contentContainerStyle={styles.content}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} accessibilityRole="button" hitSlop={12}>
+        <Pressable onPress={() => router.back()} accessibilityRole="button" style={styles.headerButton}>
           <Text style={styles.back}>‹ Back</Text>
         </Pressable>
         <Text style={styles.title}>Session measurements</Text>
-        <Pressable onPress={clearMetrics} accessibilityRole="button" hitSlop={12}>
+        <Pressable
+          onPress={() =>
+            Alert.alert('Clear this session’s measurements?', 'The list of requests made since launch is removed.', [
+              { text: 'Cancel', style: 'cancel' },
+              { text: 'Clear', style: 'destructive', onPress: clearMetrics },
+            ])
+          }
+          accessibilityRole="button"
+          style={[styles.headerButton, { alignItems: 'flex-end' }]}
+        >
           <Text style={styles.clear}>Clear</Text>
         </Pressable>
       </View>
@@ -121,52 +111,19 @@ export default function MetricsScreen() {
         </>
       )}
 
-      {/* ── Connection ────────────────────────────────────────────────────── */}
+      {/* ── Connection: details and changes live in Server settings ─────── */}
       <Text style={styles.sectionTitle}>Connection</Text>
       <View style={styles.card}>
         <Text style={styles.connectionUrl}>{connection.url}</Text>
         <Text style={styles.caption}>{connection.explanation}</Text>
-
-        <Text style={styles.fieldLabel}>Manual proxy URL (optional)</Text>
-        <TextInput
-          style={styles.input}
-          value={draftUrl}
-          onChangeText={setDraftUrl}
-          placeholder="leave empty to follow the dev server"
-          placeholderTextColor={palette.faint}
-          autoCapitalize="none"
-          autoCorrect={false}
-          keyboardType="url"
-        />
-        {urlError !== null && <Text style={styles.inputError}>{urlError}</Text>}
-
         <View style={styles.buttonRow}>
-          <Pressable onPress={saveOverride} style={styles.primaryButton} accessibilityRole="button">
-            <Text style={styles.primaryButtonText}>Save</Text>
-          </Pressable>
-          <Pressable
-            onPress={() => {
-              setDraftUrl('');
-              setBaseUrlOverride(null);
-              setUrlError(null);
-            }}
-            style={styles.secondaryButton}
-            accessibilityRole="button"
-          >
-            <Text style={styles.secondaryButtonText}>Use dev server</Text>
+          <Pressable onPress={() => router.push('/settings')} style={styles.secondaryButton} accessibilityRole="button">
+            <Text style={styles.secondaryButtonText}>Server settings</Text>
           </Pressable>
         </View>
       </View>
 
-      <View style={[styles.buttonRow, { marginBottom: spacing.md }]}>
-        <Pressable onPress={() => router.push('/quick')} style={styles.primaryButton} accessibilityRole="button">
-          <Text style={styles.primaryButtonText}>Quick test</Text>
-        </Pressable>
-        <Pressable onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
-          <Text style={styles.secondaryButtonText}>Results</Text>
-        </Pressable>
-      </View>
-
+      <View style={{ height: spacing.md }} />
       <Pressable
         onPress={() => router.push('/benchmark')}
         style={styles.secondaryButton}
@@ -276,7 +233,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
   back: { ...type.label, color: palette.primary },
-  clear: { ...type.label, color: palette.accentDeep },
+  clear: { ...type.label, color: palette.primary },
   title: { ...type.title, color: palette.ink, fontSize: 18 },
   caption: { ...type.caption, color: palette.muted, marginBottom: spacing.md },
   sectionTitle: {
@@ -326,28 +283,11 @@ const styles = StyleSheet.create({
   sampleLabel: { ...type.caption, color: palette.body, flexShrink: 1 },
   sampleNumbers: { ...type.caption, color: palette.muted, fontVariant: ['tabular-nums'] },
   connectionUrl: { ...type.cardTitle, color: palette.ink },
-  fieldLabel: { ...type.caption, color: palette.muted, marginTop: spacing.md },
-  input: {
-    backgroundColor: palette.surfaceTint,
-    borderRadius: radius.sm,
-    borderWidth: 1,
-    borderColor: palette.border,
-    paddingHorizontal: spacing.md,
-    paddingVertical: spacing.sm,
-    marginTop: spacing.xs,
-    color: palette.ink,
-    ...type.body,
-  },
-  inputError: { ...type.caption, color: palette.danger, marginTop: spacing.xs },
   buttonRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },
-  primaryButton: {
-    backgroundColor: palette.primary,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.sm,
-  },
-  primaryButtonText: { ...type.label, color: palette.surface },
+  headerButton: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
   secondaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     borderRadius: radius.pill,
     paddingHorizontal: spacing.lg,
     paddingVertical: spacing.sm,

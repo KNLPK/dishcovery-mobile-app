@@ -17,15 +17,16 @@
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 import React, { useCallback, useEffect, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import BarChart, { pct } from '../components/BarChart';
 import { PAPER_RESULTS, type PaperCell } from '../constants/paperResults.generated';
-import { palette, radius, shadow, spacing, type } from '../constants/theme';
+import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
 import { COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../shared/contract';
 import type { ComplexityTier } from '../shared/contract';
 import type { QuickCell, QuickTestResult } from '../src/quick/quickTest';
 import { deleteQuickTest, listQuickTests, shareQuickTest } from '../src/quick/storage';
+import { tierSummary, type TimedCell } from '../src/quick/summary';
 
 type Tab = 'phone' | 'paper';
 type PaperSet = 'generatedOnly' | 'pooled';
@@ -45,6 +46,30 @@ function paperCell(set: PaperSet, tier: ComplexityTier, format: string): PaperCe
   return PAPER_RESULTS[set].find((c) => c.tier === tier && c.format === format);
 }
 
+/** The three measures, explained once on this screen. */
+const EXPLAINERS = [
+  ['Decode time', 'how long the phone takes to turn the received bytes back into a recipe object (milliseconds; lower is better).'],
+  ['Heap allocation', 'memory the app allocates during one decode (kilobytes; lower is better). It is not peak memory use.'],
+  ['Payload size', 'how many bytes the recipe takes on the wire in that format (kilobytes of 1,000 bytes; smaller is better).'],
+] as const;
+
+/** One summary line per tier, from whichever cells are given. */
+function SummaryLines({ cells, where }: { cells: readonly TimedCell[]; where: string }) {
+  const lines = COMPLEXITY_TIERS.map((tier) => tierSummary(cells, tier, where)).filter(
+    (l): l is string => l !== null
+  );
+  if (lines.length === 0) return null;
+  return (
+    <View style={styles.summary}>
+      {lines.map((line) => (
+        <Text key={line} style={styles.summaryLine}>
+          {line}
+        </Text>
+      ))}
+    </View>
+  );
+}
+
 function when(iso: string): string {
   const d = new Date(iso);
   return `${d.toLocaleDateString()} ${d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`;
@@ -52,13 +77,12 @@ function when(iso: string): string {
 
 export default function ResultsScreen() {
   const router = useRouter();
-  const params = useLocalSearchParams<{ id?: string }>();
-  const [tab, setTab] = useState<Tab>('phone');
+  const params = useLocalSearchParams<{ id?: string; tab?: string }>();
+  const [tab, setTab] = useState<Tab>(params.tab === 'paper' ? 'paper' : 'phone');
   const [tests, setTests] = useState<QuickTestResult[] | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(params.id ?? null);
   const [comparison, setComparison] = useState<PaperSet>('generatedOnly');
   const [paperSet, setPaperSet] = useState<PaperSet>('pooled');
-  const [confirmDelete, setConfirmDelete] = useState(false);
 
   const refresh = useCallback(async () => {
     const all = await listQuickTests();
@@ -75,11 +99,11 @@ export default function ResultsScreen() {
   return (
     <ScrollView style={styles.page} contentContainerStyle={styles.content}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} hitSlop={12} accessibilityRole="button">
+        <Pressable onPress={() => router.back()} style={styles.headerButton} accessibilityRole="button">
           <Text style={styles.back}>‹ Back</Text>
         </Pressable>
         <Text style={styles.title}>Results</Text>
-        <View style={{ width: 48 }} />
+        <View style={{ width: touchTarget }} />
       </View>
 
       <View style={styles.tabs} accessibilityRole="tablist">
@@ -105,28 +129,38 @@ export default function ResultsScreen() {
         <PhoneTab
           tests={tests}
           selected={selected}
-          onSelect={(id) => {
-            setSelectedId(id);
-            setConfirmDelete(false);
-          }}
+          onSelect={setSelectedId}
           comparison={comparison}
           onComparison={setComparison}
           onRun={() => router.push('/quick')}
-          confirmDelete={confirmDelete}
-          onDelete={async () => {
+          onDelete={() => {
             if (selected === null) return;
-            if (!confirmDelete) {
-              setConfirmDelete(true);
-              return;
-            }
-            await deleteQuickTest(selected.id);
-            setConfirmDelete(false);
-            await refresh();
+            Alert.alert('Delete this Quick test?', `${when(selected.startedAt)}. This cannot be undone.`, [
+              { text: 'Cancel', style: 'cancel' },
+              {
+                text: 'Delete',
+                style: 'destructive',
+                onPress: async () => {
+                  await deleteQuickTest(selected.id);
+                  await refresh();
+                },
+              },
+            ]);
           }}
         />
       ) : (
         <PaperTab set={paperSet} onSet={setPaperSet} />
       )}
+
+      <View style={styles.explainer}>
+        <Text style={styles.explainerTitle}>What the bars show</Text>
+        {EXPLAINERS.map(([term, text]) => (
+          <Text key={term} style={styles.explainerLine}>
+            <Text style={styles.explainerTerm}>{term}: </Text>
+            {text}
+          </Text>
+        ))}
+      </View>
     </ScrollView>
   );
 }
@@ -140,7 +174,6 @@ function PhoneTab({
   comparison,
   onComparison,
   onRun,
-  confirmDelete,
   onDelete,
 }: {
   tests: QuickTestResult[] | null;
@@ -149,7 +182,6 @@ function PhoneTab({
   comparison: PaperSet;
   onComparison: (s: PaperSet) => void;
   onRun: () => void;
-  confirmDelete: boolean;
   onDelete: () => void;
 }) {
   if (tests === null) return <Text style={styles.note}>Loading…</Text>;
@@ -199,6 +231,8 @@ function PhoneTab({
         </ScrollView>
       )}
 
+      <SummaryLines cells={selected.cells} where="on this phone" />
+
       <Text style={styles.section}>Compare with</Text>
       <Segmented
         value={comparison}
@@ -209,7 +243,8 @@ function PhoneTab({
         onChange={onComparison}
       />
       <Text style={styles.note}>
-        Solid bars: this phone. Thin outlined bars: the paper ({SET_LABEL[comparison].toLowerCase()}).
+        Solid bars, labelled “this phone”: your Quick test. Thin outlined bars, labelled “paper”: the
+        published numbers ({SET_LABEL[comparison].toLowerCase()}).
         {comparison === 'generatedOnly'
           ? ' The Quick test uses generated payloads only, so this is the like-for-like comparison.'
           : ` The paper's low tier also includes ${PAPER_RESULTS.payloadsBySourceAndTier.spoonacular?.low ?? 0} Spoonacular recipes, which the app does not ship.`}{' '}
@@ -223,19 +258,22 @@ function PhoneTab({
             title="Decode time"
             unit="ms"
             digits={2}
+            valueLabel="this phone"
             compareLabel="paper"
             rows={SERIALIZATION_FORMATS.map((f) => ({
               format: f,
               value: cell(tier, f)?.msMean ?? null,
+              sd: cell(tier, f)?.msSd ?? null,
               pctVsJson: cell(tier, f)?.msPctVsJson ?? null,
               compare: paperCell(comparison, tier, f)?.msMean ?? null,
               comparePct: paperCell(comparison, tier, f)?.msPctVsJson ?? null,
             }))}
           />
           <BarChart
-            title="Memory allocated per decode"
+            title="Heap allocation"
             unit="kB"
             digits={0}
+            valueLabel="this phone"
             compareLabel="paper"
             rows={SERIALIZATION_FORMATS.map((f) => {
               const mb = cell(tier, f)?.mbMean ?? null;
@@ -253,6 +291,7 @@ function PhoneTab({
             title="Payload size"
             unit="kB"
             digits={1}
+            valueLabel="this phone"
             compareLabel="paper"
             rows={SERIALIZATION_FORMATS.map((f) => ({
               format: f,
@@ -271,7 +310,7 @@ function PhoneTab({
 
       {selected.cells.some((c) => c.mbMean === null) && (
         <Text style={styles.note}>
-          Memory is blank where this build exposes no heap counter (it needs the Hermes engine).
+          Heap allocation is blank where this build exposes no heap counter (it needs the Hermes engine).
         </Text>
       )}
 
@@ -283,9 +322,7 @@ function PhoneTab({
           <Text style={styles.secondaryButtonText}>Share as file</Text>
         </Pressable>
         <Pressable onPress={onDelete} style={styles.secondaryButton} accessibilityRole="button">
-          <Text style={[styles.secondaryButtonText, { color: palette.danger }]}>
-            {confirmDelete ? 'Tap again to delete' : 'Delete'}
-          </Text>
+          <Text style={[styles.secondaryButtonText, { color: palette.danger }]}>Delete</Text>
         </Pressable>
       </View>
     </>
@@ -329,6 +366,8 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
             `${spoonLow} Spoonacular recipes are left out. This is what the Quick test compares against by default.`}
       </Text>
 
+      <SummaryLines cells={PAPER_RESULTS[set]} where="in the paper" />
+
       {COMPLEXITY_TIERS.map((tier) => {
         const cells = SERIALIZATION_FORMATS.map((f) => paperCell(set, tier, f));
         return (
@@ -343,16 +382,18 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
               rows={SERIALIZATION_FORMATS.map((f, i) => ({
                 format: f,
                 value: cells[i]?.msMean ?? null,
+                sd: cells[i]?.msSd ?? null,
                 pctVsJson: cells[i]?.msPctVsJson ?? null,
               }))}
             />
             <BarChart
-              title="Memory allocated per decode"
+              title="Heap allocation"
               unit="kB"
               digits={0}
               rows={SERIALIZATION_FORMATS.map((f, i) => ({
                 format: f,
                 value: cells[i] === undefined ? null : cells[i]!.mbMean * 1000,
+                sd: cells[i] === undefined ? null : cells[i]!.mbSd * 1000,
                 pctVsJson: cells[i]?.mbPctVsJson ?? null,
               }))}
             />
@@ -363,6 +404,7 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
               rows={SERIALIZATION_FORMATS.map((f, i) => ({
                 format: f,
                 value: cells[i]?.kbMean ?? null,
+                sd: cells[i]?.kbSd ?? null,
                 pctVsJson: cells[i]?.kbPctVsJson ?? null,
               }))}
             />
@@ -377,11 +419,8 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
       })}
 
       <Text style={styles.note}>
-        Sizes in kB of 1,000 bytes. Memory is the heap allocated during one decode (Hermes
-        js_totalAllocatedBytes), not peak memory.
-        {set === 'generatedOnly'
-          ? ' The spread of decode times over individual decodes is not shown for this subset: the published per-payload data holds one mean per payload.'
-          : ''}
+        ± is the standard deviation: of decode time over individual decodes, of heap allocation and
+        size over payloads, as in the paper. Heap allocation is Hermes js_totalAllocatedBytes.
       </Text>
       <Text style={styles.provenance} selectable>
         Source: {PAPER_RESULTS.source.repository} @ {PAPER_RESULTS.source.artifactCommit.slice(0, 7)}
@@ -426,7 +465,28 @@ const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.md },
-  back: { ...type.label, color: palette.primary },
+  headerButton: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
+  back: { ...type.label, fontSize: 14, color: palette.primary },
+  summary: {
+    marginTop: spacing.md,
+    backgroundColor: palette.surface,
+    borderRadius: radius.md,
+    borderLeftWidth: 4,
+    borderLeftColor: palette.primary,
+    padding: spacing.md,
+    gap: spacing.sm,
+  },
+  summaryLine: { ...type.body, color: palette.ink },
+  explainer: {
+    marginTop: spacing.xl,
+    backgroundColor: palette.surfaceTint,
+    borderRadius: radius.md,
+    padding: spacing.md,
+    gap: spacing.xs,
+  },
+  explainerTitle: { ...type.cardTitle, color: palette.ink },
+  explainerLine: { ...type.caption, color: palette.body, lineHeight: 16 },
+  explainerTerm: { fontWeight: '700', color: palette.ink },
   title: { ...type.section, color: palette.ink },
   tabs: {
     flexDirection: 'row',
@@ -435,7 +495,7 @@ const styles = StyleSheet.create({
     padding: 3,
     marginBottom: spacing.lg,
   },
-  tab: { flex: 1, paddingVertical: spacing.sm, borderRadius: radius.pill, alignItems: 'center' },
+  tab: { flex: 1, minHeight: touchTarget - 6, justifyContent: 'center', borderRadius: radius.pill, alignItems: 'center' },
   tabActive: { backgroundColor: palette.surface, ...shadow.card },
   tabText: { ...type.label, color: palette.muted },
   tabTextActive: { color: palette.primary },
@@ -455,7 +515,8 @@ const styles = StyleSheet.create({
     borderColor: palette.border,
     backgroundColor: palette.surface,
     paddingHorizontal: spacing.md,
-    paddingVertical: 6,
+    minHeight: touchTarget,
+    justifyContent: 'center',
   },
   chipActive: { borderColor: palette.primary, backgroundColor: palette.surfaceCool },
   chipText: { ...type.caption, color: palette.body },
@@ -468,7 +529,8 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: palette.border,
     backgroundColor: palette.surface,
-    paddingVertical: spacing.sm,
+    minHeight: touchTarget,
+    justifyContent: 'center',
     paddingHorizontal: spacing.sm,
     alignItems: 'center',
   },
@@ -487,22 +549,24 @@ const styles = StyleSheet.create({
   cardTitle: { ...type.cardTitle, color: palette.primary },
   body: { ...type.body, color: palette.body, marginTop: spacing.xs },
   note: { ...type.caption, color: palette.muted, marginTop: spacing.sm, lineHeight: 16 },
-  link: { ...type.label, color: palette.primary, textDecorationLine: 'underline', marginTop: spacing.md },
+  link: { ...type.label, fontSize: 14, color: palette.primary, textDecorationLine: 'underline', paddingVertical: 14 },
   provenance: { fontFamily: 'monospace', fontSize: 10, lineHeight: 14, color: palette.muted, marginTop: spacing.md },
   empty: { alignItems: 'flex-start', paddingVertical: spacing.xl },
   emptyTitle: { ...type.section, color: palette.ink },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.xl },
   primaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     backgroundColor: palette.primary,
     borderRadius: radius.pill,
     paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.md,
   },
   primaryButtonText: { ...type.label, fontSize: 14, color: palette.surface },
   secondaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     borderRadius: radius.pill,
     paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.md,
     borderWidth: 1,
     borderColor: palette.border,
     backgroundColor: palette.surface,

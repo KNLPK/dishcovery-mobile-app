@@ -16,15 +16,18 @@ export const palette = {
   primary: '#20515a',
   /** Accent: active chips, banners. */
   accent: '#abe1e5',
-  /** Secondary accent: links and "view all". */
+  /** Secondary accent for fills (progress bars). Too light for text: 1.9:1 on white. */
   accentDeep: '#7ec8c9',
   /** Heading ink, slightly warmer than primary. */
   ink: '#1a2b3b',
   /** Body copy. */
   body: '#3d4d5c',
-  /** Secondary copy, timestamps, units. */
-  muted: '#7b8a97',
-  /** Placeholder and disabled. */
+  /**
+   * Secondary copy, timestamps, units, placeholders. Darkened from #7b8a97
+   * (3.5:1 on white) to reach 4.5:1 on every light surface the app uses.
+   */
+  muted: '#5f6e7a',
+  /** Decorative only (dividers, disabled fills); never for text or meaning. */
   faint: '#b0b0b0',
 
   /** Page backgrounds already in use. */
@@ -53,6 +56,9 @@ export const formatColors = {
   msgpack: '#3d9fa3',
   protobuf: '#d08a2e',
 } as const;
+
+/** Minimum touch target, in dp (Android accessibility guideline). */
+export const touchTarget = 48;
 
 /** 4-point spacing scale. */
 export const spacing = {

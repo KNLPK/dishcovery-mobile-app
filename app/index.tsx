@@ -1,8 +1,15 @@
-import { useRouter } from 'expo-router';
+import { Redirect, useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { Button, IconButton, TextInput } from 'react-native-paper';
 
+import { getSettings } from '../src/settings/settings';
+
+/**
+ * Login is a demo: there is no account system, nothing is sent or stored, and
+ * any well-formed email signs in. "Continue as guest" is therefore the main
+ * action. The forgot-password and social buttons, which did nothing, are gone.
+ */
 export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -49,16 +56,33 @@ export default function Login() {
     }
     
     // Navigate to HomePage with username
-    router.push({ 
-      pathname: '/HomePage', 
-      params: { username: username.charAt(0).toUpperCase() + username.slice(1) } 
+    router.replace({
+      pathname: '/HomePage',
+      params: { username: username.charAt(0).toUpperCase() + username.slice(1) },
     });
   };
+
+  // First launch: the short introduction comes first.
+  if (!getSettings().welcomeSeen) return <Redirect href="/welcome" />;
 
   return (
     <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
       <View style={styles.container}>
-        <Text style={styles.title}>Login</Text>
+        <Text style={styles.title}>Dishcovery</Text>
+        <Button
+          mode="contained"
+          style={styles.button}
+          contentStyle={styles.buttonContent}
+          onPress={() => router.replace('/HomePage')}
+          buttonColor="#20515a"
+          textColor="#ffffff"
+        >
+          Continue as guest
+        </Button>
+        <Text style={styles.demoNote}>
+          Demo login — nothing is stored or sent anywhere. Any email and a 6-character password work.
+        </Text>
+        <Text style={styles.divider}>or log in</Text>
         <Text style={styles.label}>Email</Text>
         <TextInput
           mode="flat"
@@ -82,43 +106,26 @@ export default function Login() {
           />
           <IconButton
             icon={showPassword ? 'eye-off' : 'eye'}
-            size={20}
+            size={22}
             onPress={() => setShowPassword(!showPassword)}
             style={styles.eyeIcon}
+            accessibilityLabel={showPassword ? 'Hide password' : 'Show password'}
           />
         </View>
         {!!passwordError && <Text style={styles.error}>{passwordError}</Text>}
         <Button
           mode="contained"
           style={styles.button}
+          contentStyle={styles.buttonContent}
           onPress={handleLogin}
           buttonColor="#abe1e5"
           textColor="#20515a"
         >
           Log In
         </Button>
-        <Button
-          mode="contained"
-          style={styles.button}
-          onPress={() => router.push('/SignUp')}
-          buttonColor="#abe1e5"
-          textColor="#20515a"
-        >
-          Sign Up
-        </Button>
-        <TouchableOpacity>
-          <Text style={styles.forgot}>Forgot Password?</Text>
-        </TouchableOpacity>
-        <Text style={styles.orSignUpWith}>or sign up with</Text>
-        <View style={styles.socialRow}>
-          <IconButton icon="instagram" size={24} />
-          <IconButton icon="google" size={24} />
-          <IconButton icon="facebook" size={24} />
-          <IconButton icon="whatsapp" size={24} />
-        </View>
         <View style={styles.bottomRow}>
-          <Text>Don't have an account? </Text>
-          <TouchableOpacity onPress={() => router.push('/SignUp')}>
+          <Text style={styles.bottomText}>Don&apos;t have an account? </Text>
+          <TouchableOpacity onPress={() => router.push('/SignUp')} style={styles.linkTarget} accessibilityRole="link">
             <Text style={styles.signUpLink}>Sign Up</Text>
           </TouchableOpacity>
         </View>
@@ -158,7 +165,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   error: {
-    color: 'red',
+    color: '#b3261e',
     marginLeft: 8,
     marginBottom: 8,
     fontSize: 13,
@@ -176,30 +183,37 @@ const styles = StyleSheet.create({
     paddingHorizontal: 12,
   },
   eyeIcon: {
-    marginRight: 4,
+    marginRight: 0,
+    width: 48,
+    height: 48,
     backgroundColor: 'transparent',
   },
   button: {
     borderRadius: 20,
     marginVertical: 8,
-    paddingVertical: 4,
   },
-  forgot: {
+  buttonContent: {
+    minHeight: 48,
+  },
+  demoNote: {
+    color: '#5f6e7a',
+    fontSize: 13,
+    lineHeight: 18,
+    textAlign: 'center',
+    marginHorizontal: 8,
+  },
+  divider: {
     alignSelf: 'center',
-    marginVertical: 8,
-    fontWeight: 'bold',
+    marginTop: 24,
+    marginBottom: 8,
+    color: '#5f6e7a',
+  },
+  bottomText: {
     color: '#222',
   },
-  orSignUpWith: {
-    alignSelf: 'center',
-    marginTop: 16,
-    marginBottom: 8,
-    color: '#888',
-  },
-  socialRow: {
-    flexDirection: 'row',
+  linkTarget: {
+    minHeight: 48,
     justifyContent: 'center',
-    marginBottom: 16,
   },
   bottomRow: {
     flexDirection: 'row',

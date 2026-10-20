@@ -54,7 +54,7 @@ export default function Profile() {
                   value={draftName}
                   onChangeText={setDraftName}
                   placeholder="Your name"
-                  placeholderTextColor="#b0b0b0"
+                  placeholderTextColor="#5f6e7a"
                   autoFocus
                   maxLength={40}
                   onSubmitEditing={() => {
@@ -67,6 +67,7 @@ export default function Profile() {
                     setDisplayName(draftName);
                     setEditingName(false);
                   }}
+                  style={{ minHeight: 48, justifyContent: 'center', paddingHorizontal: 8 }}
                   accessibilityRole="button"
                 >
                   <Text style={styles.nameSave}>Save</Text>
@@ -110,6 +111,29 @@ export default function Profile() {
                 <MaterialCommunityIcons name="chart-line" size={22} color="#20515a" />
                 <Text style={styles.statLabel}>Metrics</Text>
               </TouchableOpacity>
+            </View>
+            {/* Study screens and the server setting */}
+            <View style={styles.linkList}>
+              {(
+                [
+                  ['chart-bar', 'Results', 'Your Quick tests and the paper results', '/results'],
+                  ['server-network', 'Server settings', 'Online, Laptop or Offline', '/settings'],
+                ] as const
+              ).map(([icon, label, detail, path]) => (
+                <TouchableOpacity
+                  key={path}
+                  style={styles.linkRow}
+                  onPress={() => router.push(path)}
+                  accessibilityRole="button"
+                >
+                  <MaterialCommunityIcons name={icon} size={22} color="#20515a" />
+                  <View style={{ flex: 1 }}>
+                    <Text style={styles.linkLabel}>{label}</Text>
+                    <Text style={styles.linkDetail}>{detail}</Text>
+                  </View>
+                  <MaterialCommunityIcons name="chevron-right" size={22} color="#5f6e7a" />
+                </TouchableOpacity>
+              ))}
             </View>
             {/* Divider */}
             <View style={styles.divider} />
@@ -161,6 +185,25 @@ export default function Profile() {
 }
 
 const styles = StyleSheet.create({
+  linkList: {
+    marginTop: 8,
+  },
+  linkRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    minHeight: 56,
+    paddingVertical: 6,
+  },
+  linkLabel: {
+    color: '#20515a',
+    fontSize: 15,
+    fontWeight: 'bold',
+  },
+  linkDetail: {
+    color: '#5f6e7a',
+    fontSize: 12,
+  },
   container: {
     flex: 1,
     backgroundColor: '#fff',
@@ -244,7 +287,7 @@ const styles = StyleSheet.create({
     color: '#22313F',
   },
   statLabel: {
-    color: '#888',
+    color: '#5f6e7a',
     fontSize: 12,
   },
   favHeaderRow: {

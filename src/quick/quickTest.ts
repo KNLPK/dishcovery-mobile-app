@@ -82,7 +82,17 @@ export interface QuickProgress {
   done: number;
   total: number;
   label: string;
+  /** Overall progress, 0 to 1, across all phases. */
+  fraction: number;
+  /** While measuring: the tier and format being decoded now. */
+  tier?: ComplexityTier;
+  format?: SerializationFormat;
 }
+
+/** Share of the progress bar each phase fills before measuring starts. */
+const LOADED_AT = 0.05;
+const PREWARMED_AT = 0.15;
+const CALIBRATED_AT = 0.2;
 
 /** Keeps decoded results reachable so the engine cannot skip the work. */
 let sink: unknown = null;
@@ -121,7 +131,7 @@ export async function runQuickTest(options: {
   const config = QUICK_TEST_CONFIG;
 
   // ── Payloads: all bytes in memory before anything is measured ──
-  onProgress?.({ phase: 'loading', done: 0, total: 1, label: 'loading payloads' });
+  onProgress?.({ phase: 'loading', done: 0, total: 1, label: 'loading payloads', fraction: 0 });
   await yieldToUi();
   const offline = loadOfflineDataset();
   const selected = selectPayloads(offline.entries, config.payloadsPerTier);
@@ -140,7 +150,13 @@ export async function runQuickTest(options: {
         );
         fetched++;
         if (fetched % 9 === 0) {
-          onProgress?.({ phase: 'loading', done: fetched, total: selected.length * 3, label: 'downloading payloads' });
+          onProgress?.({
+            phase: 'loading',
+            done: fetched,
+            total: selected.length * 3,
+            label: 'downloading payloads',
+            fraction: (LOADED_AT * fetched) / (selected.length * 3),
+          });
         }
       }
     }
@@ -160,12 +176,23 @@ export async function runQuickTest(options: {
       done: SERIALIZATION_FORMATS.indexOf(format) + 1,
       total: SERIALIZATION_FORMATS.length,
       label: `${format} x ${config.prewarmDecodesPerFormat}`,
+      fraction:
+        LOADED_AT +
+        ((PREWARMED_AT - LOADED_AT) * (SERIALIZATION_FORMATS.indexOf(format) + 1)) / SERIALIZATION_FORMATS.length,
+      format,
     });
     await yieldToUi();
   }
 
   // ── Bracket offset, as in the paper runner ──
-  onProgress?.({ phase: 'calibrating', done: 0, total: 1, label: 'measuring the heap counter offset' });
+  onProgress?.({
+    phase: 'calibrating',
+    done: 0,
+    total: 1,
+    label: 'measuring the heap counter offset',
+    fraction: PREWARMED_AT,
+  });
+  await yieldToUi();
   const offset = calibrateBracket(config.calibrationRepeats).stats?.mean ?? null;
 
   // ── Measurement ──
@@ -178,10 +205,25 @@ export async function runQuickTest(options: {
   }
   const observations: Obs[] = [];
 
+  const units = selected.length * SERIALIZATION_FORMATS.length;
   for (let i = 0; i < selected.length; i++) {
     if (shouldStop?.() === true) return null;
     const entry = selected[i];
     for (const format of SERIALIZATION_FORMATS) {
+      // Reported, and the UI given a frame, between blocks only: never inside
+      // the warm-up + measured decodes of a block.
+      const unit = i * SERIALIZATION_FORMATS.length + SERIALIZATION_FORMATS.indexOf(format);
+      onProgress?.({
+        phase: 'measuring',
+        done: i,
+        total: selected.length,
+        label: `${entry.tier} ${entry.recipeId}`,
+        fraction: CALIBRATED_AT + ((1 - CALIBRATED_AT) * unit) / units,
+        tier: entry.tier,
+        format,
+      });
+      await yieldToUi();
+      if (shouldStop?.() === true) return null;
       const codec = getCodec(format);
       const bytes = buffers.get(k(entry.recipeId, format))!;
       for (let w = 0; w < config.warmupIterations; w++) {
@@ -196,9 +238,8 @@ export async function runQuickTest(options: {
       }
       observations.push(obs);
     }
-    onProgress?.({ phase: 'measuring', done: i + 1, total: selected.length, label: `${entry.tier} ${entry.recipeId}` });
-    await yieldToUi();
   }
+  onProgress?.({ phase: 'measuring', done: selected.length, total: selected.length, label: 'done', fraction: 1 });
   void sink;
 
   // ── Summary, with the paper table's definitions ──

@@ -8,11 +8,11 @@
 
 import { useRouter } from 'expo-router';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { palette, radius, spacing, type } from '../constants/theme';
+import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import { BENCHMARK_CONFIG } from '../shared/contract';
-import { describeBaseUrl } from '../src/api/baseUrl';
+import { serverBaseUrl } from '../src/api/baseUrl';
 import { describeRequestError } from '../src/api/errors';
 import { captureEnvironment } from '../src/bench/environment';
 import {
@@ -22,8 +22,23 @@ import {
   type QuickProgress,
 } from '../src/quick/quickTest';
 import { listQuickTests, saveQuickTest } from '../src/quick/storage';
+import { FORMAT_NAMES } from '../src/quick/summary';
 
 type SourceChoice = 'offline' | 'server';
+
+const TIER_NAMES = { low: 'Low', medium: 'Medium', high: 'High' } as const;
+
+/** Remaining time from the rate so far; null until measuring is under way. */
+function remainingSeconds(p: QuickProgress, elapsedMs: number): number | null {
+  if (p.phase !== 'measuring' || p.fraction <= 0.22 || p.fraction >= 1) return null;
+  return Math.max(1, Math.round(((elapsedMs / p.fraction) * (1 - p.fraction)) / 1000));
+}
+
+function describeRemaining(seconds: number | null): string {
+  if (seconds === null) return 'Estimating time left…';
+  if (seconds < 60) return `About ${seconds} s left`;
+  return `About ${Math.round(seconds / 60)} min left`;
+}
 
 export default function QuickTestScreen() {
   const router = useRouter();
@@ -33,9 +48,12 @@ export default function QuickTestScreen() {
   const [error, setError] = useState<string | null>(null);
   const [savedCount, setSavedCount] = useState(0);
   const stop = useRef(false);
+  const [stopping, setStopping] = useState(false);
+  const startedAt = useRef(0);
+  const [now, setNow] = useState(0);
 
   const environment = useMemo(() => captureEnvironment(null), []);
-  const connection = describeBaseUrl();
+  const serverUrl = serverBaseUrl();
   const c = QUICK_TEST_CONFIG;
   const decodes = c.payloadsPerTier * 3 * 3 * (c.warmupIterations + c.measuredIterations);
 
@@ -43,14 +61,24 @@ export default function QuickTestScreen() {
     listQuickTests().then((r) => setSavedCount(r.length));
   }, []);
 
+  // Without a server the only source is the bundled payloads.
+  useEffect(() => {
+    if (serverUrl === null) setSource('offline');
+  }, [serverUrl]);
+
   async function start() {
     setBusy(true);
     setError(null);
+    setStopping(false);
     stop.current = false;
+    startedAt.current = Date.now();
     try {
       const result = await runQuickTest({
-        source: source === 'offline' ? { kind: 'offline' } : { kind: 'server', baseUrl: connection.url },
-        onProgress: setProgress,
+        source: source === 'server' && serverUrl !== null ? { kind: 'server', baseUrl: serverUrl } : { kind: 'offline' },
+        onProgress: (p) => {
+          setProgress(p);
+          setNow(Date.now());
+        },
         shouldStop: () => stop.current,
       });
       if (result === null) {
@@ -64,36 +92,130 @@ export default function QuickTestScreen() {
       setError(`${failure.title} — ${failure.detail}${failure.hint ? ` ${failure.hint}` : ''}`);
     } finally {
       setBusy(false);
+      setStopping(false);
       setProgress(null);
+    }
+  }
+
+  const fraction = progress?.fraction ?? 0;
+  let status = 'Starting…';
+  if (progress !== null) {
+    if (progress.phase === 'measuring' && progress.tier !== undefined && progress.format !== undefined) {
+      status =
+        `${TIER_NAMES[progress.tier]} payloads · ${FORMAT_NAMES[progress.format]} ` +
+        `(payload ${progress.done + 1} of ${progress.total})`;
+    } else if (progress.phase === 'loading') {
+      status = 'Loading payloads';
+    } else if (progress.phase === 'prewarming') {
+      status = `Warming up the engine${progress.format !== undefined ? ` · ${FORMAT_NAMES[progress.format]}` : ''}`;
+    } else if (progress.phase === 'calibrating') {
+      status = 'Calibrating the memory counter';
     }
   }
 
   return (
     <ScrollView style={styles.page} contentContainerStyle={styles.content}>
       <View style={styles.header}>
-        <Pressable onPress={() => router.back()} hitSlop={12} accessibilityRole="button">
+        <Pressable onPress={() => router.back()} style={styles.headerButton} accessibilityRole="button">
           <Text style={styles.back}>‹ Back</Text>
         </Pressable>
         <Text style={styles.title}>Quick test</Text>
-        <View style={{ width: 48 }} />
+        <View style={{ width: touchTarget }} />
       </View>
 
-      <View style={styles.banner}>
-        <Text style={styles.bannerTitle}>{QUICK_TEST_LABEL}</Text>
-        <Text style={styles.bannerText}>
-          A short version of the study&apos;s benchmark, to see the three formats compared on this
-          phone in under a minute. Its numbers are indicative only and are never mixed with the
-          paper&apos;s data.
-        </Text>
+      <View style={styles.badge}>
+        <Text style={styles.badgeText}>{QUICK_TEST_LABEL}</Text>
       </View>
-
-      <Text style={styles.section}>What it does</Text>
-      <Text style={styles.body}>
-        Decodes {c.payloadsPerTier * 3} recipe payloads ({c.payloadsPerTier} each of low, medium and
-        high complexity) in JSON, MessagePack and Protocol Buffers, and measures decode time and the
-        memory each decode allocates. {decodes.toLocaleString()} decodes in all.
+      <Text style={styles.lead}>
+        Decodes {c.payloadsPerTier * 3} recipes in JSON, MessagePack and Protocol Buffers on this phone and
+        shows how they compare. Takes about a minute.
       </Text>
 
+      {serverUrl !== null && (
+        <View style={styles.choiceRow} accessibilityRole="radiogroup">
+          {(
+            [
+              ['offline', 'Bundled payloads', 'No internet needed.'],
+              ['server', 'Download from the server', 'The same bytes, fetched first.'],
+            ] as const
+          ).map(([value, label, detail]) => (
+            <Pressable
+              key={value}
+              onPress={() => setSource(value)}
+              disabled={busy}
+              style={[styles.choice, source === value && styles.choiceActive]}
+              accessibilityRole="radio"
+              accessibilityState={{ selected: source === value, disabled: busy }}
+            >
+              <Text style={[styles.choiceLabel, source === value && styles.choiceLabelActive]}>
+                {source === value ? '● ' : '○ '}
+                {label}
+              </Text>
+              <Text style={styles.choiceDetail}>{detail}</Text>
+            </Pressable>
+          ))}
+        </View>
+      )}
+
+      {environment.buildType !== 'release' && (
+        <View style={styles.warn}>
+          <Text style={styles.warnText}>
+            This is a development build. Development checks slow every decode down, so the times
+            will be higher than in the installed app.
+          </Text>
+        </View>
+      )}
+
+      {busy ? (
+        <View style={styles.progress} accessibilityLiveRegion="polite">
+          <Text style={styles.progressStatus}>{stopping ? 'Stopping…' : status}</Text>
+          <View
+            style={styles.track}
+            accessibilityRole="progressbar"
+            accessibilityValue={{ min: 0, max: 100, now: Math.round(fraction * 100) }}
+          >
+            <View style={[styles.fill, { width: `${Math.round(fraction * 100)}%` }]} />
+          </View>
+          <View style={styles.progressMeta}>
+            <Text style={styles.note}>{Math.round(fraction * 100)}%</Text>
+            <Text style={styles.note}>
+              {progress === null ? '' : describeRemaining(remainingSeconds(progress, now - startedAt.current))}
+            </Text>
+          </View>
+          <Pressable
+            onPress={() => {
+              stop.current = true;
+              setStopping(true);
+            }}
+            disabled={stopping}
+            style={[styles.secondaryButton, styles.stopButton]}
+            accessibilityRole="button"
+            accessibilityLabel="Stop the Quick test"
+          >
+            <Text style={styles.secondaryButtonText}>Stop</Text>
+          </Pressable>
+          <Text style={styles.note}>Keep the app open while it runs. Stopping saves nothing.</Text>
+        </View>
+      ) : (
+        <View style={styles.buttonRow}>
+          <Pressable onPress={start} style={styles.primaryButton} accessibilityRole="button">
+            <Text style={styles.primaryButtonText}>Start Quick test</Text>
+          </Pressable>
+          {savedCount > 0 && (
+            <Pressable onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
+              <Text style={styles.secondaryButtonText}>Past results ({savedCount})</Text>
+            </Pressable>
+          )}
+        </View>
+      )}
+
+      {error !== null && (
+        <Text style={styles.error} selectable accessibilityRole="alert">
+          {error}
+        </Text>
+      )}
+
+      <Text style={styles.section}>How it differs from the paper</Text>
       <View style={styles.table}>
         <View style={styles.tableRow}>
           <Text style={[styles.cellHead, styles.cellWide]} />
@@ -118,93 +240,11 @@ export default function QuickTestScreen() {
         ))}
       </View>
       <Text style={styles.note}>
-        Warm-up decodes are discarded; only the measured ones count. The timing and memory
-        instruments are the same code the paper used.
+        {decodes.toLocaleString()} decodes in all. Warm-up decodes are discarded; only the measured ones
+        count. The timing and memory instruments are the same code the paper used, and every payload is
+        in memory before timing starts, so the network never affects the results. Quick test numbers are
+        indicative only and are never mixed with the paper&apos;s data.
       </Text>
-
-      <Text style={styles.section}>Payloads from</Text>
-      <View style={styles.choiceRow}>
-        {(
-          [
-            ['offline', 'This app (offline)', 'Bundled with the app. No internet needed.'],
-            ['server', 'The server', `Downloaded first from ${connection.url}.`],
-          ] as const
-        ).map(([value, label, detail]) => (
-          <Pressable
-            key={value}
-            onPress={() => setSource(value)}
-            disabled={busy}
-            style={[styles.choice, source === value && styles.choiceActive]}
-            accessibilityRole="radio"
-            accessibilityState={{ selected: source === value, disabled: busy }}
-          >
-            <Text style={[styles.choiceLabel, source === value && styles.choiceLabelActive]}>{label}</Text>
-            <Text style={styles.choiceDetail}>{detail}</Text>
-          </Pressable>
-        ))}
-      </View>
-      <Text style={styles.note}>
-        Either way the bytes are identical and every payload is in memory before timing starts, so
-        the network never affects the results.
-      </Text>
-
-      {environment.buildType !== 'release' && (
-        <View style={styles.warn}>
-          <Text style={styles.warnText}>
-            This is a development build. Development checks slow every decode down, so the times
-            will be higher than in the installed app.
-          </Text>
-        </View>
-      )}
-
-      <View style={styles.buttonRow}>
-        <Pressable
-          onPress={start}
-          disabled={busy}
-          style={[styles.primaryButton, busy && styles.disabled]}
-          accessibilityRole="button"
-        >
-          <Text style={styles.primaryButtonText}>{busy ? 'Running…' : 'Start Quick test'}</Text>
-        </Pressable>
-        {busy && (
-          <Pressable onPress={() => (stop.current = true)} style={styles.secondaryButton} accessibilityRole="button">
-            <Text style={styles.secondaryButtonText}>Stop</Text>
-          </Pressable>
-        )}
-        {!busy && savedCount > 0 && (
-          <Pressable onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
-            <Text style={styles.secondaryButtonText}>Past results ({savedCount})</Text>
-          </Pressable>
-        )}
-      </View>
-
-      {busy && progress !== null && (
-        <View style={styles.progress}>
-          <View style={styles.progressRow}>
-            <ActivityIndicator color={palette.primary} />
-            <Text style={styles.body}>
-              {progress.phase === 'measuring'
-                ? `Measuring payload ${progress.done} of ${progress.total}`
-                : progress.label}
-            </Text>
-          </View>
-          <View style={styles.track}>
-            <View
-              style={[
-                styles.fill,
-                { width: `${progress.phase === 'measuring' && progress.total > 0 ? (progress.done / progress.total) * 100 : 0}%` },
-              ]}
-            />
-          </View>
-          <Text style={styles.note}>Keep the app open; it takes about a minute.</Text>
-        </View>
-      )}
-
-      {error !== null && (
-        <Text style={styles.error} selectable>
-          {error}
-        </Text>
-      )}
     </ScrollView>
   );
 }
@@ -213,17 +253,23 @@ const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
   header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.md },
-  back: { ...type.label, color: palette.primary },
-  title: { ...type.section, color: palette.ink },
-  banner: {
+  headerButton: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
+  back: { ...type.label, fontSize: 14, color: palette.primary },
+  badge: {
+    alignSelf: 'flex-start',
     backgroundColor: palette.surfaceCool,
-    borderRadius: radius.md,
-    borderWidth: 1,
     borderColor: palette.accent,
-    padding: spacing.md,
+    borderWidth: 1,
+    borderRadius: radius.pill,
+    paddingHorizontal: spacing.md,
+    paddingVertical: 4,
   },
-  bannerTitle: { ...type.cardTitle, color: palette.primary },
-  bannerText: { ...type.body, color: palette.body, marginTop: spacing.xs },
+  badgeText: { ...type.label, color: palette.primary },
+  lead: { ...type.body, color: palette.body, marginTop: spacing.sm, marginBottom: spacing.md },
+  progressStatus: { ...type.cardTitle, color: palette.ink },
+  progressMeta: { flexDirection: 'row', justifyContent: 'space-between' },
+  stopButton: { alignSelf: 'flex-start', marginTop: spacing.md },
+  title: { ...type.section, color: palette.ink },
   section: { ...type.cardTitle, color: palette.ink, marginTop: spacing.xl, marginBottom: spacing.sm },
   body: { ...type.body, color: palette.body },
   note: { ...type.caption, color: palette.muted, marginTop: spacing.sm, lineHeight: 16 },
@@ -242,6 +288,7 @@ const styles = StyleSheet.create({
   cellWide: { flex: 1.1, color: palette.ink },
   choiceRow: { gap: spacing.sm },
   choice: {
+    minHeight: touchTarget,
     backgroundColor: palette.surface,
     borderRadius: radius.md,
     borderWidth: 1,
@@ -263,25 +310,33 @@ const styles = StyleSheet.create({
   warnText: { ...type.caption, color: palette.body, lineHeight: 16 },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.xl },
   primaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     backgroundColor: palette.primary,
     borderRadius: radius.pill,
     paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.md,
   },
   primaryButtonText: { ...type.label, fontSize: 14, color: palette.surface },
   secondaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     borderRadius: radius.pill,
     paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.md,
     borderWidth: 1,
     borderColor: palette.border,
     backgroundColor: palette.surface,
   },
   secondaryButtonText: { ...type.label, fontSize: 14, color: palette.primary },
   disabled: { opacity: 0.5 },
-  progress: { marginTop: spacing.lg },
-  progressRow: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
-  track: { height: 6, borderRadius: 3, backgroundColor: palette.surfaceTint, marginTop: spacing.sm, overflow: 'hidden' },
-  fill: { height: 6, backgroundColor: palette.accentDeep },
+  progress: {
+    marginTop: spacing.lg,
+    backgroundColor: palette.surface,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: palette.border,
+    padding: spacing.md,
+  },
+  track: { height: 10, borderRadius: 5, backgroundColor: palette.surfaceTint, marginTop: spacing.sm, overflow: 'hidden' },
+  fill: { height: 10, backgroundColor: palette.primary },
   error: { ...type.body, color: palette.danger, marginTop: spacing.lg },
 });

@@ -13,6 +13,7 @@ import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
 import {
   ActivityIndicator,
+  Alert,
   Pressable,
   ScrollView,
   StyleSheet,
@@ -21,7 +22,7 @@ import {
   View,
 } from 'react-native';
 
-import { palette, radius, spacing, type } from '../constants/theme';
+import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import { describeBaseUrl, resolveBaseUrl } from '../src/api/baseUrl';
 import { describeRequestError } from '../src/api/errors';
 import { compareRuns, type CrossRunReport } from '../src/bench/compareRuns';
@@ -515,7 +516,16 @@ export default function BenchmarkScreen() {
             <Pressable
               style={styles.secondaryButton}
               disabled={busy}
-              onPress={resetProfiles}
+              onPress={() =>
+                Alert.alert(
+                  'Clear warm-up profiles?',
+                  'The saved warm-up and per-cell profiles on this phone are deleted. Exported files are not affected.',
+                  [
+                    { text: 'Cancel', style: 'cancel' },
+                    { text: 'Clear', style: 'destructive', onPress: () => void resetProfiles() },
+                  ]
+                )
+              }
               accessibilityRole="button"
             >
               <Text style={styles.secondaryButtonText}>Clear profiles</Text>
@@ -872,10 +882,23 @@ export default function BenchmarkScreen() {
               <Pressable
                 style={styles.secondaryButton}
                 disabled={busy}
-                onPress={async () => {
-                  await deleteRun(run.runId);
-                  await refresh();
-                }}
+                onPress={() =>
+                  Alert.alert(
+                    'Delete this run?',
+                    `${run.runId} is removed from this phone and from the comparison. Export it first if you need it.`,
+                    [
+                      { text: 'Cancel', style: 'cancel' },
+                      {
+                        text: 'Delete',
+                        style: 'destructive',
+                        onPress: async () => {
+                          await deleteRun(run.runId);
+                          await refresh();
+                        },
+                      },
+                    ]
+                  )
+                }
                 accessibilityRole="button"
               >
                 <Text style={[styles.secondaryButtonText, { color: palette.danger }]}>Delete</Text>
@@ -1030,16 +1053,18 @@ const styles = StyleSheet.create({
   cardWarn: { borderColor: '#f0cfa0', backgroundColor: '#fdf6ec' },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.md },
   primaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     backgroundColor: palette.primary,
     borderRadius: radius.pill,
     paddingHorizontal: spacing.xl,
-    paddingVertical: spacing.sm,
   },
   primaryButtonText: { ...type.label, color: palette.surface },
   secondaryButton: {
+    minHeight: touchTarget,
+    justifyContent: 'center',
     borderRadius: radius.pill,
     paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.sm,
     borderWidth: 1,
     borderColor: palette.border,
     backgroundColor: palette.surface,
