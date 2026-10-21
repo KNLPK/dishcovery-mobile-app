@@ -17,8 +17,8 @@ import { palette, radius, spacing, touchTarget, type } from '../constants/theme'
 import type { RequestFailure } from '../src/api/errors';
 import type { ServerMode } from '../src/settings/settings';
 
-/** Shown while the first health check is still waiting on a sleeping server. */
-export const WAKING_LABEL = 'Waking the server… the first request can take up to a minute.';
+/** Shown while the first health check is still waiting for the server. */
+export const WAKING_LABEL = 'Connecting to the server…';
 
 export function LoadingState({ label }: { label: string }) {
   return (

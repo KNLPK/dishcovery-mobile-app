@@ -16,6 +16,9 @@
     "demo": {
       "distribution": "internal",
       "developmentClient": false,
+      "env": {
+        "APP_VARIANT": "demo"
+      },
       "android": {
         "buildType": "apk",
         "gradleCommand": ":app:assembleRelease"

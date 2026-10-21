@@ -18,6 +18,7 @@ node_modules
 /fixtures/recipes-raw/
 /fixtures/recipes/
 /fixtures/benchmark-recipe-ids.json
+/fixtures/generated/raw/
 /fixtures/generated/STOP
 /fixtures/generated/RUNNING.pid
 

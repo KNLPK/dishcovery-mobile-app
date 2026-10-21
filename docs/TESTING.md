@@ -9,9 +9,12 @@ You need an Android phone (Android 7 or newer). There is no iPhone version.
 
 ## 1. Install
 
-1. Open the install link you were sent on your phone, or scan the QR code with
-   the phone's camera.
-2. Tap **Install** on the Expo page to download the APK file, then open it.
+1. On your phone, open the demo release page, or scan the QR code you were
+   sent with the phone's camera:
+   https://github.com/KNLPK/dishcovery-mobile-app/releases/tag/demo-v1
+2. Under **Assets**, tap **dishcovery-demo.apk** to download it, then open it.
+   (Direct download:
+   https://github.com/KNLPK/dishcovery-mobile-app/releases/download/demo-v1/dishcovery-demo.apk)
 3. Android will warn that the app comes from an unknown source, because it is
    not from the Play Store. Allow it: tap **Settings**, turn on **Allow from
    this source** for your browser, go back and tap **Install**.
@@ -19,6 +22,9 @@ You need an Android phone (Android 7 or newer). There is no iPhone version.
    **Install anyway**.
 
 You can turn **Allow from this source** off again after installing.
+
+The app installs as **Dishcovery Demo**. It is a separate app from the
+thesis measurement build, so both can be on the same phone.
 
 ## 2. First launch
 
@@ -69,8 +75,8 @@ differences between formats may not mean much.
 
 Home, Search and the Cook tab load recipes from the demo server over the
 internet. The first request can take a few seconds while the server starts;
-if it takes longer the app says "Waking the server…". Later requests are
-quick.
+if it takes longer the app says "Connecting to the server…". Later requests
+are quick.
 
 All recipes you can browse are the 150 test recipes from the thesis dataset.
 They were written by an AI model (Google Gemini), not by cooks, and are marked

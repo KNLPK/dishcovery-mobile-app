@@ -192,7 +192,7 @@ export default function ServerSettingsScreen() {
           <View style={styles.status} accessibilityLiveRegion="polite">
             <ActivityIndicator color={palette.primary} />
             <Text style={styles.body}>
-              {test.waking ? 'Waking the server… this can take up to a minute.' : 'Checking…'}
+              {test.waking ? 'Connecting to the server…' : 'Checking…'}
             </Text>
           </View>
         )}
