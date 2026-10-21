@@ -9,12 +9,19 @@ You need an Android phone (Android 7 or newer). There is no iPhone version.
 
 ## 1. Install
 
-1. On your phone, open the demo release page, or scan the QR code you were
-   sent with the phone's camera:
+1. On your phone, open the demo release page, or scan this QR code with the
+   phone's camera:
    https://github.com/KNLPK/dishcovery-mobile-app/releases/tag/demo-v1
+
+   ![QR code for the demo-v1 release page](qr-demo-v1.png)
+
 2. Under **Assets**, tap **dishcovery-demo.apk** to download it, then open it.
    (Direct download:
    https://github.com/KNLPK/dishcovery-mobile-app/releases/download/demo-v1/dishcovery-demo.apk)
+
+   If GitHub does not work for you, the same build is on Expo until
+   4 November 2026: tap **Install** on
+   https://expo.dev/accounts/knlpk/projects/dishcovery/builds/4cb114e4-0578-4d6a-bcfc-527f907a79bc
 3. Android will warn that the app comes from an unknown source, because it is
    not from the Play Store. Allow it: tap **Settings**, turn on **Allow from
    this source** for your browser, go back and tap **Install**.
