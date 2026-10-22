@@ -26,8 +26,8 @@ function statusOf(message: string): number | null {
   return match === null ? null : Number(match[1]);
 }
 
-/** Where to go when browsing is unavailable; the Quick test needs no server. */
-const OFFLINE_ALTERNATIVE = 'The Quick test and the paper results work without a server (Home → Test it yourself).';
+/** Where to go when browsing is unavailable; the quick test needs no server. */
+const OFFLINE_ALTERNATIVE = 'The quick test and the paper results work without a server (Home → Test it yourself).';
 
 export function describeRequestError(error: unknown, action = 'load'): RequestFailure {
   const message = error instanceof Error ? error.message : String(error);

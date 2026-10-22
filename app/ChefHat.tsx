@@ -1,12 +1,14 @@
 import React, { useRef, useState } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, ScrollView, ActivityIndicator } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
+import { PrimaryButton, TextLink } from '../components/Buttons';
+import { ChipRow } from '../components/Chips';
 import { FormField, KeyboardForm, type FormFieldHandle } from '../components/KeyboardForm';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
+import { Screen, TabHeader } from '../components/Screen';
 import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useRouter } from 'expo-router';
 import { CATEGORIES, categoryType } from '../constants/categories';
@@ -19,12 +21,27 @@ import { showToast } from '../src/ui/toast';
 
 type Ingredient = { name: string; quantity: string };
 
+const CATEGORY_CHIPS = CATEGORIES.map((c) => ({ value: c.label, label: c.label }));
+
+/**
+ * Cook time is a choice, not a typed number: "Any", or at most 30, 45 or 60
+ * minutes, sent as maxReadyTime. There is no 15-minute chip: the shortest
+ * catalog recipe takes 20 minutes, so it could only ever find nothing.
+ */
+type CookTime = 'any' | '30' | '45' | '60';
+const COOK_TIMES: { value: CookTime; label: string }[] = [
+  { value: '30', label: '30 min' },
+  { value: '45', label: '45 min' },
+  { value: '60', label: '60 min' },
+  { value: 'any', label: 'Any' },
+];
+
 export default function ChefHat() {
   const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].label);
   const [ingredients, setIngredients] = useState<Ingredient[]>([
     { name: '', quantity: '' },
   ]);
-  const [cookTime, setCookTime] = useState(''); // Cook time in minutes
+  const [cookTime, setCookTime] = useState<CookTime>('any');
   const [loading, setLoading] = useState(false);
   const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
   const [error, setError] = useState('');
@@ -34,10 +51,10 @@ export default function ChefHat() {
   const [waking, setWaking] = useState(false);
   const server = useServer();
   const router = useRouter();
-  const insets = useSafeAreaInsets();
   const tabBarSpace = useTabBarSpace();
 
-  // "Next" walks item, quantity, next item, ..., cook time; "Done" there searches.
+  // "Next" walks item, quantity, next item, ...; "Done" on the last quantity
+  // closes the keyboard.
   const fields = useRef(new Map<string, FormFieldHandle>());
   const fieldRef = (key: string) => (handle: FormFieldHandle | null) => {
     if (handle === null) fields.current.delete(key);
@@ -74,7 +91,7 @@ export default function ChefHat() {
         .join(',');
 
       if (!ingredientList) {
-        setError('Please enter at least one ingredient.');
+        setError('Enter at least one ingredient.');
         setLoading(false);
         return;
       }
@@ -85,8 +102,8 @@ export default function ChefHat() {
         number: 5, // Get up to 5 recipes
       };
 
-      if (cookTime && !isNaN(parseInt(cookTime))) {
-          params.maxReadyTime = parseInt(cookTime); // Add cook time if valid
+      if (cookTime !== 'any') {
+        params.maxReadyTime = Number(cookTime);
       }
 
       // Same measured path as search and recipe detail, in the app-wide format.
@@ -106,8 +123,8 @@ export default function ChefHat() {
       if (results.length === 0) {
           setNoMatch(
             `Nothing came back for ${ingredientList.split(',').join(', ')}` +
-              `${cookTime ? ` under ${cookTime} minutes` : ''} for ${selectedCategory.toLowerCase()}. ` +
-              'Try fewer ingredients, or clear the cook time.'
+              `${cookTime === 'any' ? '' : ` in ${cookTime} minutes or less`} for ${selectedCategory.toLowerCase()}. ` +
+              `Try fewer ingredients${cookTime === 'any' ? '' : ', or a longer cook time'}.`
           );
       } else {
           setRecipes(results);
@@ -128,33 +145,22 @@ export default function ChefHat() {
   };
 
   return (
-    <View style={styles.page}>
-      <KeyboardForm
-        contentContainerStyle={[styles.scrollContainer, { paddingTop: insets.top + 8, paddingBottom: tabBarSpace }]}
-      >
-        {/* Header */}
-        <View style={styles.headerContainer}>
-           <Text style={styles.header} accessibilityRole="header">Dishcovery</Text>
-        </View>
+    <Screen background={palette.surfaceCool} tabBar>
+      <KeyboardForm contentContainerStyle={[styles.scrollContainer, { paddingBottom: tabBarSpace }]}>
+        <TabHeader title="Cook" subtitle="Find recipes from what you have" />
 
         {/* Category */}
-        <View style={styles.categoryRow}>
-          <Text style={styles.sectionTitle}>Category</Text>
+        <Text style={styles.sectionTitle}>Category</Text>
+        <View style={styles.chips}>
+          <ChipRow
+            options={CATEGORY_CHIPS}
+            selected={selectedCategory}
+            onSelect={setSelectedCategory}
+            background={palette.surfaceCool}
+            gutter={20}
+            accessibilityLabel="Category"
+          />
         </View>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.categoryButtonContainer} keyboardShouldPersistTaps="handled">
-          {CATEGORIES.map(cat => (
-            <TouchableOpacity
-              key={cat.label}
-              style={[styles.categoryButton, selectedCategory === cat.label && styles.categoryButtonActive]}
-              onPress={() => setSelectedCategory(cat.label)}
-              hitSlop={{ top: 6, bottom: 6 }}
-              accessibilityRole="button"
-              accessibilityState={{ selected: selectedCategory === cat.label }}
-            >
-              <Text style={[styles.categoryText, selectedCategory === cat.label && styles.categoryTextActive]}>{cat.label}</Text>
-            </TouchableOpacity>
-          ))}
-        </ScrollView>
 
         {/* Ingredients */}
         <Text style={[styles.sectionTitle, { marginTop: 20 }]}>Ingredients</Text>
@@ -165,85 +171,72 @@ export default function ChefHat() {
           </Text>
           <View style={styles.iconButton} />
         </View>
-        {ingredients.map((ing, idx) => (
-          <View key={idx} style={styles.ingredientRow}>
-            <FormField
-              ref={fieldRef(`name${idx}`)}
-              style={[styles.input, styles.ingredientNameInput]}
-              placeholder="e.g. chicken"
-              value={ing.name}
-              onChangeText={text => handleIngredientChange(idx, 'name', text)}
-              returnKeyType="next"
-              submitBehavior="submit"
-              onSubmitEditing={() => focusField(`qty${idx}`)}
-              accessibilityLabel={`Ingredient ${idx + 1}`}
-            />
-            <FormField
-              ref={fieldRef(`qty${idx}`)}
-              style={[styles.input, styles.ingredientQuantityInput]}
-              placeholder="e.g. 200 g"
-              value={ing.quantity}
-              onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
-              returnKeyType="next"
-              submitBehavior="submit"
-              onSubmitEditing={() => focusField(idx + 1 < ingredients.length ? `name${idx + 1}` : 'cookTime')}
-              accessibilityLabel={`Quantity of ingredient ${idx + 1}, optional`}
-            />
-            {ingredients.length > 1 ? (
-              <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton} accessibilityRole="button" accessibilityLabel="Remove ingredient">
-                 <MaterialCommunityIcons name="minus-circle-outline" size={26} color={palette.muted} />
-              </TouchableOpacity>
-            ) : (
-               <TouchableOpacity onPress={addIngredient} style={styles.iconButton} accessibilityRole="button" accessibilityLabel="Add ingredient">
-                  <MaterialCommunityIcons name="plus-circle-outline" size={26} color={palette.muted} />
-               </TouchableOpacity>
-            )}
-          </View>
-        ))}
-         {ingredients.length > 0 && (
-             <TouchableOpacity style={styles.addIngredientRow} onPress={addIngredient} accessibilityRole="button">
-                 <MaterialCommunityIcons name="plus-circle-outline" size={22} color={palette.primary} />
-                 <Text style={styles.addIngredientText}>Add new Ingredient</Text>
-             </TouchableOpacity>
-         )}
+        {ingredients.map((ing, idx) => {
+          const lastRow = idx + 1 === ingredients.length;
+          return (
+            <View key={idx} style={styles.ingredientRow}>
+              <FormField
+                ref={fieldRef(`name${idx}`)}
+                style={[styles.input, styles.ingredientNameInput]}
+                placeholder="e.g. chicken"
+                value={ing.name}
+                onChangeText={text => handleIngredientChange(idx, 'name', text)}
+                returnKeyType="next"
+                submitBehavior="submit"
+                onSubmitEditing={() => focusField(`qty${idx}`)}
+                accessibilityLabel={`Ingredient ${idx + 1}`}
+              />
+              <FormField
+                ref={fieldRef(`qty${idx}`)}
+                style={[styles.input, styles.ingredientQuantityInput]}
+                placeholder="e.g. 200 g"
+                value={ing.quantity}
+                onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
+                returnKeyType={lastRow ? 'done' : 'next'}
+                submitBehavior={lastRow ? 'blurAndSubmit' : 'submit'}
+                onSubmitEditing={() => {
+                  if (!lastRow) focusField(`name${idx + 1}`);
+                }}
+                accessibilityLabel={`Quantity of ingredient ${idx + 1}, optional`}
+              />
+              {ingredients.length > 1 ? (
+                <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton} accessibilityRole="button" accessibilityLabel={`Remove ingredient ${idx + 1}`}>
+                   <MaterialCommunityIcons name="minus-circle-outline" size={26} color={palette.muted} />
+                </TouchableOpacity>
+              ) : (
+                <View style={styles.iconButton} />
+              )}
+            </View>
+          );
+        })}
+        <TextLink label="+ Add ingredient" onPress={addIngredient} style={styles.addIngredient} />
 
-        {/* Cook Time */}
-        <View style={styles.detailRow}>
-          <MaterialCommunityIcons name="clock-outline" size={24} color={palette.primary} style={{ marginRight: 8 }} />
-          <Text style={styles.detailLabel}>Cook time</Text>
-           <FormField
-              ref={fieldRef('cookTime')}
-              style={styles.detailInput}
-              placeholder="45 min"
-              value={cookTime}
-              onChangeText={setCookTime}
-              keyboardType="numeric"
-              returnKeyType="done"
-              onSubmitEditing={handleFindRecipe}
-              accessibilityLabel="Cook time in minutes, optional"
-            />
+        {/* Cook time */}
+        <Text style={[styles.sectionTitle, { marginTop: 12 }]}>Cook time</Text>
+        <View style={styles.chips}>
+          <ChipRow
+            options={COOK_TIMES}
+            selected={cookTime}
+            onSelect={setCookTime}
+            background={palette.surfaceCool}
+            gutter={20}
+            accessibilityLabel="Cook time"
+          />
         </View>
 
-        {/* Find Recipe Button */}
+        {/* Find recipes */}
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : (
-          <PressableScale
+          <PrimaryButton
+            label="Find recipes"
             style={styles.findBtn}
+            busy={loading}
             onPress={() => {
               tapHaptic();
               handleFindRecipe();
             }}
-            disabled={loading}
-            accessibilityRole="button"
-            accessibilityState={{ busy: loading, disabled: loading }}
-          >
-            {loading ? (
-              <ActivityIndicator color={palette.surface} />
-            ) : (
-              <Text style={styles.findBtnText}>Find Food Recipe</Text>
-            )}
-          </PressableScale>
+          />
         )}
         {loading && (
           <Skeleton variant="list" count={3} label="Finding recipes" caption={waking ? WAKING_LABEL : undefined} />
@@ -264,7 +257,7 @@ export default function ChefHat() {
         {noMatch !== null && <EmptyState title="No recipes matched" detail={noMatch} />}
         {recipes.length > 0 && (
           <FadeIn style={{ marginTop: 24 }}>
-            <Text style={[styles.sectionTitle, { marginBottom: 10 }]}>Recipes Found:</Text>
+            <Text style={[styles.sectionTitle, { marginBottom: 10 }]}>Recipes found</Text>
             <View style={{ gap: 10 }}>
               {recipes.map(item => (
                 <PressableScale
@@ -285,67 +278,22 @@ export default function ChefHat() {
         )}
       </KeyboardForm>
       <BottomTabBar />
-    </View>
+    </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-    page: {
-      flex: 1,
-      backgroundColor: palette.surfaceCool,
-    },
     scrollContainer: {
       paddingHorizontal: 20,
-      backgroundColor: palette.surfaceCool,
-    },
-    headerContainer: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      justifyContent: 'center',
-      marginBottom: 20,
-      marginTop: 8,
-    },
-    header: {
-      fontSize: 24,
-      lineHeight: 30,
-      fontWeight: 'bold',
-      color: palette.primary,
-      alignSelf: 'center',
     },
     sectionTitle: {
       fontSize: 18,
       fontWeight: 'bold',
-      color: '#22313F',
+      color: palette.ink,
     },
-     categoryRow: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        marginBottom: 10,
-         marginTop: 8,
-    },
-    categoryButtonContainer: {
-        paddingRight: 20,
-        marginBottom: 20,
-    },
-    categoryButton: {
-      backgroundColor: palette.surfaceTint,
-      borderRadius: 20,
-      paddingHorizontal: 20,
-      paddingVertical: 8,
-      marginRight: 10,
-    },
-    categoryButtonActive: {
-      backgroundColor: palette.accent,
-    },
-    categoryText: {
-      color: palette.primary,
-      fontWeight: '500',
-      fontSize: 15,
-    },
-    categoryTextActive: {
-      color: palette.primary,
-      fontWeight: 'bold',
+    chips: {
+      marginTop: 8,
+      marginBottom: 8,
     },
     columnLabels: {
       flexDirection: 'row',
@@ -388,56 +336,14 @@ const styles = StyleSheet.create({
          alignItems: 'center',
          justifyContent: 'center',
      },
-    addIngredientRow: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        minHeight: touchTarget,
-        marginTop: 4,
-        marginBottom: 16,
+    addIngredient: {
+      alignSelf: 'flex-start',
+      paddingHorizontal: 4,
+      marginBottom: 8,
     },
-    addIngredientText: {
-        color: palette.primary,
-        fontWeight: 'bold',
-        marginLeft: 6,
-        fontSize: 15,
-    },
-    detailRow: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        backgroundColor: palette.surfaceTint,
-        borderRadius: 12,
-        paddingHorizontal: 12,
-        paddingVertical: 10,
-        marginBottom: 18,
-         marginTop: 10,
-    },
-     detailLabel: {
-        color: palette.primary,
-        fontWeight: 'bold',
-        fontSize: 16,
-        marginRight: 8,
-     },
-    detailInput: {
-        flex: 1,
-        backgroundColor: palette.surface,
-        borderRadius: 10,
-        borderColor: palette.border,
-        minHeight: touchTarget,
-    },
-    // The app's primary button: brand teal pill, as on Home and in the Quick test.
     findBtn: {
-      backgroundColor: palette.primary,
-      borderRadius: radius.pill,
-      minHeight: touchTarget,
-      justifyContent: 'center',
-      alignItems: 'center',
-      marginTop: 10,
+      marginTop: 16,
       marginBottom: 20,
-    },
-    findBtnText: {
-      color: palette.surface,
-      fontWeight: 'bold',
-      fontSize: 16,
     },
     error: {
       color: palette.danger,
@@ -447,7 +353,7 @@ const styles = StyleSheet.create({
     },
     recipeCard: {
         backgroundColor: palette.surface,
-        borderRadius: 12,
+        borderRadius: radius.md,
         padding: 12,
         flexDirection: 'row',
         alignItems: 'center',
@@ -469,6 +375,6 @@ const styles = StyleSheet.create({
     recipeTitle: {
         fontWeight: 'bold',
         fontSize: 14,
-        color: '#22313F',
+        color: palette.ink,
     },
 });

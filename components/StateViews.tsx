@@ -101,12 +101,12 @@ export function NoServerState({ mode }: { mode: ServerMode }) {
       title={mode === 'offline' ? 'Browsing needs a server' : 'No online server in this build'}
       detail={
         mode === 'offline'
-          ? 'The app is set to Offline. Recipes come from a server; the Quick test and the paper results work without one.'
-          : 'This build has no online server address yet. Choose Laptop in Server settings, or use the Quick test, which works offline.'
+          ? 'The app is set to Offline. Recipes come from a server; the quick test and the paper results work without one.'
+          : 'This build has no online server address yet. Choose Laptop in Server settings, or use the quick test, which works offline.'
       }
       actions={[
         { label: 'Server settings', onPress: () => router.push('/settings') },
-        { label: 'Quick test', onPress: () => router.push('/quick') },
+        { label: 'Start quick test', onPress: () => router.push('/quick') },
       ]}
     />
   );

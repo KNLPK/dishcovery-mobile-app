@@ -18,8 +18,10 @@ import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
-import { useScreenPadding } from '../components/screenInsets';
-import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
+import { TextLink, buttonLook } from '../components/Buttons';
+import { Screen, StackHeader } from '../components/Screen';
+import { palette, radius, shadow, spacing, type } from '../constants/theme';
+import { formatKB, formatMs, KB_DIGITS, MS_DIGITS } from '../constants/units';
 import { describeBaseUrl } from '../src/api/baseUrl';
 import {
   aggregateByFormat,
@@ -49,7 +51,6 @@ function pct(value: number | null): string {
 
 export default function MetricsScreen() {
   const router = useRouter();
-  const screenPadding = useScreenPadding();
   useSettings(); // re-render when the server setting changes
   const [samples, setSamples] = useState<MetricSample[]>(getMetrics());
 
@@ -60,25 +61,23 @@ export default function MetricsScreen() {
   const connection = describeBaseUrl();
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
-      <View style={styles.header}>
-        <Pressable onPress={() => router.back()} accessibilityRole="button" style={styles.headerButton}>
-          <Text style={styles.back}>‹ Back</Text>
-        </Pressable>
-        <Text style={styles.title}>Session measurements</Text>
-        <Pressable
-          onPress={() =>
-            Alert.alert('Clear this session’s measurements?', 'The list of requests made since launch is removed.', [
-              { text: 'Cancel', style: 'cancel' },
-              { text: 'Clear', style: 'destructive', onPress: clearMetrics },
-            ])
-          }
-          accessibilityRole="button"
-          style={[styles.headerButton, { alignItems: 'flex-end' }]}
-        >
-          <Text style={styles.clear}>Clear</Text>
-        </Pressable>
-      </View>
+    <Screen background={palette.surfaceAlt}>
+      <StackHeader
+        title="Session measurements"
+        right={
+          <TextLink
+            label="Clear"
+            accessibilityLabel="Clear this session's measurements"
+            onPress={() =>
+              Alert.alert('Clear this session’s measurements?', 'The list of requests made since launch is removed.', [
+                { text: 'Cancel', style: 'cancel' },
+                { text: 'Clear', style: 'destructive', onPress: clearMetrics },
+              ])
+            }
+          />
+        }
+      />
+      <ScrollView style={styles.page} contentContainerStyle={styles.content}>
 
       <Text style={styles.caption}>
         {samples.length === 0
@@ -105,8 +104,7 @@ export default function MetricsScreen() {
                   {sample.kind === 'recipe' ? 'recipe' : 'search'} {sample.label}
                 </Text>
                 <Text style={styles.sampleNumbers}>
-                  {sample.format} · {(sample.payloadBytes / 1024).toFixed(1)} KB ·{' '}
-                  {sample.deserializationMs.toFixed(2)} ms
+                  {sample.format} · {formatKB(sample.payloadBytes)} · {formatMs(sample.deserializationMs)}
                 </Text>
               </View>
             ))}
@@ -139,7 +137,8 @@ export default function MetricsScreen() {
         schema covers recipe documents, so a protobuf search falls back to JSON and is labelled as
         such rather than counted as protobuf.
       </Text>
-    </ScrollView>
+      </ScrollView>
+    </Screen>
   );
 }
 
@@ -162,7 +161,7 @@ function AggregateCard({
       );
 
   return (
-    <View style={[styles.card, row.n === 0 && styles.cardEmpty]}>
+    <View style={styles.card}>
       <View style={styles.cardHeader}>
         <Text style={styles.cardTitle}>{row.format}</Text>
         <Text style={styles.cardCount}>
@@ -172,23 +171,23 @@ function AggregateCard({
 
       <View style={styles.metricRow}>
         <Metric
-          label="size"
-          value={fmt(row.payloadKB, 1)}
-          sd={fmtSd(row.payloadKB, 1)}
+          label="Payload size"
+          value={fmt(row.payloadKB, KB_DIGITS)}
+          sd={fmtSd(row.payloadKB, KB_DIGITS)}
           unit="KB"
           delta={pct(sizePct)}
         />
         <Metric
-          label="decode"
-          value={fmt(row.deserializationMs, 2)}
-          sd={fmtSd(row.deserializationMs, 2)}
+          label="Decode time"
+          value={fmt(row.deserializationMs, MS_DIGITS)}
+          sd={fmtSd(row.deserializationMs, MS_DIGITS)}
           unit="ms"
           delta={pct(timePct)}
         />
         <Metric
-          label="heap"
-          value={fmt(row.heapKB, 1)}
-          sd={fmtSd(row.heapKB, 1)}
+          label="Memory"
+          value={fmt(row.heapKB, KB_DIGITS)}
+          sd={fmtSd(row.heapKB, KB_DIGITS)}
           unit="KB"
           delta=""
         />
@@ -228,15 +227,6 @@ function Metric({
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: spacing.sm,
-  },
-  back: { ...type.label, color: palette.primary },
-  clear: { ...type.label, color: palette.primary },
-  title: { ...type.title, color: palette.ink, fontSize: 18 },
   caption: { ...type.caption, color: palette.muted, marginBottom: spacing.md },
   sectionTitle: {
     ...type.section,
@@ -254,7 +244,6 @@ const styles = StyleSheet.create({
     borderColor: palette.border,
     ...shadow.card,
   },
-  cardEmpty: { opacity: 0.55 },
   cardHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -286,18 +275,8 @@ const styles = StyleSheet.create({
   sampleNumbers: { ...type.caption, color: palette.muted, fontVariant: ['tabular-nums'] },
   connectionUrl: { ...type.cardTitle, color: palette.ink },
   buttonRow: { flexDirection: 'row', gap: spacing.sm, marginTop: spacing.md },
-  headerButton: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
-  secondaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.lg,
-    paddingVertical: spacing.sm,
-    borderWidth: 1,
-    borderColor: palette.border,
-    backgroundColor: palette.surface,
-  },
-  secondaryButtonText: { ...type.label, color: palette.primary },
+  secondaryButton: buttonLook.secondary,
+  secondaryButtonText: buttonLook.secondaryText,
   footnote: {
     ...type.caption,
     color: palette.muted,

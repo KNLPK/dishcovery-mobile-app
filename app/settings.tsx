@@ -6,18 +6,18 @@
  *   Online   the hosted demo server (ONLINE_BASE_URL)
  *   Laptop   dishcovery-proxy on the developer's machine; the address follows
  *            the Metro dev server unless a manual URL is set
- *   Offline  no server; browsing is off, the Quick test uses bundled payloads
+ *   Offline  no server; browsing is off, the quick test uses bundled payloads
  *
  * "Test connection" calls /health with the long wake-up timeout, so a sleeping
  * online server gets the time it needs, and says so while it waits.
  */
 
-import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 
+import { buttonLook } from '../components/Buttons';
 import { FormField, KeyboardForm } from '../components/KeyboardForm';
-import { useScreenPadding } from '../components/screenInsets';
+import { Screen, StackHeader } from '../components/Screen';
 
 import { ONLINE_BASE_URL, API_BASE_URL } from '../constants/api';
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
@@ -50,7 +50,7 @@ const MODES: { mode: ServerMode; label: string; detail: string }[] = [
   {
     mode: 'offline',
     label: 'Offline',
-    detail: 'No server. Recipe browsing is off; the Quick test and paper results still work.',
+    detail: 'No server. Recipe browsing is off; the quick test and paper results still work.',
   },
 ];
 
@@ -61,14 +61,12 @@ type TestState =
   | { kind: 'failed'; title: string; detail: string };
 
 export default function ServerSettingsScreen() {
-  const router = useRouter();
   const settings = useSettings();
   const mode = effectiveServerMode();
   const url = serverBaseUrl();
   const [draftUrl, setDraftUrl] = useState(settings.baseUrlOverride ?? '');
   const [urlError, setUrlError] = useState<string | null>(null);
   const [test, setTest] = useState<TestState>({ kind: 'idle' });
-  const screenPadding = useScreenPadding();
 
   function choose(next: ServerMode) {
     setServerMode(next);
@@ -113,14 +111,9 @@ export default function ServerSettingsScreen() {
   }
 
   return (
-    <KeyboardForm style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
-      <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.back} accessibilityRole="button">
-          <Text style={styles.backText}>‹ Back</Text>
-        </Pressable>
-        <Text style={styles.title}>Server settings</Text>
-        <View style={{ width: touchTarget }} />
-      </View>
+    <Screen background={palette.surfaceAlt}>
+      <StackHeader title="Server settings" />
+      <KeyboardForm style={styles.page} contentContainerStyle={styles.content}>
 
       <Text style={styles.section}>Get recipes from</Text>
       <View style={styles.choices} accessibilityRole="radiogroup">
@@ -222,17 +215,14 @@ export default function ServerSettingsScreen() {
           </View>
         )}
       </View>
-    </KeyboardForm>
+      </KeyboardForm>
+    </Screen>
   );
 }
 
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.sm },
-  back: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
-  backText: { ...type.label, fontSize: 14, color: palette.primary },
-  title: { ...type.section, color: palette.ink },
   section: { ...type.cardTitle, color: palette.ink, marginTop: spacing.lg, marginBottom: spacing.sm },
   choices: { gap: spacing.sm },
   choice: {
@@ -273,25 +263,10 @@ const styles = StyleSheet.create({
   ok: { ...type.cardTitle, color: palette.success, marginTop: spacing.md },
   failed: { ...type.cardTitle, color: palette.danger, marginTop: spacing.md },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.md },
-  primaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: palette.primary,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.xl,
-  },
+  primaryButton: buttonLook.primary,
   testButton: { alignSelf: 'flex-start', marginTop: spacing.md },
-  primaryButtonText: { ...type.label, fontSize: 14, color: palette.surface },
-  secondaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.lg,
-    borderWidth: 1,
-    borderColor: palette.border,
-    backgroundColor: palette.surface,
-  },
-  secondaryButtonText: { ...type.label, fontSize: 14, color: palette.primary },
+  primaryButtonText: buttonLook.primaryText,
+  secondaryButton: buttonLook.secondary,
+  secondaryButtonText: buttonLook.secondaryText,
   disabled: { opacity: 0.5 },
 });

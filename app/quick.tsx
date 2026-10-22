@@ -11,8 +11,9 @@ import { useRouter } from 'expo-router';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { buttonLook } from '../components/Buttons';
 import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
-import { useScreenPadding } from '../components/screenInsets';
+import { Screen, StackHeader } from '../components/Screen';
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import { BENCHMARK_CONFIG } from '../shared/contract';
 import { serverBaseUrl } from '../src/api/baseUrl';
@@ -64,7 +65,6 @@ export default function QuickTestScreen() {
   const [now, setNow] = useState(0);
   // The completion moment: shown after a run, until the next one starts.
   const [finished, setFinished] = useState<QuickTestResult | null>(null);
-  const screenPadding = useScreenPadding();
 
   const environment = useMemo(() => captureEnvironment(null), []);
   const serverUrl = serverBaseUrl();
@@ -114,7 +114,7 @@ export default function QuickTestScreen() {
         action: { label: 'View results', onPress: () => openResults(result.id) },
       });
     } catch (err) {
-      const failure = describeRequestError(err, 'run the Quick test');
+      const failure = describeRequestError(err, 'run the quick test');
       setError(`${failure.title} — ${failure.detail}${failure.hint ? ` ${failure.hint}` : ''}`);
       showToast({ kind: 'error', message: failure.title, action: { label: 'Retry', onPress: start } });
     } finally {
@@ -141,14 +141,9 @@ export default function QuickTestScreen() {
   }
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
-      <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.headerButton} accessibilityRole="button">
-          <Text style={styles.back}>‹ Back</Text>
-        </Pressable>
-        <Text style={styles.title}>Quick test</Text>
-        <View style={{ width: touchTarget }} />
-      </View>
+    <Screen background={palette.surfaceAlt}>
+      <StackHeader title="Quick test" />
+      <ScrollView style={styles.page} contentContainerStyle={styles.content}>
 
       <View style={styles.badge}>
         <Text style={styles.badgeText}>{QUICK_TEST_LABEL}</Text>
@@ -217,7 +212,7 @@ export default function QuickTestScreen() {
             disabled={stopping}
             style={[styles.secondaryButton, styles.stopButton]}
             accessibilityRole="button"
-            accessibilityLabel="Stop the Quick test"
+            accessibilityLabel="Stop the quick test"
           >
             <Text style={styles.secondaryButtonText}>Stop</Text>
           </Pressable>
@@ -254,7 +249,7 @@ export default function QuickTestScreen() {
       ) : (
         <View style={styles.buttonRow}>
           <PressableScale onPress={start} style={styles.primaryButton} accessibilityRole="button">
-            <Text style={styles.primaryButtonText}>Start Quick test</Text>
+            <Text style={styles.primaryButtonText}>Start quick test</Text>
           </PressableScale>
           {savedCount > 0 && (
             <PressableScale onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
@@ -300,16 +295,14 @@ export default function QuickTestScreen() {
         in memory before timing starts, so the network never affects the results. Quick test numbers are
         indicative only and are never mixed with the paper&apos;s data.
       </Text>
-    </ScrollView>
+      </ScrollView>
+    </Screen>
   );
 }
 
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.md },
-  headerButton: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
-  back: { ...type.label, fontSize: 14, color: palette.primary },
   badge: {
     alignSelf: 'flex-start',
     backgroundColor: palette.surfaceCool,
@@ -324,7 +317,6 @@ const styles = StyleSheet.create({
   progressStatus: { ...type.cardTitle, color: palette.ink },
   progressMeta: { flexDirection: 'row', justifyContent: 'space-between' },
   stopButton: { alignSelf: 'flex-start', marginTop: spacing.md },
-  title: { ...type.section, color: palette.ink },
   section: { ...type.cardTitle, color: palette.ink, marginTop: spacing.xl, marginBottom: spacing.sm },
   body: { ...type.body, color: palette.body },
   note: { ...type.caption, color: palette.muted, marginTop: spacing.sm, lineHeight: 16 },
@@ -364,24 +356,10 @@ const styles = StyleSheet.create({
   },
   warnText: { ...type.caption, color: palette.body, lineHeight: 16 },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.xl },
-  primaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    backgroundColor: palette.primary,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.xl,
-  },
-  primaryButtonText: { ...type.label, fontSize: 14, color: palette.surface },
-  secondaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.lg,
-    borderWidth: 1,
-    borderColor: palette.border,
-    backgroundColor: palette.surface,
-  },
-  secondaryButtonText: { ...type.label, fontSize: 14, color: palette.primary },
+  primaryButton: buttonLook.primary,
+  primaryButtonText: buttonLook.primaryText,
+  secondaryButton: buttonLook.secondary,
+  secondaryButtonText: buttonLook.secondaryText,
   disabled: { opacity: 0.5 },
   progress: {
     marginTop: spacing.lg,

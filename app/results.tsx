@@ -20,9 +20,11 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import BarChart, { pct } from '../components/BarChart';
+import { buttonLook } from '../components/Buttons';
+import { Screen, StackHeader } from '../components/Screen';
 import { PAPER_RESULTS, type PaperCell } from '../constants/paperResults.generated';
-import { useScreenPadding } from '../components/screenInsets';
 import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
+import { KB_DIGITS } from '../constants/units';
 import { COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../shared/contract';
 import type { ComplexityTier } from '../shared/contract';
 import type { QuickCell, QuickTestResult } from '../src/quick/quickTest';
@@ -49,9 +51,9 @@ function paperCell(set: PaperSet, tier: ComplexityTier, format: string): PaperCe
 
 /** The three measures, explained once on this screen. */
 const EXPLAINERS = [
-  ['Decode time', 'how long the phone takes to turn the received bytes back into a recipe object (milliseconds; lower is better).'],
-  ['Heap allocation', 'memory the app allocates during one decode (kilobytes; lower is better). It is not peak memory use.'],
-  ['Payload size', 'how many bytes the recipe takes on the wire in that format (kilobytes of 1,000 bytes; smaller is better).'],
+  ['Decode time', 'how long the phone takes to turn the received data back into a recipe (ms; lower is better).'],
+  ['Memory (heap allocation)', 'memory the app allocates during one decode (KB; lower is better). It is not peak memory use.'],
+  ['Payload size', 'how much data the recipe takes on the network in that format (KB, 1 KB = 1,000 bytes; smaller is better).'],
 ] as const;
 
 /** One summary line per tier, from whichever cells are given. */
@@ -78,7 +80,6 @@ function when(iso: string): string {
 
 export default function ResultsScreen() {
   const router = useRouter();
-  const screenPadding = useScreenPadding();
   const params = useLocalSearchParams<{ id?: string; tab?: string }>();
   const [tab, setTab] = useState<Tab>(params.tab === 'paper' ? 'paper' : 'phone');
   const [tests, setTests] = useState<QuickTestResult[] | null>(null);
@@ -99,14 +100,9 @@ export default function ResultsScreen() {
   const selected = tests?.find((t) => t.id === selectedId) ?? null;
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
-      <View style={styles.header}>
-        <Pressable onPress={() => router.back()} style={styles.headerButton} accessibilityRole="button">
-          <Text style={styles.back}>‹ Back</Text>
-        </Pressable>
-        <Text style={styles.title}>Results</Text>
-        <View style={{ width: touchTarget }} />
-      </View>
+    <Screen background={palette.surfaceAlt}>
+      <StackHeader title="Results" />
+      <ScrollView style={styles.page} contentContainerStyle={styles.content}>
 
       <View style={styles.tabs} accessibilityRole="tablist">
         {(
@@ -137,7 +133,7 @@ export default function ResultsScreen() {
           onRun={() => router.push('/quick')}
           onDelete={() => {
             if (selected === null) return;
-            Alert.alert('Delete this Quick test?', `${when(selected.startedAt)}. This cannot be undone.`, [
+            Alert.alert('Delete this quick test?', `${when(selected.startedAt)}. This cannot be undone.`, [
               { text: 'Cancel', style: 'cancel' },
               {
                 text: 'Delete',
@@ -163,7 +159,8 @@ export default function ResultsScreen() {
           </Text>
         ))}
       </View>
-    </ScrollView>
+      </ScrollView>
+    </Screen>
   );
 }
 
@@ -191,13 +188,13 @@ function PhoneTab({
   if (selected === null) {
     return (
       <View style={styles.empty}>
-        <Text style={styles.emptyTitle}>No Quick test yet</Text>
+        <Text style={styles.emptyTitle}>No quick test yet</Text>
         <Text style={styles.body}>
-          Run a Quick test to see how JSON, MessagePack and Protocol Buffers compare on this phone,
+          Run a quick test to see how JSON, MessagePack and Protocol Buffers compare on this phone,
           next to the numbers from the paper.
         </Text>
         <Pressable onPress={onRun} style={[styles.primaryButton, { marginTop: spacing.lg }]} accessibilityRole="button">
-          <Text style={styles.primaryButtonText}>Run a Quick test</Text>
+          <Text style={styles.primaryButtonText}>Run a quick test</Text>
         </Pressable>
       </View>
     );
@@ -245,10 +242,10 @@ function PhoneTab({
         onChange={onComparison}
       />
       <Text style={styles.note}>
-        Solid bars, labelled “this phone”: your Quick test. Thin outlined bars, labelled “paper”: the
+        Solid bars, labelled “this phone”: your quick test. Thin outlined bars, labelled “paper”: the
         published numbers ({SET_LABEL[comparison].toLowerCase()}).
         {comparison === 'generatedOnly'
-          ? ' The Quick test uses generated payloads only, so this is the like-for-like comparison.'
+          ? ' The quick test uses generated payloads only, so this is the like-for-like comparison.'
           : ` The paper's low tier also includes ${PAPER_RESULTS.payloadsBySourceAndTier.spoonacular?.low ?? 0} Spoonacular recipes, which the app does not ship.`}{' '}
         Phones differ, so compare the pattern and the % against JSON rather than the absolute times.
       </Text>
@@ -272,9 +269,9 @@ function PhoneTab({
             }))}
           />
           <BarChart
-            title="Heap allocation"
-            unit="kB"
-            digits={0}
+            title="Memory (heap allocation)"
+            unit="KB"
+            digits={KB_DIGITS}
             valueLabel="this phone"
             compareLabel="paper"
             rows={SERIALIZATION_FORMATS.map((f) => {
@@ -291,8 +288,8 @@ function PhoneTab({
           />
           <BarChart
             title="Payload size"
-            unit="kB"
-            digits={1}
+            unit="KB"
+            digits={KB_DIGITS}
             valueLabel="this phone"
             compareLabel="paper"
             rows={SERIALIZATION_FORMATS.map((f) => ({
@@ -312,7 +309,7 @@ function PhoneTab({
 
       {selected.cells.some((c) => c.mbMean === null) && (
         <Text style={styles.note}>
-          Heap allocation is blank where this build exposes no heap counter (it needs the Hermes engine).
+          Memory is blank where this build exposes no heap counter (it needs the Hermes engine).
         </Text>
       )}
 
@@ -362,10 +359,10 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
         {set === 'pooled'
           ? `The paper's table: ${spoonLow} real Spoonacular recipes and ${generated.low ?? 0} generated ones in the low tier, ` +
             `${generated.medium ?? 0} and ${generated.high ?? 0} generated in medium and high. The app does not ship the ` +
-            'Spoonacular payloads, so a Quick test cannot reproduce the low tier of this table exactly.'
+            'Spoonacular payloads, so a quick test cannot reproduce the low tier of this table exactly.'
           : `The ${(generated.low ?? 0) + (generated.medium ?? 0) + (generated.high ?? 0)} generated payloads only, computed from the ` +
             "published per-payload data. Medium and high are the same as in the paper's table; low differs because the " +
-            `${spoonLow} Spoonacular recipes are left out. This is what the Quick test compares against by default.`}
+            `${spoonLow} Spoonacular recipes are left out. This is what the quick test compares against by default.`}
       </Text>
 
       <SummaryLines cells={PAPER_RESULTS[set]} where="in the paper" />
@@ -389,9 +386,9 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
               }))}
             />
             <BarChart
-              title="Heap allocation"
-              unit="kB"
-              digits={0}
+              title="Memory (heap allocation)"
+              unit="KB"
+              digits={KB_DIGITS}
               rows={SERIALIZATION_FORMATS.map((f, i) => ({
                 format: f,
                 value: cells[i] === undefined ? null : cells[i]!.mbMean * 1000,
@@ -401,8 +398,8 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
             />
             <BarChart
               title="Payload size"
-              unit="kB"
-              digits={1}
+              unit="KB"
+              digits={KB_DIGITS}
               rows={SERIALIZATION_FORMATS.map((f, i) => ({
                 format: f,
                 value: cells[i]?.kbMean ?? null,
@@ -421,8 +418,8 @@ function PaperTab({ set, onSet }: { set: PaperSet; onSet: (s: PaperSet) => void 
       })}
 
       <Text style={styles.note}>
-        ± is the standard deviation: of decode time over individual decodes, of heap allocation and
-        size over payloads, as in the paper. Heap allocation is Hermes js_totalAllocatedBytes.
+        ± is the standard deviation: of decode time over individual decodes, of memory and payload
+        size over payloads, as in the paper. Memory is Hermes js_totalAllocatedBytes.
       </Text>
       <Text style={styles.provenance} selectable>
         Source: {PAPER_RESULTS.source.repository} @ {PAPER_RESULTS.source.artifactCommit.slice(0, 7)}
@@ -466,9 +463,6 @@ function Segmented<T extends string>({
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
-  header: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginBottom: spacing.md },
-  headerButton: { minHeight: touchTarget, minWidth: touchTarget, justifyContent: 'center' },
-  back: { ...type.label, fontSize: 14, color: palette.primary },
   summary: {
     marginTop: spacing.md,
     backgroundColor: palette.surface,
@@ -489,7 +483,6 @@ const styles = StyleSheet.create({
   explainerTitle: { ...type.cardTitle, color: palette.ink },
   explainerLine: { ...type.caption, color: palette.body, lineHeight: 16 },
   explainerTerm: { fontWeight: '700', color: palette.ink },
-  title: { ...type.section, color: palette.ink },
   tabs: {
     flexDirection: 'row',
     backgroundColor: palette.surfaceTint,
@@ -556,22 +549,8 @@ const styles = StyleSheet.create({
   empty: { alignItems: 'flex-start', paddingVertical: spacing.xl },
   emptyTitle: { ...type.section, color: palette.ink },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.xl },
-  primaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    backgroundColor: palette.primary,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.xl,
-  },
-  primaryButtonText: { ...type.label, fontSize: 14, color: palette.surface },
-  secondaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.lg,
-    borderWidth: 1,
-    borderColor: palette.border,
-    backgroundColor: palette.surface,
-  },
-  secondaryButtonText: { ...type.label, fontSize: 14, color: palette.primary },
+  primaryButton: buttonLook.primary,
+  primaryButtonText: buttonLook.primaryText,
+  secondaryButton: buttonLook.secondary,
+  secondaryButtonText: buttonLook.secondaryText,
 });

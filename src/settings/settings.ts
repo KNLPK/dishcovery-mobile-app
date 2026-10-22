@@ -67,10 +67,13 @@ export interface Settings {
   /** Saved recipes, newest first. */
   favourites: FavouriteRecipe[];
   /**
-   * What Profile calls the person using the app. Empty means "not set", and
-   * the screen shows a neutral label rather than inventing a name.
+   * What the app calls the person using it (Home greeting, Profile), asked
+   * once after the welcome cards and editable in Profile. Stored only on this
+   * phone. Empty means "not set": shownName() then gives "Guest".
    */
   displayName: string;
+  /** Recipes opened on this phone, for Profile's stats. */
+  recipesViewed: number;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -80,6 +83,7 @@ export const DEFAULT_SETTINGS: Settings = {
   baseUrlOverride: null,
   favourites: [],
   displayName: '',
+  recipesViewed: 0,
 };
 
 const FILE_NAME = 'dishcovery-settings.json';
@@ -171,6 +175,10 @@ function sanitise(parsed: unknown): Settings {
     favourites: sanitiseFavourites(record.favourites),
     displayName:
       typeof record.displayName === 'string' ? record.displayName.slice(0, 40) : '',
+    recipesViewed:
+      typeof record.recipesViewed === 'number' && Number.isFinite(record.recipesViewed) && record.recipesViewed > 0
+        ? Math.floor(record.recipesViewed)
+        : 0,
   };
 }
 
@@ -238,7 +246,17 @@ export function markWelcomeSeen(): void {
 }
 
 export function setDisplayName(name: string): void {
-  updateSettings({ displayName: name.slice(0, 40) });
+  updateSettings({ displayName: name.trim().slice(0, 40) });
+}
+
+/** The one name shown everywhere: the user's, or "Guest". */
+export function shownName(displayName: string): string {
+  const name = displayName.trim();
+  return name.length > 0 ? name : 'Guest';
+}
+
+export function countRecipeView(): void {
+  updateSettings({ recipesViewed: current.recipesViewed + 1 });
 }
 
 // ─── Favourites ───────────────────────────────────────────────────────────────

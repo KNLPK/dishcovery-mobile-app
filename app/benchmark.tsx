@@ -22,8 +22,10 @@ import {
   View,
 } from 'react-native';
 
-import { useScreenPadding } from '../components/screenInsets';
-import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
+import { buttonLook } from '../components/Buttons';
+import { Screen, StackHeader } from '../components/Screen';
+import { palette, radius, spacing, type } from '../constants/theme';
+import { BYTES_PER_KB } from '../constants/units';
 import { describeBaseUrl, resolveBaseUrl } from '../src/api/baseUrl';
 import { describeRequestError } from '../src/api/errors';
 import { compareRuns, type CrossRunReport } from '../src/bench/compareRuns';
@@ -150,7 +152,6 @@ function mmss(ms: number | null): string {
 
 export default function BenchmarkScreen() {
   const router = useRouter();
-  const screenPadding = useScreenPadding();
   const [runs, setRuns] = useState<RunCheckpoint[]>([]);
   const [busy, setBusy] = useState(false);
   const [progress, setProgress] = useState<Progress | null>(null);
@@ -302,14 +303,9 @@ export default function BenchmarkScreen() {
   const releaseReady = environment.buildType === 'release';
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
-      <View style={styles.header}>
-        <Pressable onPress={() => router.back()} hitSlop={12} accessibilityRole="button">
-          <Text style={styles.back}>‹ Back</Text>
-        </Pressable>
-        <Text style={styles.title}>Benchmark runner</Text>
-        <View style={{ width: 48 }} />
-      </View>
+    <Screen background={palette.surfaceAlt}>
+      <StackHeader title="Benchmark runner" />
+      <ScrollView style={styles.page} contentContainerStyle={styles.content}>
 
       {/* ── Paper-protocol dataset banner ───────────────────────────────── */}
       <View style={[styles.card, datasetCheck.state === 'ok' ? styles.cardOk : styles.cardWarn]}>
@@ -333,7 +329,7 @@ export default function BenchmarkScreen() {
           {datasetCheck.state === 'unreachable'
             ? ` No dataset from ${datasetCheck.url} (${datasetCheck.detail}).`
             : ''}
-          {datasetCheck.state !== 'ok' ? ' For a short test on this phone, use the Quick test instead.' : ''}
+          {datasetCheck.state !== 'ok' ? ' For a short test on this phone, use the quick test instead.' : ''}
         </Text>
         {datasetCheck.state !== 'ok' && datasetCheck.state !== 'checking' && (
           <View style={styles.buttonRow}>
@@ -342,7 +338,7 @@ export default function BenchmarkScreen() {
               onPress={() => router.push('/quick')}
               accessibilityRole="button"
             >
-              <Text style={styles.secondaryButtonText}>Open Quick test</Text>
+              <Text style={styles.secondaryButtonText}>Open quick test</Text>
             </Pressable>
             <Pressable
               style={styles.secondaryButton}
@@ -950,7 +946,8 @@ export default function BenchmarkScreen() {
           ))}
         </>
       )}
-    </ScrollView>
+      </ScrollView>
+    </Screen>
   );
 }
 
@@ -1012,7 +1009,7 @@ function SummaryView({ summary }: { summary: RunAggregate }) {
             `${c.meanMs.toFixed(3).padStart(8)}` +
             `${c.sdMs.toFixed(3).padStart(8)}` +
             `${(c.msPercentVsJson === null ? '—' : c.msPercentVsJson.toFixed(1)).padStart(9)}` +
-            `${(c.meanHeapBytesCorrected === null ? '—' : (c.meanHeapBytesCorrected / 1024).toFixed(1)).padStart(11)}` +
+            `${(c.meanHeapBytesCorrected === null ? '—' : (c.meanHeapBytesCorrected / BYTES_PER_KB).toFixed(1)).padStart(11)}` +
             `${(c.heapPercentVsJson === null ? '—' : c.heapPercentVsJson.toFixed(1)).padStart(8)}` +
             `${String(c.memoryN).padStart(9)}`}
         </Text>
@@ -1041,14 +1038,6 @@ function SummaryView({ summary }: { summary: RunAggregate }) {
 const styles = StyleSheet.create({
   page: { flex: 1, backgroundColor: palette.surfaceAlt },
   content: { padding: spacing.lg, paddingBottom: spacing.xxl },
-  header: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginBottom: spacing.md,
-  },
-  back: { ...type.label, color: palette.primary },
-  title: { ...type.section, color: palette.ink },
   sectionTitle: { ...type.section, fontSize: 15, color: palette.ink, marginTop: spacing.xl, marginBottom: spacing.sm },
   cardTitle: { ...type.cardTitle, color: palette.primary, marginTop: spacing.md, marginBottom: spacing.xs },
   body: { ...type.body, color: palette.body },
@@ -1067,24 +1056,10 @@ const styles = StyleSheet.create({
   cardOk: { borderColor: '#a9ddc4', backgroundColor: '#f2fbf6' },
   cardWarn: { borderColor: '#f0cfa0', backgroundColor: '#fdf6ec' },
   buttonRow: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.md },
-  primaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    backgroundColor: palette.primary,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.xl,
-  },
-  primaryButtonText: { ...type.label, color: palette.surface },
-  secondaryButton: {
-    minHeight: touchTarget,
-    justifyContent: 'center',
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.lg,
-    borderWidth: 1,
-    borderColor: palette.border,
-    backgroundColor: palette.surface,
-  },
-  secondaryButtonText: { ...type.label, color: palette.primary },
+  primaryButton: buttonLook.primary,
+  primaryButtonText: buttonLook.primaryText,
+  secondaryButton: buttonLook.secondary,
+  secondaryButtonText: buttonLook.secondaryText,
   buttonDisabled: { opacity: 0.5 },
   input: {
     backgroundColor: palette.surfaceTint,

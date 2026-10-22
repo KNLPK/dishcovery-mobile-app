@@ -1,37 +1,29 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, Skeleton } from '../components/motion';
 import RecipeImage, { hasPhoto } from '../components/RecipeImage';
+import { Screen, StackHeader } from '../components/Screen';
 import { ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
-import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-router
+import { useLocalSearchParams } from 'expo-router';
+import { palette } from '../constants/theme';
 import { fetchRecipe } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
-import { useSettings } from '../src/settings/settings';
+import { countRecipeView, useSettings } from '../src/settings/settings';
 import { toggleFavouriteWithToast } from '../src/ui/favourites';
 import { showToast } from '../src/ui/toast';
 import { isGeneratedRecipeId } from '../shared/contract';
-// import { useRoute, useNavigation } from '@react-navigation/native'; // If using React Navigation
 
 const SPOONACULAR_URL = 'https://spoonacular.com/food-api';
 
 
 export default function RecipeDetailScreen() {
-  // If using expo-router:
   const params = useLocalSearchParams();
   const recipeId = params.id;
-  const router = useRouter();
-
-  // If using React Navigation:
-  // const route = useRoute();
-  // const navigation = useNavigation();
-  // const recipeId = route.params?.id;
-
 
   const [recipe, setRecipe] = useState<any>(null);
   const [loading, setLoading] = useState(true);
@@ -40,8 +32,9 @@ export default function RecipeDetailScreen() {
   const [activeTab, setActiveTab] = useState('ingredients'); // 'ingredients' or 'instructions'
   const [waking, setWaking] = useState(false);
   const server = useServer();
-  const insets = useSafeAreaInsets();
   const tabBarSpace = useTabBarSpace();
+  // Profile's "Recipes viewed": one per recipe opened, not per format switch.
+  const counted = useRef<string | null>(null);
 
   // The app-wide serialization setting. Listed in the effect's dependencies, so
   // switching format on this screen re-fetches this recipe in the new format —
@@ -78,6 +71,10 @@ export default function RecipeDetailScreen() {
         onWaking: () => setWaking(true),
       });
       setRecipe(data);
+      if (counted.current !== String(recipeId)) {
+        counted.current = String(recipeId);
+        countRecipeView();
+      }
       setLast({
         payloadBytes: meta.payloadBytes,
         deserializationMs: meta.deserializationMs,
@@ -99,44 +96,67 @@ export default function RecipeDetailScreen() {
   }, [load]);
 
 
+  const heart =
+    recipe === null ? undefined : (
+      <TouchableOpacity
+        style={styles.headerButton}
+        onPress={() =>
+          toggleFavouriteWithToast({
+            id: Number(recipeId),
+            title: recipe?.title ?? 'Recipe',
+            image: recipe?.image ?? null,
+          })
+        }
+        accessibilityRole="button"
+        accessibilityLabel={saved ? 'Remove from saved recipes' : 'Save this recipe'}
+      >
+        <MaterialCommunityIcons
+          name={saved ? 'heart' : 'heart-outline'}
+          size={24}
+          color={saved ? '#e74c3c' : palette.primary}
+        />
+      </TouchableOpacity>
+    );
+
   if (server.url === null && recipe === null) {
     return (
-      <View style={styles.centeredPadded}>
-        <NoServerState mode={server.mode} />
-        <TouchableOpacity onPress={() => router.back()} style={styles.backLink} accessibilityRole="button">
-          <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
-        </TouchableOpacity>
-      </View>
+      <Screen background={palette.surfaceCool}>
+        <StackHeader title="Recipe" />
+        <View style={styles.centeredPadded}>
+          <NoServerState mode={server.mode} />
+        </View>
+      </Screen>
     );
   }
 
   if (loading && recipe === null) {
     return (
-      <View style={styles.container}>
+      <Screen background={palette.surfaceCool}>
+        <StackHeader title="Recipe" />
         <Skeleton variant="detail" count={5} label="Loading recipe" caption={waking ? WAKING_LABEL : undefined} />
-      </View>
+      </Screen>
     );
   }
 
   if (failure !== null) {
     return (
-      <View style={styles.centeredPadded}>
-        <ErrorState failure={failure} onRetry={load} />
-        <TouchableOpacity onPress={() => router.back()} style={styles.backLink} accessibilityRole="button">
-          <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
-        </TouchableOpacity>
-      </View>
+      <Screen background={palette.surfaceCool}>
+        <StackHeader title="Recipe" />
+        <View style={styles.centeredPadded}>
+          <ErrorState failure={failure} onRetry={load} />
+        </View>
+      </Screen>
     );
   }
 
   if (!recipe) {
        return (
-         <View style={styles.centeredPadded}>
-           <Text style={{ color: '#1a2b3b', fontSize: 15, fontWeight: '600' }}>Recipe not found.</Text>
-           <TouchableOpacity onPress={() => router.back()} style={styles.backLink} accessibilityRole="button">
-             <Text style={{ color: '#20515a', fontWeight: 'bold' }}>Go back</Text>
-           </TouchableOpacity>
-         </View>
+         <Screen background={palette.surfaceCool}>
+           <StackHeader title="Recipe" />
+           <View style={styles.centeredPadded}>
+             <Text style={{ color: palette.ink, fontSize: 15, fontWeight: '600' }}>Recipe not found.</Text>
+           </View>
+         </Screen>
        );
   }
 
@@ -148,46 +168,15 @@ export default function RecipeDetailScreen() {
 
 
   return (
-    <View style={styles.container}>
+    <Screen background={palette.surface} tabBar>
+      <StackHeader title="Recipe" right={heart} />
       <ScrollView contentContainerStyle={{ paddingBottom: tabBarSpace }}>
-        {/* Recipe Image: full bleed, under the status bar */}
-        <RecipeImage uri={recipe.image} title={recipe.title} style={[styles.recipeImage, { height: 250 + insets.top }]} />
-        {/* Keeps the status bar's dark icons readable over a dark photo. */}
-        <View style={[styles.statusScrim, { height: insets.top }]} />
+        {/* Photo, full width, below the header */}
+        <RecipeImage uri={recipe.image} title={recipe.title} style={styles.recipeImage} />
         {!hasPhoto(recipe.image) && (
           // Bottom right of the photo, just above the content card's rounded top.
-          <Text style={[styles.photoCaption, { top: 250 + insets.top - 30 - 30 }]}>Illustrative photo</Text>
+          <Text style={[styles.photoCaption, { top: 250 - 30 - 30 }]}>Illustrative photo</Text>
         )}
-
-        {/* Header Overlay */}
-        <View style={[styles.headerOverlay, { top: insets.top + 8 }]}>
-          <TouchableOpacity
-            style={styles.closeButton}
-            onPress={() => router.back()}
-            accessibilityRole="button"
-            accessibilityLabel="Close recipe"
-          >
-            <MaterialCommunityIcons name="close" size={24} color="#22313F" />
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={styles.favoriteButton}
-            onPress={() =>
-              toggleFavouriteWithToast({
-                id: Number(recipeId),
-                title: recipe?.title ?? 'Recipe',
-                image: recipe?.image ?? null,
-              })
-            }
-            accessibilityRole="button"
-            accessibilityLabel={saved ? 'Remove from saved recipes' : 'Save this recipe'}
-          >
-            <MaterialCommunityIcons
-              name={saved ? 'heart' : 'heart-outline'}
-              size={24}
-              color={saved ? '#e74c3c' : '#22313F'}
-            />
-          </TouchableOpacity>
-        </View>
 
         {/* Content Below Image */}
         <FadeIn style={styles.content}>
@@ -201,7 +190,7 @@ export default function RecipeDetailScreen() {
             <Text style={styles.recipeTitle}>{recipe.title}</Text>
             <View style={styles.cookTime}>
               <MaterialCommunityIcons name="clock-outline" size={16} color="#5f6e7a" />
-              <Text style={styles.cookTimeText}>{recipe.readyInMinutes} Min</Text>
+              <Text style={styles.cookTimeText}>{recipe.readyInMinutes} min</Text>
             </View>
           </View>
 
@@ -280,7 +269,9 @@ export default function RecipeDetailScreen() {
           <View style={styles.tabContent}>
             {activeTab === 'ingredients' ? (
               <View>
-                <Text style={styles.ingredientsCount}>{recipe.extendedIngredients.length} Item</Text>
+                <Text style={styles.ingredientsCount}>
+                  {recipe.extendedIngredients.length} ingredient{recipe.extendedIngredients.length === 1 ? '' : 's'}
+                </Text>
                 {recipe.extendedIngredients.map((ingredient: any, index: number) => (
                   <View key={ingredient.id || index} style={styles.ingredientItem}>
                      <MaterialCommunityIcons name="food-outline" size={24} color="#20515a" style={{marginRight: 12}} />
@@ -328,21 +319,11 @@ export default function RecipeDetailScreen() {
         </FadeIn>
       </ScrollView>
       <BottomTabBar />
-    </View>
+    </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#eaf4f4', // Background color matching the image
-  },
-  centered: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#eaf4f4',
-  },
   centeredPadded: {
       flex: 1,
       justifyContent: 'center',
@@ -357,21 +338,9 @@ const styles = StyleSheet.create({
       marginTop: 16,
       marginBottom: 8,
   },
-  errorText: {
-      color: '#b3261e',
-      textAlign: 'center',
-      padding: 20,
-  },
   recipeImage: {
     width: '100%',
     height: 250,
-  },
-  statusScrim: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    right: 0,
-    backgroundColor: 'rgba(255, 255, 255, 0.55)',
   },
   photoCaption: {
     position: 'absolute',
@@ -385,34 +354,11 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingVertical: 3,
   },
-  headerOverlay: {
-    position: 'absolute',
-    left: 0,
-    right: 0,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    paddingHorizontal: 20,
-    zIndex: 1, // Ensure icons are above the image
-  },
-  closeButton: {
-      backgroundColor: '#fff',
-      borderRadius: 24,
-      padding: 12,
-      elevation: 4, // Shadow for Android
-      shadowColor: '#000', // Shadow for iOS
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.1,
-      shadowRadius: 3,
-  },
-  favoriteButton: {
-      backgroundColor: '#fff',
-      borderRadius: 24,
-      padding: 12,
-       elevation: 4, // Shadow for Android
-      shadowColor: '#000', // Shadow for iOS
-      shadowOffset: { width: 0, height: 2 },
-      shadowOpacity: 0.1,
-      shadowRadius: 3,
+  headerButton: {
+    width: 48,
+    height: 48,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   content: {
     backgroundColor: '#fff',
@@ -489,12 +435,6 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-end',
     minHeight: 48,
     paddingBottom: 10,
-  },
-  backLink: {
-    marginTop: 20,
-    minHeight: 48,
-    justifyContent: 'center',
-    paddingHorizontal: 12,
   },
   activeTab: {
     borderBottomWidth: 2,

@@ -14,6 +14,7 @@
  * benchmark runner, not from here.
  */
 
+import { BYTES_PER_KB } from '../../constants/units';
 import type { ComplexityTier, SerializationFormat } from '../../shared/contract';
 import { SERIALIZATION_FORMATS } from '../../shared/contract';
 
@@ -48,11 +49,11 @@ export interface Summary {
 export interface FormatAggregate {
   format: SerializationFormat;
   n: number;
-  /** Kilobytes (1024). */
+  /** Kilobytes (1 KB = 1000 bytes, as in the paper). */
   payloadKB: Summary | null;
   /** Milliseconds. */
   deserializationMs: Summary | null;
-  /** Kilobytes (1024). null when the runtime reported no heap deltas. */
+  /** Kilobytes (1000 bytes). null when the runtime reported no heap deltas. */
   heapKB: Summary | null;
   networkMs: Summary | null;
 }
@@ -106,7 +107,7 @@ export function subscribeToMetrics(listener: Listener): () => void {
 
 // ─── Aggregation ──────────────────────────────────────────────────────────────
 
-const KB = 1024;
+const KB = BYTES_PER_KB;
 
 /**
  * One row per format, in the contract's declared order so the table never

@@ -1,19 +1,22 @@
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Dimensions, FlatList, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
+import { PrimaryButton, TextLink } from '../components/Buttons';
+import { ChipRow } from '../components/Chips';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
+import { Screen, TabHeader } from '../components/Screen';
 import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
+import { palette } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
-import { useSettings } from '../src/settings/settings';
+import { shownName, useSettings } from '../src/settings/settings';
 import { toggleFavouriteWithToast } from '../src/ui/favourites';
 import { showToast } from '../src/ui/toast';
 
@@ -21,14 +24,14 @@ const { width } = Dimensions.get('window');
 
 /** How many recipes the landing screen loads per category. */
 const HOME_RESULT_COUNT = 8;
-/** The first few become the Featured carousel; the rest fill Popular Recipes. */
+/** The first few become the Featured carousel; the rest fill Popular recipes. */
 const FEATURED_COUNT = 2;
 
 
+const CATEGORY_CHIPS = CATEGORIES.map((c) => ({ value: c.label, label: c.label }));
+
 export default function HomePage() {
-  const params = useLocalSearchParams();
   const router = useRouter();
-  const username = typeof params.username === 'string' ? params.username : 'Guest';
   const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].label);
   const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
   const [loading, setLoading] = useState(true);
@@ -38,18 +41,18 @@ export default function HomePage() {
   const server = useServer();
   const scrollRef = useRef<ScrollView>(null);
   const [recipesY, setRecipesY] = useState(0);
-  const insets = useSafeAreaInsets();
   const tabBarSpace = useTabBarSpace();
 
   // Subscribed so a heart tapped here repaints immediately, and so a recipe
   // saved on the detail screen shows as saved when the user comes back.
-  const savedIds = new Set(useSettings().favourites.map((f) => f.id));
+  const settings = useSettings();
+  const savedIds = new Set(settings.favourites.map((f) => f.id));
 
   const getGreeting = () => {
     const hour = new Date().getHours();
-    if (hour < 12) return 'Good Morning';
-    if (hour < 18) return 'Good Afternoon';
-    return 'Good Evening';
+    if (hour < 12) return 'Good morning';
+    if (hour < 18) return 'Good afternoon';
+    return 'Good evening';
   };
 
   /**
@@ -109,13 +112,15 @@ export default function HomePage() {
   const popular = recipes.slice(FEATURED_COUNT);
 
   return (
-    <View style={{ flex: 1, backgroundColor: '#f9faf7' }}>
+    <Screen background={palette.surfaceAlt} tabBar>
       <ScrollView
         ref={scrollRef}
         style={styles.container}
-        contentContainerStyle={{ paddingTop: insets.top, paddingBottom: tabBarSpace }}
+        contentContainerStyle={{ paddingBottom: tabBarSpace }}
         showsVerticalScrollIndicator={true}
       >
+        <TabHeader title="Home" subtitle={`${getGreeting()}, ${shownName(settings.displayName)}`} />
+
         {/* Test it yourself: the study's demo, first thing on the screen */}
         <View style={styles.banner}>
           <Text style={styles.bannerText}>Test it yourself</Text>
@@ -123,50 +128,28 @@ export default function HomePage() {
             See how fast this phone decodes recipes as JSON, MessagePack and Protocol Buffers. Usually
             under a minute, works offline.
           </Text>
-          <PressableScale
+          <PrimaryButton
+            label="Start quick test"
             style={styles.bannerButton}
             onPress={() => {
               tapHaptic();
               router.push('/quick');
             }}
-            accessibilityRole="button"
-          >
-            <Text style={styles.bannerButtonText}>Start Quick test</Text>
-          </PressableScale>
-          <View style={styles.bannerLinks}>
-            <TouchableOpacity
-              style={styles.bannerLink}
-              onPress={() => router.push({ pathname: '/results', params: { tab: 'paper' } })}
-              accessibilityRole="button"
-            >
-              <Text style={styles.bannerLinkText}>Paper results</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.bannerLink}
-              onPress={() => scrollRef.current?.scrollTo({ y: recipesY, animated: true })}
-              accessibilityRole="button"
-            >
-              <Text style={styles.bannerLinkText}>Browse recipes ↓</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
-        {/* Header */}
-        <View style={[styles.headerRow, { marginBottom: 18 }]}>
-          <View>
-            <Text style={styles.greeting}>{getGreeting()}</Text>
-            <Text style={styles.username}>{username}</Text>
-          </View>
-          <IconButton
-            icon="heart-outline"
-            size={32}
-            style={styles.heartIcon}
-            iconColor="#20515a"
-            accessibilityLabel="Saved recipes"
-            onPress={() => router.navigate('/Profile')}
           />
+          <View style={styles.bannerLinks}>
+            <TextLink
+              label="Paper results"
+              onPress={() => router.push({ pathname: '/results', params: { tab: 'paper' } })}
+            />
+            <TextLink
+              label="Browse recipes"
+              onPress={() => scrollRef.current?.scrollTo({ y: recipesY, animated: true })}
+            />
+          </View>
         </View>
+
         {/* Format selector + what the last load cost */}
-        <View style={{ marginBottom: 20 }}>
+        <View style={{ marginTop: 8, marginBottom: 20 }}>
           <MetricsBar last={last} busy={loading} />
         </View>
 
@@ -224,38 +207,22 @@ export default function HomePage() {
         {/* Category */}
         <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
           <Text style={styles.sectionTitle}>Category</Text>
-          <TouchableOpacity onPress={() => router.navigate('/Search')} style={styles.seeAllTarget} accessibilityRole="button">
-            <Text style={styles.seeAll}>Search all</Text>
-          </TouchableOpacity>
+          <TextLink label="Search all" onPress={() => router.navigate('/Search')} />
         </View>
-        <FlatList
-          data={CATEGORIES}
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          keyExtractor={(item) => item.label}
-          contentContainerStyle={[styles.categoryList, { paddingVertical: 8, paddingLeft: 16, paddingRight: 40 }]}
-          renderItem={({ item }) => (
-            <TouchableOpacity
-              style={[styles.categoryButton, selectedCategory === item.label && styles.categoryButtonActive, { marginRight: 16 }]}
-              onPress={() => setSelectedCategory(item.label)}
-              hitSlop={{ top: 6, bottom: 6 }}
-              accessibilityRole="button"
-              accessibilityState={{ selected: selectedCategory === item.label }}
-            >
-              <Text style={[styles.categoryText, selectedCategory === item.label && styles.categoryTextActive]}>
-                {item.label}
-              </Text>
-            </TouchableOpacity>
-          )}
-          style={{ marginBottom: 24 }}
-        />
+        <View style={{ marginBottom: 24 }}>
+          <ChipRow
+            options={CATEGORY_CHIPS}
+            selected={selectedCategory}
+            onSelect={setSelectedCategory}
+            background={palette.surfaceAlt}
+            accessibilityLabel="Category"
+          />
+        </View>
 
-        {/* Popular Recipes */}
+        {/* Popular recipes */}
         <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
-          <Text style={styles.sectionTitle}>Popular Recipes</Text>
-          <TouchableOpacity onPress={() => router.navigate('/Search')} style={styles.seeAllTarget} accessibilityRole="button">
-            <Text style={styles.seeAll}>Search all</Text>
-          </TouchableOpacity>
+          <Text style={styles.sectionTitle}>Popular recipes</Text>
+          <TextLink label="Search all" onPress={() => router.navigate('/Search')} />
         </View>
         {loading && server.url !== null && <Skeleton variant="cards" count={2} label="Loading popular recipes" />}
         {!loading && failure === null && popular.length > 0 && (
@@ -291,8 +258,8 @@ export default function HomePage() {
             })}
           </FadeIn>
         )}
-        {/* Tips & Tricks */}
-        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Tips & Tricks</Text>
+        {/* Tips and tricks */}
+        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Tips and tricks</Text>
         <View style={[styles.tipsContainer, { marginBottom: 24 }]}>
           <View style={styles.tipCard}>
             <Text style={styles.tipTitle}>How to keep herbs fresh</Text>
@@ -305,7 +272,7 @@ export default function HomePage() {
         </View>
       </ScrollView>
       <BottomTabBar />
-    </View>
+    </Screen>
   );
 }
 
@@ -315,28 +282,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#f9faf7',
     paddingHorizontal: 16,
   },
-  headerRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: 24,
-    marginBottom: 8,
-  },
-  greeting: {
-    color: '#20515a',
-    fontSize: 16,
-    fontWeight: '500',
-  },
-  username: {
-    color: '#20515a',
-    fontSize: 28,
-    fontWeight: 'bold',
-    letterSpacing: 2,
-  },
-  heartIcon: {
-    backgroundColor: 'white',
-    elevation: 2,
-  },
   sectionTitle: {
     fontSize: 20,
     fontWeight: 'bold',
@@ -344,17 +289,11 @@ const styles = StyleSheet.create({
     marginTop: 16,
     marginBottom: 8,
   },
-  seeAll: {
-    color: '#20515a',
-    fontWeight: 'bold',
-    alignSelf: 'center',
-    marginLeft: 8,
-  },
   featuredCard: {
     width: width * 0.8,
     borderRadius: 18,
     overflow: 'hidden',
-    backgroundColor: '#abe1e5',
+    backgroundColor: palette.surfaceCool,
   },
   featuredImage: {
     width: '100%',
@@ -390,28 +329,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginTop: 16,
     marginBottom: 4,
-  },
-  categoryList: {
-    paddingVertical: 8,
-  },
-  categoryButton: {
-    backgroundColor: '#f3f7f8',
-    borderRadius: 20,
-    paddingHorizontal: 20,
-    paddingVertical: 8,
-    marginRight: 12,
-  },
-  categoryButtonActive: {
-    backgroundColor: '#abe1e5',
-  },
-  categoryText: {
-    color: '#20515a',
-    fontWeight: '500',
-    fontSize: 15,
-  },
-  categoryTextActive: {
-    color: '#20515a',
-    fontWeight: 'bold',
   },
   popularList: {
     flexDirection: 'row',
@@ -460,21 +377,12 @@ const styles = StyleSheet.create({
     marginTop: 8,
     marginHorizontal: 8,
   },
-  recipeInfoRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginHorizontal: 8,
-    marginTop: 4,
-  },
-  recipeInfo: {
-    color: '#20515a',
-    fontSize: 13,
-  },
   banner: {
-    backgroundColor: '#abe1e5',
+    backgroundColor: palette.surfaceCool,
+    borderWidth: 1,
+    borderColor: palette.border,
     borderRadius: 18,
     padding: 18,
-    marginTop: 18,
     marginBottom: 10,
     alignItems: 'center',
   },
@@ -492,38 +400,13 @@ const styles = StyleSheet.create({
   },
   bannerButton: {
     alignSelf: 'stretch',
-    minHeight: 48,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#20515a',
-    borderRadius: 24,
     marginTop: 14,
-  },
-  bannerButtonText: {
-    color: '#ffffff',
-    fontWeight: 'bold',
-    fontSize: 16,
   },
   bannerLinks: {
     flexDirection: 'row',
     justifyContent: 'center',
     gap: 8,
     marginTop: 6,
-  },
-  bannerLink: {
-    minHeight: 48,
-    justifyContent: 'center',
-    paddingHorizontal: 12,
-  },
-  bannerLinkText: {
-    color: '#20515a',
-    fontWeight: 'bold',
-    fontSize: 14,
-    textDecorationLine: 'underline',
-  },
-  seeAllTarget: {
-    minHeight: 48,
-    justifyContent: 'center',
   },
   tipsContainer: {
     flexDirection: 'row',

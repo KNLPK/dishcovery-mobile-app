@@ -2,15 +2,16 @@ import { Feather } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { FlatList, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
-import { IconButton } from 'react-native-paper';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
+import { ChipRow } from '../components/Chips';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, PressableScale, Skeleton } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
+import { Screen, TabHeader } from '../components/Screen';
 import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
+import { illustrativePhoto } from '../constants/illustrativePhotos';
 import { palette, radius, shadow, spacing, type as typeScale } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
@@ -19,26 +20,19 @@ import { useServer } from '../src/api/useServer';
 import { showToast } from '../src/ui/toast';
 
 /**
- * Example cards, shown before a search has run. These are placeholders with
- * stock imagery, not data from the API — they are labelled "Examples" and are
- * not tappable because there is no recipe behind them.
+ * Searches to try, before one has run. Each card runs its search, and every
+ * one of them finds recipes in the online catalog. They used to be three
+ * "Examples" with hotlinked stock photos that did not match (a chicken stew
+ * showed blueberries) or did not load; the photos now come from the same
+ * bundled set and title-based mapping as every recipe card
+ * (constants/illustrativePhotos.ts).
  */
-type SampleCard = { id: string; title: string; image: string };
+const SUGGESTED_SEARCHES = ['Chicken stew', 'Noodle bowl', 'Lentil soup'] as const;
 
-const popularRecipes: SampleCard[] = [
-  { id: '1', title: 'Egg & Avocado', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80' },
-  { id: '2', title: 'Bowl of ramen', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80' },
-  { id: '3', title: 'Chicken Stew', image: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=400&q=80' },
-];
+/** One-word searches, with the photo for that ingredient's kind of dish. */
+const INGREDIENTS = ['Egg', 'Chicken', 'Salmon', 'Rice', 'Tofu'] as const;
 
-const trendingIngredients: SampleCard[] = [
-  { id: '1', title: 'Avocado', image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=80&q=80' },
-  { id: '2', title: 'Egg', image: 'https://images.unsplash.com/photo-1464306076886-debca5e8a6b0?auto=format&fit=crop&w=80&q=80' },
-  { id: '3', title: 'Chicken', image: 'https://images.unsplash.com/photo-1502741338009-cac2772e18bc?auto=format&fit=crop&w=80&q=80' },
-  { id: '4', title: 'Salmon', image: 'https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=80&q=80' },
-];
-
-
+const CATEGORY_CHIPS = CATEGORIES.map((c) => ({ value: c.label, label: c.label }));
 
 export default function Search() {
   // null means "no meal-type filter". The chips toggle: tapping the selected
@@ -53,7 +47,6 @@ export default function Search() {
   const [waking, setWaking] = useState(false);
   const server = useServer();
   const router = useRouter();
-  const insets = useSafeAreaInsets();
   const tabBarSpace = useTabBarSpace();
   const [searchFocused, setSearchFocused] = useState(false);
 
@@ -102,33 +95,26 @@ export default function Search() {
     }
   };
 
-  const showExamples = server.url !== null && results === null && failure === null && !loading;
+  const searchFor = (query: string) => {
+    setSearch(query);
+    runSearch(query);
+  };
+
+  const showSuggestions = server.url !== null && results === null && failure === null && !loading;
 
   const openRecipe = (id: number | string) => {
     router.push({ pathname: '/recipe', params: { id: String(id) } });
   };
 
   return (
-    <View style={styles.page}>
+    <Screen background={palette.surface} tabBar>
       <ScrollView
         style={styles.container}
-        contentContainerStyle={{ paddingTop: insets.top, paddingBottom: tabBarSpace }}
+        contentContainerStyle={{ paddingBottom: tabBarSpace }}
         keyboardShouldPersistTaps="handled"
         keyboardDismissMode="on-drag"
       >
-        {/* Header */}
-        <View style={styles.headerRow}>
-          <IconButton
-            icon="arrow-left"
-            size={22}
-            iconColor={palette.primary}
-            onPress={() => router.navigate('/HomePage')}
-            style={{ width: 48, height: 48 }}
-            accessibilityLabel="Back to Home"
-          />
-          <Text style={styles.headerTitle}>Search</Text>
-          <View style={{ width: 48 }} />
-        </View>
+        <TabHeader title="Search" />
 
         {/* Search bar */}
         <View style={[styles.searchBarWrapper, searchFocused && styles.searchBarFocused]}>
@@ -160,39 +146,28 @@ export default function Search() {
           <MetricsBar last={last} busy={loading} />
         </View>
 
-        {/* Categories */}
-        <View style={styles.categoryRow}>
-          {CATEGORIES.map((cat) => {
-            const active = selectedCategory === cat.label;
-            return (
-              <Pressable
-                key={cat.label}
-                style={[styles.categoryButton, active && styles.categoryButtonActive]}
-                accessibilityRole="button"
-                accessibilityState={{ selected: active }}
-                hitSlop={{ top: 7, bottom: 7 }}
-                onPress={() => {
-                  // Toggle, then re-run the current query so the filter is
-                  // visibly applied rather than waiting for the next search.
-                  const next = active ? null : cat.label;
-                  setSelectedCategory(next);
-                  if (lastQuery.length > 0) runSearch(lastQuery, next);
-                }}
-              >
-                <Text style={[styles.categoryText, active && styles.categoryTextActive]}>
-                  {cat.label}
-                </Text>
-              </Pressable>
-            );
-          })}
+        {/* Categories: tapping the selected one clears the filter */}
+        <View style={{ marginTop: spacing.lg }}>
+          <ChipRow
+            options={CATEGORY_CHIPS}
+            selected={selectedCategory}
+            onSelect={(label) => {
+              // Toggle, then re-run the current query so the filter is
+              // visibly applied rather than waiting for the next search.
+              const next = selectedCategory === label ? null : label;
+              setSelectedCategory(next);
+              if (lastQuery.length > 0) runSearch(lastQuery, next);
+            }}
+            background={palette.surface}
+            accessibilityLabel="Category"
+          />
         </View>
 
-        {/* Results, or the sample content before a search has run */}
+        {/* Results, or searches to try before one has run */}
         <View style={styles.sectionRow}>
           <Text style={styles.sectionTitle}>
-            {showExamples ? 'Examples' : server.url === null ? 'Recipes' : 'Results'}
+            {showSuggestions ? 'Try a search' : server.url === null ? 'Recipes' : 'Results'}
           </Text>
-          {showExamples && <Text style={styles.sectionMeta}>Not real recipes · search to load some</Text>}
           {results !== null && results.length > 0 && (
             <Text style={styles.sectionMeta}>
               {results.length} for “{lastQuery}”
@@ -214,17 +189,22 @@ export default function Search() {
           <ErrorState failure={failure} onRetry={() => runSearch(lastQuery)} />
         ) : results === null ? (
           <FlatList
-            data={popularRecipes}
+            data={SUGGESTED_SEARCHES}
             horizontal
             showsHorizontalScrollIndicator={false}
-            keyExtractor={(item) => item.id}
+            keyExtractor={(item) => item}
             renderItem={({ item }) => (
-              <View style={styles.popularCard}>
-                <Image source={{ uri: item.image }} style={styles.popularImage} />
-                <Text style={styles.popularCardTitle} numberOfLines={2}>
-                  {item.title}
+              <PressableScale
+                style={styles.suggestionCard}
+                onPress={() => searchFor(item)}
+                accessibilityRole="button"
+                accessibilityLabel={`Search for ${item}`}
+              >
+                <Image source={illustrativePhoto(item)} style={styles.suggestionImage} resizeMode="cover" />
+                <Text style={styles.suggestionTitle} numberOfLines={2}>
+                  {item}
                 </Text>
-              </View>
+              </PressableScale>
             )}
             contentContainerStyle={styles.hList}
             ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
@@ -254,49 +234,38 @@ export default function Search() {
           </FadeIn>
         )}
 
-        {/* Trending ingredients — sample content */}
+        {/* One-tap searches by ingredient */}
         <Text style={[styles.sectionTitle, { marginTop: spacing.xl, marginBottom: spacing.sm }]}>
-          Trending Ingredients
+          Search by ingredient
         </Text>
         <FlatList
-          data={trendingIngredients}
+          data={INGREDIENTS}
           horizontal
           showsHorizontalScrollIndicator={false}
-          keyExtractor={(item) => item.id}
+          keyExtractor={(item) => item}
           renderItem={({ item }) => (
-            <Pressable
+            <PressableScale
               style={styles.ingredientCard}
-              onPress={() => {
-                setSearch(item.title);
-                runSearch(item.title);
-              }}
+              onPress={() => searchFor(item)}
               accessibilityRole="button"
-              accessibilityLabel={`Search for ${item.title}`}
+              accessibilityLabel={`Search for ${item}`}
             >
-              <Image source={{ uri: item.image }} style={styles.ingredientImage} />
-              <Text style={styles.ingredientName}>{item.title}</Text>
-            </Pressable>
+              <Image source={illustrativePhoto(item)} style={styles.ingredientImage} resizeMode="cover" />
+              <Text style={styles.ingredientName}>{item}</Text>
+            </PressableScale>
           )}
           contentContainerStyle={styles.hList}
           ItemSeparatorComponent={() => <View style={{ width: spacing.md }} />}
         />
-
+        <Text style={styles.photoNote}>Photos are illustrative.</Text>
       </ScrollView>
       <BottomTabBar />
-    </View>
+    </Screen>
   );
 }
 
 const styles = StyleSheet.create({
-  page: { flex: 1, backgroundColor: palette.surface },
   container: { flex: 1, paddingHorizontal: spacing.lg },
-  headerRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    marginTop: spacing.lg,
-  },
-  headerTitle: { ...typeScale.title, color: palette.primary },
   searchBarWrapper: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -316,23 +285,6 @@ const styles = StyleSheet.create({
     ...typeScale.body,
     fontSize: 15,
   },
-  categoryRow: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: spacing.sm,
-    marginTop: spacing.lg,
-  },
-  categoryButton: {
-    backgroundColor: palette.surfaceTint,
-    borderRadius: radius.pill,
-    paddingHorizontal: spacing.lg,
-    paddingVertical: 7,
-    borderWidth: 1,
-    borderColor: palette.border,
-  },
-  categoryButtonActive: { backgroundColor: palette.accent, borderColor: palette.accent },
-  categoryText: { ...typeScale.label, color: palette.muted },
-  categoryTextActive: { color: palette.primary },
   sectionRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
@@ -357,18 +309,17 @@ const styles = StyleSheet.create({
   },
   resultImage: { width: 56, height: 56, borderRadius: radius.sm },
   resultTitle: { ...typeScale.cardTitle, color: palette.ink, flex: 1 },
-  popularCard: {
-    width: 112,
+  suggestionCard: {
+    width: 128,
     borderRadius: radius.md,
     backgroundColor: palette.surface,
-    alignItems: 'center',
-    padding: spacing.sm,
     borderWidth: 1,
     borderColor: palette.border,
+    overflow: 'hidden',
     ...shadow.card,
   },
-  popularImage: { width: 88, height: 88, borderRadius: radius.sm, marginBottom: spacing.sm },
-  popularCardTitle: { ...typeScale.label, color: palette.ink, textAlign: 'center' },
+  suggestionImage: { width: '100%', height: 80 },
+  suggestionTitle: { ...typeScale.label, fontSize: 13, color: palette.ink, padding: spacing.sm },
   ingredientCard: {
     alignItems: 'center',
     backgroundColor: palette.surface,
@@ -380,6 +331,7 @@ const styles = StyleSheet.create({
     borderColor: palette.border,
     ...shadow.card,
   },
-  ingredientImage: { width: 40, height: 40, borderRadius: 20, marginBottom: spacing.xs },
-  ingredientName: { ...typeScale.caption, color: palette.primary, textAlign: 'center' },
+  ingredientImage: { width: 44, height: 44, borderRadius: 22, marginBottom: spacing.xs },
+  ingredientName: { ...typeScale.label, color: palette.primary, textAlign: 'center' },
+  photoNote: { ...typeScale.caption, color: palette.muted, marginTop: spacing.sm },
 });

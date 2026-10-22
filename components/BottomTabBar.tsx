@@ -32,13 +32,8 @@ const ACTIVE = '#20515a';
 const INACTIVE = '#5f6e7a';
 
 /**
- * Notifications is deliberately absent.
- *
- * app/Notification.tsx is 166 lines of static, hardcoded notices with no
- * backing feature — nothing generates a notification, nothing marks one read.
- * A tab that opens a screen of invented content is worse than no tab, so the
- * entry is removed. The route file still exists and can be restored here the
- * day something actually produces notifications.
+ * There is no Notifications tab: nothing in the app produces notifications.
+ * The old screen of hardcoded, invented notices has been removed.
  */
 /**
  * EDGE TO EDGE
