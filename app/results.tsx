@@ -21,6 +21,7 @@ import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-nati
 
 import BarChart, { pct } from '../components/BarChart';
 import { PAPER_RESULTS, type PaperCell } from '../constants/paperResults.generated';
+import { useScreenPadding } from '../components/screenInsets';
 import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
 import { COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../shared/contract';
 import type { ComplexityTier } from '../shared/contract';
@@ -77,6 +78,7 @@ function when(iso: string): string {
 
 export default function ResultsScreen() {
   const router = useRouter();
+  const screenPadding = useScreenPadding();
   const params = useLocalSearchParams<{ id?: string; tab?: string }>();
   const [tab, setTab] = useState<Tab>(params.tab === 'paper' ? 'paper' : 'phone');
   const [tests, setTests] = useState<QuickTestResult[] | null>(null);
@@ -97,7 +99,7 @@ export default function ResultsScreen() {
   const selected = tests?.find((t) => t.id === selectedId) ?? null;
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} style={styles.headerButton} accessibilityRole="button">
           <Text style={styles.back}>‹ Back</Text>

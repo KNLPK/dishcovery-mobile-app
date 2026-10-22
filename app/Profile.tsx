@@ -1,15 +1,21 @@
 import React, { useState } from 'react';
-import { StyleSheet, Text, TextInput, View, TouchableOpacity, FlatList } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, FlatList } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
-import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
+import { FormField } from '../components/KeyboardForm';
+import { PressableScale } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { EmptyState } from '../components/StateViews';
 import { getMetrics } from '../src/api/metrics';
-import { setDisplayName, toggleFavourite, useSettings } from '../src/settings/settings';
+import { setDisplayName, useSettings } from '../src/settings/settings';
+import { toggleFavouriteWithToast } from '../src/ui/favourites';
 
 export default function Profile() {
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const tabBarSpace = useTabBarSpace();
 
   // Real saved recipes, from the same persisted store the hearts write to.
   // This list used to be four hardcoded stock photos with invented authors.
@@ -30,8 +36,9 @@ export default function Profile() {
   const formatsUsed = new Set(samples.map((sample) => sample.format)).size;
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { paddingTop: insets.top + 8 }]}>
       <FlatList
+        keyboardShouldPersistTaps="handled"
         data={favourites}
         keyExtractor={item => String(item.id)}
         numColumns={2}
@@ -50,14 +57,15 @@ export default function Profile() {
             </View>
             {editingName ? (
               <View style={styles.nameEditRow}>
-                <TextInput
+                <FormField
                   style={styles.nameInput}
                   value={draftName}
                   onChangeText={setDraftName}
                   placeholder="Your name"
-                  placeholderTextColor="#5f6e7a"
                   autoFocus
                   maxLength={40}
+                  returnKeyType="done"
+                  accessibilityLabel="Your name"
                   onSubmitEditing={() => {
                     setDisplayName(draftName);
                     setEditingName(false);
@@ -148,16 +156,16 @@ export default function Profile() {
           </>
         }
         renderItem={({ item }) => (
-          <TouchableOpacity
+          <PressableScale
             style={styles.favCard}
             onPress={() => router.push({ pathname: '/recipe', params: { id: String(item.id) } })}
             accessibilityRole="button"
             accessibilityLabel={`Open ${item.title}`}
           >
-            <RecipeImage uri={item.image} style={styles.favImage} />
+            <RecipeImage uri={item.image} title={item.title} style={styles.favImage} />
             <TouchableOpacity
               style={styles.favLike}
-              onPress={() => toggleFavourite(item)}
+              onPress={() => toggleFavouriteWithToast(item)}
               accessibilityRole="button"
               accessibilityLabel={`Remove ${item.title} from saved`}
               hitSlop={8}
@@ -165,7 +173,7 @@ export default function Profile() {
               <MaterialCommunityIcons name="heart" size={18} color="#fff" />
             </TouchableOpacity>
             <Text style={styles.favTitle} numberOfLines={2}>{item.title}</Text>
-          </TouchableOpacity>
+          </PressableScale>
         )}
         ListEmptyComponent={
           <EmptyState
@@ -173,7 +181,7 @@ export default function Profile() {
             detail="Tap the heart on any recipe to save it here."
           />
         }
-        contentContainerStyle={{ paddingBottom: 90 }}
+        contentContainerStyle={{ paddingBottom: tabBarSpace }}
         showsVerticalScrollIndicator={false}
       />
       <BottomTabBar />
@@ -204,7 +212,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    paddingTop: 40,
     paddingHorizontal: 18,
   },
   headerRow: {
@@ -253,10 +260,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#f3f7f8',
     borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    color: '#1a2b3b',
-    fontSize: 16,
+    minHeight: 48,
   },
   nameSave: {
     color: '#20515a',

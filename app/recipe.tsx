@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, ScrollView, TouchableOpacity, Linking } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import BottomTabBar from '../components/BottomTabBar'; // Adjust the path if needed
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import RecipeImage from '../components/RecipeImage';
-import { ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { FadeIn, Skeleton } from '../components/motion';
+import RecipeImage, { hasPhoto } from '../components/RecipeImage';
+import { ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useLocalSearchParams, useRouter } from 'expo-router'; // If using expo-router
 import { fetchRecipe } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
-import { toggleFavourite, useSettings } from '../src/settings/settings';
+import { useSettings } from '../src/settings/settings';
+import { toggleFavouriteWithToast } from '../src/ui/favourites';
+import { showToast } from '../src/ui/toast';
 import { isGeneratedRecipeId } from '../shared/contract';
 // import { useRoute, useNavigation } from '@react-navigation/native'; // If using React Navigation
 
@@ -36,6 +40,8 @@ export default function RecipeDetailScreen() {
   const [activeTab, setActiveTab] = useState('ingredients'); // 'ingredients' or 'instructions'
   const [waking, setWaking] = useState(false);
   const server = useServer();
+  const insets = useSafeAreaInsets();
+  const tabBarSpace = useTabBarSpace();
 
   // The app-wide serialization setting. Listed in the effect's dependencies, so
   // switching format on this screen re-fetches this recipe in the new format —
@@ -79,7 +85,9 @@ export default function RecipeDetailScreen() {
         format: meta.format,
       });
     } catch (err) {
-      setFailure(describeRequestError(err, 'load this recipe'));
+      const described = describeRequestError(err, 'load this recipe');
+      setFailure(described);
+      showToast({ kind: 'error', message: described.title, action: { label: 'Retry', onPress: () => load() } });
     } finally {
       setLoading(false);
       setWaking(false);
@@ -104,8 +112,8 @@ export default function RecipeDetailScreen() {
 
   if (loading && recipe === null) {
     return (
-      <View style={styles.centered}>
-        <LoadingState label={waking ? WAKING_LABEL : 'Loading recipe…'} />
+      <View style={styles.container}>
+        <Skeleton variant="detail" count={5} label="Loading recipe" caption={waking ? WAKING_LABEL : undefined} />
       </View>
     );
   }
@@ -141,13 +149,18 @@ export default function RecipeDetailScreen() {
 
   return (
     <View style={styles.container}>
-      <ScrollView contentContainerStyle={{ paddingBottom: 120 }}>
-        {/* Recipe Image */}
-        <RecipeImage uri={recipe.image} style={styles.recipeImage} iconSize={64} />
-
+      <ScrollView contentContainerStyle={{ paddingBottom: tabBarSpace }}>
+        {/* Recipe Image: full bleed, under the status bar */}
+        <RecipeImage uri={recipe.image} title={recipe.title} style={[styles.recipeImage, { height: 250 + insets.top }]} />
+        {/* Keeps the status bar's dark icons readable over a dark photo. */}
+        <View style={[styles.statusScrim, { height: insets.top }]} />
+        {!hasPhoto(recipe.image) && (
+          // Bottom right of the photo, just above the content card's rounded top.
+          <Text style={[styles.photoCaption, { top: 250 + insets.top - 30 - 30 }]}>Illustrative photo</Text>
+        )}
 
         {/* Header Overlay */}
-        <View style={styles.headerOverlay}>
+        <View style={[styles.headerOverlay, { top: insets.top + 8 }]}>
           <TouchableOpacity
             style={styles.closeButton}
             onPress={() => router.back()}
@@ -159,7 +172,7 @@ export default function RecipeDetailScreen() {
           <TouchableOpacity
             style={styles.favoriteButton}
             onPress={() =>
-              toggleFavourite({
+              toggleFavouriteWithToast({
                 id: Number(recipeId),
                 title: recipe?.title ?? 'Recipe',
                 image: recipe?.image ?? null,
@@ -177,7 +190,7 @@ export default function RecipeDetailScreen() {
         </View>
 
         {/* Content Below Image */}
-        <View style={styles.content}>
+        <FadeIn style={styles.content}>
           {/* Format selector and what this fetch cost */}
           <View style={{ marginBottom: 16 }}>
             <MetricsBar last={last} busy={loading} />
@@ -312,7 +325,7 @@ export default function RecipeDetailScreen() {
               </View>
             )}
           </View>
-        </View>
+        </FadeIn>
       </ScrollView>
       <BottomTabBar />
     </View>
@@ -351,11 +364,29 @@ const styles = StyleSheet.create({
   },
   recipeImage: {
     width: '100%',
-    height: 250, // Adjust height as needed
+    height: 250,
+  },
+  statusScrim: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: 'rgba(255, 255, 255, 0.55)',
+  },
+  photoCaption: {
+    position: 'absolute',
+    right: 12,
+    fontSize: 11,
+    fontWeight: '600',
+    color: '#ffffff',
+    backgroundColor: 'rgba(26, 43, 59, 0.75)',
+    borderRadius: 8,
+    overflow: 'hidden',
+    paddingHorizontal: 8,
+    paddingVertical: 3,
   },
   headerOverlay: {
     position: 'absolute',
-    top: 40,
     left: 0,
     right: 0,
     flexDirection: 'row',

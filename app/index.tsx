@@ -1,8 +1,11 @@
 import { Redirect, useRouter } from 'expo-router';
-import React, { useState } from 'react';
-import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { Button, IconButton, TextInput } from 'react-native-paper';
+import React, { useRef, useState } from 'react';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Button, IconButton } from 'react-native-paper';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
+import { FormField, KeyboardForm, type FormFieldHandle } from '../components/KeyboardForm';
+import { tapHaptic } from '../components/motion';
 import { getSettings } from '../src/settings/settings';
 
 /**
@@ -17,6 +20,8 @@ export default function Login() {
   const [emailError, setEmailError] = useState('');
   const [passwordError, setPasswordError] = useState('');
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const passwordRef = useRef<FormFieldHandle>(null);
 
   const validateEmail = (email: string) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -47,6 +52,7 @@ export default function Login() {
     }
     
     if (!valid) return;
+    tapHaptic();
     
     // Extract username from email (everything before @)
     const username = email.split('@')[0].trim();
@@ -66,14 +72,20 @@ export default function Login() {
   if (!getSettings().welcomeSeen) return <Redirect href="/welcome" />;
 
   return (
-    <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
+    <KeyboardForm
+      style={styles.page}
+      contentContainerStyle={[styles.scrollContainer, { paddingTop: insets.top, paddingBottom: insets.bottom }]}
+    >
       <View style={styles.container}>
         <Text style={styles.title}>Dishcovery</Text>
         <Button
           mode="contained"
           style={styles.button}
           contentStyle={styles.buttonContent}
-          onPress={() => router.replace('/HomePage')}
+          onPress={() => {
+            tapHaptic();
+            router.replace('/HomePage');
+          }}
           buttonColor="#20515a"
           textColor="#ffffff"
         >
@@ -84,34 +96,41 @@ export default function Login() {
         </Text>
         <Text style={styles.divider}>or log in</Text>
         <Text style={styles.label}>Email</Text>
-        <TextInput
-          mode="flat"
-          style={[styles.input, { backgroundColor: '#abe1e5' }]}
+        <FormField
+          style={styles.input}
           placeholder="example@example.com"
           value={email}
           onChangeText={setEmail}
           autoCapitalize="none"
+          autoComplete="email"
           keyboardType="email-address"
+          returnKeyType="next"
+          submitBehavior="submit"
+          onSubmitEditing={() => passwordRef.current?.focus()}
+          accessibilityLabel="Email"
         />
         {!!emailError && <Text style={styles.error}>{emailError}</Text>}
         <Text style={styles.label}>Password</Text>
-        <View style={[styles.passwordContainer, { backgroundColor: '#abe1e5' }]}>
-          <TextInput
-            mode="flat"
-            style={[styles.passwordInput, { backgroundColor: 'transparent' }]}
-            placeholder="Password"
-            value={password}
-            onChangeText={setPassword}
-            secureTextEntry={!showPassword}
-          />
-          <IconButton
-            icon={showPassword ? 'eye-off' : 'eye'}
-            size={22}
-            onPress={() => setShowPassword(!showPassword)}
-            style={styles.eyeIcon}
-            accessibilityLabel={showPassword ? 'Hide password' : 'Show password'}
-          />
-        </View>
+        <FormField
+          ref={passwordRef}
+          style={styles.input}
+          placeholder="Password"
+          value={password}
+          onChangeText={setPassword}
+          secureTextEntry={!showPassword}
+          returnKeyType="done"
+          onSubmitEditing={handleLogin}
+          accessibilityLabel="Password"
+          trailing={
+            <IconButton
+              icon={showPassword ? 'eye-off' : 'eye'}
+              size={22}
+              onPress={() => setShowPassword(!showPassword)}
+              style={styles.eyeIcon}
+              accessibilityLabel={showPassword ? 'Hide password' : 'Show password'}
+            />
+          }
+        />
         {!!passwordError && <Text style={styles.error}>{passwordError}</Text>}
         <Button
           mode="contained"
@@ -130,11 +149,12 @@ export default function Login() {
           </TouchableOpacity>
         </View>
       </View>
-    </ScrollView>
+    </KeyboardForm>
   );
 }
 
 const styles = StyleSheet.create({
+  page: { backgroundColor: '#fff' },
   scrollContainer: {
     flexGrow: 1,
     justifyContent: 'center',
@@ -159,28 +179,14 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
   input: {
-    backgroundColor: '#abe1e5',
-    borderRadius: 20,
     marginBottom: 8,
-    paddingHorizontal: 12,
+    paddingHorizontal: 8,
   },
   error: {
     color: '#b3261e',
     marginLeft: 8,
     marginBottom: 8,
     fontSize: 13,
-  },
-  passwordContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#abe1e5',
-    borderRadius: 20,
-    marginBottom: 8,
-  },
-  passwordInput: {
-    flex: 1,
-    backgroundColor: 'transparent',
-    paddingHorizontal: 12,
   },
   eyeIcon: {
     marginRight: 0,

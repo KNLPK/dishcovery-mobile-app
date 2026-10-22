@@ -14,7 +14,10 @@
 
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
-import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
+
+import { FormField, KeyboardForm } from '../components/KeyboardForm';
+import { useScreenPadding } from '../components/screenInsets';
 
 import { ONLINE_BASE_URL, API_BASE_URL } from '../constants/api';
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
@@ -28,6 +31,7 @@ import {
   useSettings,
   type ServerMode,
 } from '../src/settings/settings';
+import { showToast } from '../src/ui/toast';
 
 const MODES: { mode: ServerMode; label: string; detail: string }[] = [
   {
@@ -64,6 +68,7 @@ export default function ServerSettingsScreen() {
   const [draftUrl, setDraftUrl] = useState(settings.baseUrlOverride ?? '');
   const [urlError, setUrlError] = useState<string | null>(null);
   const [test, setTest] = useState<TestState>({ kind: 'idle' });
+  const screenPadding = useScreenPadding();
 
   function choose(next: ServerMode) {
     setServerMode(next);
@@ -95,17 +100,20 @@ export default function ServerSettingsScreen() {
     const started = Date.now();
     try {
       const health = await checkHealth(url, WAKE_TIMEOUT_MS);
-      setTest({ kind: 'ok', health, ms: Date.now() - started });
+      const ms = Date.now() - started;
+      setTest({ kind: 'ok', health, ms });
+      showToast({ kind: 'success', message: `Server reachable (${(ms / 1000).toFixed(1)} s)` });
     } catch (err) {
       const failure = describeRequestError(err, 'reach the server');
       setTest({ kind: 'failed', title: failure.title, detail: failure.hint ?? failure.detail });
+      showToast({ kind: 'error', message: failure.title, action: { label: 'Retry', onPress: runTest } });
     } finally {
       clearTimeout(notice);
     }
   }
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
+    <KeyboardForm style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} style={styles.back} accessibilityRole="button">
           <Text style={styles.backText}>‹ Back</Text>
@@ -142,15 +150,16 @@ export default function ServerSettingsScreen() {
       {mode === 'laptop' && (
         <View style={styles.card}>
           <Text style={styles.fieldLabel}>Laptop proxy URL (optional)</Text>
-          <TextInput
+          <FormField
             style={styles.input}
             value={draftUrl}
             onChangeText={setDraftUrl}
             placeholder={`empty = follow the dev server (${API_BASE_URL})`}
-            placeholderTextColor={palette.muted}
             autoCapitalize="none"
             autoCorrect={false}
             keyboardType="url"
+            returnKeyType="done"
+            onSubmitEditing={saveOverride}
             accessibilityLabel="Laptop proxy URL"
           />
           {urlError !== null && <Text style={styles.inputError}>{urlError}</Text>}
@@ -213,7 +222,7 @@ export default function ServerSettingsScreen() {
           </View>
         )}
       </View>
-    </ScrollView>
+    </KeyboardForm>
   );
 }
 
@@ -253,12 +262,8 @@ const styles = StyleSheet.create({
     minHeight: touchTarget,
     backgroundColor: palette.surfaceTint,
     borderRadius: radius.sm,
-    borderWidth: 1,
     borderColor: palette.border,
-    paddingHorizontal: spacing.md,
     marginTop: spacing.xs,
-    color: palette.ink,
-    ...type.body,
   },
   inputError: { ...type.caption, color: palette.danger, marginTop: spacing.xs },
   url: { ...type.cardTitle, color: palette.ink },

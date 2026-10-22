@@ -18,6 +18,7 @@ import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { useScreenPadding } from '../components/screenInsets';
 import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
 import { describeBaseUrl } from '../src/api/baseUrl';
 import {
@@ -48,6 +49,7 @@ function pct(value: number | null): string {
 
 export default function MetricsScreen() {
   const router = useRouter();
+  const screenPadding = useScreenPadding();
   useSettings(); // re-render when the server setting changes
   const [samples, setSamples] = useState<MetricSample[]>(getMetrics());
 
@@ -58,7 +60,7 @@ export default function MetricsScreen() {
   const connection = describeBaseUrl();
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} accessibilityRole="button" style={styles.headerButton}>
           <Text style={styles.back}>‹ Back</Text>

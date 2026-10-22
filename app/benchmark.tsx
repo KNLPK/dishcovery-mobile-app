@@ -22,6 +22,7 @@ import {
   View,
 } from 'react-native';
 
+import { useScreenPadding } from '../components/screenInsets';
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import { describeBaseUrl, resolveBaseUrl } from '../src/api/baseUrl';
 import { describeRequestError } from '../src/api/errors';
@@ -37,6 +38,7 @@ import {
   runWarmupProfile,
   type Progress,
 } from '../src/bench/runner';
+import { setMeasuring } from '../src/ui/motionGate';
 import {
   clearExclusion,
   clearWarmupProfiles,
@@ -148,6 +150,7 @@ function mmss(ms: number | null): string {
 
 export default function BenchmarkScreen() {
   const router = useRouter();
+  const screenPadding = useScreenPadding();
   const [runs, setRuns] = useState<RunCheckpoint[]>([]);
   const [busy, setBusy] = useState(false);
   const [progress, setProgress] = useState<Progress | null>(null);
@@ -211,9 +214,12 @@ export default function BenchmarkScreen() {
     checkDataset().then(setDatasetCheck);
   }, []);
 
+  // Every run below closes the motion gate (src/ui/motionGate.ts) while it
+  // measures, so no animation, toast or haptic starts until it ends.
   async function profileWarmup(leadFormat: SerializationFormat) {
     setBusy(true);
     setError(null);
+    setMeasuring(true);
     try {
       await runWarmupProfile(150, 10, setProgress, leadFormat);
       // Read back from disk rather than merging in memory, so what is shown is
@@ -225,6 +231,7 @@ export default function BenchmarkScreen() {
       const failure = describeRequestError(err, `profile warm-up (${leadFormat} first)`);
       setError(`${failure.title} — ${failure.detail}`);
     } finally {
+      setMeasuring(false);
       setBusy(false);
     }
   }
@@ -232,6 +239,7 @@ export default function BenchmarkScreen() {
   async function profilePerCell() {
     setBusy(true);
     setError(null);
+    setMeasuring(true);
     try {
       setPerCell(await runPerCellProfile(24, 25, 10, BENCHMARK_CONFIG.prewarmDecodes, setProgress));
       setSufficiency(await loadSufficiency());
@@ -239,6 +247,7 @@ export default function BenchmarkScreen() {
       const failure = describeRequestError(err, 'profile the per-cell transient');
       setError(`${failure.title} — ${failure.detail}`);
     } finally {
+      setMeasuring(false);
       setBusy(false);
     }
   }
@@ -265,6 +274,7 @@ export default function BenchmarkScreen() {
     // Bridge the state flag into the closure the runner polls.
     const unsubscribe = { set: (v: boolean) => (stop = v) };
     stopBridge = unsubscribe;
+    setMeasuring(true);
 
     try {
       const outcome = await runBenchmark({
@@ -282,6 +292,7 @@ export default function BenchmarkScreen() {
       const failure = describeRequestError(err, 'run the benchmark');
       setError(`${failure.title} — ${failure.detail}${failure.hint ? ` ${failure.hint}` : ''}`);
     } finally {
+      setMeasuring(false);
       stopBridge = null;
       setBusy(false);
       await refresh();
@@ -291,7 +302,7 @@ export default function BenchmarkScreen() {
   const releaseReady = environment.buildType === 'release';
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} hitSlop={12} accessibilityRole="button">
           <Text style={styles.back}>‹ Back</Text>
@@ -786,6 +797,10 @@ export default function BenchmarkScreen() {
                   value={editingExclusion.text}
                   onChangeText={(text) => setEditingExclusion({ runId: run.runId, text })}
                   placeholder="Why is this run excluded?"
+                  placeholderTextColor={palette.muted}
+                  underlineColorAndroid="transparent"
+                  cursorColor={palette.primary}
+                  selectionColor="rgba(32, 81, 90, 0.3)"
                   multiline
                 />
                 <View style={styles.buttonRow}>

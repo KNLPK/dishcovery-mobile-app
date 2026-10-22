@@ -1,16 +1,21 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, TextInput, TouchableOpacity, ScrollView, FlatList, ActivityIndicator, KeyboardAvoidingView, Platform } from 'react-native';
+import React, { useRef, useState } from 'react';
+import { StyleSheet, Text, View, TouchableOpacity, ScrollView, ActivityIndicator } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import BottomTabBar from '../components/BottomTabBar'; // Assuming you want the BottomTabBar here
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
+import { FormField, KeyboardForm, type FormFieldHandle } from '../components/KeyboardForm';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
-import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
-import { useRouter } from 'expo-router'; // Import useRouter if using expo-router
+import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { useRouter } from 'expo-router';
 import { CATEGORIES, categoryType } from '../constants/categories';
+import { palette, radius, touchTarget } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
+import { showToast } from '../src/ui/toast';
 
 type Ingredient = { name: string; quantity: string };
 
@@ -28,7 +33,17 @@ export default function ChefHat() {
   const [last, setLast] = useState<LastMeasurement | null>(null);
   const [waking, setWaking] = useState(false);
   const server = useServer();
-  const router = useRouter(); // Initialize router if using expo-router
+  const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const tabBarSpace = useTabBarSpace();
+
+  // "Next" walks item, quantity, next item, ..., cook time; "Done" there searches.
+  const fields = useRef(new Map<string, FormFieldHandle>());
+  const fieldRef = (key: string) => (handle: FormFieldHandle | null) => {
+    if (handle === null) fields.current.delete(key);
+    else fields.current.set(key, handle);
+  };
+  const focusField = (key: string) => fields.current.get(key)?.focus();
 
   const handleIngredientChange = (index: number, field: 'name' | 'quantity', value: string) => {
     const newIngredients = [...ingredients];
@@ -99,36 +114,34 @@ export default function ChefHat() {
       }
 
     } catch (err) {
-      setFailure(describeRequestError(err, 'find recipes'));
+      const described = describeRequestError(err, 'find recipes');
+      setFailure(described);
+      showToast({ kind: 'error', message: described.title, action: { label: 'Retry', onPress: handleFindRecipe } });
     } finally {
       setLoading(false);
       setWaking(false);
     }
   };
 
-  // New function to navigate to recipe detail
   const navigateToRecipeDetail = (recipeId: number) => {
     router.push({ pathname: '/recipe', params: { id: recipeId } });
-    // If using React Navigation, it might be:
-    // navigation.navigate('RecipeDetail', { id: recipeId });
   };
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: '#eaf4f4' }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
-      <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
+    <View style={styles.page}>
+      <KeyboardForm
+        contentContainerStyle={[styles.scrollContainer, { paddingTop: insets.top + 8, paddingBottom: tabBarSpace }]}
+      >
         {/* Header */}
         <View style={styles.headerContainer}>
-           {/* Add back arrow if needed, similar to other pages */}
-           {/* <MaterialCommunityIcons name="arrow-left" size={24} color="#22313F" style={{marginRight: 10}} /> */}
-           <Text style={styles.header}>Dishcovery</Text>
-           {/* Add settings/other icon if needed */}
+           <Text style={styles.header} accessibilityRole="header">Dishcovery</Text>
         </View>
 
         {/* Category */}
         <View style={styles.categoryRow}>
           <Text style={styles.sectionTitle}>Category</Text>
         </View>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.categoryButtonContainer}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.categoryButtonContainer} keyboardShouldPersistTaps="handled">
           {CATEGORIES.map(cat => (
             <TouchableOpacity
               key={cat.label}
@@ -145,80 +158,96 @@ export default function ChefHat() {
 
         {/* Ingredients */}
         <Text style={[styles.sectionTitle, { marginTop: 20 }]}>Ingredients</Text>
+        <View style={styles.columnLabels}>
+          <Text style={[styles.columnLabel, styles.ingredientNameInput]}>Item</Text>
+          <Text style={[styles.columnLabel, styles.ingredientQuantityInput]}>
+            Quantity <Text style={styles.optional}>(optional)</Text>
+          </Text>
+          <View style={styles.iconButton} />
+        </View>
         {ingredients.map((ing, idx) => (
           <View key={idx} style={styles.ingredientRow}>
-            <TextInput
+            <FormField
+              ref={fieldRef(`name${idx}`)}
               style={[styles.input, styles.ingredientNameInput]}
-              placeholder="Item name"
-              placeholderTextColor="#5f6e7a"
+              placeholder="e.g. chicken"
               value={ing.name}
               onChangeText={text => handleIngredientChange(idx, 'name', text)}
+              returnKeyType="next"
+              submitBehavior="submit"
+              onSubmitEditing={() => focusField(`qty${idx}`)}
+              accessibilityLabel={`Ingredient ${idx + 1}`}
             />
-            <TextInput
+            <FormField
+              ref={fieldRef(`qty${idx}`)}
               style={[styles.input, styles.ingredientQuantityInput]}
-              placeholder="Quantity"
-              placeholderTextColor="#5f6e7a"
+              placeholder="e.g. 200 g"
               value={ing.quantity}
               onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
-              keyboardType="default" // Use numeric if only numbers are allowed
+              returnKeyType="next"
+              submitBehavior="submit"
+              onSubmitEditing={() => focusField(idx + 1 < ingredients.length ? `name${idx + 1}` : 'cookTime')}
+              accessibilityLabel={`Quantity of ingredient ${idx + 1}, optional`}
             />
             {ingredients.length > 1 ? (
               <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton} accessibilityRole="button" accessibilityLabel="Remove ingredient">
-                 <MaterialCommunityIcons name="minus-circle-outline" size={26} color="#5f6e7a" />
+                 <MaterialCommunityIcons name="minus-circle-outline" size={26} color={palette.muted} />
               </TouchableOpacity>
             ) : (
-               // Optional: Add a plus icon on the last row if only one exists
                <TouchableOpacity onPress={addIngredient} style={styles.iconButton} accessibilityRole="button" accessibilityLabel="Add ingredient">
-                  <MaterialCommunityIcons name="plus-circle-outline" size={26} color="#5f6e7a" />
+                  <MaterialCommunityIcons name="plus-circle-outline" size={26} color={palette.muted} />
                </TouchableOpacity>
             )}
           </View>
         ))}
-         {/* "Add new Ingredient" row if there's more than one input initially */}
          {ingredients.length > 0 && (
-             <TouchableOpacity style={styles.addIngredientRow} onPress={addIngredient}>
-                 <MaterialCommunityIcons name="plus-circle-outline" size={22} color="#20515a" />
+             <TouchableOpacity style={styles.addIngredientRow} onPress={addIngredient} accessibilityRole="button">
+                 <MaterialCommunityIcons name="plus-circle-outline" size={22} color={palette.primary} />
                  <Text style={styles.addIngredientText}>Add new Ingredient</Text>
              </TouchableOpacity>
          )}
 
-
         {/* Cook Time */}
-        {/* Removed Serves based on request */}
         <View style={styles.detailRow}>
-          <MaterialCommunityIcons name="clock-outline" size={24} color="#20515a" style={{ marginRight: 8 }} />
+          <MaterialCommunityIcons name="clock-outline" size={24} color={palette.primary} style={{ marginRight: 8 }} />
           <Text style={styles.detailLabel}>Cook time</Text>
-           <TextInput
+           <FormField
+              ref={fieldRef('cookTime')}
               style={styles.detailInput}
               placeholder="45 min"
-              placeholderTextColor="#5f6e7a"
               value={cookTime}
               onChangeText={setCookTime}
-              keyboardType="numeric" // Use numeric keyboard for time
+              keyboardType="numeric"
+              returnKeyType="done"
+              onSubmitEditing={handleFindRecipe}
+              accessibilityLabel="Cook time in minutes, optional"
             />
-           <MaterialCommunityIcons name="arrow-right" size={24} color="#5f6e7a" />
         </View>
-
 
         {/* Find Recipe Button */}
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : (
-          <TouchableOpacity
+          <PressableScale
             style={styles.findBtn}
-            onPress={handleFindRecipe}
+            onPress={() => {
+              tapHaptic();
+              handleFindRecipe();
+            }}
             disabled={loading}
             accessibilityRole="button"
             accessibilityState={{ busy: loading, disabled: loading }}
           >
             {loading ? (
-              <ActivityIndicator color="#fff" />
+              <ActivityIndicator color={palette.surface} />
             ) : (
               <Text style={styles.findBtnText}>Find Food Recipe</Text>
             )}
-          </TouchableOpacity>
+          </PressableScale>
         )}
-        {loading && <LoadingState label={waking ? WAKING_LABEL : 'Finding recipes…'} />}
+        {loading && (
+          <Skeleton variant="list" count={3} label="Finding recipes" caption={waking ? WAKING_LABEL : undefined} />
+        )}
 
         {/* Format selector + the last request's measurements */}
         <View style={{ marginTop: 20 }}>
@@ -234,56 +263,54 @@ export default function ChefHat() {
         {error ? <Text style={styles.error}>{error}</Text> : null}
         {noMatch !== null && <EmptyState title="No recipes matched" detail={noMatch} />}
         {recipes.length > 0 && (
-          <View style={{ marginTop: 24 }}>
+          <FadeIn style={{ marginTop: 24 }}>
             <Text style={[styles.sectionTitle, { marginBottom: 10 }]}>Recipes Found:</Text>
-            <FlatList
-              data={recipes}
-              keyExtractor={item => item.id.toString()}
-              renderItem={({ item }) => (
-                // Wrap recipe card content in TouchableOpacity
-                <TouchableOpacity
+            <View style={{ gap: 10 }}>
+              {recipes.map(item => (
+                <PressableScale
+                  key={item.id}
                   style={styles.recipeCard}
-                  onPress={() => navigateToRecipeDetail(item.id)} // Add onPress handler
+                  onPress={() => navigateToRecipeDetail(item.id)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Open ${item.title}`}
                 >
-                  <RecipeImage uri={item.image} style={styles.recipeImage} />
+                  <RecipeImage uri={item.image} title={item.title} style={styles.recipeImage} />
                   <View style={styles.recipeInfo}>
                      <Text style={styles.recipeTitle}>{item.title}</Text>
-                     {/* You can add more recipe details here if available in API response */}
-                     {/* <Text>{item.readyInMinutes} min</Text> */}
                   </View>
-                </TouchableOpacity>
-              )}
-              scrollEnabled={false} // Important when nesting FlatList in ScrollView
-              ItemSeparatorComponent={() => <View style={{ height: 10 }} />}
-            />
-          </View>
+                </PressableScale>
+              ))}
+            </View>
+          </FadeIn>
         )}
-      </ScrollView>
-       {/* Add Bottom Tab Bar here */}
-       {/* Ensure your BottomTabBar component is correctly implemented */}
-       <BottomTabBar />
-    </KeyboardAvoidingView>
+      </KeyboardForm>
+      <BottomTabBar />
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
+    page: {
+      flex: 1,
+      backgroundColor: palette.surfaceCool,
+    },
     scrollContainer: {
-      padding: 20,
-      paddingBottom: 100, // Make sure paddingBottom is sufficient to prevent content from being hidden by the fixed tab bar
-      backgroundColor: '#eaf4f4',
+      paddingHorizontal: 20,
+      backgroundColor: palette.surfaceCool,
     },
     headerContainer: {
       flexDirection: 'row',
       alignItems: 'center',
-      justifyContent: 'center', // Center the title
+      justifyContent: 'center',
       marginBottom: 20,
       marginTop: 8,
     },
     header: {
       fontSize: 24,
+      lineHeight: 30,
       fontWeight: 'bold',
-      color: '#20515a',
-      alignSelf: 'center', // Keep this to center the text within its container
+      color: palette.primary,
+      alignSelf: 'center',
     },
     sectionTitle: {
       fontSize: 18,
@@ -297,40 +324,44 @@ const styles = StyleSheet.create({
         marginBottom: 10,
          marginTop: 8,
     },
-    seeAll: {
-      color: '#20515a',
-      fontWeight: 'bold',
-      fontSize: 14,
-    },
     categoryButtonContainer: {
-        paddingRight: 20, // Add some padding at the end for horizontal scroll
+        paddingRight: 20,
         marginBottom: 20,
     },
     categoryButton: {
-      backgroundColor: '#f3f7f8',
+      backgroundColor: palette.surfaceTint,
       borderRadius: 20,
       paddingHorizontal: 20,
       paddingVertical: 8,
-      marginRight: 10, // Space between buttons
+      marginRight: 10,
     },
     categoryButtonActive: {
-      backgroundColor: '#abe1e5',
+      backgroundColor: palette.accent,
     },
     categoryText: {
-      color: '#20515a',
+      color: palette.primary,
       fontWeight: '500',
       fontSize: 15,
     },
     categoryTextActive: {
-      color: '#20515a',
+      color: palette.primary,
       fontWeight: 'bold',
     },
-    ingredientsLabel: {
-        fontWeight: 'bold',
-        fontSize: 18,
-        color: '#22313F',
-        marginBottom: 8,
-         marginTop: 20,
+    columnLabels: {
+      flexDirection: 'row',
+      alignItems: 'flex-end',
+      marginTop: 8,
+      marginBottom: 4,
+    },
+    columnLabel: {
+      fontSize: 13,
+      fontWeight: '600',
+      color: palette.body,
+      marginLeft: 4,
+    },
+    optional: {
+      fontWeight: '400',
+      color: palette.muted,
     },
     ingredientRow: {
       flexDirection: 'row',
@@ -338,38 +369,34 @@ const styles = StyleSheet.create({
       marginBottom: 8,
     },
     input: {
-      backgroundColor: '#fff',
+      backgroundColor: palette.surface,
       borderRadius: 10,
-      paddingHorizontal: 12,
-      paddingVertical: 10,
-      borderWidth: 1,
-      borderColor: '#e0e0e0',
-      fontSize: 15,
-       color: '#22313F',
+      borderColor: palette.border,
+      minHeight: touchTarget,
     },
     ingredientNameInput: {
       flex: 1,
       marginRight: 8,
     },
     ingredientQuantityInput: {
-      width: 90, // Adjusted width to fit content and icon
+      width: 120,
       marginRight: 8,
     },
      iconButton: {
-         minWidth: 48,
-         minHeight: 48,
+         minWidth: touchTarget,
+         minHeight: touchTarget,
          alignItems: 'center',
          justifyContent: 'center',
      },
     addIngredientRow: {
         flexDirection: 'row',
         alignItems: 'center',
-        minHeight: 48,
+        minHeight: touchTarget,
         marginTop: 4,
         marginBottom: 16,
     },
     addIngredientText: {
-        color: '#20515a',
+        color: palette.primary,
         fontWeight: 'bold',
         marginLeft: 6,
         fontSize: 15,
@@ -377,7 +404,7 @@ const styles = StyleSheet.create({
     detailRow: {
         flexDirection: 'row',
         alignItems: 'center',
-        backgroundColor: '#f3f7f8',
+        backgroundColor: palette.surfaceTint,
         borderRadius: 12,
         paddingHorizontal: 12,
         paddingVertical: 10,
@@ -385,53 +412,43 @@ const styles = StyleSheet.create({
          marginTop: 10,
     },
      detailLabel: {
-        color: '#20515a',
+        color: palette.primary,
         fontWeight: 'bold',
         fontSize: 16,
         marginRight: 8,
      },
     detailInput: {
         flex: 1,
-        backgroundColor: '#fff',
+        backgroundColor: palette.surface,
         borderRadius: 10,
-        paddingHorizontal: 12,
-        paddingVertical: 8,
-        borderWidth: 1,
-        borderColor: '#e0e0e0',
-        fontSize: 15,
-        marginRight: 12, // Space before the arrow icon
-        color: '#22313F',
+        borderColor: palette.border,
+        minHeight: touchTarget,
     },
+    // The app's primary button: brand teal pill, as on Home and in the Quick test.
     findBtn: {
-      backgroundColor: '#22313F',
-      borderRadius: 10,
-      paddingVertical: 14,
+      backgroundColor: palette.primary,
+      borderRadius: radius.pill,
+      minHeight: touchTarget,
+      justifyContent: 'center',
       alignItems: 'center',
-      marginTop: 10, // Space above the button
-      marginBottom: 20, // Space below the button
+      marginTop: 10,
+      marginBottom: 20,
     },
     findBtnText: {
-      color: '#fff',
+      color: palette.surface,
       fontWeight: 'bold',
       fontSize: 16,
     },
     error: {
-      color: '#b3261e',
+      color: palette.danger,
       marginTop: 10,
       marginBottom: 10,
       textAlign: 'center',
     },
-    resultsHeader: {
-      fontWeight: 'bold',
-      fontSize: 18,
-      color: '#22313F',
-      marginBottom: 10,
-    },
     recipeCard: {
-        backgroundColor: '#fff',
+        backgroundColor: palette.surface,
         borderRadius: 12,
         padding: 12,
-        marginBottom: 0, // FlatList handles spacing with ItemSeparatorComponent
         flexDirection: 'row',
         alignItems: 'center',
         elevation: 1,
@@ -454,4 +471,4 @@ const styles = StyleSheet.create({
         fontSize: 14,
         color: '#22313F',
     },
-}); 
+});

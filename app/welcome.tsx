@@ -9,6 +9,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import { markWelcomeSeen } from '../src/settings/settings';
@@ -26,8 +27,8 @@ const CARDS = [
     icon: 'timer-outline',
     title: 'Test it on your phone',
     body:
-      'The Quick test decodes 30 recipes in all three formats and shows the results. It takes about a ' +
-      'minute and works offline. Start it from the top of the Home screen.',
+      'The Quick test decodes 30 recipes in all three formats and shows the results. It usually takes ' +
+      'under a minute and works offline. Start it from the top of the Home screen.',
   },
   {
     icon: 'chart-bar',
@@ -43,6 +44,7 @@ export default function WelcomeScreen() {
   const [index, setIndex] = useState(0);
   const card = CARDS[index];
   const last = index === CARDS.length - 1;
+  const insets = useSafeAreaInsets();
 
   function finish() {
     markWelcomeSeen();
@@ -50,8 +52,8 @@ export default function WelcomeScreen() {
   }
 
   return (
-    <View style={styles.page}>
-      <View style={styles.topRow}>
+    <View style={[styles.page, { paddingBottom: spacing.xl + insets.bottom }]}>
+      <View style={[styles.topRow, { top: insets.top + spacing.lg }]}>
         <Text style={styles.brand}>Dishcovery</Text>
         {!last && (
           <Pressable onPress={finish} style={styles.skip} accessibilityRole="button" accessibilityLabel="Skip introduction">
@@ -104,7 +106,6 @@ const styles = StyleSheet.create({
   },
   topRow: {
     position: 'absolute',
-    top: spacing.xxl,
     left: spacing.xl,
     right: spacing.xl,
     flexDirection: 'row',

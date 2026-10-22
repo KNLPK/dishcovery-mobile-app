@@ -1,15 +1,18 @@
 /**
  * app/quick.tsx
  *
- * The Quick test: a one-minute benchmark on this phone, clearly labelled as
+ * The Quick test: a short benchmark on this phone, clearly labelled as
  * not the paper protocol. Runs on the bundled payloads by default, so it needs
  * no server. Results are saved apart from the paper runs and open in Results.
  */
 
+import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
+import { useScreenPadding } from '../components/screenInsets';
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
 import { BENCHMARK_CONFIG } from '../shared/contract';
 import { serverBaseUrl } from '../src/api/baseUrl';
@@ -20,9 +23,11 @@ import {
   QUICK_TEST_LABEL,
   runQuickTest,
   type QuickProgress,
+  type QuickTestResult,
 } from '../src/quick/quickTest';
 import { listQuickTests, saveQuickTest } from '../src/quick/storage';
-import { FORMAT_NAMES } from '../src/quick/summary';
+import { FORMAT_NAMES, tierSummary } from '../src/quick/summary';
+import { showToast } from '../src/ui/toast';
 
 type SourceChoice = 'offline' | 'server';
 
@@ -32,6 +37,12 @@ const TIER_NAMES = { low: 'Low', medium: 'Medium', high: 'High' } as const;
 function remainingSeconds(p: QuickProgress, elapsedMs: number): number | null {
   if (p.phase !== 'measuring' || p.fraction <= 0.22 || p.fraction >= 1) return null;
   return Math.max(1, Math.round(((elapsedMs / p.fraction) * (1 - p.fraction)) / 1000));
+}
+
+/** "8 s", or "1 min 5 s" from a minute up. */
+function describeDuration(ms: number): string {
+  const s = Math.max(1, Math.round(ms / 1000));
+  return s < 60 ? `${s} s` : `${Math.floor(s / 60)} min ${s % 60} s`;
 }
 
 function describeRemaining(seconds: number | null): string {
@@ -51,6 +62,9 @@ export default function QuickTestScreen() {
   const [stopping, setStopping] = useState(false);
   const startedAt = useRef(0);
   const [now, setNow] = useState(0);
+  // The completion moment: shown after a run, until the next one starts.
+  const [finished, setFinished] = useState<QuickTestResult | null>(null);
+  const screenPadding = useScreenPadding();
 
   const environment = useMemo(() => captureEnvironment(null), []);
   const serverUrl = serverBaseUrl();
@@ -66,9 +80,13 @@ export default function QuickTestScreen() {
     if (serverUrl === null) setSource('offline');
   }, [serverUrl]);
 
+  const openResults = (id: string) => router.push({ pathname: '/results', params: { id } });
+
   async function start() {
+    tapHaptic();
     setBusy(true);
     setError(null);
+    setFinished(null);
     setStopping(false);
     stop.current = false;
     startedAt.current = Date.now();
@@ -81,15 +99,24 @@ export default function QuickTestScreen() {
         },
         shouldStop: () => stop.current,
       });
+      // The run is over and the motion gate open again from here on.
       if (result === null) {
         setError('Stopped. Nothing was saved.');
+        showToast({ kind: 'info', message: 'Quick test stopped. Nothing was saved.' });
         return;
       }
       await saveQuickTest(result);
-      router.push({ pathname: '/results', params: { id: result.id } });
+      setSavedCount((n) => n + 1);
+      setFinished(result);
+      showToast({
+        kind: 'success',
+        message: `Done in ${describeDuration(result.durationMs)}`,
+        action: { label: 'View results', onPress: () => openResults(result.id) },
+      });
     } catch (err) {
       const failure = describeRequestError(err, 'run the Quick test');
       setError(`${failure.title} — ${failure.detail}${failure.hint ? ` ${failure.hint}` : ''}`);
+      showToast({ kind: 'error', message: failure.title, action: { label: 'Retry', onPress: start } });
     } finally {
       setBusy(false);
       setStopping(false);
@@ -114,7 +141,7 @@ export default function QuickTestScreen() {
   }
 
   return (
-    <ScrollView style={styles.page} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.page} contentContainerStyle={[styles.content, screenPadding]}>
       <View style={styles.header}>
         <Pressable onPress={() => router.back()} style={styles.headerButton} accessibilityRole="button">
           <Text style={styles.back}>‹ Back</Text>
@@ -128,7 +155,7 @@ export default function QuickTestScreen() {
       </View>
       <Text style={styles.lead}>
         Decodes {c.payloadsPerTier * 3} recipes in JSON, MessagePack and Protocol Buffers on this phone and
-        shows how they compare. Takes about a minute.
+        shows how they compare. Usually under a minute.
       </Text>
 
       {serverUrl !== null && (
@@ -196,15 +223,43 @@ export default function QuickTestScreen() {
           </Pressable>
           <Text style={styles.note}>Keep the app open while it runs. Stopping saves nothing.</Text>
         </View>
+      ) : finished !== null ? (
+        <FadeIn style={styles.done}>
+          <View style={styles.doneHead} accessibilityRole="summary">
+            <MaterialCommunityIcons name="check-circle" size={40} color={palette.success} />
+            <View style={{ flex: 1 }}>
+              <Text style={styles.doneTitle}>Quick test finished</Text>
+              <Text style={styles.note}>
+                Done in {describeDuration(finished.durationMs)} · {finished.payloadIds.length} recipes × 3 formats
+              </Text>
+            </View>
+          </View>
+          {(['low', 'medium', 'high'] as const).map((tier) => {
+            const line = tierSummary(finished.cells, tier, 'on this phone');
+            return line === null ? null : (
+              <Text key={tier} style={styles.doneLine}>
+                {line}
+              </Text>
+            );
+          })}
+          <View style={styles.buttonRow}>
+            <PressableScale onPress={() => openResults(finished.id)} style={styles.primaryButton} accessibilityRole="button">
+              <Text style={styles.primaryButtonText}>View results</Text>
+            </PressableScale>
+            <PressableScale onPress={start} style={styles.secondaryButton} accessibilityRole="button">
+              <Text style={styles.secondaryButtonText}>Run again</Text>
+            </PressableScale>
+          </View>
+        </FadeIn>
       ) : (
         <View style={styles.buttonRow}>
-          <Pressable onPress={start} style={styles.primaryButton} accessibilityRole="button">
+          <PressableScale onPress={start} style={styles.primaryButton} accessibilityRole="button">
             <Text style={styles.primaryButtonText}>Start Quick test</Text>
-          </Pressable>
+          </PressableScale>
           {savedCount > 0 && (
-            <Pressable onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
+            <PressableScale onPress={() => router.push('/results')} style={styles.secondaryButton} accessibilityRole="button">
               <Text style={styles.secondaryButtonText}>Past results ({savedCount})</Text>
-            </Pressable>
+            </PressableScale>
           )}
         </View>
       )}
@@ -339,4 +394,16 @@ const styles = StyleSheet.create({
   track: { height: 10, borderRadius: 5, backgroundColor: palette.surfaceTint, marginTop: spacing.sm, overflow: 'hidden' },
   fill: { height: 10, backgroundColor: palette.primary },
   error: { ...type.body, color: palette.danger, marginTop: spacing.lg },
+  done: {
+    marginTop: spacing.lg,
+    backgroundColor: palette.surface,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: palette.border,
+    padding: spacing.lg,
+    gap: spacing.sm,
+  },
+  doneHead: { flexDirection: 'row', alignItems: 'center', gap: spacing.md },
+  doneTitle: { ...type.section, color: palette.ink },
+  doneLine: { ...type.body, color: palette.body },
 });

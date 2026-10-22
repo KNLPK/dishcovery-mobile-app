@@ -3,17 +3,20 @@ import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
 import { FlatList, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import BottomTabBar from '../components/BottomTabBar';
+import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { FadeIn, PressableScale, Skeleton } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
-import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { palette, radius, shadow, spacing, type as typeScale } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
+import { showToast } from '../src/ui/toast';
 
 /**
  * Example cards, shown before a search has run. These are placeholders with
@@ -50,6 +53,9 @@ export default function Search() {
   const [waking, setWaking] = useState(false);
   const server = useServer();
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  const tabBarSpace = useTabBarSpace();
+  const [searchFocused, setSearchFocused] = useState(false);
 
   const runSearch = async (query: string, category: string | null = selectedCategory) => {
     const trimmed = query.trim();
@@ -82,8 +88,14 @@ export default function Search() {
         formatFallbackFrom: meta.formatFallbackFrom,
       });
     } catch (err) {
-      setFailure(describeRequestError(err, 'search recipes'));
+      const described = describeRequestError(err, 'search recipes');
+      setFailure(described);
       setResults(null);
+      showToast({
+        kind: 'error',
+        message: described.title,
+        action: { label: 'Retry', onPress: () => runSearch(trimmed, category) },
+      });
     } finally {
       setLoading(false);
       setWaking(false);
@@ -100,8 +112,9 @@ export default function Search() {
     <View style={styles.page}>
       <ScrollView
         style={styles.container}
-        contentContainerStyle={{ paddingBottom: 140 }}
+        contentContainerStyle={{ paddingTop: insets.top, paddingBottom: tabBarSpace }}
         keyboardShouldPersistTaps="handled"
+        keyboardDismissMode="on-drag"
       >
         {/* Header */}
         <View style={styles.headerRow}>
@@ -118,7 +131,7 @@ export default function Search() {
         </View>
 
         {/* Search bar */}
-        <View style={styles.searchBarWrapper}>
+        <View style={[styles.searchBarWrapper, searchFocused && styles.searchBarFocused]}>
           <Feather name="search" size={18} color={palette.muted} style={styles.searchIcon} />
           <TextInput
             style={styles.searchBar}
@@ -128,6 +141,12 @@ export default function Search() {
             onSubmitEditing={() => runSearch(search)}
             returnKeyType="search"
             placeholderTextColor={palette.muted}
+            underlineColorAndroid="transparent"
+            cursorColor={palette.primary}
+            selectionColor="rgba(32, 81, 90, 0.3)"
+            onFocus={() => setSearchFocused(true)}
+            onBlur={() => setSearchFocused(false)}
+            accessibilityLabel="Search recipes"
           />
           {search.length > 0 && (
             <Pressable onPress={() => setSearch('')} hitSlop={15} accessibilityRole="button" accessibilityLabel="Clear search">
@@ -185,7 +204,12 @@ export default function Search() {
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : loading ? (
-          <LoadingState label={waking ? WAKING_LABEL : `Searching for “${lastQuery}”…`} />
+          <Skeleton
+            variant="list"
+            count={4}
+            label={`Searching for “${lastQuery}”`}
+            caption={waking ? WAKING_LABEL : undefined}
+          />
         ) : failure !== null ? (
           <ErrorState failure={failure} onRetry={() => runSearch(lastQuery)} />
         ) : results === null ? (
@@ -211,23 +235,23 @@ export default function Search() {
             detail={`Nothing came back for “${lastQuery}”. Try a single ingredient, like “chicken”.`}
           />
         ) : (
-          <View style={styles.resultList}>
+          <FadeIn style={styles.resultList}>
             {results.map((item) => (
-              <Pressable
+              <PressableScale
                 key={String(item.id)}
                 style={styles.resultCard}
                 onPress={() => openRecipe(item.id)}
                 accessibilityRole="button"
                 accessibilityLabel={`Open ${item.title}`}
               >
-                <RecipeImage uri={item.image} style={styles.resultImage} iconSize={22} />
+                <RecipeImage uri={item.image} title={item.title} style={styles.resultImage} />
                 <Text style={styles.resultTitle} numberOfLines={2}>
                   {item.title}
                 </Text>
                 <Feather name="chevron-right" size={18} color={palette.muted} />
-              </Pressable>
+              </PressableScale>
             ))}
-          </View>
+          </FadeIn>
         )}
 
         {/* Trending ingredients — sample content */}
@@ -279,9 +303,10 @@ const styles = StyleSheet.create({
     backgroundColor: palette.surfaceTint,
     borderRadius: radius.md,
     paddingHorizontal: spacing.md,
-    borderWidth: 1,
+    borderWidth: 2,
     borderColor: palette.border,
   },
+  searchBarFocused: { borderColor: palette.primary, backgroundColor: palette.surface },
   searchIcon: { marginRight: spacing.sm },
   searchBar: {
     flex: 1,

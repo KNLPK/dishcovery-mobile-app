@@ -18,8 +18,11 @@
 
 import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
 import { usePathname, useRouter } from 'expo-router';
-import React from 'react';
-import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Keyboard, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+import { palette } from '../constants/theme';
 
 const ACTIVE = '#20515a';
 /**
@@ -37,6 +40,28 @@ const INACTIVE = '#5f6e7a';
  * entry is removed. The route file still exists and can be restored here the
  * day something actually produces notifications.
  */
+/**
+ * EDGE TO EDGE
+ * ------------
+ * Android 15 draws every app under the status and navigation bars. The bar is
+ * therefore full width and opaque, and reaches down under the system
+ * navigation bar (3-button or gesture) with that bar's height as padding, so
+ * the buttons sit above it and no content shows through behind either.
+ *
+ * Height of the bar's own row, without the system navigation bar under it.
+ * The chef-hat button rises CHEF_HAT_RISE above it.
+ */
+export const TAB_BAR_HEIGHT = 60;
+const CHEF_HAT_RISE = 24;
+
+/**
+ * Bottom padding a scrolling screen with this bar needs so its last item can
+ * scroll fully clear of the bar, the chef hat and the system navigation bar.
+ */
+export function useTabBarSpace(): number {
+  return TAB_BAR_HEIGHT + CHEF_HAT_RISE + useSafeAreaInsets().bottom + 16;
+}
+
 const TABS = [
   { path: '/HomePage', icon: 'home', label: 'Home' },
   { path: '/Search', icon: 'search', label: 'Search' },
@@ -46,9 +71,23 @@ const TABS = [
 export default function BottomTabBar() {
   const router = useRouter();
   const pathname = usePathname();
+  const insets = useSafeAreaInsets();
+
+  // Out of the way while typing, as a system tab bar would be: otherwise it
+  // rides up on the keyboard and covers the field being typed into.
+  const [keyboardOpen, setKeyboardOpen] = useState(false);
+  useEffect(() => {
+    const show = Keyboard.addListener('keyboardDidShow', () => setKeyboardOpen(true));
+    const hide = Keyboard.addListener('keyboardDidHide', () => setKeyboardOpen(false));
+    return () => {
+      show.remove();
+      hide.remove();
+    };
+  }, []);
+  if (keyboardOpen) return null;
 
   return (
-    <View style={styles.tabBar}>
+    <View style={[styles.tabBar, { paddingBottom: insets.bottom }]}>
       {TABS.slice(0, 2).map((tab) => (
         <TouchableOpacity
           key={tab.path}
@@ -100,17 +139,16 @@ const styles = StyleSheet.create({
   tabBar: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
-    backgroundColor: '#fff',
-    borderRadius: 30,
+    alignItems: 'flex-start',
+    backgroundColor: palette.surface,
+    borderTopWidth: StyleSheet.hairlineWidth,
+    borderTopColor: palette.border,
     paddingHorizontal: 18,
-    paddingVertical: 6,
-    marginHorizontal: 10,
-    marginBottom: 16,
+    paddingTop: 6,
     elevation: 8,
     shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.08,
+    shadowOffset: { width: 0, height: -2 },
+    shadowOpacity: 0.06,
     shadowRadius: 8,
     position: 'absolute',
     left: 0,
@@ -122,7 +160,7 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    minHeight: 48,
+    height: TAB_BAR_HEIGHT - 6,
   },
   tabLabel: {
     fontSize: 11,
@@ -136,8 +174,9 @@ const styles = StyleSheet.create({
   },
   chefHatButton: {
     alignItems: 'center',
-    justifyContent: 'center',
-    marginTop: -24,
+    justifyContent: 'flex-end',
+    marginTop: -CHEF_HAT_RISE,
+    height: TAB_BAR_HEIGHT - 6 + CHEF_HAT_RISE,
     flex: 1,
   },
   chefHatIcon: {

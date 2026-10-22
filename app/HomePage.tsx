@@ -2,16 +2,20 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Dimensions, FlatList, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { IconButton } from 'react-native-paper';
-import BottomTabBar from '../components/BottomTabBar';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
-import { EmptyState, ErrorState, LoadingState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
-import { toggleFavourite, useSettings } from '../src/settings/settings';
+import { useSettings } from '../src/settings/settings';
+import { toggleFavouriteWithToast } from '../src/ui/favourites';
+import { showToast } from '../src/ui/toast';
 
 const { width } = Dimensions.get('window');
 
@@ -34,6 +38,8 @@ export default function HomePage() {
   const server = useServer();
   const scrollRef = useRef<ScrollView>(null);
   const [recipesY, setRecipesY] = useState(0);
+  const insets = useSafeAreaInsets();
+  const tabBarSpace = useTabBarSpace();
 
   // Subscribed so a heart tapped here repaints immediately, and so a recipe
   // saved on the detail screen shows as saved when the user comes back.
@@ -81,8 +87,10 @@ export default function HomePage() {
         formatFallbackFrom: meta.formatFallbackFrom,
       });
     } catch (err) {
-      setFailure(describeRequestError(err, 'load recipes'));
+      const described = describeRequestError(err, 'load recipes');
+      setFailure(described);
       setRecipes([]);
+      showToast({ kind: 'error', message: described.title, action: { label: 'Retry', onPress: () => load() } });
     } finally {
       setLoading(false);
       setWaking(false);
@@ -105,19 +113,26 @@ export default function HomePage() {
       <ScrollView
         ref={scrollRef}
         style={styles.container}
-        contentContainerStyle={{ paddingBottom: 140 }}
+        contentContainerStyle={{ paddingTop: insets.top, paddingBottom: tabBarSpace }}
         showsVerticalScrollIndicator={true}
       >
         {/* Test it yourself: the study's demo, first thing on the screen */}
         <View style={styles.banner}>
           <Text style={styles.bannerText}>Test it yourself</Text>
           <Text style={styles.bannerSubText}>
-            See how fast this phone decodes recipes as JSON, MessagePack and Protocol Buffers. About a
-            minute, works offline.
+            See how fast this phone decodes recipes as JSON, MessagePack and Protocol Buffers. Usually
+            under a minute, works offline.
           </Text>
-          <TouchableOpacity style={styles.bannerButton} onPress={() => router.push('/quick')} accessibilityRole="button">
+          <PressableScale
+            style={styles.bannerButton}
+            onPress={() => {
+              tapHaptic();
+              router.push('/quick');
+            }}
+            accessibilityRole="button"
+          >
             <Text style={styles.bannerButtonText}>Start Quick test</Text>
-          </TouchableOpacity>
+          </PressableScale>
           <View style={styles.bannerLinks}>
             <TouchableOpacity
               style={styles.bannerLink}
@@ -165,37 +180,45 @@ export default function HomePage() {
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : loading ? (
-          <LoadingState label={waking ? WAKING_LABEL : `Loading ${selectedCategory.toLowerCase()} recipes…`} />
+          <Skeleton
+            variant="cards"
+            count={2}
+            label={`Loading ${selectedCategory.toLowerCase()} recipes`}
+            caption={waking ? WAKING_LABEL : undefined}
+          />
         ) : failure !== null ? (
           <ErrorState failure={failure} onRetry={load} />
         ) : featured.length === 0 ? (
           <EmptyState title="Nothing to show" detail="No recipes came back for this category. Try another one." />
         ) : (
-          <FlatList
-            data={featured}
-            horizontal
-            showsHorizontalScrollIndicator={false}
-            keyExtractor={(item) => String(item.id)}
-            renderItem={({ item, index }) => (
-              <TouchableOpacity
-                style={[styles.featuredCard, index === featured.length - 1 && { marginBottom: 24 }]}
-                onPress={() => openRecipe(item.id)}
-                accessibilityRole="button"
-                accessibilityLabel={`Open ${item.title}`}
-              >
-                <RecipeImage uri={item.image} style={styles.featuredImage} iconSize={48} />
-                <View style={styles.featuredOverlay}>
-                  <Text style={styles.featuredTitle} numberOfLines={2}>{item.title}</Text>
-                  <View style={styles.featuredInfoRow}>
-                    <Text style={styles.featuredAuthor}>{selectedCategory}</Text>
-                    <Text style={styles.featuredTime}>View recipe →</Text>
+          <FadeIn>
+            <FlatList
+              data={featured}
+              horizontal
+              showsHorizontalScrollIndicator={false}
+              keyExtractor={(item) => String(item.id)}
+              renderItem={({ item }) => (
+                <PressableScale
+                  style={styles.featuredCard}
+                  onPress={() => openRecipe(item.id)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Open ${item.title}`}
+                >
+                  {/* Photo on top, text below: they never overlap. */}
+                  <RecipeImage uri={item.image} title={item.title} style={styles.featuredImage} />
+                  <View style={styles.featuredText}>
+                    <Text style={styles.featuredTitle} numberOfLines={2}>{item.title}</Text>
+                    <View style={styles.featuredInfoRow}>
+                      <Text style={styles.featuredAuthor}>{selectedCategory}</Text>
+                      <Text style={styles.featuredTime}>View recipe →</Text>
+                    </View>
                   </View>
-                </View>
-              </TouchableOpacity>
-            )}
-            contentContainerStyle={{ paddingRight: 16, paddingBottom: 24 }}
-            ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
-          />
+                </PressableScale>
+              )}
+              contentContainerStyle={{ paddingRight: 16, paddingBottom: 24 }}
+              ItemSeparatorComponent={() => <View style={{ width: 16 }} />}
+            />
+          </FadeIn>
         )}
 
         {/* Category */}
@@ -234,22 +257,23 @@ export default function HomePage() {
             <Text style={styles.seeAll}>Search all</Text>
           </TouchableOpacity>
         </View>
+        {loading && server.url !== null && <Skeleton variant="cards" count={2} label="Loading popular recipes" />}
         {!loading && failure === null && popular.length > 0 && (
-          <View style={[styles.popularList, { marginBottom: 24 }]}>
-            {popular.map((item, idx) => {
+          <FadeIn style={[styles.popularList, { marginBottom: 24 }]}>
+            {popular.map((item) => {
               const saved = savedIds.has(Number(item.id));
               return (
-                <TouchableOpacity
+                <PressableScale
                   key={String(item.id)}
-                  style={[styles.recipeCard, idx % 2 === 1 && { marginLeft: 16 }]}
+                  style={styles.recipeCard}
                   onPress={() => openRecipe(item.id)}
                   accessibilityRole="button"
                   accessibilityLabel={`Open ${item.title}`}
                 >
-                  <RecipeImage uri={item.image} style={styles.recipeImage} />
+                  <RecipeImage uri={item.image} title={item.title} style={styles.recipeImage} />
                   <TouchableOpacity
                     style={styles.favoriteButton}
-                    onPress={() => toggleFavourite({ id: item.id, title: item.title, image: item.image ?? null })}
+                    onPress={() => toggleFavouriteWithToast({ id: item.id, title: item.title, image: item.image ?? null })}
                     accessibilityRole="button"
                     accessibilityLabel={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
                     hitSlop={8}
@@ -262,10 +286,10 @@ export default function HomePage() {
                     />
                   </TouchableOpacity>
                   <Text style={styles.recipeTitle} numberOfLines={2}>{item.title}</Text>
-                </TouchableOpacity>
+                </PressableScale>
               );
             })}
-          </View>
+          </FadeIn>
         )}
         {/* Tips & Tricks */}
         <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Tips & Tricks</Text>
@@ -328,26 +352,18 @@ const styles = StyleSheet.create({
   },
   featuredCard: {
     width: width * 0.8,
-    height: 160,
     borderRadius: 18,
     overflow: 'hidden',
-    marginRight: 16,
     backgroundColor: '#abe1e5',
-    marginBottom: 0,
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   featuredImage: {
     width: '100%',
-    height: '100%',
-    position: 'absolute',
-    borderRadius: 18,
+    height: 120,
   },
-  featuredOverlay: {
-    flex: 1,
-    justifyContent: 'flex-end',
-    padding: 16,
-    backgroundColor: 'rgba(171, 225, 229, 0.7)',
+  featuredText: {
+    paddingHorizontal: 16,
+    paddingTop: 10,
+    paddingBottom: 12,
   },
   featuredTitle: {
     color: '#20515a',
@@ -399,6 +415,7 @@ const styles = StyleSheet.create({
   },
   popularList: {
     flexDirection: 'row',
+    flexWrap: 'wrap',
     justifyContent: 'space-between',
     marginTop: 8,
   },

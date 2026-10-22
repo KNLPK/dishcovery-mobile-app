@@ -30,6 +30,7 @@ import { captureEnvironment, type RunEnvironment } from '../bench/environment';
 import { COMPLEXITY_TIERS, ROUTES, SERIALIZATION_FORMATS } from '../../shared/contract';
 import type { ComplexityTier, SerializationFormat } from '../../shared/contract';
 import { loadOfflineDataset, type OfflineEntry } from '../offline/payloads';
+import { setMeasuring } from '../ui/motionGate';
 import { selectPayloads } from './selection';
 
 export const QUICK_TEST_CONFIG = {
@@ -121,11 +122,27 @@ async function fetchBytes(url: string): Promise<ArrayBuffer> {
   }
 }
 
-export async function runQuickTest(options: {
+export type QuickTestOptions = {
   source: QuickTestSource;
   onProgress?: (p: QuickProgress) => void;
   shouldStop?: () => boolean;
-}): Promise<QuickTestResult | null> {
+};
+
+/**
+ * Runs the Quick test with the motion gate closed (src/ui/motionGate.ts): no
+ * animation, toast or haptic starts from the first payload load to the last
+ * measured decode, whether the run finishes, is stopped or fails.
+ */
+export async function runQuickTest(options: QuickTestOptions): Promise<QuickTestResult | null> {
+  setMeasuring(true);
+  try {
+    return await run(options);
+  } finally {
+    setMeasuring(false);
+  }
+}
+
+async function run(options: QuickTestOptions): Promise<QuickTestResult | null> {
   const { source, onProgress, shouldStop } = options;
   const startedAt = new Date();
   const config = QUICK_TEST_CONFIG;

@@ -1,8 +1,14 @@
 import DateTimePicker from '@react-native-community/datetimepicker';
 import { useRouter } from 'expo-router';
-import React, { useState } from 'react';
-import { Platform, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { Button, IconButton, TextInput } from 'react-native-paper';
+import React, { useRef, useState } from 'react';
+import { Platform, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Button, IconButton } from 'react-native-paper';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+
+import { FormField, KeyboardForm, type FormFieldHandle } from '../components/KeyboardForm';
+import { tapHaptic } from '../components/motion';
+
+type InputRef = FormFieldHandle;
 
 /**
  * Sign-up is a demo like login: no account is created and nothing is stored.
@@ -28,6 +34,12 @@ export default function SignUp() {
   });
   const [showDatePicker, setShowDatePicker] = useState(false);
   const router = useRouter();
+  const insets = useSafeAreaInsets();
+  // "Next" order. Date of birth is a picker, not typed, so Next skips it.
+  const emailRef = useRef<InputRef>(null);
+  const mobileRef = useRef<InputRef>(null);
+  const passwordRef = useRef<InputRef>(null);
+  const confirmRef = useRef<InputRef>(null);
 
   const validateEmail = (email: string) => {
     const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -76,6 +88,7 @@ export default function SignUp() {
     }
     setErrors(newErrors);
     if (!valid) return;
+    tapHaptic();
     // Demo only: no account is created.
     router.replace({ pathname: '/HomePage', params: { username: fullName } });
   };
@@ -94,14 +107,20 @@ export default function SignUp() {
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.scrollContainer} keyboardShouldPersistTaps="handled">
+    <KeyboardForm
+      style={styles.page}
+      contentContainerStyle={[styles.scrollContainer, { paddingTop: insets.top, paddingBottom: insets.bottom }]}
+    >
       <View style={styles.container}>
         <Text style={styles.title}>Sign Up</Text>
         <Button
           mode="contained"
           style={styles.button}
           contentStyle={styles.buttonContent}
-          onPress={() => router.replace('/HomePage')}
+          onPress={() => {
+            tapHaptic();
+            router.replace('/HomePage');
+          }}
           buttonColor="#20515a"
           textColor="#ffffff"
         >
@@ -111,45 +130,56 @@ export default function SignUp() {
           Demo sign-up — nothing is stored or sent anywhere, and no account is created.
         </Text>
         <Text style={styles.label}>Full Name</Text>
-        <TextInput
-          mode="flat"
-          style={[styles.input, { backgroundColor: '#abe1e5' }]}
+        <FormField
+          style={styles.input}
           placeholder="Ucup"
           value={fullName}
           onChangeText={setFullName}
+          autoComplete="name"
+          returnKeyType="next"
+          submitBehavior="submit"
+          onSubmitEditing={() => emailRef.current?.focus()}
+          accessibilityLabel="Full name"
         />
         {!!errors.fullName && <Text style={styles.error}>{errors.fullName}</Text>}
         <Text style={styles.label}>Email</Text>
-        <TextInput
-          mode="flat"
-          style={[styles.input, { backgroundColor: '#abe1e5' }]}
+        <FormField
+          ref={emailRef}
+          style={styles.input}
           placeholder="example@example.com"
           value={email}
           onChangeText={setEmail}
           autoCapitalize="none"
+          autoComplete="email"
           keyboardType="email-address"
+          returnKeyType="next"
+          submitBehavior="submit"
+          onSubmitEditing={() => mobileRef.current?.focus()}
+          accessibilityLabel="Email"
         />
         {!!errors.email && <Text style={styles.error}>{errors.email}</Text>}
         <Text style={styles.label}>Mobile Number</Text>
-        <TextInput
-          mode="flat"
-          style={[styles.input, { backgroundColor: '#abe1e5' }]}
+        <FormField
+          ref={mobileRef}
+          style={styles.input}
           placeholder="+ 123 456 789"
           value={mobile}
           onChangeText={setMobile}
           keyboardType="phone-pad"
+          returnKeyType="next"
+          submitBehavior="submit"
+          onSubmitEditing={() => passwordRef.current?.focus()}
+          accessibilityLabel="Mobile number"
         />
         {!!errors.mobile && <Text style={styles.error}>{errors.mobile}</Text>}
         <Text style={styles.label}>Date Of Birth</Text>
-        <TouchableOpacity onPress={() => setShowDatePicker(true)}>
+        <TouchableOpacity
+          onPress={() => setShowDatePicker(true)}
+          accessibilityRole="button"
+          accessibilityLabel={dob ? `Date of birth, ${dob}` : 'Choose date of birth'}
+        >
           <View pointerEvents="none">
-            <TextInput
-              mode="flat"
-              style={[styles.input, { backgroundColor: '#abe1e5' }]}
-              placeholder="DD / MM / YYYY"
-              value={dob}
-              editable={false}
-            />
+            <FormField style={styles.input} placeholder="DD / MM / YYYY" value={dob} editable={false} />
           </View>
         </TouchableOpacity>
         {showDatePicker && (
@@ -163,42 +193,49 @@ export default function SignUp() {
         )}
         {!!errors.dob && <Text style={styles.error}>{errors.dob}</Text>}
         <Text style={styles.label}>Password</Text>
-        <View style={styles.passwordContainer}>
-          <TextInput
-            mode="flat"
-            style={[styles.passwordInput, { backgroundColor: '#abe1e5' }]}
-            placeholder="Password"
-            value={password}
-            onChangeText={setPassword}
-            secureTextEntry={!showPassword}
-          />
-          <IconButton
-            icon={showPassword ? 'eye-off' : 'eye'}
-            size={22}
-            onPress={() => setShowPassword(!showPassword)}
-            style={styles.eyeIcon}
-            accessibilityLabel={showPassword ? 'Hide password' : 'Show password'}
-          />
-        </View>
+        <FormField
+          ref={passwordRef}
+          style={styles.input}
+          placeholder="Password"
+          value={password}
+          onChangeText={setPassword}
+          secureTextEntry={!showPassword}
+          returnKeyType="next"
+          submitBehavior="submit"
+          onSubmitEditing={() => confirmRef.current?.focus()}
+          accessibilityLabel="Password"
+          trailing={
+            <IconButton
+              icon={showPassword ? 'eye-off' : 'eye'}
+              size={22}
+              onPress={() => setShowPassword(!showPassword)}
+              style={styles.eyeIcon}
+              accessibilityLabel={showPassword ? 'Hide password' : 'Show password'}
+            />
+          }
+        />
         {!!errors.password && <Text style={styles.error}>{errors.password}</Text>}
         <Text style={styles.label}>Confirm Password</Text>
-        <View style={styles.passwordContainer}>
-          <TextInput
-            mode="flat"
-            style={[styles.passwordInput, { backgroundColor: '#abe1e5' }]}
-            placeholder="Confirm Password"
-            value={confirmPassword}
-            onChangeText={setConfirmPassword}
-            secureTextEntry={!showConfirmPassword}
-          />
-          <IconButton
-            icon={showConfirmPassword ? 'eye-off' : 'eye'}
-            size={22}
-            onPress={() => setShowConfirmPassword(!showConfirmPassword)}
-            style={styles.eyeIcon}
-            accessibilityLabel={showConfirmPassword ? 'Hide password' : 'Show password'}
-          />
-        </View>
+        <FormField
+          ref={confirmRef}
+          style={styles.input}
+          placeholder="Confirm Password"
+          value={confirmPassword}
+          onChangeText={setConfirmPassword}
+          secureTextEntry={!showConfirmPassword}
+          returnKeyType="done"
+          onSubmitEditing={handleSignUp}
+          accessibilityLabel="Confirm password"
+          trailing={
+            <IconButton
+              icon={showConfirmPassword ? 'eye-off' : 'eye'}
+              size={22}
+              onPress={() => setShowConfirmPassword(!showConfirmPassword)}
+              style={styles.eyeIcon}
+              accessibilityLabel={showConfirmPassword ? 'Hide password' : 'Show password'}
+            />
+          }
+        />
         {!!errors.confirmPassword && <Text style={styles.error}>{errors.confirmPassword}</Text>}
         <Button
           mode="contained"
@@ -217,11 +254,12 @@ export default function SignUp() {
           </TouchableOpacity>
         </View>
       </View>
-    </ScrollView>
+    </KeyboardForm>
   );
 }
 
 const styles = StyleSheet.create({
+  page: { backgroundColor: '#fff' },
   scrollContainer: {
     flexGrow: 1,
     justifyContent: 'center',
@@ -246,28 +284,14 @@ const styles = StyleSheet.create({
     fontWeight: '500',
   },
   input: {
-    backgroundColor: '#abe1e5',
-    borderRadius: 20,
     marginBottom: 8,
-    paddingHorizontal: 12,
+    paddingHorizontal: 8,
   },
   error: {
     color: '#b3261e',
     marginLeft: 8,
     marginBottom: 8,
     fontSize: 13,
-  },
-  passwordContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#abe1e5',
-    borderRadius: 20,
-    marginBottom: 8,
-  },
-  passwordInput: {
-    flex: 1,
-    backgroundColor: 'transparent',
-    paddingHorizontal: 12,
   },
   eyeIcon: {
     marginRight: 0,

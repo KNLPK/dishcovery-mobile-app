@@ -42,9 +42,11 @@ thesis measurement build, so both can be on the same phone.
 ## 3. Run the Quick test
 
 1. On Home, tap **Start Quick test** in the "Test it yourself" card.
-2. Tap **Start Quick test** again. It takes about a minute. Keep the app open
-   and the screen on; the bar shows which payload size and format it is on and
-   roughly how long is left. **Stop** cancels it and saves nothing.
+2. Tap **Start Quick test** again. It usually takes under a minute. Keep the
+   app open and the screen on; the bar shows which payload size and format it
+   is on and roughly how long is left. **Stop** cancels it and saves nothing.
+   When it finishes you see a check mark and a short summary; tap
+   **View results** for the charts.
 3. The Quick test uses recipes built into the app, so it works without
    internet.
 
@@ -87,8 +89,10 @@ are quick.
 
 All recipes you can browse are the 150 test recipes from the thesis dataset.
 They were written by an AI model (Google Gemini), not by cooks, and are marked
-**AI-generated recipe (Gemini)** on the recipe page. They have no photos, so
-the app shows a plain placeholder instead. Search looks at recipe names,
+**AI-generated recipe (Gemini)** on the recipe page. They have no photos of
+their own, so the app shows a food photo that matches the kind of dish, marked
+**Illustrative photo** (credits in [IMAGE_CREDITS.md](IMAGE_CREDITS.md)).
+Search looks at recipe names,
 ingredients and descriptions; the Cook tab lists the recipes that use most of
 the ingredients you enter.
 
