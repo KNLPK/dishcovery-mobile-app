@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Dishcovery app icon (draft). Opaque: brand teal square, the mark in the middle,
+       1.25x the adaptive icon's size because nothing masks this one.
+       The mark: three data bars rising from a bowl. Same geometry in every brand file. -->
+  <rect width="1024" height="1024" fill="#20515a"/>
+  <g transform="translate(512 487) scale(1.25)">
+    <rect x="-162" y="-130" width="84" height="146" rx="20" fill="#abe1e5"/>
+    <rect x="-42" y="-250" width="84" height="266" rx="20" fill="#abe1e5"/>
+    <rect x="78" y="-180" width="84" height="196" rx="20" fill="#abe1e5"/>
+    <rect x="-250" y="40" width="500" height="44" rx="22" fill="#ffffff"/>
+    <path d="M-220 84 A220 190 0 0 0 220 84 Z" fill="#ffffff"/>
+    <rect x="-80" y="262" width="160" height="38" rx="12" fill="#ffffff"/>
+  </g>
+</svg>

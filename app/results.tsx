@@ -20,14 +20,16 @@ import React, { useCallback, useEffect, useState } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import BarChart, { pct } from '../components/BarChart';
-import { buttonLook } from '../components/Buttons';
+import { buttonLook, TextLink } from '../components/Buttons';
+import { Hint } from '../components/Hint';
 import { Screen, StackHeader } from '../components/Screen';
+import { Sheet, SheetLine } from '../components/Sheet';
 import { PAPER_RESULTS, type PaperCell } from '../constants/paperResults.generated';
 import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
 import { KB_DIGITS } from '../constants/units';
-import { COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../shared/contract';
+import { BENCHMARK_CONFIG, COMPLEXITY_TIERS, SERIALIZATION_FORMATS } from '../shared/contract';
 import type { ComplexityTier } from '../shared/contract';
-import type { QuickCell, QuickTestResult } from '../src/quick/quickTest';
+import { QUICK_TEST_CONFIG, type QuickCell, type QuickTestResult } from '../src/quick/quickTest';
 import { deleteQuickTest, listQuickTests, shareQuickTest } from '../src/quick/storage';
 import { tierSummary, type TimedCell } from '../src/quick/summary';
 
@@ -98,11 +100,22 @@ export default function ResultsScreen() {
   }, [refresh]);
 
   const selected = tests?.find((t) => t.id === selectedId) ?? null;
+  const [howTo, setHowTo] = useState(false);
 
   return (
     <Screen background={palette.surfaceAlt}>
       <StackHeader title="Results" />
       <ScrollView style={styles.page} contentContainerStyle={styles.content}>
+      {/* Once there is a quick test to read: where the explanation is. */}
+      {tests !== null && tests.length > 0 && (
+        <View style={{ marginBottom: spacing.md }}>
+          <Hint
+            id="readResults"
+            text="Your quick test is saved. New to these charts? “How to read this” explains the bars and the percentages."
+            action={{ label: 'How to read this', onPress: () => setHowTo(true) }}
+          />
+        </View>
+      )}
 
       <View style={styles.tabs} accessibilityRole="tablist">
         {(
@@ -122,6 +135,8 @@ export default function ResultsScreen() {
           </Pressable>
         ))}
       </View>
+      <TextLink label="How to read this" onPress={() => setHowTo(true)} style={{ alignSelf: 'flex-end' }} />
+      <HowToRead visible={howTo} onClose={() => setHowTo(false)} />
 
       {tab === 'phone' ? (
         <PhoneTab
@@ -161,6 +176,43 @@ export default function ResultsScreen() {
       </View>
       </ScrollView>
     </Screen>
+  );
+}
+
+// ─── How to read this ─────────────────────────────────────────────────────────
+
+function HowToRead({ visible, onClose }: { visible: boolean; onClose: () => void }) {
+  const q = QUICK_TEST_CONFIG;
+  const b = BENCHMARK_CONFIG;
+  return (
+    <Sheet visible={visible} onClose={onClose} title="How to read this">
+      <SheetLine term="The bars">
+        Each chart is one measure for one payload size (low, medium, high complexity): decode time, memory
+        (heap allocation) or payload size. Each format has its own bar, labelled with its name. Shorter is
+        better for all three.
+      </SheetLine>
+      <SheetLine term="Solid and outlined">
+        On This phone, the solid bar is your quick test and the thin outlined bar under it is the paper
+        result for the same format and size.
+      </SheetLine>
+      <SheetLine term="% vs JSON">
+        How much bigger or smaller a format is than JSON in the same chart. −30% means 30% less than JSON;
+        +10% means 10% more. JSON is the baseline, so it has none.
+      </SheetLine>
+      <SheetLine term="Why phones differ">
+        Decode time depends on the phone&apos;s processor, its temperature, what else is running and the
+        app build, so your times will not match the paper&apos;s test phone. Compare the pattern and the %
+        against JSON, not the absolute numbers. Payload size is the same on every phone.
+      </SheetLine>
+      <SheetLine term="Why the quick test is not the paper protocol">
+        The quick test decodes {q.payloadsPerTier * 3} generated recipes, {q.warmupIterations} warm-up and{' '}
+        {q.measuredIterations} measured times each, with no cooldown and no check that the phone&apos;s
+        speed stayed steady. The paper used 250 recipes, {b.warmupIterations} warm-up and{' '}
+        {b.measuredIterations} measured decodes each, and enforced both. Quick test numbers are indicative
+        and are never added to the paper&apos;s data.
+      </SheetLine>
+      <TextLink label="Close" onPress={onClose} style={{ alignSelf: 'center' }} />
+    </Sheet>
   );
 }
 

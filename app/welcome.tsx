@@ -11,7 +11,7 @@
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, View } from 'react-native';
 
 import { PrimaryButton, SecondaryButton, TextLink } from '../components/Buttons';
 import { FormField, KeyboardForm } from '../components/KeyboardForm';
@@ -19,9 +19,10 @@ import { Screen } from '../components/Screen';
 import { palette, spacing, type } from '../constants/theme';
 import { markWelcomeSeen, setDisplayName } from '../src/settings/settings';
 
+/** Illustrations exported from assets/brand/welcome-*.svg (docs/BRAND.md). */
 const CARDS = [
   {
-    icon: 'scale-balance',
+    image: require('../assets/brand/welcome-formats.png'),
     title: 'Three ways to send a recipe',
     body:
       'Dishcovery is a recipe app built for a study. Every recipe can travel as JSON, MessagePack or ' +
@@ -29,14 +30,14 @@ const CARDS = [
       'memory that uses, and how big the data is.',
   },
   {
-    icon: 'timer-outline',
+    image: require('../assets/brand/welcome-test.png'),
     title: 'Test it on your phone',
     body:
       'The quick test decodes 30 recipes in all three formats and shows the results. It usually takes ' +
       'under a minute and works offline. Start it from the top of the Home screen.',
   },
   {
-    icon: 'chart-bar',
+    image: require('../assets/brand/welcome-compare.png'),
     title: 'Compare with the paper',
     body:
       'Results puts your phone next to the paper results: the numbers published with the study, with a ' +
@@ -104,7 +105,7 @@ export default function WelcomeScreen() {
 
       <View style={styles.page}>
         <View style={styles.card} accessibilityLiveRegion="polite">
-          <MaterialCommunityIcons name={card.icon} size={44} color={palette.primary} />
+          <Image source={card.image} style={styles.illustration} resizeMode="contain" accessibilityIgnoresInvertColors />
           <Text style={styles.title} accessibilityRole="header">
             {card.title}
           </Text>
@@ -153,6 +154,7 @@ const styles = StyleSheet.create({
   // KeyboardForm's inner view fills the screen; this centres the step in it.
   nameStep: { flex: 1, justifyContent: 'center' },
   nameBlock: { gap: spacing.md },
+  illustration: { width: '100%', aspectRatio: 16 / 9 },
   title: { ...type.title, color: palette.primary },
   body: { fontSize: 15, lineHeight: 22, color: palette.ink },
   nameBody: { fontSize: 15, lineHeight: 22, color: palette.body },

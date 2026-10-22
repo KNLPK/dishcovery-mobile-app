@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360" font-family="Segoe UI, Roboto, Arial, sans-serif">
+  <!-- Welcome card 1 (draft): one recipe, three formats, three sizes. Transparent. -->
+  <!-- The bowl mark, small, in teal -->
+  <g transform="translate(130 180) scale(0.36)">
+    <rect x="-162" y="-130" width="84" height="146" rx="20" fill="#3c9b9f"/>
+    <rect x="-42" y="-250" width="84" height="266" rx="20" fill="#3c9b9f"/>
+    <rect x="78" y="-180" width="84" height="196" rx="20" fill="#3c9b9f"/>
+    <rect x="-250" y="40" width="500" height="44" rx="22" fill="#20515a"/>
+    <path d="M-220 84 A220 190 0 0 0 220 84 Z" fill="#20515a"/>
+    <rect x="-80" y="262" width="160" height="38" rx="12" fill="#20515a"/>
+  </g>
+  <!-- Arrow -->
+  <path d="M236 180 H296" stroke="#20515a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M284 160 L308 180 L284 200" fill="none" stroke="#20515a" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Three packets: same recipe, different sizes -->
+  <g font-size="22" font-weight="700">
+    <rect x="336" y="84" width="260" height="52" rx="14" fill="#20515a"/>
+    <text x="356" y="118" fill="#ffffff">JSON</text>
+    <rect x="336" y="156" width="196" height="52" rx="14" fill="#3c9b9f"/>
+    <text x="356" y="190" fill="#ffffff">MsgPack</text>
+    <rect x="336" y="228" width="164" height="52" rx="14" fill="#c1802b"/>
+    <text x="356" y="262" fill="#ffffff">Protobuf</text>
+  </g>
+</svg>

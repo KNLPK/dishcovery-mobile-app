@@ -74,7 +74,17 @@ export interface Settings {
   displayName: string;
   /** Recipes opened on this phone, for Profile's stats. */
   recipesViewed: number;
+  /** One-time hints already dismissed (see HINTS). */
+  hintsSeen: HintId[];
 }
+
+/**
+ * One-time hints: each is shown until the user dismisses it, then never again.
+ *   formatBar     Home, first visit: what the format selector does
+ *   readResults   Results, once a quick test exists: where "How to read this" is
+ */
+export const HINTS = ['formatBar', 'readResults'] as const;
+export type HintId = (typeof HINTS)[number];
 
 export const DEFAULT_SETTINGS: Settings = {
   format: 'json',
@@ -84,6 +94,7 @@ export const DEFAULT_SETTINGS: Settings = {
   favourites: [],
   displayName: '',
   recipesViewed: 0,
+  hintsSeen: [],
 };
 
 const FILE_NAME = 'dishcovery-settings.json';
@@ -179,6 +190,9 @@ function sanitise(parsed: unknown): Settings {
       typeof record.recipesViewed === 'number' && Number.isFinite(record.recipesViewed) && record.recipesViewed > 0
         ? Math.floor(record.recipesViewed)
         : 0,
+    hintsSeen: Array.isArray(record.hintsSeen)
+      ? HINTS.filter((h) => (record.hintsSeen as unknown[]).includes(h))
+      : [],
   };
 }
 
@@ -257,6 +271,10 @@ export function shownName(displayName: string): string {
 
 export function countRecipeView(): void {
   updateSettings({ recipesViewed: current.recipesViewed + 1 });
+}
+
+export function markHintSeen(id: HintId): void {
+  if (!current.hintsSeen.includes(id)) updateSettings({ hintsSeen: [...current.hintsSeen, id] });
 }
 
 // ─── Favourites ───────────────────────────────────────────────────────────────

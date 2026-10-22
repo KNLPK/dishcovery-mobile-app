@@ -18,8 +18,7 @@
 
 import { useRouter } from 'expo-router';
 import React, { useState } from 'react';
-import { Modal, Pressable, StyleSheet, Text, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { palette, radius, spacing, type } from '../constants/theme';
 import { formatKB, formatMs } from '../constants/units';
@@ -27,6 +26,7 @@ import type { SerializationFormat } from '../shared/contract';
 import { SERIALIZATION_FORMATS } from '../shared/contract';
 import { setFormat, useSettings } from '../src/settings/settings';
 import { PrimaryButton, SecondaryButton, TextLink } from './Buttons';
+import { Sheet, SheetLine } from './Sheet';
 
 /** Short labels: the full names do not fit three-up on a small phone. */
 const LABELS: Record<SerializationFormat, string> = {
@@ -120,39 +120,28 @@ const TERMS: readonly (readonly [string, string])[] = [
 
 function ExplainSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const router = useRouter();
-  const insets = useSafeAreaInsets();
   const go = (path: '/results' | '/metrics') => {
     onClose();
     router.push(path);
   };
 
   return (
-    <Modal visible={visible} transparent animationType="slide" onRequestClose={onClose} statusBarTranslucent navigationBarTranslucent>
-      <View style={styles.sheetLayer}>
-        <Pressable style={styles.backdrop} onPress={onClose} accessibilityLabel="Close" />
-        <View style={[styles.sheet, { paddingBottom: insets.bottom + spacing.lg }]} accessibilityViewIsModal>
-          <View style={styles.grabber} />
-          <Text style={styles.sheetTitle} accessibilityRole="header">
-            What these numbers mean
-          </Text>
-          {TERMS.map(([term, text]) => (
-            <Text key={term} style={styles.sheetLine}>
-              <Text style={styles.sheetTerm}>{term}: </Text>
-              {text}
-            </Text>
-          ))}
-          <Text style={styles.sheetNote}>
-            Each line is one request while you browse, so the numbers vary. For a fair comparison, run the
-            quick test or look at the paper results.
-          </Text>
-          <View style={styles.sheetButtons}>
-            <PrimaryButton label="Open results" onPress={() => go('/results')} />
-            <SecondaryButton label="This session's requests" onPress={() => go('/metrics')} />
-            <TextLink label="Close" onPress={onClose} style={{ alignSelf: 'center' }} />
-          </View>
-        </View>
+    <Sheet visible={visible} onClose={onClose} title="What these numbers mean">
+      {TERMS.map(([term, text]) => (
+        <SheetLine key={term} term={term}>
+          {text}
+        </SheetLine>
+      ))}
+      <SheetLine>
+        Each line is one request while you browse, so the numbers vary. For a fair comparison, run the quick
+        test or look at the paper results.
+      </SheetLine>
+      <View style={styles.sheetButtons}>
+        <PrimaryButton label="Open results" onPress={() => go('/results')} />
+        <SecondaryButton label="This session's requests" onPress={() => go('/metrics')} />
+        <TextLink label="Close" onPress={onClose} style={{ alignSelf: 'center' }} />
       </View>
-    </Modal>
+    </Sheet>
   );
 }
 
@@ -191,20 +180,5 @@ const styles = StyleSheet.create({
   },
   explainButtonText: { color: palette.primary, fontSize: 15, fontWeight: '700' },
   readout: { ...type.caption, color: palette.body, marginTop: spacing.sm, fontVariant: ['tabular-nums'] },
-  sheetLayer: { flex: 1, justifyContent: 'flex-end' },
-  backdrop: { ...StyleSheet.absoluteFillObject, backgroundColor: 'rgba(11, 43, 51, 0.4)' },
-  sheet: {
-    backgroundColor: palette.surface,
-    borderTopLeftRadius: radius.lg,
-    borderTopRightRadius: radius.lg,
-    paddingHorizontal: spacing.xl,
-    paddingTop: spacing.sm,
-    gap: spacing.sm,
-  },
-  grabber: { alignSelf: 'center', width: 36, height: 4, borderRadius: 2, backgroundColor: palette.border, marginBottom: spacing.sm },
-  sheetTitle: { ...type.section, color: palette.ink },
-  sheetLine: { ...type.body, color: palette.body },
-  sheetTerm: { fontWeight: '700', color: palette.ink },
-  sheetNote: { ...type.body, color: palette.muted },
   sheetButtons: { gap: spacing.sm, marginTop: spacing.sm },
 });

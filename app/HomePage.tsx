@@ -5,6 +5,7 @@ import { IconButton } from 'react-native-paper';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import { PrimaryButton, TextLink } from '../components/Buttons';
 import { ChipRow } from '../components/Chips';
+import { Hint } from '../components/Hint';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
@@ -149,8 +150,15 @@ export default function HomePage() {
         </View>
 
         {/* Format selector + what the last load cost */}
-        <View style={{ marginTop: 8, marginBottom: 20 }}>
+        <View style={{ marginTop: 8, marginBottom: 20, gap: 8 }}>
           <MetricsBar last={last} busy={loading} />
+          <Hint
+            id="formatBar"
+            text={
+              'This bar picks the format every recipe is sent in: JSON, MessagePack or Protocol Buffers. ' +
+              'The line under it shows the size, decode time and memory of the last response. Tap Σ for more.'
+            }
+          />
         </View>
 
         {/* Featured */}

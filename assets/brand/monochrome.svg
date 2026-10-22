@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Android 13+ themed icon (draft). One colour on transparent: Android uses only
+       the shape (alpha) and tints it. Same mark and safe zone as the adaptive foreground. -->
+  <g transform="translate(512 487)" fill="#000000">
+    <rect x="-162" y="-130" width="84" height="146" rx="20"/>
+    <rect x="-42" y="-250" width="84" height="266" rx="20"/>
+    <rect x="78" y="-180" width="84" height="196" rx="20"/>
+    <rect x="-250" y="40" width="500" height="44" rx="22"/>
+    <path d="M-220 84 A220 190 0 0 0 220 84 Z"/>
+    <rect x="-80" y="262" width="160" height="38" rx="12"/>
+  </g>
+</svg>

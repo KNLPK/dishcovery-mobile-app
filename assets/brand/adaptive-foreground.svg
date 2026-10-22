@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- Android adaptive icon foreground (draft). Transparent; the background colour
+       (#20515a) is set in app.config.js. Everything stays inside the central 66%
+       safe circle (radius 338 around 512,512): the farthest point of the mark is
+       about 290 from the centre. -->
+  <g transform="translate(512 487)">
+    <rect x="-162" y="-130" width="84" height="146" rx="20" fill="#abe1e5"/>
+    <rect x="-42" y="-250" width="84" height="266" rx="20" fill="#abe1e5"/>
+    <rect x="78" y="-180" width="84" height="196" rx="20" fill="#abe1e5"/>
+    <rect x="-250" y="40" width="500" height="44" rx="22" fill="#ffffff"/>
+    <path d="M-220 84 A220 190 0 0 0 220 84 Z" fill="#ffffff"/>
+    <rect x="-80" y="262" width="160" height="38" rx="12" fill="#ffffff"/>
+  </g>
+</svg>
