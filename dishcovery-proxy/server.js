@@ -590,6 +590,14 @@ let catalog = [];
 const plainText = (html) => html.replace(/<[^>]+>/g, ' ');
 const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 const hasWord = (text, word) => new RegExp(`\\b${escapeRegExp(word)}\\b`).test(text);
+/** A searched word as a whole word, singular or plural: "egg" finds "eggs", not "eggplant". */
+const hasTerm = (text, term) => new RegExp(`\\b${escapeRegExp(term)}(s|es)?\\b`).test(text);
+/**
+ * Ingredients in which a searched word only describes something else: "chicken
+ * broth" is not chicken, "rice vinegar" is not rice. They still match, but rank
+ * after recipes that use the thing itself.
+ */
+const MINOR_INGREDIENT = /\b(stock|broth|bouillon|garnish|vinegar|wine|mirin|syrup|flour|powder|for)\b/;
 
 /** Index the generated dataset for browsing. Reads the cache, never the network. */
 function buildCatalog() {
@@ -621,15 +629,20 @@ const catalogSource = () => `catalog (${catalog.length} Gemini-generated recipes
  * complexSearch-shaped results from the catalog.
  *
  *   query              every word must appear in the title, an ingredient or
- *                      the summary (case-insensitive); title matches rank first.
- *                      Home sends a category chip's label as the query along
- *                      with its type, so words of the type itself ("main",
- *                      "course") are left to the type match
- *   includeIngredients comma list; recipes are ranked by how many of them they
- *                      use, and those using none are left out
+ *                      the summary (case-insensitive). Home sends a category
+ *                      chip's label as the query along with its type, so words
+ *                      of the type itself ("main", "course") are left to the
+ *                      type match
+ *   includeIngredients comma list; recipes using none of them are left out
  *   type               a home category, matched by CATALOG_TYPES
  *   maxReadyTime       minutes
  *   number, offset     paging, as Spoonacular (number capped at 50)
+ *
+ * Results rank by the searched words, query words and ingredients alike: first
+ * by how many appear in the title, then by how many are main ingredients, then
+ * by how many appear in any ingredient (including MINOR_INGREDIENT ones such as
+ * stock, broth or garnish), then by id. Searching "chicken" so puts chicken
+ * dishes before a pork roast made with chicken broth.
  */
 function searchCatalog(q) {
   const type = String(q.type ?? '').toLowerCase().trim();
@@ -647,17 +660,24 @@ function searchCatalog(q) {
   const number = Math.min(Math.max(Number(q.number) || 10, 1), 50);
   const offset = Math.max(Number(q.offset) || 0, 0);
 
+  const terms = [...new Set([...words, ...wanted])];
+
   const scored = [];
   for (const c of catalog) {
     if (type !== '' && !c.types.includes(type)) continue;
     if (Number.isFinite(maxReadyTime) && maxReadyTime > 0 && c.readyInMinutes > maxReadyTime) continue;
     if (!words.every((w) => c.text.includes(w))) continue;
-    const used = wanted.filter((w) => c.ingredients.some((name) => name.includes(w))).length;
-    if (wanted.length > 0 && used === 0) continue;
-    const inTitle = words.filter((w) => c.title.includes(w)).length;
-    scored.push({ c, used, inTitle });
+    if (wanted.length > 0 && !wanted.some((w) => c.ingredients.some((name) => name.includes(w)))) continue;
+    const inTitle = terms.filter((t) => hasTerm(c.title, t)).length;
+    const main = terms.filter((t) =>
+      c.ingredients.some((name) => hasTerm(name, t) && !MINOR_INGREDIENT.test(name))
+    ).length;
+    const used = terms.filter((t) => c.ingredients.some((name) => name.includes(t))).length;
+    scored.push({ c, inTitle, main, used });
   }
-  scored.sort((a, b) => b.used - a.used || b.inTitle - a.inTitle || a.c.item.id - b.c.item.id);
+  scored.sort(
+    (a, b) => b.inTitle - a.inTitle || b.main - a.main || b.used - a.used || a.c.item.id - b.c.item.id
+  );
 
   return {
     results: scored.slice(offset, offset + number).map(({ c }) => c.item),

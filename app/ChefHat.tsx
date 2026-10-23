@@ -12,7 +12,7 @@ import { Screen, TabHeader } from '../components/Screen';
 import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
 import { useRouter } from 'expo-router';
 import { CATEGORIES, categoryType } from '../constants/categories';
-import { palette, radius, touchTarget } from '../constants/theme';
+import { palette, radius, touchTarget, type } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
@@ -43,6 +43,8 @@ export default function ChefHat() {
   const [ingredients, setIngredients] = useState<Ingredient[]>([
     { name: '', quantity: '' },
   ]);
+  // A remove button per row once there is more than one ingredient.
+  const removable = ingredients.length > 1;
   const [cookTime, setCookTime] = useState<CookTime>('any');
   const [loading, setLoading] = useState(false);
   const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
@@ -169,8 +171,13 @@ export default function ChefHat() {
         <Text style={[styles.sectionTitle, { marginTop: 20 }]}>Ingredients</Text>
         <View style={styles.columnLabels}>
           <Text style={[styles.columnLabel, styles.ingredientNameInput]}>Item</Text>
-          <Text style={[styles.columnLabel, styles.ingredientQuantityInput]}>Quantity</Text>
-          <View style={styles.iconButton} />
+          <View style={styles.ingredientQuantityInput}>
+            {/* May run on over the remove buttons' column, so it stays on one line. */}
+            <Text style={[styles.columnLabel, removable && styles.quantityLabelOverRemove]} numberOfLines={1}>
+              Quantity (optional)
+            </Text>
+          </View>
+          {removable ? <View style={styles.iconButton} /> : null}
         </View>
         {ingredients.map((ing, idx) => {
           const lastRow = idx + 1 === ingredients.length;
@@ -190,7 +197,7 @@ export default function ChefHat() {
               <FormField
                 ref={fieldRef(`qty${idx}`)}
                 style={[styles.input, styles.ingredientQuantityInput]}
-                placeholder="e.g. 200 g (optional)"
+                placeholder="200 g"
                 value={ing.quantity}
                 onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
                 returnKeyType={lastRow ? 'done' : 'next'}
@@ -200,13 +207,11 @@ export default function ChefHat() {
                 }}
                 accessibilityLabel={`Quantity of ingredient ${idx + 1}, optional`}
               />
-              {ingredients.length > 1 ? (
+              {removable ? (
                 <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton} accessibilityRole="button" accessibilityLabel={`Remove ingredient ${idx + 1}`}>
                    <MaterialCommunityIcons name="minus-circle-outline" size={26} color={palette.muted} />
                 </TouchableOpacity>
-              ) : (
-                <View style={styles.iconButton} />
-              )}
+              ) : null}
             </View>
           );
         })}
@@ -303,10 +308,12 @@ const styles = StyleSheet.create({
       marginBottom: 4,
     },
     columnLabel: {
-      fontSize: 13,
-      fontWeight: '600',
+      ...type.label,
       color: palette.body,
       marginLeft: 4,
+    },
+    quantityLabelOverRemove: {
+      marginRight: -touchTarget,
     },
     ingredientRow: {
       flexDirection: 'row',
@@ -319,14 +326,14 @@ const styles = StyleSheet.create({
       borderColor: palette.border,
       minHeight: touchTarget,
     },
+    // Item and Quantity share the row 60/40; the remove button, when there is
+    // more than one ingredient, takes its own column after them.
     ingredientNameInput: {
-      flex: 1,
+      flex: 3,
       marginRight: 8,
     },
-    // Wide enough for its placeholder, "e.g. 200 g (optional)", on a 360 dp phone.
     ingredientQuantityInput: {
-      width: 156,
-      marginRight: 8,
+      flex: 2,
     },
      iconButton: {
          minWidth: touchTarget,

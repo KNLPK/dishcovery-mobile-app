@@ -12,7 +12,9 @@
  * key removed, makes every axios request fail, and checks:
  *   - /health: hosted, catalog source, no points budget
  *   - search by query, by category (type) and paging
- *   - find by ingredients (ChefHat), ranked by overlap
+ *   - find by ingredients (ChefHat); title matches rank first, stock and broth last
+ *   - chicken, egg, salmon, tofu, rice: on Search and Cook a recipe with the word
+ *     in its title comes first
  *   - recipe detail in all three formats, byte-identical to the bundled
  *     offline payloads; an unknown id is a 404, not an upstream call
  *
@@ -55,6 +57,19 @@ const get = async (p) => {
   return { status: res.status, type: res.headers.get('content-type'), body: Buffer.from(await res.arrayBuffer()) };
 };
 const json = async (p) => JSON.parse((await get(p)).body.toString('utf8'));
+/** Every result of a search, page by page. */
+const allResults = async (params) => {
+  const out = [];
+  for (let total = Infinity; out.length < total; ) {
+    const page = await json(`/api/search?${params}&number=50&offset=${out.length}`);
+    total = page.totalResults;
+    if (page.results.length === 0) break;
+    out.push(...page.results);
+  }
+  return out;
+};
+/** The word, singular or plural, in a title: "egg" matches "Poached Eggs", not "Eggplant". */
+const titleHas = (title, word) => new RegExp(`\\b${word}(s|es)?\\b`, 'i').test(title);
 
 const health = await json('/health');
 console.log = log;
@@ -103,11 +118,41 @@ const ranks = [];
 for (const r of chef.results) {
   const recipe = await json(`/api/recipes/${r.id}`);
   const names = recipe.extendedIngredients.map((i) => i.name.toLowerCase());
-  ranks.push(['garlic', 'onion', 'chicken'].filter((w) => names.some((n) => n.includes(w))).length);
+  const used = ['garlic', 'onion', 'chicken'].filter((w) => names.some((n) => n.includes(w))).length;
+  const inTitle = ['garlic', 'onion', 'chicken'].filter((w) => titleHas(r.title, w)).length;
+  ranks.push({ used, inTitle });
 }
 ok(
-  chef.results.length === 5 && ranks.every((n, i) => n >= 1 && (i === 0 || n <= ranks[i - 1])),
-  `find by ingredients (garlic, onion, chicken): overlap ${ranks.join(', ')}, ranked high to low`
+  chef.results.length === 5 &&
+    ranks.every((n, i) => n.used >= 1 && (i === 0 || n.inTitle <= ranks[i - 1].inTitle)),
+  `find by ingredients (garlic, onion, chicken): in title ${ranks.map((n) => n.inTitle).join(', ')}, ` +
+    `overlap ${ranks.map((n) => n.used).join(', ')}; title matches first`
+);
+
+// A recipe with the word in its title comes first, on Search (query) and Cook
+// (includeIngredients) alike; then main ingredients; stock, broth and the like last.
+for (const word of ['chicken', 'egg', 'salmon', 'tofu', 'rice']) {
+  for (const param of ['query', 'includeIngredients']) {
+    const all = await allResults(`${param}=${word}`);
+    const titled = all.filter((r) => titleHas(r.title, word)).length;
+    ok(
+      all.length > 0 && titled > 0 && all.slice(0, titled).every((r) => titleHas(r.title, word)),
+      `${param === 'query' ? 'search' : 'cook'} "${word}": ${titled} of ${all.length} have it in the title and come first ` +
+        `("${all[0]?.title}")`
+    );
+  }
+}
+const cookChicken = await allResults('includeIngredients=chicken');
+const brothOnly = [];
+for (const [i, r] of cookChicken.entries()) {
+  const recipe = await json(`/api/recipes/${r.id}`);
+  const names = recipe.extendedIngredients.map((x) => x.name.toLowerCase()).filter((n) => n.includes('chicken'));
+  if (names.every((n) => /\b(stock|broth)\b/.test(n))) brothOnly.push({ i, title: r.title });
+}
+ok(
+  brothOnly.length > 0 && brothOnly.every((b, k) => b.i === cookChicken.length - brothOnly.length + k),
+  `cook "chicken": ${brothOnly.length} recipes with only chicken stock or broth rank last ` +
+    `(e.g. "${brothOnly[0]?.title}" at ${brothOnly[0]?.i + 1} of ${cookChicken.length})`
 );
 const anyTime = await json('/api/search?includeIngredients=garlic&number=50');
 const quick = await json('/api/search?includeIngredients=garlic&maxReadyTime=45&number=50');
