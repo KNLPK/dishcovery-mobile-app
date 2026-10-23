@@ -151,7 +151,7 @@ export default function HomePage() {
 
         {/* Format selector + what the last load cost */}
         <View style={{ marginTop: 8, marginBottom: 20, gap: 8 }}>
-          <MetricsBar last={last} busy={loading} />
+          <MetricsBar last={last} busy={loading} list />
           <Hint
             id="formatBar"
             text={
@@ -196,7 +196,7 @@ export default function HomePage() {
                   accessibilityLabel={`Open ${item.title}`}
                 >
                   {/* Photo on top, text below: they never overlap. */}
-                  <RecipeImage uri={item.image} title={item.title} style={styles.featuredImage} />
+                  <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.featuredImage} />
                   <View style={styles.featuredText}>
                     <Text style={styles.featuredTitle} numberOfLines={2}>{item.title}</Text>
                     <View style={styles.featuredInfoRow}>
@@ -245,7 +245,7 @@ export default function HomePage() {
                   accessibilityRole="button"
                   accessibilityLabel={`Open ${item.title}`}
                 >
-                  <RecipeImage uri={item.image} title={item.title} style={styles.recipeImage} />
+                  <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.recipeImage} />
                   <TouchableOpacity
                     style={styles.favoriteButton}
                     onPress={() => toggleFavouriteWithToast({ id: item.id, title: item.title, image: item.image ?? null })}

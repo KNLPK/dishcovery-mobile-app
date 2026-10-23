@@ -1,21 +1,28 @@
 /**
  * constants/illustrativePhotos.ts
  *
- * Twelve bundled food photos (Unsplash License; sources in
+ * Twenty-eight bundled food photos (Unsplash License; sources in
  * docs/IMAGE_CREDITS.md) shown in place of recipe photos the catalog does not
  * have. The generated recipes' `image` field is a generated:// reference and
  * stays exactly as it is in the payloads; the photo is picked here, in the UI,
- * from words in the recipe title, so it only illustrates the kind of dish.
+ * so it only illustrates the kind of dish.
  *
- * Rules are checked in order and the first match wins, so the main ingredient
- * beats the form of the dish ("Trout ... Broth" is fish, not soup), and a
- * dessert word beats everything (a "Chocolate Rice Pudding" is a dessert).
+ * Two steps:
+ *   1. The kind of dish, from words in the title. Rules are checked in order
+ *      and the first match wins, so a dessert word beats everything (a
+ *      "Chocolate Rice Pudding" is a dessert), a noodle dish is shown as
+ *      noodles whatever is in it, and the main ingredient beats the form of
+ *      the dish ("Trout ... Broth" is fish, not soup).
+ *   2. One of that kind's photos, from the recipe id. The same recipe always
+ *      gets the same photo, on every screen, and recipes of the same kind next
+ *      to each other in a list mostly get different ones.
  */
 
 import type { ImageSourcePropType } from 'react-native';
 
 export type PhotoKey =
   | 'dessert'
+  | 'noodles'
   | 'chicken'
   | 'beef'
   | 'pork'
@@ -23,6 +30,7 @@ export type PhotoKey =
   | 'egg'
   | 'pasta'
   | 'rice'
+  | 'curry'
   | 'soup'
   | 'salad'
   | 'breakfast'
@@ -30,15 +38,17 @@ export type PhotoKey =
 
 const RULES: readonly (readonly [PhotoKey, RegExp])[] = [
   ['dessert', /\b(cake|cakes|tart|tarts|pudding|cookies?|brownies?|ice cream|mousse|custard|sorbet|chocolate|cheesecake|crumble|flan|panna cotta|tiramisu|dessert|macarons?|pastry|doughnuts?|cobbler|compote|halwa|mochi)\b/i],
+  ['noodles', /\b(noodles?|ramen|udon|soba|pho|laksa|lo mein|chow mein|pad thai|vermicelli|sevai)\b/i],
   ['chicken', /\b(chicken|duck|turkey|poultry|quail|hen)\b/i],
   ['beef', /\b(beef|steak|veal|lamb|mutton|goat|brisket|oxtail|short ribs?|venison|meatballs?)\b/i],
-  ['pork', /\b(pork|bacon|ham|sausages?|chorizo|pancetta|prosciutto|belly)\b/i],
+  ['pork', /\b(pork|bacon|ham|sausages?|chorizo|pancetta|prosciutto|belly|kielbasa)\b/i],
   ['fish', /\b(fish|salmon|trout|cod|tuna|halibut|snapper|mackerel|sardines?|anchov(y|ies)|shrimp|prawns?|seafood|crab|lobster|mussels?|clams?|scallops?|squid|octopus|calamari)\b/i],
   ['egg', /\b(eggs?|frittata|omelet(te)?|shakshuka|quiche)\b/i],
-  ['pasta', /\b(pasta|noodles?|spaghetti|orzo|linguine|penne|fettuccine|ravioli|gnocchi|gnudi|lasagna|udon|ramen|soba|macaroni|couscous|dumplings?)\b/i],
+  ['pasta', /\b(pasta|spaghetti|orzo|linguine|penne|fettuccine|ravioli|gnocchi|gnudi|lasagna|macaroni|couscous|dumplings?)\b/i],
   ['rice', /\b(rice|risotto|paella|pilaf|pilau|biryani|congee|jambalaya)\b/i],
-  ['soup', /\b(soup|broth|stew|chowder|bisque|curry|chili|chilli|gumbo|tagine)\b/i],
-  ['salad', /\b(salad|slaw|vegetables?|veggie|greens|tofu|chickpeas?|lentils?|beans?|eggplant|aubergine|cauliflower|mushrooms?|grain|freekeh|quinoa)\b/i],
+  ['curry', /\b(curry|curries|curried|masala|korma|vindaloo|dal|dhal|rendang)\b/i],
+  ['soup', /\b(soup|broth|stew|chowder|bisque|chili|chilli|gumbo|tagine)\b/i],
+  ['salad', /\b(salad|slaw|vegetables?|veggie|greens|tofu|chickpeas?|lentils?|beans?|eggplant|aubergine|cauliflower|mushrooms?|grain|freekeh|quinoa|stir[- ]?fr(y|ies|ied))\b/i],
   ['breakfast', /\b(bread|flatbread|toast|pancakes?|waffles?|muffins?|scones?|porridge|oats?|granola|crepes?|bagels?|buns?|brioche|focaccia|breakfast)\b/i],
 ];
 
@@ -57,23 +67,42 @@ export function photoKeyFor(title: string | null | undefined): PhotoKey {
   return 'fallback';
 }
 
-/* eslint-disable @typescript-eslint/no-require-imports */
-const PHOTOS: Record<PhotoKey, ImageSourcePropType> = {
-  dessert: require('../assets/images/food/dessert.webp'),
-  chicken: require('../assets/images/food/chicken.webp'),
-  beef: require('../assets/images/food/beef.webp'),
-  pork: require('../assets/images/food/pork.webp'),
-  fish: require('../assets/images/food/fish.webp'),
-  egg: require('../assets/images/food/egg.webp'),
-  pasta: require('../assets/images/food/pasta.webp'),
-  rice: require('../assets/images/food/rice.webp'),
-  soup: require('../assets/images/food/soup.webp'),
-  salad: require('../assets/images/food/salad.webp'),
-  breakfast: require('../assets/images/food/breakfast.webp'),
-  fallback: require('../assets/images/food/fallback.webp'),
+const PHOTOS: Record<PhotoKey, readonly ImageSourcePropType[]> = {
+  dessert: [require('../assets/images/food/dessert-1.webp'), require('../assets/images/food/dessert-2.webp')],
+  noodles: [require('../assets/images/food/noodles-1.webp'), require('../assets/images/food/noodles-2.webp')],
+  chicken: [require('../assets/images/food/chicken-1.webp'), require('../assets/images/food/chicken-2.webp')],
+  beef: [require('../assets/images/food/beef-1.webp'), require('../assets/images/food/beef-2.webp')],
+  pork: [require('../assets/images/food/pork-1.webp'), require('../assets/images/food/pork-2.webp')],
+  fish: [require('../assets/images/food/fish-1.webp'), require('../assets/images/food/fish-2.webp')],
+  egg: [require('../assets/images/food/egg-1.webp'), require('../assets/images/food/egg-2.webp')],
+  pasta: [require('../assets/images/food/pasta-1.webp'), require('../assets/images/food/pasta-2.webp')],
+  rice: [require('../assets/images/food/rice-1.webp'), require('../assets/images/food/rice-2.webp')],
+  curry: [require('../assets/images/food/curry-1.webp'), require('../assets/images/food/curry-2.webp')],
+  soup: [require('../assets/images/food/soup-1.webp'), require('../assets/images/food/soup-2.webp')],
+  salad: [require('../assets/images/food/salad-1.webp'), require('../assets/images/food/salad-2.webp')],
+  breakfast: [require('../assets/images/food/breakfast-1.webp'), require('../assets/images/food/breakfast-2.webp')],
+  fallback: [require('../assets/images/food/fallback-1.webp'), require('../assets/images/food/fallback-2.webp')],
 };
-/* eslint-enable @typescript-eslint/no-require-imports */
 
-export function illustrativePhoto(title: string | null | undefined): ImageSourcePropType {
-  return PHOTOS[photoKeyFor(title)];
+/**
+ * Which of a kind's photos a recipe gets: a hash of its id, so the choice
+ * does not follow the id's parity (consecutive ids are common in the catalog).
+ * Without an id (a suggestion card, an ingredient), the first photo.
+ */
+export function photoIndexFor(id: number | string | null | undefined, count: number): number {
+  const n = Number(id);
+  if (id === null || id === undefined || !Number.isFinite(n)) return 0;
+  let h = Math.trunc(n) | 0;
+  h = Math.imul(h ^ (h >>> 16), 0x45d9f3b);
+  h = Math.imul(h ^ (h >>> 16), 0x45d9f3b);
+  h ^= h >>> 16;
+  return (h >>> 0) % count;
+}
+
+export function illustrativePhoto(
+  title: string | null | undefined,
+  id?: number | string | null,
+): ImageSourcePropType {
+  const photos = PHOTOS[photoKeyFor(title)];
+  return photos[photoIndexFor(id, photos.length)];
 }

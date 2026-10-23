@@ -29,10 +29,10 @@ How the app words things, so every screen says the same thing the same way.
 | payload size | How much data a payload takes on the network. | KB, one decimal: "4.9 KB". 1 KB = 1,000 bytes, as in the paper. |
 | decode time | How long the phone takes to turn a payload back into a recipe. | ms, two decimals: "2.08 ms". |
 | memory (heap allocation) | Memory the app allocates while decoding one payload (Hermes `js_totalAllocatedBytes`). Not peak memory use. Written in full as a chart or section title; "memory" alone in running text and in the line under the format selector. | KB, one decimal: "75.5 KB". |
-| last response | The most recent request on the current screen, shown under the format selector: "Last response: 1.1 KB · decoded in 2.08 ms · 75.5 KB memory". | |
+| last response | The most recent request on the current screen, shown under the format selector: "Last response: 1.1 KB · decoded in 2.08 ms · 75.5 KB memory". When the format had to change, it names the one used: "Last response (JSON): …". With Protobuf selected, list screens add "Lists are sent as JSON. Protobuf is used on recipe pages." Never truncated. | |
 | session measurements | Every request since the app was opened, grouped by format (from the Σ sheet). | |
 | tier | Low, medium or high: how complex a recipe payload is. | |
-| illustrative photo | One of the twelve bundled food photos shown in place of a recipe photo; it shows the kind of dish, not the dish. | |
+| illustrative photo | One of the 28 bundled food photos shown in place of a recipe photo; it shows the kind of dish, not the dish. | |
 | AI-generated recipe (Gemini) | The label on every recipe in the online catalog. | |
 | Guest | What the app calls the person when no name was given. | |
 

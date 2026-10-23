@@ -4,9 +4,14 @@
  * A row of single-choice chips (categories, cook time) that scrolls sideways
  * when it does not fit, and shows that it does: the row runs to the edge of
  * the screen, so the next chip is cut off there, and the right edge fades out
- * while there is more to scroll to. The fade is a few stacked strips of the
- * background colour (no gradient package), drawn only while it means
- * something, and it never moves on its own.
+ * while a chip is cut off. The fade is a few stacked strips of the background
+ * colour (no gradient package), and it never moves on its own.
+ *
+ * The fade is measured against the chips themselves, not the row: it is drawn
+ * only when some chip actually runs past the right edge, and it is never
+ * wider than the space between the last whole chip and that edge, so it can
+ * only ever dim the chip that is cut off. A row that fits (Cook time) has no
+ * fade at all.
  *
  * Selected: dark teal fill, white label. Not selected: outline. The selected
  * chip is also announced as selected.
@@ -22,6 +27,8 @@ export type ChipOption<T extends string> = { value: T; label: string };
 /** Opacity of each strip, from the inside of the fade to the screen edge. */
 const FADE = [0.25, 0.5, 0.7, 0.85, 0.95];
 const STRIP = 6;
+/** Narrower than this, a fade reads as a smudge; the cut-off chip says enough. */
+const MIN_FADE = 10;
 
 export function ChipRow<T extends string>({
   options,
@@ -41,9 +48,19 @@ export function ChipRow<T extends string>({
   accessibilityLabel?: string;
 }) {
   const [width, setWidth] = useState(0);
-  const [contentWidth, setContentWidth] = useState(0);
   const [x, setX] = useState(0);
-  const moreToTheRight = contentWidth - width - x > 2;
+  // Each chip's left and right edge in the scrolling content, by position.
+  const [edges, setEdges] = useState<readonly (readonly [number, number])[]>([]);
+
+  const visibleRight = x + width;
+  const measured = width > 0 && edges.length === options.length && Array.from(edges).every(Boolean);
+  const cutOff = measured && edges.some(([, right]) => right > visibleRight + 0.5);
+  // Right edge of the last chip still wholly in view (or the row's start).
+  const lastWhole = measured
+    ? Math.max(x, ...edges.filter(([, right]) => right <= visibleRight + 0.5).map(([, right]) => right))
+    : visibleRight;
+  const fadeWidth = Math.min(STRIP * FADE.length, visibleRight - lastWhole);
+  const showFade = cutOff && fadeWidth >= MIN_FADE;
 
   return (
     <View style={{ marginHorizontal: -gutter }} accessibilityLabel={accessibilityLabel}>
@@ -53,15 +70,22 @@ export function ChipRow<T extends string>({
         keyboardShouldPersistTaps="handled"
         contentContainerStyle={[styles.row, { paddingHorizontal: gutter }]}
         onLayout={(e) => setWidth(e.nativeEvent.layout.width)}
-        onContentSizeChange={(w) => setContentWidth(w)}
         onScroll={(e) => setX(e.nativeEvent.contentOffset.x)}
         scrollEventThrottle={32}
       >
-        {options.map((option) => {
+        {options.map((option, i) => {
           const active = option.value === selected;
           return (
             <Pressable
               key={option.value}
+              onLayout={(e) => {
+                const { x: left, width: w } = e.nativeEvent.layout;
+                setEdges((prev) => {
+                  const next = [...prev];
+                  next[i] = [left, left + w];
+                  return next.slice(0, options.length);
+                });
+              }}
               onPress={() => onSelect(option.value)}
               style={({ pressed }) => [styles.chip, active && styles.chipActive, pressed && styles.pressed]}
               hitSlop={{ top: 4, bottom: 4 }}
@@ -73,10 +97,10 @@ export function ChipRow<T extends string>({
           );
         })}
       </ScrollView>
-      {moreToTheRight && (
+      {showFade && (
         <View pointerEvents="none" style={styles.fade}>
           {FADE.map((opacity) => (
-            <View key={opacity} style={{ width: STRIP, backgroundColor: background, opacity }} />
+            <View key={opacity} style={{ width: fadeWidth / FADE.length, backgroundColor: background, opacity }} />
           ))}
         </View>
       )}

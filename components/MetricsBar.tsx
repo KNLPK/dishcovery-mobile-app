@@ -11,6 +11,12 @@
  * Σ opens a short sheet that says what the numbers are, with a way on to
  * Results and to this session's requests.
  *
+ * Lists (Home, Search, Cook) cannot be sent as Protocol Buffers: the frozen
+ * shared/proto/recipe.proto describes recipe documents only, so the client
+ * asks for JSON instead (src/api/client.ts). With Protobuf selected, list
+ * screens say so in a line of its own, before and after the request, and the
+ * readout names the format the numbers are for. No text here is truncated.
+ *
  * Changing the format only writes a setting. The next fetch reads it: nothing
  * is refetched behind the user's back, and no measurement is repeated or
  * discarded as a side effect of a tap.
@@ -50,25 +56,31 @@ export interface LastMeasurement {
   formatFallbackFrom?: SerializationFormat | null;
 }
 
+/** Shown on list screens while Protobuf is selected. */
+export const LIST_PROTOBUF_NOTE = 'Lists are sent as JSON. Protobuf is used on recipe pages.';
+
 function describe(last: LastMeasurement | null, busy: boolean): string {
   if (busy) return 'Last response: measuring…';
   if (last === null) return 'Last response: none yet';
   const memory = last.heapDeltaBytes === null ? 'memory not reported' : `${formatKB(last.heapDeltaBytes)} memory`;
-  const fallback = last.formatFallbackFrom
-    ? ` · sent as ${NAMES[last.format]}: ${NAMES[last.formatFallbackFrom]} is not available for this request`
-    : '';
-  return `Last response: ${formatKB(last.payloadBytes)} · decoded in ${formatMs(last.deserializationMs)} · ${memory}${fallback}`;
+  // After a fallback the numbers are for the format actually used, so say which.
+  const label = last.formatFallbackFrom ? `Last response (${LABELS[last.format]})` : 'Last response';
+  return `${label}: ${formatKB(last.payloadBytes)} · decoded in ${formatMs(last.deserializationMs)} · ${memory}`;
 }
 
 export default function MetricsBar({
   last,
   busy = false,
+  list = false,
 }: {
   last: LastMeasurement | null;
   busy?: boolean;
+  /** A list screen (Home, Search, Cook), whose requests cannot use Protobuf. */
+  list?: boolean;
 }) {
   const settings = useSettings();
   const [explaining, setExplaining] = useState(false);
+  const protobufOnList = list && (settings.format === 'protobuf' || last?.formatFallbackFrom === 'protobuf');
 
   return (
     <View style={styles.bar}>
@@ -102,9 +114,8 @@ export default function MetricsBar({
         </Pressable>
       </View>
 
-      <Text style={styles.readout} numberOfLines={2}>
-        {describe(last, busy)}
-      </Text>
+      {protobufOnList && <Text style={styles.note}>{LIST_PROTOBUF_NOTE}</Text>}
+      <Text style={styles.readout}>{describe(last, busy)}</Text>
 
       <ExplainSheet visible={explaining} onClose={() => setExplaining(false)} />
     </View>
@@ -179,6 +190,7 @@ const styles = StyleSheet.create({
     borderColor: palette.primary,
   },
   explainButtonText: { color: palette.primary, fontSize: 15, fontWeight: '700' },
+  note: { ...type.caption, color: palette.ink, marginTop: spacing.sm },
   readout: { ...type.caption, color: palette.body, marginTop: spacing.sm, fontVariant: ['tabular-nums'] },
   sheetButtons: { gap: spacing.sm, marginTop: spacing.sm },
 });

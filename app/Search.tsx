@@ -143,7 +143,7 @@ export default function Search() {
 
         {/* Format + last measurement */}
         <View style={{ marginTop: spacing.md }}>
-          <MetricsBar last={last} busy={loading} />
+          <MetricsBar last={last} busy={loading} list />
         </View>
 
         {/* Categories: tapping the selected one clears the filter */}
@@ -224,7 +224,7 @@ export default function Search() {
                 accessibilityRole="button"
                 accessibilityLabel={`Open ${item.title}`}
               >
-                <RecipeImage uri={item.image} title={item.title} style={styles.resultImage} />
+                <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.resultImage} />
                 <Text style={styles.resultTitle} numberOfLines={2}>
                   {item.title}
                 </Text>

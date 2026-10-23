@@ -21,7 +21,9 @@ import { showToast } from '../src/ui/toast';
 
 type Ingredient = { name: string; quantity: string };
 
-const CATEGORY_CHIPS = CATEGORIES.map((c) => ({ value: c.label, label: c.label }));
+/** "All" (no category filter) comes first and is the default. */
+const ALL = 'All';
+const CATEGORY_CHIPS = [{ value: ALL, label: ALL }, ...CATEGORIES.map((c) => ({ value: c.label, label: c.label }))];
 
 /**
  * Cook time is a choice, not a typed number: "Any", or at most 30, 45 or 60
@@ -37,7 +39,7 @@ const COOK_TIMES: { value: CookTime; label: string }[] = [
 ];
 
 export default function ChefHat() {
-  const [selectedCategory, setSelectedCategory] = useState(CATEGORIES[0].label);
+  const [selectedCategory, setSelectedCategory] = useState(ALL);
   const [ingredients, setIngredients] = useState<Ingredient[]>([
     { name: '', quantity: '' },
   ]);
@@ -123,7 +125,8 @@ export default function ChefHat() {
       if (results.length === 0) {
           setNoMatch(
             `Nothing came back for ${ingredientList.split(',').join(', ')}` +
-              `${cookTime === 'any' ? '' : ` in ${cookTime} minutes or less`} for ${selectedCategory.toLowerCase()}. ` +
+              `${cookTime === 'any' ? '' : ` in ${cookTime} minutes or less`}` +
+              `${selectedCategory === ALL ? '' : ` for ${selectedCategory.toLowerCase()}`}. ` +
               `Try fewer ingredients${cookTime === 'any' ? '' : ', or a longer cook time'}.`
           );
       } else {
@@ -166,9 +169,7 @@ export default function ChefHat() {
         <Text style={[styles.sectionTitle, { marginTop: 20 }]}>Ingredients</Text>
         <View style={styles.columnLabels}>
           <Text style={[styles.columnLabel, styles.ingredientNameInput]}>Item</Text>
-          <Text style={[styles.columnLabel, styles.ingredientQuantityInput]}>
-            Quantity <Text style={styles.optional}>(optional)</Text>
-          </Text>
+          <Text style={[styles.columnLabel, styles.ingredientQuantityInput]}>Quantity</Text>
           <View style={styles.iconButton} />
         </View>
         {ingredients.map((ing, idx) => {
@@ -189,7 +190,7 @@ export default function ChefHat() {
               <FormField
                 ref={fieldRef(`qty${idx}`)}
                 style={[styles.input, styles.ingredientQuantityInput]}
-                placeholder="e.g. 200 g"
+                placeholder="e.g. 200 g (optional)"
                 value={ing.quantity}
                 onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
                 returnKeyType={lastRow ? 'done' : 'next'}
@@ -244,7 +245,7 @@ export default function ChefHat() {
 
         {/* Format selector + the last request's measurements */}
         <View style={{ marginTop: 20 }}>
-          <MetricsBar last={last} busy={loading} />
+          <MetricsBar last={last} busy={loading} list />
         </View>
 
         {/* Results */}
@@ -267,7 +268,7 @@ export default function ChefHat() {
                   accessibilityRole="button"
                   accessibilityLabel={`Open ${item.title}`}
                 >
-                  <RecipeImage uri={item.image} title={item.title} style={styles.recipeImage} />
+                  <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.recipeImage} />
                   <View style={styles.recipeInfo}>
                      <Text style={styles.recipeTitle}>{item.title}</Text>
                   </View>
@@ -307,10 +308,6 @@ const styles = StyleSheet.create({
       color: palette.body,
       marginLeft: 4,
     },
-    optional: {
-      fontWeight: '400',
-      color: palette.muted,
-    },
     ingredientRow: {
       flexDirection: 'row',
       alignItems: 'center',
@@ -326,8 +323,9 @@ const styles = StyleSheet.create({
       flex: 1,
       marginRight: 8,
     },
+    // Wide enough for its placeholder, "e.g. 200 g (optional)", on a 360 dp phone.
     ingredientQuantityInput: {
-      width: 120,
+      width: 156,
       marginRight: 8,
     },
      iconButton: {

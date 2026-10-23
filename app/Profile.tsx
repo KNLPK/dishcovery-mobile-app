@@ -149,7 +149,7 @@ export default function Profile() {
             accessibilityRole="button"
             accessibilityLabel={`Open ${item.title}`}
           >
-            <RecipeImage uri={item.image} title={item.title} style={styles.favImage} />
+            <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.favImage} />
             <TouchableOpacity
               style={styles.favLike}
               onPress={() => toggleFavouriteWithToast(item)}

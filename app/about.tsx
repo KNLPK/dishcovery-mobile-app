@@ -33,18 +33,20 @@ const AFFILIATION = 'BINUS University';
 
 /** [shown for, photographer], as in docs/IMAGE_CREDITS.md. */
 const PHOTO_CREDITS: readonly (readonly [string, string])[] = [
-  ['Chicken, duck, turkey', 'Anshu A'],
-  ['Beef, lamb', 'Justus Menke'],
-  ['Pork', 'Sebastian Coman Photography'],
-  ['Fish and seafood', "Keesha's Kitchen"],
-  ['Pasta, noodles', 'Ben Lei'],
-  ['Rice', 'Vinn Koonyosying'],
-  ['Eggs', 'Eiliv Aceron'],
-  ['Salads, vegetables, tofu', 'Christine Isakzhanova'],
-  ['Soups, stews, curries', 'Cala'],
-  ['Desserts', 'Will Echols'],
-  ['Bread, pancakes', 'nikldn'],
-  ['Anything else', 'Maarten van den Heuvel'],
+  ['Desserts', 'Will Echols, Shoeib Abolhassani'],
+  ['Noodles', 'Michele Blackwell, Zoshua Colah'],
+  ['Chicken, duck, turkey', 'Anshu A, Annie Spratt'],
+  ['Beef, lamb', 'Justus Menke, Davis Dai'],
+  ['Pork', 'Sebastian Coman Photography, Zion C'],
+  ['Fish and seafood', "Keesha's Kitchen, Lee Milo"],
+  ['Eggs', 'Eiliv Aceron, Alex Bayev'],
+  ['Pasta', 'Ben Lei, Aurora Song'],
+  ['Rice', 'Vinn Koonyosying, Annie Spratt'],
+  ['Curries', 'Rimsha Noor, Raman'],
+  ['Soups, stews', 'Cala, Elena Leya'],
+  ['Salads, vegetables, tofu', 'Christine Isakzhanova, Kuali Nenek'],
+  ['Bread, pancakes', 'nikldn, Raychan'],
+  ['Anything else', 'Maarten van den Heuvel, Stefan Vladimirov'],
 ];
 
 export default function AboutScreen() {
@@ -96,7 +98,7 @@ export default function AboutScreen() {
 
         <Text style={styles.sectionTitle}>Photos</Text>
         <Text style={styles.body}>
-          The recipes have no photos of their own, so the app shows one of twelve food photos that matches
+          The recipes have no photos of their own, so the app shows one of 28 food photos that matches
           the kind of dish, marked as illustrative. All are from Unsplash, under the Unsplash License.
         </Text>
         <View style={styles.credits}>

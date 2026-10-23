@@ -172,7 +172,7 @@ export default function RecipeDetailScreen() {
       <StackHeader title="Recipe" right={heart} />
       <ScrollView contentContainerStyle={{ paddingBottom: tabBarSpace }}>
         {/* Photo, full width, below the header */}
-        <RecipeImage uri={recipe.image} title={recipe.title} style={styles.recipeImage} />
+        <RecipeImage uri={recipe.image} id={recipe.id} title={recipe.title} style={styles.recipeImage} />
         {!hasPhoto(recipe.image) && (
           // Bottom right of the photo, just above the content card's rounded top.
           <Text style={[styles.photoCaption, { top: 250 - 30 - 30 }]}>Illustrative photo</Text>
