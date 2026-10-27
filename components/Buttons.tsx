@@ -12,6 +12,7 @@
  * 48 dp tall, and dims and shrinks a little while held (PressableScale).
  */
 
+import { Feather } from '@expo/vector-icons';
 import React from 'react';
 import { StyleSheet, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 
@@ -27,6 +28,8 @@ type ButtonProps = {
   busy?: boolean;
   /** The label while busy, e.g. "Finding recipes…"; the normal label if left out. */
   busyLabel?: string;
+  /** A Feather icon before the label, e.g. "x" on Cook's "Remove “Dessert”". */
+  icon?: React.ComponentProps<typeof Feather>['name'];
   style?: StyleProp<ViewStyle>;
   accessibilityLabel?: string;
 };
@@ -49,7 +52,7 @@ export function PrimaryButton({ label, onPress, disabled = false, busy = false, 
   );
 }
 
-export function SecondaryButton({ label, onPress, disabled = false, busy = false, busyLabel, style, accessibilityLabel }: ButtonProps) {
+export function SecondaryButton({ label, onPress, disabled = false, busy = false, busyLabel, icon, style, accessibilityLabel }: ButtonProps) {
   return (
     <PressableScale
       onPress={onPress}
@@ -61,6 +64,7 @@ export function SecondaryButton({ label, onPress, disabled = false, busy = false
     >
       <View style={styles.content}>
         {busy && <BrandLoader size={24} />}
+        {!busy && icon !== undefined && <Feather name={icon} size={16} color={palette.primary} />}
         <Text style={styles.secondaryText}>{busy ? busyLabel ?? label : label}</Text>
       </View>
     </PressableScale>

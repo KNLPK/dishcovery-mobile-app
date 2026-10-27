@@ -5,7 +5,8 @@ import { FlatList, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, Vi
 
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import { ChipRow } from '../components/Chips';
-import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
+import FormatPill from '../components/FormatPill';
+import type { LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, PressableScale } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
@@ -113,7 +114,7 @@ export default function Search() {
         keyboardShouldPersistTaps="handled"
         keyboardDismissMode="on-drag"
       >
-        <TabHeader title="Search" />
+        <TabHeader title="Search" right={<FormatPill last={last} busy={loading} />} />
 
         {/* Search bar */}
         <View style={[styles.searchBarWrapper, searchFocused && styles.searchBarFocused]}>
@@ -138,11 +139,6 @@ export default function Search() {
               <Feather name="x" size={18} color={palette.muted} />
             </Pressable>
           )}
-        </View>
-
-        {/* Format + last measurement */}
-        <View style={{ marginTop: spacing.md }}>
-          <MetricsBar last={last} busy={loading} list />
         </View>
 
         {/* Categories: All first, as on Cook */}

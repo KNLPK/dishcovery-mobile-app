@@ -5,7 +5,7 @@ How the app words things, so every screen says the same thing the same way.
 ## Rules
 
 - English only.
-- Sentence case for every title, button, tab and label: "Find recipes",
+- Sentence case for every title, button, tab and label: "Run a quick test now",
   "Start quick test", "Browse recipes", "Popular recipes". Only the first word
   and names are capitalised.
 - Names keep their own spelling: JSON, MessagePack, Protocol Buffers,
@@ -29,7 +29,7 @@ How the app words things, so every screen says the same thing the same way.
 | payload size | How much data a payload takes on the network. | KB, one decimal: "4.9 KB". 1 KB = 1,000 bytes, as in the paper. |
 | decode time | How long the phone takes to turn a payload back into a recipe. | ms, two decimals: "2.08 ms". |
 | memory (heap allocation) | Memory the app allocates while decoding one payload (Hermes `js_totalAllocatedBytes`). Not peak memory use. Written in full as a chart or section title; "memory" alone in running text and in the line under the format selector. | KB, one decimal: "75.5 KB". |
-| last response | The most recent request on the current screen, shown under the format selector: "Last response: 1.1 KB · decoded in 2.08 ms · 75.5 KB memory". When the format had to change, it names the one used: "Last response (JSON): …". With Protobuf selected, list screens add "Lists are sent as JSON. Protobuf is used on recipe pages." Never truncated. | |
+| last response | The most recent request on the current screen. On Home and the recipe page it is shown under the format selector: "Last response: 1.1 KB · decoded in 2.08 ms · 75.5 KB memory". When the format had to change, it names the one used: "Last response (JSON): …". With Protobuf selected, list screens add "Lists are sent as JSON. Protobuf is used on recipe pages." Never truncated. On Cook and Search it is the format pill in the header: "JSON · 1.1 KB · 2.08 ms", "JSON · measuring…", or the format alone before a measurement. | |
 | session measurements | Every request since the app was opened, grouped by format (from the Σ sheet). | |
 | tier | Low, medium or high: how complex a recipe payload is. | |
 | illustrative photo | One of the 28 bundled food photos shown in place of a recipe photo; it shows the kind of dish, not the dish. | |
@@ -41,7 +41,7 @@ How the app words things, so every screen says the same thing the same way.
 One of each, from `components/Buttons.tsx`:
 
 - Primary: dark teal fill, white label. One per screen or card, for the main
-  action ("Start quick test", "Find recipes", "Continue").
+  action ("Start quick test", "Run a quick test now", "Done").
 - Secondary: teal outline. Other actions ("Run again", "Back", "Browse
   recipes", "Share as file").
 - Text link: teal underlined text. Small or inline actions ("Search all",
@@ -72,6 +72,38 @@ numbers because both sides share the schema (`recipe.proto`).
 Profile row: "Replay tutorial", detail "The four intro steps, and the tips
 again". About: the link "Replay tutorial" under "What this app is".
 
+## Cook
+
+`app/ChefHat.tsx`. Title "Cook", subtitle "Find recipes from what you have".
+
+| Element | Copy |
+| --- | --- |
+| Ingredient field | Placeholder "Add an ingredient"; while typing, "Enter to add" at its end |
+| Row of one-tap ingredients | Label "Common"; each chip "+ chicken" |
+| Filters | "All categories" or the category; "Any time" or "≤ 30 min" |
+| Count | "57 recipes" (the catalog's total); under a long list, "Showing the first 10. Add an ingredient or a filter to narrow it down." |
+| Empty | "What's in your kitchen?" / "Add an ingredient or tap one above. Recipes appear here as you go." |
+| Loading | "Finding recipes" (skeletons, then the loader after 600 ms) |
+| No match | "No recipes match" / "Nothing with chicken or salmon as a dessert in 30 minutes or less." One button per active filter: "Remove “Dessert”", "Any cook time". With no filter: "… Try another ingredient." Ingredients are never removed for the user. |
+| Category sheet | Title "Category": All, Breakfast, Main course, Snack, Dessert; "Tap to apply." |
+| Cook time sheet | Title "Cook time": Any time, 30 min or less, 45 min or less, 60 min or less; "Tap to apply." |
+
+"or" in the no-match line is deliberate: the catalog finds recipes with any
+of the ingredients, so nothing came back for each of them.
+
+## Format pill
+
+`components/FormatPill.tsx`, in the header of Cook and Search (Home and the
+recipe page keep the full format bar). The pill: the short format label and
+the last response, "JSON · 1.1 KB · 2.08 ms". Its sheet:
+
+- Title "Data format"; "Every recipe is sent in this format. Numbers are
+  from the last response in each."
+- One row per format with its full name and "1.1 KB · 2.08 ms" or "not
+  measured yet"; under Protocol Buffers, "Lists are sent as JSON. Protobuf is
+  used on recipe pages." (true on both screens: they only load lists).
+- "Done", and the link "What these numbers mean" (the Σ sheet).
+
 ## Loading
 
 The brand loader (`components/BrandLoader.tsx`) always sits above or beside
@@ -81,7 +113,7 @@ a label that says what is happening; the loader alone never explains a wait.
 | --- | --- | --- |
 | First connection to the server, after about 3 s | 96, full screen | "Connecting to the server…" |
 | A list or card wait past 600 ms (skeletons before that) | 48 | The wait's own label, e.g. "Loading popular recipes", "Searching for “pasta”", "Finding recipes" |
-| A busy button | 24 | The button's busy label: "Find recipes" becomes "Finding recipes…" |
+| A busy button | 24 | The button's busy label (`busyLabel`), e.g. "Finding recipes…". No button uses it since Cook searches on its own. |
 | Quick test, while it runs | 96, still | The phase line under it: "Loading payloads", "Warming up the engine · JSON", "Calibrating the memory counter", then the payload being measured |
 
 ## Numbers

@@ -97,6 +97,8 @@ export function KeyboardForm({
 type FormFieldProps = Omit<TextInputProps, 'mode' | 'style'> & {
   /** Style of the rounded field (background, margins, flex). */
   style?: StyleProp<ViewStyle>;
+  /** Shown inside the field on the left, e.g. Cook's plus. */
+  leading?: React.ReactNode;
   /** Shown inside the field on the right, e.g. a show-password button. */
   trailing?: React.ReactNode;
   /**
@@ -111,7 +113,7 @@ type FormFieldProps = Omit<TextInputProps, 'mode' | 'style'> & {
 export type FormFieldHandle = { focus: () => void };
 
 export const FormField = forwardRef<FormFieldHandle, FormFieldProps>(function FormField(
-  { style, trailing, look = 'tinted', onFocus, onBlur, ...inputProps },
+  { style, leading, trailing, look = 'tinted', onFocus, onBlur, ...inputProps },
   ref
 ) {
   const form = useContext(FormContext);
@@ -131,6 +133,7 @@ export const FormField = forwardRef<FormFieldHandle, FormFieldProps>(function Fo
         focused && (look === 'outlined' ? styles.outlinedFocused : styles.fieldFocused),
       ]}
     >
+      {leading}
       <TextInput
         ref={input}
         mode="flat"

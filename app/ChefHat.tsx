@@ -1,383 +1,553 @@
-import React, { useRef, useState } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
+/**
+ * app/ChefHat.tsx
+ *
+ * Cook: recipes from what you have (Claude Design handoff, "Cook").
+ *
+ * One ingredient field, with suggestions as you type; what you add becomes a
+ * chip you can remove, and common ingredients are one tap away. Two compact
+ * filters, category and cook time, each open a sheet. There is no Find
+ * button: 300 ms after the ingredients or filters change, the search runs on
+ * its own, and a change while one is still under way cancels it, so only the
+ * latest search can show results or count as this screen's last response.
+ * Nothing is searched until there is an ingredient or an active filter.
+ *
+ * The format is the pill in the header (components/FormatPill.tsx).
+ */
+
+import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
+import { useRouter } from 'expo-router';
+import React, { useEffect, useState } from 'react';
+import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
-import { PrimaryButton, TextLink } from '../components/Buttons';
-import { ChipRow } from '../components/Chips';
-import { FormField, KeyboardForm, type FormFieldHandle } from '../components/KeyboardForm';
-import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
+import { SecondaryButton } from '../components/Buttons';
+import FormatPill from '../components/FormatPill';
+import { FormField, KeyboardForm } from '../components/KeyboardForm';
+import type { LastMeasurement } from '../components/MetricsBar';
+import { PressableScale } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
-import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
-import { useRouter } from 'expo-router';
-import { ALL_CATEGORIES as ALL, CATEGORY_CHIPS_WITH_ALL as CATEGORY_CHIPS, categoryType } from '../constants/categories';
-import { palette, radius, touchTarget, type } from '../constants/theme';
+import { Sheet } from '../components/Sheet';
+import { ConnectingState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
+import { ALL_CATEGORIES as ALL, CATEGORY_CHIPS_WITH_ALL, categoryType } from '../constants/categories';
+import { COMMON_INGREDIENTS, suggestIngredients } from '../constants/ingredients';
+import { palette, radius, shadow, spacing, touchTarget, type } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
 import { serverRequest } from '../src/api/serverStatus';
 import { useServer } from '../src/api/useServer';
+import { useSettings } from '../src/settings/settings';
+import { toggleFavouriteWithToast } from '../src/ui/favourites';
 import { showToast } from '../src/ui/toast';
 
-type Ingredient = { name: string; quantity: string };
-
-/** "All" (no category filter) comes first and is the default. */
+/** How long the ingredients and filters must stay unchanged before a search runs. */
+const DEBOUNCE_MS = 300;
+const RESULTS = 10;
 
 /**
- * Cook time is a choice, not a typed number: "Any", or at most 30, 45 or 60
- * minutes, sent as maxReadyTime. There is no 15-minute chip: the shortest
+ * Cook time is a choice, not a typed number: any, or at most 30, 45 or 60
+ * minutes, sent as maxReadyTime. There is no 15-minute choice: the shortest
  * catalog recipe takes 20 minutes, so it could only ever find nothing.
  */
 type CookTime = 'any' | '30' | '45' | '60';
 const COOK_TIMES: { value: CookTime; label: string }[] = [
-  { value: '30', label: '30 min' },
-  { value: '45', label: '45 min' },
-  { value: '60', label: '60 min' },
-  { value: 'any', label: 'Any' },
+  { value: 'any', label: 'Any time' },
+  { value: '30', label: '30 min or less' },
+  { value: '45', label: '45 min or less' },
+  { value: '60', label: '60 min or less' },
 ];
 
+type Results = { items: SearchResultItem[]; total: number };
+
+/** "chicken", "chicken or rice", "chicken, rice or egg": the catalog finds recipes with any of them. */
+function either(names: readonly string[]): string {
+  return names.length < 2 ? names.join('') : `${names.slice(0, -1).join(', ')} or ${names[names.length - 1]}`;
+}
+
 export default function ChefHat() {
-  const [selectedCategory, setSelectedCategory] = useState(ALL);
-  const [ingredients, setIngredients] = useState<Ingredient[]>([
-    { name: '', quantity: '' },
-  ]);
-  // A remove button per row once there is more than one ingredient.
-  const removable = ingredients.length > 1;
+  const [ingredients, setIngredients] = useState<string[]>([]);
+  const [draft, setDraft] = useState('');
+  const [typing, setTyping] = useState(false);
+  const [category, setCategory] = useState(ALL);
   const [cookTime, setCookTime] = useState<CookTime>('any');
+  const [sheet, setSheet] = useState<'category' | 'time' | null>(null);
   const [loading, setLoading] = useState(false);
-  const [recipes, setRecipes] = useState<SearchResultItem[]>([]);
-  const [error, setError] = useState('');
-  const [noMatch, setNoMatch] = useState<string | null>(null);
+  const [results, setResults] = useState<Results | null>(null);
   const [failure, setFailure] = useState<RequestFailure | null>(null);
   const [last, setLast] = useState<LastMeasurement | null>(null);
   const [waking, setWaking] = useState(false);
+  const [retries, setRetries] = useState(0);
   const server = useServer();
   const router = useRouter();
+  const settings = useSettings();
   const tabBarSpace = useTabBarSpace();
 
-  // "Next" walks item, quantity, next item, ...; "Done" on the last quantity
-  // closes the keyboard.
-  const fields = useRef(new Map<string, FormFieldHandle>());
-  const fieldRef = (key: string) => (handle: FormFieldHandle | null) => {
-    if (handle === null) fields.current.delete(key);
-    else fields.current.set(key, handle);
-  };
-  const focusField = (key: string) => fields.current.get(key)?.focus();
+  const active = ingredients.length > 0 || category !== ALL || cookTime !== 'any';
+  const key = JSON.stringify([ingredients, category, cookTime]);
 
-  const handleIngredientChange = (index: number, field: 'name' | 'quantity', value: string) => {
-    const newIngredients = [...ingredients];
-    newIngredients[index][field] = value;
-    setIngredients(newIngredients);
-  };
-
-  const addIngredient = () => {
-    setIngredients([...ingredients, { name: '', quantity: '' }]);
-  };
-
-  const removeIngredient = (index: number) => {
-    const newIngredients = ingredients.filter((_, i) => i !== index);
-    setIngredients(newIngredients);
-  };
-
-  const handleFindRecipe = async () => {
-    setLoading(true);
-    setWaking(false);
-    setError('');
-    setNoMatch(null);
-    setFailure(null);
-    setRecipes([]); // Clear previous results
-    try {
-      const ingredientList = ingredients
-        .filter(ing => ing.name.trim()) // Only include non-empty ingredient names
-        .map(ing => ing.name.trim())
-        .join(',');
-
-      if (!ingredientList) {
-        setError('Enter at least one ingredient.');
-        setLoading(false);
-        return;
-      }
-
-      const params: Record<string, string | number> = {
-        includeIngredients: ingredientList,
-        type: categoryType(selectedCategory) ?? '', // a value Spoonacular recognises
-        number: 5, // Get up to 5 recipes
-      };
-
-      if (cookTime !== 'any') {
-        params.maxReadyTime = Number(cookTime);
-      }
-
-      // Same measured path as search and recipe detail, in the app-wide format.
-      const { data, meta } = await serverRequest(() => searchRecipes(params), {
-        what: 'Finding recipes',
-        onWaking: () => setWaking(true),
-      });
-      setLast({
-        payloadBytes: meta.payloadBytes,
-        deserializationMs: meta.deserializationMs,
-        heapDeltaBytes: meta.heapDeltaBytes,
-        format: meta.format,
-        formatFallbackFrom: meta.formatFallbackFrom,
-      });
-
-      const results = data.results ?? [];
-      if (results.length === 0) {
-          setNoMatch(
-            `Nothing came back for ${ingredientList.split(',').join(', ')}` +
-              `${cookTime === 'any' ? '' : ` in ${cookTime} minutes or less`}` +
-              `${selectedCategory === ALL ? '' : ` for ${selectedCategory.toLowerCase()}`}. ` +
-              `Try fewer ingredients${cookTime === 'any' ? '' : ', or a longer cook time'}.`
-          );
-      } else {
-          setRecipes(results);
-      }
-
-    } catch (err) {
-      const described = describeRequestError(err, 'find recipes');
-      setFailure(described);
-      showToast({ kind: 'error', message: described.title, action: { label: 'Retry', onPress: handleFindRecipe } });
-    } finally {
+  useEffect(() => {
+    if (!active || server.url === null) {
       setLoading(false);
       setWaking(false);
+      setResults(null);
+      setFailure(null);
+      return;
     }
-  };
+    const controller = new AbortController();
+    const stale = () => controller.signal.aborted;
+    const timer = setTimeout(async () => {
+      setLoading(true);
+      setWaking(false);
+      setFailure(null);
+      const type = categoryType(category);
+      const params: Record<string, string | number> = {
+        includeIngredients: ingredients.join(','),
+        ...(type === null ? {} : { type }),
+        ...(cookTime === 'any' ? {} : { maxReadyTime: Number(cookTime) }),
+        number: RESULTS,
+      };
+      try {
+        // Same measured path as search and recipe detail, in the app-wide format.
+        const { data, meta } = await serverRequest(() => searchRecipes(params, undefined, controller.signal), {
+          what: 'Finding recipes',
+          onWaking: () => {
+            if (!stale()) setWaking(true);
+          },
+        });
+        if (stale()) return;
+        const items = data.results ?? [];
+        setResults({ items, total: data.totalResults ?? items.length });
+        setLast({
+          payloadBytes: meta.payloadBytes,
+          deserializationMs: meta.deserializationMs,
+          heapDeltaBytes: meta.heapDeltaBytes,
+          format: meta.format,
+          formatFallbackFrom: meta.formatFallbackFrom,
+        });
+      } catch (err) {
+        if (stale()) return;
+        const described = describeRequestError(err, 'find recipes');
+        setResults(null);
+        setFailure(described);
+        showToast({ kind: 'error', message: described.title, action: { label: 'Retry', onPress: () => setRetries((n) => n + 1) } });
+      } finally {
+        if (!stale()) {
+          setLoading(false);
+          setWaking(false);
+        }
+      }
+    }, DEBOUNCE_MS);
+    return () => {
+      clearTimeout(timer);
+      controller.abort();
+    };
+    // `key` stands for ingredients, category and cookTime.
+  }, [key, active, retries, server.url]); // eslint-disable-line react-hooks/exhaustive-deps
 
-  const navigateToRecipeDetail = (recipeId: number) => {
-    router.push({ pathname: '/recipe', params: { id: recipeId } });
+  const add = (name: string) => {
+    const clean = name.trim().toLowerCase();
+    setDraft('');
+    if (clean === '' || ingredients.includes(clean)) return;
+    setIngredients([...ingredients, clean]);
   };
+  const remove = (name: string) => setIngredients(ingredients.filter((i) => i !== name));
+
+  // While there is text in the field, focused or not (a tap on a suggestion may blur it first).
+  const suggestions = suggestIngredients(draft, ingredients);
+  const common = COMMON_INGREDIENTS.filter((i) => !ingredients.includes(i));
+  const timeLabel = COOK_TIMES.find((t) => t.value === cookTime)?.label ?? '';
+  const count = results === null || loading ? '' : `${results.total} ${results.total === 1 ? 'recipe' : 'recipes'}`;
 
   return (
-    <Screen background={palette.surfaceCool} tabBar>
-      <KeyboardForm contentContainerStyle={[styles.scrollContainer, { paddingBottom: tabBarSpace }]}>
-        <TabHeader title="Cook" subtitle="Find recipes from what you have" />
+    <Screen background={palette.ground} tabBar>
+      <KeyboardForm contentContainerStyle={[styles.page, { paddingBottom: tabBarSpace }]}>
+        <TabHeader
+          title="Cook"
+          subtitle="Find recipes from what you have"
+          right={<FormatPill last={last} busy={loading} />}
+        />
 
-        {/* Category */}
-        <Text style={styles.sectionTitle}>Category</Text>
-        <View style={styles.chips}>
-          <ChipRow
-            options={CATEGORY_CHIPS}
-            selected={selectedCategory}
-            onSelect={setSelectedCategory}
-            background={palette.surfaceCool}
-            gutter={20}
-            accessibilityLabel="Category"
-          />
-        </View>
-
-        {/* Ingredients */}
-        <Text style={[styles.sectionTitle, { marginTop: 20 }]}>Ingredients</Text>
-        <View style={styles.columnLabels}>
-          <Text style={[styles.columnLabel, styles.ingredientNameInput]}>Item</Text>
-          <View style={styles.ingredientQuantityInput}>
-            {/* May run on over the remove buttons' column, so it stays on one line. */}
-            <Text style={[styles.columnLabel, removable && styles.quantityLabelOverRemove]} numberOfLines={1}>
-              Quantity (optional)
-            </Text>
+        {/* The ingredient field, and suggestions while typing */}
+        <FormField
+          look="outlined"
+          style={styles.field}
+          value={draft}
+          onChangeText={setDraft}
+          onFocus={() => setTyping(true)}
+          onBlur={() => setTyping(false)}
+          onSubmitEditing={() => add(draft)}
+          submitBehavior="submit"
+          returnKeyType="done"
+          placeholder="Add an ingredient"
+          autoCapitalize="none"
+          autoCorrect={false}
+          accessibilityLabel="Add an ingredient"
+          leading={<Feather name="plus" size={20} color={typing ? palette.primary : palette.muted} style={styles.fieldIcon} />}
+          trailing={typing && draft.trim() !== '' ? <Text style={styles.enterHint}>Enter to add</Text> : null}
+        />
+        {suggestions.length > 0 && (
+          <View style={styles.suggestions} accessibilityLabel="Suggestions">
+            {suggestions.map((s) => {
+              const typed = draft.trim().toLowerCase();
+              const at = s.startsWith(typed) ? 0 : s.indexOf(` ${typed}`) + 1;
+              return (
+                <Pressable
+                  key={s}
+                  onPress={() => add(s)}
+                  style={({ pressed }) => [styles.suggestion, pressed && styles.suggestionPressed]}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Add ${s}`}
+                >
+                  <Text style={styles.suggestionText}>
+                    {s.slice(0, at)}
+                    <Text style={styles.bold}>{s.slice(at, at + typed.length)}</Text>
+                    {s.slice(at + typed.length)}
+                  </Text>
+                  <Feather name="plus" size={18} color={palette.muted} />
+                </Pressable>
+              );
+            })}
           </View>
-          {removable ? <View style={styles.iconButton} /> : null}
-        </View>
-        {ingredients.map((ing, idx) => {
-          const lastRow = idx + 1 === ingredients.length;
-          return (
-            <View key={idx} style={styles.ingredientRow}>
-              <FormField
-                ref={fieldRef(`name${idx}`)}
-                style={[styles.input, styles.ingredientNameInput]}
-                placeholder="e.g. chicken"
-                value={ing.name}
-                onChangeText={text => handleIngredientChange(idx, 'name', text)}
-                returnKeyType="next"
-                submitBehavior="submit"
-                onSubmitEditing={() => focusField(`qty${idx}`)}
-                accessibilityLabel={`Ingredient ${idx + 1}`}
-              />
-              <FormField
-                ref={fieldRef(`qty${idx}`)}
-                style={[styles.input, styles.ingredientQuantityInput]}
-                placeholder="200 g"
-                value={ing.quantity}
-                onChangeText={text => handleIngredientChange(idx, 'quantity', text)}
-                returnKeyType={lastRow ? 'done' : 'next'}
-                submitBehavior={lastRow ? 'blurAndSubmit' : 'submit'}
-                onSubmitEditing={() => {
-                  if (!lastRow) focusField(`name${idx + 1}`);
-                }}
-                accessibilityLabel={`Quantity of ingredient ${idx + 1}, optional`}
-              />
-              {removable ? (
-                <TouchableOpacity onPress={() => removeIngredient(idx)} style={styles.iconButton} accessibilityRole="button" accessibilityLabel={`Remove ingredient ${idx + 1}`}>
-                   <MaterialCommunityIcons name="minus-circle-outline" size={26} color={palette.muted} />
-                </TouchableOpacity>
-              ) : null}
-            </View>
-          );
-        })}
-        <TextLink label="+ Add ingredient" onPress={addIngredient} style={styles.addIngredient} />
-
-        {/* Cook time */}
-        <Text style={[styles.sectionTitle, { marginTop: 12 }]}>Cook time</Text>
-        <View style={styles.chips}>
-          <ChipRow
-            options={COOK_TIMES}
-            selected={cookTime}
-            onSelect={setCookTime}
-            background={palette.surfaceCool}
-            gutter={20}
-            accessibilityLabel="Cook time"
-          />
-        </View>
-
-        {/* Find recipes */}
-        {server.url === null ? (
-          <NoServerState mode={server.mode} />
-        ) : (
-          <PrimaryButton
-            label="Find recipes"
-            busyLabel="Finding recipes…"
-            style={styles.findBtn}
-            busy={loading}
-            onPress={() => {
-              tapHaptic();
-              handleFindRecipe();
-            }}
-          />
         )}
-        {loading && <WaitState variant="list" count={3} label="Finding recipes" />}
 
-        {/* Format selector + the last request's measurements */}
-        <View style={{ marginTop: 20 }}>
-          <MetricsBar last={last} busy={loading} list />
+        {/* What has been added */}
+        {ingredients.length > 0 && (
+          <View style={styles.chips}>
+            {ingredients.map((name) => (
+              <PressableScale
+                key={name}
+                style={styles.chip}
+                onPress={() => remove(name)}
+                accessibilityRole="button"
+                accessibilityLabel={`Remove ${name}`}
+              >
+                <Text style={styles.chipText}>{name}</Text>
+                <Feather name="x" size={16} color={palette.surface} />
+              </PressableScale>
+            ))}
+          </View>
+        )}
+
+        {/* One tap to add */}
+        <Text style={styles.label}>Common</Text>
+        <ScrollView
+          horizontal
+          showsHorizontalScrollIndicator={false}
+          style={styles.bleed}
+          contentContainerStyle={styles.commonRow}
+          keyboardShouldPersistTaps="handled"
+        >
+          {common.map((name) => (
+            <PressableScale
+              key={name}
+              style={styles.addChip}
+              onPress={() => add(name)}
+              accessibilityRole="button"
+              accessibilityLabel={`Add ${name}`}
+            >
+              <Feather name="plus" size={14} color={palette.primary} />
+              <Text style={styles.addChipText}>{name}</Text>
+            </PressableScale>
+          ))}
+        </ScrollView>
+
+        {/* The two filters, and how many recipes */}
+        <View style={styles.filters}>
+          <FilterPill
+            label={category === ALL ? 'All categories' : category}
+            active={category !== ALL}
+            onPress={() => setSheet('category')}
+            accessibilityLabel={`Category: ${category === ALL ? 'all' : category}. Change`}
+          />
+          <FilterPill
+            label={cookTime === 'any' ? 'Any time' : `≤ ${cookTime} min`}
+            active={cookTime !== 'any'}
+            onPress={() => setSheet('time')}
+            accessibilityLabel={`Cook time: ${timeLabel}. Change`}
+          />
+          <Text style={styles.count}>{count}</Text>
         </View>
 
         {/* Results */}
-        {failure !== null && (
-          <View style={{ marginTop: 16 }}>
-            <ErrorState failure={failure} onRetry={handleFindRecipe} />
+        {server.url === null ? (
+          <View style={styles.state}>
+            <NoServerState mode={server.mode} />
           </View>
-        )}
-        {error ? <Text style={styles.error}>{error}</Text> : null}
-        {noMatch !== null && <EmptyState title="No recipes matched" detail={noMatch} />}
-        {recipes.length > 0 && (
-          <FadeIn style={{ marginTop: 24 }}>
-            <Text style={[styles.sectionTitle, { marginBottom: 10 }]}>Recipes found</Text>
-            <View style={{ gap: 10 }}>
-              {recipes.map(item => (
+        ) : !active ? (
+          <View style={styles.empty}>
+            <Image source={require('../assets/brand/cook-empty.png')} style={styles.emptyArt} accessibilityIgnoresInvertColors />
+            <Text style={styles.emptyTitle}>{"What's in your kitchen?"}</Text>
+            <Text style={styles.emptyText}>Add an ingredient or tap one above. Recipes appear here as you go.</Text>
+          </View>
+        ) : loading ? (
+          <View style={styles.state}>
+            <WaitState variant="list" count={3} label="Finding recipes" />
+          </View>
+        ) : failure !== null ? (
+          <View style={styles.state}>
+            <ErrorState failure={failure} onRetry={() => setRetries((n) => n + 1)} />
+          </View>
+        ) : results !== null && results.items.length === 0 ? (
+          <View style={styles.noMatch}>
+            <Image source={require('../assets/brand/cook-no-match.png')} style={styles.emptyArt} accessibilityIgnoresInvertColors />
+            <Text style={styles.emptyTitle}>No recipes match</Text>
+            <Text style={styles.emptyText}>
+              {ingredients.length > 0 ? `Nothing with ${either(ingredients)}` : 'Nothing'}
+              {category === ALL ? '' : ` as ${/^[aeiou]/i.test(category) ? 'an' : 'a'} ${category.toLowerCase()}`}
+              {cookTime === 'any' ? '' : ` in ${cookTime} minutes or less`}.
+              {category === ALL && cookTime === 'any' ? ' Try another ingredient.' : ''}
+            </Text>
+            {/* One way out per active filter. Ingredients are never removed for you. */}
+            <View style={styles.noMatchActions}>
+              {category !== ALL && (
+                <SecondaryButton label={`Remove “${category}”`} icon="x" onPress={() => setCategory(ALL)} />
+              )}
+              {cookTime !== 'any' && <SecondaryButton label="Any cook time" icon="x" onPress={() => setCookTime('any')} />}
+            </View>
+          </View>
+        ) : results !== null ? (
+          <View style={styles.results}>
+            {results.items.map((item) => {
+              const saved = settings.favourites.some((f) => f.id === Number(item.id));
+              return (
                 <PressableScale
                   key={item.id}
-                  style={styles.recipeCard}
-                  onPress={() => navigateToRecipeDetail(item.id)}
+                  style={styles.card}
+                  onPress={() => router.push({ pathname: '/recipe', params: { id: item.id } })}
                   accessibilityRole="button"
                   accessibilityLabel={`Open ${item.title}`}
                 >
-                  <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.recipeImage} />
-                  <View style={styles.recipeInfo}>
-                     <Text style={styles.recipeTitle}>{item.title}</Text>
+                  <View>
+                    <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.cardImage} />
+                    <Pressable
+                      style={styles.heart}
+                      onPress={() => toggleFavouriteWithToast({ id: item.id, title: item.title, image: item.image ?? null })}
+                      hitSlop={6}
+                      accessibilityRole="button"
+                      accessibilityLabel={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
+                    >
+                      <MaterialCommunityIcons
+                        name={saved ? 'heart' : 'heart-outline'}
+                        size={20}
+                        color={saved ? '#e74c3c' : palette.primary}
+                      />
+                    </Pressable>
                   </View>
+                  <Text style={styles.cardTitle}>{item.title}</Text>
                 </PressableScale>
-              ))}
-            </View>
-          </FadeIn>
-        )}
+              );
+            })}
+            {results.total > results.items.length && (
+              <Text style={styles.more}>Showing the first {results.items.length}. Add an ingredient or a filter to narrow it down.</Text>
+            )}
+          </View>
+        ) : null}
       </KeyboardForm>
+
+      <OptionSheet
+        visible={sheet === 'category'}
+        title="Category"
+        options={CATEGORY_CHIPS_WITH_ALL}
+        selected={category}
+        onSelect={setCategory}
+        onClose={() => setSheet(null)}
+      />
+      <OptionSheet
+        visible={sheet === 'time'}
+        title="Cook time"
+        options={COOK_TIMES}
+        selected={cookTime}
+        onSelect={setCookTime}
+        onClose={() => setSheet(null)}
+      />
       {waking && <ConnectingState />}
       <BottomTabBar />
     </Screen>
   );
 }
 
+function FilterPill({
+  label,
+  active,
+  onPress,
+  accessibilityLabel,
+}: {
+  label: string;
+  active: boolean;
+  onPress: () => void;
+  accessibilityLabel: string;
+}) {
+  return (
+    <PressableScale
+      style={[styles.filter, active && styles.filterActive]}
+      onPress={onPress}
+      accessibilityRole="button"
+      accessibilityLabel={accessibilityLabel}
+    >
+      <Text style={[styles.filterText, active && styles.filterTextActive]}>{label}</Text>
+      <Feather name="chevron-down" size={16} color={active ? palette.surface : palette.primary} />
+    </PressableScale>
+  );
+}
+
+/** A sheet of single choices; a tap applies one and closes the sheet. */
+function OptionSheet<T extends string>({
+  visible,
+  title,
+  options,
+  selected,
+  onSelect,
+  onClose,
+}: {
+  visible: boolean;
+  title: string;
+  options: readonly { value: T; label: string }[];
+  selected: T;
+  onSelect: (value: T) => void;
+  onClose: () => void;
+}) {
+  return (
+    <Sheet visible={visible} onClose={onClose} title={title}>
+      <View accessibilityRole="radiogroup" accessibilityLabel={title}>
+        {options.map((o) => {
+          const on = o.value === selected;
+          return (
+            <Pressable
+              key={o.value}
+              style={({ pressed }) => [styles.option, pressed && styles.suggestionPressed]}
+              onPress={() => {
+                onSelect(o.value);
+                onClose();
+              }}
+              accessibilityRole="radio"
+              accessibilityState={{ selected: on }}
+            >
+              <View style={styles.radio}>{on && <View style={styles.radioDot} />}</View>
+              <Text style={styles.optionText}>{o.label}</Text>
+            </Pressable>
+          );
+        })}
+      </View>
+      <Text style={styles.sheetNote}>Tap to apply.</Text>
+    </Sheet>
+  );
+}
+
 const styles = StyleSheet.create({
-    scrollContainer: {
-      paddingHorizontal: 20,
-    },
-    sectionTitle: {
-      fontSize: 18,
-      fontWeight: 'bold',
-      color: palette.ink,
-    },
-    chips: {
-      marginTop: 8,
-      marginBottom: 8,
-    },
-    columnLabels: {
-      flexDirection: 'row',
-      alignItems: 'flex-end',
-      marginTop: 8,
-      marginBottom: 4,
-    },
-    columnLabel: {
-      ...type.label,
-      color: palette.body,
-      marginLeft: 4,
-    },
-    quantityLabelOverRemove: {
-      marginRight: -touchTarget,
-    },
-    ingredientRow: {
-      flexDirection: 'row',
-      alignItems: 'center',
-      marginBottom: 8,
-    },
-    input: {
-      backgroundColor: palette.surface,
-      borderRadius: 10,
-      borderColor: palette.border,
-      minHeight: touchTarget,
-    },
-    // Item and Quantity share the row 60/40; the remove button, when there is
-    // more than one ingredient, takes its own column after them.
-    ingredientNameInput: {
-      flex: 3,
-      marginRight: 8,
-    },
-    ingredientQuantityInput: {
-      flex: 2,
-    },
-     iconButton: {
-         minWidth: touchTarget,
-         minHeight: touchTarget,
-         alignItems: 'center',
-         justifyContent: 'center',
-     },
-    addIngredient: {
-      alignSelf: 'flex-start',
-      paddingHorizontal: 4,
-      marginBottom: 8,
-    },
-    findBtn: {
-      marginTop: 16,
-      marginBottom: 20,
-    },
-    error: {
-      color: palette.danger,
-      marginTop: 10,
-      marginBottom: 10,
-      textAlign: 'center',
-    },
-    recipeCard: {
-        backgroundColor: palette.surface,
-        borderRadius: radius.md,
-        padding: 12,
-        flexDirection: 'row',
-        alignItems: 'center',
-        elevation: 1,
-         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 1 },
-        shadowOpacity: 0.05,
-        shadowRadius: 2,
-    },
-    recipeImage: {
-        width: 80,
-        height: 60,
-        borderRadius: 8,
-        marginRight: 12,
-    },
-    recipeInfo: {
-        flex: 1,
-    },
-    recipeTitle: {
-        fontWeight: 'bold',
-        fontSize: 14,
-        color: palette.ink,
-    },
+  page: { paddingHorizontal: 20, flexGrow: 1 },
+  field: { height: 52 },
+  fieldIcon: { marginLeft: spacing.xs },
+  enterHint: { ...type.label, color: palette.muted, marginRight: spacing.sm },
+  suggestions: {
+    marginTop: 6,
+    backgroundColor: palette.surface,
+    borderRadius: radius.md,
+    borderWidth: 1,
+    borderColor: palette.border,
+    paddingVertical: spacing.xs,
+    ...shadow.card,
+  },
+  suggestion: {
+    height: touchTarget,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: spacing.lg,
+  },
+  suggestionPressed: { backgroundColor: palette.surfaceTint },
+  suggestionText: { fontSize: 15, color: palette.ink },
+  bold: { fontWeight: '700' },
+  chips: { flexDirection: 'row', flexWrap: 'wrap', gap: spacing.sm, marginTop: spacing.md },
+  chip: {
+    height: 36,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    paddingLeft: 14,
+    paddingRight: 10,
+    borderRadius: radius.pill,
+    backgroundColor: palette.primary,
+  },
+  chipText: { fontSize: 14, fontWeight: '600', color: palette.surface },
+  label: { ...type.label, color: palette.muted, marginTop: spacing.lg },
+  bleed: { marginHorizontal: -20, marginTop: spacing.sm, flexGrow: 0 },
+  commonRow: { gap: spacing.sm, paddingHorizontal: 20 },
+  addChip: {
+    height: 36,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.xs,
+    paddingLeft: 10,
+    paddingRight: 14,
+    borderRadius: radius.pill,
+    backgroundColor: palette.surface,
+    borderWidth: 1.5,
+    borderColor: palette.border,
+  },
+  addChipText: { fontSize: 14, fontWeight: '600', color: palette.primary },
+  filters: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm, marginTop: spacing.lg },
+  filter: {
+    height: 36,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: spacing.xs,
+    paddingLeft: 14,
+    paddingRight: 10,
+    borderRadius: radius.pill,
+    backgroundColor: palette.surface,
+    borderWidth: 1.5,
+    borderColor: palette.border,
+  },
+  filterActive: { backgroundColor: palette.primary, borderColor: palette.primary },
+  filterText: { fontSize: 14, fontWeight: '600', color: palette.primary },
+  filterTextActive: { color: palette.surface },
+  count: { ...type.label, fontWeight: '500', color: palette.muted, marginLeft: 'auto', fontVariant: ['tabular-nums'] },
+  state: { marginTop: spacing.lg },
+  empty: { alignItems: 'center', paddingTop: 56 },
+  noMatch: { alignItems: 'center', paddingTop: 40 },
+  emptyArt: { width: 160, height: 120 },
+  emptyTitle: { ...type.section, color: palette.ink, marginTop: spacing.lg, textAlign: 'center' },
+  emptyText: { ...type.body, color: palette.muted, marginTop: 6, maxWidth: 270, textAlign: 'center' },
+  noMatchActions: { marginTop: 20, gap: spacing.sm, alignItems: 'center' },
+  results: { gap: spacing.md, marginTop: spacing.lg },
+  card: { backgroundColor: palette.surface, borderRadius: radius.lg, overflow: 'hidden', ...shadow.card },
+  cardImage: { width: '100%', height: 128 },
+  heart: {
+    position: 'absolute',
+    top: spacing.sm,
+    right: spacing.sm,
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: palette.surface,
+    alignItems: 'center',
+    justifyContent: 'center',
+    shadowColor: '#0b2b33',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.15,
+    shadowRadius: 3,
+    elevation: 2,
+  },
+  more: { ...type.caption, color: palette.muted, textAlign: 'center', paddingHorizontal: spacing.lg },
+  cardTitle: { ...type.cardTitle, color: palette.ink, paddingHorizontal: 14, paddingTop: spacing.md, paddingBottom: 14 },
+  option: {
+    height: 52,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 14,
+    borderBottomWidth: 1,
+    borderBottomColor: '#eef3f4',
+  },
+  radio: {
+    width: 20,
+    height: 20,
+    borderRadius: 10,
+    borderWidth: 2,
+    borderColor: palette.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  radioDot: { width: 10, height: 10, borderRadius: 5, backgroundColor: palette.primary },
+  optionText: { fontSize: 15, color: palette.ink },
+  sheetNote: { ...type.label, fontWeight: '400', color: palette.muted, marginTop: spacing.sm },
 });

@@ -62,15 +62,16 @@ export function TabHeader({
   subtitle?: string;
   right?: React.ReactNode;
 }) {
+  // `right` (Cook and Search: the format pill) sits on the title's line.
   return (
     <View style={styles.tabHeader}>
-      <View style={{ flex: 1 }}>
+      <View style={styles.tabTitleRow}>
         <Text style={styles.tabTitle} accessibilityRole="header">
           {title}
         </Text>
-        {subtitle !== undefined && <Text style={styles.tabSubtitle}>{subtitle}</Text>}
+        {right}
       </View>
-      {right}
+      {subtitle !== undefined && <Text style={styles.tabSubtitle}>{subtitle}</Text>}
     </View>
   );
 }
@@ -99,11 +100,10 @@ export function StackHeader({ title, right }: { title: string; right?: React.Rea
 const styles = StyleSheet.create({
   screen: { flex: 1 },
   tabHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
     paddingTop: spacing.md,
     marginBottom: spacing.lg,
   },
+  tabTitleRow: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: spacing.md },
   tabTitle: { fontSize: 28, fontWeight: '700', lineHeight: 34, color: palette.ink },
   tabSubtitle: { ...type.body, color: palette.muted, marginTop: 2 },
   stackHeader: {

@@ -11,6 +11,9 @@
  * Σ opens a short sheet that says what the numbers are, with a way on to
  * Results and to this session's requests.
  *
+ * Home and the recipe page show this bar; Cook and Search show the compact
+ * FormatPill in their header instead, with the same choice in a sheet.
+ *
  * Lists (Home, Search, Cook) cannot be sent as Protocol Buffers: the frozen
  * shared/proto/recipe.proto describes recipe documents only, so the client
  * asks for JSON instead (src/api/client.ts). With Protobuf selected, list
@@ -35,13 +38,13 @@ import { PrimaryButton, SecondaryButton, TextLink } from './Buttons';
 import { Sheet, SheetLine } from './Sheet';
 
 /** Short labels: the full names do not fit three-up on a small phone. */
-const LABELS: Record<SerializationFormat, string> = {
+export const LABELS: Record<SerializationFormat, string> = {
   json: 'JSON',
   msgpack: 'MsgPack',
   protobuf: 'Protobuf',
 };
 
-const NAMES: Record<SerializationFormat, string> = {
+export const NAMES: Record<SerializationFormat, string> = {
   json: 'JSON',
   msgpack: 'MessagePack',
   protobuf: 'Protocol Buffers',
@@ -129,7 +132,7 @@ const TERMS: readonly (readonly [string, string])[] = [
   ['Memory (heap allocation)', 'How much memory the app used while decoding.'],
 ];
 
-function ExplainSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
+export function ExplainSheet({ visible, onClose }: { visible: boolean; onClose: () => void }) {
   const router = useRouter();
   const go = (path: '/results' | '/metrics') => {
     onClose();

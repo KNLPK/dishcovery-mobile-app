@@ -232,7 +232,9 @@ function resolveSearchFormat(requested: SerializationFormat): {
  */
 export async function searchRecipes(
   params: Record<string, string | number>,
-  requestedFormat: SerializationFormat = currentFormat()
+  requestedFormat: SerializationFormat = currentFormat(),
+  /** Cancels the request (Cook drops a search its user has already changed). Nothing is recorded then. */
+  signal?: AbortSignal
 ): Promise<SearchRecipesResult> {
   const { format, fallbackFrom } = resolveSearchFormat(requestedFormat);
 
@@ -243,7 +245,7 @@ export async function searchRecipes(
   const url = `${resolveBaseUrl()}${ROUTES.search()}?${query.toString()}`;
 
   const { result: bytes, elapsedMs: networkMs } = await timeAsync(async () => {
-    const response = await fetch(url);
+    const response = await fetch(url, { signal });
     if (!response.ok) {
       throw new Error(`Request failed with status ${response.status} — ${url}`);
     }
