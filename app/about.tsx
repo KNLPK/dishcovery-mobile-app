@@ -12,6 +12,7 @@
  */
 
 import Constants from 'expo-constants';
+import { useRouter } from 'expo-router';
 import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
 import { ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -20,6 +21,7 @@ import { SecondaryButton, TextLink } from '../components/Buttons';
 import { Screen, StackHeader } from '../components/Screen';
 import { PAPER_RESULTS } from '../constants/paperResults.generated';
 import { palette, radius, spacing, type } from '../constants/theme';
+import { resetHints } from '../src/settings/settings';
 
 const APP_REPO = 'https://github.com/KNLPK/dishcovery-mobile-app';
 const DATA_REPO = PAPER_RESULTS.source.repository;
@@ -50,6 +52,7 @@ const PHOTO_CREDITS: readonly (readonly [string, string])[] = [
 ];
 
 export default function AboutScreen() {
+  const router = useRouter();
   const appName = Constants.expoConfig?.name ?? 'Dishcovery';
   const version = Constants.expoConfig?.version ?? '';
   // Set by app.config.js for the demo build (docs/BRAND.md); absent otherwise.
@@ -83,6 +86,14 @@ export default function AboutScreen() {
           phone (JSON, MessagePack and Protocol Buffers) by payload size, decode time and memory (heap
           allocation). The quick test lets you measure them on your own phone.
         </Section>
+        <TextLink
+          label="Replay tutorial"
+          onPress={() => {
+            resetHints();
+            router.push('/welcome');
+          }}
+          style={styles.inlineLink}
+        />
 
         <Section title="The recipes">
           The 150 recipes you can browse are the test recipes from the thesis dataset. They were written

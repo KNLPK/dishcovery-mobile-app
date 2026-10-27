@@ -32,6 +32,16 @@ export const CATEGORIES: readonly Category[] = [
   { label: 'Dessert', type: 'dessert' },
 ] as const;
 
+/** The first chip on Search and Cook, selected by default: no category filter. */
+export const ALL_CATEGORIES = 'All';
+
+/** Search and Cook's chips: All, then the four categories. */
+export const CATEGORY_CHIPS_WITH_ALL = [
+  { value: ALL_CATEGORIES, label: ALL_CATEGORIES },
+  ...CATEGORIES.map((c) => ({ value: c.label, label: c.label })),
+];
+
+/** The `type` to send for a chip; null for All (and anything unknown). */
 export function categoryType(label: string | null): string | null {
   return CATEGORIES.find((c) => c.label === label)?.type ?? null;
 }

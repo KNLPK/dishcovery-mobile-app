@@ -7,10 +7,10 @@ import { PrimaryButton, TextLink } from '../components/Buttons';
 import { ChipRow } from '../components/Chips';
 import { Hint } from '../components/Hint';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
+import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
-import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { palette } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
@@ -171,12 +171,7 @@ export default function HomePage() {
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : loading ? (
-          <Skeleton
-            variant="cards"
-            count={2}
-            label={`Loading ${selectedCategory.toLowerCase()} recipes`}
-            caption={waking ? WAKING_LABEL : undefined}
-          />
+          <WaitState variant="cards" count={2} label={`Loading ${selectedCategory.toLowerCase()} recipes`} />
         ) : failure !== null ? (
           <ErrorState failure={failure} onRetry={load} />
         ) : featured.length === 0 ? (
@@ -232,7 +227,7 @@ export default function HomePage() {
           <Text style={styles.sectionTitle}>Popular recipes</Text>
           <TextLink label="Search all" onPress={() => router.navigate('/Search')} />
         </View>
-        {loading && server.url !== null && <Skeleton variant="cards" count={2} label="Loading popular recipes" />}
+        {loading && server.url !== null && <WaitState variant="cards" count={2} label="Loading popular recipes" />}
         {!loading && failure === null && popular.length > 0 && (
           <FadeIn style={[styles.popularList, { marginBottom: 24 }]}>
             {popular.map((item) => {
@@ -279,6 +274,7 @@ export default function HomePage() {
           </View>
         </View>
       </ScrollView>
+      {waking && <ConnectingState />}
       <BottomTabBar />
     </Screen>
   );

@@ -277,6 +277,11 @@ export function markHintSeen(id: HintId): void {
   if (!current.hintsSeen.includes(id)) updateSettings({ hintsSeen: [...current.hintsSeen, id] });
 }
 
+/** "Replay tutorial" (Profile, About): the one-time hints show again too. */
+export function resetHints(): void {
+  updateSettings({ hintsSeen: [] });
+}
+
 // ─── Favourites ───────────────────────────────────────────────────────────────
 
 export function isFavourite(id: number | string): boolean {

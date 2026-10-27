@@ -6,7 +6,7 @@ import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
 import { FadeIn, Skeleton } from '../components/motion';
 import RecipeImage, { hasPhoto } from '../components/RecipeImage';
 import { Screen, StackHeader } from '../components/Screen';
-import { ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { ConnectingState, ErrorState, NoServerState } from '../components/StateViews';
 import { useLocalSearchParams } from 'expo-router';
 import { palette } from '../constants/theme';
 import { fetchRecipe } from '../src/api/client';
@@ -133,7 +133,8 @@ export default function RecipeDetailScreen() {
     return (
       <Screen background={palette.surfaceCool}>
         <StackHeader title="Recipe" />
-        <Skeleton variant="detail" count={5} label="Loading recipe" caption={waking ? WAKING_LABEL : undefined} />
+        <Skeleton variant="detail" count={5} label="Loading recipe" />
+        {waking && <ConnectingState />}
       </Screen>
     );
   }

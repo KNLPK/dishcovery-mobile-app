@@ -10,21 +10,71 @@
  */
 
 import { useRouter } from 'expo-router';
-import React from 'react';
-import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
+import BrandLoader from './BrandLoader';
+import { Skeleton } from './motion';
 import type { RequestFailure } from '../src/api/errors';
 import type { ServerMode } from '../src/settings/settings';
 
 /** Shown while the first health check is still waiting for the server. */
 export const WAKING_LABEL = 'Connecting to the server…';
 
-export function LoadingState({ label }: { label: string }) {
+/** Waits shorter than this show skeletons; longer ones switch to the brand loader. */
+export const LONG_WAIT_MS = 600;
+
+/** True once `active` has stayed true for `ms`; false again as soon as it ends. */
+export function useLongWait(active: boolean, ms: number = LONG_WAIT_MS): boolean {
+  const [long, setLong] = useState(false);
+  useEffect(() => {
+    setLong(false);
+    if (!active) return;
+    const timer = setTimeout(() => setLong(true), ms);
+    return () => clearTimeout(timer);
+  }, [active, ms]);
+  return active && long;
+}
+
+/** The brand loader over its label, 8 dp apart (the design's card and full-screen waits). */
+export function LoadingState({ label, size = 48 }: { label: string; size?: 48 | 96 }) {
   return (
-    <View style={styles.block} accessibilityRole="progressbar" accessibilityLabel={label}>
-      <ActivityIndicator color={palette.primary} />
+    <View style={styles.block}>
+      <BrandLoader size={size} label={label} />
       <Text style={styles.loadingText}>{label}</Text>
+    </View>
+  );
+}
+
+/**
+ * A list or card wait: skeletons shaped like the coming content first, and
+ * the brand loader (48) once the wait passes LONG_WAIT_MS, so a slow request
+ * reads as working rather than as a frozen layout.
+ */
+export function WaitState({
+  variant,
+  count,
+  label,
+}: {
+  variant: 'list' | 'cards';
+  count?: number;
+  label: string;
+}) {
+  const long = useLongWait(true);
+  return long ? <LoadingState label={label} /> : <Skeleton variant={variant} count={count} label={label} />;
+}
+
+/**
+ * The first connection to the server, once it takes longer than a few seconds
+ * (serverStatus.ts calls onWaking): the whole screen, with the 96 loader, so it
+ * is clear the app is waiting on the server and not stuck. The tab bar, drawn
+ * after it, stays usable.
+ */
+export function ConnectingState() {
+  return (
+    <View style={styles.connecting} accessibilityLiveRegion="polite">
+      <LoadingState size={96} label={WAKING_LABEL} />
     </View>
   );
 }
@@ -122,6 +172,13 @@ const styles = StyleSheet.create({
   loadingText: {
     ...type.body,
     color: palette.muted,
+  },
+  connecting: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: palette.surface,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: spacing.xl,
   },
   emptyTitle: {
     ...type.cardTitle,

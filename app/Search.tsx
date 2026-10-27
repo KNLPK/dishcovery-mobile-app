@@ -6,11 +6,11 @@ import { FlatList, Image, Pressable, ScrollView, StyleSheet, Text, TextInput, Vi
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import { ChipRow } from '../components/Chips';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { FadeIn, PressableScale, Skeleton } from '../components/motion';
+import { FadeIn, PressableScale } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
-import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
-import { CATEGORIES, categoryType } from '../constants/categories';
+import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
+import { ALL_CATEGORIES, CATEGORY_CHIPS_WITH_ALL, categoryType } from '../constants/categories';
 import { illustrativePhoto } from '../constants/illustrativePhotos';
 import { palette, radius, shadow, spacing, type as typeScale } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
@@ -32,12 +32,11 @@ const SUGGESTED_SEARCHES = ['Chicken stew', 'Noodle bowl', 'Lentil soup'] as con
 /** One-word searches, with the photo for that ingredient's kind of dish. */
 const INGREDIENTS = ['Egg', 'Chicken', 'Salmon', 'Rice', 'Tofu'] as const;
 
-const CATEGORY_CHIPS = CATEGORIES.map((c) => ({ value: c.label, label: c.label }));
 
 export default function Search() {
   // null means "no meal-type filter". The chips toggle: tapping the selected
   // one clears it, so a plain keyword search is still reachable.
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState(ALL_CATEGORIES);
   const [search, setSearch] = useState('');
   const [results, setResults] = useState<SearchResultItem[] | null>(null);
   const [lastQuery, setLastQuery] = useState('');
@@ -50,7 +49,7 @@ export default function Search() {
   const tabBarSpace = useTabBarSpace();
   const [searchFocused, setSearchFocused] = useState(false);
 
-  const runSearch = async (query: string, category: string | null = selectedCategory) => {
+  const runSearch = async (query: string, category: string = selectedCategory) => {
     const trimmed = query.trim();
     if (trimmed.length === 0 || server.url === null) return;
 
@@ -146,17 +145,17 @@ export default function Search() {
           <MetricsBar last={last} busy={loading} list />
         </View>
 
-        {/* Categories: tapping the selected one clears the filter */}
+        {/* Categories: All first, as on Cook */}
         <View style={{ marginTop: spacing.lg }}>
           <ChipRow
-            options={CATEGORY_CHIPS}
+            options={CATEGORY_CHIPS_WITH_ALL}
             selected={selectedCategory}
             onSelect={(label) => {
-              // Toggle, then re-run the current query so the filter is
-              // visibly applied rather than waiting for the next search.
-              const next = selectedCategory === label ? null : label;
-              setSelectedCategory(next);
-              if (lastQuery.length > 0) runSearch(lastQuery, next);
+              if (label === selectedCategory) return;
+              // Re-run the current query so the filter is visibly applied
+              // rather than waiting for the next search.
+              setSelectedCategory(label);
+              if (lastQuery.length > 0) runSearch(lastQuery, label);
             }}
             background={palette.surface}
             accessibilityLabel="Category"
@@ -171,7 +170,7 @@ export default function Search() {
           {results !== null && results.length > 0 && (
             <Text style={styles.sectionMeta}>
               {results.length} for “{lastQuery}”
-              {selectedCategory === null ? '' : ` · ${selectedCategory}`}
+              {selectedCategory === ALL_CATEGORIES ? '' : ` · ${selectedCategory}`}
             </Text>
           )}
         </View>
@@ -179,12 +178,7 @@ export default function Search() {
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : loading ? (
-          <Skeleton
-            variant="list"
-            count={4}
-            label={`Searching for “${lastQuery}”`}
-            caption={waking ? WAKING_LABEL : undefined}
-          />
+          <WaitState variant="list" count={4} label={`Searching for “${lastQuery}”`} />
         ) : failure !== null ? (
           <ErrorState failure={failure} onRetry={() => runSearch(lastQuery)} />
         ) : results === null ? (
@@ -259,6 +253,7 @@ export default function Search() {
         />
         <Text style={styles.photoNote}>Photos are illustrative.</Text>
       </ScrollView>
+      {waking && <ConnectingState />}
       <BottomTabBar />
     </Screen>
   );

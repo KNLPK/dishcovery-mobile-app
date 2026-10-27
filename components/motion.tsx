@@ -17,14 +17,13 @@ import {
   Animated,
   Pressable,
   StyleSheet,
-  Text,
   View,
   type PressableProps,
   type StyleProp,
   type ViewStyle,
 } from 'react-native';
 
-import { palette, radius, spacing, type } from '../constants/theme';
+import { palette, radius, spacing } from '../constants/theme';
 import { startMotion, subscribeMeasuring } from '../src/ui/motionGate';
 
 /** Fades its children in once, when it mounts. */
@@ -80,19 +79,17 @@ export function SkeletonBlock({ style }: { style?: StyleProp<ViewStyle> }) {
 /**
  * Placeholder rows shaped like the content that is coming: `list` for result
  * lists (thumbnail and two lines), `cards` for the two-column recipe grid,
- * `detail` for a recipe page. `caption`, when given, is shown under them
- * (e.g. "Connecting to the server…" when the first request is slow).
+ * `detail` for a recipe page. Screens use them for short waits; StateViews'
+ * WaitState swaps in the brand loader when a wait runs long.
  */
 export function Skeleton({
   variant,
   count = 3,
   label,
-  caption,
 }: {
   variant: 'list' | 'cards' | 'detail';
   count?: number;
   label: string;
-  caption?: string;
 }) {
   const rows = Array.from({ length: count }, (_, i) => i);
   return (
@@ -129,7 +126,6 @@ export function Skeleton({
           </View>
         </View>
       )}
-      {caption !== undefined && <Text style={styles.caption}>{caption}</Text>}
     </View>
   );
 }
@@ -172,5 +168,4 @@ const styles = StyleSheet.create({
   detailImage: { height: 250, borderRadius: 0 },
   detailBody: { padding: spacing.xl, gap: spacing.md },
   detailTitle: { height: 22, width: '70%' },
-  caption: { ...type.body, color: palette.muted, textAlign: 'center', marginTop: spacing.xs },
 });

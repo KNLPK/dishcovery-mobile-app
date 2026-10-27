@@ -13,11 +13,18 @@
  *    or a network-error toast on a screen underneath would. None may start
  *    between the gate closing and opening; the toast must wait for the end.
  * 2. The gate opens again when a run is stopped and when it fails.
- * 3. Source check: animations exist only in components/motion.tsx and
- *    components/ToastHost.tsx, all on the native driver, each started through
- *    startMotion(); no LayoutAnimation or Reanimated animation anywhere else.
+ * 3. Source check: animations exist only in components/motion.tsx,
+ *    components/ToastHost.tsx and components/BrandLoader.tsx, all on the
+ *    native driver, each started through startMotion(); no LayoutAnimation or
+ *    Reanimated animation anywhere else.
  *    The unused Expo template components (HelloWave, ParallaxScrollView,
  *    HapticTab) are left out, and checked to be imported nowhere.
+ *
+ * 4. The brand loader (src/ui/loaderMotion.ts, components/BrandLoader.tsx):
+ *    its frame rules; a real Quick test run with a loader on screen, which
+ *    must show the paused frame at every progress report and start nothing
+ *    until the run ends; and in the component, only transform and opacity
+ *    animated, the reduce motion setting read, the gate followed.
  *
  * Prints PASS or FAIL; exit code 1 on FAIL.
  */
@@ -30,6 +37,7 @@ const at = (rel) => pathToFileURL(path.join(ROOT, rel)).href;
 const gate = await import(at('src/ui/motionGate.ts'));
 const toast = await import(at('src/ui/toast.ts'));
 const { runQuickTest } = await import(at('src/quick/quickTest.ts'));
+const loader = await import(at('src/ui/loaderMotion.ts'));
 const ok = (c, m) => {
   console.log(`${c ? 'PASS' : 'FAIL'}  ${m}`);
   if (!c) process.exitCode = 1;
@@ -133,7 +141,7 @@ for (const dir of ['components', 'src']) {
   })(dir);
 }
 
-const ANIMATION_FILES = ['components/motion.tsx', 'components/ToastHost.tsx'];
+const ANIMATION_FILES = ['components/motion.tsx', 'components/ToastHost.tsx', 'components/BrandLoader.tsx'];
 const startsAnimation = /Animated\.(timing|spring|decay|loop)\(/;
 const outside = files.filter((f) => !ANIMATION_FILES.includes(f) && startsAnimation.test(readFileSync(path.join(ROOT, f), 'utf8')));
 ok(outside.length === 0, `animations only in ${ANIMATION_FILES.join(' and ')}${outside.length ? ` (also in ${outside.join(', ')})` : ''}`);
@@ -167,3 +175,80 @@ const templateUsed = TEMPLATE.filter((t) => {
   return files.some((f) => new RegExp(`from ['"][^'"]*/${name}['"]`).test(readFileSync(path.join(ROOT, f), 'utf8')));
 });
 ok(templateUsed.length === 0, `unused template components imported nowhere${templateUsed.length ? ` (used: ${templateUsed.join(', ')})` : ''}`);
+
+// ── 4. The brand loader ──
+const frames = [];
+for (const paused of [false, true]) {
+  for (const reduceMotion of [false, true]) {
+    for (const measuring of [false, true]) frames.push(loader.loaderFrame({ paused, reduceMotion, measuring }));
+  }
+}
+ok(
+  JSON.stringify(frames) === JSON.stringify(['moving', 'paused', 'reduced', 'paused', 'paused', 'paused', 'paused', 'paused']),
+  `loader frames: moving or reduced only while the gate is open and the screen has not paused it (${frames.join(', ')})`
+);
+
+// A loader on screen during a real run, playing the way BrandLoader does:
+// on every frame change it stops, and starts its loop through startMotion().
+const shownFrames = [];
+let loaderStarts = 0;
+let loaderRefused = 0;
+let pausedAtEveryReport = true;
+let current = null;
+const stopFollowing = loader.followMotionGate({ paused: false, reduceMotion: false }, (frame) => {
+  current = frame;
+  shownFrames.push(frame);
+  if (frame === 'paused') return;
+  if (gate.startMotion(() => {})) loaderStarts++;
+  else loaderRefused++;
+});
+const startsBefore = loaderStarts;
+const loaderRun = await runQuickTest({
+  source: { kind: 'offline' },
+  onProgress: () => {
+    if (current !== 'paused') pausedAtEveryReport = false;
+  },
+});
+stopFollowing();
+ok(loaderRun !== null && pausedAtEveryReport, 'loader during a run: the paused frame at every progress report');
+ok(
+  JSON.stringify(shownFrames) === '["moving","paused","moving"]' && loaderStarts - startsBefore === 1 && loaderRefused === 0,
+  `loader during a run: moving → paused when the gate closed → moving after it (${shownFrames.join(' → ')}), ` +
+    `started again once, refused ${loaderRefused}`
+);
+
+const reducedFrames = [];
+const stopReduced = loader.followMotionGate({ paused: false, reduceMotion: true }, (f) => reducedFrames.push(f));
+gate.setMeasuring(true);
+gate.setMeasuring(false);
+stopReduced();
+const pausedFrames = [];
+const stopPaused = loader.followMotionGate({ paused: true, reduceMotion: false }, (f) => pausedFrames.push(f));
+gate.setMeasuring(true);
+gate.setMeasuring(false);
+stopPaused();
+ok(
+  reducedFrames.join() === 'reduced,paused,reduced' && pausedFrames.every((f) => f === 'paused'),
+  `reduce motion: ${reducedFrames.join(' → ')}; paused by the screen: ${pausedFrames.join(' → ')}`
+);
+
+const loaderSrc = readFileSync(path.join(ROOT, 'components/BrandLoader.tsx'), 'utf8');
+// Every animated value in the JSX is bound to opacity, scaleY or translateY: the
+// last style key before each use on its line.
+const jsx = loaderSrc.slice(loaderSrc.indexOf('accessibilityLabel={label}'), loaderSrc.indexOf('function cycle('));
+const bindings = [];
+for (const name of ['scales[i]', 'steamOpacity', 'steamRise', 'pulse']) {
+  for (const line of jsx.split(/\r?\n/).filter((l) => l.includes(name))) {
+    const keys = [...line.slice(0, line.indexOf(name)).matchAll(/(\w+):/g)];
+    bindings.push(`${keys.at(-1)?.[1]}: ${name}`);
+  }
+}
+const misuse = bindings.filter((b) => !/^(opacity|scaleY|translateY):/.test(b));
+ok(
+  bindings.length === 4 && misuse.length === 0,
+  `BrandLoader animates only opacity, scaleY and translateY (${bindings.join('; ')})`
+);
+ok(
+  /AccessibilityInfo\.isReduceMotionEnabled\(\)/.test(loaderSrc) && /reduceMotionChanged/.test(loaderSrc) && /followMotionGate\(/.test(loaderSrc),
+  'BrandLoader reads the reduce motion setting, follows its changes and the motion gate'
+);

@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, FlatList } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, FlatList, Pressable } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useFocusEffect, useRouter } from 'expo-router';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
@@ -11,13 +11,14 @@ import { Screen, TabHeader } from '../components/Screen';
 import { EmptyState } from '../components/StateViews';
 import { palette } from '../constants/theme';
 import { listQuickTests } from '../src/quick/storage';
-import { setDisplayName, shownName, useSettings } from '../src/settings/settings';
+import { resetHints, setDisplayName, shownName, useSettings } from '../src/settings/settings';
 import { toggleFavouriteWithToast } from '../src/ui/favourites';
 
 const LINKS = [
   ['chart-bar', 'Results', 'Your quick tests and the paper results', '/results'],
   ['server-network', 'Server settings', 'Online, Laptop or Offline', '/settings'],
   ['information-outline', 'About', 'The study, the recipes and the photos', '/about'],
+  ['play-circle-outline', 'Replay tutorial', 'The four intro steps, and the tips again', '/welcome'],
 ] as const;
 
 export default function Profile() {
@@ -117,10 +118,14 @@ export default function Profile() {
             {/* Study screens, the server setting and About */}
             <View style={styles.linkList}>
               {LINKS.map(([icon, label, detail, path]) => (
-                <TouchableOpacity
+                // Pressed: a light tint behind the row. Never a fade, which read as disabled.
+                <Pressable
                   key={path}
-                  style={styles.linkRow}
-                  onPress={() => router.push(path)}
+                  style={({ pressed }) => [styles.linkRow, pressed && styles.linkRowPressed]}
+                  onPress={() => {
+                    if (path === '/welcome') resetHints();
+                    router.push(path);
+                  }}
                   accessibilityRole="button"
                 >
                   <MaterialCommunityIcons name={icon} size={22} color={palette.primary} />
@@ -129,7 +134,7 @@ export default function Profile() {
                     <Text style={styles.linkDetail}>{detail}</Text>
                   </View>
                   <MaterialCommunityIcons name="chevron-right" size={22} color={palette.muted} />
-                </TouchableOpacity>
+                </Pressable>
               ))}
             </View>
 
@@ -262,6 +267,13 @@ const styles = StyleSheet.create({
     gap: 12,
     minHeight: 56,
     paddingVertical: 6,
+    // Room for the pressed tint without moving the row's content.
+    marginHorizontal: -8,
+    paddingHorizontal: 8,
+    borderRadius: 8,
+  },
+  linkRowPressed: {
+    backgroundColor: palette.surfaceCool,
   },
   linkLabel: {
     color: palette.primary,

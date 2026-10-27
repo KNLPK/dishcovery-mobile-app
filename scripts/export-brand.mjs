@@ -32,9 +32,10 @@ export const FILES = {
   'adaptive-foreground': [1024, 1024, 'transparent'],
   'monochrome': [1024, 1024, 'transparent'],
   'splash-icon': [1024, 1024, 'transparent'],
+  'welcome-intro': [1280, 720, 'transparent'],
   'welcome-formats': [1280, 720, 'transparent'],
   'welcome-test': [1280, 720, 'transparent'],
-  'welcome-compare': [1280, 720, 'transparent'],
+  'welcome-start': [1280, 720, 'transparent'],
 };
 
 function findChrome() {

@@ -13,22 +13,25 @@
  */
 
 import React from 'react';
-import { ActivityIndicator, StyleSheet, Text, type StyleProp, type ViewStyle } from 'react-native';
+import { StyleSheet, Text, View, type StyleProp, type ViewStyle } from 'react-native';
 
 import { palette, radius, spacing, touchTarget, type } from '../constants/theme';
+import BrandLoader from './BrandLoader';
 import { PressableScale } from './motion';
 
 type ButtonProps = {
   label: string;
   onPress: () => void;
   disabled?: boolean;
-  /** Shows a spinner instead of the label, and ignores presses. */
+  /** Shows the brand loader (24) beside `busyLabel`, and ignores presses. */
   busy?: boolean;
+  /** The label while busy, e.g. "Finding recipes…"; the normal label if left out. */
+  busyLabel?: string;
   style?: StyleProp<ViewStyle>;
   accessibilityLabel?: string;
 };
 
-export function PrimaryButton({ label, onPress, disabled = false, busy = false, style, accessibilityLabel }: ButtonProps) {
+export function PrimaryButton({ label, onPress, disabled = false, busy = false, busyLabel, style, accessibilityLabel }: ButtonProps) {
   return (
     <PressableScale
       onPress={onPress}
@@ -38,12 +41,15 @@ export function PrimaryButton({ label, onPress, disabled = false, busy = false, 
       accessibilityLabel={accessibilityLabel ?? label}
       accessibilityState={{ disabled: disabled || busy, busy }}
     >
-      {busy ? <ActivityIndicator color={palette.surface} /> : <Text style={styles.primaryText}>{label}</Text>}
+      <View style={styles.content}>
+        {busy && <BrandLoader size={24} tone="dark" />}
+        <Text style={styles.primaryText}>{busy ? busyLabel ?? label : label}</Text>
+      </View>
     </PressableScale>
   );
 }
 
-export function SecondaryButton({ label, onPress, disabled = false, busy = false, style, accessibilityLabel }: ButtonProps) {
+export function SecondaryButton({ label, onPress, disabled = false, busy = false, busyLabel, style, accessibilityLabel }: ButtonProps) {
   return (
     <PressableScale
       onPress={onPress}
@@ -53,7 +59,10 @@ export function SecondaryButton({ label, onPress, disabled = false, busy = false
       accessibilityLabel={accessibilityLabel ?? label}
       accessibilityState={{ disabled: disabled || busy, busy }}
     >
-      {busy ? <ActivityIndicator color={palette.primary} /> : <Text style={styles.secondaryText}>{label}</Text>}
+      <View style={styles.content}>
+        {busy && <BrandLoader size={24} />}
+        <Text style={styles.secondaryText}>{busy ? busyLabel ?? label : label}</Text>
+      </View>
     </PressableScale>
   );
 }
@@ -103,6 +112,8 @@ const styles = StyleSheet.create({
   secondary: { borderWidth: 1.5, borderColor: palette.primary, backgroundColor: 'transparent' },
   secondaryText: buttonLook.secondaryText,
   disabled: { opacity: 0.5 },
+  // Loader and label side by side while busy, 8 dp apart.
+  content: { flexDirection: 'row', alignItems: 'center', gap: spacing.sm },
   link: { minHeight: touchTarget, justifyContent: 'center', paddingHorizontal: spacing.sm },
   linkText: { ...type.label, fontSize: 14, lineHeight: 20, color: palette.primary, textDecorationLine: 'underline' },
 });

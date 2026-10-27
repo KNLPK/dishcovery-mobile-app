@@ -11,6 +11,7 @@ import { useRouter } from 'expo-router';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import BrandLoader from '../components/BrandLoader';
 import { buttonLook } from '../components/Buttons';
 import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
 import { Screen, StackHeader } from '../components/Screen';
@@ -190,6 +191,11 @@ export default function QuickTestScreen() {
 
       {busy ? (
         <View style={styles.progress} accessibilityLiveRegion="polite">
+          {/* Still while measuring. The motion gate is closed for the whole run (loading included),
+              so in practice it stays still from start to finish. */}
+          <View style={styles.loader}>
+            <BrandLoader size={96} paused={progress?.phase === 'measuring'} />
+          </View>
           <Text style={styles.progressStatus}>{stopping ? 'Stopping…' : status}</Text>
           <View
             style={styles.track}
@@ -314,6 +320,7 @@ const styles = StyleSheet.create({
   },
   badgeText: { ...type.label, color: palette.primary },
   lead: { ...type.body, color: palette.body, marginTop: spacing.sm, marginBottom: spacing.md },
+  loader: { alignItems: 'center', marginBottom: spacing.md },
   progressStatus: { ...type.cardTitle, color: palette.ink },
   progressMeta: { flexDirection: 'row', justifyContent: 'space-between' },
   stopButton: { alignSelf: 'flex-start', marginTop: spacing.md },

@@ -6,12 +6,12 @@ import { PrimaryButton, TextLink } from '../components/Buttons';
 import { ChipRow } from '../components/Chips';
 import { FormField, KeyboardForm, type FormFieldHandle } from '../components/KeyboardForm';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { FadeIn, PressableScale, Skeleton, tapHaptic } from '../components/motion';
+import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
-import { EmptyState, ErrorState, NoServerState, WAKING_LABEL } from '../components/StateViews';
+import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
 import { useRouter } from 'expo-router';
-import { CATEGORIES, categoryType } from '../constants/categories';
+import { ALL_CATEGORIES as ALL, CATEGORY_CHIPS_WITH_ALL as CATEGORY_CHIPS, categoryType } from '../constants/categories';
 import { palette, radius, touchTarget, type } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
 import { describeRequestError, type RequestFailure } from '../src/api/errors';
@@ -22,8 +22,6 @@ import { showToast } from '../src/ui/toast';
 type Ingredient = { name: string; quantity: string };
 
 /** "All" (no category filter) comes first and is the default. */
-const ALL = 'All';
-const CATEGORY_CHIPS = [{ value: ALL, label: ALL }, ...CATEGORIES.map((c) => ({ value: c.label, label: c.label }))];
 
 /**
  * Cook time is a choice, not a typed number: "Any", or at most 30, 45 or 60
@@ -236,6 +234,7 @@ export default function ChefHat() {
         ) : (
           <PrimaryButton
             label="Find recipes"
+            busyLabel="Finding recipes…"
             style={styles.findBtn}
             busy={loading}
             onPress={() => {
@@ -244,9 +243,7 @@ export default function ChefHat() {
             }}
           />
         )}
-        {loading && (
-          <Skeleton variant="list" count={3} label="Finding recipes" caption={waking ? WAKING_LABEL : undefined} />
-        )}
+        {loading && <WaitState variant="list" count={3} label="Finding recipes" />}
 
         {/* Format selector + the last request's measurements */}
         <View style={{ marginTop: 20 }}>
@@ -283,6 +280,7 @@ export default function ChefHat() {
           </FadeIn>
         )}
       </KeyboardForm>
+      {waking && <ConnectingState />}
       <BottomTabBar />
     </Screen>
   );
