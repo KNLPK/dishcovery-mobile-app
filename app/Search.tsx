@@ -7,7 +7,7 @@ import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import { ChipRow } from '../components/Chips';
 import FormatPill from '../components/FormatPill';
 import type { LastMeasurement } from '../components/MetricsBar';
-import { FadeIn, PressableScale } from '../components/motion';
+import { PressableScale, StaggerItem } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
 import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
@@ -205,10 +205,10 @@ export default function Search() {
             detail={`Nothing came back for “${lastQuery}”. Try a single ingredient, like “chicken”.`}
           />
         ) : (
-          <FadeIn style={styles.resultList}>
-            {results.map((item) => (
+          <View style={styles.resultList}>
+            {results.map((item, i) => (
+              <StaggerItem key={String(item.id)} index={i}>
               <PressableScale
-                key={String(item.id)}
                 style={styles.resultCard}
                 onPress={() => openRecipe(item.id)}
                 accessibilityRole="button"
@@ -220,8 +220,9 @@ export default function Search() {
                 </Text>
                 <Feather name="chevron-right" size={18} color={palette.muted} />
               </PressableScale>
+              </StaggerItem>
             ))}
-          </FadeIn>
+          </View>
         )}
 
         {/* One-tap searches by ingredient */}

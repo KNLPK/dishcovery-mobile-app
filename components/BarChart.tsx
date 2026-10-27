@@ -19,6 +19,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import { formatColors, palette, spacing, type } from '../constants/theme';
 import type { SerializationFormat } from '../shared/contract';
+import { barsDoneAt, FadeIn, GrowBar } from './motion';
 
 export const FORMAT_LABELS: Record<SerializationFormat, string> = {
   json: 'JSON',
@@ -79,20 +80,20 @@ export default function BarChart({
           </View>
         )}
       </View>
-      {rows.map((r) => (
+      {rows.map((r, i) => (
         <View key={r.format} style={styles.row}>
           <Text style={styles.label}>{FORMAT_LABELS[r.format]}</Text>
           <View style={styles.bars}>
             <View style={styles.track}>
-              <View style={[styles.bar, { width: width(r.value), backgroundColor: formatColors[r.format] }]} />
+              <GrowBar index={i} width={width(r.value)} style={[styles.bar, { backgroundColor: formatColors[r.format] }]} />
             </View>
             {r.compare !== undefined && (
               <View style={styles.compareTrack}>
-                <View style={[styles.compareBar, { width: width(r.compare), borderColor: formatColors[r.format] }]} />
+                <GrowBar index={i} width={width(r.compare)} style={[styles.compareBar, { borderColor: formatColors[r.format] }]} />
               </View>
             )}
           </View>
-          <View style={styles.numbers}>
+          <FadeIn style={styles.numbers} delay={barsDoneAt(rows.length)} duration={150}>
             <Text style={styles.value}>
               {r.value === null ? '—' : r.value.toFixed(digits)}
               <Text style={styles.unit}> {unit}</Text>
@@ -107,7 +108,7 @@ export default function BarChart({
                 {compareLabel ?? 'ref'} {r.compare === null ? '—' : r.compare.toFixed(digits)} {pct(r.comparePct)}
               </Text>
             )}
-          </View>
+          </FadeIn>
         </View>
       ))}
     </View>

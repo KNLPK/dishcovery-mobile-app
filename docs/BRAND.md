@@ -163,3 +163,25 @@ otherwise it settles back in 200 ms (out). Reduced motion: opacity only (out
 120 ms, in 150 ms), and the dots swap at once. With the keyboard up on step
 4, the illustration fades out and the text moves up into its place (200 ms,
 out).
+
+**Micro-interactions** (`components/motion.tsx`, `components/Sheet.tsx`),
+times from the trigger. Each starts through `startMotion()`, so nothing moves
+while the Quick test is measuring (it jumps to its end instead), and each has
+a reduced version.
+
+| Name | Where | What moves | Easing | Reduced motion |
+| --- | --- | --- | --- | --- |
+| Page | every pushed screen (`Screen` → `PageEnter`) | the stack fades the screen in and out; the content slides 24 dp → 0 over 240 ms | out | the fade only |
+| Sheet | every `Sheet` | open: rises by its own height and fades in, 280 ms, backdrop in 200 ms; close: both out in 200 ms, then the Modal goes | out / in | fades only |
+| List | result cards on Cook and Search (`StaggerItem`) | opacity 0 → 1, 8 dp → 0, 200 ms, 40 ms apart, first 6 cards; later ones at once | out | opacity only |
+| Chip | Cook's ingredient chips (`Pop`) | added: opacity 0 → 1, scale 0.8 → 1, 180 ms; removed: back out in 150 ms, then the list reflows | pop / in | opacity only |
+| Heart | save on Cook and Home cards (`HeartButton`) | haptic tick; filled heart fades in over 80 ms; the button scales 1 → 1.3 (120 ms, out) → 1 (140 ms, pop). Unsave: the fill fades out, 150 ms | out, pop | the fades only |
+| Bars | Results charts, the format sheet (`GrowBar`) | scaleX 0 → 1 from the left, 300 ms, 60 ms apart; on Results the values fade in after the last bar, 150 ms | out | the bars fade in |
+| Button | every `PressableScale` (buttons, cards, chips) | held: scale 0.97, opacity 0.85, 150 ms in and out | out | opacity only |
+| Header pill | the format pill's value (`CrossfadeText`) | a new measurement: old text out 150 ms, new text in 150 ms | in / out | the same (opacity only) |
+
+Two departures from the handoff, both forced by the platform: the page
+transition's outgoing screen does not drift −24 dp (the native stack cannot
+move the screen underneath; it fades instead), and a removed result card
+does not fade out on its own (the list is replaced by the loading state when
+the search changes, so there is nothing left to fade).

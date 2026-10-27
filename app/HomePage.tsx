@@ -1,13 +1,12 @@
 import { useRouter } from 'expo-router';
 import React, { useCallback, useEffect, useRef, useState } from 'react';
-import { Dimensions, FlatList, ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { IconButton } from 'react-native-paper';
+import { Dimensions, FlatList, ScrollView, StyleSheet, Text, View } from 'react-native';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import { PrimaryButton, TextLink } from '../components/Buttons';
 import { ChipRow } from '../components/Chips';
 import { Hint } from '../components/Hint';
 import MetricsBar, { type LastMeasurement } from '../components/MetricsBar';
-import { FadeIn, PressableScale, tapHaptic } from '../components/motion';
+import { FadeIn, HeartButton, PressableScale, tapHaptic } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
 import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
@@ -241,20 +240,12 @@ export default function HomePage() {
                   accessibilityLabel={`Open ${item.title}`}
                 >
                   <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.recipeImage} />
-                  <TouchableOpacity
+                  <HeartButton
                     style={styles.favoriteButton}
+                    saved={saved}
                     onPress={() => toggleFavouriteWithToast({ id: item.id, title: item.title, image: item.image ?? null })}
-                    accessibilityRole="button"
-                    accessibilityLabel={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
-                    hitSlop={8}
-                  >
-                    <IconButton
-                      icon={saved ? 'heart' : 'heart-outline'}
-                      iconColor={saved ? '#e74c3c' : '#20515a'}
-                      size={20}
-                      style={{ margin: 0 }}
-                    />
-                  </TouchableOpacity>
+                    label={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
+                  />
                   <Text style={styles.recipeTitle} numberOfLines={2}>{item.title}</Text>
                 </PressableScale>
               );
@@ -369,10 +360,6 @@ const styles = StyleSheet.create({
     top: 8,
     right: 8,
     zIndex: 2,
-    backgroundColor: 'white',
-    borderRadius: 16,
-    padding: 2,
-    elevation: 2,
   },
   recipeTitle: {
     color: '#1a2b3b',

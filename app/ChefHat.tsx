@@ -14,7 +14,7 @@
  * The format is the pill in the header (components/FormatPill.tsx).
  */
 
-import { Feather, MaterialCommunityIcons } from '@expo/vector-icons';
+import { Feather } from '@expo/vector-icons';
 import { useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { Image, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -24,7 +24,7 @@ import { SecondaryButton } from '../components/Buttons';
 import FormatPill from '../components/FormatPill';
 import { FormField, KeyboardForm } from '../components/KeyboardForm';
 import type { LastMeasurement } from '../components/MetricsBar';
-import { PressableScale } from '../components/motion';
+import { HeartButton, Pop, PressableScale, StaggerItem } from '../components/motion';
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
 import { Sheet } from '../components/Sheet';
@@ -66,6 +66,8 @@ function either(names: readonly string[]): string {
 
 export default function ChefHat() {
   const [ingredients, setIngredients] = useState<string[]>([]);
+  // Chips on their way out (Pop): removed from `ingredients` once they have faded.
+  const [leaving, setLeaving] = useState<string[]>([]);
   const [draft, setDraft] = useState('');
   const [typing, setTyping] = useState(false);
   const [category, setCategory] = useState(ALL);
@@ -150,7 +152,11 @@ export default function ChefHat() {
     if (clean === '' || ingredients.includes(clean)) return;
     setIngredients([...ingredients, clean]);
   };
-  const remove = (name: string) => setIngredients(ingredients.filter((i) => i !== name));
+  const remove = (name: string) => setLeaving((l) => (l.includes(name) ? l : [...l, name]));
+  const gone = (name: string) => {
+    setIngredients((list) => list.filter((i) => i !== name));
+    setLeaving((l) => l.filter((i) => i !== name));
+  };
 
   // While there is text in the field, focused or not (a tap on a suggestion may blur it first).
   const suggestions = suggestIngredients(draft, ingredients);
@@ -214,16 +220,17 @@ export default function ChefHat() {
         {ingredients.length > 0 && (
           <View style={styles.chips}>
             {ingredients.map((name) => (
-              <PressableScale
-                key={name}
-                style={styles.chip}
-                onPress={() => remove(name)}
-                accessibilityRole="button"
-                accessibilityLabel={`Remove ${name}`}
-              >
-                <Text style={styles.chipText}>{name}</Text>
-                <Feather name="x" size={16} color={palette.surface} />
-              </PressableScale>
+              <Pop key={name} leaving={leaving.includes(name)} onLeft={() => gone(name)}>
+                <PressableScale
+                  style={styles.chip}
+                  onPress={() => remove(name)}
+                  accessibilityRole="button"
+                  accessibilityLabel={`Remove ${name}`}
+                >
+                  <Text style={styles.chipText}>{name}</Text>
+                  <Feather name="x" size={16} color={palette.surface} />
+                </PressableScale>
+              </Pop>
             ))}
           </View>
         )}
@@ -307,11 +314,11 @@ export default function ChefHat() {
           </View>
         ) : results !== null ? (
           <View style={styles.results}>
-            {results.items.map((item) => {
+            {results.items.map((item, i) => {
               const saved = settings.favourites.some((f) => f.id === Number(item.id));
               return (
+                <StaggerItem key={item.id} index={i}>
                 <PressableScale
-                  key={item.id}
                   style={styles.card}
                   onPress={() => router.push({ pathname: '/recipe', params: { id: item.id } })}
                   accessibilityRole="button"
@@ -319,22 +326,16 @@ export default function ChefHat() {
                 >
                   <View>
                     <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.cardImage} />
-                    <Pressable
+                    <HeartButton
                       style={styles.heart}
+                      saved={saved}
                       onPress={() => toggleFavouriteWithToast({ id: item.id, title: item.title, image: item.image ?? null })}
-                      hitSlop={6}
-                      accessibilityRole="button"
-                      accessibilityLabel={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
-                    >
-                      <MaterialCommunityIcons
-                        name={saved ? 'heart' : 'heart-outline'}
-                        size={20}
-                        color={saved ? '#e74c3c' : palette.primary}
-                      />
-                    </Pressable>
+                      label={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
+                    />
                   </View>
                   <Text style={styles.cardTitle}>{item.title}</Text>
                 </PressableScale>
+                </StaggerItem>
               );
             })}
             {results.total > results.items.length && (
@@ -512,22 +513,7 @@ const styles = StyleSheet.create({
   results: { gap: spacing.md, marginTop: spacing.lg },
   card: { backgroundColor: palette.surface, borderRadius: radius.lg, overflow: 'hidden', ...shadow.card },
   cardImage: { width: '100%', height: 128 },
-  heart: {
-    position: 'absolute',
-    top: spacing.sm,
-    right: spacing.sm,
-    width: 36,
-    height: 36,
-    borderRadius: 18,
-    backgroundColor: palette.surface,
-    alignItems: 'center',
-    justifyContent: 'center',
-    shadowColor: '#0b2b33',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.15,
-    shadowRadius: 3,
-    elevation: 2,
-  },
+  heart: { position: 'absolute', top: spacing.sm, right: spacing.sm },
   more: { ...type.caption, color: palette.muted, textAlign: 'center', paddingHorizontal: spacing.lg },
   cardTitle: { ...type.cardTitle, color: palette.ink, paddingHorizontal: 14, paddingTop: spacing.md, paddingBottom: 14 },
   option: {

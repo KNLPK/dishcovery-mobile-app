@@ -15,7 +15,8 @@
  * 2. The gate opens again when a run is stopped and when it fails.
  * 3. Source check: animations exist only in components/motion.tsx,
  *    components/ToastHost.tsx, components/BrandLoader.tsx,
- *    components/LaunchIntro.tsx and app/welcome.tsx (the onboarding steps),
+ *    components/LaunchIntro.tsx, components/Sheet.tsx and app/welcome.tsx
+ *    (the onboarding steps),
  *    all on the native driver, each started through startMotion(); no
  *    LayoutAnimation or Reanimated animation anywhere else.
  *    The unused Expo template components (HelloWave, ParallaxScrollView,
@@ -147,6 +148,7 @@ const ANIMATION_FILES = [
   'components/ToastHost.tsx',
   'components/BrandLoader.tsx',
   'components/LaunchIntro.tsx',
+  'components/Sheet.tsx',
   'app/welcome.tsx',
 ];
 const startsAnimation = /Animated\.(timing|spring|decay|loop)\(/;

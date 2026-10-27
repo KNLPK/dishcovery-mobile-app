@@ -54,7 +54,8 @@ export default function RootLayout() {
     <PaperProvider theme={paperTheme}>
       <ThemeProvider value={DefaultTheme}>
         <LaunchIntro>
-          <Stack screenOptions={{ headerShown: false }}>
+          {/* Screens fade in and out; Screen slides a pushed screen's content in (motion spec, "Page"). */}
+          <Stack screenOptions={{ headerShown: false, animation: 'fade' }}>
             <Stack.Screen name="index" />
             <Stack.Screen name="HomePage" />
           </Stack>

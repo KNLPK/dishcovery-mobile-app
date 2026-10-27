@@ -30,6 +30,7 @@ import { getMetrics, subscribeToMetrics, type MetricSample } from '../src/api/me
 import { setFormat, useSettings } from '../src/settings/settings';
 import { PrimaryButton, TextLink } from './Buttons';
 import { ExplainSheet, LABELS, LIST_PROTOBUF_NOTE, NAMES, type LastMeasurement } from './MetricsBar';
+import { CrossfadeText, GrowBar, PressableScale } from './motion';
 import { Sheet } from './Sheet';
 
 function cost(m: { payloadBytes: number; deserializationMs: number }): string {
@@ -52,9 +53,9 @@ export default function FormatPill({ last, busy = false }: { last: LastMeasureme
 
   return (
     <>
-      <Pressable
+      <PressableScale
         onPress={() => setOpen(true)}
-        style={({ pressed }) => [styles.pill, pressed && styles.pressed]}
+        style={styles.pill}
         hitSlop={8}
         accessibilityRole="button"
         accessibilityLabel={
@@ -66,11 +67,10 @@ export default function FormatPill({ last, busy = false }: { last: LastMeasureme
         }
       >
         <View style={[styles.swatch, { backgroundColor: formatColors[shown] }]} />
-        <Text style={styles.pillText} numberOfLines={1}>
-          {text}
-        </Text>
+        {/* A new measurement cross-fades in (motion spec, "Header pill"). */}
+        <CrossfadeText text={text} style={styles.pillText} />
         <Feather name="chevron-down" size={14} color={palette.primary} />
-      </Pressable>
+      </PressableScale>
 
       <FormatSheet
         visible={open}
@@ -103,7 +103,7 @@ function FormatSheet({ visible, onClose, onExplain }: { visible: boolean; onClos
     <Sheet visible={visible} onClose={onClose} title="Data format">
       <Text style={styles.intro}>Every recipe is sent in this format. Numbers are from the last response in each.</Text>
       <View style={styles.rows} accessibilityRole="radiogroup" accessibilityLabel="Format for every request">
-        {SERIALIZATION_FORMATS.map((format) => {
+        {SERIALIZATION_FORMATS.map((format, i) => {
           const active = settings.format === format;
           const sample = last[format];
           return (
@@ -121,12 +121,12 @@ function FormatSheet({ visible, onClose, onExplain }: { visible: boolean; onClos
                 <Text style={styles.rowValue}>{sample ? cost(sample) : 'not measured yet'}</Text>
               </View>
               <View style={styles.track}>
+                {/* Mounted with the sheet, so the bars grow in as it opens. */}
                 {sample && (
-                  <View
-                    style={[
-                      styles.fill,
-                      { width: `${(100 * sample.payloadBytes) / largest}%`, backgroundColor: formatColors[format] },
-                    ]}
+                  <GrowBar
+                    index={i}
+                    width={`${(100 * sample.payloadBytes) / largest}%`}
+                    style={[styles.fill, { backgroundColor: formatColors[format] }]}
                   />
                 )}
               </View>
@@ -157,7 +157,6 @@ const styles = StyleSheet.create({
     borderColor: palette.border,
     flexShrink: 1,
   },
-  pressed: { opacity: 0.85, transform: [{ scale: 0.97 }] },
   swatch: { width: 8, height: 8, borderRadius: 2 },
   pillText: { ...type.label, color: palette.primary, fontVariant: ['tabular-nums'], flexShrink: 1 },
   intro: { ...type.body, color: palette.body },

@@ -17,6 +17,12 @@
  *                 title, left-aligned, that scrolls with the content.
  *   StackHeader   every screen opened from somewhere else: back arrow and a
  *                 centred title, fixed above the content.
+ *
+ * PAGE TRANSITION
+ * ---------------
+ * The stack fades screens in and out (app/_layout.tsx); a pushed screen's
+ * content also arrives from 24 dp to the right (PageEnter). The four tab
+ * screens only fade: they are places, not steps.
  */
 
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -26,6 +32,7 @@ import { Pressable, StyleSheet, Text, View, type StyleProp, type ViewStyle } fro
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { palette, spacing, touchTarget, type } from '../constants/theme';
+import { PageEnter } from './motion';
 
 export function Screen({
   children,
@@ -48,7 +55,7 @@ export function Screen({
         style,
       ]}
     >
-      {children}
+      <PageEnter enabled={!tabBar}>{children}</PageEnter>
     </View>
   );
 }
