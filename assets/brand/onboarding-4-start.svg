@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="200" viewBox="0 0 312 200">
+<!-- Onboarding step 4, the name and the two ways in: the mark at the icon heights, a name card, two buttons. Transparent, 312 x 200 dp. From the Claude Design handoff. -->
+<g transform="translate(28 30) scale(1.6)">
+<rect x="19" y="32.2" width="14" height="19.8" rx="3" fill="#20515a"></rect>
+<rect x="41" y="16" width="14" height="36" rx="3" fill="#3c9b9f"></rect>
+<rect x="63" y="25.36" width="14" height="26.64" rx="3" fill="#c1802b"></rect>
+<path d="M14 63 A34 20 0 0 0 82 63 Z" fill="#fff" stroke="#20515a" stroke-width="4" stroke-linejoin="round"></path>
+<rect x="38" y="82" width="20" height="6" rx="2" fill="#20515a"></rect>
+<rect x="10" y="56" width="76" height="7" rx="3.5" fill="#fff" stroke="#20515a" stroke-width="4"></rect>
+</g>
+<rect x="176" y="70" width="112" height="64" rx="14" fill="#fff" stroke="#20515a" stroke-width="3"></rect>
+<circle cx="200" cy="102" r="12" fill="#abe1e5"></circle>
+<rect x="220" y="94" width="44" height="8" rx="4" fill="#20515a"></rect>
+<rect x="220" y="110" width="52" height="3" rx="1.5" fill="#20515a" opacity=".3"></rect>
+<rect x="268" y="90" width="2.5" height="16" rx="1" fill="#20515a"></rect>
+<rect x="176" y="146" width="54" height="20" rx="10" fill="#20515a"></rect>
+<rect x="237" y="147" width="50" height="18" rx="9" fill="none" stroke="#20515a" stroke-width="2"></rect>
+</svg>

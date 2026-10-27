@@ -25,10 +25,11 @@
  */
 
 import React, { useEffect, useMemo, useState } from 'react';
-import { AccessibilityInfo, Animated, Easing, StyleSheet, View } from 'react-native';
+import { Animated, Easing, StyleSheet, View } from 'react-native';
 
 import { startMotion } from '../src/ui/motionGate';
 import { followMotionGate, type LoaderFrame } from '../src/ui/loaderMotion';
+import { useReduceMotion } from './useReduceMotion';
 
 export type BrandLoaderSize = 24 | 48 | 96;
 
@@ -75,27 +76,6 @@ function keyframes(keys: readonly (readonly [number, number])[], scale = 1) {
     outputRange.push(v * scale);
   });
   return { inputRange, outputRange, extrapolate: 'clamp' as const };
-}
-
-/** The system "remove animations" setting; null until it has been read. */
-function useReduceMotion(): boolean | null {
-  const [on, setOn] = useState<boolean | null>(null);
-  useEffect(() => {
-    let live = true;
-    AccessibilityInfo.isReduceMotionEnabled()
-      .then((value) => {
-        if (live) setOn(value);
-      })
-      .catch(() => {
-        if (live) setOn(false);
-      });
-    const subscription = AccessibilityInfo.addEventListener('reduceMotionChanged', setOn);
-    return () => {
-      live = false;
-      subscription.remove();
-    };
-  }, []);
-  return on;
 }
 
 export default function BrandLoader({

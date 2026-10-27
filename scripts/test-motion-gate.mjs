@@ -14,9 +14,10 @@
  *    between the gate closing and opening; the toast must wait for the end.
  * 2. The gate opens again when a run is stopped and when it fails.
  * 3. Source check: animations exist only in components/motion.tsx,
- *    components/ToastHost.tsx and components/BrandLoader.tsx, all on the
- *    native driver, each started through startMotion(); no LayoutAnimation or
- *    Reanimated animation anywhere else.
+ *    components/ToastHost.tsx, components/BrandLoader.tsx,
+ *    components/LaunchIntro.tsx and app/welcome.tsx (the onboarding steps),
+ *    all on the native driver, each started through startMotion(); no
+ *    LayoutAnimation or Reanimated animation anywhere else.
  *    The unused Expo template components (HelloWave, ParallaxScrollView,
  *    HapticTab) are left out, and checked to be imported nowhere.
  *
@@ -141,7 +142,13 @@ for (const dir of ['components', 'src']) {
   })(dir);
 }
 
-const ANIMATION_FILES = ['components/motion.tsx', 'components/ToastHost.tsx', 'components/BrandLoader.tsx'];
+const ANIMATION_FILES = [
+  'components/motion.tsx',
+  'components/ToastHost.tsx',
+  'components/BrandLoader.tsx',
+  'components/LaunchIntro.tsx',
+  'app/welcome.tsx',
+];
 const startsAnimation = /Animated\.(timing|spring|decay|loop)\(/;
 const outside = files.filter((f) => !ANIMATION_FILES.includes(f) && startsAnimation.test(readFileSync(path.join(ROOT, f), 'utf8')));
 ok(outside.length === 0, `animations only in ${ANIMATION_FILES.join(' and ')}${outside.length ? ` (also in ${outside.join(', ')})` : ''}`);
@@ -248,7 +255,9 @@ ok(
   bindings.length === 4 && misuse.length === 0,
   `BrandLoader animates only opacity, scaleY and translateY (${bindings.join('; ')})`
 );
+const reduceSrc = readFileSync(path.join(ROOT, 'components/useReduceMotion.ts'), 'utf8');
 ok(
-  /AccessibilityInfo\.isReduceMotionEnabled\(\)/.test(loaderSrc) && /reduceMotionChanged/.test(loaderSrc) && /followMotionGate\(/.test(loaderSrc),
-  'BrandLoader reads the reduce motion setting, follows its changes and the motion gate'
+  /AccessibilityInfo\.isReduceMotionEnabled\(\)/.test(reduceSrc) && /reduceMotionChanged/.test(reduceSrc) &&
+    /useReduceMotion\(\)/.test(loaderSrc) && /followMotionGate\(/.test(loaderSrc),
+  'BrandLoader reads the reduce motion setting (useReduceMotion), follows its changes and the motion gate'
 );

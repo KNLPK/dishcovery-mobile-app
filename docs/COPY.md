@@ -54,16 +54,16 @@ no light-teal button; light teal is only used as a card background.
 
 The four steps of `app/welcome.tsx`, shown on first launch and from "Replay
 tutorial" (Profile and About, which also brings back the one-time hints).
-Controls: "Skip" (steps 1 to 3, jumps to step 4), "Back", "Next", and on
-step 4 "Run a quick test now" (primary) and "Browse recipes" (secondary).
-Progress reads "1 of 4".
+Controls: "Skip" (steps 1 to 3, jumps to step 4), "Back" (steps 2 and 3),
+"Next", and on step 4 "Run a quick test now" (primary) and "Browse recipes"
+(secondary). Progress is four dots; screen readers hear "Step 1 of 4".
 
 | Step | Title | Text |
 | --- | --- | --- |
-| 1 | Recipes, and a speed test | Dishcovery is a recipe app: browse, search, or find recipes for what you have. It also measures how fast your phone reads the data each recipe arrives in. |
-| 2 | Three ways to send a recipe | **JSON** is a readable letter. Every field is written out with its name, so people and programs can both read it. **MessagePack** is the same letter packed tighter: the same fields and names, written in a compact code instead of text. **Protocol Buffers** is a form with fixed fields. Both sides already have the form, so only the field numbers and the answers are sent. The recipe is the same in all three; only the packing differs. |
-| 3 | The quick test | It decodes 30 recipes in all three formats and measures three things: payload size (how much data), decode time (how long your phone takes to read it) and memory (how much the app allocates while reading). It usually takes under a minute and works offline. |
-| 4 | What should we call you? | Optional. It is shown on Home and in your profile, and stays on this phone. Field placeholder: "Your name". |
+| 1 | Recipes, and a speed test | Find recipes for what's in your kitchen. While you browse, Dishcovery measures how fast this phone reads each recipe's data. |
+| 2 | Three ways to send a recipe | The same recipe, packed three ways. **JSON** is a readable letter, **MessagePack** the same letter packed tighter, **Protocol Buffers** a form with fixed fields. Caption under the picture: "Average small recipe in the study (low tier)." |
+| 3 | The quick test | It decodes the same recipes in all three formats and measures size, decode time and memory. Under a minute, and it works offline. |
+| 4 | What should we call you? | Optional. Shown on Home and in your profile, and it stays on this phone. Field placeholder: "Your name". |
 
 The analogy has to stay accurate: MessagePack keeps the field names (it is
 the same structure in a binary code), and Protocol Buffers sends field

@@ -35,6 +35,8 @@ export const palette = {
   surfaceAlt: '#f9faf7',
   surfaceTint: '#f3f7f8',
   surfaceCool: '#eaf4f4',
+  /** The redesign's ground (onboarding, Cook): a shade off white, so white cards and fields stand out. */
+  ground: '#f7f8f8',
 
   /** Hairlines. */
   border: '#e2eaec',

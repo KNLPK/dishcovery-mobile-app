@@ -26,17 +26,28 @@ const ROOT = path.join(import.meta.dirname, '..');
 const BRAND = path.join(ROOT, 'assets', 'brand');
 const Jimp = createRequire(import.meta.url)('jimp-compact');
 
-/** name: [width, height, 'opaque' | 'transparent'] */
+/**
+ * name: [width, height, 'opaque' | 'transparent', scales?]
+ * With scales, each is exported: 1 as name.png, 3 as name@3x.png (React
+ * Native picks the density it needs); width and height are the 1x size in dp.
+ */
 export const FILES = {
   'icon': [1024, 1024, 'opaque'],
   'adaptive-foreground': [1024, 1024, 'transparent'],
   'monochrome': [1024, 1024, 'transparent'],
   'splash-icon': [1024, 1024, 'transparent'],
-  'welcome-intro': [1280, 720, 'transparent'],
-  'welcome-formats': [1280, 720, 'transparent'],
-  'welcome-test': [1280, 720, 'transparent'],
-  'welcome-start': [1280, 720, 'transparent'],
+  'onboarding-1-recipes': [312, 200, 'transparent', [1, 3]],
+  'onboarding-2-formats': [312, 200, 'transparent', [1, 3]],
+  'onboarding-3-quick-test': [312, 200, 'transparent', [1, 3]],
+  'onboarding-4-start': [312, 200, 'transparent', [1, 3]],
+  'cook-empty': [160, 120, 'transparent', [1, 3]],
+  'cook-no-match': [160, 120, 'transparent', [1, 3]],
 };
+
+/** Every PNG to export and check: [png name, svg name, width, height, kind]. */
+const OUTPUTS = Object.entries(FILES).flatMap(([name, [w, h, kind, scales = [1]]]) =>
+  scales.map((s) => [s === 1 ? `${name}.png` : `${name}@${s}x.png`, name, w * s, h * s, kind])
+);
 
 function findChrome() {
   const candidates = [
@@ -56,8 +67,8 @@ function exportAll() {
   const chrome = findChrome();
   const work = mkdtempSync(path.join(tmpdir(), 'brand-'));
   try {
-    for (const [name, [w, h]] of Object.entries(FILES)) {
-      const page = path.join(work, `${name}.html`);
+    for (const [png, name, w, h] of OUTPUTS) {
+      const page = path.join(work, `${png}.html`);
       writeFileSync(
         page,
         `<!doctype html><html><body style="margin:0;background:transparent">` +
@@ -72,7 +83,7 @@ function exportAll() {
         '--default-background-color=00000000',
         `--user-data-dir=${path.join(work, 'profile')}`,
         `--window-size=${w},${h}`,
-        `--screenshot=${path.join(BRAND, `${name}.png`)}`,
+        `--screenshot=${path.join(BRAND, png)}`,
         pathToFileURL(page).href,
       ], { stdio: 'ignore' });
     }
@@ -83,10 +94,10 @@ function exportAll() {
 
 async function checkAll() {
   let failed = false;
-  for (const [name, [w, h, kind]] of Object.entries(FILES)) {
-    const file = path.join(BRAND, `${name}.png`);
+  for (const [png, , w, h, kind] of OUTPUTS) {
+    const file = path.join(BRAND, png);
     if (!existsSync(file)) {
-      console.log(`FAIL  ${name}.png missing`);
+      console.log(`FAIL  ${png} missing`);
       failed = true;
       continue;
     }
@@ -100,7 +111,7 @@ async function checkAll() {
       height === h &&
       (kind === 'opaque' ? transparent === 0 : corner === 0 && transparent < width * height);
     console.log(
-      `${ok ? 'PASS' : 'FAIL'}  ${name}.png ${width}×${height}, ${kind}` +
+      `${ok ? 'PASS' : 'FAIL'}  ${png} ${width}×${height}, ${kind}` +
         ` (${((100 * transparent) / (width * height)).toFixed(0)}% transparent pixels)`
     );
     if (!ok) failed = true;

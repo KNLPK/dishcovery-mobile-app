@@ -99,13 +99,19 @@ type FormFieldProps = Omit<TextInputProps, 'mode' | 'style'> & {
   style?: StyleProp<ViewStyle>;
   /** Shown inside the field on the right, e.g. a show-password button. */
   trailing?: React.ReactNode;
+  /**
+   * tinted    light teal field (forms)
+   * outlined  white with a hairline, and only the focus ring when focused
+   *           (onboarding, Cook)
+   */
+  look?: 'tinted' | 'outlined';
 };
 
 /** What a FormField's ref exposes: enough for "Next" to move the focus. */
 export type FormFieldHandle = { focus: () => void };
 
 export const FormField = forwardRef<FormFieldHandle, FormFieldProps>(function FormField(
-  { style, trailing, onFocus, onBlur, ...inputProps },
+  { style, trailing, look = 'tinted', onFocus, onBlur, ...inputProps },
   ref
 ) {
   const form = useContext(FormContext);
@@ -118,7 +124,12 @@ export const FormField = forwardRef<FormFieldHandle, FormFieldProps>(function Fo
     <View
       ref={box}
       collapsable={false}
-      style={[styles.field, style, focused && styles.fieldFocused]}
+      style={[
+        styles.field,
+        look === 'outlined' && styles.outlined,
+        style,
+        focused && (look === 'outlined' ? styles.outlinedFocused : styles.fieldFocused),
+      ]}
     >
       <TextInput
         ref={input}
@@ -163,6 +174,10 @@ const styles = StyleSheet.create({
     overflow: 'hidden',
   },
   fieldFocused: { borderColor: palette.primary, backgroundColor: '#c4ebee' },
+  // Text 16 dp in from the edge; the border grows by half a unit when focused
+  // and the padding shrinks by as much, so the text stays still.
+  outlined: { backgroundColor: palette.surface, borderRadius: radius.md, borderWidth: 1.5, borderColor: palette.border, paddingHorizontal: 8.5 },
+  outlinedFocused: { borderWidth: 2, borderColor: palette.primary, paddingHorizontal: 8 },
   input: {
     flex: 1,
     backgroundColor: 'transparent',

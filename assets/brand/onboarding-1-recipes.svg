@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="200" viewBox="0 0 312 200">
+<!-- Onboarding step 1, "Recipes, and a speed test": a recipe card on a phone, and a speed gauge in the three format colours. Transparent, 312 x 200 dp. From the Claude Design handoff. -->
+<rect x="52" y="22" width="108" height="170" rx="18" fill="#fff" stroke="#20515a" stroke-width="4"></rect>
+<rect x="92" y="32" width="28" height="5" rx="2.5" fill="#20515a" opacity=".25"></rect>
+<rect x="64" y="46" width="84" height="58" rx="10" fill="#abe1e5"></rect>
+<circle cx="96" cy="76" r="6" fill="#3c9b9f"></circle><circle cx="110" cy="72" r="7" fill="#c1802b"></circle><circle cx="122" cy="77" r="5" fill="#20515a"></circle>
+<path d="M80 82 A26 14 0 0 0 132 82 Z" fill="#fff"></path>
+<rect x="64" y="116" width="62" height="9" rx="4.5" fill="#20515a"></rect>
+<rect x="64" y="133" width="84" height="6" rx="3" fill="#20515a" opacity=".3"></rect>
+<rect x="64" y="145" width="70" height="6" rx="3" fill="#20515a" opacity=".3"></rect>
+<rect x="64" y="162" width="34" height="16" rx="8" fill="none" stroke="#20515a" stroke-width="2"></rect>
+<rect x="104" y="162" width="28" height="16" rx="8" fill="none" stroke="#20515a" stroke-width="2"></rect>
+<path d="M190 132 A38 38 0 0 1 266 132 Z" fill="#fff"></path>
+<g fill="none" stroke-width="12" stroke-linecap="round">
+<path d="M178 132 A50 50 0 0 1 198 90.5" stroke="#20515a"></path>
+<path d="M202.5 87.9 A50 50 0 0 1 249.5 87.9" stroke="#3c9b9f"></path>
+<path d="M254 90.5 A50 50 0 0 1 276 132" stroke="#c1802b"></path>
+</g>
+<line x1="228" y1="132" x2="255" y2="108" stroke="#20515a" stroke-width="5" stroke-linecap="round"></line>
+<circle cx="228" cy="132" r="7" fill="#20515a"></circle>
+<rect x="200" y="152" width="56" height="20" rx="10" fill="#fff" stroke="#20515a" stroke-width="2"></rect>
+<rect x="212" y="159" width="32" height="6" rx="3" fill="#20515a" opacity=".5"></rect>
+</svg>

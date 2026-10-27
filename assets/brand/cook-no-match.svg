@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="120" viewBox="0 0 160 120">
+<!-- Cook, no match: the bowl with low bars, and a crossed-out filter. Transparent, 160 x 120 dp. From the Claude Design handoff. -->
+<g transform="translate(4 10) scale(1.25)">
+<rect x="19" y="43" width="14" height="9" rx="3" fill="#20515a"></rect>
+<rect x="41" y="43" width="14" height="9" rx="3" fill="#3c9b9f"></rect>
+<rect x="63" y="43" width="14" height="9" rx="3" fill="#c1802b"></rect>
+<path d="M14 63 A34 20 0 0 0 82 63 Z" fill="#fff" stroke="#20515a" stroke-width="4" stroke-linejoin="round"></path>
+<rect x="38" y="82" width="20" height="6" rx="2" fill="#20515a"></rect>
+<rect x="10" y="56" width="76" height="7" rx="3.5" fill="#fff" stroke="#20515a" stroke-width="4"></rect>
+</g>
+<g transform="translate(112 26) scale(1.7)" fill="#fff" stroke="#20515a" stroke-width="2" stroke-linejoin="round"><path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"></path></g>
+<line x1="108" y1="22" x2="152" y2="66" stroke="#c1802b" stroke-width="3.5" stroke-linecap="round"></line>
+</svg>

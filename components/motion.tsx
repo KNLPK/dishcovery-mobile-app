@@ -15,6 +15,7 @@ import * as Haptics from 'expo-haptics';
 import React, { useEffect, useRef } from 'react';
 import {
   Animated,
+  Easing,
   Pressable,
   StyleSheet,
   View,
@@ -25,6 +26,18 @@ import {
 
 import { palette, radius, spacing } from '../constants/theme';
 import { startMotion, subscribeMeasuring } from '../src/ui/motionGate';
+
+/** The motion spec's easing curves (docs/BRAND.md), for Animated.timing. */
+export const ease = {
+  /** Things arriving. */
+  out: Easing.bezier(0.2, 0, 0, 1),
+  /** Things leaving. */
+  in: Easing.bezier(0.3, 0, 1, 1),
+  /** Full-screen moves. */
+  inOut: Easing.bezier(0.65, 0, 0.35, 1),
+  /** Overshoot: the heart, an added chip. */
+  pop: Easing.bezier(0.34, 1.56, 0.64, 1),
+};
 
 /** Fades its children in once, when it mounts. */
 export function FadeIn({

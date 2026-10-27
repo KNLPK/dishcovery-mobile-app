@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="200" viewBox="0 0 312 200">
+<!-- Onboarding step 3, "The quick test": a stopwatch, and three groups of result bars. Transparent, 312 x 200 dp. From the Claude Design handoff. -->
+<rect x="88" y="34" width="16" height="10" rx="3" fill="#20515a"></rect>
+<rect x="93" y="42" width="6" height="12" fill="#20515a"></rect>
+<circle cx="96" cy="110" r="58" fill="#fff" stroke="#20515a" stroke-width="4"></circle>
+<path d="M96 110 L96 64 A46 46 0 1 1 50 110 Z" fill="#abe1e5"></path>
+<g fill="#20515a"><rect x="94" y="56" width="4" height="7" rx="2"></rect><rect x="143" y="108" width="7" height="4" rx="2"></rect><rect x="94" y="157" width="4" height="7" rx="2"></rect><rect x="42" y="108" width="7" height="4" rx="2"></rect></g>
+<line x1="96" y1="110" x2="58" y2="110" stroke="#20515a" stroke-width="4" stroke-linecap="round"></line>
+<circle cx="96" cy="110" r="5" fill="#20515a"></circle>
+<rect x="184" y="64" width="96" height="7" rx="3.5" fill="#20515a"></rect>
+<rect x="184" y="75" width="86" height="7" rx="3.5" fill="#3c9b9f"></rect>
+<rect x="184" y="86" width="62" height="7" rx="3.5" fill="#c1802b"></rect>
+<rect x="184" y="104" width="96" height="7" rx="3.5" fill="#20515a"></rect>
+<rect x="184" y="115" width="70" height="7" rx="3.5" fill="#3c9b9f"></rect>
+<rect x="184" y="126" width="58" height="7" rx="3.5" fill="#c1802b"></rect>
+<rect x="184" y="144" width="96" height="7" rx="3.5" fill="#20515a"></rect>
+<rect x="184" y="155" width="80" height="7" rx="3.5" fill="#3c9b9f"></rect>
+<rect x="184" y="166" width="66" height="7" rx="3.5" fill="#c1802b"></rect>
+<g stroke="#20515a" stroke-width="1.5" opacity=".2"><line x1="184" y1="97" x2="280" y2="97"></line><line x1="184" y1="137" x2="280" y2="137"></line></g>
+</svg>

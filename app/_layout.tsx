@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import { MD3LightTheme, PaperProvider } from 'react-native-paper';
 import 'react-native-reanimated';
 
+import LaunchIntro from '../components/LaunchIntro';
 import ToastHost from '../components/ToastHost';
 import { palette } from '../constants/theme';
 import { loadSettings } from '../src/settings/settings';
@@ -44,17 +45,20 @@ export default function RootLayout() {
   }, []);
 
   if (!loaded || !settingsReady) {
-    // Async font loading only occurs in development.
+    // Async font loading only occurs in development. The native splash stays
+    // up meanwhile (LaunchIntro hides it).
     return null;
   }
 
   return (
     <PaperProvider theme={paperTheme}>
       <ThemeProvider value={DefaultTheme}>
-        <Stack screenOptions={{ headerShown: false }}>
-          <Stack.Screen name="index" />
-          <Stack.Screen name="HomePage" />
-        </Stack>
+        <LaunchIntro>
+          <Stack screenOptions={{ headerShown: false }}>
+            <Stack.Screen name="index" />
+            <Stack.Screen name="HomePage" />
+          </Stack>
+        </LaunchIntro>
         <ToastHost />
         <StatusBar style="dark" />
       </ThemeProvider>

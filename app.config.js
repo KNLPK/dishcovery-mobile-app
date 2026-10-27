@@ -47,6 +47,8 @@ module.exports = ({ config }) => {
           ]
         : plugin
     ),
-    extra: { ...config.extra, buildCommit: buildCommit() },
+    // brandIntro: the native splash above is the launch intro's first frame,
+    // so components/LaunchIntro.tsx plays on from it.
+    extra: { ...config.extra, buildCommit: buildCommit(), brandIntro: true },
   };
 };
