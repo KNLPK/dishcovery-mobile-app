@@ -175,6 +175,10 @@ export interface SearchResultItem {
   title: string;
   image?: string;
   imageType?: string;
+  /** Hosted catalog only (Spoonacular sends it with addRecipeInformation, which the laptop proxy leaves off). */
+  readyInMinutes?: number;
+  /** How many of includeIngredients the recipe uses; hosted catalog, ingredient searches only. */
+  usedIngredientCount?: number;
 }
 
 export interface SearchResponse {

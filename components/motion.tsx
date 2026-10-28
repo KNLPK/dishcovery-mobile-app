@@ -337,13 +337,17 @@ export const barsDoneAt = (count: number) => (count - 1) * 60 + 300;
 export function CrossfadeText({ text, style }: { text: string; style?: StyleProp<TextStyle> }) {
   const [shown, setShown] = useState(text);
   const opacity = useRef(new Animated.Value(1)).current;
+  // A fade that ends after the text has changed again (a search done in under
+  // 150 ms) must show the newest text, not the one it started for.
+  const latest = useRef(text);
+  latest.current = text;
   useEffect(() => {
     if (text === shown) return;
     play(
       timing(opacity, 0, 150, ease.in),
       () => opacity.setValue(0),
       () => {
-        setShown(text);
+        setShown(latest.current);
         play(timing(opacity, 1, 150, ease.out), () => opacity.setValue(1));
       }
     );

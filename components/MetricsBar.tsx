@@ -57,6 +57,8 @@ export interface LastMeasurement {
   format: SerializationFormat;
   /** Set when the selected format could not be used for this request. */
   formatFallbackFrom?: SerializationFormat | null;
+  /** A list response with no results; the pill leaves out its size. */
+  empty?: boolean;
 }
 
 /** Shown on list screens while Protobuf is selected. */

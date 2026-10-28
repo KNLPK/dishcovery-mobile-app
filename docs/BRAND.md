@@ -118,13 +118,17 @@ transform and opacity only, native driver, through `startMotion()`.
 | --- | --- | --- | --- |
 | 0–120 | the splash frame | held, so the swap is invisible | |
 | 120–420 | bar 1 (JSON, `#abe1e5`) | scaleY 1 → 1.15, from its base | out |
-| 180–480 | bar 2 | scaleY 1 → 1.08; a `#3c9b9f` copy fades in over it | out |
-| 240–540 | bar 3 | scaleY 1 → 1.12; a `#c1802b` copy fades in over it | out |
+| 180–480 | bar 2 | scaleY 1 → 1.08; a `#3c9b9f` copy fills it from the base (scaleY 0 → 1) | out |
+| 240–540 | bar 3 | scaleY 1 → 1.12; a `#c1802b` copy fills it from the base (scaleY 0 → 1) | out |
 | 420–760 | the mark | translateY 0 → −36, scale 1 → 0.8 | out |
 | 520–820 | "Dishcovery" (30/36 bold, white, 68 dp below the centre) | opacity 0 → 1, translateY 12 → 0 | out |
 | 960–1080 | mark and wordmark | opacity 1 → 0 | in |
 | 1000–1200 | the teal layer | translateY 0 → −(screen height) | in-out |
 | 1040–1200 | the app underneath | opacity 0 → 1, translateY 12 → 0 | out |
+
+The colours wipe in rather than fade: a half-opaque amber over the pale bar
+reads as khaki (`#b6ae88` at 50 %), so each pixel is either the old colour or
+the new one.
 
 **Reduced motion,** and while the setting is still unknown after 120 ms:
 nothing moves. Bars keep the icon's heights and colour; the wordmark fades

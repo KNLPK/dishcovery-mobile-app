@@ -11,7 +11,10 @@
  *
  * Every step has the same frame, so nothing jumps between pages: the brand
  * and Skip, a fixed 220 dp illustration card, title and body, and the dots and
- * buttons pinned to the bottom. Next, Back, Skip (to step 4) or a swipe moves
+ * buttons pinned to the bottom. The card and text sit as one block centred in
+ * the space between the header and the dots; the block's height is the
+ * tallest step's text (measured off-screen), so the card is at the same place
+ * on every step and a short body only leaves room under itself. Next, Back, Skip (to step 4) or a swipe moves
  * between steps. Step 4 drops Skip and Back (a swipe right still goes back);
  * with the keyboard up, the illustration fades and the text moves into its
  * place, so the field and both buttons stay visible above the keyboard.
@@ -68,7 +71,10 @@ const STEPS = [
 
 const LAST = STEPS.length - 1;
 const CARD_HEIGHT = 220;
+/** The card's top when there is no room to centre (small screens). */
 const CARD_TOP = spacing.sm;
+/** Step 4's second button, on top of the bottom block of steps 1–3. */
+const STEP4_EXTRA = touchTarget + spacing.sm;
 /** A swipe commits past this distance (dp) or speed (dp per ms). */
 const SWIPE_DISTANCE = 72;
 const SWIPE_SPEED = 0.5;
@@ -109,6 +115,10 @@ export default function WelcomeScreen() {
   // Prefilled when the tutorial is replayed.
   const [name, setName] = useState(() => getSettings().displayName);
   const busy = useRef(false);
+  // For centring: the page, the bottom block of steps 1–3, and each step's text.
+  const [pageHeight, setPageHeight] = useState(0);
+  const [bottomHeight, setBottomHeight] = useState(0);
+  const [textHeights, setTextHeights] = useState<number[]>(() => STEPS.map(() => 0));
 
   const v = useMemo(
     () => ({
@@ -237,11 +247,21 @@ export default function WelcomeScreen() {
     [index, reduced, v] // eslint-disable-line react-hooks/exhaustive-deps
   );
 
+  // Where the card sits: the block (card + the tallest of steps 1–3's text) centred
+  // above the dots, but never so low that step 4's field meets its two buttons.
+  const cardTop = useMemo(() => {
+    if (pageHeight === 0 || bottomHeight === 0 || textHeights.some((h) => h === 0)) return CARD_TOP;
+    const space = pageHeight - spacing.xl - bottomHeight - spacing.xl;
+    const centred = (space - CARD_HEIGHT - Math.max(...textHeights.slice(0, LAST))) / 2;
+    const step4 = space - STEP4_EXTRA - CARD_HEIGHT - textHeights[LAST];
+    return Math.max(CARD_TOP, Math.min(centred, step4));
+  }, [pageHeight, bottomHeight, textHeights]);
+
   // Keyboard up on step 4: the illustration fades and the text takes its place.
   const keyboardUp = keyboardHeight > 0 && index === LAST;
   useEffect(() => {
     const card = keyboardUp ? 0 : 1;
-    const lift = keyboardUp ? -(CARD_TOP + CARD_HEIGHT) : 0;
+    const lift = keyboardUp ? -(cardTop + CARD_HEIGHT) : 0;
     const shift = Animated.parallel([
       Animated.timing(v.card, { toValue: card, duration: 200, easing: ease.out, useNativeDriver: true }),
       Animated.timing(v.lift, { toValue: lift, duration: 200, easing: ease.out, useNativeDriver: true }),
@@ -250,7 +270,7 @@ export default function WelcomeScreen() {
       v.card.setValue(card);
       v.lift.setValue(lift);
     }
-  }, [keyboardUp, reduced, v]);
+  }, [keyboardUp, cardTop, reduced, v]);
 
   function finish(next: 'quick' | 'browse') {
     setDisplayName(name);
@@ -280,14 +300,35 @@ export default function WelcomeScreen() {
         {index < LAST && <TextLink label="Skip" onPress={() => go(LAST)} accessibilityLabel="Skip the tutorial" />}
       </View>
 
-      <View style={styles.page} {...pan.panHandlers}>
-        <Animated.View style={[styles.card, { opacity: v.card }]}>
+      <View style={styles.page} {...pan.panHandlers} onLayout={(e) => setPageHeight(e.nativeEvent.layout.height)}>
+        {/* Every step's text, invisible, to size the centred block. */}
+        {STEPS.map((s, i) => (
+          <View
+            key={i}
+            style={[styles.text, styles.measure]}
+            pointerEvents="none"
+            accessibilityElementsHidden
+            importantForAccessibility="no-hide-descendants"
+            onLayout={(e) => {
+              const h = e.nativeEvent.layout.height;
+              setTextHeights((all) => (all[i] === h ? all : all.map((x, k) => (k === i ? h : x))));
+            }}
+          >
+            <Text style={styles.title}>{s.title}</Text>
+            {s.body === null ? <FormatsBody /> : <Text style={i === LAST ? styles.nameBody : styles.body}>{s.body}</Text>}
+            {i === LAST && <View style={styles.nameField} />}
+          </View>
+        ))}
+
+        <Animated.View style={[styles.card, { marginTop: cardTop, opacity: v.card }]}>
           <Animated.View style={{ opacity: fades.image, transform: [{ translateX: v.imageX }] }}>
             <Image source={step.image} style={styles.illustration} resizeMode="contain" accessibilityIgnoresInvertColors />
           </Animated.View>
         </Animated.View>
         {'caption' in step && (
-          <Animated.Text style={[styles.caption, { opacity: fades.caption }]}>{step.caption}</Animated.Text>
+          <Animated.Text style={[styles.caption, { top: cardTop + CARD_HEIGHT + 6, opacity: fades.caption }]}>
+            {step.caption}
+          </Animated.Text>
         )}
 
         <Animated.View
@@ -318,7 +359,12 @@ export default function WelcomeScreen() {
           </Animated.View>
         </Animated.View>
 
-        <View style={[styles.bottom, { bottom }]}>
+        <View
+          style={[styles.bottom, { bottom }]}
+          onLayout={(e) => {
+            if (index < LAST) setBottomHeight(e.nativeEvent.layout.height);
+          }}
+        >
           <View style={styles.dots} accessible accessibilityLabel={`Step ${index + 1} of ${STEPS.length}`}>
             {v.dots.map((d, i) => (
               <View key={i} style={styles.dotSlot}>
@@ -358,7 +404,6 @@ const styles = StyleSheet.create({
   brand: { ...type.section, color: palette.primary },
   page: { flex: 1 },
   card: {
-    marginTop: CARD_TOP,
     marginHorizontal: spacing.xl,
     height: CARD_HEIGHT,
     borderRadius: 24,
@@ -372,13 +417,13 @@ const styles = StyleSheet.create({
   caption: {
     ...type.caption,
     position: 'absolute',
-    top: CARD_TOP + CARD_HEIGHT + 6,
     left: spacing.xl,
     right: spacing.xl,
     textAlign: 'center',
     color: palette.muted,
   },
   text: { paddingTop: spacing.xxl, paddingHorizontal: spacing.xl },
+  measure: { position: 'absolute', top: 0, left: 0, right: 0, opacity: 0 },
   title: { ...type.title, color: palette.primary },
   body: { fontSize: 15, lineHeight: 22, color: palette.ink, marginTop: spacing.md },
   bold: { fontWeight: '700' },

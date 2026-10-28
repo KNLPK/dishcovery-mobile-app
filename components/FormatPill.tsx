@@ -7,6 +7,9 @@
  *
  *   ▪ JSON · 1.1 KB · 2.08 ms ⌄
  *
+ * An empty result set shows the time alone ("JSON · < 0.01 ms"): its few
+ * bytes say nothing about the format.
+ *
  * The pill shows the format chosen in settings. Its numbers are the screen's
  * last response when that response was for this choice (or, for Protobuf on a
  * list, sent as JSON in its place); after switching, it shows the name alone
@@ -33,8 +36,8 @@ import { ExplainSheet, LABELS, LIST_PROTOBUF_NOTE, NAMES, type LastMeasurement }
 import { CrossfadeText, GrowBar, PressableScale } from './motion';
 import { Sheet } from './Sheet';
 
-function cost(m: { payloadBytes: number; deserializationMs: number }): string {
-  return `${formatKB(m.payloadBytes)} · ${formatMs(m.deserializationMs)}`;
+function cost(m: { payloadBytes: number; deserializationMs: number; empty?: boolean }): string {
+  return m.empty ? formatMs(m.deserializationMs) : `${formatKB(m.payloadBytes)} · ${formatMs(m.deserializationMs)}`;
 }
 
 export default function FormatPill({ last, busy = false }: { last: LastMeasurement | null; busy?: boolean }) {
@@ -61,7 +64,7 @@ export default function FormatPill({ last, busy = false }: { last: LastMeasureme
         accessibilityLabel={
           `Data format: ${NAMES[chosen]}.` +
           (current !== null
-            ? ` Last response${current.formatFallbackFrom ? ` sent as ${NAMES[current.format]}` : ''}: ${formatKB(current.payloadBytes)}, decoded in ${formatMs(current.deserializationMs)}.`
+            ? ` Last response${current.formatFallbackFrom ? ` sent as ${NAMES[current.format]}` : ''}: ${current.empty ? 'no results' : formatKB(current.payloadBytes)}, decoded in ${formatMs(current.deserializationMs)}.`
             : '') +
           ' Change'
         }

@@ -673,14 +673,21 @@ function searchCatalog(q) {
       c.ingredients.some((name) => hasTerm(name, t) && !MINOR_INGREDIENT.test(name))
     ).length;
     const used = terms.filter((t) => c.ingredients.some((name) => name.includes(t))).length;
-    scored.push({ c, inTitle, main, used });
+    const matched = wanted.filter((w) => c.ingredients.some((name) => name.includes(w))).length;
+    scored.push({ c, inTitle, main, used, matched });
   }
   scored.sort(
     (a, b) => b.inTitle - a.inTitle || b.main - a.main || b.used - a.used || a.c.item.id - b.c.item.id
   );
 
   return {
-    results: scored.slice(offset, offset + number).map(({ c }) => c.item),
+    // Cook's cards show the time and the match, under Spoonacular's names for them
+    // (readyInMinutes, usedIngredientCount; the latter only when ingredients were given).
+    results: scored.slice(offset, offset + number).map(({ c, matched }) => ({
+      ...c.item,
+      readyInMinutes: c.readyInMinutes,
+      ...(wanted.length > 0 ? { usedIngredientCount: matched } : {}),
+    })),
     offset,
     number,
     totalResults: scored.length,

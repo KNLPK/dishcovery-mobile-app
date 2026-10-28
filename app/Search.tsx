@@ -79,6 +79,7 @@ export default function Search() {
         heapDeltaBytes: meta.heapDeltaBytes,
         format: meta.format,
         formatFallbackFrom: meta.formatFallbackFrom,
+        empty: (data.results ?? []).length === 0,
       });
     } catch (err) {
       const described = describeRequestError(err, 'search recipes');

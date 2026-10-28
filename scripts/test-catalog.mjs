@@ -12,7 +12,8 @@
  * key removed, makes every axios request fail, and checks:
  *   - /health: hosted, catalog source, no points budget
  *   - search by query, by category (type) and paging
- *   - find by ingredients (ChefHat); title matches rank first, stock and broth last
+ *   - find by ingredients (ChefHat); title matches rank first, stock and broth last;
+ *     each result carries its readyInMinutes and usedIngredientCount
  *   - chicken, egg, salmon, tofu, rice: on Search and Cook a recipe with the word
  *     in its title comes first
  *   - recipe detail in all three formats, byte-identical to the bundled
@@ -115,13 +116,19 @@ ok(dessertPasta.totalResults < pasta.totalResults, `type narrows a search (pasta
 
 const chef = await json('/api/search?includeIngredients=garlic,onion,chicken&type=&number=5');
 const ranks = [];
+let fieldsOk = chef.results.length > 0;
 for (const r of chef.results) {
   const recipe = await json(`/api/recipes/${r.id}`);
   const names = recipe.extendedIngredients.map((i) => i.name.toLowerCase());
   const used = ['garlic', 'onion', 'chicken'].filter((w) => names.some((n) => n.includes(w))).length;
   const inTitle = ['garlic', 'onion', 'chicken'].filter((w) => titleHas(r.title, w)).length;
   ranks.push({ used, inTitle });
+  if (r.usedIngredientCount !== used || r.readyInMinutes !== recipe.readyInMinutes) fieldsOk = false;
 }
+ok(
+  fieldsOk && pasta.results.every((r) => typeof r.readyInMinutes === 'number' && !('usedIngredientCount' in r)),
+  `result fields: readyInMinutes always, usedIngredientCount (${chef.results.map((r) => r.usedIngredientCount).join(', ')}) only with ingredients, both matching the recipe`
+);
 ok(
   chef.results.length === 5 &&
     ranks.every((n, i) => n.used >= 1 && (i === 0 || n.inTitle <= ranks[i - 1].inTitle)),

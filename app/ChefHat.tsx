@@ -12,6 +12,10 @@
  * Nothing is searched until there is an ingredient or an active filter.
  *
  * The format is the pill in the header (components/FormatPill.tsx).
+ *
+ * Each result card shows the cook time and how many of your ingredients the
+ * recipe uses, when the server sends them (the hosted catalog does; a card
+ * without them is just the title).
  */
 
 import { Feather } from '@expo/vector-icons';
@@ -125,6 +129,7 @@ export default function ChefHat() {
           heapDeltaBytes: meta.heapDeltaBytes,
           format: meta.format,
           formatFallbackFrom: meta.formatFallbackFrom,
+          empty: items.length === 0,
         });
       } catch (err) {
         if (stale()) return;
@@ -322,7 +327,11 @@ export default function ChefHat() {
                   style={styles.card}
                   onPress={() => router.push({ pathname: '/recipe', params: { id: item.id } })}
                   accessibilityRole="button"
-                  accessibilityLabel={`Open ${item.title}`}
+                  accessibilityLabel={
+                    `Open ${item.title}` +
+                    (item.readyInMinutes !== undefined ? `, ${item.readyInMinutes} minutes` : '') +
+                    (item.usedIngredientCount !== undefined ? `, uses ${item.usedIngredientCount} of your ingredients` : '')
+                  }
                 >
                   <View>
                     <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.cardImage} />
@@ -333,7 +342,22 @@ export default function ChefHat() {
                       label={saved ? `Remove ${item.title} from saved` : `Save ${item.title}`}
                     />
                   </View>
-                  <Text style={styles.cardTitle}>{item.title}</Text>
+                  <View style={styles.cardBody}>
+                    <Text style={styles.cardTitle}>{item.title}</Text>
+                    {(item.readyInMinutes !== undefined || item.usedIngredientCount !== undefined) && (
+                      <View style={styles.meta}>
+                        {item.readyInMinutes !== undefined && (
+                          <View style={styles.time}>
+                            <Feather name="clock" size={14} color={palette.muted} />
+                            <Text style={styles.timeText}>{item.readyInMinutes} min</Text>
+                          </View>
+                        )}
+                        {item.usedIngredientCount !== undefined && (
+                          <Text style={styles.uses}>Uses {item.usedIngredientCount} of your ingredients</Text>
+                        )}
+                      </View>
+                    )}
+                  </View>
                 </PressableScale>
                 </StaggerItem>
               );
@@ -515,7 +539,12 @@ const styles = StyleSheet.create({
   cardImage: { width: '100%', height: 128 },
   heart: { position: 'absolute', top: spacing.sm, right: spacing.sm },
   more: { ...type.caption, color: palette.muted, textAlign: 'center', paddingHorizontal: spacing.lg },
-  cardTitle: { ...type.cardTitle, color: palette.ink, paddingHorizontal: 14, paddingTop: spacing.md, paddingBottom: 14 },
+  cardBody: { paddingHorizontal: 14, paddingTop: spacing.md, paddingBottom: 14 },
+  cardTitle: { ...type.cardTitle, color: palette.ink },
+  meta: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', columnGap: spacing.md, rowGap: 2, marginTop: 6 },
+  time: { flexDirection: 'row', alignItems: 'center', gap: spacing.xs },
+  timeText: { ...type.label, fontWeight: '400', color: palette.muted, fontVariant: ['tabular-nums'] },
+  uses: { ...type.label, color: palette.primary },
   option: {
     height: 52,
     flexDirection: 'row',

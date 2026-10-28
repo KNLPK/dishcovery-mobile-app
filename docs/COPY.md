@@ -81,6 +81,7 @@ again". About: the link "Replay tutorial" under "What this app is".
 | Ingredient field | Placeholder "Add an ingredient"; while typing, "Enter to add" at its end |
 | Row of one-tap ingredients | Label "Common"; each chip "+ chicken" |
 | Filters | "All categories" or the category; "Any time" or "≤ 30 min" |
+| Result card | Title; under it "25 min" (clock icon) and "Uses 2 of your ingredients" (the count of your ingredients the recipe uses, from the server) |
 | Count | "57 recipes" (the catalog's total); under a long list, "Showing the first 10. Add an ingredient or a filter to narrow it down." |
 | Empty | "What's in your kitchen?" / "Add an ingredient or tap one above. Recipes appear here as you go." |
 | Loading | "Finding recipes" (skeletons, then the loader after 600 ms) |
@@ -95,7 +96,9 @@ of the ingredients, so nothing came back for each of them.
 
 `components/FormatPill.tsx`, in the header of Cook and Search (Home and the
 recipe page keep the full format bar). The pill: the short format label and
-the last response, "JSON · 1.1 KB · 2.08 ms". Its sheet:
+the last response, "JSON · 1.1 KB · 2.08 ms". An empty result set shows
+the time alone, "JSON · < 0.01 ms". Everywhere in the app a time under
+0.01 ms reads "< 0.01 ms", never "0.00 ms". Its sheet:
 
 - Title "Data format"; "Every recipe is sent in this format. Numbers are
   from the last response in each."

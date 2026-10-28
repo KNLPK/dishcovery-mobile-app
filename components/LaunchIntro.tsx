@@ -6,8 +6,9 @@
  * centred on the brand teal: this layer mounts an identical frame, hides the
  * native splash on its first layout, then plays.
  *
- *   120 ms   the bars rise from their base, 60 ms apart; bars 2 and 3 fade
- *            into MessagePack and Protobuf
+ *   120 ms   the bars rise from their base, 60 ms apart; bars 2 and 3 fill
+ *            with MessagePack and Protobuf from the base up (a wipe, not a
+ *            fade: a half-opaque amber over the pale bar reads as khaki)
  *   420 ms   the mark moves up 36 dp and settles at 0.8×
  *   520 ms   "Dishcovery" fades in and rises 12 dp
  *   960 ms   the lockup fades; the teal layer slides up and off, uncovering
@@ -128,6 +129,9 @@ export default function LaunchIntro({ children }: { children: React.ReactNode })
     return () => timeline.stop();
   }, [playing, reduced, height, v]);
 
+  // From just above 0: a zero scale is a singular transform on some platforms.
+  const fills = useMemo(() => v.tints.map((x) => x.interpolate({ inputRange: [0, 1], outputRange: [0.001, 1] })), [v]);
+
   const hideSplash = () => {
     SplashScreen.hideAsync().catch(() => {});
   };
@@ -156,7 +160,12 @@ export default function LaunchIntro({ children }: { children: React.ReactNode })
                   style={[bar.box, styles.bar, { transformOrigin: 'bottom', transform: [{ scaleY: v.bars[i] }] }]}
                 >
                   {bar.tint !== null && (
-                    <Animated.View style={[styles.barFill, { backgroundColor: bar.tint, opacity: v.tints[i] }]} />
+                    <Animated.View
+                      style={[
+                        styles.barFill,
+                        { backgroundColor: bar.tint, transformOrigin: 'bottom', transform: [{ scaleY: fills[i] }] },
+                      ]}
+                    />
                   )}
                 </Animated.View>
               ))}
