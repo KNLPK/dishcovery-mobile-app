@@ -29,7 +29,7 @@ How the app words things, so every screen says the same thing the same way.
 | payload size | How much data a payload takes on the network. | KB, one decimal: "4.9 KB". 1 KB = 1,000 bytes, as in the paper. |
 | decode time | How long the phone takes to turn a payload back into a recipe. | ms, two decimals: "2.08 ms". |
 | memory (heap allocation) | Memory the app allocates while decoding one payload (Hermes `js_totalAllocatedBytes`). Not peak memory use. Written in full as a chart or section title; "memory" alone in running text and in the line under the format selector. | KB, one decimal: "75.5 KB". |
-| last response | The most recent request on the current screen. On Home and the recipe page it is shown under the format selector: "Last response: 1.1 KB · decoded in 2.08 ms · 75.5 KB memory". When the format had to change, it names the one used: "Last response (JSON): …". With Protobuf selected, list screens add "Lists are sent as JSON. Protobuf is used on recipe pages." Never truncated. On Cook and Search it is the format pill in the header: "JSON · 1.1 KB · 2.08 ms", "JSON · measuring…", or the format alone before a measurement. | |
+| last response | The most recent request on the current screen. On Home and the recipe page it is shown under the format selector: "Last response: 1.1 KB · 2.08 ms · 75.5 KB memory" (memory only when the engine reports it). When the format had to change, it names the one used: "Last response (JSON): …". With Protobuf selected, list screens add "Lists are sent as JSON. Protobuf is used on recipe pages." Never truncated. On Cook and Search it is the format pill in the header: "JSON · 1.1 KB · 2.08 ms", "JSON · measuring…", or the format alone before a measurement. | |
 | session measurements | Every request since the app was opened, grouped by format (from the Σ sheet). | |
 | tier | Low, medium or high: how complex a recipe payload is. | |
 | illustrative photo | One of the 28 bundled food photos shown in place of a recipe photo; it shows the kind of dish, not the dish. | |
@@ -60,10 +60,10 @@ Controls: "Skip" (steps 1 to 3, jumps to step 4), "Back" (steps 2 and 3),
 
 | Step | Title | Text |
 | --- | --- | --- |
-| 1 | Recipes, and a speed test | Find recipes for what's in your kitchen. While you browse, Dishcovery measures how fast this phone reads each recipe's data. |
+| 1 | Recipes, and a speed test | Find recipes for what's in your kitchen. Dishcovery times how fast this phone reads each one. |
 | 2 | Three ways to send a recipe | The same recipe, packed three ways. **JSON** is a readable letter, **MessagePack** the same letter packed tighter, **Protocol Buffers** a form with fixed fields. Caption under the picture: "Average small recipe in the study (low tier)." |
-| 3 | The quick test | It decodes the same recipes in all three formats and measures size, decode time and memory. Under a minute, and it works offline. |
-| 4 | What should we call you? | Optional. Shown on Home and in your profile, and it stays on this phone. Field placeholder: "Your name". |
+| 3 | The quick test | The same recipes in all three formats: size, decode time and memory. Under a minute, offline. |
+| 4 | What should we call you? | Optional. It stays on this phone. Field placeholder: "Your name". |
 
 The analogy has to stay accurate: MessagePack keeps the field names (it is
 the same structure in a binary code), and Protocol Buffers sends field
@@ -124,3 +124,15 @@ a label that says what is happening; the loader alone never explains a wait.
 Units come from `constants/units.ts`: `formatKB()` and `formatMs()`, and
 `KB_DIGITS` / `MS_DIGITS` for charts and tables. Percentages are against JSON,
 one decimal: "+12.3%".
+
+## Less text (round 7)
+
+After the phone review the copy was cut to what a first-time user needs; the
+detail lives behind Σ, "How to read this" and About. Home: shorter banner
+line, no "Browse recipes" link, one "Search all", no "View recipe →", no Tips
+and tricks, a one-line format hint ("Pick how recipes are sent. Tap Σ to see
+what the numbers mean."), and the last-response line drops "decoded in" and
+"memory not reported". Recipe page: the summary shows four lines with "Read
+more". Quick test: a one-line lead and a two-line footnote. Session
+measurements: one line on lists sent as JSON. Onboarding steps 1, 3 and 4:
+shorter bodies.

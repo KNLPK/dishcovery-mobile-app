@@ -49,7 +49,7 @@ const STEPS = [
   {
     image: require('../assets/brand/onboarding-1-recipes.png'),
     title: 'Recipes, and a speed test',
-    body: "Find recipes for what's in your kitchen. While you browse, Dishcovery measures how fast this phone reads each recipe's data.",
+    body: "Find recipes for what's in your kitchen. Dishcovery times how fast this phone reads each one.",
   },
   {
     image: require('../assets/brand/onboarding-2-formats.png'),
@@ -60,12 +60,12 @@ const STEPS = [
   {
     image: require('../assets/brand/onboarding-3-quick-test.png'),
     title: 'The quick test',
-    body: 'It decodes the same recipes in all three formats and measures size, decode time and memory. Under a minute, and it works offline.',
+    body: 'The same recipes in all three formats: size, decode time and memory. Under a minute, offline.',
   },
   {
     image: require('../assets/brand/onboarding-4-start.png'),
     title: 'What should we call you?',
-    body: 'Optional. Shown on Home and in your profile, and it stays on this phone.',
+    body: 'Optional. It stays on this phone.',
   },
 ] as const;
 

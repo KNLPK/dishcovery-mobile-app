@@ -150,8 +150,7 @@ export default function QuickTestScreen() {
         <Text style={styles.badgeText}>{QUICK_TEST_LABEL}</Text>
       </View>
       <Text style={styles.lead}>
-        Decodes {c.payloadsPerTier * 3} recipes in JSON, MessagePack and Protocol Buffers on this phone and
-        shows how they compare. Usually under a minute.
+        Decodes {c.payloadsPerTier * 3} recipes in each format on this phone and compares them. Under a minute.
       </Text>
 
       {serverUrl !== null && (
@@ -296,10 +295,8 @@ export default function QuickTestScreen() {
         ))}
       </View>
       <Text style={styles.note}>
-        {decodes.toLocaleString()} decodes in all. Warm-up decodes are discarded; only the measured ones
-        count. The timing and memory instruments are the same code the paper used, and every payload is
-        in memory before timing starts, so the network never affects the results. Quick test numbers are
-        indicative only and are never mixed with the paper&apos;s data.
+        {decodes.toLocaleString()} decodes, with the paper&apos;s own instruments; the network is never timed.
+        Indicative only, and never mixed with the paper&apos;s data.
       </Text>
       </ScrollView>
     </Screen>

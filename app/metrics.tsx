@@ -133,9 +133,7 @@ export default function MetricsScreen() {
       </Pressable>
 
       <Text style={styles.footnote}>
-        Search is served as JSON or MessagePack only. Protobuf needs a compiled message type and the
-        schema covers recipe documents, so a protobuf search falls back to JSON and is labelled as
-        such rather than counted as protobuf.
+        Lists are sent as JSON when Protobuf is chosen, and labelled as JSON here.
       </Text>
       </ScrollView>
     </Screen>

@@ -6,17 +6,17 @@
  * centred on the brand teal: this layer mounts an identical frame, hides the
  * native splash on its first layout, then plays.
  *
- *   120 ms   the bars rise from their base, 60 ms apart; bars 2 and 3 fill
+ *   200 ms   the bars rise from their base, 100 ms apart; bars 2 and 3 fill
  *            with MessagePack and Protobuf from the base up (a wipe, not a
  *            fade: a half-opaque amber over the pale bar reads as khaki)
- *   420 ms   the mark moves up 36 dp and settles at 0.8×
- *   520 ms   "Dishcovery" fades in and rises 12 dp
- *   960 ms   the lockup fades; the teal layer slides up and off, uncovering
- *            the app, whose content rises 12 dp into place (1200 ms)
+ *   700 ms   the mark moves up 36 dp and settles at 0.8×
+ *   850 ms   "Dishcovery" fades in and rises 12 dp, then the lockup holds
+ *  1650 ms   the lockup fades; the teal layer slides up and off, uncovering
+ *            the app, whose content rises 12 dp into place (2050 ms)
  *
  * With reduce motion on, or while the setting is still unknown, nothing moves:
  * the wordmark fades in under the mark, then the whole layer cross-fades with
- * the app (950 ms). Transform and opacity only, flat Views, native driver,
+ * the app (1300 ms). Transform and opacity only, flat Views, native driver,
  * started through startMotion().
  *
  * Only builds whose native splash is this frame play it (app.config.js sets
@@ -53,9 +53,9 @@ const at = (x: number, y: number, w: number, h: number) => ({
 });
 const BAR = '#abe1e5';
 const BARS = [
-  { box: at(-162, -130, 84, 146), to: 1.15, delay: 120, tint: null },
-  { box: at(-42, -250, 84, 266), to: 1.08, delay: 180, tint: formatColors.msgpack },
-  { box: at(78, -180, 84, 196), to: 1.12, delay: 240, tint: formatColors.protobuf },
+  { box: at(-162, -130, 84, 146), to: 1.15, delay: 200, tint: null },
+  { box: at(-42, -250, 84, 266), to: 1.08, delay: 300, tint: formatColors.msgpack },
+  { box: at(78, -180, 84, 196), to: 1.12, delay: 400, tint: formatColors.protobuf },
 ] as const;
 /** The wordmark's top, below the window's centre: after the lift, and under the unmoved mark. */
 const WORDMARK_TOP = { lifted: 68, still: 110 };
@@ -104,21 +104,21 @@ export default function LaunchIntro({ children }: { children: React.ReactNode })
       Animated.timing(value, { toValue, delay, duration, easing, useNativeDriver: true });
     const timeline = reduced
       ? Animated.parallel([
-          t(v.word, 1, 150, 300),
-          t(v.layer, 0, 700, 250, ease.inOut),
-          t(v.content, 1, 750, 200),
+          t(v.word, 1, 150, 400),
+          t(v.layer, 0, 1000, 300, ease.inOut),
+          t(v.content, 1, 1050, 250),
         ])
       : Animated.parallel([
-          ...BARS.map((bar, i) => t(v.bars[i], bar.to, bar.delay, 300)),
-          ...BARS.map((bar, i) => t(v.tints[i], 1, bar.delay, 300)),
-          t(v.markY, -36, 420, 340),
-          t(v.markScale, 0.8, 420, 340),
-          t(v.word, 1, 520, 300),
-          t(v.wordY, 0, 520, 300),
-          t(v.lockup, 0, 960, 120, ease.in),
-          t(v.layerY, -height, 1000, 200, ease.inOut),
-          t(v.content, 1, 1040, 160),
-          t(v.contentY, 0, 1040, 160),
+          ...BARS.map((bar, i) => t(v.bars[i], bar.to, bar.delay, 500)),
+          ...BARS.map((bar, i) => t(v.tints[i], 1, bar.delay, 500)),
+          t(v.markY, -36, 700, 500),
+          t(v.markScale, 0.8, 700, 500),
+          t(v.word, 1, 850, 450),
+          t(v.wordY, 0, 850, 450),
+          t(v.lockup, 0, 1650, 200, ease.in),
+          t(v.layerY, -height, 1700, 350, ease.inOut),
+          t(v.content, 1, 1780, 270),
+          t(v.contentY, 0, 1780, 270),
         ]);
     const finish = () => {
       v.content.setValue(1);

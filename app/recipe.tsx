@@ -31,6 +31,8 @@ export default function RecipeDetailScreen() {
   const [last, setLast] = useState<LastMeasurement | null>(null);
   const [activeTab, setActiveTab] = useState('ingredients'); // 'ingredients' or 'instructions'
   const [waking, setWaking] = useState(false);
+  // The summary is a long paragraph; four lines until "Read more".
+  const [summaryOpen, setSummaryOpen] = useState(false);
   const server = useServer();
   const tabBarSpace = useTabBarSpace();
   // Profile's "Recipes viewed": one per recipe opened, not per format switch.
@@ -197,10 +199,20 @@ export default function RecipeDetailScreen() {
 
           {/* Description */}
           {recipe.summary ? (
-              <Text style={styles.summaryText}>
-                  {/* The API summary might contain HTML tags, simple regex to remove them */}
-                  {recipe.summary.replace(/<\/?[^>]+(>|$)/g, '')}
+            <>
+              <Text style={styles.summaryText} numberOfLines={summaryOpen ? undefined : 4}>
+                {/* The API summary might contain HTML tags, simple regex to remove them */}
+                {recipe.summary.replace(/<\/?[^>]+(>|$)/g, '')}
               </Text>
+              <TouchableOpacity
+                onPress={() => setSummaryOpen((o) => !o)}
+                hitSlop={8}
+                accessibilityRole="button"
+                style={styles.readMore}
+              >
+                <Text style={styles.readMoreText}>{summaryOpen ? 'Show less' : 'Read more'}</Text>
+              </TouchableOpacity>
+            </>
           ) : null}
 
           {/* Attribution. Spoonacular's terms require a backlink wherever its
@@ -392,10 +404,12 @@ const styles = StyleSheet.create({
     color: '#5f6e7a',
     marginLeft: 4,
   },
+  readMore: { alignSelf: 'flex-start', marginBottom: 12 },
+  readMoreText: { color: palette.primary, fontSize: 14, fontWeight: '600', textDecorationLine: 'underline' },
   summaryText: {
       fontSize: 14,
       color: '#555',
-      marginBottom: 15,
+      marginBottom: 4,
   },
   attribution: {
     fontSize: 12,

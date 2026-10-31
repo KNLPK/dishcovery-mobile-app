@@ -1,5 +1,5 @@
 import { useRouter } from 'expo-router';
-import React, { useCallback, useEffect, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Dimensions, FlatList, ScrollView, StyleSheet, Text, View } from 'react-native';
 import BottomTabBar, { useTabBarSpace } from '../components/BottomTabBar';
 import { PrimaryButton, TextLink } from '../components/Buttons';
@@ -39,8 +39,6 @@ export default function HomePage() {
   const [last, setLast] = useState<LastMeasurement | null>(null);
   const [waking, setWaking] = useState(false);
   const server = useServer();
-  const scrollRef = useRef<ScrollView>(null);
-  const [recipesY, setRecipesY] = useState(0);
   const tabBarSpace = useTabBarSpace();
 
   // Subscribed so a heart tapped here repaints immediately, and so a recipe
@@ -114,7 +112,6 @@ export default function HomePage() {
   return (
     <Screen background={palette.surfaceAlt} tabBar>
       <ScrollView
-        ref={scrollRef}
         style={styles.container}
         contentContainerStyle={{ paddingBottom: tabBarSpace }}
         showsVerticalScrollIndicator={true}
@@ -125,8 +122,7 @@ export default function HomePage() {
         <View style={styles.banner}>
           <Text style={styles.bannerText}>Test it yourself</Text>
           <Text style={styles.bannerSubText}>
-            See how fast this phone decodes recipes as JSON, MessagePack and Protocol Buffers. Usually
-            under a minute, works offline.
+            Compare JSON, MessagePack and Protocol Buffers on this phone. Under a minute, works offline.
           </Text>
           <PrimaryButton
             label="Start quick test"
@@ -141,10 +137,6 @@ export default function HomePage() {
               label="Paper results"
               onPress={() => router.push({ pathname: '/results', params: { tab: 'paper' } })}
             />
-            <TextLink
-              label="Browse recipes"
-              onPress={() => scrollRef.current?.scrollTo({ y: recipesY, animated: true })}
-            />
           </View>
         </View>
 
@@ -153,20 +145,12 @@ export default function HomePage() {
           <MetricsBar last={last} busy={loading} list />
           <Hint
             id="formatBar"
-            text={
-              'This bar picks the format every recipe is sent in: JSON, MessagePack or Protocol Buffers. ' +
-              'The line under it shows the size, decode time and memory of the last response. Tap Σ for more.'
-            }
+            text="Pick how recipes are sent. Tap Σ to see what the numbers mean."
           />
         </View>
 
         {/* Featured */}
-        <Text
-          style={[styles.sectionTitle, { marginBottom: 8 }]}
-          onLayout={(e) => setRecipesY(e.nativeEvent.layout.y)}
-        >
-          Featured
-        </Text>
+        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Featured</Text>
         {server.url === null ? (
           <NoServerState mode={server.mode} />
         ) : loading ? (
@@ -193,10 +177,7 @@ export default function HomePage() {
                   <RecipeImage uri={item.image} id={item.id} title={item.title} style={styles.featuredImage} />
                   <View style={styles.featuredText}>
                     <Text style={styles.featuredTitle} numberOfLines={2}>{item.title}</Text>
-                    <View style={styles.featuredInfoRow}>
-                      <Text style={styles.featuredAuthor}>{selectedCategory}</Text>
-                      <Text style={styles.featuredTime}>View recipe →</Text>
-                    </View>
+                    <Text style={styles.featuredAuthor}>{selectedCategory}</Text>
                   </View>
                 </PressableScale>
               )}
@@ -207,10 +188,7 @@ export default function HomePage() {
         )}
 
         {/* Category */}
-        <View style={[styles.categoryRow, { marginBottom: 12, marginTop: 18 }]}>
-          <Text style={styles.sectionTitle}>Category</Text>
-          <TextLink label="Search all" onPress={() => router.navigate('/Search')} />
-        </View>
+        <Text style={[styles.sectionTitle, { marginBottom: 12, marginTop: 18 }]}>Category</Text>
         <View style={{ marginBottom: 24 }}>
           <ChipRow
             options={CATEGORY_CHIPS}
@@ -252,18 +230,6 @@ export default function HomePage() {
             })}
           </FadeIn>
         )}
-        {/* Tips and tricks */}
-        <Text style={[styles.sectionTitle, { marginBottom: 8 }]}>Tips and tricks</Text>
-        <View style={[styles.tipsContainer, { marginBottom: 24 }]}>
-          <View style={styles.tipCard}>
-            <Text style={styles.tipTitle}>How to keep herbs fresh</Text>
-            <Text style={styles.tipDesc}>Wrap them in a damp paper towel and store in a ziplock bag in the fridge.</Text>
-          </View>
-          <View style={styles.tipCard}>
-            <Text style={styles.tipTitle}>Perfect boiled eggs</Text>
-            <Text style={styles.tipDesc}>Boil for 7 minutes for a creamy yolk, then cool in ice water.</Text>
-          </View>
-        </View>
       </ScrollView>
       {waking && <ConnectingState />}
       <BottomTabBar />
@@ -305,16 +271,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     marginBottom: 4,
   },
-  featuredInfoRow: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
   featuredAuthor: {
-    color: '#20515a',
-    fontSize: 13,
-  },
-  featuredTime: {
     color: '#20515a',
     fontSize: 13,
   },
@@ -398,28 +355,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 8,
     marginTop: 6,
-  },
-  tipsContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginTop: 8,
-    marginBottom: 16,
-  },
-  tipCard: {
-    flex: 1,
-    backgroundColor: '#f3f7f8',
-    borderRadius: 14,
-    padding: 12,
-    marginRight: 8,
-  },
-  tipTitle: {
-    fontWeight: 'bold',
-    color: '#20515a',
-    marginBottom: 4,
-  },
-  tipDesc: {
-    color: '#1a2b3b',
-    fontSize: 13,
   },
 
 }); 

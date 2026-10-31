@@ -116,15 +116,19 @@ transform and opacity only, native driver, through `startMotion()`.
 
 | ms | Layer | Property | Easing |
 | --- | --- | --- | --- |
-| 0–120 | the splash frame | held, so the swap is invisible | |
-| 120–420 | bar 1 (JSON, `#abe1e5`) | scaleY 1 → 1.15, from its base | out |
-| 180–480 | bar 2 | scaleY 1 → 1.08; a `#3c9b9f` copy fills it from the base (scaleY 0 → 1) | out |
-| 240–540 | bar 3 | scaleY 1 → 1.12; a `#c1802b` copy fills it from the base (scaleY 0 → 1) | out |
-| 420–760 | the mark | translateY 0 → −36, scale 1 → 0.8 | out |
-| 520–820 | "Dishcovery" (30/36 bold, white, 68 dp below the centre) | opacity 0 → 1, translateY 12 → 0 | out |
-| 960–1080 | mark and wordmark | opacity 1 → 0 | in |
-| 1000–1200 | the teal layer | translateY 0 → −(screen height) | in-out |
-| 1040–1200 | the app underneath | opacity 0 → 1, translateY 12 → 0 | out |
+| 0–200 | the splash frame | held, so the swap is invisible | |
+| 200–700 | bar 1 (JSON, `#abe1e5`) | scaleY 1 → 1.15, from its base | out |
+| 300–800 | bar 2 | scaleY 1 → 1.08; a `#3c9b9f` copy fills it from the base (scaleY 0 → 1) | out |
+| 400–900 | bar 3 | scaleY 1 → 1.12; a `#c1802b` copy fills it from the base (scaleY 0 → 1) | out |
+| 700–1200 | the mark | translateY 0 → −36, scale 1 → 0.8 | out |
+| 850–1300 | "Dishcovery" (30/36 bold, white, 68 dp below the centre) | opacity 0 → 1, translateY 12 → 0 | out |
+| 1300–1650 | the lockup | held | |
+| 1650–1850 | mark and wordmark | opacity 1 → 0 | in |
+| 1700–2050 | the teal layer | translateY 0 → −(screen height) | in-out |
+| 1780–2050 | the app underneath | opacity 0 → 1, translateY 12 → 0 | out |
+
+About 2 s in all: the handoff's 1200 ms read as too fast on a phone, so every
+step was stretched and the finished lockup holds for 350 ms before it goes.
 
 The colours wipe in rather than fade: a half-opaque amber over the pale bar
 reads as khaki (`#b6ae88` at 50 %), so each pixel is either the old colour or
@@ -132,8 +136,8 @@ the new one.
 
 **Reduced motion,** and while the setting is still unknown after 120 ms:
 nothing moves. Bars keep the icon's heights and colour; the wordmark fades
-in under the unmoved mark (150–450 ms, 110 dp below the centre); the intro
-layer fades out (700–950, in-out) as the app fades in (750–950).
+in under the unmoved mark (150–550 ms, 110 dp below the centre); the intro
+layer fades out (1000–1300, in-out) as the app fades in (1050–1300).
 
 ## Motion spec
 

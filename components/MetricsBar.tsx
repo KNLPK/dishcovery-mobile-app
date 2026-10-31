@@ -67,10 +67,11 @@ export const LIST_PROTOBUF_NOTE = 'Lists are sent as JSON. Protobuf is used on r
 function describe(last: LastMeasurement | null, busy: boolean): string {
   if (busy) return 'Last response: measuring…';
   if (last === null) return 'Last response: none yet';
-  const memory = last.heapDeltaBytes === null ? 'memory not reported' : `${formatKB(last.heapDeltaBytes)} memory`;
+  // Memory only when the engine reports it; a "not reported" note was noise on every line.
+  const memory = last.heapDeltaBytes === null ? '' : ` · ${formatKB(last.heapDeltaBytes)} memory`;
   // After a fallback the numbers are for the format actually used, so say which.
   const label = last.formatFallbackFrom ? `Last response (${LABELS[last.format]})` : 'Last response';
-  return `${label}: ${formatKB(last.payloadBytes)} · decoded in ${formatMs(last.deserializationMs)} · ${memory}`;
+  return `${label}: ${formatKB(last.payloadBytes)} · ${formatMs(last.deserializationMs)}${memory}`;
 }
 
 export default function MetricsBar({
