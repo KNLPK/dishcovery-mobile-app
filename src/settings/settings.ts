@@ -59,6 +59,8 @@ export interface Settings {
   serverMode: ServerMode | null;
   /** True once the first-launch welcome has been seen or skipped. */
   welcomeSeen: boolean;
+  /** True once the full launch intro has played: later launches play the short one. */
+  introSeen: boolean;
   /**
    * Manual proxy base URL, e.g. "http://192.168.1.20:3001".
    * null means "derive it from the Metro host" — the normal case.
@@ -90,6 +92,7 @@ export const DEFAULT_SETTINGS: Settings = {
   format: 'json',
   serverMode: null,
   welcomeSeen: false,
+  introSeen: false,
   baseUrlOverride: null,
   favourites: [],
   displayName: '',
@@ -182,6 +185,7 @@ function sanitise(parsed: unknown): Settings {
       ? (record.serverMode as ServerMode)
       : null,
     welcomeSeen: record.welcomeSeen === true,
+    introSeen: record.introSeen === true,
     baseUrlOverride: override,
     favourites: sanitiseFavourites(record.favourites),
     displayName:
@@ -257,6 +261,10 @@ export function setServerMode(serverMode: ServerMode): void {
 
 export function markWelcomeSeen(): void {
   updateSettings({ welcomeSeen: true });
+}
+
+export function markIntroSeen(): void {
+  if (!current.introSeen) updateSettings({ introSeen: true });
 }
 
 export function setDisplayName(name: string): void {

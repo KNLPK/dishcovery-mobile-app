@@ -10,6 +10,7 @@ import { FadeIn, HeartButton, PressableScale, tapHaptic } from '../components/mo
 import RecipeImage from '../components/RecipeImage';
 import { Screen, TabHeader } from '../components/Screen';
 import { ConnectingState, EmptyState, ErrorState, NoServerState, WaitState } from '../components/StateViews';
+import { useIntroDone } from '../components/useIntroDone';
 import { CATEGORIES, categoryType } from '../constants/categories';
 import { palette } from '../constants/theme';
 import { searchRecipes, type SearchResultItem } from '../src/api/client';
@@ -98,9 +99,11 @@ export default function HomePage() {
     }
   }, [selectedCategory, server.url]);
 
+  // Not while the launch intro plays: the fetch, decode and images would compete with it.
+  const introDone = useIntroDone();
   useEffect(() => {
-    load();
-  }, [load]);
+    if (introDone) load();
+  }, [load, introDone]);
 
   const openRecipe = (id: number | string) => {
     router.push({ pathname: '/recipe', params: { id: String(id) } });

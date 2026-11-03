@@ -137,7 +137,7 @@ export default function ServerSettingsScreen() {
         })}
       </View>
       {settings.serverMode === null && (
-        <Text style={styles.note}>Not chosen yet; this build defaults to {mode === 'laptop' ? 'Laptop' : 'Online'}.</Text>
+        <Text style={styles.note}>Using the default for this build ({mode === 'laptop' ? 'Laptop' : 'Online'}).</Text>
       )}
 
       {mode === 'laptop' && (

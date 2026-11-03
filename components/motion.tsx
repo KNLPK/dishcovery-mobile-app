@@ -39,6 +39,7 @@ import {
 } from 'react-native';
 
 import { palette, radius, spacing } from '../constants/theme';
+import { afterIntro } from '../src/ui/introGate';
 import { startMotion, subscribeMeasuring } from '../src/ui/motionGate';
 import { useReduceMotion } from './useReduceMotion';
 
@@ -96,7 +97,8 @@ export function SkeletonBlock({ style }: { style?: StyleProp<ViewStyle> }) {
       ])
     );
     const resume = () => startMotion(() => loop.start());
-    resume();
+    // Under the launch intro nobody sees it pulse: it starts once the intro is over.
+    const cancelIntro = afterIntro(resume);
     const unsubscribe = subscribeMeasuring((measuring) => {
       if (measuring) {
         loop.stop();
@@ -107,6 +109,7 @@ export function SkeletonBlock({ style }: { style?: StyleProp<ViewStyle> }) {
       }
     });
     return () => {
+      cancelIntro();
       unsubscribe();
       loop.stop();
     };

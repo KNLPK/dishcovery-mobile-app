@@ -109,35 +109,61 @@ to replace; change the constants at the top of the component instead.
 
 `components/LaunchIntro.tsx`, from the Claude Design handoff ("Launch
 intro"). It continues from the native splash: the JS layer mounts the same
-frame (the mark at 200 dp, centred on `#20515a`), hides the native splash on
-its first layout, then plays. Only the demo build plays it (`app.config.js`
-sets `extra.brandIntro`), because only its splash is this frame. Flat Views,
-transform and opacity only, native driver, through `startMotion()`.
+frame (the mark at 200 dp, centred on `#20515a`), and plays only once that
+frame has laid out, the native splash has been told to hide and one more
+frame has been drawn. Android fades the native splash out over 400 ms by
+default; `SplashScreen.setOptions({ duration: 200 })` ends that fade inside
+the opening hold, before anything moves. Only the demo build plays it
+(`app.config.js` sets `extra.brandIntro`), because only its splash is this
+frame.
 
-| ms | Layer | Property | Easing |
+**First launch,** about 2.2 s:
+
+| ms | Layer | Property | Curve |
 | --- | --- | --- | --- |
-| 0–200 | the splash frame | held, so the swap is invisible | |
-| 200–700 | bar 1 (JSON, `#abe1e5`) | scaleY 1 → 1.15, from its base | out |
-| 300–800 | bar 2 | scaleY 1 → 1.08; a `#3c9b9f` copy fills it from the base (scaleY 0 → 1) | out |
-| 400–900 | bar 3 | scaleY 1 → 1.12; a `#c1802b` copy fills it from the base (scaleY 0 → 1) | out |
-| 700–1200 | the mark | translateY 0 → −36, scale 1 → 0.8 | out |
-| 850–1300 | "Dishcovery" (30/36 bold, white, 68 dp below the centre) | opacity 0 → 1, translateY 12 → 0 | out |
-| 1300–1650 | the lockup | held | |
-| 1650–1850 | mark and wordmark | opacity 1 → 0 | in |
-| 1700–2050 | the teal layer | translateY 0 → −(screen height) | in-out |
-| 1780–2050 | the app underneath | opacity 0 → 1, translateY 12 → 0 | out |
+| 0–300 | the splash frame | held, so the swap is invisible | |
+| 300–800 | bar 1 (JSON, `#abe1e5`) | scaleY 1 → 1.15, from its base | spring |
+| 420–920 | bar 2 | scaleY 1 → 1.08; a `#3c9b9f` copy fills it from the base (scaleY 0 → 1) | spring; fill out |
+| 540–1040 | bar 3 | scaleY 1 → 1.12; a `#c1802b` copy fills it from the base (scaleY 0 → 1) | spring; fill out |
+| 950–1400 | the mark | translateY 0 → −36, scale 1 → 0.8 | out |
+| 950–1400 | "Dishcovery" (30/36 bold, white, 68 dp below the centre) | opacity 0 → 1, translateY 12 → 0 | out |
+| 1400–1750 | the lockup | held | |
+| 1750–1950 | mark and wordmark | opacity 1 → 0 | in |
+| 1750–2250 | the teal layer | translateY 0 → −(screen height) | in-out |
+| 1830–2250 | the app underneath | opacity 0 → 1, translateY 12 → 0 | out |
 
-About 2 s in all: the handoff's 1200 ms read as too fast on a phone, so every
-step was stretched and the finished lockup holds for 350 ms before it goes.
+The spring is a damped spring (damping ratio 0.55, natural frequency
+14.5 rad/s): a gentle overshoot that has settled by the end of the 500 ms.
+
+**Later launches,** about 1 s, the same steps: hold 0–100; bars from 100,
+160 and 220 ms, 340 ms each (21 rad/s); lift and wordmark 340–640; lockup out
+700–850; layer 700–1000; app 750–1000. The settings file's `introSeen`
+records that the full version has played.
+
+**A tap** anywhere skips to the exit and plays it twice as fast.
+
+**Reduced motion,** and while the setting is still unknown after 120 ms:
+nothing moves. Bars keep the icon's heights and colour; the wordmark fades
+in under the unmoved mark (110 dp below the centre), then the intro layer
+fades out as the app fades in. First launch: wordmark 150–550, layer
+1000–1300, app 1050–1300. Later: wordmark 50–300, layer 450–700, app
+480–700.
 
 The colours wipe in rather than fade: a half-opaque amber over the pale bar
 reads as khaki (`#b6ae88` at 50 %), so each pixel is either the old colour or
 the new one.
 
-**Reduced motion,** and while the setting is still unknown after 120 ms:
-nothing moves. Bars keep the icon's heights and colour; the wordmark fades
-in under the unmoved mark (150–550 ms, 110 dp below the centre); the intro
-layer fades out (1000–1300, in-out) as the app fades in (1050–1300).
+**Smoothness.** One `Animated.Value`, the clock, drives every layer through
+interpolations: transform and opacity only, flat Views, native driver,
+started once through `startMotion()`, and no setState until it has finished.
+The clock is an `Animated.decay`, because Android's native timing driver
+steps through values precomputed at 60 fps (`FrameBasedAnimationDriver`),
+which judders on a 90 or 120 Hz screen, while the decay is computed from the
+real frame time on every frame. Native interpolation takes no easing, so each
+curve (the beziers below, and the spring) is sampled into the interpolation's
+ranges, and delays are positions on the clock, never JS timers. Until the
+intro has finished, `src/ui/introGate.ts` holds back startup work that
+routing does not need: Home's first recipe fetch and the skeleton pulse.
 
 ## Motion spec
 
